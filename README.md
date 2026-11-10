@@ -28,7 +28,6 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Indian IPO Market Research](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) | 2,020 IPOs (2007–Sep 2026); subscription vs listing gains, fintech brokers | Excel, PDF |
 | [HDFC Flexi Cap Fund Analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) | CAGR, SIP XIRR, Sharpe/Sortino/beta vs 37 peers; 15.5% 5-yr CAGR | Excel, PDF |
 | [Correlation Matrix & Diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) | 6 assets, 60 months; low-correlation mix cuts volatility from 24.7% to 12.3% | Excel, PDF |
-| [Investment Portfolio Tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) | Stocks, ETFs, gold, bitcoin ETF; gain/loss, weights, allocation | Excel |
 
 ## 📊 Dashboards
 | Project | Highlights | Tools |
@@ -36,7 +35,6 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Bajaj Sales & Profit Dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) | 9 KPIs, 14 charts; discounts above 20% lost $135K; live dashboard link | Excel, Claude AI |
 | [European Sales Dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) | 10,000 lines, 15 countries; discounts over 40% run at –59.6% margin | Excel |
 | [Financial Performance Dashboard](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) | 27,909-line GL, 7 countries; revenue +119%, margin 22.9% → 16.5% | Tableau |
-| [Training Deployment Tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) | 5,000 L&D offerings, 8 regions; 79% fill rate, 13.6% no-shows | Excel |
 
 ## 📋 MIS Reporting
 | Project | Highlights | Tools |
@@ -48,6 +46,8 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 |---|---|---|
 | [Client Retention & Churn Dashboard](https://github.com/adityakushwahagzpa-design/client-churn-dashboard) | 14,606 energy clients; churn 9.7%, early-tenure clients churn at 13.6% | Excel |
 | [Security Cost & ROI Analysis](https://github.com/adityakushwahagzpa-design/security-cost-roi-analysis) | Guard vs AI monitoring: 54% cheaper, 5-year NPV $351K | Excel |
+| [Training Deployment Tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) | 5,000 L&D offerings, 8 regions; 79% fill rate, 13.6% no-shows | Excel |
+| [Investment Portfolio Tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) | Stocks, ETFs, gold, bitcoin ETF; gain/loss, weights, allocation | Excel |
 
 ## 🧾 Accounting & Finance Operations
 | Project | Highlights | Tools |
