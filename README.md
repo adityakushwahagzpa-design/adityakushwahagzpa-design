@@ -15,6 +15,7 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Amazon – Segment DCF](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) | DCFs for North America, International and AWS; WACC build | Excel |
 | [Burger King – LBO with DCF](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) | 2010 buyout: 5.9x debt/EBITDA, sources & uses, returns, charts | Excel, PDF |
 | [Comparable Company Analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) | Apple vs 8 tech peers; implied $103–132 vs $154 price; football field | Excel, PDF |
+| [Precedent Transaction Analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) | 7 deals; implied offer $104–139 vs $100 unaffected; football field | Excel, PDF |
 | [Infosys – Financial Statements & Ratios](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) | FY2026 statements from formulas; ROE 31.2%, FCF ₹31,259 cr | Excel |
 
 ## 🏦 Credit Analysis
