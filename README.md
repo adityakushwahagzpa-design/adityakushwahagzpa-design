@@ -17,6 +17,7 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Comparable Company Analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) | Apple vs 8 tech peers; implied $103–132 vs $154 price; football field | Excel, PDF |
 | [Precedent Transaction Analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) | 7 deals; implied offer $104–139 vs $100 unaffected; football field | Excel, PDF |
 | [Infosys – Financial Statements & Ratios](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) | FY2026 statements from formulas; ROE 31.2%, FCF ₹31,259 cr | Excel |
+| [ITC Ltd – 10-Year Financial Statement Analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) | FY17–FY26 P&L, balance sheet, cash flow; 34–39% margins, 76% dividend payout | Excel, PDF |
 
 ## 🏦 Credit Analysis
 | Project | Highlights | Tools |
