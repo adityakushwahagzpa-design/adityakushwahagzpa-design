@@ -59,11 +59,6 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Bank Reconciliation Statement](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) | Cash book vs bank statement; balances agree at 36,200 | Excel |
 | [AR & AP Ledger](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) | Status tracking; $8,900 overdue receivable flagged | Excel |
 
-## 🧮 SAP FICO
-| Project | Highlights | Tools |
-|---|---|---|
-| [SAP FICO Practice – GL, AP/AR & Cost Centres](sap-fico-practice) | 19 FI/CO documents with posting keys; subledgers tie to GL; cost centres 3.6% over plan | Excel |
-
 ## 🤖 SQL & AI in Finance
 | Project | Highlights | Tools |
 |---|---|---|
@@ -89,6 +84,11 @@ Excel (financial modelling, XIRR, SUMIFS, INDEX/MATCH, dashboards) · Tableau ·
 | Oracle Cloud Infrastructure 2025 Certified Data Science Professional | Oracle | Sep 2025 | Sep 2027 |
 | Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Oracle | Sep 2025 | Sep 2027 |
 | [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) | Great Learning | Nov 2026 | No expiry |
+
+**SAP FICO for Finance Professionals** – Great Learning, Nov 2026 · [Verify](https://www.mygreatlearning.com/certificate/RTCBKOTD) · [PDF](certificates/SAP_FICO_Great_Learning.pdf)<br>
+Introductory course covering SAP ERP and S/4HANA, Financial Accounting (General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting) and Controlling (cost centres, profit centres, internal orders), with core processes such as procure-to-pay, order-to-cash, period-end closing and Fiori reporting.
+
+<img src="certificates/SAP_FICO_Great_Learning.png" alt="SAP FICO for Finance Professionals certificate – Great Learning" width="480">
 
 Also: Investment Risk Management. Credentials can be checked on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
 
