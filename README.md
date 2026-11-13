@@ -73,7 +73,7 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 ---
 
 ### 🛠 Skills
-Excel (financial modelling, XIRR, SUMIFS, INDEX/MATCH, dashboards) · Tableau · SQL · Python (Pandas) · Power BI · DCF & LBO valuation · Credit analysis · FP&A · AR/AP · Bank reconciliation
+Excel (financial modelling, XIRR, SUMIFS, INDEX/MATCH, dashboards) · Tableau · SQL · Python (Pandas) · Power BI · SAP FICO (FI & CO basics) · DCF & LBO valuation · Credit analysis · FP&A · AR/AP · Bank reconciliation
 
 ### 🎓 Certifications
 [![Oracle Certified](https://img.shields.io/badge/Oracle%20Certified-3%20OCI%202025%20credentials-C74634?logo=oracle&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/)
@@ -83,6 +83,7 @@ Excel (financial modelling, XIRR, SUMIFS, INDEX/MATCH, dashboards) · Tableau ·
 | Oracle Cloud Infrastructure 2025 Certified Generative AI Professional | Oracle | Sep 2025 | Sep 2027 |
 | Oracle Cloud Infrastructure 2025 Certified Data Science Professional | Oracle | Sep 2025 | Sep 2027 |
 | Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Oracle | Sep 2025 | Sep 2027 |
+| [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) | Great Learning | Nov 2026 | No expiry |
 
 Also: Investment Risk Management. Credentials can be checked on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
 
