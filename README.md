@@ -59,6 +59,11 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Bank Reconciliation Statement](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) | Cash book vs bank statement; balances agree at 36,200 | Excel |
 | [AR & AP Ledger](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) | Status tracking; $8,900 overdue receivable flagged | Excel |
 
+## 🧮 SAP FICO
+| Project | Highlights | Tools |
+|---|---|---|
+| [SAP FICO Practice – GL, AP/AR & Cost Centres](sap-fico-practice) | 19 FI/CO documents with posting keys; subledgers tie to GL; cost centres 3.6% over plan | Excel |
+
 ## 🤖 SQL & AI in Finance
 | Project | Highlights | Tools |
 |---|---|---|
