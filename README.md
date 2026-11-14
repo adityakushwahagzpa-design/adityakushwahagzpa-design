@@ -3,7 +3,7 @@
 **MBA (Finance), Christ University, Bengaluru** · B.Com, University of Lucknow<br>
 Financial analysis · MIS reporting · Data analytics · GenAI tools (Claude, ChatGPT) · Oracle Certified Generative AI Professional
 
-Every project below is published as its own repository, with the working files, a PDF report where there is one, and a short README on what I did and what I found.
+Every project below has its own repository, with the working files, a PDF report where there is one, and a short README on what I did and what I found.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--kushwaha16-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16)
 
@@ -13,7 +13,7 @@ Every project below is published as its own repository, with the working files, 
 | Project | Highlights | Tools |
 |---|---|---|
 | [Bajaj Sales & Profit Dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) | Built end to end with Claude AI: 9 KPIs, 14 charts, live web version; discounts above 20% lost $135K | Claude AI, Excel |
-| [AI-Powered FP&A Agent](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) | Claude Project for budget vs actual on 24 months; caught all 3 planted anomalies | Claude, Excel |
+| [AI-Powered FP&A Agent](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) | Claude Project for budget vs actual on 24 months; caught all 3 test anomalies | Claude, Excel |
 
 ## 📈 Equity Research & Valuation
 | Project | Highlights | Tools |
