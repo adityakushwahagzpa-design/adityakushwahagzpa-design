@@ -84,11 +84,17 @@ Excel (financial modelling, XIRR, SUMIFS, INDEX/MATCH, dashboards) · Tableau ·
 | Oracle Cloud Infrastructure 2025 Certified Data Science Professional | Oracle | Sep 2025 | Sep 2027 |
 | Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Oracle | Sep 2025 | Sep 2027 |
 | [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) | Great Learning | Nov 2026 | No expiry |
+| [Power BI Masterclass from Scratch in 180 Minutes – 2025](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) | Udemy | Apr 2025 | No expiry |
 
 **SAP FICO for Finance Professionals** – Great Learning, Nov 2026 · [Verify](https://www.mygreatlearning.com/certificate/RTCBKOTD) · [PDF](certificates/SAP_FICO_Great_Learning.pdf)<br>
 Introductory course covering SAP ERP and S/4HANA, Financial Accounting (General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting) and Controlling (cost centres, profit centres, internal orders), with core processes such as procure-to-pay, order-to-cash, period-end closing and Fiori reporting.
 
 <img src="certificates/SAP_FICO_Great_Learning.png" alt="SAP FICO for Finance Professionals certificate – Great Learning" width="480">
+
+**Power BI Masterclass from Scratch in 180 Minutes – 2025** – Udemy (instructor: A Siva Theja), Apr 2025 · [Verify](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) · [PDF](certificates/Power_BI_Masterclass_Udemy.pdf)<br>
+A 3-hour introductory course on Power BI, taught from scratch. Certificate no. UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21.
+
+<img src="certificates/Power_BI_Masterclass_Udemy.png" alt="Power BI Masterclass certificate – Udemy" width="480">
 
 Also: Investment Risk Management. Credentials can be checked on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
 
