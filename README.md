@@ -1,11 +1,19 @@
 # Hi, I'm Aditya Kushwaha 👋
 
 **MBA (Finance), Christ University, Bengaluru** · B.Com, University of Lucknow<br>
-Financial analysis · Equity research · Financial modelling · MIS reporting · Data analytics
+Financial analysis · MIS reporting · Data analytics · GenAI tools (Claude, ChatGPT) · Oracle Certified Generative AI Professional
+
+Every project below is published as its own repository, with the working files, a PDF report where there is one, and a short README on what I did and what I found.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--kushwaha16-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16)
 
 ---
+
+## 🤖 GenAI Projects
+| Project | Highlights | Tools |
+|---|---|---|
+| [Bajaj Sales & Profit Dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) | Built end to end with Claude AI: 9 KPIs, 14 charts, live web version; discounts above 20% lost $135K | Claude AI, Excel |
+| [AI-Powered FP&A Agent](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) | Claude Project for budget vs actual on 24 months; caught all 3 planted anomalies | Claude, Excel |
 
 ## 📈 Equity Research & Valuation
 | Project | Highlights | Tools |
@@ -34,7 +42,6 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 ## 📊 Dashboards
 | Project | Highlights | Tools |
 |---|---|---|
-| [Bajaj Sales & Profit Dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) | 9 KPIs, 14 charts; discounts above 20% lost $135K; live dashboard link | Excel, Claude AI |
 | [European Sales Dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) | 10,000 lines, 15 countries; discounts over 40% run at –59.6% margin | Excel |
 | [Financial Performance Dashboard](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) | 27,909-line GL, 7 countries; revenue +119%, margin 22.9% → 16.5% | Tableau |
 
@@ -59,10 +66,9 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 | [Bank Reconciliation Statement](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) | Cash book vs bank statement; balances agree at 36,200 | Excel |
 | [AR & AP Ledger](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) | Status tracking; $8,900 overdue receivable flagged | Excel |
 
-## 🤖 SQL & AI in Finance
+## 🗄️ SQL
 | Project | Highlights | Tools |
 |---|---|---|
-| [AI-Powered FP&A Agent](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) | Budget vs actual on 24 months; caught all 3 planted anomalies | Claude, Excel |
 | [Zepto Product Inventory Analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) | 3,732 products; 12.1% out of stock, discounts by category | SQL, PDF |
 
 ## 🐍 Python
@@ -73,7 +79,10 @@ Financial analysis · Equity research · Financial modelling · MIS reporting ·
 ---
 
 ### 🛠 Skills
-Excel (financial modelling, XIRR, SUMIFS, INDEX/MATCH, dashboards) · Tableau · SQL · Python (Pandas) · Power BI · SAP FICO · DCF & LBO valuation · Credit analysis · FP&A · AR/AP · Bank reconciliation
+**Tools:** MS Office (Word, Excel, PowerPoint) · Google Workspace · Power BI · Tableau · SQL · Python (Pandas, NumPy) · SAP FICO · GitHub<br>
+**GenAI:** Claude (Projects, dashboard building) · ChatGPT · prompt writing<br>
+**Finance:** Financial modelling (XIRR, SUMIFS, INDEX/MATCH, dashboards) · DCF & LBO valuation · Credit analysis · FP&A · AR/AP · Bank reconciliation<br>
+**Ways of working:** Attention to detail · Following set processes and checklists · Clear written documentation
 
 ### 🎓 Certifications
 [![Oracle Certified](https://img.shields.io/badge/Oracle%20Certified-3%20OCI%202025%20credentials-C74634?logo=oracle&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/)
