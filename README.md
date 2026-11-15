@@ -19,7 +19,7 @@ Every project below has its own repository, with the working files, a PDF report
 | Project | Highlights | Tools |
 |---|---|---|
 | [Tata Motors PV – Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) | FY22–FY26 financials, valuation ratios, EV bridge; EBITDA margin 13.3% → 5.6% | Excel, PDF |
-| [Eternal Ltd (Zomato) – Financial Model & DCF](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) | 12-sheet model FY23A–FY30F, segment revenue build-up, WACC 13.6%; value ₹124 vs ₹337 share price | Excel, PDF |
+| [Eternal Ltd (Zomato) – Financial Model & DCF](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) | 12-sheet model FY23A–FY30F, segment revenue build-up, WACC 13.6%; value ₹124 vs ₹337 share price | Excel, PDF · [Files](projects/eternal-financial-model-dcf) |
 | [Starbucks – 3-Statement Model & DCF](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) | Linked statements to FY2031, WACC 8.5%; value $62 vs $94 share price | Excel, PDF |
 | [Amazon – Segment DCF](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) | DCFs for North America, International and AWS; WACC build | Excel |
 | [Burger King – LBO with DCF](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) | 2010 buyout: 5.9x debt/EBITDA, sources & uses, returns, charts | Excel, PDF |
