@@ -45,6 +45,7 @@ Every project below has its own repository, with the working files, a PDF report
 |---|---|---|
 | [European Sales Dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) | 10,000 lines, 15 countries; discounts over 40% run at –59.6% margin | Excel |
 | [Financial Performance Dashboard](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) | 27,909-line GL, 7 countries; revenue +119%, margin 22.9% → 16.5% | Tableau |
+| [PhonePe Transaction Insights Dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) | 640,000 transactions, 14 states; value +28.1%, loan book +67.0%, 6.6% overdue | Power BI, Excel, PDF |
 
 ## 📋 MIS Reporting
 | Project | Highlights | Tools |
