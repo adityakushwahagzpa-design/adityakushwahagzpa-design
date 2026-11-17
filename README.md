@@ -1,92 +1,95 @@
-# Hi, I'm Aditya Kushwaha 👋
+# Hi, I'm Aditya Kushwaha
 
-**MBA (Finance), Christ University, Bengaluru** · B.Com, University of Lucknow<br>
-Financial analysis · MIS reporting · Data analytics · GenAI tools (Claude, ChatGPT) · Oracle Certified Generative AI Professional
+I finished my MBA in Finance at Christ University, Bengaluru, in 2025, after a B.Com from the University of Lucknow. Most of what I enjoy sits where finance meets data: taking a messy set of numbers, building something in Excel, Power BI or SQL, and finding the one or two things in it that actually matter.
 
-Every project below has its own repository, with the working files, a PDF report where there is one, and a short README on what I did and what I found.
+This page is my portfolio. Every project below has its own repository with the working files, a PDF report where I wrote one, and a short README on what I did and what I found. I'm currently looking for roles in finance operations, MIS reporting, credit and data analysis, and I can join immediately.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--kushwaha16-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16)
 
 ---
 
-## 🤖 GenAI Projects
-| Project | Highlights | Tools |
-|---|---|---|
-| [Bajaj Sales & Profit Dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) | Built end to end with Claude AI: 9 KPIs, 14 charts, live web version; discounts above 20% lost $135K | Claude AI, Excel |
-| [AI-Powered FP&A Agent](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) | Claude Project for budget vs actual on 24 months; caught all 3 test anomalies | Claude, Excel |
+## Equity research and valuation
 
-## 📈 Equity Research & Valuation
-| Project | Highlights | Tools |
-|---|---|---|
-| [Tata Motors PV – Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) | FY22–FY26 financials, valuation ratios, EV bridge; EBITDA margin 13.3% → 5.6% | Excel, PDF |
-| [Eternal Ltd (Zomato) – Financial Model & DCF](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) | 12-sheet model FY23A–FY30F, segment revenue build-up, WACC 13.6%; value ₹124 vs ₹337 share price | Excel, PDF · [Files](projects/eternal-financial-model-dcf) |
-| [Starbucks – 3-Statement Model & DCF](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) | Linked statements to FY2031, WACC 8.5%; value $62 vs $94 share price | Excel, PDF |
-| [Amazon – Segment DCF](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) | DCFs for North America, International and AWS; WACC build | Excel |
-| [Burger King – LBO with DCF](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) | 2010 buyout: 5.9x debt/EBITDA, sources & uses, returns, charts | Excel, PDF |
-| [Comparable Company Analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) | Apple vs 8 tech peers; implied $103–132 vs $154 price; football field | Excel, PDF |
-| [Precedent Transaction Analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) | 7 deals; implied offer $104–139 vs $100 unaffected; football field | Excel, PDF |
-| [Infosys – Financial Statements & Ratios](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) | FY2026 statements from formulas; ROE 31.2%, FCF ₹31,259 cr | Excel |
-| [ITC Ltd – 10-Year Financial Statement Analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) | FY17–FY26 P&L, balance sheet, cash flow; 34–39% margins, 76% dividend payout | Excel, PDF |
+This is where I've spent the most time. I like building a model from the financial statements up and seeing whether the share price makes sense.
 
-## 🏦 Credit Analysis
-| Project | Highlights | Tools |
+| Project | What I found | Tools |
 |---|---|---|
-| [Standard Chartered Credit Analyst Project – Credit Appraisal](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) | ₹20 cr term loan: ratios, DSCR 2.39x, 5 Cs scorecard → Approve, CR-2 | Excel |
+| [Tata Motors PV – Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) | EBITDA margin fell from 13.3% to 5.6% over FY22–FY26; valuation ratios and EV bridge in a one-page report | Excel, PDF |
+| [Eternal Ltd (Zomato) – Financial Model & DCF](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) | A 12-sheet model to FY30 with segment revenue built up line by line; at a 13.6% WACC I get ₹124 a share against a ₹337 price | Excel, PDF · [Files](projects/eternal-financial-model-dcf) |
+| [Starbucks – 3-Statement Model & DCF](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) | Linked statements to FY2031; I value it at $62 against a $94 share price | Excel, PDF |
+| [Amazon – Segment DCF](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) | Separate DCFs for North America, International and AWS, with my own WACC build | Excel |
+| [Burger King – LBO with DCF](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) | The 2010 buyout rebuilt: 5.9x debt to EBITDA, sources and uses, and investor returns | Excel, PDF |
+| [Comparable Company Analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) | Apple against 8 tech peers points to $103–132 a share, below the $154 price | Excel, PDF |
+| [Precedent Transaction Analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) | 7 past deals suggest an offer of $104–139 against a $100 unaffected price | Excel, PDF |
+| [Infosys – Financial Statements & Ratios](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) | FY2026 statements built from formulas; ROE of 31.2% and free cash flow of ₹31,259 crore | Excel |
+| [ITC Ltd – 10-Year Financial Statement Analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) | Ten years of statements show margins steady at 34–39% and 76% of profit paid out as dividends | Excel, PDF |
 
-## 💼 Investment & Market Research
-| Project | Highlights | Tools |
-|---|---|---|
-| [Indian IPO Market Research](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) | 2,020 IPOs (2007–Sep 2026); subscription vs listing gains, fintech brokers | Excel, PDF |
-| [HDFC Flexi Cap Fund Analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) | CAGR, SIP XIRR, Sharpe/Sortino/beta vs 37 peers; 15.5% 5-yr CAGR | Excel, PDF |
-| [Correlation Matrix & Diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) | 6 assets, 60 months; low-correlation mix cuts volatility from 24.7% to 12.3% | Excel, PDF |
+## Credit analysis
 
-## 📊 Dashboards
-| Project | Highlights | Tools |
+| Project | What I found | Tools |
 |---|---|---|
-| [European Sales Dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) | 10,000 lines, 15 countries; discounts over 40% run at –59.6% margin | Excel |
-| [Financial Performance Dashboard](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) | 27,909-line GL, 7 countries; revenue +119%, margin 22.9% → 16.5% | Tableau |
-| [PhonePe Transaction Insights Dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) | 640,000 transactions, 14 states; value +28.1%, loan book +67.0%, 6.6% overdue | Power BI, Excel, PDF |
+| [Standard Chartered Credit Analyst Project – Credit Appraisal](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) | A ₹20 crore term loan request: with DSCR at 2.39x and a 5 Cs scorecard, I recommend approval at risk grade CR-2 | Excel |
 
-## 📋 MIS Reporting
-| Project | Highlights | Tools |
-|---|---|---|
-| [Customer Sales MIS Report](https://github.com/adityakushwahagzpa-design/customer-sales-mis-report) | Data cleaning + dashboard; 12 orders drive 61.5% of sales | Excel, PDF |
+## Investment and market research
 
-## 📍 Trackers
-| Project | Highlights | Tools |
+| Project | What I found | Tools |
 |---|---|---|
-| [Client Retention & Churn Dashboard](https://github.com/adityakushwahagzpa-design/client-churn-dashboard) | 14,606 energy clients; churn 9.7%, early-tenure clients churn at 13.6% | Excel |
-| [Security Cost & ROI Analysis](https://github.com/adityakushwahagzpa-design/security-cost-roi-analysis) | Guard vs AI monitoring: 54% cheaper, 5-year NPV $351K | Excel |
-| [Training Deployment Tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) | 5,000 L&D offerings, 8 regions; 79% fill rate, 13.6% no-shows | Excel |
-| [Investment Portfolio Tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) | Stocks, ETFs, gold, bitcoin ETF; gain/loss, weights, allocation | Excel |
+| [Indian IPO Market Research](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) | My master's thesis: 2,020 IPOs from 2007 to Sep 2026, and how subscription levels relate to listing-day gains | Excel, PDF |
+| [HDFC Flexi Cap Fund Analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) | A 15.5% five-year CAGR, compared with 37 peers on Sharpe, Sortino and beta | Excel, PDF |
+| [Correlation Matrix & Diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) | Mixing low-correlation assets halves volatility, from 24.7% to 12.3%, across 6 assets and 60 months | Excel, PDF |
 
-## 🧾 Accounting & Finance Operations
-| Project | Highlights | Tools |
-|---|---|---|
-| [AP Three-Way Match Model](https://github.com/adityakushwahagzpa-design/ap-three-way-match) | 200 invoices vs POs and GRNs; 37 on hold, ₹11.4 lakh duplicates stopped | Excel, PDF |
-| [Cash Application & AR Ageing](https://github.com/adityakushwahagzpa-design/cash-application-ar-ageing) | 9,362 receipts vs 10,000 invoices (₹131.9 cr); 21% of open AR 90+ days | Excel |
-| [Bank Reconciliation Statement](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) | Cash book vs bank statement; balances agree at 36,200 | Excel |
-| [AR & AP Ledger](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) | Status tracking; $8,900 overdue receivable flagged | Excel |
+## Dashboards
 
-## 🗄️ SQL
-| Project | Highlights | Tools |
+| Project | What I found | Tools |
 |---|---|---|
-| [Zepto Product Inventory Analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) | 3,732 products; 12.1% out of stock, discounts by category | SQL, PDF |
+| [PhonePe Transaction Insights Dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) | 640,000 transactions across 14 states: value up 28.1%, the loan book up 67.0%, with 6.6% of loans overdue | Power BI, Excel, PDF |
+| [European Sales Dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) | Across 10,000 order lines in 15 countries, orders discounted over 40% run at a –59.6% margin | Excel |
+| [Bajaj Sales & Profit Dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) | 9 KPIs and 14 charts; discounts above 20% lost $135K | Excel |
+| [Financial Performance Dashboard](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) | A 27,909-line general ledger: revenue more than doubled (+119%) while margin slipped from 22.9% to 16.5% | Tableau |
 
-## 🐍 Python
-| Project | Highlights | Tools |
+## MIS reports and trackers
+
+| Project | What I found | Tools |
 |---|---|---|
-| [Netflix Content Analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) | 6,202 titles; content mix, genres, ratings, growth | Python, Pandas |
+| [Customer Sales MIS Report](https://github.com/adityakushwahagzpa-design/customer-sales-mis-report) | After cleaning the data, just 12 orders turn out to drive 61.5% of sales | Excel, PDF |
+| [Training Deployment Tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) | 5,000 training sessions in 8 regions: 79% of seats filled, 13.6% no-shows | Excel |
+| [Client Retention & Churn Dashboard](https://github.com/adityakushwahagzpa-design/client-churn-dashboard) | 9.7% of 14,606 energy clients churn, and new clients churn faster (13.6%) | Excel |
+| [Security Cost & ROI Analysis](https://github.com/adityakushwahagzpa-design/security-cost-roi-analysis) | AI video monitoring costs 54% less than an on-site guard, a five-year NPV of $351K | Excel |
+| [Investment Portfolio Tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) | Stocks, ETFs, gold and a bitcoin ETF in one place, with gain/loss and allocation | Excel |
+
+## Accounting and finance operations
+
+The day-to-day side of finance. These are the checks I did by hand during my NTPC internship, rebuilt properly in Excel.
+
+| Project | What I found | Tools |
+|---|---|---|
+| [AP Three-Way Match Model](https://github.com/adityakushwahagzpa-design/ap-three-way-match) | 200 invoices checked against POs and goods receipts: 37 put on hold, and ₹11.4 lakh of duplicate payments caught | Excel, PDF |
+| [Cash Application & AR Ageing](https://github.com/adityakushwahagzpa-design/cash-application-ar-ageing) | 9,362 receipts matched to 10,000 invoices (₹131.9 crore); 21% of open receivables are over 90 days old | Excel |
+| [Bank Reconciliation Statement](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) | Cash book and bank statement reconciled until both agree at 36,200 | Excel |
+| [AR & AP Ledger](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) | A simple ledger with status tracking that flags an $8,900 overdue receivable | Excel |
+
+## Working with AI
+
+| Project | What I found | Tools |
+|---|---|---|
+| [AI-Powered FP&A Agent](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) | A Claude Project that reviews 24 months of budget vs actual; it caught all 3 errors I planted to test it | Claude, Excel |
+
+## SQL and Python
+
+| Project | What I found | Tools |
+|---|---|---|
+| [Zepto Product Inventory Analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) | 12.1% of 3,732 products were out of stock; discount patterns by category | SQL, PDF |
+| [Netflix Content Analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) | 6,202 titles: how the content mix, genres and ratings have changed over time | Python, Pandas |
 
 ---
 
-### 🛠 Skills
-**Tools:** MS Office (Word, Excel, PowerPoint) · Google Workspace · Power BI · Tableau · SQL · Python (Pandas, NumPy) · SAP FICO · GitHub<br>
-**GenAI:** Claude (Projects, dashboard building) · ChatGPT · prompt writing<br>
-**Finance:** Financial modelling (XIRR, SUMIFS, INDEX/MATCH, dashboards) · DCF & LBO valuation · Credit analysis · FP&A · AR/AP · Bank reconciliation<br>
-**Ways of working:** Attention to detail · Following set processes and checklists · Clear written documentation
+### What I work with
+**Tools:** Excel (pivot tables, SUMIFS, INDEX/MATCH, XIRR, dashboards), Power BI, Tableau, SQL, Python (Pandas, NumPy), SAP FICO, MS Office, Google Workspace, GitHub<br>
+**Finance:** financial modelling, DCF and LBO valuation, credit analysis, FP&A, accounts payable and receivable, bank reconciliation<br>
+**AI tools:** Claude (including Claude Projects), ChatGPT<br>
+**How I work:** I'm careful with detail, I'm comfortable following set processes and checklists, and I write things down clearly so someone else can pick them up.
 
-### 🎓 Certifications
+### Certifications
 [![Oracle Certified](https://img.shields.io/badge/Oracle%20Certified-3%20OCI%202025%20credentials-C74634?logo=oracle&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/)
 
 | Certification | Issuer | Issued | Valid until |
@@ -98,18 +101,27 @@ Every project below has its own repository, with the working files, a PDF report
 | [Power BI Masterclass from Scratch in 180 Minutes – 2025](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) | Udemy | Apr 2025 | No expiry |
 
 **SAP FICO for Finance Professionals** – Great Learning, Nov 2026 · [Verify](https://www.mygreatlearning.com/certificate/RTCBKOTD) · [PDF](certificates/SAP_FICO_Great_Learning.pdf)<br>
-Introductory course covering SAP ERP and S/4HANA, Financial Accounting (General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting) and Controlling (cost centres, profit centres, internal orders), with core processes such as procure-to-pay, order-to-cash, period-end closing and Fiori reporting.
+An introduction to SAP ERP and S/4HANA. It covered financial accounting (general ledger, payables, receivables, asset accounting), controlling (cost centres, profit centres, internal orders), and processes like procure-to-pay, order-to-cash and period-end closing. I'm now learning SAP GRC.
 
 <img src="certificates/SAP_FICO_Great_Learning.png" alt="SAP FICO for Finance Professionals certificate – Great Learning" width="480">
 
 **Power BI Masterclass from Scratch in 180 Minutes – 2025** – Udemy (instructor: A Siva Theja), Apr 2025 · [Verify](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) · [PDF](certificates/Power_BI_Masterclass_Udemy.pdf)<br>
-A 3-hour introductory course on Power BI, taught from scratch. Certificate no. UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21.
+A three-hour beginner course that took me through Power BI from scratch. Certificate no. UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21.
 
 <img src="certificates/Power_BI_Masterclass_Udemy.png" alt="Power BI Masterclass certificate – Udemy" width="480">
 
-Also: Investment Risk Management. Credentials can be checked on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
+I also hold an Investment Risk Management certification. You can check all my credentials on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
 
-### 💼 Experience
+### Experience
 **Summer Intern – Finance**, NTPC Ltd., Noida · Apr–Jun 2024<br>
+I worked on cost analysis and the tendering process: reviewing 40+ vendor quotations against cost estimates and checking approvals against delegation-of-power limits.
+
 **Summer Intern – Operations**, NTPC Ltd., Rihand Nagar · Mar–May 2023<br>
-**Head, Arthashastra – Finance Club**, Christ University · 2024–2025
+I kept 50+ operational records a day up to date across 6+ departments, about 2,000 over eight weeks.
+
+**Head, Arthashastra – Finance Club**, Christ University · 2024–2025<br>
+I led a five-person team that ran 25 finance events, including 10 guest lectures, and a quiz and case competition with 200 participants each.
+
+---
+
+If something here catches your eye, I'd be glad to talk it through. The easiest way to reach me is on [LinkedIn](https://www.linkedin.com/in/aditya-kushwaha16).
