@@ -100,13 +100,40 @@ The day-to-day side of finance. These are the checks I did by hand during my NTP
 ### Certifications
 [![Oracle Certified](https://img.shields.io/badge/Oracle%20Certified-3%20OCI%202025%20credentials-C74634?logo=oracle&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/)
 
+I hold 18 certifications. Here they are grouped by area, with the ones closest to finance operations first.
+
+**Finance, accounting and risk**
+
+| Certification | Issuer | Issued | Valid until |
+|---|---|---|---|
+| [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) | Great Learning | Nov 2026 | No expiry |
+| Risk Management | New York Institute of Finance | Jan 2026 | No expiry |
+| Master Revenue Recognition with IFRS 15 & ASC 606 | EDUCBA | Jan 2026 | No expiry |
+| Mergers and Acquisitions | Gies College of Business, University of Illinois Urbana-Champaign | Jan 2026 | No expiry |
+| Forensic Accounting and Fraud Examination | West Virginia University | Jan 2026 | No expiry |
+| BFSI Essentials | Board Infinity | Jan 2026 | No expiry |
+| Basics of Statutory Compliance and Taxation | Tally Solutions | Dec 2025 | No expiry |
+| EY Audit Job Simulation | Forage | Sep 2025 | No expiry |
+| Standard Chartered Credit Analyst Job Simulation | Forage | Sep 2025 | No expiry |
+| SAP FICO | Udemy | Apr 2025 | No expiry |
+
+**Data and reporting tools**
+
+| Certification | Issuer | Issued | Valid until |
+|---|---|---|---|
+| Microsoft Power BI Data Analyst | Microsoft | Jan 2026 | Jan 2027 |
+| Microsoft SQL Server | Microsoft | Jan 2026 | Jan 2027 |
+| Preparing Data for Analysis with Microsoft Excel | Microsoft | Dec 2025 | Dec 2026 |
+| [Power BI Masterclass from Scratch in 180 Minutes – 2025](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) | Udemy | Apr 2025 | No expiry |
+
+**AI**
+
 | Certification | Issuer | Issued | Valid until |
 |---|---|---|---|
 | Oracle Cloud Infrastructure 2025 Certified Generative AI Professional | Oracle | Sep 2025 | Sep 2027 |
 | Oracle Cloud Infrastructure 2025 Certified Data Science Professional | Oracle | Sep 2025 | Sep 2027 |
 | Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Oracle | Sep 2025 | Sep 2027 |
-| [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) | Great Learning | Nov 2026 | No expiry |
-| [Power BI Masterclass from Scratch in 180 Minutes – 2025](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) | Udemy | Apr 2025 | No expiry |
+| Generative AI for Product Managers | IBM iX | Jan 2026 | No expiry |
 
 **SAP FICO for Finance Professionals** – Great Learning, Nov 2026 · [Verify](https://www.mygreatlearning.com/certificate/RTCBKOTD) · [PDF](certificates/SAP_FICO_Great_Learning.pdf)<br>
 An introduction to SAP ERP and S/4HANA. It covered financial accounting (general ledger, payables, receivables, asset accounting), controlling (cost centres, profit centres, internal orders), and processes like procure-to-pay, order-to-cash and period-end closing. I'm now learning SAP GRC.
