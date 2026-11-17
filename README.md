@@ -145,7 +145,7 @@ A three-hour beginner course that took me through Power BI from scratch. Certifi
 
 <img src="certificates/Power_BI_Masterclass_Udemy.png" alt="Power BI Masterclass certificate – Udemy" width="480">
 
-I also hold an Investment Risk Management certification. You can check all my credentials on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
+You can check all my credentials on my [LinkedIn certifications page](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/).
 
 ### Experience
 **Summer Intern – Finance**, NTPC Ltd., Noida · Apr–Jun 2024<br>
