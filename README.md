@@ -2,11 +2,20 @@
 
 I finished my MBA in Finance at Christ University, Bengaluru, in 2025, after a B.Com from the University of Lucknow. Most of what I enjoy sits where finance meets data: taking a messy set of numbers, building something in Excel, Power BI or SQL, and finding the one or two things in it that actually matter.
 
-This page is my portfolio. Every project below has its own repository with the working files, a PDF report where I wrote one, and a short README on what I did and what I found. I'm currently looking for roles in finance operations, MIS reporting, credit and data analysis, and I can join immediately.
+This page is my portfolio. Every project below has its own repository with the working files, a PDF report where I wrote one, and a short README on what I did and what I found. I'm currently looking for roles in fund accounting and fund services, finance operations, MIS reporting, and credit and data analysis, and I can join immediately.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--kushwaha16-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16)
 
 ---
+
+## Fund accounting and fund services
+
+How a mutual fund's books are kept day to day: valuing holdings, booking trades and corporate actions, striking the NAV and reconciling with the custodian before sign-off.
+
+| Project | What I found | Tools |
+|---|---|---|
+| [Fund Accounting & Daily NAV Model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) | A month of daily NAVs for a fictional ₹71 crore hybrid fund: 25 securities, 55 trades, 6 corporate actions and 138 investor transactions. NAV goes from ₹31.40 to ₹32.01 (+1.93% against a benchmark of +1.49%). Every NAV matches an independent Python calculation, and cash and holdings reconcile with the custodian | Excel |
+| [HDFC Flexi Cap Fund Analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) | A 15.5% five-year CAGR, compared with 37 peers on Sharpe, Sortino and beta | Excel, PDF |
 
 ## Equity research and valuation
 
@@ -35,7 +44,6 @@ This is where I've spent the most time. I like building a model from the financi
 | Project | What I found | Tools |
 |---|---|---|
 | [Indian IPO Market Research](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) | My master's thesis: 2,020 IPOs from 2007 to Sep 2026, and how subscription levels relate to listing-day gains | Excel, PDF |
-| [HDFC Flexi Cap Fund Analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) | A 15.5% five-year CAGR, compared with 37 peers on Sharpe, Sortino and beta | Excel, PDF |
 | [Correlation Matrix & Diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) | Mixing low-correlation assets halves volatility, from 24.7% to 12.3%, across 6 assets and 60 months | Excel, PDF |
 
 ## Dashboards
@@ -85,7 +93,7 @@ The day-to-day side of finance. These are the checks I did by hand during my NTP
 
 ### What I work with
 **Tools:** Excel (pivot tables, SUMIFS, INDEX/MATCH, XIRR, dashboards), Power BI, Tableau, SQL, Python (Pandas, NumPy), SAP FICO, MS Office, Google Workspace, GitHub<br>
-**Finance:** financial modelling, DCF and LBO valuation, credit analysis, FP&A, accounts payable and receivable, bank reconciliation<br>
+**Finance:** fund accounting and daily NAV, cash and holdings reconciliation, corporate actions (dividends, splits), financial modelling, DCF and LBO valuation, credit analysis, FP&A, accounts payable and receivable, bank reconciliation<br>
 **AI tools:** Claude (including Claude Projects), ChatGPT<br>
 **How I work:** I'm careful with detail, I'm comfortable following set processes and checklists, and I write things down clearly so someone else can pick them up.
 
