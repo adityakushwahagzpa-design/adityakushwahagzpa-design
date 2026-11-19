@@ -2,7 +2,7 @@
 
 I finished my MBA in Finance at Christ University, Bengaluru, in 2025, after a B.Com from the University of Lucknow. Most of what I enjoy sits where finance meets data: taking a messy set of numbers, building something in Excel, Power BI or SQL, and finding the one or two things in it that actually matter.
 
-This page is my portfolio. Every project below has its own repository with the working files, a PDF report where I wrote one, and a short README on what I did and what I found. I'm currently looking for roles in fund accounting and fund services, finance operations, MIS reporting, and credit and data analysis, and I can join immediately.
+This page is my portfolio. Every project below has its own repository with the working files, a PDF report where I wrote one, and a short README on what I did and what I found. I'm currently looking for roles in regulatory compliance and KYC/AML, fund accounting and fund services, finance operations, MIS reporting, and credit and data analysis, and I can join immediately.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--kushwaha16-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16)
 
@@ -94,6 +94,7 @@ The day-to-day side of finance. These are the checks I did by hand during my NTP
 ### What I work with
 **Tools:** Excel (pivot tables, SUMIFS, INDEX/MATCH, XIRR, dashboards), Power BI, Tableau, SQL, Python (Pandas, NumPy), SAP FICO, MS Office, Google Workspace, GitHub<br>
 **Finance:** fund accounting and daily NAV, cash and holdings reconciliation, corporate actions (dividends, splits), financial modelling, DCF and LBO valuation, credit analysis, FP&A, accounts payable and receivable, bank reconciliation<br>
+**Compliance:** KYC and AML, including PMLA, FATF and RBI KYC norms from my MBA coursework; customer due diligence; SOP and checklist review; delegation-of-power checks<br>
 **AI tools:** Claude (including Claude Projects), ChatGPT<br>
 **How I work:** I'm careful with detail, I'm comfortable following set processes and checklists, and I write things down clearly so someone else can pick them up.
 
@@ -155,7 +156,7 @@ You can check all my credentials on my [LinkedIn certifications page](https://ww
 
 ### Experience
 **Summer Intern – Finance**, NTPC Ltd., Noida · Apr–Jun 2024<br>
-I worked on cost analysis and the tendering process: reviewing 40+ vendor quotations against cost estimates and checking approvals against delegation-of-power limits.
+I worked on cost analysis and the tendering process: reviewing 40+ vendor quotations against cost estimates, and checking 20+ vendor files against the SOP checklist and delegation-of-power limits.
 
 **Summer Intern – Operations**, NTPC Ltd., Rihand Nagar · Mar–May 2023<br>
 I kept 50+ operational records a day up to date across 6+ departments, about 2,000 over eight weeks.
