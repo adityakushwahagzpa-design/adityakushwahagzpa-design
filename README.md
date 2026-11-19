@@ -142,7 +142,7 @@ An introduction to SAP ERP and S/4HANA. It covered financial accounting (general
 <img src="certificates/SAP_FICO_Great_Learning.png" alt="SAP FICO for Finance Professionals certificate – Great Learning" width="480">
 
 **Certified Financial Forecasting and Modeling using Excel** – KPMG in India, 18-hour course held in Sep 2024, certificate issued Nov 2024 · [Certificate](certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg)<br>
-Completed KPMG's Certified Financial Forecasting and Modelling using Excel programme during my MBA at Christ University. The programme covered building financial models in Excel from historical data, forecasting revenue and costs with clear assumptions, running scenario and sensitivity analysis, and the basics of DCF valuation. It showed me how to structure a model so others can follow and check it.
+Took part in KPMG's Certified Financial Forecasting and Modelling using Excel programme during my MBA at Christ University. The programme covered building financial models in Excel from historical data, forecasting revenue and costs with clear assumptions, running scenario and sensitivity analysis, and the basics of DCF valuation. It showed me how to structure a model so others can follow and check it.
 
 <img src="certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg" alt="Certified Financial Forecasting and Modeling using Excel certificate – KPMG in India" width="480">
 
