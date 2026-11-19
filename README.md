@@ -100,7 +100,7 @@ The day-to-day side of finance. These are the checks I did by hand during my NTP
 ### Certifications
 [![Oracle Certified](https://img.shields.io/badge/Oracle%20Certified-3%20OCI%202025%20credentials-C74634?logo=oracle&logoColor=white)](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/)
 
-I hold 18 certifications. Here they are grouped by area, with the ones closest to finance operations first.
+I hold 19 certifications. Here they are grouped by area, with the ones closest to finance operations first.
 
 **Finance, accounting and risk**
 
@@ -116,6 +116,7 @@ I hold 18 certifications. Here they are grouped by area, with the ones closest t
 | EY Audit Job Simulation | Forage | Sep 2025 | No expiry |
 | Standard Chartered Credit Analyst Job Simulation | Forage | Sep 2025 | No expiry |
 | SAP FICO | Udemy | Apr 2025 | No expiry |
+| [Certified Financial Forecasting and Modeling using Excel](certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg) | KPMG in India | Nov 2024 | No expiry |
 
 **Data and reporting tools**
 
@@ -139,6 +140,11 @@ I hold 18 certifications. Here they are grouped by area, with the ones closest t
 An introduction to SAP ERP and S/4HANA. It covered financial accounting (general ledger, payables, receivables, asset accounting), controlling (cost centres, profit centres, internal orders), and processes like procure-to-pay, order-to-cash and period-end closing. I'm now learning SAP GRC.
 
 <img src="certificates/SAP_FICO_Great_Learning.png" alt="SAP FICO for Finance Professionals certificate – Great Learning" width="480">
+
+**Certified Financial Forecasting and Modeling using Excel** – KPMG in India, 18-hour course held in Sep 2024, certificate issued Nov 2024 · [Certificate](certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg)<br>
+Completed KPMG's Certified Financial Forecasting and Modelling using Excel programme during my MBA at Christ University. The programme covered building financial models in Excel from historical data, forecasting revenue and costs with clear assumptions, running scenario and sensitivity analysis, and the basics of DCF valuation. It showed me how to structure a model so others can follow and check it.
+
+<img src="certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg" alt="Certified Financial Forecasting and Modeling using Excel certificate – KPMG in India" width="480">
 
 **Power BI Masterclass from Scratch in 180 Minutes – 2025** – Udemy (instructor: A Siva Theja), Apr 2025 · [Verify](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) · [PDF](certificates/Power_BI_Masterclass_Udemy.pdf)<br>
 A three-hour beginner course that took me through Power BI from scratch. Certificate no. UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21.
