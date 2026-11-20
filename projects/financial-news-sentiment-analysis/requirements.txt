@@ -1,0 +1,7 @@
+yfinance>=0.2.54
+pandas>=2.0
+numpy
+matplotlib
+tabulate
+feedparser
+vaderSentiment
