@@ -454,20 +454,6 @@ open_to:
 
 ---
 
-## Finance + AI Repos I'm Exploring
-
-Open-source projects I follow to learn how AI is being applied to financial analysis. All credit goes to their authors.
-
-| Repository | What it does | Stars |
-|:--|:--|:--|
-| [**OpenBB**](https://github.com/OpenBB-finance/OpenBB) | Open-source financial data platform for stocks, ETFs, crypto, macro indicators and market data | ![](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=flat-square&color=7c3aed&label=%E2%98%85) |
-| [**Fincept Terminal**](https://github.com/Fincept-Corporation/FinceptTerminal) | Bloomberg-style terminal for global markets, company data and financial analysis | ![](https://img.shields.io/github/stars/Fincept-Corporation/FinceptTerminal?style=flat-square&color=7c3aed&label=%E2%98%85) |
-| [**AI Hedge Fund**](https://github.com/virattt/ai-hedge-fund) | Research project with AI agents that analyse companies and evaluate investment strategies | ![](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=flat-square&color=7c3aed&label=%E2%98%85) |
-| [**FinGPT**](https://github.com/AI4Finance-Foundation/FinGPT) | Open-source financial LLM for sentiment analysis and research on financial data | ![](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=flat-square&color=7c3aed&label=%E2%98%85) |
-| [**FinRobot**](https://github.com/AI4Finance-Foundation/FinRobot) | AI agent framework for company research, earnings analysis and investment insights | ![](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat-square&color=7c3aed&label=%E2%98%85) |
-
----
-
 ## Connect
 
 <p align="center">
