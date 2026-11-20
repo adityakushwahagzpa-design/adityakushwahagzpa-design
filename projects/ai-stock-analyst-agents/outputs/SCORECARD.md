@@ -27,7 +27,7 @@ Generated 20 Nov 2026. Universe: 12 Nifty 50 stocks. Weights: Value 30%, Quality
 
 - **Value agent (+0.50):** P/E 22.4 is close to peer median 21.1; P/B 1.9 is 60% below peer median 4.9
 - **Quality agent (+0.33):** ROE 8.8% (moderate); Net margin 6.8% (average); Debt/Equity 0.44x (low)
-- **Momentum agent (-0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +1.2% vs Nifty +7.9%
+- **Momentum agent (-0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +1.1% vs Nifty +7.9%
 - **Risk agent (+0.00):** Annual volatility 24.3%; Worst fall from peak -26.9%; Beta vs Nifty 0.97
 - **Portfolio manager:** weighted score +0.18 → **Neutral**
 
@@ -35,7 +35,7 @@ Generated 20 Nov 2026. Universe: 12 Nifty 50 stocks. Weights: Value 30%, Quality
 
 - **Value agent (-0.50):** P/E 17.1 is close to peer median 21.1; P/B 7.3 is 51% above peer median 4.9
 - **Quality agent (+1.00):** ROE 45.6% (strong); Net margin 18.2% (high); Debt/Equity 0.10x (low)
-- **Momentum agent (-0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +5.9% vs Nifty +7.9%
+- **Momentum agent (-0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +6.0% vs Nifty +7.9%
 - **Risk agent (+0.00):** Annual volatility 30.2%; Worst fall from peak -38.5%; Beta vs Nifty 0.77
 - **Portfolio manager:** weighted score +0.08 → **Neutral**
 
@@ -43,7 +43,7 @@ Generated 20 Nov 2026. Universe: 12 Nifty 50 stocks. Weights: Value 30%, Quality
 
 - **Value agent (+0.50):** P/E 17.9 is close to peer median 21.1; P/B 2.1 is 57% below peer median 4.9
 - **Quality agent (+0.50):** ROE 11.0% (moderate); Net margin 26.5% (high); Debt/Equity skipped: borrowing is the raw material of a bank or lender
-- **Momentum agent (+0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +11.2% vs Nifty +7.9%
+- **Momentum agent (+0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +11.4% vs Nifty +7.9%
 - **Risk agent (-0.67):** Annual volatility 23.4%; Worst fall from peak -31.5%; Beta vs Nifty 1.25
 - **Portfolio manager:** weighted score +0.23 → **Neutral**
 
@@ -83,7 +83,7 @@ Generated 20 Nov 2026. Universe: 12 Nifty 50 stocks. Weights: Value 30%, Quality
 
 - **Value agent (-1.00):** P/E 45.5 is 116% above peer median 21.1; P/B 9.9 is 103% above peer median 4.9
 - **Quality agent (+1.00):** ROE 21.6% (strong); Net margin 22.0% (high); Debt/Equity 0.03x (low)
-- **Momentum agent (-1.00):** Price below its 200-day average; 50-day average below 200-day average; 6M return -5.4% vs Nifty +7.9%
+- **Momentum agent (-1.00):** Price below its 200-day average; 50-day average below 200-day average; 6M return -5.5% vs Nifty +7.9%
 - **Risk agent (+0.33):** Annual volatility 22.9%; Worst fall from peak -26.0%; Beta vs Nifty 0.79
 - **Portfolio manager:** weighted score -0.13 → **Neutral**
 
@@ -107,7 +107,7 @@ Generated 20 Nov 2026. Universe: 12 Nifty 50 stocks. Weights: Value 30%, Quality
 
 - **Value agent (-0.50):** P/E 30.0 is 42% above peer median 21.1; P/B 4.0 is close to peer median 4.9
 - **Quality agent (+0.33):** ROE 12.9% (moderate); Net margin 6.5% (average); Debt/Equity 0.00x (low)
-- **Momentum agent (-0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +7.2% vs Nifty +7.9%
+- **Momentum agent (-0.33):** Price above its 200-day average; 50-day average below 200-day average; 6M return +7.3% vs Nifty +7.9%
 - **Risk agent (-0.33):** Annual volatility 26.3%; Worst fall from peak -34.8%; Beta vs Nifty 1.15
 - **Portfolio manager:** weighted score -0.18 → **Neutral**
 
