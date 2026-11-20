@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-30%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-34%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/aditya-kushwaha16"><img src="https://img.shields.io/badge/LinkedIn-Connect-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:adityakushwahagzpa@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20to%20me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/adityakushwahagzpa-design"><img src="https://img.shields.io/badge/GitHub-Follow-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -239,8 +239,80 @@ Data modelling, KPI design and drill-downs built for a management review.
 
 </details>
 
+### Python Finance Projects
+
 <details>
-<summary><b>All 30 Projects</b></summary>
+<summary><b>India Market Data Dashboard</b></summary>
+<br/>
+
+Python dashboard of Indian indices, ETFs, currency, commodities and crypto in one report.
+
+| | |
+|:--|:--|
+| **Stack** | Python, pandas, NumPy, Matplotlib, yfinance |
+| **Scope** | 10 assets, 2 years of daily prices |
+| **Key Result** | Brent crude +45.1% over the year with the highest volatility (47.0%); Nifty Bank and Brent the best diversification pair (correlation -0.28) |
+| **Refresh** | Auto-updated every Monday by GitHub Actions |
+| **Repository** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) |
+
+Returns over four periods, annualised volatility, maximum drawdown and a correlation matrix, with charts and an auto-written report.
+
+</details>
+
+<details>
+<summary><b>NSE Stock Terminal</b></summary>
+<br/>
+
+Command-line company snapshot for any NSE stock, in the style of a market data terminal.
+
+| | |
+|:--|:--|
+| **Stack** | Python, pandas, Matplotlib, yfinance |
+| **Scope** | 8-stock watchlist; any NSE symbol on demand |
+| **Key Result** | TCS highest ROE in the watchlist (45.6%) at 17x P/E; ICICI Bank +17.6% over the year, Infosys -24.0% |
+| **Repository** | [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) |
+
+Price, valuation, profitability, leverage, dividends and four years of revenue and profit, with a price chart and a comparison table.
+
+</details>
+
+<details>
+<summary><b>Stock Analyst Agents</b></summary>
+<br/>
+
+Four rule-based analyst agents score each stock and explain their reasoning; a portfolio manager combines the scores.
+
+| | |
+|:--|:--|
+| **Stack** | Python classes, pandas, NumPy, Matplotlib, yfinance |
+| **Scope** | 12 Nifty 50 stocks |
+| **Agents** | Value (30%), Quality (30%), Momentum (20%), Risk (20%) |
+| **Key Result** | ICICI Bank (+0.72) and SBI (+0.52) the only Positive views; strong quality offset by weak momentum for Infosys and HUL |
+| **Repository** | [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) |
+
+Transparent rules instead of machine learning, so every view traces back to the P/E, ROE, moving averages or volatility behind it.
+
+</details>
+
+<details>
+<summary><b>Financial News Sentiment Analysis</b></summary>
+<br/>
+
+Sentiment scoring of news headlines for 10 large Indian companies, matched to share-price moves.
+
+| | |
+|:--|:--|
+| **Stack** | Python, VADER sentiment, feedparser, pandas, yfinance |
+| **Scope** | About 250 headlines over three months |
+| **Key Result** | 0.59 correlation between daily sentiment and same-day returns, but almost none with next-day returns (0.06) |
+| **Repository** | [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
+
+VADER with a custom finance word list; the result shows headlines mostly describe moves that already happened rather than predict them.
+
+</details>
+
+<details>
+<summary><b>All 34 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
@@ -254,6 +326,7 @@ Data modelling, KPI design and drill-downs built for a management review.
 | **Finance Ops** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) · [cash-application-ar-ageing](https://github.com/adityakushwahagzpa-design/cash-application-ar-ageing) · [bank-reconciliation-excel](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) · [ar-ap-ledger-excel](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) |
 | **AI in Finance** | [ai-fpa-agent-claude](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) |
 | **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) |
+| **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
 
 </details>
 
@@ -307,7 +380,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **19 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **30 Portfolio Projects** | Fund accounting, valuation, credit, dashboards and finance operations |
+| **34 Portfolio Projects** | Fund accounting, valuation, credit, dashboards, finance operations and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
