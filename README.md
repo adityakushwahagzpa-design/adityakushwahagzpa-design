@@ -251,7 +251,7 @@ Python dashboard of Indian indices, ETFs, currency, commodities and crypto in on
 |:--|:--|
 | **Stack** | Python, pandas, NumPy, Matplotlib, yfinance |
 | **Scope** | 10 assets, 2 years of daily prices |
-| **Key Result** | Brent crude +45.1% over the year with the highest volatility (47.0%); Nifty Bank and Brent the best diversification pair (correlation -0.28) |
+| **Key Result** | Brent crude +42.0% over the year with the highest volatility (47.0%); Nifty Bank and Brent the best diversification pair (correlation -0.28) |
 | **Refresh** | Auto-updated every Monday by GitHub Actions |
 | **Repository** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) |
 
@@ -269,7 +269,7 @@ Command-line company snapshot for any NSE stock, in the style of a market data t
 |:--|:--|
 | **Stack** | Python, pandas, Matplotlib, yfinance |
 | **Scope** | 8-stock watchlist; any NSE symbol on demand |
-| **Key Result** | TCS highest ROE in the watchlist (45.6%) at 17x P/E; ICICI Bank +17.6% over the year, Infosys -24.0% |
+| **Key Result** | TCS highest ROE in the watchlist (45.6%) at 17x P/E; ICICI Bank +17.6% over the year, Infosys -24.2% |
 | **Repository** | [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) |
 
 Price, valuation, profitability, leverage, dividends and four years of revenue and profit, with a price chart and a comparison table.
@@ -303,8 +303,8 @@ Sentiment scoring of news headlines for 10 large Indian companies, matched to sh
 | | |
 |:--|:--|
 | **Stack** | Python, VADER sentiment, feedparser, pandas, yfinance |
-| **Scope** | About 250 headlines over three months |
-| **Key Result** | 0.59 correlation between daily sentiment and same-day returns, but almost none with next-day returns (0.06) |
+| **Scope** | About 250–330 headlines over three months |
+| **Key Result** | Same-day correlation of 0.47 to 0.62 between sentiment and returns, but almost none with next-day returns |
 | **Repository** | [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
 
 VADER with a custom finance word list; the result shows headlines mostly describe moves that already happened rather than predict them.

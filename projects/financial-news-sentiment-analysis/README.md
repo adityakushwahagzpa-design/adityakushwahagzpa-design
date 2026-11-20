@@ -4,9 +4,9 @@ Scores recent news headlines for 10 large Indian companies as positive, neutral 
 
 | | |
 |:--|:--|
-| **What was analysed** | About 250 Google News headlines from the last three months for Reliance, TCS, Infosys, HDFC Bank, ICICI Bank, ITC, SBI, Bharti Airtel, Tata Motors PV and Adani Enterprises, matched to daily NSE returns |
+| **What was analysed** | About 250–330 Google News headlines from the last three months for Reliance, TCS, Infosys, HDFC Bank, ICICI Bank, ITC, SBI, Bharti Airtel, Tata Motors PV and Adani Enterprises, matched to daily NSE returns |
 | **What was done** | Sentiment scoring with VADER plus a custom finance word list (e.g. "surges", "downgrade", "penalty"), then a comparison of daily average sentiment with same-day and next-day returns |
-| **Key finding** | In the 20 Nov 2026 run, daily sentiment had a 0.59 correlation with same-day returns but almost none with next-day returns (0.06): headlines mostly describe price moves that already happened rather than predict them |
+| **Key finding** | Across runs on 20 Nov 2026, daily sentiment had a moderate link with same-day returns (correlation 0.47 to 0.62) but almost none with next-day returns (-0.02 to 0.06): headlines mostly describe price moves that already happened rather than predict them |
 
 **Live report:** [outputs/REPORT.md](outputs/REPORT.md), refreshed every Monday by GitHub Actions.
 

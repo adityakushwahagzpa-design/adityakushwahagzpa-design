@@ -6,7 +6,7 @@ A Python dashboard that brings Indian indices, ETFs, currency, commodities and c
 |:--|:--|
 | **What was analysed** | Two years of daily prices for 10 assets: Nifty 50, Sensex, Nifty Bank, Nifty IT, Nifty BeES and Gold BeES ETFs, USD/INR, gold, Brent crude and Bitcoin |
 | **What was done** | Calculation of 1M, 3M, 6M and 1Y returns, annualised volatility, maximum drawdown and a correlation matrix, with four charts and an auto-written report |
-| **Key finding** | Over the year to 20 Nov 2026, Brent crude led at +45.1% but with the highest volatility (47.0%); Nifty Bank and Brent moved in opposite directions (correlation -0.28), the best diversification pair in the set |
+| **Key finding** | Over the year to 20 Nov 2026, Brent crude led at +42.0% but with the highest volatility (47.0%); Nifty Bank and Brent moved in opposite directions (correlation -0.28), the best diversification pair in the set |
 
 **Live report:** [outputs/REPORT.md](outputs/REPORT.md), refreshed every Monday by GitHub Actions.
 
