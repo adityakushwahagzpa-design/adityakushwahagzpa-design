@@ -1,0 +1,63 @@
+name: Run Finance Python Projects
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "projects/**/*.py"
+      - "projects/**/requirements.txt"
+      - "projects/**/watchlist.txt"
+      - ".github/workflows/finance-projects.yml"
+  schedule:
+    - cron: "37 3 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finance-projects
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install libraries
+        run: pip install yfinance pandas numpy matplotlib tabulate feedparser vaderSentiment
+
+      - name: India Market Data Dashboard
+        working-directory: projects/india-market-data-dashboard
+        run: python dashboard.py
+        continue-on-error: true
+
+      - name: NSE Stock Terminal
+        working-directory: projects/nse-stock-terminal
+        run: python terminal.py
+        continue-on-error: true
+
+      - name: Stock Analyst Agents
+        working-directory: projects/ai-stock-analyst-agents
+        run: python agents.py
+        continue-on-error: true
+
+      - name: Financial News Sentiment Analysis
+        working-directory: projects/financial-news-sentiment-analysis
+        run: python sentiment.py
+        continue-on-error: true
+
+      - name: Save outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/*/outputs
+          git diff --cached --quiet || git commit -m "Update finance project outputs with latest data"
+          git pull --rebase origin main
+          git push
