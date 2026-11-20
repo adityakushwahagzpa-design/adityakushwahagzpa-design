@@ -1,18 +1,61 @@
 Symbol,Date,Headline,Source,Sentiment,Label
+ADANIENT,2026-08-26,"Adani Enterprises Ltd soars 0.5%, up for fifth straight session",Business Standard,0.6597,Positive
+ADANIENT,2026-08-27,Adani Enterprises up 39% YTD; why is MOFSL betting on Nifty's top gainer?,Business Standard,0.2023,Positive
+ADANIENT,2026-08-27,Adani Enterprises shares rise over 1.5% as Motilal Oswal initiates coverage with 'buy' rating,Moneycontrol.com,0.5267,Positive
+ADANIENT,2026-08-28,"Adani Enterprises Ltd. Key Financial Ratios – Valuation, Profitability & More",Value Research,0.2732,Positive
+ADANIENT,2026-08-29,"Adani Enterprises Ltd. Financials – Balance Sheet, Profit & Loss, Cash Flow",Value Research,-0.2023,Negative
 ADANIENT,2026-08-31,"Adani Power, Adani Enterprises to Adani Energy: Stocks Crash Up to 8%; Here's Why Today",Kotak Neo,-0.4404,Negative
 ADANIENT,2026-08-31,"Adani Group stocks decline: Adani Enterprises down nearly 10%, Adani Ports slips over 6%; key developments",Upstox,-0.5719,Negative
+ADANIENT,2026-08-31,"Adani Enterprises Ltd. Shareholding Pattern – Promoters, FIIs & DIIs",Value Research,0.0,Neutral
+ADANIENT,2026-08-31,"Top Weekly Gainers: Adani Enterprises, Kotak Mahindra Bank Lead; Tech Mahindra, JSW Steel Also Gain",HDFC Sky,0.5106,Positive
+ADANIENT,2026-09-01,"Adani Enterprises, Adani Power, Adani Ports: Here’s how Adani Group stocks are faring a day after steep fall",Upstox,-0.3612,Negative
+ADANIENT,2026-09-01,Adani group stocks rebound up to 5% day after MSCI sell-off; here's why,Business Standard,-0.4588,Negative
+ADANIENT,2026-09-08,"Adani Enterprises stock surges 6%: Airport arm to raise ₹9,825 crore from Alpha Wave, Premji Invest, Temasek",Upstox,0.5423,Positive
+ADANIENT,2026-09-08,"Adani Enterprises, Adani Power, Adani Ports: Adani Group stocks gain after Adani Airport’s ₹9,825 crore fundraise",Upstox,0.3612,Positive
+ADANIENT,2026-09-08,Indian billionaire Adani's airport unit to raise up to $1 billion for expansion,Reuters,0.25,Positive
+ADANIENT,2026-09-08,"Adani Enterprises, NTPC shares in focus amid India’s coal gasification push; what investors need to know",Upstox,0.296,Positive
+ADANIENT,2026-09-09,Adani Enterprises shares jump as airport unit enters into $1 billion fundraising deal,CNBC,0.6369,Positive
+ADANIENT,2026-09-09,Adani Enterprises: Nifty's 2026 winner jumps 6% on airport biz stake sale,Business Standard,0.7783,Positive
+ADANIENT,2026-09-09,"Adani Enterprises stock jumps 4% as BlackRock, Temasek, Premji Invest sign up for Adani Airports stake",Moneycontrol.com,0.4588,Positive
+ADANIENT,2026-09-09,Adani Enterprises Shares Jump on $1 Billion Airport Investment,Rediff MoneyWiz,0.6369,Positive
+ADANIENT,2026-09-09,"Adani Enterprises shares rise after airport arm to raise $1 billion from BlackRock, Temasek",CNBC TV18,0.5267,Positive
+ADANIENT,2026-09-09,Adani Enterprises to Coal India: Top five NIFTY50 stocks outperforming index over last five trading sessions; check list,Upstox,0.2023,Positive
+ADANIENT,2026-09-21,Why Adani Group Stocks are falling today?,India Infoline,-0.1531,Negative
+ADANIENT,2026-09-22,"Adani Enterprises, Adani Green: Most Adani stocks trade higher after SEBI settles ₹1.5 crore case; key details",Upstox,0.0,Neutral
 ADANIENT,2026-09-25,"Adani Enterprises shares rise after ₹2,498 crore block deal; what investors should know",Upstox,0.128,Positive
-ADANIENT,2026-09-28,"Adani Enterprises shares drop 3% after Adani group entities swap 86 lakh shares for ₹2,498 crore / Is it a stock to buy?",Livemint,-0.1779,Negative
+ADANIENT,2026-09-25,"Adani group entities swap 86 lakh shares of Adani Enterprises in ₹2,498 cr block deal",CNBC TV18,-0.5106,Negative
+ADANIENT,2026-09-28,"Adani Enterprises shares drop 2% after Adani group entities swap 86 lakh shares for Rs.2,498 crore / Details here",TradingView,-0.1779,Negative
+ADANIENT,2026-09-28,"Adani Enterprises, Adani Power, Adani Ports: Why four Adani Group stocks are in focus today",Upstox,0.0,Neutral
+ADANIENT,2026-09-29,"Top gainers and losers, September 29: Titan, Wipro shares fall 3%, Adani Enterprises surges 5%; check list",Upstox,0.1531,Positive
+ADANIENT,2026-09-30,Adani Enterprises promoter stake rises to 71.97% after share purchases,scanx.trade,0.5267,Positive
+ADANIENT,2026-09-30,Adani Enterprises sets Nov 4 deadline for final call money on rights shares,scanx.trade,0.296,Positive
 ADANIENT,2026-10-08,"Adani group stocks under pressure; Enterprises, Green Energy tank up to 7%",Business Standard,-0.0258,Neutral
+ADANIENT,2026-10-08,"Adani Enterprises, APSEZ, Adani Green: Why are Adani Group stocks falling on October 8?",Upstox,-0.1531,Negative
+ADANIENT,2026-10-08,"Nifty 50 stocks since last 52-week low: Eternal, Adani Enterprises lead gains; Infosys, ONGC lag",Moneycontrol.com,0.1779,Positive
+ADANIENT,2026-10-09,"Adani Ports block deal: Shares worth ₹1,234 crore change hands - CNBC TV18",LinkedIn,0.0516,Positive
+ADANIENT,2026-10-11,Weekly Recap: NSE:ADANIENT share fall and ₹2 lakh crore plan,TradingView,-0.0772,Negative
 ADANIENT,2026-10-13,Adani Enterprises signs MoU with US-based Jabil for data centre hardware JV; shares trade flat,Upstox,0.296,Positive
+ADANIENT,2026-10-28,Adani Enterprises Q2 profit drops 55% even as operating earnings surge 62%,Business Standard,0.4588,Positive
+ADANIENT,2026-10-28,"Adani Enterprises Q2 Results: Net profit falls 55% to ₹1,492 crore, revenue up 75%",Upstox,-0.128,Negative
+ADANIENT,2026-10-28,"Adani Enterprises, Adani Ports, Adani Green: Adani Group stocks surge over 4% amid Q2 momentum; what do analysts predict?",Upstox,0.5423,Positive
+ADANIENT,2026-10-28,Adani Enterprises' quarterly profit gets copper business lift,Reuters,0.25,Positive
+ADANIENT,2026-10-28,"Adani Enterprises Q2 results: Net profit declines 55% to Rs 1,492 crore, revenue rises 75%",Moneycontrol.com,0.1779,Positive
+ADANIENT,2026-10-28,"Stocks to watch: Jio Platforms, HUL, Adani Enterprises, Maruti Suzuki, L&T",Business Standard,0.0,Neutral
+ADANIENT,2026-10-28,Adani Enterprises Q2 results: Revenue jumps 75%; Exceptional item in base quarter reflects on PAT,CNBC TV18,0.4588,Positive
 ADANIENT,2026-10-29,"Adani group stocks rally led by Adani Enterprises, Adani Ports post Q2 show",Business Standard,0.4588,Positive
-ADANIENT,2026-11-13,ADANIENT Outlook for the Week,Equitypandit,0.0,Neutral
+ADANIENT,2026-10-31,Adani Enterprises Limited Just Missed EPS By 22%: Here's What Analysts Think Will Happen Next,Simply Wall St,-0.4767,Negative
+ADANIENT,2026-11-03,"Adani Enterprises Q2FY27 Results: EBITDA up 62%, net profit down 55%",scanx.trade,0.25,Positive
+ADANIENT,2026-11-08,"Adani Enterprises plans ₹35,000-₹40,000 cr annual capex in next two years",Business Standard,0.0,Neutral
+ADANIENT,2026-11-11,"Adani Enterprises, Adani Ports, Adani Green: How Adani Group stocks are performing as benchmarks stay flat",Upstox,0.0,Neutral
+ADANIENT,2026-11-12,India’s Adani Enterprises forms gas-to-chemicals holding firm in UAE,TradingView,0.0,Neutral
+ADANIENT,2026-11-12,Adani Enterprises arm inks MoU with Chile's Codelco for mining exploration,CNBC TV18,0.2263,Positive
+ADANIENT,2026-11-16,Adani Group stocks: Jefferies sees $51 billion capex over FY27–FY29; check how shares are faring on Nov 16,Upstox,0.296,Positive
 ADANIENT,2026-11-17,"Top Gainers & Losers Today, 17 November 2026 at 3:30 PM IST: Adani Enterprises Ltd Leads Gainers",HDFC Sky,-0.3818,Negative
-ADANIENT,2026-11-17,"Sensex ends 400 points higher, Nifty closes at 25,387; Adani Enterprises ends up 3%",The Financial Express,0.4019,Positive
+ADANIENT,2026-11-17,Adani Enterprises Ltd is Rated Hold by MarketsMOJO,MarketsMojo,0.0,Neutral
 ADANIENT,2026-11-18,Adani Enterprises Ltd falls 2.22% in Wednesday's session,Global Banking & Finance Review,-0.3612,Negative
+ADANIENT,2026-11-18,Adani Enterprises Ltd Surges 3.3% to Day's High of Rs 2745 — Outperforms Sector by 1.37 Percentage Points,MarketsMojo,0.5423,Positive
 ADANIENT,2026-11-19,Adani Enterprises to host in-person investor meet on November 25,scanx.trade,0.0,Neutral
 ADANIENT,2026-11-19,Compare Adani Enterprises with DEVIKA FINST,Equitymaster,0.0,Neutral
-ADANIENT,2026-11-19,"Adani group stocks today, November 19: Adani Green up 1.48%, Adani Enterprises gains 0.66%, Adani Power up 0.46%",Business Upturn,0.3612,Positive
 ADANIENT,2026-11-20,"Stock Of The Day Buy Diamond Power (Cash): SL 362 Tgt 370, 375, 380 Company received big order of 707 Cr from Adani energy Buy HDFC Bank Futures on decline: SL 800 Tgt 828, 835, 842 New MD Anup Bagchi is meeting with Investors in Singapore is v",Facebook,0.4215,Positive
 BHARTIARTL,2026-09-02,"Bharti Airtel Share Price Target 2026: 'Highest ARPU' - Buy for 40% returns, says Axis Securities / Rationale explained",Livemint,0.5267,Positive
 BHARTIARTL,2026-09-07,Bharti Airtel Share Price Prediction for Tomorrow: 8 Sep 2026,Univest,0.296,Positive
@@ -117,7 +160,6 @@ ITC,2026-10-08,ITC sees 2.9% of equity change hands in single large trade; stock
 ITC,2026-10-09,"ITC stock rallies 5%, sees sharpest intraday rally in 6 months; here's why / Markets News",Business Standard,0.7184,Positive
 ITC,2026-10-11,"Weekly Recap: ITC Limited Q1 revenue, profit decline and 52-week low",TradingView,-0.5423,Negative
 ITC,2026-11-03,"ITC shares flat after Q2 profit drops 20%; brokerages flag cigarette business pressure, but hail FMCG...",Moneycontrol.com,0.0516,Positive
-ITC,2026-11-05,ITC Limited (NSE:ITC) Just Released Its Second-Quarter Earnings: Here's What Analysts Think,Simply Wall St,-0.2263,Negative
 ITC,2026-11-16,"Cigarette Stock Jumps: ITC Rallies 4%, Up 11% In November; Here's Why",NDTV Profit,0.7184,Positive
 ITC,2026-11-16,"Mutual Funds Bet Big On ITC: Rs 7,873 crore buying in October; is cigarette major set for a recovery?",Zee Business,0.0,Neutral
 ITC,2026-11-17,"ITC, HDFC Bank, Vodafone Idea among retail favourites seeing MF buying; Suzlon shares face selloff",Business Today,-0.2023,Negative
@@ -149,15 +191,73 @@ RELIANCE,2026-11-19,"Reliance Industries share rebound is not over yet, says JPM
 RELIANCE,2026-11-19,"Reliance Industries shares: After 13% surge in 1 month, JPMorgan sees another 23% upside in Mukesh Ambani stock / Target",Livemint,0.6908,Positive
 RELIANCE,2026-11-19,"​Reliance Industries - Eternal, RIL and HDFC Bank among 9 stocks owned by 600 mutual funds in October",The Economic Times,0.0,Neutral
 RELIANCE,2026-11-20,"Reliance share: JP Morgan assigns target price of Rs 1,675, implies 23% upside potential",News9live,0.5766,Positive
-RELIANCE,2026-11-20,Top three sectors to watch in 2027,Livemint,0.2023,Positive
+SBIN,2026-08-22,What should investors do about SBI after Q1 FY27 results?,BusinessLine,0.0,Neutral
+SBIN,2026-08-23,SBI may reach Rs 200 lakh crore total business by 2030: Chairman CS Setty,Moneycontrol.com,0.0258,Neutral
+SBIN,2026-08-27,SBI retains 25% debit card market share in Jul'26; HDFC Bank continues to lead credit cards,bfsi.economictimes.indiatimes.com,0.5859,Positive
+SBIN,2026-08-31,SBI to Dilute 1% Stake in NSE IPO; Home Loans Near ₹10 Lakh Cr,HDFC Sky,0.0,Neutral
+SBIN,2026-09-04,"SBI, New India Assurance, IFCI, Bank of Baroda & GIC RE are in focus ahead of NSE IPO; here is why",Upstox,0.34,Positive
+SBIN,2026-09-06,"NSE IPO countdown begins: SBI, IFCI, GIC Re, Bank of Baroda shares in focus after SEBI nod",Upstox,0.296,Positive
+SBIN,2026-09-06,"SBI to hire 12,000 personnel, add 250 new branches during FY27: Chairman",Business Standard,0.0,Neutral
+SBIN,2026-09-06,"Stocks to watch, September 7: Tata Motors, oil-linked stocks, SBI, IFCI, Lupin, NMDC, HUL, IndusInd Bank",Upstox,0.0,Neutral
+SBIN,2026-09-07,"NSE IPO effect: SBI, NIACL, GIC Re, Bank of Baroda, IFCI in focus as SEBI clears NSE's ₹30,000 crore IPO",Kotak Neo,0.0772,Positive
+SBIN,2026-09-07,"NSE IPO: How SBI, IFCI, GIC Re, Bank of Baroda shares reacted after Sebi approval",Fortune India,0.5267,Positive
+SBIN,2026-09-08,"SBI, BoB, Canara Bank: 8 out of 12 Nifty PSU Bank stocks trade below 200-DMA",Business Standard,0.4019,Positive
+SBIN,2026-09-09,SBI cautions customers ahead of September 11 nationwide bank strike,Business Standard,-0.128,Negative
+SBIN,2026-09-10,"NSE IPO shrinks as SBI, Bank of Baroda, MS Strategic trim their OFS size",Business Standard,0.0,Neutral
+SBIN,2026-09-11,SBI-led group of banks to provide $3.5 billion of debt financing to Vi,Business Standard,-0.3612,Negative
+SBIN,2026-09-15,"NSE IPO: SBI-Led PSUs Could Make Over ₹12,800 Crore Profit From Share Sale",Kotak Neo,0.4939,Positive
+SBIN,2026-09-16,SBI shares rise 1% as NSE IPO opens; Jefferies sees 15%+ ROE,Upstox,0.5267,Positive
+SBIN,2026-09-17,Where Could SBI Share Price Potentially be in the Next 5 Years?,Equitymaster,0.296,Positive
+SBIN,2026-09-24,"SBI anticipates UPI MDR to cover costs, generate surplus",Rediff,0.0,Neutral
+SBIN,2026-09-28,SBI retains 25% debit card market share in Aug’26; HDFC Bank continues to lead credit cards,bfsi.economictimes.indiatimes.com,0.5859,Positive
+SBIN,2026-09-30,State Bank of India buys nearly 40% of Reliance's $1.35 billion debt sale,Reuters,-0.3612,Negative
+SBIN,2026-10-09,"SBI, Axis, Kotak Mahindra rise up to 3%: Read why banking stocks are gaining today",India Infoline,0.6124,Positive
+SBIN,2026-10-09,"HDFC Bank, SBI, Federal, Canara Bank up 2%; what's driving banking stocks?",Business Standard,0.0,Neutral
+SBIN,2026-10-12,State Bank Of India Share Price Fall: Key Valuation View,Univest,-0.0772,Negative
+SBIN,2026-10-12,Nifty Bank Share Price Falls Over 400 Points As RBI Tightens Liquidity And Bond Yields Hit A Three-Year High,Kotak Neo,0.34,Positive
+SBIN,2026-10-19,"CareEdge Global IFSC to sell 19.8% stake to State Bank of India, NSEIX",Business Standard,0.0,Neutral
+SBIN,2026-10-21,Data breach: SBI admits exposure of its customer data on the Dark Web,The Hindu,0.296,Positive
+SBIN,2026-10-21,"State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",The Hacker News,-0.34,Negative
+SBIN,2026-10-21,"SBI says 375,000 records leaked on dark web; 3,897 had personal details",The Indian Express,-0.3182,Negative
+SBIN,2026-10-23,Data breach: SBI says it individually informed all affected customers,The Hindu,-0.1531,Negative
+SBIN,2026-10-26,"SBI Funds slips 7%, hits new low post Q2 results; down 24% from issue price",Business Standard,-0.5106,Negative
+SBIN,2026-10-27,SBI data exposure puts India’s cybersecurity ecosystem under scrutiny,ET Entrepreneur,0.0,Neutral
 SBIN,2026-10-28,ICICI Lombard acquires ₹1.72 bn worth of State Bank of India shares,scanx.trade,0.4767,Positive
+SBIN,2026-10-31,"SBI Q2 FY27 Results Tuesday: Can the Bank Beat a Record Rs 21,121 Crore Profit?",NiftyTrader,0.6908,Positive
+SBIN,2026-11-02,SBI Q2 preview: NII to rise 11-13%; margin to hold on lower FCNR(B) flows,Business Standard,0.0,Neutral
+SBIN,2026-11-02,SBI Q2 results: Net profit seen rising 45% on stake-sale gains and income growth,TradingView,0.7269,Positive
 SBIN,2026-11-03,State Bank of India quarterly profit rises; to boost cybersecurity after breach,Reuters,0.7096,Positive
+SBIN,2026-11-03,"SBI Q2 Results: Core income grows nearly 15%, asset quality stable; Stock cools from highs - CNBC TV18",LinkedIn,0.5719,Positive
+SBIN,2026-11-03,"Earnings call transcript: State Bank of India Q2 2027 profit rises, stock falls 5% By Investing.com",Investing.com India,0.1779,Positive
+SBIN,2026-11-03,Why SBI shares fell sharply after Q2,CNBC TV18,0.296,Positive
+SBIN,2026-11-03,"SBI’s Profit Beats Estimates on Loan Growth, One-Time Gain",Bloomberg.com,0.8225,Positive
+SBIN,2026-11-03,"SBI Q2 results: Net profit rises 14% to Rs 23,038 crore, aided by exceptional gain; NII beats estimates",Moneycontrol.com,0.8297,Positive
+SBIN,2026-11-03,"SBI Q2FY27 results: Net profit rose 14% on loan growth, stake sales",Business Standard,0.5574,Positive
+SBIN,2026-11-03,State Bank of India shares fall despite 14% Q2 profit rise,Multibagg AI,0.0413,Neutral
+SBIN,2026-11-03,"SBI net profit advances 14% to ₹23,038 crore, NII surges 15%",Upstox,0.6705,Positive
+SBIN,2026-11-03,"SBI Q2FY27 transcript: NIM hits 3.11%, credit growth guided at 14-15%",scanx.trade,0.6369,Positive
 SBIN,2026-11-04,SBI share price: Brokerages retain Buy ratings after Q2 results,BusinessLine,0.296,Positive
-SBIN,2026-11-17,"Sensex and Nifty Today: Asian Paints, SBI Lead Gains",Business Outreach Magazine,0.6369,Positive
+SBIN,2026-11-04,"SBI share price outlook: Brokerages bullish post Q2 results on margins, asset quality, but flag one-off...",Moneycontrol.com,0.5187,Positive
+SBIN,2026-11-04,"SBI Q2 Results: Net Profit Rises 14.28% to ₹23,038 Crore",HDFC Sky,0.4939,Positive
+SBIN,2026-11-04,"SBI net rises 14% to 23k crore, shares slip 1.8%",The Times of India,0.5267,Positive
+SBIN,2026-11-04,"SBI shares: Strong NII, improving margins drive analysts' optimism after Q2",Business Standard,0.8957,Positive
+SBIN,2026-11-04,Buy State Bank of India; target of Rs 1350: Emkay Global Financial,Moneycontrol.com,0.0,Neutral
+SBIN,2026-11-04,"SBI shares rise about 1.5%, top Nifty gainer as brokerages remain bullish after Q2 results",Moneycontrol.com,0.872,Positive
+SBIN,2026-11-04,SBI's highest share price target indicates an upside potential of over 40% after Q2 results; Details here,CNBC TV18,0.296,Positive
+SBIN,2026-11-04,SBI vs SBI Life vs SBI Cards: Which SBI Group stock emerged as the Q2 results 2026 winner? Check technical targets,TradingView,0.5859,Positive
+SBIN,2026-11-04,"SBI for joint cyber vigil, seeks formal bank system to share threat intelligence",Telegraph India,0.2263,Positive
+SBIN,2026-11-05,"SBI shares gain nearly 2% after Q2 results; Nomura cuts target price to Rs 1,100",Moneycontrol.com,0.3612,Positive
+SBIN,2026-11-06,State Bank of India meets institutional investors in New York,scanx.trade,0.0,Neutral
+SBIN,2026-11-11,"SBI shares gain 1%, among top Nifty gainers, as brokerages bullish on loan growth, profitability outlook",TradingView,0.9313,Positive
+SBIN,2026-11-11,"SBI, IOB, PNB shares fly high; NIFTY PSU Bank index surges 15% in a month",Upstox,0.8455,Positive
+SBIN,2026-11-11,"SBI Share Price: 21.7% CAGR vs ICICI Bank, Axis Bank",Univest,0.296,Positive
+SBIN,2026-11-11,"ICICI Bank Share Price: 19.2% CAGR vs SBI, Axis Bank",Univest,0.296,Positive
+SBIN,2026-11-12,Nifty 50 Gainer SBI Retains Bullish Ratings From CLSA and Goldman After Investor Meet,NiftyTrader,0.6908,Positive
+SBIN,2026-11-13,"Union Bank of India Share Price: 25.3% CAGR vs SBI, Canara",Univest,0.296,Positive
+SBIN,2026-11-14,SBI Funds Management Shares Fell After Listing At A Modest 7% Premium,https://www.fintechbiznews.com/,0.296,Positive
+SBIN,2026-11-17,"Stock Radar: SBI stock showing signs of reversal, forms pattern similar to triple-bottom; time to buy?",The Economic Times,0.0,Neutral
 SBIN,2026-11-18,"SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat",Business Standard,0.0,Neutral
-SBIN,2026-11-18,"Nifty Bank 62,000: Record Run, Key Levels and Bank Stocks",Univest,0.5994,Positive
-SBIN,2026-11-18,Meet India’s 3 cheapest PSU banks. All are growing loans faster than SBI,The Financial Express,0.1779,Positive
-SBIN,2026-11-18,"PNB, Union Bank, BoB, SBI, ICICI shares soar up to 30% in a month; why banking stocks are rising",Business Today,0.6908,Positive
+SBIN,2026-11-18,"SBI Funds, Punjab National Bank enter into distribution partnership",Business Standard,0.0,Neutral
 SBIN,2026-11-19,"PSU Bank index nears record high; SBI, PNB, BoI rally up 27% in November",Business Standard,0.6369,Positive
 TCS,2026-10-08,International Growth and Strategic Wins Underpin TCS’ Q2,Tata Consultancy Services,0.6249,Positive
 TCS,2026-10-11,Analysts Have Made A Financial Statement On Tata Consultancy Services Limited's (NSE:TCS) Second-Quarter Report,Simply Wall St,0.0,Neutral

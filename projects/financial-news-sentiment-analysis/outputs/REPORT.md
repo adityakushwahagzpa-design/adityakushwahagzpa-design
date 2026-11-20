@@ -1,28 +1,28 @@
 # News Sentiment Report
 
-Generated 20 Nov 2026. 227 headlines for 10 companies, 24 Aug 2026 to 20 Nov 2026.
+Generated 20 Nov 2026. 327 headlines for 10 companies, 22 Aug 2026 to 20 Nov 2026.
 
 ## Key Results
 
-- **Headline mix:** 121 positive, 53 neutral, 53 negative.
-- **Most positive coverage:** SBIN (avg +0.47); **most negative:** TMPV (avg -0.01).
-- **Same-day link:** correlation between daily sentiment and that day's return = **0.61** across 106 company-days.
-- **Next-day link:** correlation with the following day's return = **-0.00**.
-- **Average return on positive-news days:** +0.92%; on negative-news days: -2.78%.
+- **Headline mix:** 182 positive, 76 neutral, 69 negative.
+- **Most positive coverage:** TCS (avg +0.32); **most negative:** TMPV (avg -0.01).
+- **Same-day link:** correlation between daily sentiment and that day's return = **0.47** across 147 company-days.
+- **Next-day link:** correlation with the following day's return = **0.05**.
+- **Average return on positive-news days:** +0.74%; on negative-news days: -1.84%.
 
 ## Sentiment by Company
 
 | Symbol     |   Headlines |   Avg_Sentiment |   Positive_pct |   Negative_pct |
 |:-----------|------------:|----------------:|---------------:|---------------:|
-| SBIN       |           9 |           0.469 |         88.889 |          0     |
 | TCS        |          17 |           0.319 |         64.706 |         11.765 |
 | BHARTIARTL |          17 |           0.311 |         64.706 |          0     |
-| RELIANCE   |          27 |           0.278 |         70.37  |         22.222 |
+| SBIN       |          68 |           0.29  |         63.235 |         11.765 |
+| RELIANCE   |          26 |           0.28  |         69.231 |         23.077 |
 | ICICIBANK  |          21 |           0.273 |         52.381 |          4.762 |
 | HDFCBANK   |          30 |           0.235 |         56.667 |         20     |
 | INFY       |          30 |           0.161 |         53.333 |         26.667 |
-| ITC        |          11 |           0.112 |         45.455 |         36.364 |
-| ADANIENT   |          15 |           0.007 |         40     |         33.333 |
+| ITC        |          10 |           0.146 |         50     |         30     |
+| ADANIENT   |          58 |           0.14  |         56.897 |         24.138 |
 | TMPV       |          50 |          -0.012 |         34     |         42     |
 
 ![By company](chart_sentiment_by_company.png)
@@ -33,11 +33,11 @@ Generated 20 Nov 2026. 227 headlines for 10 companies, 24 Aug 2026 to 20 Nov 202
 
 | Symbol    | Date        | Headline                                                                                                                 |   Sentiment |
 |:----------|:------------|:-------------------------------------------------------------------------------------------------------------------------|------------:|
+| SBIN      | 11 Nov 2026 | SBI shares gain 1%, among top Nifty gainers, as brokerages bullish on loan growth, profitability outlook                 |        0.93 |
 | TMPV      | 19 Nov 2026 | Maruti Suzuki shares jump 5%, M&M, Tata Motors, Eicher Motors rally as Nifty Auto surges 2.6%                            |        0.92 |
 | HDFCBANK  | 05 Nov 2026 | HDFC Bank shares witness strong buying, rise 7% in 1 month. Can new CEO, improving fundamentals drive next leg of rally? |        0.91 |
 | TMPV      | 19 Nov 2026 | Auto stocks hit the accelerator! Nifty Auto jumps 4%; Maruti, M&M, Hyundai lead the rally / What's behind the surge?     |        0.91 |
 | ICICIBANK | 18 Nov 2026 | Nifty Bank crosses 62,000, jumps 20% from 52-week low: What's driving rally? Check performance; best bank stock to buy?  |        0.9  |
-| RELIANCE  | 02 Nov 2026 | Reliance Industries shares jump nearly 12% after record Q2 results; top Nifty gainer, biggest index...                   |        0.87 |
 
 ## Most Negative Headlines
 
