@@ -188,7 +188,7 @@ def save_comparison(snaps):
     df = pd.DataFrame(snaps)[["Symbol"] + cols]
     df["Market Cap"] = (df["Market Cap"] / CRORE).round(0)
     df = df.rename(columns={"Market Cap": "Market Cap (₹ cr)"})
-    df.to_csv(OUT / "comparison.csv", index=False)
+    df.round(2).to_csv(OUT / "comparison.csv", index=False)
     md = ["# Watchlist Comparison", "", f"Generated {datetime.now():%d %b %Y}. "
           "Click a symbol for its full snapshot.", ""]
     show = df.copy().round(2)
