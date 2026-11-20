@@ -70,11 +70,12 @@ def row_from_statement(stmt, names):
 def get_snapshot(symbol):
     t = yf.Ticker(f"{symbol}.NS")
     info = t.info or {}
-    hist = t.history(period="1y", auto_adjust=True)
+    hist = t.history(period="2y", auto_adjust=True)  # 2 years so the 200-day average covers the full chart
     if hist.empty:
         raise ValueError(f"No price data found for {symbol}")
 
     close = hist["Close"]
+    close = close[close.index >= close.index[-1] - pd.Timedelta(days=365)]  # last 12 months
     price = num(info.get("currentPrice")) or close.iloc[-1]
     high52, low52 = close.max(), close.min()
 
@@ -139,11 +140,14 @@ def print_snapshot(s, yearly):
 
 
 def save_chart(symbol, hist):
-    close = hist["Close"]
+    full = hist["Close"]
+    ma50, ma200 = full.rolling(50).mean(), full.rolling(200).mean()
+    keep = full.index >= full.index[-1] - pd.Timedelta(days=365)
+    close, ma50, ma200 = full[keep], ma50[keep], ma200[keep]
     fig, ax = plt.subplots(figsize=(10, 4.5))
     ax.plot(close.index, close, color="#7c3aed", lw=1.6, label="Close")
-    ax.plot(close.index, close.rolling(50).mean(), color="#3b82f6", lw=1.1, label="50-day avg")
-    ax.plot(close.index, close.rolling(200).mean(), color="#f59e0b", lw=1.1, label="200-day avg")
+    ax.plot(close.index, ma50, color="#3b82f6", lw=1.1, label="50-day avg")
+    ax.plot(close.index, ma200, color="#f59e0b", lw=1.1, label="200-day avg")
     ax.set_title(f"{symbol}: price over the last 12 months", fontsize=13, weight="bold")
     ax.set_ylabel("₹")
     ax.legend(frameon=False)

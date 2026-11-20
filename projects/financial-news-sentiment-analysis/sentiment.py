@@ -163,9 +163,10 @@ def main():
 
     fig, ax = plt.subplots(figsize=(8, 5.5))
     ax.scatter(merged["Sentiment"], merged["Return %"], color="#7c3aed", alpha=0.55, s=22)
-    if len(merged) > 2:
-        m, c = np.polyfit(merged["Sentiment"], merged["Return %"], 1)
-        xs = np.linspace(-1, 1, 50)
+    fit = merged[["Sentiment", "Return %"]].dropna()
+    if len(fit) > 2:
+        m, c = np.polyfit(fit["Sentiment"], fit["Return %"], 1)
+        xs = np.linspace(fit["Sentiment"].min(), fit["Sentiment"].max(), 50)
         ax.plot(xs, m * xs + c, color="#f59e0b", lw=1.5, label=f"Trend (corr {same_day:.2f})")
         ax.legend(frameon=False)
     ax.axhline(0, color="grey", lw=0.6); ax.axvline(0, color="grey", lw=0.6)

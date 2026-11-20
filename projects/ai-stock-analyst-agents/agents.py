@@ -245,7 +245,9 @@ def main():
     ax.set_yticks(range(len(mat)), mat.index)
     for i in range(mat.shape[0]):
         for j in range(mat.shape[1]):
-            ax.text(j, i, f"{mat.values[i, j]:+.2f}", ha="center", va="center", fontsize=8)
+            v = mat.values[i, j]
+            ax.text(j, i, f"{v:+.2f}", ha="center", va="center", fontsize=8,
+                    color="white" if abs(v) > 0.6 else "black")
     fig.colorbar(im, fraction=0.04, pad=0.03)
     ax.set_title("Agent scores by stock (-1 negative, +1 positive)", fontsize=12, weight="bold")
     fig.tight_layout()
