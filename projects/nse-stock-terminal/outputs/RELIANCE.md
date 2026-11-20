@@ -4,7 +4,7 @@
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹1,359.30 | 1Y Return | -11.8% |
+| Price | ₹1,359.50 | 1Y Return | -11.8% |
 | 52W High | ₹1,584.97 | 52W Low | ₹1,158.00 |
 | Market Cap | n/a | Beta | 0.18 |
 | P/E | 22.40x | P/B | 1.95x |

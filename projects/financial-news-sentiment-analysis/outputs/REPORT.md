@@ -1,29 +1,29 @@
 # News Sentiment Report
 
-Generated 20 Nov 2026. 249 headlines for 10 companies, 24 Aug 2026 to 20 Nov 2026.
+Generated 20 Nov 2026. 227 headlines for 10 companies, 24 Aug 2026 to 20 Nov 2026.
 
 ## Key Results
 
-- **Headline mix:** 136 positive, 58 neutral, 55 negative.
-- **Most positive coverage:** SBIN (avg +0.45); **most negative:** ADANIENT (avg +0.01).
-- **Same-day link:** correlation between daily sentiment and that day's return = **0.59** across 117 company-days.
-- **Next-day link:** correlation with the following day's return = **0.06**.
-- **Average return on positive-news days:** +0.78%; on negative-news days: -3.00%.
+- **Headline mix:** 121 positive, 53 neutral, 53 negative.
+- **Most positive coverage:** SBIN (avg +0.47); **most negative:** TMPV (avg -0.01).
+- **Same-day link:** correlation between daily sentiment and that day's return = **0.61** across 106 company-days.
+- **Next-day link:** correlation with the following day's return = **-0.00**.
+- **Average return on positive-news days:** +0.92%; on negative-news days: -2.78%.
 
 ## Sentiment by Company
 
 | Symbol     |   Headlines |   Avg_Sentiment |   Positive_pct |   Negative_pct |
 |:-----------|------------:|----------------:|---------------:|---------------:|
-| SBIN       |           8 |           0.453 |         87.5   |          0     |
+| SBIN       |           9 |           0.469 |         88.889 |          0     |
 | TCS        |          17 |           0.319 |         64.706 |         11.765 |
 | BHARTIARTL |          17 |           0.311 |         64.706 |          0     |
 | RELIANCE   |          27 |           0.278 |         70.37  |         22.222 |
 | ICICIBANK  |          21 |           0.273 |         52.381 |          4.762 |
 | HDFCBANK   |          30 |           0.235 |         56.667 |         20     |
 | INFY       |          30 |           0.161 |         53.333 |         26.667 |
-| ITC        |          10 |           0.146 |         50     |         30     |
-| TMPV       |          74 |           0.038 |         44.595 |         32.432 |
+| ITC        |          11 |           0.112 |         45.455 |         36.364 |
 | ADANIENT   |          15 |           0.007 |         40     |         33.333 |
+| TMPV       |          50 |          -0.012 |         34     |         42     |
 
 ![By company](chart_sentiment_by_company.png)
 
@@ -46,8 +46,8 @@ Generated 20 Nov 2026. 249 headlines for 10 companies, 24 Aug 2026 to 20 Nov 202
 | TMPV     | 16 Nov 2026 | Tata Motors Passenger Vehicles shares crash over 9% after Rs 5,531 crore quarterly loss, Jaguar Land Rover cuts outlook |       -0.78 |
 | TMPV     | 16 Nov 2026 | India's Tata Motors PV falls on JLR outlook cut, weak Chinese demand                                                    |       -0.76 |
 | TMPV     | 16 Nov 2026 | India’s Tata Motors PV Falls on JLR Outlook Cut, Weak Chinese Demand - The China-Global South Project                   |       -0.76 |
-| TMPV     | 16 Nov 2026 | Tata Motors PV shares plunge over 9% after ₹5,531 crore Q2 loss, JLR guidance cut                                       |       -0.76 |
 | TMPV     | 16 Nov 2026 | Tata Motors PV shares plunge 7%, top Nifty loser as weak JLR margins, guidance cut weigh on outlook                     |       -0.73 |
+| TMPV     | 16 Nov 2026 | Tata Motors PV Shares Crash 9% on Q2 Loss, JLR Outlook                                                                  |       -0.68 |
 
 ## Limitations
 
