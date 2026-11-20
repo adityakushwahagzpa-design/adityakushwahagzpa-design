@@ -187,9 +187,11 @@ def save_comparison(snaps):
     df.to_csv(OUT / "comparison.csv", index=False)
     md = ["# Watchlist Comparison", "", f"Generated {datetime.now():%d %b %Y}. "
           "Click a symbol for its full snapshot.", ""]
-    show = df.copy()
+    show = df.copy().round(2)
     show["Symbol"] = [f"[{x}]({x}.md)" for x in show["Symbol"]]
-    md += [show.round(2).to_markdown(index=False), "",
+    show["Market Cap (₹ cr)"] = [f"{v:,.0f}" if pd.notna(v) else "n/a" for v in show["Market Cap (₹ cr)"]]
+    show = show.astype(object).where(show.notna(), "n/a")
+    md += [show.to_markdown(index=False), "",
            "_Data: Yahoo Finance. For learning purposes only, not investment advice._"]
     (OUT / "COMPARISON.md").write_text("\n".join(md), encoding="utf-8")
 

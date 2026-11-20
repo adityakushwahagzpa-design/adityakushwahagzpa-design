@@ -81,6 +81,7 @@ def fetch_headlines(symbol, query):
     rows = []
     for e in feed.entries:
         title = re.sub(r"\s+-\s+[^-]+$", "", e.get("title", "")).strip()  # drop " - Source"
+        title = title.replace("|", "/")  # "|" would break the markdown tables
         published = pd.to_datetime(e.get("published"), errors="coerce", utc=True)
         if title and pd.notna(published):
             rows.append({"Symbol": symbol, "Date": published.tz_convert("Asia/Kolkata").date(),
@@ -104,7 +105,11 @@ def main():
         got = fetch_headlines(sym, q)
         print(f"{sym}: {len(got)} headlines")
         rows += got
-    news = pd.DataFrame(rows).drop_duplicates(["Symbol", "Headline"])
+    news = pd.DataFrame(rows)
+    # Same story is often syndicated with small wording changes: compare the
+    # first 50 lower-case characters to drop near-duplicates.
+    news["key"] = news["Headline"].str.lower().str[:50]
+    news = news.drop_duplicates(["Symbol", "key"]).drop(columns="key")
     news["Date"] = pd.to_datetime(news["Date"])
     news = news[news["Date"] >= news["Date"].max() - pd.Timedelta(days=90)]
 
