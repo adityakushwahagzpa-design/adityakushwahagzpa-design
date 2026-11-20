@@ -43,9 +43,22 @@ TRADING_DAYS = 252  # used to annualise volatility
 
 def download_prices(tickers, period="2y"):
     """Download daily closing prices for all tickers into one table."""
-    raw = yf.download(list(tickers), period=period, auto_adjust=True,
-                      progress=False, group_by="column")
+    tickers = list(tickers)
+    raw = yf.download(tickers, period=period, auto_adjust=True,
+                      progress=False, group_by="column", threads=False)
     prices = raw["Close"] if isinstance(raw.columns, pd.MultiIndex) else raw[["Close"]]
+    # Retry any ticker that came back empty (downloads sometimes fail briefly)
+    for t in tickers:
+        if t in prices.columns and prices[t].notna().any():
+            continue
+        for _ in range(3):
+            one = yf.Ticker(t).history(period=period, auto_adjust=True)["Close"]
+            if not one.empty:
+                if one.index.tz is not None:
+                    one.index = one.index.tz_localize(None)
+                one.index = one.index.normalize()
+                prices = prices.drop(columns=t, errors="ignore").join(one.rename(t), how="outer")
+                break
     prices = prices.dropna(how="all")
     # Bitcoin trades on weekends; other markets don't. Forward-fill so every
     # asset has a value on every date, then drop rows before data starts.
