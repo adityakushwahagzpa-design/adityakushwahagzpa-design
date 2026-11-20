@@ -4,13 +4,13 @@
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹1,115.80 | 1Y Return | -24.1% |
+| Price | ₹1,116.70 | 1Y Return | -24.0% |
 | 52W High | ₹1,616.97 | 52W Low | ₹963.23 |
-| Market Cap | ₹451,941 cr | Beta | 0.02 |
-| P/E | 14.86x | P/B | 4.64x |
+| Market Cap | ₹452,306 cr | Beta | 0.02 |
+| P/E | 14.87x | P/B | 4.64x |
 | EV/EBITDA | 902.32x | ROE | 30.0% |
 | Net Margin | 16.2% | Debt/Equity | 0.09x |
-| Dividend Yield | 4.7% | Below 52W High | -31.0% |
+| Dividend Yield | 4.7% | Below 52W High | -30.9% |
 
 ## Revenue and Profit
 
