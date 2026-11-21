@@ -18,12 +18,16 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
+import warnings
+
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 OUT = Path(__file__).parent / "outputs"
 OUT.mkdir(exist_ok=True)
 HEADERS = {"User-Agent": os.environ.get("SEC_USER_AGENT") or "Bull Bear Debate Research Project research@example.org"}
-TICKERS = os.environ.get("TICKERS", "NVDA,TSLA,JPM").split(",")
+TICKERS = os.environ.get("TICKERS", "NVDA,TSLA,AAPL").split(",")
 
 RISK_WORDS = ["could", "may", "adversely", "decline", "competition", "regulation", "depend", "loss", "litigation",
               "supply", "customers", "tariff", "export", "credit", "cyber", "interest rate", "concentration"]
@@ -95,6 +99,7 @@ def pick_sentences(text, words, n, prefix):
 
 
 def xbrl_financials(cik):
+    """Last 4 fiscal years from 10-K filings, keyed by fiscal year-end date (works for non-December year ends)."""
     facts = get(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json").json()["facts"].get("us-gaap", {})
     concepts = {
         "Revenue": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet"],
@@ -110,15 +115,21 @@ def xbrl_financials(cik):
             if not units:
                 continue
             df = pd.DataFrame(units)
-            df = df[(df["form"] == "10-K") & (df["fp"] == "FY") & df["frame"].fillna("").str.match(r"^CY\d{4}$")]
+            if "start" not in df:
+                continue
+            df = df[df["form"].isin(["10-K", "10-K/A"])].copy()
+            days = (pd.to_datetime(df["end"]) - pd.to_datetime(df["start"])).dt.days
+            df = df[days.between(350, 380)]
             if df.empty:
                 continue
-            s = df.drop_duplicates("frame", keep="last").set_index("frame")["val"].sort_index().tail(4)
+            s = df.sort_values("filed").drop_duplicates("end", keep="last").set_index("end")["val"].sort_index().tail(4)
             if best is None or s.index.max() > best.index.max():
                 best = s
         if best is not None:
             table[label] = best / 1e9
-    return pd.DataFrame(table).round(2)
+    fin = pd.DataFrame(table).sort_index().tail(4).round(2)
+    fin.index = ["FY ending " + d[:7] for d in fin.index]
+    return fin
 
 
 def market_metrics(ticker):
@@ -158,7 +169,7 @@ def build(ticker):
     fin_lines = []
     for j, (year, row) in enumerate(fin.iterrows()):
         vals = ", ".join(f"{k} ${v:,.2f}bn" for k, v in row.dropna().items())
-        fin_lines.append(f"[F{j + 1}] FY{year[2:]}: {vals}")
+        fin_lines.append(f"[F{j + 1}] {year}: {vals}")
     pack = {
         "ticker": ticker, "company": name, "cik": cik, "10k_url": url, "10k_filed": filed, "period": period,
         "risk_section_words": len(risk.split()), "mda_section_words": len(mda.split()),

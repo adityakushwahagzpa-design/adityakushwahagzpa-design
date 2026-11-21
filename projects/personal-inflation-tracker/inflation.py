@@ -33,7 +33,7 @@ def fetch_cpi(start_year, end_year):
         d = pd.DataFrame(s["data"])
         d = d[d["period"].str.match(r"M(0[1-9]|1[0-2])")]
         d["month"] = pd.to_datetime(d["year"] + "-" + d["period"].str[1:] + "-01")
-        frames.append(d.set_index("month")["value"].astype(float).rename(BLS_SERIES[s["seriesID"]]))
+        frames.append(pd.to_numeric(d.set_index("month")["value"], errors="coerce").rename(BLS_SERIES[s["seriesID"]]))
     return pd.concat(frames, axis=1).sort_index()
 
 

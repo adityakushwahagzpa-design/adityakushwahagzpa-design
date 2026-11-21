@@ -58,7 +58,7 @@ class SAGE(torch.nn.Module):
 
 model = SAGE(x.shape[1])
 opt = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
-weight = torch.tensor([1.0, (y == 0).sum() / max((y == 1).sum(), 1)])  # mules are rare: weight them up
+weight = torch.tensor([1.0, float((y == 0).sum() / max((y == 1).sum(), 1))], dtype=torch.float)  # mules are rare: weight them up
 tr_t = torch.tensor(tr)
 for epoch in range(300):
     model.train(); opt.zero_grad()
