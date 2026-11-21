@@ -10,31 +10,31 @@
       "rho_vs_abnormal": 0.069,
       "p": 0.2083,
       "rho_vs_abs_move": -0.034,
-      "p_abs": 0.5381
+      "p_abs": 0.5379
     },
     "qa_tone": {
       "rho_vs_abnormal": 0.043,
       "p": 0.4297,
       "rho_vs_abs_move": 0.068,
-      "p_abs": 0.2094
+      "p_abs": 0.2095
     },
     "tone_gap": {
       "rho_vs_abnormal": 0.159,
       "p": 0.0034,
       "rho_vs_abs_move": 0.025,
-      "p_abs": 0.6523
+      "p_abs": 0.6527
     },
     "uncertainty_per_1k": {
       "rho_vs_abnormal": -0.012,
       "p": 0.8328,
       "rho_vs_abs_move": -0.067,
-      "p_abs": 0.2179
+      "p_abs": 0.2177
     },
     "evasive_per_1k": {
       "rho_vs_abnormal": 0.052,
       "p": 0.3432,
       "rho_vs_abs_move": -0.0,
-      "p_abs": 0.9962
+      "p_abs": 0.9969
     }
   },
   "quintiles": [
