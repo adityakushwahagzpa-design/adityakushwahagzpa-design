@@ -73,7 +73,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **20 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **45 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
+| **52 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
@@ -133,6 +133,18 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 | **[Credit Appraisal Model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model)** | ₹20 crore term-loan appraisal; DSCR 2.39x, recommended at grade CR-2 | Excel |
 | **[AP Three-Way Match](https://github.com/adityakushwahagzpa-design/ap-three-way-match)** | PO, GRN and invoice matching with quantity and price variance flags and an approval-ready payment list | Excel, PDF |
 | **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
+
+**Classic finance research papers in Python** — seven landmark papers applied to market data, refreshed weekly by GitHub Actions
+
+| Paper | What the project shows |
+|:--|:--|
+| [Markowitz (1952) — Portfolio Selection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/markowitz-efficient-frontier) | Efficient frontier of ten Nifty 50 stocks; diversification cut volatility from 22% to 13%, but optimised weights failed out of sample |
+| [Modigliani & Miller (1958, 1963)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/modigliani-miller-capital-structure) | Firm value, cost of equity and WACC across leverage; trade-off optimum near D/E 0.75 at India's 25.17% tax rate |
+| [Sharpe (1964) — CAPM](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/capm-beta-security-market-line) | Betas of 20 Nifty stocks (0.54 to 1.31); the security market line was almost flat over five years |
+| [Fama (1970) — Efficient Markets](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/efficient-market-hypothesis-tests) | Random-walk tests on 19 years of Nifty data; a 50/200-day trend rule earned 4.9% a year vs 10.9% buy-and-hold |
+| [Black & Scholes (1973)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/black-scholes-option-pricing) | Nifty option prices and Greeks, checked by parity, binomial tree and Monte Carlo; fat tails test the model's assumption |
+| [Kahneman & Tversky (1979) — Prospect Theory](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/prospect-theory-loss-aversion) | Loss aversion applied to Nifty vs fixed deposit: equities win only if checked every 18 months or less often |
+| [Fama & French (1993)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fama-french-three-factor) | Three-factor model on eight US ETFs; R² up from 0.87 to 0.96, and the value premium turned negative after 2007 |
 
 <details>
 <summary><b>More project details</b></summary>
@@ -541,7 +553,7 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 </details>
 
 <details>
-<summary><b>All 45 Projects</b></summary>
+<summary><b>All 52 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
@@ -559,6 +571,7 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 | **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
 | **Python Research & ML** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) · [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) · [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) · [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
 | **Python Analytics & ML** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) · [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) · [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) · [portfolio-performance-analytics](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/portfolio-performance-analytics) · [nifty-market-trend-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-market-trend-dashboard) |
+| **Classic Finance Papers** | [markowitz-efficient-frontier](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/markowitz-efficient-frontier) · [modigliani-miller-capital-structure](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/modigliani-miller-capital-structure) · [capm-beta-security-market-line](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/capm-beta-security-market-line) · [efficient-market-hypothesis-tests](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/efficient-market-hypothesis-tests) · [black-scholes-option-pricing](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/black-scholes-option-pricing) · [prospect-theory-loss-aversion](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/prospect-theory-loss-aversion) · [fama-french-three-factor](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fama-french-three-factor) |
 
 </details>
 

@@ -102,7 +102,7 @@ def main():
                    edgecolor="white", zorder=4, label=lab)
     ax.set(xlabel="Annualised volatility (%)", ylabel="Annualised return (%)",
            title="Efficient frontier: ten Nifty 50 stocks, last five years")
-    ax.legend(loc="lower right", fontsize=8)
+    ax.legend(loc="upper left", fontsize=8)
     save(fig, OUT / "chart_efficient_frontier.png")
 
     # chart 2: weights

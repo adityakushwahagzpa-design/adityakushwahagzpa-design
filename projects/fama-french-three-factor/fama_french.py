@@ -97,9 +97,10 @@ def main():
         ax.annotate(f"{r['ETF']}\n{r['Style']}", (r["FF3 SMB"], r["FF3 HML"]), fontsize=7.5, xytext=(6, -4), textcoords="offset points")
     ax.set(xlabel="SMB loading (← large   small →)", ylabel="HML loading (← growth   value →)",
            title="Fama-French style map of eight ETFs")
-    for x, y, lab in [(0.95, 0.95, "Small value"), (0.05, 0.95, "Large value"), (0.95, 0.05, "Small growth"), (0.05, 0.05, "Large growth")]:
+    ax.margins(x=0.25, y=0.25)
+    for x, y, lab in [(0.98, 0.98, "Small value"), (0.02, 0.98, "Large value"), (0.98, 0.02, "Small growth"), (0.02, 0.02, "Large growth")]:
         ax.text(x, y, lab, transform=ax.transAxes, ha="right" if x > 0.5 else "left", va="top" if y > 0.5 else "bottom",
-                color=ROSE, fontsize=9, fontweight="bold")
+                color=ROSE, fontsize=9, fontweight="bold", alpha=0.8)
     save(fig, OUT / "chart_style_map.png")
 
     fig, ax = plt.subplots(figsize=(9, 4.5))
