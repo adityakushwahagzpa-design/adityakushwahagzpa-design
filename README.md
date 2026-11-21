@@ -71,6 +71,7 @@ This profile is my working portfolio. Every project has its own repository with 
 <p>
   <img src="https://skillicons.dev/icons?i=py,mysql&theme=dark" alt="Python, SQL"/>
   <a href="https://www.mygreatlearning.com/certificate/RTCBKOTD"><img src="https://img.shields.io/badge/SAP%20FICO-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP FICO"/></a>
+  <a href="https://alison.com/verify/af5fd318af"><img src="https://img.shields.io/badge/SAP%20GRC-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP GRC"/></a>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
 </p>
 
@@ -572,7 +573,7 @@ Leadership of the university finance club and its 5-member core team.
 | **Head, Arthashastra Finance Club** | Christ University, 2024 – 2025 |
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
-| **19 Professional Certifications** | Finance, accounting, risk, data and AI |
+| **20 Professional Certifications** | Finance, accounting, risk, data and AI |
 | **45 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
@@ -603,6 +604,7 @@ Leadership of the university finance club and its 5-member core team.
 <p>
   <a href="certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg"><img src="https://img.shields.io/badge/KPMG%20in%20India-Financial%20Forecasting%20%26%20Modelling-312E81?style=for-the-badge" alt="KPMG"/></a>
   <img src="https://img.shields.io/badge/Great%20Learning-SAP%20FICO%20for%20Finance%20Professionals-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP FICO"/>
+  <a href="https://alison.com/verify/af5fd318af"><img src="https://img.shields.io/badge/Alison-SAP%20Governance%2C%20Risk%20%26%20Compliance%20(GRC)-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP GRC"/></a>
   <img src="https://img.shields.io/badge/NYIF-Risk%20Management-6D28D9?style=for-the-badge" alt="NYIF"/>
 </p>
 
@@ -638,6 +640,12 @@ Leadership of the university finance club and its 5-member core team.
 **SAP FICO for Finance Professionals** — Great Learning, Nov 2026 · [Verify](https://www.mygreatlearning.com/certificate/RTCBKOTD) · [PDF](certificates/SAP_FICO_Great_Learning.pdf)
 
 <img src="certificates/SAP_FICO_Great_Learning.png" alt="SAP FICO for Finance Professionals certificate – Great Learning" width="480"/>
+
+**SAP Governance, Risk, and Compliance (GRC)** — Alison, Nov 2026 · Credential ID 6754-61766250 · [Verify](https://alison.com/verify/af5fd318af) · [PDF](certificates/SAP_GRC_Alison.pdf)
+
+Course on the SAP GRC module: Access Control (user access and segregation of duties), Process Control (internal controls and compliance checks) and Risk Management (risk identification, assessment and response). Also covers risk assessment techniques, advanced GRC features, integration of GRC into business processes, implementation skills, and Global Trade Services for international trade compliance.
+
+<img src="certificates/SAP_GRC_Alison.png" alt="SAP Governance, Risk, and Compliance (GRC) certificate – Alison" width="480"/>
 
 **Certified Financial Forecasting and Modeling using Excel** — KPMG in India, Nov 2024 · [Certificate](certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg)
 
@@ -700,7 +708,6 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 
 ```yaml
 learning:
-  - SAP GRC (Access Control, Process Control, Risk Management)
   - Advanced Power BI data modelling
 
 building:
