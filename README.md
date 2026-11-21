@@ -80,14 +80,14 @@ Leadership of the university finance club and its 5-member core team.
 
 | Provider | Certification |
 |:--|:--|
-| <img src="https://img.shields.io/badge/Oracle-C74634?style=flat-square&logo=oracle&logoColor=white" alt="Oracle"/> | [OCI 2025 Generative AI Professional · Data Science Professional · AI Foundations Associate](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) |
+| <img src="https://img.shields.io/badge/Oracle-C74634?style=flat-square&logo=oracle&logoColor=white" alt="Oracle"/> | [OCI 2025 Generative AI Professional](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) · [Data Science Professional](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) · [AI Foundations Associate](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) |
 | <img src="https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white" alt="SAP"/> | [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) (Great Learning) · [Essentials of SAP GRC](https://alison.com/verify/af5fd318af) (Alison) · SAP FICO (Udemy) |
 | <img src="https://img.shields.io/badge/KPMG%20in%20India-00338D?style=flat-square&logo=kpmg&logoColor=white" alt="KPMG in India"/> | [Certified Financial Forecasting and Modelling using Excel](certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft"/> | Power BI Data Analyst · SQL Server · Preparing Data for Analysis with Excel |
-| <img src="https://img.shields.io/badge/Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="Coursera"/> | Mergers & Acquisitions (University of Illinois) · Forensic Accounting (West Virginia University) |
+| <img src="https://img.shields.io/badge/Universities-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="Universities (Coursera)"/> | [Mergers & Acquisitions](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) (University of Illinois) · Forensic Accounting (West Virginia University) |
 | <img src="https://img.shields.io/badge/NYIF-1F3B73?style=flat-square" alt="NYIF"/> | Risk Management |
-| <img src="https://img.shields.io/badge/Forage-5A1530?style=flat-square" alt="Forage simulations"/> | EY Audit · Standard Chartered Credit Analyst |
-| <img src="https://img.shields.io/badge/Others-8C3B5E?style=flat-square" alt="Others"/> | IFRS 15 & ASC 606 (EDUCBA) · BFSI Essentials (Board Infinity) · Statutory Compliance & Taxation (Tally) · [Power BI Masterclass](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) (Udemy) · Generative AI for Product Managers (IBM iX) |
+| <img src="https://img.shields.io/badge/Forage-5A1530?style=flat-square" alt="Forage simulations"/> | EY Audit · [Standard Chartered Credit Analyst](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) |
+| <img src="https://img.shields.io/badge/Others-8C3B5E?style=flat-square" alt="Others"/> | IFRS 15 & ASC 606 (EDUCBA) · BFSI Essentials (Board Infinity) · Statutory Compliance & Taxation (Tally) · [Power BI Masterclass](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) (Udemy) · [Generative AI for Product Managers](https://www.coursera.org/account/accomplishments/specialization/certificate/4D2NTB8PZ008) (IBM iX) |
 
 <details>
 <summary><b>Certificate Copies</b></summary>
