@@ -1,0 +1,14 @@
+pandas
+numpy
+scipy
+huggingface_hub
+pyarrow
+transformers
+torch
+yfinance
+matplotlib
+tabulate
+streamlit
+# optional audio module
+# openai-whisper
+# librosa

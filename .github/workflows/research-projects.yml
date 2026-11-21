@@ -1,0 +1,96 @@
+name: Run Research Projects
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "projects/money-mule-ring-detector/**.py"
+      - "projects/insider-cluster-buy-radar/**.py"
+      - "projects/earnings-call-stress-detector/**.py"
+      - "projects/bull-bear-ai-debate/**.py"
+      - "projects/personal-inflation-tracker/**.py"
+      - ".github/workflows/research-projects.yml"
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-projects
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: radar
+          POSTGRES_PASSWORD: radar
+          POSTGRES_DB: radar
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U radar" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Tesseract OCR
+        run: sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr
+
+      - name: Install libraries
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q torch_geometric pandas numpy scipy matplotlib tabulate requests yfinance sqlalchemy \
+            psycopg2-binary networkx scikit-learn python-louvain beautifulsoup4 lxml pillow \
+            huggingface_hub pyarrow transformers anthropic
+
+      - name: Money mule ring detector
+        working-directory: projects/money-mule-ring-detector
+        run: python generate_data.py && python detect.py && python export_neo4j.py && python gnn.py
+        continue-on-error: true
+
+      - name: Insider cluster-buy radar (PostgreSQL)
+        working-directory: projects/insider-cluster-buy-radar
+        env:
+          DATABASE_URL: postgresql+psycopg2://radar:radar@localhost:5432/radar
+        run: python radar.py
+        continue-on-error: true
+
+      - name: Personal inflation tracker
+        working-directory: projects/personal-inflation-tracker
+        run: python make_receipts.py && python ocr_receipts.py && python inflation.py
+        continue-on-error: true
+
+      - name: Bull vs bear AI debate
+        working-directory: projects/bull-bear-ai-debate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python evidence.py && python debate.py
+        continue-on-error: true
+
+      - name: Earnings call stress detector
+        working-directory: projects/earnings-call-stress-detector
+        env:
+          N_CALLS: "400"
+        run: python stress.py
+        continue-on-error: true
+
+      - name: Save outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/*/outputs projects/money-mule-ring-detector/data projects/money-mule-ring-detector/neo4j \
+                  projects/personal-inflation-tracker/receipts projects/personal-inflation-tracker/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Update research project outputs"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin main && break; sleep 5; done

@@ -1,0 +1,9 @@
+requests
+pandas
+numpy
+beautifulsoup4
+lxml
+yfinance
+matplotlib
+anthropic
+streamlit

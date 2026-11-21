@@ -1,0 +1,9 @@
+pandas
+numpy
+networkx>=3.2
+scikit-learn
+matplotlib
+streamlit
+# optional, for gnn.py:
+# torch
+# torch_geometric

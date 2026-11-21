@@ -1,0 +1,7 @@
+pandas
+numpy
+requests
+pillow
+matplotlib
+streamlit
+# system: tesseract-ocr (apt install tesseract-ocr / brew install tesseract)
