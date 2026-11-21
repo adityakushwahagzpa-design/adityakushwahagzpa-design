@@ -1,0 +1,70 @@
+name: Run ML & Analytics Projects
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "projects/nifty-market-trend-dashboard/**.py"
+      - "projects/credit-default-prediction-ml/**.py"
+      - "projects/portfolio-performance-analytics/**"
+      - "projects/financial-statement-analyzer/**.py"
+      - "projects/card-fraud-anomaly-detection/**.py"
+      - ".github/workflows/ml-finance-projects.yml"
+  schedule:
+    - cron: "47 2 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ml-finance-projects
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install libraries
+        run: pip install -q pandas numpy scipy scikit-learn yfinance matplotlib tabulate openpyxl xlrd requests
+
+      - name: Nifty 50 market trend dashboard
+        working-directory: projects/nifty-market-trend-dashboard
+        run: python market.py
+        continue-on-error: true
+
+      - name: Portfolio performance analytics
+        working-directory: projects/portfolio-performance-analytics
+        run: python tracker.py
+        continue-on-error: true
+
+      - name: Financial statement analyzer
+        working-directory: projects/financial-statement-analyzer
+        run: python analyzer.py
+        continue-on-error: true
+
+      - name: Credit default prediction
+        working-directory: projects/credit-default-prediction-ml
+        run: python model.py
+        continue-on-error: true
+
+      - name: Card fraud anomaly detection
+        working-directory: projects/card-fraud-anomaly-detection
+        run: python detect.py
+        continue-on-error: true
+
+      - name: Save outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/*/outputs
+          git diff --cached --quiet && exit 0
+          git commit -m "Update ML and analytics project outputs"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin main && break; sleep 5; done
