@@ -48,7 +48,7 @@ MARKET DATA (yfinance):
 [P5] beta vs SPY: 1.91
 [P6] last price: 125.53
 [P7] as of: 2026-11-20
-[P8] trailing P/E: 15.7
+[P8] trailing P/E: 13.5
 [P9] forward P/E: 7.6
 [P10] P/S: 8.4
 [P11] market cap $bn: 3031.2
