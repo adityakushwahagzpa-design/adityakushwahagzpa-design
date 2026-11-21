@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-36%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-41%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/aditya-kushwaha16"><img src="https://img.shields.io/badge/LinkedIn-Connect-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:adityakushwahagzpa@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20to%20me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/adityakushwahagzpa-design"><img src="https://img.shields.io/badge/GitHub-Follow-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -347,7 +347,93 @@ VADER with a custom finance word list; the result shows headlines mostly describ
 </details>
 
 <details>
-<summary><b>All 36 Projects</b></summary>
+<summary><b>Money Mule Ring Detector</b></summary>
+<br/>
+
+Graph analytics that find money mule rings in a bank transfer network.
+
+| | |
+|:--|:--|
+| **Stack** | NetworkX, scikit-learn, PyTorch Geometric (GraphSAGE), Neo4j |
+| **Scope** | 2,000+ accounts, ~64,000 transfers, 8 hidden rings (synthetic) |
+| **Key Result** | All 8 rings found; graph neural network precision 0.91, recall 1.00 vs rules 1.00 / 0.84 |
+| **Repository** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) |
+
+AML rule scoring, Louvain ring grouping, machine learning and Cypher queries for cycles and fan-in hubs.
+
+</details>
+
+<details>
+<summary><b>Insider Cluster-Buy Radar</b></summary>
+<br/>
+
+Flags US stocks where 3+ insiders bought shares within 14 days, using SEC Form 4 data.
+
+| | |
+|:--|:--|
+| **Stack** | pandas, PostgreSQL, SQLAlchemy, SEC EDGAR, yfinance |
+| **Scope** | 8,417 insider purchases, Q1 2025 to Q1 2026 |
+| **Key Result** | 491 clusters: +2.1 pts vs SPY after 1 week, but median -5.4 pts after 3 months |
+| **Refresh** | Auto-updated every Monday by GitHub Actions |
+| **Repository** | [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) |
+
+Weekly alert list from a PostgreSQL database, with returns measured at three horizons.
+
+</details>
+
+<details>
+<summary><b>Earnings Call Stress Detector</b></summary>
+<br/>
+
+FinBERT and word-list scoring of management tone in the Q&A of S&P 500 earnings calls.
+
+| | |
+|:--|:--|
+| **Stack** | Hugging Face FinBERT, pandas, SciPy, yfinance; Whisper and librosa for audio |
+| **Scope** | 338 calls, 246 companies, 2023–2025 |
+| **Key Result** | Q&A less positive than prepared remarks in 82% of calls; stress index did not predict next-day returns (rho 0.07, p 0.21) |
+| **Repository** | [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) |
+
+Prepared remarks vs Q&A tone, uncertainty words and evasive phrases, tested against market reactions.
+
+</details>
+
+<details>
+<summary><b>Bull vs Bear AI Debate</b></summary>
+<br/>
+
+Two Claude agents argue a stock from 10-K evidence; a judge agent returns a verdict.
+
+| | |
+|:--|:--|
+| **Stack** | Anthropic Claude API, SEC EDGAR and XBRL, BeautifulSoup, yfinance, Streamlit |
+| **Scope** | NVIDIA, Tesla, Apple |
+| **Key Result** | NVIDIA: +65.5% revenue at 55.6% net margin, yet -35.5 pts vs S&P 500 over the year at 7.6x forward P/E |
+| **Repository** | [bull-bear-ai-debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate) |
+
+Every claim must cite an evidence ID from the 10-K, XBRL financials or market data.
+
+</details>
+
+<details>
+<summary><b>Personal Inflation Tracker</b></summary>
+<br/>
+
+OCR of grocery receipts into a personal price index, compared with official US CPI.
+
+| | |
+|:--|:--|
+| **Stack** | Tesseract OCR, pandas, BLS API, Streamlit |
+| **Scope** | 24 sample receipts (fictional store), 14 items; real BLS CPI |
+| **Key Result** | OCR read 97.3% of lines; sample basket inflation 4.8% vs 1.8% CPI food at home |
+| **Repository** | [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
+
+Price checks on every receipt line and a fixed-basket index by item and category. Receipts are clearly labelled sample data.
+
+</details>
+
+<details>
+<summary><b>All 41 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
@@ -363,6 +449,7 @@ VADER with a custom finance word list; the result shows headlines mostly describ
 | **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) |
 | **Equity & Industry Research** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) · [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
 | **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
+| **Python Research & ML** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) · [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) · [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) · [bull-bear-ai-debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate) · [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
 
 </details>
 
@@ -416,7 +503,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **19 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **36 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations and Python |
+| **41 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
