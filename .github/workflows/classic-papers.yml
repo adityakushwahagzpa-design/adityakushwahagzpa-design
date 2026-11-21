@@ -1,0 +1,89 @@
+name: Run Classic Finance Paper Projects
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "projects/markowitz-efficient-frontier/**.py"
+      - "projects/modigliani-miller-capital-structure/**.py"
+      - "projects/capm-beta-security-market-line/**.py"
+      - "projects/efficient-market-hypothesis-tests/**.py"
+      - "projects/black-scholes-option-pricing/**.py"
+      - "projects/prospect-theory-loss-aversion/**.py"
+      - "projects/fama-french-three-factor/**.py"
+      - ".github/workflows/classic-papers.yml"
+  schedule:
+    - cron: "27 5 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: classic-papers
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install libraries
+        run: pip install -q pandas numpy scipy matplotlib yfinance tabulate
+
+      - name: Markowitz efficient frontier
+        working-directory: projects/markowitz-efficient-frontier
+        run: python frontier.py
+        continue-on-error: true
+
+      - name: Modigliani-Miller capital structure
+        working-directory: projects/modigliani-miller-capital-structure
+        run: python capital_structure.py
+        continue-on-error: true
+
+      - name: CAPM beta and security market line
+        working-directory: projects/capm-beta-security-market-line
+        run: python capm.py
+        continue-on-error: true
+
+      - name: Efficient market hypothesis tests
+        working-directory: projects/efficient-market-hypothesis-tests
+        run: python emh_tests.py
+        continue-on-error: true
+
+      - name: Black-Scholes option pricing
+        working-directory: projects/black-scholes-option-pricing
+        run: python black_scholes.py
+        continue-on-error: true
+
+      - name: Prospect theory and loss aversion
+        working-directory: projects/prospect-theory-loss-aversion
+        run: python prospect_theory.py
+        continue-on-error: true
+
+      - name: Fama-French three-factor model
+        working-directory: projects/fama-french-three-factor
+        run: python fama_french.py
+        continue-on-error: true
+
+      - name: Save outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          P="projects/markowitz-efficient-frontier projects/modigliani-miller-capital-structure projects/capm-beta-security-market-line projects/efficient-market-hypothesis-tests projects/black-scholes-option-pricing projects/prospect-theory-loss-aversion projects/fama-french-three-factor"
+          tar czf /tmp/outputs.tgz $(for p in $P; do echo $p/outputs; done)
+          for i in 1 2 3; do
+            for p in $P; do git add $p/outputs; done
+            git diff --cached --quiet && exit 0
+            git commit -q -m "Update classic finance paper project outputs"
+            git push -q origin HEAD:main && exit 0
+            git fetch -q origin main && git reset -q --hard origin/main && tar xzf /tmp/outputs.tgz
+            sleep 5
+          done
+          exit 1
