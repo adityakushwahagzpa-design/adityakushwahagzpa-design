@@ -3,46 +3,67 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MBA-Finance%20%C2%B7%20Christ%20University-701A3D?style=flat-square" alt="MBA"/>
-  <img src="https://img.shields.io/badge/B.Com-University%20of%20Lucknow-5A1530?style=flat-square" alt="B.Com"/>
-  <img src="https://img.shields.io/badge/Location-Bengaluru%2C%20India-451126?style=flat-square" alt="Location"/>
-  <img src="https://img.shields.io/badge/Status-Available%20to%20join%20immediately-8C3B5E?style=flat-square" alt="Status"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-45%20Projects-701A3D?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/aditya-kushwaha16"><img src="https://img.shields.io/badge/LinkedIn-Connect-451126?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:adityakushwahagzpa@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20to%20me-5A1530?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/adityakushwahagzpa-design"><img src="https://img.shields.io/badge/GitHub-Follow-2A0E1B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=adityakushwahagzpa-design&color=701A3D&style=flat-square&label=Profile+Views" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/adityakushwahagzpa-design?style=flat-square&color=5A1530&label=Followers&logo=github" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/adityakushwahagzpa-design?style=flat-square&color=451126&label=Stars&logo=github&affiliations=OWNER" alt="Stars"/>
+  <a href="https://www.linkedin.com/in/aditya-kushwaha16">LinkedIn</a> ·
+  <a href="mailto:adityakushwahagzpa@gmail.com">Email</a> ·
+  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories">All projects</a>
 </p>
 
 ---
 
 ## About
 
-I completed an **MBA in Finance at Christ University (2025)** after a **B.Com from the University of Lucknow**. My work sits where finance meets data: building models, reconciling numbers and turning raw records into reports that decision-makers can trust.
+MBA (Finance) from **Christ University, Bengaluru (2025)** and B.Com from the **University of Lucknow**. I work where finance meets data: building models, reconciling numbers and turning raw records into reports people can trust. Each project here comes with its Excel workbook or code, a PDF report and a README explaining the method and findings.
 
-This profile is my working portfolio. Every project has its own repository with the Excel workbook, a PDF report and a README that explains the method and the findings.
+**Open to:** Regulatory Compliance · KYC / AML · Fund Accounting · Finance Operations · MIS Reporting · Credit and Data Analysis &nbsp;|&nbsp; **Based in:** Bengaluru · available to join immediately &nbsp;|&nbsp; **Currently learning:** advanced Power BI data modelling
 
-- **Fund accounting and fund services:** daily NAV computation, reconciliations, fund performance analysis
-- **Equity research and valuation:** three-statement models, DCF, LBO, comparable companies and precedent transactions
-- **Credit and risk:** term-loan appraisal, DSCR, 5 Cs scorecards, KYC/AML and regulatory frameworks
-- **Finance operations:** AP three-way match, cash application, AR ageing, bank reconciliation
-- **MIS and dashboards:** Excel, Power BI and Tableau reporting built for management review
+| Role | Organisation | Period |
+|:--|:--|:--|
+| Summer Intern — Finance (Cost Analysis and Tendering Process) | NTPC Ltd., Noida | Apr 2024 – Jun 2024 |
+| Summer Intern — Operations | NTPC Ltd., Rihand Nagar | Mar 2023 – May 2023 |
+| Head, Arthashastra — the Finance Club | Christ University, Bengaluru | 2024 – 2025 |
 
-**Open To**
+<details>
+<summary><b>Experience details</b></summary>
+<br/>
+### Summer Intern — Finance · NTPC Ltd.
+**Noida (EOC)** &nbsp;|&nbsp; *Apr 2024 – Jun 2024*
 
-`Regulatory Compliance` `KYC / AML` `Fund Accounting` `Fund Services` `Finance Operations` `MIS Reporting` `Credit Analysis` `Data Analysis`
+Project: Cost Analysis and Tendering Process. Financial and quotation review for procurement under the tendering process.
+
+- Review of 40+ vendor quotations against cost estimates and budget, with 6 flagged for further review
+- Eligibility check of 20+ vendor submissions, of which 7+ did not meet the required criteria
+- Approval checks against delegation of power (DoP) limits and a vendor document checklist
+- A vendor-wise evidence file for every submission, set up on own initiative
+
+![](https://img.shields.io/badge/-Cost%20Analysis-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Tendering-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Vendor%20Evaluation-451126?style=flat-square) ![](https://img.shields.io/badge/-Internal%20Controls-8C3B5E?style=flat-square)
+
+### Summer Intern — Operations · NTPC Ltd.
+**Rihand Nagar** &nbsp;|&nbsp; *Mar 2023 – May 2023*
+
+Operational record-keeping within a 5-member team across an 8-week placement.
+
+- Upkeep of 50+ operational records a day across 6+ departments, about 2,000 records in total
+- End-of-shift record updates with no major errors; minor documentation gaps flagged
+- Exposure to coordination between operations, maintenance and administration
+
+![](https://img.shields.io/badge/-Operations-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Record%20Keeping-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Documentation-451126?style=flat-square)
+
+### Head — Arthashastra, the Finance Club · Christ University
+**Bengaluru** &nbsp;|&nbsp; *2024 – 2025*
+
+Leadership of the university finance club and its 5-member core team.
+
+- 25 finance events in total, including 10 guest lectures
+- Finance Quiz and Business Case Competition with 200 participants each
+- Stock market simulations and case-based activities, newly introduced
+
+![](https://img.shields.io/badge/-Leadership-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Event%20Management-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Team%20Coordination-451126?style=flat-square)
+
+</details>
 
 ---
 
-## Achievements
+## Achievements & Certifications
 
 <div align="center">
 
@@ -57,59 +78,16 @@ This profile is my working portfolio. Every project has its own repository with 
 
 </div>
 
----
-
-## Certifications
-
-**Oracle**
-
-<p>
-  <a href="https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/"><img src="https://img.shields.io/badge/OCI%202025-Generative%20AI%20Professional-C74634?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI Gen AI"/></a>
-  <a href="https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/"><img src="https://img.shields.io/badge/OCI%202025-Data%20Science%20Professional-C74634?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI Data Science"/></a>
-  <a href="https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/"><img src="https://img.shields.io/badge/OCI%202025-AI%20Foundations%20Associate-C74634?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI AI Foundations"/></a>
-</p>
-
-**Microsoft**
-
-<p>
-  <img src="https://img.shields.io/badge/Microsoft-Power%20BI%20Data%20Analyst-451126?style=for-the-badge" alt="Power BI Data Analyst"/>
-  <img src="https://img.shields.io/badge/Microsoft-SQL%20Server-451126?style=for-the-badge" alt="SQL Server"/>
-  <img src="https://img.shields.io/badge/Microsoft-Preparing%20Data%20for%20Analysis%20with%20Excel-451126?style=for-the-badge" alt="Excel Data Prep"/>
-</p>
-
-**KPMG · SAP · NYIF**
-
-<p>
-  <a href="certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg"><img src="https://img.shields.io/badge/KPMG%20in%20India-Financial%20Forecasting%20%26%20Modelling-2A0E1B?style=for-the-badge" alt="KPMG"/></a>
-  <img src="https://img.shields.io/badge/Great%20Learning-SAP%20FICO%20for%20Finance%20Professionals-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP FICO"/>
-  <a href="https://alison.com/verify/af5fd318af"><img src="https://img.shields.io/badge/Alison-SAP%20Governance%2C%20Risk%20%26%20Compliance%20(GRC)-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP GRC"/></a>
-  <img src="https://img.shields.io/badge/NYIF-Risk%20Management-5A1530?style=for-the-badge" alt="NYIF"/>
-</p>
-
-**Universities**
-
-<p>
-  <img src="https://img.shields.io/badge/University%20of%20Illinois-Mergers%20%26%20Acquisitions-701A3D?style=for-the-badge" alt="M&A"/>
-  <img src="https://img.shields.io/badge/West%20Virginia%20University-Forensic%20Accounting-701A3D?style=for-the-badge" alt="Forensic Accounting"/>
-</p>
-
-**Forage Job Simulations**
-
-<p>
-  <img src="https://img.shields.io/badge/EY-Audit%20Job%20Simulation-5A1530?style=for-the-badge" alt="EY"/>
-  <img src="https://img.shields.io/badge/Standard%20Chartered-Credit%20Analyst%20Simulation-5A1530?style=for-the-badge" alt="Standard Chartered"/>
-</p>
-
-**Other Providers**
-
-<p>
-  <img src="https://img.shields.io/badge/EDUCBA-IFRS%2015%20%26%20ASC%20606-8C3B5E?style=for-the-badge" alt="IFRS 15"/>
-  <img src="https://img.shields.io/badge/Board%20Infinity-BFSI%20Essentials-8C3B5E?style=for-the-badge" alt="BFSI"/>
-  <img src="https://img.shields.io/badge/Tally-Statutory%20Compliance%20%26%20Taxation-8C3B5E?style=for-the-badge" alt="Tally"/>
-  <img src="https://img.shields.io/badge/Udemy-SAP%20FICO-8C3B5E?style=for-the-badge&logo=udemy&logoColor=white" alt="Udemy SAP FICO"/>
-  <a href="https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21"><img src="https://img.shields.io/badge/Udemy-Power%20BI%20Masterclass-8C3B5E?style=for-the-badge&logo=udemy&logoColor=white" alt="Udemy Power BI"/></a>
-  <img src="https://img.shields.io/badge/IBM%20iX-Generative%20AI%20for%20Product%20Managers-8C3B5E?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM"/>
-</p>
+| Provider | Certification |
+|:--|:--|
+| **Oracle** | [OCI 2025 Generative AI Professional · Data Science Professional · AI Foundations Associate](https://www.linkedin.com/in/aditya-kushwaha16/details/certifications/) |
+| **SAP** | [SAP FICO for Finance Professionals](https://www.mygreatlearning.com/certificate/RTCBKOTD) (Great Learning) · [Essentials of SAP GRC](https://alison.com/verify/af5fd318af) (Alison) · SAP FICO (Udemy) |
+| **KPMG in India** | [Certified Financial Forecasting and Modelling using Excel](certificates/KPMG_Financial_Forecasting_Modeling_Excel.jpg) |
+| **Microsoft** | Power BI Data Analyst · SQL Server · Preparing Data for Analysis with Excel |
+| **Universities** | Mergers & Acquisitions (University of Illinois) · Forensic Accounting (West Virginia University) |
+| **NYIF** | Risk Management |
+| **Forage simulations** | EY Audit · Standard Chartered Credit Analyst |
+| **Others** | IFRS 15 & ASC 606 (EDUCBA) · BFSI Essentials (Board Infinity) · Statutory Compliance & Taxation (Tally) · [Power BI Masterclass](https://ude.my/UC-1ce9aaba-bf11-48d0-ad13-f5e94b696d21) (Udemy) · Generative AI for Product Managers (IBM iX) |
 
 <details>
 <summary><b>Certificate Copies</b></summary>
@@ -145,7 +123,20 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 
 ---
 
-## Featured Projects
+## Selected Projects
+
+| Project | Problem and result | Tools |
+|:--|:--|:--|
+| **[Fund Accounting & Daily NAV Model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model)** | Daily NAV cycle for a ₹71 crore hybrid fund; NAV move from ₹31.40 to ₹32.01 traced line by line with cash, holdings and accrual reconciliations | Excel |
+| **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
+| **[Money Mule Ring Detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector)** | AML graph analytics on ~64,000 synthetic transfers; all 8 hidden rings found (GNN precision 0.91, recall 1.00) | Python, NetworkX, PyTorch Geometric, Neo4j |
+| **[Credit Appraisal Model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model)** | ₹20 crore term-loan appraisal; DSCR 2.39x, recommended at grade CR-2 | Excel |
+| **[AP Three-Way Match](https://github.com/adityakushwahagzpa-design/ap-three-way-match)** | PO, GRN and invoice matching with quantity and price variance flags and an approval-ready payment list | Excel, PDF |
+| **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
+
+<details>
+<summary><b>More project details</b></summary>
+<br/>
 
 <details>
 <summary><b>Nippon Life India AMC — Stock Pitch (HOLD, Target ₹1,000)</b></summary>
@@ -320,7 +311,7 @@ Data modelling, KPI design and drill-downs built for a management review.
 
 </details>
 
-### Python Finance Projects
+**Python Finance Projects**
 
 <details>
 <summary><b>India Market Data Dashboard</b></summary>
@@ -547,6 +538,8 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 
 </details>
 
+</details>
+
 <details>
 <summary><b>All 45 Projects</b></summary>
 <br/>
@@ -571,97 +564,19 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 
 ---
 
-## Experience
+## Skills
 
-### Summer Intern — Finance · NTPC Ltd.
-**Noida (EOC)** &nbsp;|&nbsp; *Apr 2024 – Jun 2024*
-
-Project: Cost Analysis and Tendering Process. Financial and quotation review for procurement under the tendering process.
-
-- Review of 40+ vendor quotations against cost estimates and budget, with 6 flagged for further review
-- Eligibility check of 20+ vendor submissions, of which 7+ did not meet the required criteria
-- Approval checks against delegation of power (DoP) limits and a vendor document checklist
-- A vendor-wise evidence file for every submission, set up on own initiative
-
-![](https://img.shields.io/badge/-Cost%20Analysis-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Tendering-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Vendor%20Evaluation-451126?style=flat-square) ![](https://img.shields.io/badge/-Internal%20Controls-8C3B5E?style=flat-square)
-
-### Summer Intern — Operations · NTPC Ltd.
-**Rihand Nagar** &nbsp;|&nbsp; *Mar 2023 – May 2023*
-
-Operational record-keeping within a 5-member team across an 8-week placement.
-
-- Upkeep of 50+ operational records a day across 6+ departments, about 2,000 records in total
-- End-of-shift record updates with no major errors; minor documentation gaps flagged
-- Exposure to coordination between operations, maintenance and administration
-
-![](https://img.shields.io/badge/-Operations-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Record%20Keeping-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Documentation-451126?style=flat-square)
-
-### Head — Arthashastra, the Finance Club · Christ University
-**Bengaluru** &nbsp;|&nbsp; *2024 – 2025*
-
-Leadership of the university finance club and its 5-member core team.
-
-- 25 finance events in total, including 10 guest lectures
-- Finance Quiz and Business Case Competition with 200 participants each
-- Stock market simulations and case-based activities, newly introduced
-
-![](https://img.shields.io/badge/-Leadership-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Event%20Management-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Team%20Coordination-451126?style=flat-square)
+| Category | Skills |
+|:--|:--|
+| **Finance domains** | Fund accounting (daily NAV, accruals, reconciliations) · Valuation (three-statement, DCF, LBO, comps, precedents) · Credit analysis (DSCR, 5 Cs) · KYC / AML (PMLA, FATF, RBI norms) · Finance operations (AP, AR, bank reconciliation) |
+| **Analysis & modelling** | Excel (advanced) · Google Sheets · Financial modelling |
+| **Reporting & visualisation** | Power BI · Tableau · MS Office |
+| **Data & ERP** | SQL · Python (Pandas) · SAP FICO · SAP GRC |
+| **Tools & AI** | Git & GitHub · Markdown · Claude · ChatGPT · Google Workspace |
 
 ---
 
-## Tech Stack
-
-**Analysis & Modelling**
-
-<p>
-  <img src="https://img.shields.io/badge/Excel-Advanced-217346?style=for-the-badge" alt="Excel"/>
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"/>
-  <img src="https://img.shields.io/badge/Financial%20Modelling-701A3D?style=for-the-badge" alt="Financial Modelling"/>
-</p>
-
-**Reporting & Visualisation**
-
-<p>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logoColor=black" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge" alt="Tableau"/>
-  <img src="https://img.shields.io/badge/MS%20Office-D83B01?style=for-the-badge" alt="MS Office"/>
-</p>
-
-**Data & ERP**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,mysql&theme=dark" alt="Python, SQL"/>
-  <a href="https://www.mygreatlearning.com/certificate/RTCBKOTD"><img src="https://img.shields.io/badge/SAP%20FICO-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP FICO"/></a>
-  <a href="https://alison.com/verify/af5fd318af"><img src="https://img.shields.io/badge/SAP%20GRC-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP GRC"/></a>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-</p>
-
-**Tooling & AI**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=github,git,md&theme=dark" alt="GitHub, Git, Markdown"/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
-  <img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
-  <img src="https://img.shields.io/badge/Google%20Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Workspace"/>
-</p>
-
----
-
-## Finance Expertise
-
-| Domain | Proficiency | Details |
-|:--|:--|:--|
-| **Fund Accounting** | ![](https://img.shields.io/badge/-Advanced-701A3D?style=flat-square) | Daily NAV, accruals, expense ratios, cash and holdings reconciliation |
-| **Valuation** | ![](https://img.shields.io/badge/-Advanced-701A3D?style=flat-square) | Three-statement models, DCF, LBO, trading comps, precedent transactions |
-| **Credit Analysis** | ![](https://img.shields.io/badge/-Proficient-5A1530?style=flat-square) | Term-loan appraisal, DSCR, 5 Cs scorecard, credit grading |
-| **Compliance & Risk** | ![](https://img.shields.io/badge/-Proficient-5A1530?style=flat-square) | KYC / AML, PMLA, FATF, RBI norms, financial risk management |
-| **Finance Operations** | ![](https://img.shields.io/badge/-Proficient-5A1530?style=flat-square) | AP three-way match, cash application, AR ageing, bank reconciliation |
-| **MIS & Dashboards** | ![](https://img.shields.io/badge/-Advanced-701A3D?style=flat-square) | KPI design, Excel dashboards, Power BI, Tableau |
-| **Data Analysis** | ![](https://img.shields.io/badge/-Working-451126?style=flat-square) | SQL queries, Python (Pandas) exploration and cleaning |
-
----
-
-## Contribution Activity
+## Contribution Heatmap
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityakushwahagzpa-design&bg_color=10070C&color=F8F0F3&line=701A3D&point=E5B5C7&area=true&area_color=451126&hide_border=true&custom_title=Contribution%20Graph" width="100%" alt="Activity Graph"/>
@@ -677,7 +592,7 @@ Leadership of the university finance club and its 5-member core team.
 
 ---
 
-## GitHub Analytics
+## GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=adityakushwahagzpa-design&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=10070C&title_color=E5B5C7&icon_color=701A3D&text_color=F8F0F3&ring_color=701A3D" alt="GitHub Stats"/>
@@ -688,43 +603,20 @@ Leadership of the university finance club and its 5-member core team.
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityakushwahagzpa-design&layout=compact&hide_border=true&bg_color=10070C&title_color=E5B5C7&text_color=F8F0F3&langs_count=6" alt="Top Languages"/>
 </p>
 
----
-
-## Current Focus
-
-```yaml
-learning:
-  - Advanced Power BI data modelling
-
-building:
-  - Finance portfolio projects with Excel models, PDF reports and READMEs
-  - Fund accounting and reconciliation case studies
-
-exploring:
-  - KYC / AML frameworks (PMLA, FATF, RBI norms)
-  - AI tools for FP&A and finance operations
-
-open_to:
-  - Regulatory Compliance and KYC / AML roles
-  - Fund Accounting and Fund Services
-  - Finance Operations and MIS Reporting
-  - Credit and Data Analysis
-```
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=adityakushwahagzpa-design&color=701A3D&style=flat-square&label=Profile+Views" alt="Profile views"/>
+</p>
 
 ---
 
 ## Connect
 
-<p align="center">
-  <a href="mailto:adityakushwahagzpa@gmail.com"><img src="https://img.shields.io/badge/Gmail-adityakushwahagzpa%40gmail.com-5A1530?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://www.linkedin.com/in/aditya-kushwaha16"><img src="https://img.shields.io/badge/LinkedIn-aditya--kushwaha16-451126?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-<p align="center">
-  <a href="https://github.com/adityakushwahagzpa-design"><img src="https://img.shields.io/badge/GitHub-adityakushwahagzpa--design-2A0E1B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-View%20all%20projects-701A3D?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
-</p>
-
----
+| | |
+|:--|:--|
+| **LinkedIn** | [linkedin.com/in/aditya-kushwaha16](https://www.linkedin.com/in/aditya-kushwaha16) |
+| **Email** | [adityakushwahagzpa@gmail.com](mailto:adityakushwahagzpa@gmail.com) |
+| **GitHub** | [github.com/adityakushwahagzpa-design](https://github.com/adityakushwahagzpa-design) |
+| **Portfolio** | [All repositories](https://github.com/adityakushwahagzpa-design?tab=repositories) |
 
 <p align="center">
   <img src="assets/aditya-footer.svg" width="100%" alt="Footer"/>
