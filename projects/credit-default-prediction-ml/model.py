@@ -133,10 +133,11 @@ def charts(y, preds, imp, bands):
     i = imp.sort_values()
     ax[0].barh(i.index, i, color="#7c3aed")
     ax[0].set_title("What drives default risk (permutation importance, AUC drop)")
-    ax[1].bar(bands["band"], bands["default_rate_%"], color=["#2e7d32", "#7cb342", "#fbc02d", "#ef6c00", "#c62828"])
+    ax[1].bar(bands["band"], bands["default_rate_%"], color=["#c62828", "#ef6c00", "#fbc02d", "#7cb342", "#2e7d32"])
     for k, (r, n) in enumerate(zip(bands["default_rate_%"], bands["borrowers"])):
         ax[1].text(k, r + 1, f"{r:.1f}%\n(n={n:,})", ha="center", fontsize=8)
     ax[1].set_title("Actual default rate by credit score band, test set"); ax[1].set_ylabel("Default rate %")
+    ax[1].set_ylim(0, bands["default_rate_%"].max() * 1.2)
     ax[1].tick_params(axis="x", labelsize=8)
     for a in ax:
         a.spines[["top", "right"]].set_visible(False)
