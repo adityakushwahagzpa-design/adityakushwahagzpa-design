@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-34%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-36%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/aditya-kushwaha16"><img src="https://img.shields.io/badge/LinkedIn-Connect-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:adityakushwahagzpa@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20to%20me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/adityakushwahagzpa-design"><img src="https://img.shields.io/badge/GitHub-Follow-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -100,6 +100,41 @@ This profile is my working portfolio. Every project has its own repository with 
 ---
 
 ## Featured Projects
+
+<details>
+<summary><b>Nippon Life India AMC — Stock Pitch (HOLD, Target ₹1,000)</b></summary>
+<br/>
+
+10-slide equity research pitch with a 9-sheet valuation model, priced on 20 Nov 2026.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF deck |
+| **Scope** | FY22–Q2 FY27 financials, FY31E forecast, 6 listed AMC peers |
+| **Key Result** | DCF ₹787 and P/E ₹1,135 blend to a ₹1,000 target vs ₹1,040 price: HOLD |
+| **Method** | 15-year FCFE DCF, peer P/E, bull/base/bear scenarios |
+| **Repository** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) |
+
+A strong franchise gaining share, but the price already assumes a decade of strong growth.
+
+</details>
+
+<details>
+<summary><b>Indian Asset Management Industry — Deep Dive</b></summary>
+<br/>
+
+9-section industry report with charts, a value-chain diagram and a 7-sheet data book.
+
+| | |
+|:--|:--|
+| **Stack** | Research report (PDF), Excel |
+| **Scope** | ₹83 lakh crore industry, top 10 AMCs, FY26 fee pool of 21 AMCs, SEBI 2026 rules |
+| **Key Result** | Distributors take 49% of the ₹60,300 crore fee pool; AMCs turn 47% into ₹17,285 crore of profit |
+| **Repository** | [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
+
+Value chain, competitive dynamics, regulation and where value is created across Indian mutual funds.
+
+</details>
 
 <details>
 <summary><b>Fund Accounting & Daily NAV Model</b></summary>
@@ -312,7 +347,7 @@ VADER with a custom finance word list; the result shows headlines mostly describ
 </details>
 
 <details>
-<summary><b>All 34 Projects</b></summary>
+<summary><b>All 36 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
@@ -326,6 +361,7 @@ VADER with a custom finance word list; the result shows headlines mostly describ
 | **Finance Ops** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) · [cash-application-ar-ageing](https://github.com/adityakushwahagzpa-design/cash-application-ar-ageing) · [bank-reconciliation-excel](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) · [ar-ap-ledger-excel](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) |
 | **AI in Finance** | [ai-fpa-agent-claude](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) |
 | **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) |
+| **Equity & Industry Research** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) · [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
 | **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
 
 </details>
@@ -380,7 +416,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **19 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **34 Portfolio Projects** | Fund accounting, valuation, credit, dashboards, finance operations and Python |
+| **36 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
