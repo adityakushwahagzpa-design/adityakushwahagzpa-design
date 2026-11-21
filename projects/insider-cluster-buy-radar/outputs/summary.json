@@ -1,0 +1,31 @@
+{
+  "quarters": [
+    "2025q1",
+    "2025q2",
+    "2025q3",
+    "2025q4",
+    "2026q1"
+  ],
+  "qualifying_purchases": 8611,
+  "companies_with_purchases": 2001,
+  "clusters": 513,
+  "database": "postgresql",
+  "1 week": {
+    "clusters_measured": 461,
+    "avg_excess_return_%": 2.14,
+    "median_excess_return_%": 0.87,
+    "share_beating_spy_%": 57.0
+  },
+  "1 month": {
+    "clusters_measured": 461,
+    "avg_excess_return_%": 1.36,
+    "median_excess_return_%": -0.5,
+    "share_beating_spy_%": 47.7
+  },
+  "3 months": {
+    "clusters_measured": 461,
+    "avg_excess_return_%": -1.38,
+    "median_excess_return_%": -5.44,
+    "share_beating_spy_%": 39.9
+  }
+}

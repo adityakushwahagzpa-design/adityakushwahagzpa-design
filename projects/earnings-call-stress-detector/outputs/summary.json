@@ -1,0 +1,86 @@
+{
+  "calls_scored": 338,
+  "date_range": [
+    "2023-01-17",
+    "2025-05-08"
+  ],
+  "companies": 246,
+  "correlations": {
+    "stress_index": {
+      "rho_vs_abnormal": 0.069,
+      "p": 0.2083,
+      "rho_vs_abs_move": -0.034,
+      "p_abs": 0.5379
+    },
+    "qa_tone": {
+      "rho_vs_abnormal": 0.043,
+      "p": 0.4297,
+      "rho_vs_abs_move": 0.068,
+      "p_abs": 0.2095
+    },
+    "tone_gap": {
+      "rho_vs_abnormal": 0.159,
+      "p": 0.0034,
+      "rho_vs_abs_move": 0.025,
+      "p_abs": 0.6527
+    },
+    "uncertainty_per_1k": {
+      "rho_vs_abnormal": -0.012,
+      "p": 0.8328,
+      "rho_vs_abs_move": -0.067,
+      "p_abs": 0.2177
+    },
+    "evasive_per_1k": {
+      "rho_vs_abnormal": 0.052,
+      "p": 0.3432,
+      "rho_vs_abs_move": -0.0,
+      "p_abs": 0.9969
+    }
+  },
+  "quintiles": [
+    {
+      "stress_quintile": "Q1 calm",
+      "calls": 68,
+      "avg_abnormal": -0.58,
+      "median_abnormal": -1.15,
+      "share_negative": 55.88,
+      "avg_abs_move": 4.11
+    },
+    {
+      "stress_quintile": "Q2",
+      "calls": 67,
+      "avg_abnormal": -0.05,
+      "median_abnormal": -0.84,
+      "share_negative": 59.7,
+      "avg_abs_move": 4.53
+    },
+    {
+      "stress_quintile": "Q3",
+      "calls": 68,
+      "avg_abnormal": 0.04,
+      "median_abnormal": -0.76,
+      "share_negative": 57.35,
+      "avg_abs_move": 5.17
+    },
+    {
+      "stress_quintile": "Q4",
+      "calls": 67,
+      "avg_abnormal": 0.92,
+      "median_abnormal": 0.75,
+      "share_negative": 41.79,
+      "avg_abs_move": 3.99
+    },
+    {
+      "stress_quintile": "Q5 stressed",
+      "calls": 68,
+      "avg_abnormal": -0.21,
+      "median_abnormal": -0.18,
+      "share_negative": 50.0,
+      "avg_abs_move": 4.31
+    }
+  ],
+  "q5_minus_q1_abnormal": 0.37,
+  "avg_qa_tone": 0.219,
+  "avg_prepared_tone": 0.38,
+  "share_calls_qa_less_positive": 82.0
+}

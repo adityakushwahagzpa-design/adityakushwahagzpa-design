@@ -1,0 +1,9 @@
+{
+  "receipts": 24,
+  "lines_read": 327,
+  "line_totals_rebuilt": 21,
+  "receipts_reconciled_to_total": 17,
+  "ground_truth_lines": 336,
+  "lines_found_%": 97.3,
+  "prices_exact_%": 97.3
+}

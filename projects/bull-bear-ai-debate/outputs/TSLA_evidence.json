@@ -1,0 +1,132 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla, Inc.",
+  "cik": 1318605,
+  "10k_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+  "10k_filed": "2026-01-29",
+  "period": "2025-12-31",
+  "risk_section_words": 12654,
+  "mda_section_words": 8439,
+  "risk_evidence": [
+    "[R1] trade policy alterations in 2025, including heightened import tariffs and subsequent retaliatory measures, have impacted our supply chain costs, and may impact the availability of certain technologies or components, depending on the exact scope of the tariffs ultimately implemented and retaliatory export controls.",
+    "[R2] The prices for these materials fluctuate and their available supply may be unstable, depending on market conditions, trade policies, refining capacity and global demand for these materials.",
+    "[R3] Increased competition could result in our lower vehicle unit sales, price reductions, revenue shortfalls, loss of customers and loss of market share, which may harm our business, financial condition and operating results.",
+    "[R4] tariffs, and the uncertainties surrounding domestic and foreign tariffs have impacted the pricing for our products, which could adversely impact demand.",
+    "[R5] We cannot predict whether, and to what extent, there may be changes to international trade agreements, such as those with China, or whether, or to what extent, quotas, duties, additional tariffs, export controls or other restrictions will be changed or imposed by the United States or by other countries.",
+    "[R6] Depending on the country, such arrangements are available for specified models and may include operating leases directly with us under which we typically receive only a very small portion of the total vehicle 17 Table of Contents purchase price at the time of lease, followed by a stream of payments over the term of the lease.",
+    "[R7] If a significant number of our customers default, we may incur substantial credit losses and/or impairment charges with respect to the underlying assets.",
+    "[R8] Our information technology systems or data, or those of our service providers or customers or users could be subject to cyber-attacks or other security incidents, which could result in data breaches, intellectual property theft, claims, litigation, regulatory investigations, significant liability, reputational damage and other adverse consequences.",
+    "[R9] Moreover, our proprietary information, including intellectual property and personal information, could be compromised or misappropriated and our reputation may be adversely affected.",
+    "[R10] 19 Table of Contents Any unauthorized control or manipulation of our products\u2019 systems could result in loss of confidence in us and our products.",
+    "[R11] 21 Table of Contents Our ability to make scheduled payments of the principal and interest on our indebtedness when due, or to refinance our indebtedness as we may need or desire, depends on our future performance, which is subject to economic, financial, competitive and other factors beyond our control.",
+    "[R12] As a result, misalignment of consumer demand and the technologies and initiatives associated with the 2025 CEO Performance Award, including the product goals, may impair our ability to realize returns on such investments and could lead to strategic misalignment, underperformance or write-downs of related assets, all of which could have a negative impact on our financial performance and stock price."
+  ],
+  "mda_evidence": [
+    "[M1] In 2025, we recognized total revenues of $94.83 billion, representing a decrease of $2.86 billion compared to the prior year.",
+    "[M2] Our cash flows provided by operating activities were $14.75 billion in 2025 compared to $14.92 billion in 2024, representing a decrease of $176 million.",
+    "[M3] 2025 compared to 2024 Automotive sales revenue decreased $6.66 billion, or 9%, in the year ended December 31, 2025 as compared to the year ended December 31, 2024, due a decrease of approximately 8% in cash deliveries and a lower average selling price per unit driven by sales mix and higher customer incentives such as attractive financing options.",
+    "[M4] Automotive regulatory credits revenue decreased $770 million, or 28%, in the year ended December 31, 2025 as compared to the year ended December 31, 2024.",
+    "[M5] 37 Services and other revenue increased $2.00 billion, or 19%, in the year ended December 31, 2025 as compared to the year ended December 31, 2024, primarily due to increases in paid Supercharging sessions, non-warranty maintenance services and collision revenue, used vehicle sales volume and automotive insurance business revenue.",
+    "[M6] 2025 compared to 2024 Energy generation and storage revenue increased $2.69 billion, or 27%, in the year ended December 31, 2025 as compared to the year ended December 31, 2024 primarily due to increases in Megapack and Powerwall deployments, partially offset by a decrease in average selling price of Megapack.",
+    "[M7] Gross margin for total automotive decreased from 18.4% to 17.8% in the year ended December 31, 2025 as compared to the year ended December 31, 2024 primarily due to a decrease in regulatory credits revenue as well as the changes in automotive sales revenue and cost of automotive sales revenue, as discussed above.",
+    "[M8] Gross margin for total automotive & services and other segment decreased from 16.9% to 16.2% in the year ended December 31, 2025 as compared to the year ended December 31, 2024 primarily due to a decrease in regulatory credits revenue, partially offset by an improvement in services and other margins.",
+    "[M9] Gross margin for energy generation and storage increased from 26.2% to 29.8% in the year ended December 31, 2025 as compared to the year ended December 31, 2024, primarily due the changes in energy generation and storage revenue and cost of energy generation and storage revenue, as discussed above.",
+    "[M10] 39 R&D expense increased $1.87 billion, or 41%, in the year ended December 31, 2025 as compared to the year ended December 31, 2024, primarily due to increases in costs related to AI and other programs as we continue to expand our product roadmap and technologies and an increase in stock-based compensation of $500 million.",
+    "[M11] R&D expense as a percentage of revenue increased from 5% to 7% in the year ended December 31, 2025 as compared to the year ended December 31, 2024, primarily due to higher R&D expense and a decrease in total revenue as compared to the prior year.",
+    "[M12] The decrease was primarily due to a $3.05 billion increase in repayments of debt and a $158 million decrease in proceeds from issuances of debt."
+  ],
+  "financials": [
+    "[F1] FY2017: Net income $-1.96bn",
+    "[F2] FY2018: Net income $-0.98bn",
+    "[F3] FY2019: Net income $-0.86bn",
+    "[F4] FY2020: Net income $0.72bn",
+    "[F5] FY2022: Revenue $81.46bn, Operating income $13.66bn, Cash from operations $14.72bn",
+    "[F6] FY2023: Revenue $96.77bn, Operating income $8.89bn, Cash from operations $13.26bn",
+    "[F7] FY2024: Revenue $97.69bn, Operating income $7.08bn, Cash from operations $14.92bn",
+    "[F8] FY2025: Revenue $94.83bn, Operating income $4.36bn, Cash from operations $14.75bn"
+  ],
+  "market": [
+    "[P1] 1y return %: -11.6",
+    "[P2] SPY 1y return %: 5.8",
+    "[P3] annualised volatility %: 46.2",
+    "[P4] max drawdown %: -39.1",
+    "[P5] beta vs SPY: 2.08",
+    "[P6] last price: 345.82",
+    "[P7] as of: 2026-11-20",
+    "[P8] trailing P/E: 380.0",
+    "[P9] forward P/E: 160.2",
+    "[P10] P/S: 13.2",
+    "[P11] market cap $bn: 1366.9"
+  ],
+  "market_raw": {
+    "1y return %": -11.6,
+    "SPY 1y return %": 5.8,
+    "annualised volatility %": 46.2,
+    "max drawdown %": -39.1,
+    "beta vs SPY": 2.08,
+    "last price": 345.82,
+    "as of": "2026-11-20",
+    "trailing P/E": 380.0,
+    "forward P/E": 160.2,
+    "P/S": 13.2,
+    "market cap $bn": 1366.9
+  },
+  "financials_raw": [
+    {
+      "frame": "CY2017",
+      "Revenue": NaN,
+      "Operating income": NaN,
+      "Net income": -1.96,
+      "Cash from operations": NaN
+    },
+    {
+      "frame": "CY2018",
+      "Revenue": NaN,
+      "Operating income": NaN,
+      "Net income": -0.98,
+      "Cash from operations": NaN
+    },
+    {
+      "frame": "CY2019",
+      "Revenue": NaN,
+      "Operating income": NaN,
+      "Net income": -0.86,
+      "Cash from operations": NaN
+    },
+    {
+      "frame": "CY2020",
+      "Revenue": NaN,
+      "Operating income": NaN,
+      "Net income": 0.72,
+      "Cash from operations": NaN
+    },
+    {
+      "frame": "CY2022",
+      "Revenue": 81.46,
+      "Operating income": 13.66,
+      "Net income": NaN,
+      "Cash from operations": 14.72
+    },
+    {
+      "frame": "CY2023",
+      "Revenue": 96.77,
+      "Operating income": 8.89,
+      "Net income": NaN,
+      "Cash from operations": 13.26
+    },
+    {
+      "frame": "CY2024",
+      "Revenue": 97.69,
+      "Operating income": 7.08,
+      "Net income": NaN,
+      "Cash from operations": 14.92
+    },
+    {
+      "frame": "CY2025",
+      "Revenue": 94.83,
+      "Operating income": 4.36,
+      "Net income": NaN,
+      "Cash from operations": 14.75
+    }
+  ]
+}

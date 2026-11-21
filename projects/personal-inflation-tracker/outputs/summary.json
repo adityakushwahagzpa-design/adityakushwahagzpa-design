@@ -1,0 +1,29 @@
+{
+  "data": "SAMPLE receipts (fictional store) read by Tesseract OCR; CPI from BLS",
+  "months": [
+    "2024-11-01",
+    "2026-10-01"
+  ],
+  "items_tracked": 14,
+  "item_months_filled_forward": 9,
+  "basket_cost_first": 81.71,
+  "basket_cost_latest": 84.31,
+  "basket_yoy_latest_%": 4.81,
+  "basket_yoy_avg_last12_%": 3.13,
+  "category_yoy_latest_%": {
+    "Bakery & grains": 2.03,
+    "Dairy & eggs": -0.04,
+    "Drinks": 13.14,
+    "Fruit & veg": 7.82,
+    "Meat": 5.09
+  },
+  "top_item_inflation": {
+    "GROUND COFFEE 12OZ": 17.1,
+    "TOMATOES 1LB": 11.8,
+    "GROUND BEEF 1LB": 8.3
+  },
+  "falling_items": {
+    "EGGS LARGE 12CT": -6.6
+  },
+  "cpi_source": "BLS unavailable: could not convert string to float: '-'"
+}
