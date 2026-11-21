@@ -8,7 +8,6 @@ on:
       - "projects/money-mule-ring-detector/**.py"
       - "projects/insider-cluster-buy-radar/**.py"
       - "projects/earnings-call-stress-detector/**.py"
-      - "projects/bull-bear-ai-debate/**.py"
       - "projects/personal-inflation-tracker/**.py"
       - ".github/workflows/research-projects.yml"
   schedule:
@@ -52,7 +51,7 @@ jobs:
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
           pip install -q torch_geometric pandas numpy scipy matplotlib tabulate requests yfinance sqlalchemy \
             psycopg2-binary networkx scikit-learn python-louvain beautifulsoup4 lxml pillow \
-            huggingface_hub pyarrow transformers anthropic
+            huggingface_hub pyarrow transformers
 
       - name: Money mule ring detector
         working-directory: projects/money-mule-ring-detector
@@ -69,13 +68,6 @@ jobs:
       - name: Personal inflation tracker
         working-directory: projects/personal-inflation-tracker
         run: python make_receipts.py && python ocr_receipts.py && python inflation.py
-        continue-on-error: true
-
-      - name: Bull vs bear AI debate
-        working-directory: projects/bull-bear-ai-debate
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python evidence.py && python debate.py
         continue-on-error: true
 
       - name: Earnings call stress detector
