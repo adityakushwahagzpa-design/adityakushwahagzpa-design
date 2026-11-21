@@ -1,0 +1,61 @@
+{
+  "sample": "2004-02 to 2026-09",
+  "factor_data_last_month": "2026-09",
+  "avg_capm_r2": 0.874,
+  "avg_ff3_r2": 0.963,
+  "loadings": {
+    "SPY": {
+      "FF3 SMB": -0.14,
+      "FF3 HML": 0.01,
+      "FF3 alpha (%/yr)": -0.21,
+      "t(alpha)": -1.07
+    },
+    "IWM": {
+      "FF3 SMB": 0.87,
+      "FF3 HML": 0.21,
+      "FF3 alpha (%/yr)": -1.02,
+      "t(alpha)": -1.94
+    },
+    "IWD": {
+      "FF3 SMB": -0.05,
+      "FF3 HML": 0.36,
+      "FF3 alpha (%/yr)": -1.09,
+      "t(alpha)": -1.68
+    },
+    "IWF": {
+      "FF3 SMB": -0.1,
+      "FF3 HML": -0.32,
+      "FF3 alpha (%/yr)": 0.43,
+      "t(alpha)": 0.76
+    },
+    "IWN": {
+      "FF3 SMB": 0.82,
+      "FF3 HML": 0.53,
+      "FF3 alpha (%/yr)": -0.92,
+      "t(alpha)": -1.49
+    },
+    "IWO": {
+      "FF3 SMB": 0.92,
+      "FF3 HML": -0.09,
+      "FF3 alpha (%/yr)": -1.25,
+      "t(alpha)": -1.64
+    },
+    "QQQ": {
+      "FF3 SMB": -0.02,
+      "FF3 HML": -0.44,
+      "FF3 alpha (%/yr)": 2.65,
+      "t(alpha)": 2.05
+    },
+    "RSP": {
+      "FF3 SMB": 0.13,
+      "FF3 HML": 0.25,
+      "FF3 alpha (%/yr)": -0.73,
+      "t(alpha)": -0.92
+    }
+  },
+  "significant_ff3_alphas": 1,
+  "hml_annual_1990_2006_pct": 5.2,
+  "hml_annual_2007_on_pct": -2.02,
+  "smb_annual_1990_2006_pct": 0.96,
+  "smb_annual_2007_on_pct": -1.0
+}

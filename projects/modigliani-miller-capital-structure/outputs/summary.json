@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "ebit_cr": 1000.0,
+    "r_unlevered": 0.12,
+    "r_debt": 0.085,
+    "tax": 0.2517,
+    "distress_cost_share": 0.25
+  },
+  "unlevered_value_no_tax_cr": 8333.3,
+  "unlevered_value_with_tax_cr": 6235.8,
+  "wacc_no_tax_range_pct": [
+    12.0,
+    12.0
+  ],
+  "cost_of_equity_no_tax_at_DE_1_pct": 15.5,
+  "cost_of_equity_tax_at_DE_1_pct": 14.62,
+  "wacc_tax_at_DE_1_pct": 10.49,
+  "value_gain_from_tax_shield_at_DE_1_pct": 14.4,
+  "optimal_DE_tradeoff": 0.75,
+  "optimal_DV_tradeoff_pct": 42.9,
+  "value_at_optimum_cr": 6813.2,
+  "gain_vs_all_equity_pct": 9.26
+}

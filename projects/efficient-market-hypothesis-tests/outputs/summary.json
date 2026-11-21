@@ -1,0 +1,56 @@
+{
+  "period": "17 Sep 2007 to 20 Nov 2026",
+  "observations": 4704,
+  "lag1_autocorrelation": 0.0376,
+  "significant_lags": [
+    1,
+    6,
+    7,
+    10
+  ],
+  "ljung_box_Q10": 39.04,
+  "ljung_box_p": 0.0,
+  "variance_ratios": {
+    "2": {
+      "VR": 1.038,
+      "z": 1.35,
+      "p": 0.1776
+    },
+    "5": {
+      "VR": 1.025,
+      "z": 0.38,
+      "p": 0.7056
+    },
+    "10": {
+      "VR": 1.008,
+      "z": 0.08,
+      "p": 0.9374
+    },
+    "20": {
+      "VR": 1.069,
+      "z": 0.48,
+      "p": 0.6328
+    }
+  },
+  "runs": {
+    "observed": 2201,
+    "expected": 2342.5,
+    "z": -4.14,
+    "p": 0.0
+  },
+  "ma_rule_trades": 24,
+  "performance": {
+    "Buy and hold": {
+      "CAGR %": 10.94,
+      "Volatility %": 19.51,
+      "Sharpe (rf=0)": 0.63,
+      "Max drawdown %": -45.37
+    },
+    "50/200 MA crossover": {
+      "CAGR %": 4.93,
+      "Volatility %": 12.71,
+      "Sharpe (rf=0)": 0.44,
+      "Max drawdown %": -42.21
+    }
+  }
+}

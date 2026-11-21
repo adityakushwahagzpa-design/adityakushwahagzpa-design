@@ -1,0 +1,7 @@
+Gamble,Expected value (₹),Prospect-theory certainty equivalent (₹),Accept vs ₹0?
+"50% win ₹1,000, else nothing",500.0,373.8,Yes
+"50% win ₹1,000, 50% lose ₹1,000",0.0,-223.0,No
+"50% win ₹2,500, 50% lose ₹1,000",750.0,-22.4,No
+"1% win ₹1,00,000, else nothing (lottery)",1000.0,3723.7,Yes
+"1% lose ₹1,00,000, else nothing (insurance case)",-1000.0,-2554.9,No
+"90% lose ₹1,000, else nothing",-900.0,-748.4,No

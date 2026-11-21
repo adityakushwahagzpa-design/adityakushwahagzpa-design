@@ -1,0 +1,52 @@
+{
+  "parameters": {
+    "alpha": 0.88,
+    "lambda": 2.25,
+    "gamma_gain": 0.61,
+    "gamma_loss": 0.69,
+    "fd_rate_pct": 6.5
+  },
+  "data": "Nifty 50 month-end closes, Sep 2007 to Nov 2026 (price index, dividends excluded)",
+  "gambles": [
+    {
+      "Gamble": "50% win \u20b91,000, else nothing",
+      "Expected value (\u20b9)": 500.0,
+      "Prospect-theory certainty equivalent (\u20b9)": 373.8,
+      "Accept vs \u20b90?": "Yes"
+    },
+    {
+      "Gamble": "50% win \u20b91,000, 50% lose \u20b91,000",
+      "Expected value (\u20b9)": 0.0,
+      "Prospect-theory certainty equivalent (\u20b9)": -223.0,
+      "Accept vs \u20b90?": "No"
+    },
+    {
+      "Gamble": "50% win \u20b92,500, 50% lose \u20b91,000",
+      "Expected value (\u20b9)": 750.0,
+      "Prospect-theory certainty equivalent (\u20b9)": -22.4,
+      "Accept vs \u20b90?": "No"
+    },
+    {
+      "Gamble": "1% win \u20b91,00,000, else nothing (lottery)",
+      "Expected value (\u20b9)": 1000.0,
+      "Prospect-theory certainty equivalent (\u20b9)": 3723.7,
+      "Accept vs \u20b90?": "Yes"
+    },
+    {
+      "Gamble": "1% lose \u20b91,00,000, else nothing (insurance case)",
+      "Expected value (\u20b9)": -1000.0,
+      "Prospect-theory certainty equivalent (\u20b9)": -2554.9,
+      "Accept vs \u20b90?": "No"
+    },
+    {
+      "Gamble": "90% lose \u20b91,000, else nothing",
+      "Expected value (\u20b9)": -900.0,
+      "Prospect-theory certainty equivalent (\u20b9)": -748.4,
+      "Accept vs \u20b90?": "No"
+    }
+  ],
+  "loss_share_1m_pct": 43.9,
+  "loss_share_12m_pct": 24.7,
+  "loss_share_60m_pct": 1.2,
+  "horizon_where_nifty_beats_fd_months": 18
+}

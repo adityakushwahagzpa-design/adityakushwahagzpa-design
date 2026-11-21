@@ -1,0 +1,22 @@
+{
+  "period": "Dec 2021 to Nov 2026",
+  "stocks": 20,
+  "months": 60,
+  "assumptions": {
+    "risk_free_pct": 6.5,
+    "equity_risk_premium_pct": 7.000000000000001
+  },
+  "highest_beta": {
+    "Bajaj Finance": 1.31
+  },
+  "lowest_beta": {
+    "ONGC": 0.54
+  },
+  "median_r2": 0.36,
+  "stocks_with_significant_alpha": 1,
+  "market_premium_realised_pct": 3.07,
+  "sml_intercept_pct": 2.0,
+  "sml_slope_pct": 4.79,
+  "sml_t_slope": 0.47,
+  "sml_r2": 0.01
+}

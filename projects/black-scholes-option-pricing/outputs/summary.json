@@ -1,0 +1,40 @@
+{
+  "as_of": "20 Nov 2026",
+  "spot": 25800.6,
+  "strike": 25800,
+  "days_to_expiry": 30,
+  "historical_vol_1y_pct": 14.29,
+  "assumptions": {
+    "risk_free_pct": 6.5,
+    "dividend_yield_pct": 1.2
+  },
+  "call": {
+    "price": 478.9905,
+    "delta": 0.5501,
+    "gamma": 0.0004,
+    "vega_per_1pct": 29.2416,
+    "theta_per_day": -8.9394,
+    "rho_per_1pct": 11.2726
+  },
+  "put": {
+    "price": 366.3574,
+    "delta": -0.4489,
+    "gamma": 0.0004,
+    "vega_per_1pct": 29.2416,
+    "theta_per_day": -5.2168,
+    "rho_per_1pct": -9.8199
+  },
+  "put_call_parity_gap": 0.0,
+  "binomial_1000_steps": 478.8922,
+  "binomial_error_1000": -0.0982,
+  "monte_carlo": 478.3,
+  "monte_carlo_ci95": 1.852,
+  "implied_vol_recovered_pct": 14.2885,
+  "returns_used_for_normality": 494,
+  "skewness": 0.104,
+  "excess_kurtosis": 2.117,
+  "jarque_bera": 93.1,
+  "jarque_bera_p": 5.981417360105926e-21,
+  "days_beyond_3_sd": 5,
+  "expected_if_normal": 1.3
+}
