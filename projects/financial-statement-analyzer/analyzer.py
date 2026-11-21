@@ -46,12 +46,17 @@ ITEMS = {
     "Free cash flow": ("cf", ["Free Cash Flow"]),
 }
 CRORE = 1e7
+FX_NOTES = {}
 
 
 # ------------------------------------------------------------------ extraction
 def extract(sym):
     import yfinance as yf
     t = yf.Ticker(sym + ".NS")
+    try:
+        ccy = t.info.get("financialCurrency", "INR") or "INR"
+    except Exception:
+        ccy = "INR"
     sheets = {"is": t.income_stmt, "bs": t.balance_sheet, "cf": t.cashflow}
     data = {}
     for item, (st, names) in ITEMS.items():
@@ -63,9 +68,17 @@ def extract(sym):
     f.columns = [f"FY{pd.Timestamp(c).year}" if pd.Timestamp(c).month <= 6 else f"FY{pd.Timestamp(c).year + 1}" for c in f.columns]
     f = f.loc[:, ~f.columns.duplicated()].sort_index(axis=1)
     f = f.loc[:, f.loc[["Revenue", "Net income", "Total assets"]].notna().all()]  # keep complete years
-    scale = pd.Series(1 / CRORE, index=f.index)
-    scale["Shares outstanding"] = 1 / CRORE   # shares in crore
-    return f.mul(scale, axis=0).astype(float).round(2).iloc[:, -4:] if f.shape[1] else f
+    f = f.iloc[:, -4:].astype(float)
+    if ccy != "INR" and f.shape[1]:   # e.g. Infosys reports in USD: convert at each fiscal year's average rate
+        fx = yf.download(f"{ccy}INR=X", period="6y", auto_adjust=True, progress=False)["Close"].squeeze()
+        fx.index = pd.to_datetime(fx.index).tz_localize(None)
+        fy = fx.groupby(fx.index.year + (fx.index.month > 3)).mean()
+        rates = pd.Series({c: fy.get(int(c[2:]), fx.iloc[-1]) for c in f.columns})
+        money = [i for i in f.index if i != "Shares outstanding"]
+        f.loc[money] = f.loc[money].mul(rates, axis=1)
+        FX_NOTES[sym] = f"reported in {ccy}, converted at fiscal-year average {ccy}/INR: " + ", ".join(f"{k} {v:.2f}" for k, v in rates.items())
+    scale = pd.Series(1 / CRORE, index=f.index)   # rupees and shares both shown in crore
+    return f.mul(scale, axis=0).round(2) if f.shape[1] else f
 
 
 # ------------------------------------------------------------------ ratios (python, mirrored as Excel formulas)
@@ -291,6 +304,7 @@ def main():
         "most_leveraged_de": rank("Debt to equity (x)").head(3).round(2).to_dict(),
         "f_scores": comp["Piotroski F-score"].to_dict(), "altman": comp[["Altman Z'' (EM)", "Altman zone"]].to_dict(orient="index"),
         "median_roe_%": round(float(comp["Return on equity (ROE) %"].median()), 1),
+        "currency_notes": FX_NOTES,
         "cash_conversion_below_1": comp.index[comp["Operating cash flow / net income (x)"] < 1].tolist(),
     }
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2, default=str))
@@ -299,7 +313,7 @@ def main():
             "Operating cash flow / net income (x)", "Piotroski F-score", "Altman Z'' (EM)", "Altman zone"]
     md = ["# Financial Statement Analysis — 12 Indian companies", "",
           "Annual statements from Yahoo Finance (₹ crore, consolidated). Every ratio in the Excel workbook is a live formula.", "",
-          comp[show].round(2).to_markdown(), "", "![Profitability](chart_profitability_growth.png)", "",
+          comp[show].round(2).to_markdown(floatfmt=",.2f"), "", *[f"- {k}: {v}" for k, v in FX_NOTES.items()], "", "![Profitability](chart_profitability_growth.png)", "",
           "## Piotroski F-score detail", "",
           pd.DataFrame({s: v["f_tests"] for s, v in scores.items()}).replace({True: "✓", False: "✗"}).to_markdown(), "",
           "_Altman Z''-score (emerging markets): above 5.85 safe, 4.15–5.85 grey zone, below 4.15 distress. For learning purposes only._"]
