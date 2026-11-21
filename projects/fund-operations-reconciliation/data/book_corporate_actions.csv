@@ -1,0 +1,6 @@
+ca_id,symbol,event,pay_date,eligible_quantity,cash_booked,shares_booked
+CA01,ITC,Dividend,2026-10-16,16310.0,106015.0,0.0
+CA02,INFY,Dividend,2026-10-28,9935.0,228505.0,0.0
+CA04,TCS,Dividend,2026-10-27,7280.0,80080.0,0.0
+CA05,POWERGRID,Dividend,2026-10-23,34425.0,154912.5,0.0
+CA06,TATASTEEL,Bonus,2026-10-15,85810.0,0.0,85810.0

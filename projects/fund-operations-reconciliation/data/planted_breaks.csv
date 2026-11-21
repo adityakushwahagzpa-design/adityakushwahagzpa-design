@@ -1,0 +1,17 @@
+area,break_type,reference,symbol
+Trade,Quantity keyed wrongly in book,T0071,TITAN
+Trade,Quantity keyed wrongly in book,T0299,SBIN
+Trade,Quantity keyed wrongly in book,T0319,SUNPHARMA
+Trade,Commission booked at wrong rate,T0018,HDFCBANK
+Trade,Commission booked at wrong rate,T0022,SBIN
+Trade,Duplicate booking in book,T0190,TATASTEEL
+Trade,Duplicate booking in book,T0307,POWERGRID
+Trade,Trade missing from book,T0309,ASIANPAINT
+Trade,Trade missing from book,T0125,INFY
+Position,Failed settlement still pending at month-end,T0276,TITAN
+Position,Failed settlement still pending at month-end,T0270,TATASTEEL
+Trade,Settled late (resolved inside month),T0310,POWERGRID
+Trade,Settled late (resolved inside month),T0170,TCS
+Corporate action,Dividend not booked in book,CA03,HINDUNILVR
+Corporate action,Stock split not applied in book,CA07,MARUTI
+Cash,"Custodian fee debited, not booked",FEE-OCT,CASH

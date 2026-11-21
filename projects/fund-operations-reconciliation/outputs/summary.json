@@ -1,0 +1,42 @@
+{
+  "month_end": "30 Oct 2026",
+  "trades_checked": 320,
+  "trades_matched": 313,
+  "trade_breaks": {
+    "Quantity mismatch": 3,
+    "Amount mismatch": 2,
+    "Duplicate in book": 2,
+    "Missing in book": 2
+  },
+  "settlements": {
+    "Settled on time": 316,
+    "Settled late": 2,
+    "Failed - pending": 2
+  },
+  "corporate_actions": {
+    "Matched": 5,
+    "Not booked in book": 2
+  },
+  "positions_checked": 20,
+  "position_breaks": 8,
+  "position_breaks_unexplained": 0,
+  "cash_book": 65151676.35,
+  "cash_custodian": 70846276.25,
+  "cash_difference": -5694599.9,
+  "cash_explained": {
+    "Trade breaks (quantity, amount, duplicates, missing)": -4018975.4,
+    "Failed settlements booked as settled": -1645976.64,
+    "Corporate action cash differences": -113620.0,
+    "Custodian charges not booked": 83972.14
+  },
+  "cash_unexplained": 0.0,
+  "negative_book_holdings": {
+    "MARUTI": -90.0
+  },
+  "records_reconciled": 668,
+  "open_exceptions": 14,
+  "auto_cleared_pct": 97.6,
+  "nav_book": 372740399.09,
+  "nav_corrected": 378562178.56,
+  "nav_misstatement_bps": -153.8
+}
