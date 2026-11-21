@@ -1,0 +1,52 @@
+{
+  "rows": {
+    "branches": 8,
+    "customers": 1200,
+    "accounts": 1641,
+    "transactions": 143836
+  },
+  "index_test_ms": {
+    "before": 6.189,
+    "after": 0.106,
+    "plan_before": "Seq Scan",
+    "plan_after": "Bitmap Heap Scan"
+  },
+  "top_channel": {
+    "channel": "UPI",
+    "txns": 60985,
+    "value_cr": 102.42,
+    "avg_ticket": 16794.0,
+    "share_of_txns_pct": 42.4
+  },
+  "top10pct_balance_share": 54.2,
+  "dormant_accounts": 98,
+  "reactivated_dormant_alerts": 7,
+  "structuring_customers": 6,
+  "high_risk_outsized_inflow_customers": 27,
+  "festive": [
+    {
+      "year": 2024,
+      "period": "Oct-Nov",
+      "avg_monthly_spend_lakh": 345.4
+    },
+    {
+      "year": 2024,
+      "period": "Other months",
+      "avg_monthly_spend_lakh": 250.2
+    },
+    {
+      "year": 2025,
+      "period": "Oct-Nov",
+      "avg_monthly_spend_lakh": 389.2
+    },
+    {
+      "year": 2025,
+      "period": "Other months",
+      "avg_monthly_spend_lakh": 290.3
+    }
+  ],
+  "upi_share_first_last": [
+    37.8,
+    56.8
+  ]
+}

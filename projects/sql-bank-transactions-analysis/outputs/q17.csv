@@ -1,0 +1,7 @@
+customer_id,full_name,segment,kyc_risk,flagged_windows,max_deposits_in_7_days,max_cash_in_7_days
+589,Arjun Reddy,Retail,Low,23,10,466482.0
+154,Nikhil Kumar,Premium,Low,11,7,332708.0
+1035,Siddharth Chatterjee,Retail,Medium,15,6,282095.0
+584,Riya Das,Retail,Low,7,5,239849.0
+677,Ananya Pandey,Retail,Medium,9,5,238572.0
+845,Aditya Verma,Retail,Low,15,5,238449.0

@@ -73,7 +73,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **20 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **52 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
+| **54 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
@@ -133,6 +133,8 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 | **[Credit Appraisal Model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model)** | ₹20 crore term-loan appraisal; DSCR 2.39x, recommended at grade CR-2 | Excel |
 | **[AP Three-Way Match](https://github.com/adityakushwahagzpa-design/ap-three-way-match)** | PO, GRN and invoice matching with quantity and price variance flags and an approval-ready payment list | Excel, PDF |
 | **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
+| **[Bank Transactions Analysis (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis)** | 4-table PostgreSQL bank database, 20 queries up to window functions and CTEs; AML rules flag 6 structuring customers and 7 reactivated dormant accounts | PostgreSQL, Python |
+| **[Nifty 50 Portfolio Analysis (Google Sheets)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets)** | Live GOOGLEFINANCE portfolio of seven stocks: diversification cut volatility from 22.1% to 13.2%, but returns trailed the Nifty 50 (21.5% vs 27.0%) | Google Sheets |
 
 **Classic finance research papers in Python** — seven landmark papers applied to market data, refreshed weekly by GitHub Actions
 
@@ -553,7 +555,7 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 </details>
 
 <details>
-<summary><b>All 52 Projects</b></summary>
+<summary><b>All 54 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
@@ -561,12 +563,12 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 | **Fund Services** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) · [hdfc-flexi-cap-fund-analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) |
 | **Valuation** | [tata-motors-equity-research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) · [eternal-financial-model-dcf](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) · [starbucks-3-statement-dcf](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) · [amazon-dcf-model](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) · [burger-king-lbo-model](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) · [comparable-company-analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) · [precedent-transaction-analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) · [infosys-financial-statements](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) · [itc-financial-statement-analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) |
 | **Credit** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
-| **Market Research** | [ipo-market-analysis-india](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) · [correlation-matrix-diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) |
+| **Market Research** | [ipo-market-analysis-india](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) · [correlation-matrix-diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) · [nifty-portfolio-analysis-google-sheets](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets) |
 | **Dashboards** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) · [european-sales-dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) · [bajaj-sales-profit-dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) · [financial-performance-dashboard-tableau](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) |
 | **MIS & Trackers** | [customer-sales-mis-report](https://github.com/adityakushwahagzpa-design/customer-sales-mis-report) · [training-deployment-tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) · [client-churn-dashboard](https://github.com/adityakushwahagzpa-design/client-churn-dashboard) · [security-cost-roi-analysis](https://github.com/adityakushwahagzpa-design/security-cost-roi-analysis) · [investment-portfolio-tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) |
 | **Finance Ops** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) · [cash-application-ar-ageing](https://github.com/adityakushwahagzpa-design/cash-application-ar-ageing) · [bank-reconciliation-excel](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) · [ar-ap-ledger-excel](https://github.com/adityakushwahagzpa-design/ar-ap-ledger-excel) |
 | **AI in Finance** | [ai-fpa-agent-claude](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) |
-| **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) |
+| **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) · [sql-bank-transactions-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) |
 | **Equity & Industry Research** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) · [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
 | **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
 | **Python Research & ML** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) · [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) · [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) · [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
@@ -582,9 +584,9 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 | Category | Skills |
 |:--|:--|
 | **Finance domains** | Fund accounting (daily NAV, accruals, reconciliations) · Valuation (three-statement, DCF, LBO, comps, precedents) · Credit analysis (DSCR, 5 Cs) · KYC / AML (PMLA, FATF, RBI norms) · Finance operations (AP, AR, bank reconciliation) |
-| **Analysis & modelling** | Excel (advanced) · Google Sheets · Financial modelling |
+| **Analysis & modelling** | Excel (advanced) · Google Sheets (GOOGLEFINANCE) · Financial modelling |
 | **Reporting & visualisation** | Power BI · Tableau · MS Office |
-| **Data & ERP** | SQL · Python (Pandas) · SAP FICO · SAP GRC |
+| **Data & ERP** | SQL / PostgreSQL (joins, window functions, CTEs) · Python (Pandas) · SAP FICO · SAP GRC |
 | **Tools & AI** | Git & GitHub · Markdown · Claude · ChatGPT · Google Workspace |
 
 ---

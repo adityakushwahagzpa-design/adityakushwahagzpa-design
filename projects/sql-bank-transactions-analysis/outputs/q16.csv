@@ -1,0 +1,8 @@
+account_id,full_name,kyc_risk,last_activity,reactivated_on,days_dormant,channel,amount
+101508,Rahul Menon,Low,2024-03-28,2025-09-02,523,RTGS,895084.32
+101465,Pooja Kumar,Medium,2024-03-27,2025-10-25,577,Cash,877096.02
+101554,Aditya Mehta,Low,2024-03-04,2025-11-16,622,Cash,673598.27
+100143,Tanvi Sharma,Low,2024-03-17,2025-11-20,613,Cash,566906.27
+101429,Ishaan Pandey,Low,2024-02-18,2025-09-30,590,RTGS,397706.65
+100780,Meera Reddy,Low,2024-03-29,2025-11-07,588,RTGS,260179.76
+100440,Arjun Banerjee,Low,2024-03-27,2025-12-05,618,RTGS,174866.43
