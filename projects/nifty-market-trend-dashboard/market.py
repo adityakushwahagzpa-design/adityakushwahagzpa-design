@@ -28,6 +28,11 @@ def download():
     px.index = pd.to_datetime(px.index).tz_localize(None)
     px = px.dropna(how="all")
     px.columns = [c.replace(".NS", "") for c in px.columns]
+    for s in [s for s in NIFTY50 if s not in px or px[s].dropna().shape[0] < 220]:  # retry one by one
+        one = yf.download(yf_symbol(s), period="2y", auto_adjust=True, progress=False)["Close"].squeeze()
+        if len(one.dropna()) >= 220:
+            one.index = pd.to_datetime(one.index).tz_localize(None)
+            px[s] = one
     missing = [s for s in NIFTY50 if s not in px or px[s].dropna().shape[0] < 220]
     return px.drop(columns=[m for m in missing if m in px]), missing
 

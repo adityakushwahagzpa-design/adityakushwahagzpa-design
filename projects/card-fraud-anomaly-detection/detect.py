@@ -40,9 +40,12 @@ def load():
     d = d.rename(columns={c: canon.get(c.lower(), c) for c in d.columns})
     print("columns:", list(d.columns)[:5], "...", list(d.columns)[-3:], d.shape)
     d["Class"] = d["Class"].astype(str).str.strip("'\"").astype(float).astype(int)
-    if "Time" not in d:  # the source file is already in time order
-        d["Time"] = np.arange(len(d), dtype=float) * (172792 / len(d))
-    return d.sort_values("Time", kind="stable").reset_index(drop=True)
+    d.attrs["real_time"] = "Time" in d
+    if "Time" not in d:  # this copy has no Time column; the source file is already in time order
+        d["Time"] = np.arange(len(d), dtype=float)
+    out = d.sort_values("Time", kind="stable").reset_index(drop=True)
+    out.attrs = d.attrs
+    return out
 
 
 def budget_metrics(y, score, amount):
@@ -63,7 +66,8 @@ def main():
     feats = [f"V{i}" for i in range(1, 29)] + ["Amount"]
     X = d[feats].copy()
     X["Amount"] = np.log1p(X["Amount"])
-    X["hour"] = (d["Time"] // 3600) % 24
+    if d.attrs.get("real_time", True):
+        X["hour"] = (d["Time"] // 3600) % 24
     y, amount = d["Class"].values, d["Amount"].values
     cut = int(len(d) * 0.7)
     Xtr, Xte, ytr, yte, amt_te = X.iloc[:cut], X.iloc[cut:], y[:cut], y[cut:], amount[cut:]
