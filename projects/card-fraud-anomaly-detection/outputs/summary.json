@@ -1,0 +1,197 @@
+{
+  "data": "284,807 card transactions, 492 frauds (0.173%), OpenML 1597",
+  "split": {
+    "train_transactions": 199364,
+    "test_transactions": 85443,
+    "test_frauds": 108,
+    "method": "first 70% of the timeline for training, last 30% for testing"
+  },
+  "results": [
+    {
+      "model": "Rule: largest amounts",
+      "type": "rule",
+      "roc_auc": 0.411,
+      "pr_auc": 0.002,
+      "recall@top 0.1%": 0.0,
+      "recall@top 0.5%": 0.9,
+      "recall@top 1%": 2.8
+    },
+    {
+      "model": "Isolation Forest",
+      "type": "unsupervised",
+      "roc_auc": 0.947,
+      "pr_auc": 0.057,
+      "recall@top 0.1%": 0.0,
+      "recall@top 0.5%": 35.2,
+      "recall@top 1%": 58.3
+    },
+    {
+      "model": "Local Outlier Factor",
+      "type": "unsupervised",
+      "roc_auc": 0.929,
+      "pr_auc": 0.427,
+      "recall@top 0.1%": 45.4,
+      "recall@top 0.5%": 75.0,
+      "recall@top 1%": 75.9
+    },
+    {
+      "model": "Autoencoder",
+      "type": "unsupervised",
+      "roc_auc": 0.942,
+      "pr_auc": 0.082,
+      "recall@top 0.1%": 0.0,
+      "recall@top 0.5%": 49.1,
+      "recall@top 1%": 75.0
+    },
+    {
+      "model": "Gradient boosting (supervised)",
+      "type": "supervised",
+      "roc_auc": 0.976,
+      "pr_auc": 0.806,
+      "recall@top 0.1%": 72.2,
+      "recall@top 0.5%": 88.0,
+      "recall@top 1%": 88.9
+    }
+  ],
+  "budget_detail": {
+    "Rule: largest amounts": {
+      "top 0.1%": {
+        "alerts": 85,
+        "frauds_caught": 0,
+        "recall_%": 0.0,
+        "precision_%": 0.0,
+        "fraud_value_caught_%": 0.0
+      },
+      "top 0.5%": {
+        "alerts": 427,
+        "frauds_caught": 1,
+        "recall_%": 0.9,
+        "precision_%": 0.2,
+        "fraud_value_caught_%": 10.3
+      },
+      "top 1%": {
+        "alerts": 854,
+        "frauds_caught": 3,
+        "recall_%": 2.8,
+        "precision_%": 0.4,
+        "fraud_value_caught_%": 27.0
+      }
+    },
+    "Isolation Forest": {
+      "top 0.1%": {
+        "alerts": 85,
+        "frauds_caught": 0,
+        "recall_%": 0.0,
+        "precision_%": 0.0,
+        "fraud_value_caught_%": 0.0
+      },
+      "top 0.5%": {
+        "alerts": 427,
+        "frauds_caught": 38,
+        "recall_%": 35.2,
+        "precision_%": 8.9,
+        "fraud_value_caught_%": 26.9
+      },
+      "top 1%": {
+        "alerts": 854,
+        "frauds_caught": 63,
+        "recall_%": 58.3,
+        "precision_%": 7.4,
+        "fraud_value_caught_%": 50.6
+      }
+    },
+    "Local Outlier Factor": {
+      "top 0.1%": {
+        "alerts": 85,
+        "frauds_caught": 49,
+        "recall_%": 45.4,
+        "precision_%": 57.6,
+        "fraud_value_caught_%": 39.3
+      },
+      "top 0.5%": {
+        "alerts": 427,
+        "frauds_caught": 81,
+        "recall_%": 75.0,
+        "precision_%": 19.0,
+        "fraud_value_caught_%": 80.3
+      },
+      "top 1%": {
+        "alerts": 854,
+        "frauds_caught": 82,
+        "recall_%": 75.9,
+        "precision_%": 9.6,
+        "fraud_value_caught_%": 80.3
+      }
+    },
+    "Autoencoder": {
+      "top 0.1%": {
+        "alerts": 85,
+        "frauds_caught": 0,
+        "recall_%": 0.0,
+        "precision_%": 0.0,
+        "fraud_value_caught_%": 0.0
+      },
+      "top 0.5%": {
+        "alerts": 427,
+        "frauds_caught": 53,
+        "recall_%": 49.1,
+        "precision_%": 12.4,
+        "fraud_value_caught_%": 37.4
+      },
+      "top 1%": {
+        "alerts": 854,
+        "frauds_caught": 81,
+        "recall_%": 75.0,
+        "precision_%": 9.5,
+        "fraud_value_caught_%": 82.0
+      }
+    },
+    "Gradient boosting (supervised)": {
+      "top 0.1%": {
+        "alerts": 85,
+        "frauds_caught": 78,
+        "recall_%": 72.2,
+        "precision_%": 91.8,
+        "fraud_value_caught_%": 71.3
+      },
+      "top 0.5%": {
+        "alerts": 427,
+        "frauds_caught": 95,
+        "recall_%": 88.0,
+        "precision_%": 22.2,
+        "fraud_value_caught_%": 89.9
+      },
+      "top 1%": {
+        "alerts": 854,
+        "frauds_caught": 96,
+        "recall_%": 88.9,
+        "precision_%": 11.2,
+        "fraud_value_caught_%": 89.9
+      }
+    }
+  },
+  "best_unsupervised": "Local Outlier Factor",
+  "hybrid_gb_or_iforest": {
+    "top 0.1%": {
+      "alerts": 85,
+      "frauds_caught": 43,
+      "recall_%": 39.8,
+      "precision_%": 50.6,
+      "fraud_value_caught_%": 46.9
+    },
+    "top 0.5%": {
+      "alerts": 427,
+      "frauds_caught": 87,
+      "recall_%": 80.6,
+      "precision_%": 20.4,
+      "fraud_value_caught_%": 82.6
+    },
+    "top 1%": {
+      "alerts": 854,
+      "frauds_caught": 95,
+      "recall_%": 88.0,
+      "precision_%": 11.1,
+      "fraud_value_caught_%": 89.9
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "companies_analysed": 12,
+  "failed": [],
+  "fiscal_years": [
+    "FY2023",
+    "FY2024",
+    "FY2025",
+    "FY2026"
+  ],
+  "highest_roce": {
+    "TCS": 54.9,
+    "INFY": 41.7,
+    "ITC": 36.5
+  },
+  "lowest_roce": {
+    "RELIANCE": 9.0,
+    "TATASTEEL": 11.3,
+    "ULTRACEMCO": 11.8
+  },
+  "highest_net_margin": {
+    "ITC": 26.4,
+    "HINDUNILVR": 23.6,
+    "SUNPHARMA": 19.7
+  },
+  "fastest_revenue_cagr": {
+    "LT": 16.1,
+    "MARUTI": 15.9,
+    "BHARTIARTL": 14.9
+  },
+  "most_leveraged_de": {
+    "BHARTIARTL": 1.31,
+    "LT": 1.15,
+    "TATASTEEL": 0.9
+  },
+  "f_scores": {
+    "RELIANCE": 7,
+    "TCS": 5,
+    "INFY": 6,
+    "HINDUNILVR": 6,
+    "ITC": 3,
+    "LT": 6,
+    "MARUTI": 6,
+    "SUNPHARMA": 5,
+    "ASIANPAINT": 7,
+    "TATASTEEL": 7,
+    "BHARTIARTL": 8,
+    "ULTRACEMCO": 8
+  },
+  "altman": {
+    "RELIANCE": {
+      "Altman Z'' (EM)": 5.43,
+      "Altman zone": "grey"
+    },
+    "TCS": {
+      "Altman Z'' (EM)": 11.71,
+      "Altman zone": "safe"
+    },
+    "INFY": {
+      "Altman Z'' (EM)": 11.49,
+      "Altman zone": "safe"
+    },
+    "HINDUNILVR": {
+      "Altman Z'' (EM)": 6.71,
+      "Altman zone": "safe"
+    },
+    "ITC": {
+      "Altman Z'' (EM)": 13.08,
+      "Altman zone": "safe"
+    },
+    "LT": {
+      "Altman Z'' (EM)": 5.68,
+      "Altman zone": "grey"
+    },
+    "MARUTI": {
+      "Altman Z'' (EM)": 8.84,
+      "Altman zone": "safe"
+    },
+    "SUNPHARMA": {
+      "Altman Z'' (EM)": 12.3,
+      "Altman zone": "safe"
+    },
+    "ASIANPAINT": {
+      "Altman Z'' (EM)": 9.96,
+      "Altman zone": "safe"
+    },
+    "TATASTEEL": {
+      "Altman Z'' (EM)": 4.21,
+      "Altman zone": "grey"
+    },
+    "BHARTIARTL": {
+      "Altman Z'' (EM)": 3.8,
+      "Altman zone": "distress"
+    },
+    "ULTRACEMCO": {
+      "Altman Z'' (EM)": 5.17,
+      "Altman zone": "grey"
+    }
+  },
+  "median_roe_%": 16.3,
+  "cash_conversion_below_1": [
+    "HINDUNILVR",
+    "ITC"
+  ]
+}

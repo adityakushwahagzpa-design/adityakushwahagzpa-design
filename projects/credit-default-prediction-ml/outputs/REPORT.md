@@ -1,6 +1,6 @@
 # Credit Default Prediction — Results
 
-Default of Credit Card Clients (UCI 350), 30,000 borrowers, default rate 22.1%.
+Default of Credit Card Clients (UCI Machine Learning Repository, data set 350), 30,000 borrowers, default rate 22.1%.
 
 ## Model comparison (30% test set)
 
