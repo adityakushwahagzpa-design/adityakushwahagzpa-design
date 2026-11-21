@@ -643,7 +643,11 @@ Leadership of the university finance club and its 5-member core team.
 
 **SAP Governance, Risk, and Compliance (GRC)** — Alison, Nov 2026 · Credential ID 6754-61766250 · [Verify](https://alison.com/verify/af5fd318af) · [PDF](certificates/SAP_GRC_Alison.pdf)
 
-A CPD-certified course on how SAP GRC helps companies manage governance, risk and compliance in one system. Topics: the three core modules (Access Control for user access and segregation of duties, Process Control for internal control testing, and Risk Management for identifying and scoring risks), risk assessment methods, how GRC fits into business processes, the skills needed for a GRC rollout, and Global Trade Services for import and export compliance.
+CPD-certified course on managing governance, risk and compliance in SAP:
+- **Access Control** – user access reviews and segregation of duties (SoD) checks
+- **Process Control** – internal control testing and compliance monitoring
+- **Risk Management** – risk identification, assessment and response
+- **Global Trade Services** – import and export compliance
 
 <img src="certificates/SAP_GRC_Alison.png" alt="SAP Governance, Risk, and Compliance (GRC) certificate – Alison" width="480"/>
 
