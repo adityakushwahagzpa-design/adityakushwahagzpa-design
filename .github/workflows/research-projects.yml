@@ -89,8 +89,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add projects/*/outputs projects/money-mule-ring-detector/data projects/money-mule-ring-detector/neo4j \
-                  projects/personal-inflation-tracker/receipts projects/personal-inflation-tracker/data
-          git diff --cached --quiet && exit 0
-          git commit -m "Update research project outputs"
-          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin main && break; sleep 5; done
+          tar czf /tmp/outputs.tgz projects/*/outputs projects/money-mule-ring-detector/data projects/money-mule-ring-detector/neo4j projects/personal-inflation-tracker/receipts projects/personal-inflation-tracker/data
+          for i in 1 2 3; do
+            git add projects/*/outputs projects/money-mule-ring-detector/data projects/money-mule-ring-detector/neo4j projects/personal-inflation-tracker/receipts projects/personal-inflation-tracker/data
+            git diff --cached --quiet && exit 0
+            git commit -q -m "Update research project outputs"
+            git push -q origin HEAD:main && exit 0
+            git fetch -q origin main && git reset -q --hard origin/main && tar xzf /tmp/outputs.tgz
+            sleep 5
+          done
+          exit 1
