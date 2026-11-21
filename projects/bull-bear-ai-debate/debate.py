@@ -90,9 +90,19 @@ def main():
         if not (OUT / f"{t}_evidence.json").exists():
             print(f"{t}: no evidence pack, run evidence.py first")
             continue
-        results.append(run_debate(client, t) if client else dry_run(t) or {"ticker": t, "verdict": "dry run"})
-    (OUT / "debate_summary.json").write_text(json.dumps({"mode": "live" if client else "dry run", "model": MODEL,
-                                                         "results": results}, indent=2))
+        if client:
+            try:
+                results.append(run_debate(client, t))
+                continue
+            except Exception as e:  # e.g. invalid or unfunded API key: keep the evidence and prompts instead
+                print(f"{t}: live debate failed ({type(e).__name__}: {str(e)[:120]}); writing dry run")
+                note = f"live run failed: {type(e).__name__}"
+        else:
+            note = "no API key"
+        dry_run(t)
+        results.append({"ticker": t, "verdict": "dry run", "reason": note})
+    mode = "live" if results and all(r.get("verdict") != "dry run" for r in results) else "dry run"
+    (OUT / "debate_summary.json").write_text(json.dumps({"mode": mode, "model": MODEL, "results": results}, indent=2))
 
 
 if __name__ == "__main__":
