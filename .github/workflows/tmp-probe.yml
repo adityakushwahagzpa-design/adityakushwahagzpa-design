@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
-      - run: pip install -q requests huggingface_hub
+      - run: pip install -q requests huggingface_hub pandas pyarrow
       - run: python .github/tmp/probe.py
