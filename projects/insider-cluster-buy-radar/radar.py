@@ -78,7 +78,7 @@ def clean(df):
     df = df[rel.str.contains("Director|Officer", case=False)]  # insiders who run or oversee the company
     df = df[(df["value"] >= MIN_VALUE) & df["trans_date"].notna() & df["ISSUERTRADINGSYMBOL"].notna()]
     df["ticker"] = df["ISSUERTRADINGSYMBOL"].str.upper().str.strip()
-    df = df[df["ticker"].str.fullmatch(r"[A-Z.]{1,6}")]
+    df = df[df["ticker"].str.fullmatch(r"[A-Z.]{1,6}") & ~df["ticker"].isin(["NONE", "NA", "N.A", "NULL"])]
     # One row per insider per day per company (a filing can split a purchase into many lines)
     out = (df.groupby(["ticker", "ISSUERNAME", "RPTOWNERCIK", "RPTOWNERNAME", "RPTOWNER_TITLE", "trans_date"], dropna=False)
              .agg(shares=("shares", "sum"), value=("value", "sum")).reset_index())
@@ -179,8 +179,8 @@ def main():
     md = ["# Latest Insider Cluster Buys", "",
           f"{len(clusters)} clusters found in {', '.join(LOADED)} ({len(purchases):,} qualifying purchases). "
           f"Rule: {MIN_INSIDERS}+ officers or directors, open-market buys of ${MIN_VALUE:,}+, within {WINDOW_DAYS} days.", "",
-          recent[["ticker", "company", "start", "end", "insiders", "total_value"]].to_markdown(index=False), "",
-          "## Top companies by cluster value (queried from the database)", "", top_sql.to_markdown(index=False), "",
+          recent[["ticker", "company", "start", "end", "insiders", "total_value"]].to_markdown(index=False, floatfmt=",.0f", intfmt=","), "",
+          "## Top companies by cluster value (queried from the database)", "", top_sql.to_markdown(index=False, floatfmt=",.0f"), "",
           "![Excess returns](excess_returns.png)", "",
           "_Data: SEC EDGAR insider transactions data sets; prices from Yahoo Finance. Not investment advice._"]
     (OUT / "ALERTS.md").write_text("\n".join(md))
