@@ -1,6 +1,6 @@
 # Nifty 50 Market Trend Report — 2026-11-20
 
-Nifty 50 at 25,800.6: downtrend, +7.5% vs its 200-day average. 68.3% of stocks trade above their 200-day average; 19 of 49 are in an uptrend.
+Nifty 50 at 25,800.6: downtrend, +7.5% vs its 200-day average. 69.0% of stocks trade above their 200-day average; 19 of 50 are in an uptrend.
 
 ![Index](chart_index_trend.png)
 
@@ -21,6 +21,7 @@ Nifty 50 at 25,800.6: downtrend, +7.5% vs its 200-day average. 68.3% of stocks t
 | TITAN      | Consumer          |  4620    |   5.46 |  20.73 |          3.02 |    45.87 | Uptrend (50DMA > 200DMA)   |                |
 | EICHERMOT  | Auto              |  8113    |  13.14 |  19.59 |         10.02 |    70.02 | Uptrend (50DMA > 200DMA)   | Golden cross   |
 | ICICIBANK  | Financials        |  1640    |  18.41 |  19.33 |         20.67 |    81    | Uptrend (50DMA > 200DMA)   |                |
+| AXISBANK   | Financials        |  1446    |  19.5  |  18.11 |         12.55 |    78.15 | Downtrend (50DMA < 200DMA) | Death cross    |
 | HINDALCO   | Metals & Mining   |   929.5  |   4.1  |  15.07 |         -4.89 |    50.91 | Downtrend (50DMA < 200DMA) | Death cross    |
 | JSWSTEEL   | Metals & Mining   |  1337    |   9.33 |  13.58 |          6.79 |    59.58 | Uptrend (50DMA > 200DMA)   |                |
 | DRREDDY    | Healthcare        |  1390.2  |  11.71 |  13.29 |         10.9  |    68.96 | Uptrend (50DMA > 200DMA)   | Golden cross   |

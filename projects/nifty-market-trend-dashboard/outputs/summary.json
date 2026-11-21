@@ -1,9 +1,7 @@
 {
   "as_of": "2026-11-20",
-  "stocks_analysed": 49,
-  "symbols_not_found": [
-    "AXISBANK"
-  ],
+  "stocks_analysed": 50,
+  "symbols_not_found": [],
   "nifty_level": 25800.6,
   "nifty_returns_%": {
     "1M": 13.1,
@@ -13,10 +11,10 @@
   },
   "nifty_vs_200dma_%": 7.51,
   "nifty_trend": "downtrend",
-  "breadth_above_200dma_%": 68.3,
+  "breadth_above_200dma_%": 69.0,
   "breadth_1y_range_%": [
-    10.2,
-    81.6
+    10.0,
+    82.0
   ],
   "stocks_in_uptrend": 19,
   "golden_crosses_last_3m": [
@@ -32,6 +30,7 @@
   "death_crosses_last_3m": [
     "SBIN",
     "SHRIRAMFIN",
+    "AXISBANK",
     "HINDALCO",
     "SUNPHARMA",
     "COALINDIA",
@@ -46,6 +45,7 @@
     "APOLLOHOSP",
     "EICHERMOT",
     "ICICIBANK",
+    "AXISBANK",
     "ULTRACEMCO",
     "LT",
     "BHARTIARTL",
@@ -94,7 +94,7 @@
     "Materials": 10.14,
     "Healthcare": 7.09,
     "Telecom": 4.69,
-    "Financials": 2.08,
+    "Financials": 3.54,
     "Capital Goods": 1.25,
     "Energy": 0.37,
     "Auto": -0.62,
@@ -102,5 +102,5 @@
     "FMCG": -7.38,
     "IT": -10.96
   },
-  "share_beating_index_1y_%": 55.1
+  "share_beating_index_1y_%": 56.0
 }

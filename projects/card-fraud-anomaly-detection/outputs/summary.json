@@ -19,37 +19,37 @@
     {
       "model": "Isolation Forest",
       "type": "unsupervised",
-      "roc_auc": 0.947,
-      "pr_auc": 0.057,
+      "roc_auc": 0.946,
+      "pr_auc": 0.055,
       "recall@top 0.1%": 0.0,
       "recall@top 0.5%": 35.2,
-      "recall@top 1%": 58.3
+      "recall@top 1%": 57.4
     },
     {
       "model": "Local Outlier Factor",
       "type": "unsupervised",
-      "roc_auc": 0.929,
-      "pr_auc": 0.427,
+      "roc_auc": 0.938,
+      "pr_auc": 0.442,
       "recall@top 0.1%": 45.4,
-      "recall@top 0.5%": 75.0,
-      "recall@top 1%": 75.9
+      "recall@top 0.5%": 76.9,
+      "recall@top 1%": 78.7
     },
     {
       "model": "Autoencoder",
       "type": "unsupervised",
-      "roc_auc": 0.942,
-      "pr_auc": 0.082,
+      "roc_auc": 0.917,
+      "pr_auc": 0.076,
       "recall@top 0.1%": 0.0,
-      "recall@top 0.5%": 49.1,
-      "recall@top 1%": 75.0
+      "recall@top 0.5%": 46.3,
+      "recall@top 1%": 72.2
     },
     {
       "model": "Gradient boosting (supervised)",
       "type": "supervised",
-      "roc_auc": 0.976,
-      "pr_auc": 0.806,
-      "recall@top 0.1%": 72.2,
-      "recall@top 0.5%": 88.0,
+      "roc_auc": 0.973,
+      "pr_auc": 0.81,
+      "recall@top 0.1%": 73.1,
+      "recall@top 0.5%": 87.0,
       "recall@top 1%": 88.9
     }
   ],
@@ -94,10 +94,10 @@
       },
       "top 1%": {
         "alerts": 854,
-        "frauds_caught": 63,
-        "recall_%": 58.3,
-        "precision_%": 7.4,
-        "fraud_value_caught_%": 50.6
+        "frauds_caught": 62,
+        "recall_%": 57.4,
+        "precision_%": 7.3,
+        "fraud_value_caught_%": 56.5
       }
     },
     "Local Outlier Factor": {
@@ -106,21 +106,21 @@
         "frauds_caught": 49,
         "recall_%": 45.4,
         "precision_%": 57.6,
-        "fraud_value_caught_%": 39.3
+        "fraud_value_caught_%": 28.7
       },
       "top 0.5%": {
         "alerts": 427,
-        "frauds_caught": 81,
-        "recall_%": 75.0,
-        "precision_%": 19.0,
+        "frauds_caught": 83,
+        "recall_%": 76.9,
+        "precision_%": 19.4,
         "fraud_value_caught_%": 80.3
       },
       "top 1%": {
         "alerts": 854,
-        "frauds_caught": 82,
-        "recall_%": 75.9,
-        "precision_%": 9.6,
-        "fraud_value_caught_%": 80.3
+        "frauds_caught": 85,
+        "recall_%": 78.7,
+        "precision_%": 10.0,
+        "fraud_value_caught_%": 82.6
       }
     },
     "Autoencoder": {
@@ -133,33 +133,33 @@
       },
       "top 0.5%": {
         "alerts": 427,
-        "frauds_caught": 53,
-        "recall_%": 49.1,
-        "precision_%": 12.4,
-        "fraud_value_caught_%": 37.4
+        "frauds_caught": 50,
+        "recall_%": 46.3,
+        "precision_%": 11.7,
+        "fraud_value_caught_%": 31.3
       },
       "top 1%": {
         "alerts": 854,
-        "frauds_caught": 81,
-        "recall_%": 75.0,
-        "precision_%": 9.5,
-        "fraud_value_caught_%": 82.0
+        "frauds_caught": 78,
+        "recall_%": 72.2,
+        "precision_%": 9.1,
+        "fraud_value_caught_%": 77.6
       }
     },
     "Gradient boosting (supervised)": {
       "top 0.1%": {
         "alerts": 85,
-        "frauds_caught": 78,
-        "recall_%": 72.2,
-        "precision_%": 91.8,
+        "frauds_caught": 79,
+        "recall_%": 73.1,
+        "precision_%": 92.9,
         "fraud_value_caught_%": 71.3
       },
       "top 0.5%": {
         "alerts": 427,
-        "frauds_caught": 95,
-        "recall_%": 88.0,
-        "precision_%": 22.2,
-        "fraud_value_caught_%": 89.9
+        "frauds_caught": 94,
+        "recall_%": 87.0,
+        "precision_%": 22.0,
+        "fraud_value_caught_%": 89.7
       },
       "top 1%": {
         "alerts": 854,
@@ -177,21 +177,21 @@
       "frauds_caught": 43,
       "recall_%": 39.8,
       "precision_%": 50.6,
-      "fraud_value_caught_%": 46.9
+      "fraud_value_caught_%": 37.5
     },
     "top 0.5%": {
       "alerts": 427,
-      "frauds_caught": 87,
-      "recall_%": 80.6,
-      "precision_%": 20.4,
-      "fraud_value_caught_%": 82.6
+      "frauds_caught": 88,
+      "recall_%": 81.5,
+      "precision_%": 20.6,
+      "fraud_value_caught_%": 85.1
     },
     "top 1%": {
       "alerts": 854,
-      "frauds_caught": 95,
-      "recall_%": 88.0,
-      "precision_%": 11.1,
-      "fraud_value_caught_%": 89.9
+      "frauds_caught": 94,
+      "recall_%": 87.0,
+      "precision_%": 11.0,
+      "fraud_value_caught_%": 89.7
     }
   }
 }
