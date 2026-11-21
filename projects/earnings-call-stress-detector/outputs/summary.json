@@ -10,7 +10,7 @@
       "rho_vs_abnormal": 0.069,
       "p": 0.2082,
       "rho_vs_abs_move": -0.034,
-      "p_abs": 0.5381
+      "p_abs": 0.5379
     },
     "qa_tone": {
       "rho_vs_abnormal": 0.043,
@@ -22,19 +22,19 @@
       "rho_vs_abnormal": 0.159,
       "p": 0.0034,
       "rho_vs_abs_move": 0.025,
-      "p_abs": 0.6521
+      "p_abs": 0.6526
     },
     "uncertainty_per_1k": {
       "rho_vs_abnormal": -0.012,
       "p": 0.8329,
       "rho_vs_abs_move": -0.067,
-      "p_abs": 0.218
+      "p_abs": 0.2177
     },
     "evasive_per_1k": {
       "rho_vs_abnormal": 0.052,
       "p": 0.3432,
       "rho_vs_abs_move": -0.0,
-      "p_abs": 0.9962
+      "p_abs": 0.9969
     }
   },
   "quintiles": [

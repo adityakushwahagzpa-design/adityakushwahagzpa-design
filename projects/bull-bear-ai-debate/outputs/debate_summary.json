@@ -1,0 +1,21 @@
+{
+  "mode": "dry run",
+  "model": "claude-sonnet-5-5",
+  "results": [
+    {
+      "ticker": "NVDA",
+      "verdict": "dry run",
+      "reason": "live run failed: AuthenticationError"
+    },
+    {
+      "ticker": "TSLA",
+      "verdict": "dry run",
+      "reason": "live run failed: AuthenticationError"
+    },
+    {
+      "ticker": "AAPL",
+      "verdict": "dry run",
+      "reason": "live run failed: AuthenticationError"
+    }
+  ]
+}
