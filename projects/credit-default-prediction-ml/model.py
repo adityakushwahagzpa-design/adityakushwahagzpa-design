@@ -37,23 +37,19 @@ COLS = (["LIMIT_BAL", "SEX", "EDUCATION", "MARRIAGE", "AGE"] + [f"PAY_{i}" for i
 
 # ------------------------------------------------------------------ data
 def load():
+    import requests
     try:
-        from sklearn.datasets import fetch_openml
-        d = fetch_openml(data_id=42477, as_frame=True, parser="auto").frame
-        y = d.iloc[:, -1].astype(int)
-        X = d.iloc[:, :-1].astype(float)
-        X.columns = COLS
-        src = "OpenML 42477"
-    except Exception as e:
-        print(f"OpenML failed ({e}); trying UCI")
-        import requests
         z = zipfile.ZipFile(io.BytesIO(requests.get(
             "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip", timeout=120).content))
         d = pd.read_excel(z.open([n for n in z.namelist() if n.endswith(".xls")][0]), header=1)
-        y = d.iloc[:, -1].astype(int)
-        X = d[COLS].astype(float)
-        src = "UCI 350"
-    return X, y, src
+        return d[COLS].astype(float), d.iloc[:, -1].astype(int), "UCI Machine Learning Repository, data set 350"
+    except Exception as e:
+        print(f"UCI failed ({e}); trying OpenML")
+        from sklearn.datasets import fetch_openml
+        d = fetch_openml(data_id=42477, as_frame=True, parser="auto").frame
+        X = d.iloc[:, :-1].astype(float)
+        X.columns = COLS
+        return X, d.iloc[:, -1].astype(str).str.extract(r"(\d)")[0].astype(int), "OpenML 42477"
 
 
 def features(X):

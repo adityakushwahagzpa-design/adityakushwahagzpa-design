@@ -65,7 +65,7 @@ def extract(sym):
     f = f.loc[:, f.loc[["Revenue", "Net income", "Total assets"]].notna().all()]  # keep complete years
     scale = pd.Series(1 / CRORE, index=f.index)
     scale["Shares outstanding"] = 1 / CRORE   # shares in crore
-    return f.mul(scale, axis=0).astype(float).round(2).tail(4) if f.shape[1] else f
+    return f.mul(scale, axis=0).astype(float).round(2).iloc[:, -4:] if f.shape[1] else f
 
 
 # ------------------------------------------------------------------ ratios (python, mirrored as Excel formulas)

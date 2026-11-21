@@ -36,8 +36,13 @@ BUDGETS = [0.001, 0.005, 0.01]   # share of transactions an analyst team can rev
 def load():
     from sklearn.datasets import fetch_openml
     d = fetch_openml(data_id=1597, as_frame=True, parser="auto").frame
-    d["Class"] = d["Class"].astype(int)
-    return d.sort_values("Time").reset_index(drop=True)
+    canon = {c.lower(): c for c in [f"V{i}" for i in range(1, 29)] + ["Time", "Amount", "Class"]}
+    d = d.rename(columns={c: canon.get(c.lower(), c) for c in d.columns})
+    print("columns:", list(d.columns)[:5], "...", list(d.columns)[-3:], d.shape)
+    d["Class"] = d["Class"].astype(str).str.strip("'\"").astype(float).astype(int)
+    if "Time" not in d:  # the source file is already in time order
+        d["Time"] = np.arange(len(d), dtype=float) * (172792 / len(d))
+    return d.sort_values("Time", kind="stable").reset_index(drop=True)
 
 
 def budget_metrics(y, score, amount):
