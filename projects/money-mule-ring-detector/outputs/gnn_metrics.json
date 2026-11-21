@@ -1,0 +1,10 @@
+{
+  "graphsage_on_test_set": {
+    "precision": 0.905,
+    "recall": 1.0,
+    "f1": 0.95,
+    "roc_auc": 1.0
+  },
+  "edges": 5195,
+  "epochs": 300
+}

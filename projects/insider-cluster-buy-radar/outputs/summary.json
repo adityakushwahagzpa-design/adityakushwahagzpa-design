@@ -6,9 +6,9 @@
     "2025q4",
     "2026q1"
   ],
-  "qualifying_purchases": 8611,
-  "companies_with_purchases": 2001,
-  "clusters": 513,
+  "qualifying_purchases": 8417,
+  "companies_with_purchases": 2000,
+  "clusters": 491,
   "database": "postgresql",
   "1 week": {
     "clusters_measured": 461,

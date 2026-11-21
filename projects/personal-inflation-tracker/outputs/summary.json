@@ -25,5 +25,11 @@
   "falling_items": {
     "EGGS LARGE 12CT": -6.6
   },
-  "cpi_source": "BLS unavailable: could not convert string to float: '-'"
+  "cpi_source": "BLS API",
+  "cpi_food_at_home_yoy_latest_%": 1.81,
+  "cpi_latest_month": "2026-09-01",
+  "cpi_all_items_yoy_latest_%": 3.74,
+  "gap_vs_food_cpi_latest_pts": 2.87,
+  "avg_gap_vs_food_cpi_pts": 0.63,
+  "months_compared": 11
 }

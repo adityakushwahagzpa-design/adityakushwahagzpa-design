@@ -35,14 +35,10 @@ MANAGEMENT DISCUSSION (Item 7 excerpts):
 [M12] The decrease was primarily due to a $3.05 billion increase in repayments of debt and a $158 million decrease in proceeds from issuances of debt.
 
 FINANCIALS (SEC XBRL, USD billions):
-[F1] FY2017: Net income $-1.96bn
-[F2] FY2018: Net income $-0.98bn
-[F3] FY2019: Net income $-0.86bn
-[F4] FY2020: Net income $0.72bn
-[F5] FY2022: Revenue $81.46bn, Operating income $13.66bn, Cash from operations $14.72bn
-[F6] FY2023: Revenue $96.77bn, Operating income $8.89bn, Cash from operations $13.26bn
-[F7] FY2024: Revenue $97.69bn, Operating income $7.08bn, Cash from operations $14.92bn
-[F8] FY2025: Revenue $94.83bn, Operating income $4.36bn, Cash from operations $14.75bn
+[F1] FY ending 2022-12: Revenue $81.46bn, Operating income $13.66bn, Net income $12.56bn, Cash from operations $14.72bn
+[F2] FY ending 2023-12: Revenue $96.77bn, Operating income $8.89bn, Net income $15.00bn, Cash from operations $13.26bn
+[F3] FY ending 2024-12: Revenue $97.69bn, Operating income $7.08bn, Net income $7.09bn, Cash from operations $14.92bn
+[F4] FY ending 2025-12: Revenue $94.83bn, Operating income $4.36bn, Net income $3.79bn, Cash from operations $14.75bn
 
 MARKET DATA (yfinance):
 [P1] 1y return %: -11.6

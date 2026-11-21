@@ -35,14 +35,10 @@ MANAGEMENT DISCUSSION (Item 7 excerpts):
 [M12] Cash used in investing activities increased in fiscal year 2026 compared to fiscal year 2025, primarily driven by higher purchases of equity investment securities and the execution of a non-exclusive license agreement with Groq.
 
 FINANCIALS (SEC XBRL, USD billions):
-[F1] FY2017: Net income $3.05bn
-[F2] FY2018: Net income $4.14bn
-[F3] FY2019: Net income $2.80bn
-[F4] FY2020: Net income $4.33bn
-[F5] FY2022: Revenue $26.97bn, Operating income $4.22bn, Cash from operations $5.64bn
-[F6] FY2023: Revenue $60.92bn, Operating income $32.97bn, Cash from operations $28.09bn
-[F7] FY2024: Revenue $130.50bn, Operating income $81.45bn, Cash from operations $64.09bn
-[F8] FY2025: Revenue $215.94bn, Operating income $130.39bn, Cash from operations $102.72bn
+[F1] FY ending 2023-01: Revenue $26.97bn, Operating income $4.22bn, Net income $4.37bn, Cash from operations $5.64bn
+[F2] FY ending 2024-01: Revenue $60.92bn, Operating income $32.97bn, Net income $29.76bn, Cash from operations $28.09bn
+[F3] FY ending 2025-01: Revenue $130.50bn, Operating income $81.45bn, Net income $72.88bn, Cash from operations $64.09bn
+[F4] FY ending 2026-01: Revenue $215.94bn, Operating income $130.39bn, Net income $120.07bn, Cash from operations $102.72bn
 
 MARKET DATA (yfinance):
 [P1] 1y return %: -29.7
