@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-41%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/adityakushwahagzpa-design?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-46%20Projects-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/aditya-kushwaha16"><img src="https://img.shields.io/badge/LinkedIn-Connect-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:adityakushwahagzpa@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20to%20me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/adityakushwahagzpa-design"><img src="https://img.shields.io/badge/GitHub-Follow-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -433,7 +433,93 @@ Price checks on every receipt line and a fixed-basket index by item and category
 </details>
 
 <details>
-<summary><b>All 41 Projects</b></summary>
+<summary><b>Credit Default Prediction (ML)</b></summary>
+<br/>
+
+Machine learning model that predicts credit card default and turns it into a 300–900 credit score.
+
+| | |
+|:--|:--|
+| **Stack** | scikit-learn (logistic regression, random forest, gradient boosting), pandas |
+| **Scope** | 30,000 borrowers, UCI data set |
+| **Key Result** | Gini 0.55; default rate 66.9% in the lowest score band vs 6.0% in the highest; cut-off halves the approved default rate to 10.3% |
+| **Repository** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) |
+
+ROC AUC, Gini, KS and calibration, with a cost-based approval cut-off and fairness-aware feature choice.
+
+</details>
+
+<details>
+<summary><b>Card Fraud Detection</b></summary>
+<br/>
+
+Anomaly detection vs supervised machine learning on real card transactions.
+
+| | |
+|:--|:--|
+| **Stack** | scikit-learn (Isolation Forest, Local Outlier Factor, autoencoder, gradient boosting) |
+| **Scope** | 284,807 transactions, 492 frauds |
+| **Key Result** | Supervised model caught 73% of frauds reviewing only 0.1% of transactions; best label-free method 45% |
+| **Repository** | [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) |
+
+Time-based split and review-budget metrics, the way a fraud operations team measures detection.
+
+</details>
+
+<details>
+<summary><b>Financial Statement Analyzer</b></summary>
+<br/>
+
+Automatic extraction of four years of statements for 12 Nifty 50 companies, with ratios and health scores.
+
+| | |
+|:--|:--|
+| **Stack** | pandas, openpyxl (live Excel formulas), yfinance |
+| **Scope** | 12 companies, FY2023–FY2026, 17 ratios |
+| **Key Result** | ROCE ranges from 54.9% (TCS) to 9.0% (Reliance); fastest growers L&T and Bharti also carry the most debt |
+| **Repository** | [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) |
+
+Piotroski F-score and Altman Z''-score, plus an Excel workbook where every ratio is a formula.
+
+</details>
+
+<details>
+<summary><b>Portfolio Performance Analytics</b></summary>
+<br/>
+
+Return, risk and diversification of an NSE stock and gold portfolio against the Nifty 50.
+
+| | |
+|:--|:--|
+| **Stack** | pandas, SciPy (XIRR), yfinance, Streamlit |
+| **Scope** | Sample portfolio, 145 transactions, real NSE prices |
+| **Key Result** | XIRR 6.5% vs 5.3% for the same cash flows in the Nifty 50; gold 26% of value but 35% of risk |
+| **Repository** | [portfolio-performance-analytics](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/portfolio-performance-analytics) |
+
+XIRR, time-weighted return, Sharpe, Sortino, beta, drawdown and risk contribution by holding.
+
+</details>
+
+<details>
+<summary><b>Nifty 50 Market Trend Dashboard</b></summary>
+<br/>
+
+Trend, momentum and breadth for every Nifty 50 stock.
+
+| | |
+|:--|:--|
+| **Stack** | pandas, NumPy, yfinance, Streamlit |
+| **Scope** | 50 stocks, 2 years of daily prices |
+| **Key Result** | Nifty flat over the year but +13.1% in a month; breadth rebounded from 10% to 69% of stocks above the 200-day average |
+| **Refresh** | Auto-updated every Monday by GitHub Actions |
+| **Repository** | [nifty-market-trend-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-market-trend-dashboard) |
+
+Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
+
+</details>
+
+<details>
+<summary><b>All 46 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
@@ -450,6 +536,7 @@ Price checks on every receipt line and a fixed-basket index by item and category
 | **Equity & Industry Research** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) · [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
 | **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
 | **Python Research & ML** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) · [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) · [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) · [bull-bear-ai-debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate) · [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
+| **Python Analytics & ML** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) · [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) · [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) · [portfolio-performance-analytics](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/portfolio-performance-analytics) · [nifty-market-trend-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-market-trend-dashboard) |
 
 </details>
 
@@ -503,7 +590,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **19 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **41 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics and Python |
+| **46 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
