@@ -1,16 +1,16 @@
 # HDFC Bank Limited (HDFCBANK)
 
-**Sector:** Financial Services  |  **Industry:** Banks - Regional  |  **Generated:** 20 Nov 2026
+**Sector:** Financial Services  |  **Industry:** Banks - Regional  |  **Generated:** 21 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹833.30 | 1Y Return | -16.0% |
+| Price | ₹846.00 | 1Y Return | -14.8% |
 | 52W High | ₹993.08 | 52W Low | ₹680.20 |
-| Market Cap | ₹1,286,091 cr | Beta | 0.39 |
-| P/E | 17.91x | P/B | 2.11x |
+| Market Cap | ₹1,305,691 cr | Beta | 0.39 |
+| P/E | 17.96x | P/B | 2.14x |
 | EV/EBITDA | n/a | ROE | 11.0% |
 | Net Margin | 26.5% | Debt/Equity | n/a |
-| Dividend Yield | 1.6% | Below 52W High | -16.1% |
+| Dividend Yield | 1.5% | Below 52W High | -14.8% |
 
 ## Revenue and Profit
 

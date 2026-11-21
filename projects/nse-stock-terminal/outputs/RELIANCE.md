@@ -1,16 +1,16 @@
 # Reliance Industries Limited (RELIANCE)
 
-**Sector:** Energy  |  **Industry:** Oil & Gas Refining & Marketing  |  **Generated:** 20 Nov 2026
+**Sector:** Energy  |  **Industry:** Oil & Gas Refining & Marketing  |  **Generated:** 21 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹1,358.50 | 1Y Return | -11.9% |
+| Price | ₹1,377.50 | 1Y Return | -10.7% |
 | 52W High | ₹1,584.97 | 52W Low | ₹1,158.00 |
-| Market Cap | ₹1,838,386 cr | Beta | 0.18 |
-| P/E | 22.39x | P/B | 1.95x |
-| EV/EBITDA | 12.26x | ROE | 8.8% |
+| Market Cap | n/a | Beta | 0.18 |
+| P/E | 22.70x | P/B | 1.97x |
+| EV/EBITDA | 12.28x | ROE | 8.8% |
 | Net Margin | 6.8% | Debt/Equity | 0.44x |
-| Dividend Yield | 0.4% | Below 52W High | -14.3% |
+| Dividend Yield | 0.4% | Below 52W High | -13.1% |
 
 ## Revenue and Profit
 

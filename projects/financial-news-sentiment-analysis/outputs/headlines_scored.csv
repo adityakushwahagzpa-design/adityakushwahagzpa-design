@@ -1,62 +1,19 @@
 Symbol,Date,Headline,Source,Sentiment,Label
-ADANIENT,2026-08-26,"Adani Enterprises Ltd soars 0.5%, up for fifth straight session",Business Standard,0.6597,Positive
-ADANIENT,2026-08-27,Adani Enterprises up 39% YTD; why is MOFSL betting on Nifty's top gainer?,Business Standard,0.2023,Positive
-ADANIENT,2026-08-27,Adani Enterprises shares rise over 1.5% as Motilal Oswal initiates coverage with 'buy' rating,Moneycontrol.com,0.5267,Positive
-ADANIENT,2026-08-28,"Adani Enterprises Ltd. Key Financial Ratios – Valuation, Profitability & More",Value Research,0.2732,Positive
-ADANIENT,2026-08-29,"Adani Enterprises Ltd. Financials – Balance Sheet, Profit & Loss, Cash Flow",Value Research,-0.2023,Negative
-ADANIENT,2026-08-31,"Adani Power, Adani Enterprises to Adani Energy: Stocks Crash Up to 8%; Here's Why Today",Kotak Neo,-0.4404,Negative
 ADANIENT,2026-08-31,"Adani Group stocks decline: Adani Enterprises down nearly 10%, Adani Ports slips over 6%; key developments",Upstox,-0.5719,Negative
-ADANIENT,2026-08-31,"Adani Enterprises Ltd. Shareholding Pattern – Promoters, FIIs & DIIs",Value Research,0.0,Neutral
-ADANIENT,2026-08-31,"Top Weekly Gainers: Adani Enterprises, Kotak Mahindra Bank Lead; Tech Mahindra, JSW Steel Also Gain",HDFC Sky,0.5106,Positive
-ADANIENT,2026-09-01,"Adani Enterprises, Adani Power, Adani Ports: Here’s how Adani Group stocks are faring a day after steep fall",Upstox,-0.3612,Negative
-ADANIENT,2026-09-01,Adani group stocks rebound up to 5% day after MSCI sell-off; here's why,Business Standard,-0.4588,Negative
-ADANIENT,2026-09-08,"Adani Enterprises stock surges 6%: Airport arm to raise ₹9,825 crore from Alpha Wave, Premji Invest, Temasek",Upstox,0.5423,Positive
-ADANIENT,2026-09-08,"Adani Enterprises, Adani Power, Adani Ports: Adani Group stocks gain after Adani Airport’s ₹9,825 crore fundraise",Upstox,0.3612,Positive
-ADANIENT,2026-09-08,Indian billionaire Adani's airport unit to raise up to $1 billion for expansion,Reuters,0.25,Positive
-ADANIENT,2026-09-08,"Adani Enterprises, NTPC shares in focus amid India’s coal gasification push; what investors need to know",Upstox,0.296,Positive
-ADANIENT,2026-09-09,Adani Enterprises shares jump as airport unit enters into $1 billion fundraising deal,CNBC,0.6369,Positive
-ADANIENT,2026-09-09,Adani Enterprises: Nifty's 2026 winner jumps 6% on airport biz stake sale,Business Standard,0.7783,Positive
-ADANIENT,2026-09-09,"Adani Enterprises stock jumps 4% as BlackRock, Temasek, Premji Invest sign up for Adani Airports stake",Moneycontrol.com,0.4588,Positive
-ADANIENT,2026-09-09,Adani Enterprises Shares Jump on $1 Billion Airport Investment,Rediff MoneyWiz,0.6369,Positive
-ADANIENT,2026-09-09,"Adani Enterprises shares rise after airport arm to raise $1 billion from BlackRock, Temasek",CNBC TV18,0.5267,Positive
-ADANIENT,2026-09-09,Adani Enterprises to Coal India: Top five NIFTY50 stocks outperforming index over last five trading sessions; check list,Upstox,0.2023,Positive
-ADANIENT,2026-09-21,Why Adani Group Stocks are falling today?,India Infoline,-0.1531,Negative
-ADANIENT,2026-09-22,"Adani Enterprises, Adani Green: Most Adani stocks trade higher after SEBI settles ₹1.5 crore case; key details",Upstox,0.0,Neutral
-ADANIENT,2026-09-25,"Adani Enterprises shares rise after ₹2,498 crore block deal; what investors should know",Upstox,0.128,Positive
-ADANIENT,2026-09-25,"Adani group entities swap 86 lakh shares of Adani Enterprises in ₹2,498 cr block deal",CNBC TV18,-0.5106,Negative
-ADANIENT,2026-09-28,"Adani Enterprises shares drop 2% after Adani group entities swap 86 lakh shares for Rs.2,498 crore / Details here",TradingView,-0.1779,Negative
-ADANIENT,2026-09-28,"Adani Enterprises, Adani Power, Adani Ports: Why four Adani Group stocks are in focus today",Upstox,0.0,Neutral
-ADANIENT,2026-09-29,"Top gainers and losers, September 29: Titan, Wipro shares fall 3%, Adani Enterprises surges 5%; check list",Upstox,0.1531,Positive
-ADANIENT,2026-09-30,Adani Enterprises promoter stake rises to 71.97% after share purchases,scanx.trade,0.5267,Positive
-ADANIENT,2026-09-30,Adani Enterprises sets Nov 4 deadline for final call money on rights shares,scanx.trade,0.296,Positive
-ADANIENT,2026-10-08,"Adani group stocks under pressure; Enterprises, Green Energy tank up to 7%",Business Standard,-0.0258,Neutral
-ADANIENT,2026-10-08,"Adani Enterprises, APSEZ, Adani Green: Why are Adani Group stocks falling on October 8?",Upstox,-0.1531,Negative
-ADANIENT,2026-10-08,"Nifty 50 stocks since last 52-week low: Eternal, Adani Enterprises lead gains; Infosys, ONGC lag",Moneycontrol.com,0.1779,Positive
-ADANIENT,2026-10-09,"Adani Ports block deal: Shares worth ₹1,234 crore change hands - CNBC TV18",LinkedIn,0.0516,Positive
-ADANIENT,2026-10-11,Weekly Recap: NSE:ADANIENT share fall and ₹2 lakh crore plan,TradingView,-0.0772,Negative
+ADANIENT,2026-08-31,"Adani Power, Adani Enterprises to Adani Energy: Stocks Crash Up to 8%; Here's Why Today",Kotak Neo,-0.4404,Negative
+ADANIENT,2026-09-09,Adani Enterprises Share Price Jumps 6% as Nifty’s 2026 Top Performer Gains,Kotak Neo,0.8176,Positive
+ADANIENT,2026-09-24,"Adani Enterprises shares rise after ₹2,498 crore block deal; what investors should know",Upstox,0.128,Positive
+ADANIENT,2026-09-28,"Adani Enterprises shares drop 3% after Adani group entities swap 86 lakh shares for ₹2,498 crore / Is it a stock to buy?",Livemint,-0.1779,Negative
+ADANIENT,2026-10-08,"Adani group stocks under pressure; Enterprises, Green Energy tank up to 7% / Markets News",Business Standard,-0.0258,Neutral
 ADANIENT,2026-10-13,Adani Enterprises signs MoU with US-based Jabil for data centre hardware JV; shares trade flat,Upstox,0.296,Positive
-ADANIENT,2026-10-28,Adani Enterprises Q2 profit drops 55% even as operating earnings surge 62%,Business Standard,0.4588,Positive
-ADANIENT,2026-10-28,"Adani Enterprises Q2 Results: Net profit falls 55% to ₹1,492 crore, revenue up 75%",Upstox,-0.128,Negative
-ADANIENT,2026-10-28,"Adani Enterprises, Adani Ports, Adani Green: Adani Group stocks surge over 4% amid Q2 momentum; what do analysts predict?",Upstox,0.5423,Positive
-ADANIENT,2026-10-28,Adani Enterprises' quarterly profit gets copper business lift,Reuters,0.25,Positive
-ADANIENT,2026-10-28,"Adani Enterprises Q2 results: Net profit declines 55% to Rs 1,492 crore, revenue rises 75%",Moneycontrol.com,0.1779,Positive
-ADANIENT,2026-10-28,"Stocks to watch: Jio Platforms, HUL, Adani Enterprises, Maruti Suzuki, L&T",Business Standard,0.0,Neutral
-ADANIENT,2026-10-28,Adani Enterprises Q2 results: Revenue jumps 75%; Exceptional item in base quarter reflects on PAT,CNBC TV18,0.4588,Positive
 ADANIENT,2026-10-29,"Adani group stocks rally led by Adani Enterprises, Adani Ports post Q2 show",Business Standard,0.4588,Positive
-ADANIENT,2026-10-31,Adani Enterprises Limited Just Missed EPS By 22%: Here's What Analysts Think Will Happen Next,Simply Wall St,-0.4767,Negative
-ADANIENT,2026-11-03,"Adani Enterprises Q2FY27 Results: EBITDA up 62%, net profit down 55%",scanx.trade,0.25,Positive
-ADANIENT,2026-11-08,"Adani Enterprises plans ₹35,000-₹40,000 cr annual capex in next two years",Business Standard,0.0,Neutral
-ADANIENT,2026-11-11,"Adani Enterprises, Adani Ports, Adani Green: How Adani Group stocks are performing as benchmarks stay flat",Upstox,0.0,Neutral
-ADANIENT,2026-11-12,India’s Adani Enterprises forms gas-to-chemicals holding firm in UAE,TradingView,0.0,Neutral
-ADANIENT,2026-11-12,Adani Enterprises arm inks MoU with Chile's Codelco for mining exploration,CNBC TV18,0.2263,Positive
-ADANIENT,2026-11-16,Adani Group stocks: Jefferies sees $51 billion capex over FY27–FY29; check how shares are faring on Nov 16,Upstox,0.296,Positive
-ADANIENT,2026-11-17,"Top Gainers & Losers Today, 17 November 2026 at 3:30 PM IST: Adani Enterprises Ltd Leads Gainers",HDFC Sky,-0.3818,Negative
-ADANIENT,2026-11-17,Adani Enterprises Ltd is Rated Hold by MarketsMOJO,MarketsMojo,0.0,Neutral
+ADANIENT,2026-11-13,ADANIENT Outlook for the Week,Equitypandit,0.0,Neutral
 ADANIENT,2026-11-18,Adani Enterprises Ltd falls 2.22% in Wednesday's session,Global Banking & Finance Review,-0.3612,Negative
-ADANIENT,2026-11-18,Adani Enterprises Ltd Surges 3.3% to Day's High of Rs 2745 — Outperforms Sector by 1.37 Percentage Points,MarketsMojo,0.5423,Positive
-ADANIENT,2026-11-19,Adani Enterprises to host in-person investor meet on November 25,scanx.trade,0.0,Neutral
 ADANIENT,2026-11-19,Compare Adani Enterprises with DEVIKA FINST,Equitymaster,0.0,Neutral
+ADANIENT,2026-11-19,"Adani group stocks today, November 19: Adani Green up 1.48%, Adani Enterprises gains 0.66%, Adani Power up 0.46%",Business Upturn,0.3612,Positive
 ADANIENT,2026-11-20,"Stock Of The Day Buy Diamond Power (Cash): SL 362 Tgt 370, 375, 380 Company received big order of 707 Cr from Adani energy Buy HDFC Bank Futures on decline: SL 800 Tgt 828, 835, 842 New MD Anup Bagchi is meeting with Investors in Singapore is v",Facebook,0.4215,Positive
+ADANIENT,2026-11-20,"Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally / Target price",Livemint,0.8519,Positive
+ADANIENT,2026-11-20,Adani Enterprises to Energy: Jefferies sees 15% to 43% upside in 5 Adani Group stocks,The Financial Express,0.2732,Positive
 BHARTIARTL,2026-09-02,"Bharti Airtel Share Price Target 2026: 'Highest ARPU' - Buy for 40% returns, says Axis Securities / Rationale explained",Livemint,0.5267,Positive
 BHARTIARTL,2026-09-07,Bharti Airtel Share Price Prediction for Tomorrow: 8 Sep 2026,Univest,0.296,Positive
 BHARTIARTL,2026-09-30,Bharti Airtel Prediction for Tomorrow: 1 Oct 2026,Univest,0.0,Neutral
@@ -71,39 +28,53 @@ BHARTIARTL,2026-11-01,Jio Platforms vs Bharti Airtel shares: Which telecom stock
 BHARTIARTL,2026-11-05,"Bharti Airtel Q2 results 2026 today: Here's schedule, preview, expectations, returns; Should you buy ahead of earnings?",Livemint,0.0,Neutral
 BHARTIARTL,2026-11-13,BHARTIARTL Outlook for the Week,Equitypandit,0.0,Neutral
 BHARTIARTL,2026-11-15,"MCX, BSE, Bharti Airtel shares: Top 3 stocks to buy; check expected returns, ratings, target price by market expert",Livemint,0.4588,Positive
-BHARTIARTL,2026-11-16,Bharti Airtel Shares Rise 3% as Telecom Stocks Rally,Business Outreach Magazine,0.7506,Positive
+BHARTIARTL,2026-11-18,"Stocks in News: Tata Group companies, Bharti Airtel, HCL Tech, Groww, IIFL Finance, ACME Solar",The Economic Times,0.0,Neutral
 BHARTIARTL,2026-11-18,"Bharti Airtel, HCLTech and 3 Other Stocks With Golden Crossover to Keep on Your Radar",Trade Brains,0.0,Neutral
 BHARTIARTL,2026-11-19,"Goldman Sachs names 22 ‘high-growth’ stocks; Bharti Airtel, Eternal and HDFC Bank feature in the list",The Economic Times,0.0,Neutral
 HDFCBANK,2026-08-31,India’s largest private lender HDFC Bank sees shares rise after CEO announces surprise exit,CNBC,0.6705,Positive
+HDFCBANK,2026-09-01,HDFC Bank Share Price Hits 52-Week Low After CEO Exit: What Investors Should Know Now,Kotak Neo,0.0258,Neutral
 HDFCBANK,2026-09-08,HDFCBANK: Governance Transition And Dividend Policy Will Support Future Share Price Rebound,Simply Wall St,0.7096,Positive
+HDFCBANK,2026-09-22,HDFC Bank Share Price Near 2020 Levels: What Happened to the Stock?,Kotak Neo,0.296,Positive
 HDFCBANK,2026-09-22,Where Will HDFC Bank Share Price be in the Next 5 Years?,Equitymaster,0.296,Positive
 HDFCBANK,2026-10-05,HDFC Bank shares end 2.3% lower after reversing early gains; Anup Bagchi appointment in focus,Moneycontrol.com,0.3612,Positive
 HDFCBANK,2026-10-05,HDFC Bank gets new CEO: Stock down 25% thus far in 2026; what charts say?,Business Standard,0.0,Neutral
 HDFCBANK,2026-10-09,"Will HRITHIK Dance Again? No no, not @iHrithik, who already is a dancer-par-excellence. HRITHIK - the market acronym for HDFC Bank, Reliance Industries, ICICI Bank, TCS, Hindustan Unilever, ITC and Kotak Mahindra Bank! Will these largecap stocks, wit",LinkedIn,-0.3595,Negative
 HDFCBANK,2026-10-12,Why HDFC Bank Stock And Indian Bank Shares Are Back In Focus,Simply Wall St,0.296,Positive
 HDFCBANK,2026-10-12,HDFC Bank Share Price Prediction for Monday: 12 Oct 2026,Univest,0.296,Positive
-HDFCBANK,2026-10-16,HDFC Bank shares dips ahead of Q2 results as selling pressure dominates 70%,BusinessLine,0.0516,Positive
+HDFCBANK,2026-10-16,HDFC Bank dips ahead of Q2 results; selling pressure dominates at 70%,BusinessLine,-0.25,Negative
 HDFCBANK,2026-10-29,HDFC Bank shares recover from fresh 52-week low as buyers step in,BusinessLine,0.34,Positive
 HDFCBANK,2026-11-02,HDFC Bank shares slips; another Senior Executive departs,BusinessLine,0.0,Neutral
-HDFCBANK,2026-11-03,HDFC Bank share price surges over 7% in 5 sessions; new leadership and challenges ahead,Upstox,0.7184,Positive
 HDFCBANK,2026-11-03,"HDFC Bank shares surges 2.86%, lead Nifty 50 gainers",BusinessLine,0.8126,Positive
+HDFCBANK,2026-11-03,HDFC Bank share price surges over 7% in 5 sessions; new leadership and challenges ahead,Upstox,0.7184,Positive
 HDFCBANK,2026-11-03,HDFC Bank share price gains 3% today: Here's why - Is the worst over after a 27% one-year fall? What experts say,Livemint,-0.4404,Negative
 HDFCBANK,2026-11-05,"HDFC Bank shares rise for third day, gain 12% from 52-week low",BusinessLine,0.5859,Positive
 HDFCBANK,2026-11-05,"HDFC Bank shares witness strong buying, rise 7% in 1 month. Can new CEO, improving fundamentals drive next leg of rally?",Livemint,0.91,Positive
-HDFCBANK,2026-11-17,"Honasa Consumer, HDFC Bank: Two stock ideas by Shrikant Chouhan",Business Standard,0.0,Neutral
+HDFCBANK,2026-11-11,HDFC Bank Share Price Gains Momentum As Governance Concerns Fade And Business Performance Improves,Kotak Neo,0.7579,Positive
 HDFCBANK,2026-11-17,HDFC Bank (NSEI:HDFCBANK) Stock Looks Above Fair Value On Earnings Today,Simply Wall St,0.5719,Positive
-HDFCBANK,2026-11-17,HDFC Bank vs Axis Bank: Both shares recover after Q2 sell-off; which banking stock offers higher upside? Check targets,Livemint,-0.2023,Negative
-HDFCBANK,2026-11-17,"ITC, HDFC Bank, Vodafone Idea among retail favourites seeing MF buying; Suzlon shares face selloff",Business Today,-0.2023,Negative
-HDFCBANK,2026-11-18,HDFC Bank slips; stock options granted at Tuesday’s close price,BusinessLine,-0.0516,Negative
+HDFCBANK,2026-11-18,HDFC Bank slips; stock options granted at Tuesday’s close price,TradingView,-0.0516,Negative
 HDFCBANK,2026-11-18,"Tech view on Axis, ICICI and HDFC Bank as Nifty Bank quotes near new high",Business Standard,0.4019,Positive
-HDFCBANK,2026-11-18,"ICICI Bank, KMB, HDFC Bank, Axis Bank, RBL Bank, Federal Bank, IIB: Bank stocks to buy",Business Today,0.0,Neutral
 HDFCBANK,2026-11-19,"HDFC Bank shares edge higher, but heavy selling keeps pressure on stock",TradingView,-0.296,Negative
 HDFCBANK,2026-11-19,HDFC Bank shares edge higher amid heavy selling keeps pressure,BusinessLine,0.0,Neutral
 HDFCBANK,2026-11-19,"ICICI, HDFC Bank increase credit card limits for select customers: Here's how you can check offers and eligibility",Livemint,0.5994,Positive
-HDFCBANK,2026-11-19,"Eternal, RIL and HDFC Bank among 9 stocks owned by 600 mutual funds in October",The Economic Times,0.0,Neutral
-HDFCBANK,2026-11-19,"Trifecta effect! How RIL, HDFC Bank and ICICI Bank are powering Nifty rebound after 2 years",The Economic Times,0.4574,Positive
-HDFCBANK,2026-11-19,"Goldman Sachs names 22 ‘high-growth’ stocks; Bharti Airtel, Eternal and HDFC Bank feature in the list",The Economic Times,0.0,Neutral
-HDFCBANK,2026-11-20,"Top stock picks: Kotak Neo, Motilal Oswal recommend HDFC Bank, Reliance, M&M and 2 more stocks",CNBC TV18,0.5106,Positive
+HDFCBANK,2026-11-20,HDFC Bank Market Capitalisation Reclaims ₹13 Lakh Crore After ₹2.38 Lakh Crore Addition in 15 Sessions,Kotak Neo,0.0,Neutral
+HDFCBANK,2026-11-20,"Stock Of The Day Buy HDFC Bank Futures on decline: SL 800 Tgt 828, 835, 842 -New MD Anup Bagchi is meeting with Investors in Singapore is very encouraging #StockOfTheDay #HDFCBank #StockMarketToday #AnilSinghvi",Facebook,0.2944,Positive
+HDFCBANK,2026-11-20,Why HDFC Bank Share Price is Rising,Equitymaster,0.296,Positive
+HDFCBANK,2026-11-20,"Nifty Bank at new high, tops 64,000; HDFC, ICICI Bank soar up to 21% in Nov",Business Standard,0.8591,Positive
+HDFCBANK,2026-11-20,HDFC Bank shares surges 1.6% as banking stocks rally to fresh highs,BusinessLine,0.875,Positive
+HDFCBANK,2026-11-20,HDFC Bank regains ₹13 trillion market-cap; stock hits 8-month high,Business Standard,0.0,Neutral
+HDFCBANK,2026-11-20,HDFC Bank surges 1.6% as banking stocks rally to fresh highs,TradingView,0.8316,Positive
+HDFCBANK,2026-11-20,ICICI Bank vs HDFC Bank: Which is the Better Banking Stock?,Equitymaster,0.4404,Positive
+HDFCBANK,2026-11-20,"IndusInd Bank shares jump 8% on volume surge, near 52-week high",Business Standard,0.8271,Positive
+HDFCBANK,2026-11-20,"Top stock picks: Analysts recommend Adani Ports, HDFC Bank, Reliance, M&M and 2 more stocks",CNBC TV18,0.5106,Positive
+HDFCBANK,2026-11-20,SAHI launches free charting platform with AI-based market analysis tools,Business Standard,0.5106,Positive
+HDFCBANK,2026-11-20,HDFC Bank ADRs Rise as CEO Transition and Governance Reset Lift Sentiment,Quiver Quantitative,0.296,Positive
+HDFCBANK,2026-11-20,HDFC Bank (NYSE:HDB) Shares Gap Up - Here's What Happened,MarketBeat,0.296,Positive
+HDFCBANK,2026-11-20,"HDFC Bank shares recover 22% in Nov, adds ₹2.38 lakh crore in market value. What's fuelling the rebound?",Livemint,0.5574,Positive
+HDFCBANK,2026-11-20,Stock of the Day: Time to buy HDFC Bank on dips?,Zee Business,0.0,Neutral
+HDFCBANK,2026-11-20,"HDFC Bank shares rise 22% this November, Nifty 50 up 12%",NewsBytes,0.7269,Positive
+HDFCBANK,2026-11-20,stock insights it index ril hdfc bank icici bank breakout,Zee Business,0.0,Neutral
+HDFCBANK,2026-11-20,"M&M, HDFC Bank, RIL among JioBlackRock Mutual Fund's top 10 stock holdings in October",The Economic Times,0.2023,Positive
+HDFCBANK,2026-11-20,"Nifty Bank hits fresh all-time high of 63,228.20, led by IndusInd Bank, Kotak Mahindra Bank and HDFC Bank",Business Upturn,0.6124,Positive
 ICICIBANK,2026-08-24,ICICI Bank shares dip after AGM as selling pressure builds,BusinessLine,0.0,Neutral
 ICICIBANK,2026-09-30,ICICI Bank Prediction for Tomorrow: 1 Oct 2026,Univest,0.0,Neutral
 ICICIBANK,2026-10-08,Zee Business. . Stock Insights Pharma Stocks में क्या बदलेगा मार्जिन का खेल? ICICI Bank में नई तेजी आएगी या दबाव बढ़ेगा? जानिए अनिल सिंघवी से #StockInsights #PharmaStocks #HospitalStocks #ICICIBank,Facebook,0.0,Neutral
@@ -112,24 +83,23 @@ ICICIBANK,2026-10-13,ICICI Bank Share Price Prediction for Tomorrow: 13 Oct 2026
 ICICIBANK,2026-10-19,"ICICI Bank share price target after Q2 results: What are Jefferies, other analysts saying?",The Economic Times,0.296,Positive
 ICICIBANK,2026-11-06,"ICICI Bank extends rally, soars 10% in 4 days; market cap nears ₹11 trn",Business Standard,0.7906,Positive
 ICICIBANK,2026-11-13,ICICIBANK Outlook for the Week,Equitypandit,0.0,Neutral
-ICICIBANK,2026-11-18,"ICICI Bank Limited (ICICIBANK.NS) stock price, news, quote and history",Yahoo Finance UK,-0.2263,Negative
+ICICIBANK,2026-11-17,"Bank Nifty Hits Record High of 61,875.05 Today as ICICI Bank, SBI and PNB Gain; 5 Reasons Behind the Rally",Kotak Neo,0.8555,Positive
 ICICIBANK,2026-11-18,ICICI Bank Hits a 52-Week High: Can Growth Drivers Sustain the Rally?,TradingView,0.6808,Positive
 ICICIBANK,2026-11-18,"Tech view on Axis, ICICI and HDFC Bank as Nifty Bank quotes near new high",Business Standard,0.4019,Positive
-ICICIBANK,2026-11-18,"ICICI Bank, KMB, HDFC Bank, Axis Bank, RBL Bank, Federal Bank, IIB: Bank stocks to buy",Business Today,0.0,Neutral
-ICICIBANK,2026-11-18,"Nifty Bank crosses 62,000, jumps 20% from 52-week low: What's driving rally? Check performance; best bank stock to buy?",Livemint,0.9034,Positive
-ICICIBANK,2026-11-18,"PNB, Union Bank, BoB, SBI, ICICI shares soar up to 30% in a month; why banking stocks are rising",Business Today,0.6908,Positive
-ICICIBANK,2026-11-19,Here’s How Much You Would Have Made Owning ICICI Bank Stock In The Last 10 Years,Benzinga,0.0,Neutral
+ICICIBANK,2026-11-19,"ICICI Bank Limited (ICICIBANK.NS) stock price, news, quote and history",Yahoo Finance UK,-0.2263,Negative
 ICICIBANK,2026-11-19,"ICICI, HDFC Bank increase credit card limits for select customers: Here's how you can check offers and eligibility",Livemint,0.5994,Positive
 ICICIBANK,2026-11-19,"Trifecta effect! How RIL, HDFC Bank and ICICI Bank are powering Nifty rebound after 2 years",The Economic Times,0.4574,Positive
-ICICIBANK,2026-11-19,"Nifty Bank hits new hight: MOFSL picks ICICI Bank, HDFC Bank, Kotak Bank, SBI, AU Bank as top bets",Business Today,0.5423,Positive
 ICICIBANK,2026-11-19,stock insights ril icici bank it index cement stocks outlook,Zee Business,0.0,Neutral
-ICICIBANK,2026-11-19,"ICICI Bank and HDFC Bank - Eternal, RIL and HDFC Bank among 9 stocks owned by 600 mutual funds in October",The Economic Times,0.0,Neutral
-ICICIBANK,2026-11-19,"FCNR Deposits Could Reshape Indias Banking Sector, ICICI Bank Identifies Key Triggers That May Decide Stock",Free Press Journal,0.0,Neutral
+ICICIBANK,2026-11-19,"Nifty Bank hits new hight: MOFSL picks ICICI Bank, HDFC Bank, Kotak Bank, SBI, AU Bank as top bets",Business Today,0.5423,Positive
+ICICIBANK,2026-11-20,"Nifty Bank at new high, tops 64,000; HDFC, ICICI Bank soar up to 21% in Nov",Business Standard,0.8591,Positive
+ICICIBANK,2026-11-20,ICICI Bank to Meesho: Top 5 stocks hit record highs on November 20; how much have they gained?,Upstox,0.6808,Positive
+ICICIBANK,2026-11-20,ICICI Bank vs HDFC Bank: Which is the Better Banking Stock?,Equitymaster,0.4404,Positive
+ICICIBANK,2026-11-20,Five banking stocks that Motilal Oswal recommends buying for up to 30% upside,CNBC TV18,0.2263,Positive
+ICICIBANK,2026-11-20,stock insights it index ril hdfc bank icici bank breakout,Zee Business,0.0,Neutral
+ICICIBANK,2026-11-20,"ICICI Bank Allots 37,828 Equity Shares Under Employees Stock Unit Scheme",PSU Connect,0.296,Positive
 INFY,2026-09-07,Why Infosys Share Price is Falling,Equitymaster,0.1531,Positive
 INFY,2026-09-07,Infosys Share Price Prediction for Tomorrow: 8 Sep 2026,Univest,0.296,Positive
-INFY,2026-09-09,"Infosys shares slump over 4.5%, post biggest single day fall in nearly three months",Upstox,-0.5423,Negative
 INFY,2026-09-22,"Infosys shares fall 5% in 5 sessions; should you buy, sell or hold?",Moneycontrol.com,-0.0772,Negative
-INFY,2026-10-05,Infosys share price target October 2026 spearheads 6 rebound picks,Alice Blue,0.296,Positive
 INFY,2026-10-12,Infosys Share Price Prediction for Tomorrow: 13 Oct 2026,Univest,0.296,Positive
 INFY,2026-10-13,Infosys shares rally 8% in 5 sessions: CEO Salil Parekh sees AI driving half of work in 2-3 years,Upstox,0.6369,Positive
 INFY,2026-10-13,"Infosys shares jump 5% amid IT rally, firm makes key announcement",Business Today,0.802,Positive
@@ -139,71 +109,71 @@ INFY,2026-11-02,Infosys shares slide over 2%; Hyderabad campus expansion fails t
 INFY,2026-11-17,"TCS, Infosys stock ratings: CLSA cautious, flags growth, margin concerns; check target prices, downside...",Moneycontrol.com,0.0516,Positive
 INFY,2026-11-17,"TCS vs Infosys: Better IT stock to buy amid anti-AI trade buzz / Experts' views, target price, stop-loss, rationale",Livemint,0.4404,Positive
 INFY,2026-11-18,Infosys RTA KFin Technologies shifts corporate office from Dec 1,scanx.trade,0.0,Neutral
-INFY,2026-11-18,Infosys partners with NTT Docomo for AI-powered Metaverse ecosystem in Japan,CNBC TV18,0.0,Neutral
+INFY,2026-11-18,Infosys Share Price Down 25% in a Year: Causes and Valuation,Univest,0.296,Positive
 INFY,2026-11-18,Infosys INFY: KFin Technologies RTA Office Address Change,Kalkine India,0.0,Neutral
-INFY,2026-11-18,Infosys invests JPY 1.59bn for 10.1% stake in NTT Docomo JV,scanx.trade,0.0,Neutral
 INFY,2026-11-18,"Infosys share price: Lost 1/4th investor wealth in 1 year, should you still buy the IT major? Check target, stop loss",Livemint,-0.2878,Negative
-INFY,2026-11-18,"TCS, Infosys, other IT stocks fall up to 3% as Nvidia earnings beat eases AI fears; South Korea’s Kospi ri",The Economic Times,-0.128,Negative
-INFY,2026-11-18,Infosys announces address change for Registrar and Share Transfer Agent,Business Upturn,0.296,Positive
-INFY,2026-11-19,Infosys shares slides 2.5% despite Japan JV buzz; stock near 1 month low,BusinessLine,0.0258,Neutral
 INFY,2026-11-19,"Stock market opens mixed: Sensex gains, Nifty falls; Infosys leads losers",India Today,-0.1779,Negative
-INFY,2026-11-19,Price Action: Infosys sheds 2% on JV with Japanese firm; Tonbo Imaging up 2% on order win,Moneycontrol.com,0.6808,Positive
-INFY,2026-11-19,"Top stocks to watch today, November 19: Infosys, NALCO, Hindalco, Jio Financial, Bharat Forge, Piramal Pharma and more in focus",Business Upturn,0.2023,Positive
+INFY,2026-11-20,Infosys Share Price - Live NSE: INFY Stock Price & Chart,Upstox,0.296,Positive
+INFY,2026-11-20,"Indian IT Stocks Rally 1.96% as TCS, Infosys and Tech Mahindra Gain Despite Global Tech Selloff",Kotak Neo,0.7894,Positive
 INFY,2026-11-20,Infosys (NSEI:INFY) Stock Could Be Undervalued As AI Telecom Demand Builds,Simply Wall St,-0.128,Negative
-INFY,2026-11-20,Compare HCL Infosys with DEVIKA FINST,Equitymaster,0.0,Neutral
-INFY,2026-11-20,"Infosys, TCS, HCL Tech: Indian IT stocks buck global AI rout trend; Nifty IT jumps 2% - Key reasons / Top shares to buy",Livemint,0.8271,Positive
+INFY,2026-11-20,Infosys (NYSE:INFY) Shares Climb 4.7% - Time to Buy?,MarketBeat,0.296,Positive
+INFY,2026-11-20,Infosys (NYSE:INFY) Shares Break Below Fifty Day Moving Average - Should You Sell?,MarketBeat,0.296,Positive
 INFY,2026-11-20,"TCS, Infosys, Persistent Systems, other IT stocks rally up to 4% on AI rout despite Anthropic’s stellar de",The Economic Times,0.4588,Positive
 INFY,2026-11-20,"Stocks to Buy and Sell (Nov 20): Titan, SBI, Apollo Hospitals, Infosys, TCS, other shares on analysts’ watchlist now—See targets",Zee Business,0.296,Positive
+INFY,2026-11-20,"Infosys, TCS, HCL Tech: Indian IT stocks buck global AI rout trend; Nifty IT jumps 2% - Key reasons / Top shares to buy",Livemint,0.8271,Positive
 INFY,2026-11-20,"TCS, Infosys, HCL Technologies, Tech Mahindra: IT stocks gain amid global AI-theme selloff",Business Today,-0.128,Negative
+INFY,2026-11-20,Infosys stock: Fresh quote marks Friday trading - ad-hoc-news.de,ad-hoc-news.de,0.3182,Positive
+INFY,2026-11-21,Infosys Gains as Investors Revisit AI Progress and Recent Enterprise Wins,Quiver Quantitative,0.7783,Positive
 ITC,2026-09-07,Cigarette Stock: Should ITC Ltd Split Its Business Into 1:2? What's Smoking In This FMCG Giant?,Goodreturns,0.0,Neutral
+ITC,2026-10-08,ITC shares are trading at multi-year lows - Here are the most important triggers and risks to track - CNBC TV18,LinkedIn,0.101,Positive
 ITC,2026-10-08,ITC sees 2.9% of equity change hands in single large trade; stock slumps 3%,Business Standard,-0.4939,Negative
-ITC,2026-10-09,"ITC stock rallies 5%, sees sharpest intraday rally in 6 months; here's why / Markets News",Business Standard,0.7184,Positive
+ITC,2026-10-09,"ITC stock rallies 5%, sees sharpest intraday rally in 6 months; here's why",Business Standard,0.7184,Positive
 ITC,2026-10-11,"Weekly Recap: ITC Limited Q1 revenue, profit decline and 52-week low",TradingView,-0.5423,Negative
 ITC,2026-11-03,"ITC shares flat after Q2 profit drops 20%; brokerages flag cigarette business pressure, but hail FMCG...",Moneycontrol.com,0.0516,Positive
-ITC,2026-11-16,"Cigarette Stock Jumps: ITC Rallies 4%, Up 11% In November; Here's Why",NDTV Profit,0.7184,Positive
-ITC,2026-11-16,"Mutual Funds Bet Big On ITC: Rs 7,873 crore buying in October; is cigarette major set for a recovery?",Zee Business,0.0,Neutral
+ITC,2026-11-16,ITC shares jump 4% to 5-month high as FMCG index tops sectoral gainers; know reason behind today’s...,Moneycontrol.com,0.8176,Positive
+ITC,2026-11-17,ITC shares are on course for their best monthly run in over two years; Is the stock now a buy?,CNBC TV18,0.7506,Positive
+ITC,2026-11-17,ITC stock reclaims 200-DMA after a year; is it a rebound or fresh uptrend?,Business Standard,0.3182,Positive
 ITC,2026-11-17,"ITC, HDFC Bank, Vodafone Idea among retail favourites seeing MF buying; Suzlon shares face selloff",Business Today,-0.2023,Negative
 ITC,2026-11-18,"ITC stock: Five upgrades in 30 days, overbought on charts; time to buy?",Business Today,0.4588,Positive
 ITC,2026-11-19,ITC share price tops ₹300-mark after 6-month gap; jumps 19% from Oct low,Business Standard,0.7506,Positive
 RELIANCE,2026-09-01,Reliance Industries shares contribute to Nifty recovery; Jefferies sees 53% upside,CNBC TV18,0.5994,Positive
 RELIANCE,2026-09-24,"Reliance Industries down 2%, at 17-month low; what's making Street nervous?",Business Standard,-0.4939,Negative
 RELIANCE,2026-10-06,Reliance Industries' share price jumps 2.75%: Eight possible factors behind today’s rally,Upstox,0.802,Positive
+RELIANCE,2026-10-06,Reliance Industries Shares Gain 4% in Two Sessions as Jio IPO Nears,Kotak Neo,0.5719,Positive
 RELIANCE,2026-10-09,"Reliance Industries Share Price Prediction for Monday, 12 Oct",Univest,0.296,Positive
 RELIANCE,2026-10-09,Reliance Industries shares: 5 reasons why RIL stock is cracking,Business Today,0.296,Positive
 RELIANCE,2026-10-12,Reliance Industries hits 18-month low; stock down 28% from January high,Business Standard,-0.2732,Negative
 RELIANCE,2026-10-12,"RIL shares: Reliance Industries stock slides 6% in a month, can Jio Platforms IPO aid the bounce back? Experts' views",Livemint,0.296,Positive
-RELIANCE,2026-10-15,"Jio Platforms IPO effect: Reliance Industries, Network18, RIIL shares surge up to 13%",Upstox,0.6908,Positive
 RELIANCE,2026-10-22,"Reliance Industries share price: Jio IPO gets blockbuster response, but stock near 52-week low; what should you do?",Livemint,0.1027,Positive
 RELIANCE,2026-10-28,Reliance Industries Shares Fall 2% After Jio Platforms Listing; Q2 Results on October 30,India Infoline,-0.0772,Negative
-RELIANCE,2026-10-28,Reliance Industries shares slip 2% amid Jio Platforms IPO listing / Key RIL targets and levels to watch,Livemint,0.296,Positive
 RELIANCE,2026-11-02,"Reliance Industries shares jump nearly 12% after record Q2 results; top Nifty gainer, biggest index...",Moneycontrol.com,0.872,Positive
 RELIANCE,2026-11-02,Reliance Industries Share Price Rises 6.36%: Goldman Sachs Sees 58% Upside,India Infoline,0.5267,Positive
-RELIANCE,2026-11-04,Reliance Industries shares: Another record! RIL biggest on MTF book with 60% jump; dethrones HDFC Bank / Buy or sell?,Livemint,0.7712,Positive
-RELIANCE,2026-11-17,AstraZeneca Pharma India partners with Reliance Industries’ subsidiary Strand Life Sciences,The Financial Express,0.0,Neutral
+RELIANCE,2026-11-03,"Reliance Industries Share Price Dips After Rally Despite Record Q2 FY27 Profit Of ₹29,550 Crore",Kotak Neo,0.6499,Positive
 RELIANCE,2026-11-18,Reliance Shares Rally 17% in 11 Sessions: What’s Behind the Rs 2.74 Lakh Crore Gain?,NiftyTrader,0.7717,Positive
 RELIANCE,2026-11-18,Reliance Industries on course for longest winning streak in 19 years,Moneycontrol.com,0.5267,Positive
-RELIANCE,2026-11-18,"Reliance, Hindustan Zinc and other metal stocks shine in Q2FY27 earnings; while auto sector faces pressure: Check key highlights",Upstox,-0.296,Negative
-RELIANCE,2026-11-18,"Reliance, UltraTech, Hyundai Motor shares: Top 3 stocks to buy; check ratings, target price, stop loss by Jay Thakkar",Livemint,-0.25,Negative
 RELIANCE,2026-11-19,"Reliance Industries Limited (RELIANCE.NS) stock price, news, quote and history",Yahoo Finance UK,-0.2263,Negative
-RELIANCE,2026-11-19,Reliance Industries Share Price - Live NSE: RELIANCE Stock Price & Chart,Upstox,0.296,Positive
 RELIANCE,2026-11-19,"Missed the RIL rally? JPMorgan sees another 23% upside, highlights two key triggers",CNBC TV18,0.2023,Positive
-RELIANCE,2026-11-19,"Reliance Industries share rebound is not over yet, says JPMorgan. Target price set at Rs 1,675",The Economic Times,0.296,Positive
 RELIANCE,2026-11-19,"Reliance Industries shares: After 13% surge in 1 month, JPMorgan sees another 23% upside in Mukesh Ambani stock / Target",Livemint,0.6908,Positive
-RELIANCE,2026-11-19,"​Reliance Industries - Eternal, RIL and HDFC Bank among 9 stocks owned by 600 mutual funds in October",The Economic Times,0.0,Neutral
+RELIANCE,2026-11-19,"Reliance Industries share rebound is not over yet, says JPMorgan. Target price set at Rs 1,675",The Economic Times,0.296,Positive
+RELIANCE,2026-11-20,Reliance Industries Promoters Buy 4.26 Lakh Shares as Stock Rebounds Nearly 14% in a Month,Kotak Neo,0.296,Positive
+RELIANCE,2026-11-20,Reliance Industries promoters increase holdings: Check details,CNBC TV18,0.3182,Positive
+RELIANCE,2026-11-20,"News by CNBC TV18 on TradingView, 2026-11-20 — cnbctv:785c81c27094b:0",TradingView,0.0,Neutral
+RELIANCE,2026-11-20,"Promoters confident in Reliance, buy 4.26 lakh shares in open market, JP Morgan gives new target",Speaks Media,0.7865,Positive
+RELIANCE,2026-11-20,Reliance Industries promoters buy 4.26L shares worth ₹57.15cr amid rally,NewsBytes,0.7269,Positive
 RELIANCE,2026-11-20,"Reliance share: JP Morgan assigns target price of Rs 1,675, implies 23% upside potential",News9live,0.5766,Positive
-SBIN,2026-08-22,What should investors do about SBI after Q1 FY27 results?,BusinessLine,0.0,Neutral
+RELIANCE,2026-11-21,Reliance (NSEI:RELIANCE) Stock Seems Overvalued After Its $1.6B Biogas Bet,Simply Wall St,0.0,Neutral
 SBIN,2026-08-23,SBI may reach Rs 200 lakh crore total business by 2030: Chairman CS Setty,Moneycontrol.com,0.0258,Neutral
 SBIN,2026-08-27,SBI retains 25% debit card market share in Jul'26; HDFC Bank continues to lead credit cards,bfsi.economictimes.indiatimes.com,0.5859,Positive
 SBIN,2026-08-31,SBI to Dilute 1% Stake in NSE IPO; Home Loans Near ₹10 Lakh Cr,HDFC Sky,0.0,Neutral
 SBIN,2026-09-04,"SBI, New India Assurance, IFCI, Bank of Baroda & GIC RE are in focus ahead of NSE IPO; here is why",Upstox,0.34,Positive
 SBIN,2026-09-06,"NSE IPO countdown begins: SBI, IFCI, GIC Re, Bank of Baroda shares in focus after SEBI nod",Upstox,0.296,Positive
 SBIN,2026-09-06,"SBI to hire 12,000 personnel, add 250 new branches during FY27: Chairman",Business Standard,0.0,Neutral
-SBIN,2026-09-06,"Stocks to watch, September 7: Tata Motors, oil-linked stocks, SBI, IFCI, Lupin, NMDC, HUL, IndusInd Bank",Upstox,0.0,Neutral
 SBIN,2026-09-07,"NSE IPO effect: SBI, NIACL, GIC Re, Bank of Baroda, IFCI in focus as SEBI clears NSE's ₹30,000 crore IPO",Kotak Neo,0.0772,Positive
 SBIN,2026-09-07,"NSE IPO: How SBI, IFCI, GIC Re, Bank of Baroda shares reacted after Sebi approval",Fortune India,0.5267,Positive
 SBIN,2026-09-08,"SBI, BoB, Canara Bank: 8 out of 12 Nifty PSU Bank stocks trade below 200-DMA",Business Standard,0.4019,Positive
 SBIN,2026-09-09,SBI cautions customers ahead of September 11 nationwide bank strike,Business Standard,-0.128,Negative
 SBIN,2026-09-10,"NSE IPO shrinks as SBI, Bank of Baroda, MS Strategic trim their OFS size",Business Standard,0.0,Neutral
+SBIN,2026-09-11,"NSE IPO; How Much SBI, New India Assurance And Other Shareholders Could Make",Kotak Neo,0.34,Positive
 SBIN,2026-09-11,SBI-led group of banks to provide $3.5 billion of debt financing to Vi,Business Standard,-0.3612,Negative
 SBIN,2026-09-15,"NSE IPO: SBI-Led PSUs Could Make Over ₹12,800 Crore Profit From Share Sale",Kotak Neo,0.4939,Positive
 SBIN,2026-09-16,SBI shares rise 1% as NSE IPO opens; Jefferies sees 15%+ ROE,Upstox,0.5267,Positive
@@ -215,7 +185,7 @@ SBIN,2026-10-09,"SBI, Axis, Kotak Mahindra rise up to 3%: Read why banking stock
 SBIN,2026-10-09,"HDFC Bank, SBI, Federal, Canara Bank up 2%; what's driving banking stocks?",Business Standard,0.0,Neutral
 SBIN,2026-10-12,State Bank Of India Share Price Fall: Key Valuation View,Univest,-0.0772,Negative
 SBIN,2026-10-12,Nifty Bank Share Price Falls Over 400 Points As RBI Tightens Liquidity And Bond Yields Hit A Three-Year High,Kotak Neo,0.34,Positive
-SBIN,2026-10-19,"CareEdge Global IFSC to sell 19.8% stake to State Bank of India, NSEIX",Business Standard,0.0,Neutral
+SBIN,2026-10-13,SBI Research calls for abolition of LTCG tax on equities to boost foreign capital inflows,bfsi.economictimes.indiatimes.com,0.4019,Positive
 SBIN,2026-10-21,Data breach: SBI admits exposure of its customer data on the Dark Web,The Hindu,0.296,Positive
 SBIN,2026-10-21,"State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",The Hacker News,-0.34,Negative
 SBIN,2026-10-21,"SBI says 375,000 records leaked on dark web; 3,897 had personal details",The Indian Express,-0.3182,Negative
@@ -224,105 +194,122 @@ SBIN,2026-10-26,"SBI Funds slips 7%, hits new low post Q2 results; down 24% from
 SBIN,2026-10-27,SBI data exposure puts India’s cybersecurity ecosystem under scrutiny,ET Entrepreneur,0.0,Neutral
 SBIN,2026-10-28,ICICI Lombard acquires ₹1.72 bn worth of State Bank of India shares,scanx.trade,0.4767,Positive
 SBIN,2026-10-31,"SBI Q2 FY27 Results Tuesday: Can the Bank Beat a Record Rs 21,121 Crore Profit?",NiftyTrader,0.6908,Positive
-SBIN,2026-11-02,SBI Q2 preview: NII to rise 11-13%; margin to hold on lower FCNR(B) flows,Business Standard,0.0,Neutral
 SBIN,2026-11-02,SBI Q2 results: Net profit seen rising 45% on stake-sale gains and income growth,TradingView,0.7269,Positive
+SBIN,2026-11-02,SBI Q2 preview: NII to rise 11-13%; margin to hold on lower FCNR(B) flows,Business Standard,0.0,Neutral
 SBIN,2026-11-03,State Bank of India quarterly profit rises; to boost cybersecurity after breach,Reuters,0.7096,Positive
+SBIN,2026-11-03,"SBI Q2 FY27 Results: Net Profit Rises 14.28%, NIM Improves and Gross NPA Falls in September Quarter",Kotak Neo,0.1027,Positive
+SBIN,2026-11-03,Why SBI shares fell sharply after Q2,CNBC TV18,0.296,Positive
 SBIN,2026-11-03,"SBI Q2 Results: Core income grows nearly 15%, asset quality stable; Stock cools from highs - CNBC TV18",LinkedIn,0.5719,Positive
 SBIN,2026-11-03,"Earnings call transcript: State Bank of India Q2 2027 profit rises, stock falls 5% By Investing.com",Investing.com India,0.1779,Positive
-SBIN,2026-11-03,Why SBI shares fell sharply after Q2,CNBC TV18,0.296,Positive
-SBIN,2026-11-03,"SBI’s Profit Beats Estimates on Loan Growth, One-Time Gain",Bloomberg.com,0.8225,Positive
 SBIN,2026-11-03,"SBI Q2 results: Net profit rises 14% to Rs 23,038 crore, aided by exceptional gain; NII beats estimates",Moneycontrol.com,0.8297,Positive
 SBIN,2026-11-03,"SBI Q2FY27 results: Net profit rose 14% on loan growth, stake sales",Business Standard,0.5574,Positive
 SBIN,2026-11-03,State Bank of India shares fall despite 14% Q2 profit rise,Multibagg AI,0.0413,Neutral
-SBIN,2026-11-03,"SBI net profit advances 14% to ₹23,038 crore, NII surges 15%",Upstox,0.6705,Positive
+SBIN,2026-11-03,"SBI quarterly results: Bank shares decline despite loan growth, better asset quality in Q2 - What it means to investors",TradingView,-0.3378,Negative
 SBIN,2026-11-03,"SBI Q2FY27 transcript: NIM hits 3.11%, credit growth guided at 14-15%",scanx.trade,0.6369,Positive
 SBIN,2026-11-04,SBI share price: Brokerages retain Buy ratings after Q2 results,BusinessLine,0.296,Positive
 SBIN,2026-11-04,"SBI share price outlook: Brokerages bullish post Q2 results on margins, asset quality, but flag one-off...",Moneycontrol.com,0.5187,Positive
-SBIN,2026-11-04,"SBI Q2 Results: Net Profit Rises 14.28% to ₹23,038 Crore",HDFC Sky,0.4939,Positive
 SBIN,2026-11-04,"SBI net rises 14% to 23k crore, shares slip 1.8%",The Times of India,0.5267,Positive
+SBIN,2026-11-04,"SBI Q2 Results: Net Profit Rises 14.28% to ₹23,038 Crore",HDFC Sky,0.4939,Positive
 SBIN,2026-11-04,"SBI shares: Strong NII, improving margins drive analysts' optimism after Q2",Business Standard,0.8957,Positive
-SBIN,2026-11-04,Buy State Bank of India; target of Rs 1350: Emkay Global Financial,Moneycontrol.com,0.0,Neutral
+SBIN,2026-11-04,"SBI shares gain nearly 2% after Q2 results; Nomura cuts target price to Rs 1,100",TradingView,0.3612,Positive
 SBIN,2026-11-04,"SBI shares rise about 1.5%, top Nifty gainer as brokerages remain bullish after Q2 results",Moneycontrol.com,0.872,Positive
-SBIN,2026-11-04,SBI's highest share price target indicates an upside potential of over 40% after Q2 results; Details here,CNBC TV18,0.296,Positive
 SBIN,2026-11-04,SBI vs SBI Life vs SBI Cards: Which SBI Group stock emerged as the Q2 results 2026 winner? Check technical targets,TradingView,0.5859,Positive
+SBIN,2026-11-04,SBI's highest share price target indicates an upside potential of over 40% after Q2 results; Details here,CNBC TV18,0.296,Positive
 SBIN,2026-11-04,"SBI for joint cyber vigil, seeks formal bank system to share threat intelligence",Telegraph India,0.2263,Positive
-SBIN,2026-11-05,"SBI shares gain nearly 2% after Q2 results; Nomura cuts target price to Rs 1,100",Moneycontrol.com,0.3612,Positive
 SBIN,2026-11-06,State Bank of India meets institutional investors in New York,scanx.trade,0.0,Neutral
-SBIN,2026-11-11,"SBI shares gain 1%, among top Nifty gainers, as brokerages bullish on loan growth, profitability outlook",TradingView,0.9313,Positive
 SBIN,2026-11-11,"SBI, IOB, PNB shares fly high; NIFTY PSU Bank index surges 15% in a month",Upstox,0.8455,Positive
 SBIN,2026-11-11,"SBI Share Price: 21.7% CAGR vs ICICI Bank, Axis Bank",Univest,0.296,Positive
 SBIN,2026-11-11,"ICICI Bank Share Price: 19.2% CAGR vs SBI, Axis Bank",Univest,0.296,Positive
+SBIN,2026-11-12,"SBI shares gain 1%, among top Nifty gainers, as brokerages bullish on loan growth, profitability outlook",TradingView,0.9313,Positive
 SBIN,2026-11-12,Nifty 50 Gainer SBI Retains Bullish Ratings From CLSA and Goldman After Investor Meet,NiftyTrader,0.6908,Positive
 SBIN,2026-11-13,"Union Bank of India Share Price: 25.3% CAGR vs SBI, Canara",Univest,0.296,Positive
 SBIN,2026-11-14,SBI Funds Management Shares Fell After Listing At A Modest 7% Premium,https://www.fintechbiznews.com/,0.296,Positive
-SBIN,2026-11-17,"Stock Radar: SBI stock showing signs of reversal, forms pattern similar to triple-bottom; time to buy?",The Economic Times,0.0,Neutral
 SBIN,2026-11-18,"SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat",Business Standard,0.0,Neutral
 SBIN,2026-11-18,"SBI Funds, Punjab National Bank enter into distribution partnership",Business Standard,0.0,Neutral
 SBIN,2026-11-19,"PSU Bank index nears record high; SBI, PNB, BoI rally up 27% in November",Business Standard,0.6369,Positive
 TCS,2026-10-08,International Growth and Strategic Wins Underpin TCS’ Q2,Tata Consultancy Services,0.6249,Positive
 TCS,2026-10-11,Analysts Have Made A Financial Statement On Tata Consultancy Services Limited's (NSE:TCS) Second-Quarter Report,Simply Wall St,0.0,Neutral
 TCS,2026-11-13,TCS Outlook for the Week,Equitypandit,0.0,Neutral
-TCS,2026-11-16,Tata Consultancy Services (NSEI:TCS) Stock Forecast & Analyst Predictions,Simply Wall St,0.0,Neutral
 TCS,2026-11-16,"TCS, Infosys, TechM, LTM, Cyient, Mphasis, TechM shares: Targets amid soft Q3 hopes",Business Today,0.6124,Positive
 TCS,2026-11-17,"Tata Consultancy Services Limited (TCS.NS) stock price, news, quote and history",Yahoo Finance Singapore,-0.2263,Negative
 TCS,2026-11-17,"TCS, Infosys stock ratings: CLSA cautious, flags growth, margin concerns; check target prices, downside...",Moneycontrol.com,0.0516,Positive
 TCS,2026-11-17,"Stock Market Today: Sensex, Nifty Eye Higher Opening",HDFC Sky,0.4019,Positive
 TCS,2026-11-17,"NIFTY briefly crosses 25,500, SENSEX gains over 400 pts; Senco Gold, InduInd, TCS among buzzing stocks",Upstox,0.7125,Positive
-TCS,2026-11-17,Havells India Launches Super Hi-Speed BLDC+ and Agentic AI Fans; Shares Rise Nearly 1.2%,HDFC Sky,0.8074,Positive
-TCS,2026-11-17,"TCS vs Infosys: Better IT stock to buy amid anti-AI trade buzz / Experts' views, target price, stop-loss, rationale",Livemint,0.4404,Positive
 TCS,2026-11-17,"Tata Chemicals, Tata Motors, TCS, Other Tata Group Stocks Rally Up To 9%. Here's Why",NDTV Profit,0.4588,Positive
+TCS,2026-11-17,"TCS vs Infosys: Better IT stock to buy amid anti-AI trade buzz / Experts' views, target price, stop-loss, rationale",Livemint,0.4404,Positive
+TCS,2026-11-18,Nvidia Q3 Revenue Jumps 103%: Why Did TCS and Infosys Fall?,NiftyTrader,0.128,Positive
 TCS,2026-11-18,TCS share price down 26% in 2026: Is this a buying opportunity? What do technical charts suggest? Key levels to watch,Livemint,0.6553,Positive
 TCS,2026-11-18,"IT Stocks Witness Sharp Sell-Off! Kellton Tech Falls After KeOS Launch; Infosys, TCS, Wipro Among Top Laggards",Goodreturns,-0.6114,Negative
 TCS,2026-11-19,"Market wrap: Maruti Suzuki, Eicher Motors, TCS, Tech Mahindra top gainers and losers on Nifty and Sensex o",The Economic Times,0.0258,Neutral
+TCS,2026-11-19,Wesfarmers stock: Bunnings shifts 350 tech roles to TCS - ad-hoc-news.de,ad-hoc-news.de,0.0,Neutral
+TCS,2026-11-20,TCS Share Price,Upstox,0.296,Positive
+TCS,2026-11-20,Tata Consultancy Services (NSEI:TCS) Stock Still Looks Discounted Despite A 26% Slide,Simply Wall St,0.0516,Positive
 TCS,2026-11-20,"Nifty IT jumps over 1% as TCS, Tech Mahindra, HCL Tech gain; Indian IT stocks buck global AI selloff",Moneycontrol.com,0.6369,Positive
 TCS,2026-11-20,"Infosys, TCS, HCL Tech: Indian IT stocks buck global AI rout trend; Nifty IT jumps 2% - Key reasons / Top shares to buy",Livemint,0.8271,Positive
+TMPV,2026-08-25,Tata Motors Passenger Vehicles partners with Tata Communications for 5G integration,scanx.trade,0.0,Neutral
+TMPV,2026-08-27,Tata Motors PV unveils Tata.cars as new customer-facing brand identity,Business Standard,0.0,Neutral
+TMPV,2026-08-29,"Tata Motors Passenger Vehicles Ltd. Key Financial Ratios – Valuation, Profitability & More",Value Research,0.2732,Positive
+TMPV,2026-08-31,TATA.CARS: Why Reinvent the Name When Tata Had Already Reinvented the Car?,Open Magazine,0.0,Neutral
+TMPV,2026-09-01,Tata Motors gains biggest market share in PV segment in Jan-Aug,Business Standard,0.5719,Positive
+TMPV,2026-09-01,Tata Motors PV Stock: Why Kotak Neo Cuts Fair Value to ₹285,Kotak Neo,0.3612,Positive
+TMPV,2026-09-02,Tata Motors PV clocks 59% rise in August sales fuelled by EV demand,ET Auto,0.1779,Positive
+TMPV,2026-09-02,Tata Motors claims No. 2 spot in India's PV market with record market share gains,Rediff,0.7096,Positive
+TMPV,2026-09-03,Autoline Industries surges after securing new contract from Tata Motors Passenger Vehicles,Business Standard,0.7003,Positive
+TMPV,2026-09-04,Tata Motors PV expands South Africa portfolio as exports gather pace,Business Standard,0.1027,Positive
 TMPV,2026-09-09,Tata Motors Passenger Vehicles Ltd slips for fifth straight session,Business Standard,-0.0772,Negative
+TMPV,2026-09-21,Tata Motors Passenger Vehicles allots 1 lakh equity shares under ESOP,Business Standard,0.296,Positive
+TMPV,2026-09-25,Tata Motors Eyes Further Price Hikes as Costs Rise,HDFC Sky,0.296,Positive
+TMPV,2026-09-25,Commodity cost uncertainty bigger worry than price increase: TMPV MD,Business Standard,-0.4588,Negative
+TMPV,2026-09-27,"Tata Motors PV expects 15% market share 'very soon', eyes 20% by FY31: MD Shailesh Chandra",The Hindu,0.296,Positive
+TMPV,2026-09-27,"Tata Motors PV eyes 15% market share soon, targets 20% by FY31",Storyboard18,0.296,Positive
 TMPV,2026-09-29,Tata Motors Passenger Vehicles targets 20% market share by FY 2031 - Team-BHP,Team-BHP,0.296,Positive
-TMPV,2026-10-16,Is Now The Time To Look At Buying Tata Motors Passenger Vehicles Limited (NSE:TMPV)?,Simply Wall St,-0.2263,Negative
-TMPV,2026-11-13,"Tata Motors PV Q2 Results: Net loss at ₹5,531 crore on JLR restructuring costs, asset impairment",CNBC TV18,-0.0772,Negative
+TMPV,2026-10-01,"Tata Motors Passenger Vehicles Sales Rise 15% in September to 70,210 Units",HDFC Sky,0.296,Positive
+TMPV,2026-10-01,"Tata Motors PV Q2FY27 Results: Total sales rise 40% YoY to 201,723 units",scanx.trade,0.3566,Positive
+TMPV,2026-10-01,Tata Motors Passenger Vehicles Reports 40% Growth in Q2 FY27 Sales,Entrepreneur India,0.3818,Positive
+TMPV,2026-10-03,"Tata Motors PV Q2FY27: JLR wholesales up 25%, UVC domestic sales surge",scanx.trade,0.5423,Positive
+TMPV,2026-10-06,How Tata Motors’ Demerger Unlocked Value for Investors,HDFC Sky,0.34,Positive
+TMPV,2026-10-07,Tata Motors Prepares for 1 Lakh Cars a Month as Major Product Offensive Takes Shape,Autopunditz,-0.507,Negative
+TMPV,2026-10-12,"Stellantis, Tata Motors PV join hands for vehicle tech, product development",Business Standard,0.296,Positive
+TMPV,2026-10-27,Tata Motors Share Price Rises 4% After Takeover Bid for Italy’s Iveco Crosses Acceptance Threshold,HDFC Sky,0.7506,Positive
+TMPV,2026-11-01,"Tata Motors PV sales rise 23% to 75,426 units in Oct on strong demand",Business Standard,0.6124,Positive
+TMPV,2026-11-01,"Tata Motors passenger vehicle sales rise 23% in October, EV sales jump 75%",ANI News,0.6369,Positive
+TMPV,2026-11-01,Tata Motors After the Split: What's Changed in Its Passenger Vehicle Business? / Deep Drive Podcast,Autocar Professional,0.0,Neutral
+TMPV,2026-11-02,Tata Motors Passenger Vehicles records 23 per cent sales growth,Manufacturing Today India,0.3818,Positive
+TMPV,2026-11-02,"Tata Motors PV Sales Rise 23% in October to 75,426 Units",HDFC Sky,0.296,Positive
+TMPV,2026-11-04,Tata Motors crosses 6 lakh annual sales for the first time,Autocar India,0.0,Neutral
+TMPV,2026-11-06,Tata Motors Secures Second Position in October Passenger Vehicle Retails Amid Segment Contraction,Autocar Professional,0.3182,Positive
+TMPV,2026-11-11,Tata Motors Passenger Vehicles to host analyst meetings on November 16,scanx.trade,0.0,Neutral
+TMPV,2026-11-13,"Tata Motors PV Q2 FY27 results: Net loss at ₹5,531 crore YoY; margin impacted on commodity cost pressures",Upstox,-0.6249,Negative
+TMPV,2026-11-13,Earnings call transcript: Tata Motors Passenger Vehicles posts strong Q2 2026 growth,Investing.com,0.7096,Positive
+TMPV,2026-11-13,"Tata Motors PV Posts Rs 5,531 Cr Q2 Loss on JLR Costs",Equitypandit,-0.4215,Negative
+TMPV,2026-11-13,Tata Motors Passenger Vehicles swings to loss in Q2 on JLR restructuring,Investment Guru India,-0.4215,Negative
+TMPV,2026-11-14,"Tata Motors to ramp up monthly EV supplies to 20,000 in 2-3 months amid demand surge",ET Auto,0.4588,Positive
+TMPV,2026-11-15,"Tata Motors shares: 22% down in 2026, right time to buy famous auto stock? What brokerages say after loss narrows in Q2",TradingView,-0.1531,Negative
 TMPV,2026-11-16,Tata Motors PV shares plunge 9% after Q2 results; brokerages cut target,Business Standard,-0.5719,Negative
 TMPV,2026-11-16,"India's Tata Motors PV falls on JLR outlook cut, weak Chinese demand",Reuters,-0.765,Negative
 TMPV,2026-11-16,"Tata Motors PV shares crash 9% following Q2 results, cuts JLR guidance",The New Indian Express,-0.6124,Negative
 TMPV,2026-11-16,Why Tata Motors Passenger Vehicles Share Price is Falling,Equitymaster,0.1531,Positive
+TMPV,2026-11-16,"5 Stocks in Focus Today: Tata Motors, Hindalco, Eicher",HDFC Sky,0.0,Neutral
+TMPV,2026-11-16,"Tata Motors PV shares plunge over 9% after ₹5,531 crore Q2 loss, JLR guidance cut",ET Auto,-0.7579,Negative
+TMPV,2026-11-16,"Tata Motors PV shares crash: What led to auto stock 8% ramming, Nifty laggard; down 27% in 2026 - Buy, sell or hold?",TradingView,-0.0258,Neutral
 TMPV,2026-11-16,"Tata Motors Passenger Vehicles shares crash over 9% after Rs 5,531 crore quarterly loss, Jaguar Land Rover cuts outlook",Telegraph India,-0.7783,Negative
+TMPV,2026-11-16,Tata Motors PV Shares Slide Nearly 9% as JLR Cuts FY27 Outlook After Q2 Loss,Kotak Neo,-0.4215,Negative
 TMPV,2026-11-16,Why is Tata Motors Passenger Vehicles stock plunging today? By Investing.com,Investing.com India,0.0,Neutral
-TMPV,2026-11-16,"Tata Motors PV Shares Crash 9% on Q2 Loss, JLR Outlook",HDFC Sky,-0.6808,Negative
-TMPV,2026-11-16,"Tata Motors PV shares plunge 7%, top Nifty loser as weak JLR margins, guidance cut weigh on outlook",Moneycontrol.com,-0.7269,Negative
-TMPV,2026-11-16,"Tata Motors PV shares fall over 8% after multiple price target cuts on Q2 loss, JLR guidance revision",CNBC TV18,-0.6486,Negative
-TMPV,2026-11-16,Tata Motors PV shares tumble 9% after Q2 results; analysts flag ‘severe headwinds’ for demand,Upstox,-0.3612,Negative
-TMPV,2026-11-16,"India’s Tata Motors PV Falls on JLR Outlook Cut, Weak Chinese Demand - The China-Global South Project",The China-Global South Project,-0.765,Negative
 TMPV,2026-11-16,"Tata Motors PV: Q2 pain may extend on geopolitical, cost headwinds",Business Standard,-0.3818,Negative
+TMPV,2026-11-16,"Tata Motors PV shares plunge 7%, top Nifty loser as weak JLR margins, guidance cut weigh on outlook",TradingView,-0.7269,Negative
+TMPV,2026-11-16,"Tata Motors PV Shares Crash 9% on Q2 Loss, JLR Outlook",HDFC Sky,-0.6808,Negative
+TMPV,2026-11-16,Tata Motors PV shares tumble 9% after Q2 results; analysts flag ‘severe headwinds’ for demand,Upstox,-0.3612,Negative
+TMPV,2026-11-16,"Tata Motors PV shares fall over 8% after multiple price target cuts on Q2 loss, JLR guidance revision",CNBC TV18,-0.6486,Negative
 TMPV,2026-11-16,Tata Motors PV shares slide 9% as Jaguar Land Rover cuts its margin outlook amid weak China demand,MLQ.ai,-0.4588,Negative
-TMPV,2026-11-16,"Share Market Today: Nifty 50, Bank Nifty / Nov 16, 2026",Liquide Blog,0.765,Positive
-TMPV,2026-11-16,"Tata Motors PV shares crash: What led to auto stock 8% ramming, Nifty laggard; down 27% in 2026 - Buy, sell or hold?",Livemint,-0.0258,Neutral
-TMPV,2026-11-16,"Tata Motors PV vs Eicher Motors: Which auto stock is set to race ahead, and which should you buy after Q2 results?",Livemint,0.0,Neutral
-TMPV,2026-11-16,Tata Motors Passenger Vehicles shares tank over 9 per cent post earnings - Mid-Day,Mid-Day,0.296,Positive
-TMPV,2026-11-16,Tata Motors PV tanks 9% after JLR slashed margin to 2–3%: Should you Buy or Sell now?,The Financial Express,-0.2263,Negative
-TMPV,2026-11-16,"Tata Motors Passenger Vehicles falls on reporting consolidated net loss of Rs 5,531 crore in Q2",Udaipur Kiran,-0.6486,Negative
-TMPV,2026-11-17,Tata Motors Passenger Vehicles (BSE:500570) Stock Forecast & Analyst Predictions,Simply Wall St,0.0,Neutral
-TMPV,2026-11-17,Tata Motors PV Shares Plunge After JLR Cuts Outlook,Briefs Finance,-0.5859,Negative
-TMPV,2026-11-17,Tata group stocks rally up to 9% after RBI nudges Tata Sons to comply with listing norms,The Times of India,0.4588,Positive
 TMPV,2026-11-17,Tata Motors Passenger Vehicles: 3 Key Takeaways for Long-Term Investors,Equitymaster,0.0,Neutral
+TMPV,2026-11-17,Tata Motors shares get hammered as Jaguar Land Rover cuts profit margin outlook,https://internationalfinance.com/,0.25,Positive
+TMPV,2026-11-17,Tata Motors PV Shares Plunge After JLR Cuts Outlook,Briefs Finance,-0.5859,Negative
+TMPV,2026-11-17,Tata Chemicals Share Price Jumps 8% to ₹650.30 as Tata Sons IPO Hopes Return After RBI Listing Directive,Kotak Neo,0.7906,Positive
 TMPV,2026-11-17,"Tata Motors PV: Nomura cuts target price to Rs 287, retains 'Neutral'; JLR launches key to recovery",Moneycontrol.com,-0.296,Negative
-TMPV,2026-11-17,Tata Motors Faces 508 Billion Rupee Net Debt as JLR Cash Drain Widens,Retail News Asia,-0.3612,Negative
-TMPV,2026-11-17,"Stocks to Watch Today: Tata Motors PV, Max Healthcare, ITC",Univest,0.0,Neutral
-TMPV,2026-11-17,Why JLR remains the albatross around Tata Motors’ neck,Livemint,0.0,Neutral
-TMPV,2026-11-17,"Tata Investment, Tata Chemicals, Tata Motors share surged up to 9% today; here's why",Business Today,0.296,Positive
-TMPV,2026-11-17,"Tata Chemicals, Tata Motors, TCS, Other Tata Group Stocks Rally Up To 9%. Here's Why",NDTV Profit,0.4588,Positive
-TMPV,2026-11-17,"Tata group Stocks Rally: Tata Sons listing buzz lifts Tata Chemicals, other shares",Zee Business,0.6369,Positive
-TMPV,2026-11-17,Tata Motors Passenger Vehicles shares rise 2% to ₹267 as RBI tells Tata Sons in writing to comply with listing rules,Business Upturn,0.5267,Positive
-TMPV,2026-11-17,Tata Group stocks rally after RBI’s fresh directive on Tata Sons listing,The Statesman,0.6486,Positive
-TMPV,2026-11-17,JLR remains the albatross around Tata Motors’ neck: Watch,Livemint,0.0,Neutral
-TMPV,2026-11-17,Tata Motors shares rise 3% to ₹441 as RBI tells Tata Sons in writing to comply with listing rules,Business Upturn,0.5267,Positive
+TMPV,2026-11-17,"Rs 260 Puts Draw Over 11,400 Contracts on Tata Motors Passenger Vehicles Ltd Ahead of 23-Nov Expiry",MarketsMojo,0.0,Neutral
 TMPV,2026-11-18,"Tata Motors enters Syria, partners with Ghassan Aboud for CV distribution",Business Standard,0.0,Neutral
-TMPV,2026-11-18,Tata Motors Passenger Vehicles - PI Industries among 5 stocks hitting 52-week low; slipped up to 26% in a month,The Economic Times,-0.2732,Negative
 TMPV,2026-11-18,"SELL / Autos / Tata Motors Passenger Vehicles - UltraTech, ABB India, Grasim, Amber, Eicher, OIL, Vi & Tata Motors PV: Which stocks to Buy, Hold or Sell After Q2 FY27 results",The Economic Times,0.0,Neutral
-TMPV,2026-11-18,Tata Motors (TMPV) Share Price Target at Rs 275: ICICI Direct,TopNews,0.296,Positive
-TMPV,2026-11-18,Not everyone's winning! How Nifty's 14% sprint left 10 heavyweight stocks in the dust,The Economic Times,-0.471,Negative
-TMPV,2026-11-18,"Tata Motors Partnership Talks: Honda, Hyundai Eye India's Automotive Engineering Ecosystem",Auto India Daily,0.0,Neutral
+TMPV,2026-11-19,Tata Motors Passenger Vehicles Limited holds No. 2 position,Multibagg AI,-0.2263,Negative
+TMPV,2026-11-19,"Tata Motors Passenger Vehicles Posts Record ₹20,000 Crore India Revenue",Multibagg AI,0.296,Positive
 TMPV,2026-11-19,"Maruti Suzuki shares jump 5%, M&M, Tata Motors, Eicher Motors rally as Nifty Auto surges 2.6%",Moneycontrol.com,0.9246,Positive
-TMPV,2026-11-19,"Maruti Suzuki, Tata Motors PV, other auto stocks soar up to 7%; Nifty Auto index jumps 4%. What’s driving",The Economic Times,0.8481,Positive
-TMPV,2026-11-19,"Auto stocks hit the accelerator! Nifty Auto jumps 4%; Maruti, M&M, Hyundai lead the rally / What's behind the surge?",Livemint,0.9098,Positive
-TMPV,2026-11-19,"Auto sector stocks today, November 19: Maruti Suzuki jumps 5.35%, Tata Motors PV up 3.46%, Mahindra & Mahindra gains 3.44%",Business Upturn,0.6705,Positive
-TMPV,2026-11-19,"Auto stocks rally as copper and aluminium slump: Maruti up 6%, TVS Motor, Hero and M&M gain over 4%",Business Upturn,0.7096,Positive
-TMPV,2026-11-20,Maruti Suzuki among 6 stocks flashing White Marubozu pattern,The Economic Times,0.0,Neutral
+TMPV,2026-11-20,Tata Motors Share Price - Live NSE: TMPV Stock Price & Chart,Upstox,0.296,Positive

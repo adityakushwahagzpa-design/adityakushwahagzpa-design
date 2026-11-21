@@ -1,11 +1,11 @@
 # Market Dashboard Report
 
-Data as of **20 Nov 2026** (daily closing prices, Yahoo Finance). Generated 20 Nov 2026.
+Data as of **21 Nov 2026** (daily closing prices, Yahoo Finance). Generated 21 Nov 2026.
 
 ## Key Observations
 
-- **Best 1-year performer:** Brent Crude (USD) at +42.0%.
-- **Weakest 1-year performer:** Bitcoin (USD) at -29.1%.
+- **Best 1-year performer:** Brent Crude (USD) at +48.0%.
+- **Weakest 1-year performer:** Bitcoin (USD) at -34.0%.
 - **Lowest volatility:** USD / INR (6.3% annualised); **highest:** Brent Crude (USD) (47.0%).
 - **Weakest link between two assets:** Brent Crude (USD) and Nifty Bank (correlation -0.28), the strongest diversification pair in the set.
 
@@ -13,16 +13,16 @@ Data as of **20 Nov 2026** (daily closing prices, Yahoo Finance). Generated 20 N
 
 | Asset             | Group        |   Last Price |   1M % |   3M % |   6M % |   1Y % |   Volatility 1Y % |   Max Drawdown 1Y % |
 |:------------------|:-------------|-------------:|-------:|-------:|-------:|-------:|------------------:|--------------------:|
-| Bitcoin (USD)     | Crypto       |     61433.3  | -26.88 | -21.58 | -18.62 | -29.09 |             36.78 |              -39.59 |
-| Brent Crude (USD) | Commodity    |        90.03 | -17.27 |  -4.62 | -13.05 |  42.05 |             47.01 |              -39.53 |
-| Gold (USD/oz)     | Commodity    |      3532.1  | -14.89 | -24.54 | -21.91 | -13    |             23.64 |              -33.59 |
-| Gold BeES ETF     | ETF          |       100.36 | -15.04 | -23.58 | -23.1  |  -1.17 |             26.85 |              -31.51 |
-| USD / INR         | Currency     |        92.95 |  -1.86 |  -2.94 |  -3.35 |   5.05 |              6.32 |               -4.05 |
-| Nifty BeES ETF    | ETF          |       291.19 |  12.18 |   5.21 |   8.21 |  -1.51 |             11.13 |              -14.82 |
-| Sensex            | Equity Index |     83092.7  |  12.73 |   7.16 |  10.18 |  -2.97 |             12.07 |              -16.52 |
-| Nifty IT          | Equity Index |     31772.2  |  -2.01 |   4.06 |   9.89 | -14.23 |             21.81 |              -34.74 |
-| Nifty Bank        | Equity Index |     63221.3  |  15    |   9.45 |  16.96 |   6.53 |             14.72 |              -18.32 |
-| Nifty 50          | Equity Index |     25533    |  11.93 |   5.28 |   7.65 |  -2.52 |             11.8  |              -15.56 |
+| Bitcoin (USD)     | Crypto       |     56204.8  | -30.88 | -27.09 | -26.7  | -33.95 |             37.5  |              -42.01 |
+| Brent Crude (USD) | Commodity    |        92.57 | -18.2  |  -1.93 | -10.59 |  47.97 |             46.96 |              -39.53 |
+| Gold (USD/oz)     | Commodity    |      3515.4  | -13.42 | -24.89 | -22.28 | -13.83 |             23.69 |              -33.9  |
+| Gold BeES ETF     | ETF          |       106.3  |  -9.42 | -19.05 | -18.54 |   4.22 |             26.24 |              -27.46 |
+| USD / INR         | Currency     |        92.67 |  -1.74 |  -3.24 |  -3.64 |   4.48 |              6.32 |               -4.34 |
+| Nifty BeES ETF    | ETF          |       290.61 |  12.23 |   5    |   7.99 |  -1.26 |             11.11 |              -14.82 |
+| Sensex            | Equity Index |     83919.7  |  14.57 |   8.23 |  11.28 |  -1.54 |             12.1  |              -16.52 |
+| Nifty IT          | Equity Index |     31322.7  |  -2.36 |   2.59 |   8.34 | -15.08 |             21.71 |              -34.74 |
+| Nifty Bank        | Equity Index |     64635.2  |  17.68 |  11.9  |  19.57 |   9.8  |             14.84 |              -18.32 |
+| Nifty 50          | Equity Index |     25800.6  |  13.72 |   6.39 |   8.77 |  -1.03 |             11.83 |              -15.56 |
 
 ## Charts
 

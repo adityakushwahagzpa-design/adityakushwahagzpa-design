@@ -1,16 +1,16 @@
 # Infosys Limited (INFY)
 
-**Sector:** Technology  |  **Industry:** Information Technology Services  |  **Generated:** 20 Nov 2026
+**Sector:** Technology  |  **Industry:** Information Technology Services  |  **Generated:** 21 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹1,114.30 | 1Y Return | -24.2% |
+| Price | ₹1,098.00 | 1Y Return | -25.3% |
 | 52W High | ₹1,616.97 | 52W Low | ₹963.23 |
-| Market Cap | ₹451,333 cr | Beta | 0.02 |
-| P/E | 14.84x | P/B | 4.63x |
-| EV/EBITDA | 902.32x | ROE | 30.0% |
+| Market Cap | ₹444,731 cr | Beta | 0.02 |
+| P/E | 14.62x | P/B | 4.56x |
+| EV/EBITDA | 907.36x | ROE | 30.0% |
 | Net Margin | 16.2% | Debt/Equity | 0.09x |
-| Dividend Yield | 4.7% | Below 52W High | -31.1% |
+| Dividend Yield | 4.7% | Below 52W High | -32.1% |
 
 ## Revenue and Profit
 
