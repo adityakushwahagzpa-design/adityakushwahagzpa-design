@@ -1,0 +1,4 @@
+model,roc_auc,gini,ks,brier
+Logistic regression,0.757,0.514,0.402,0.1888
+Random forest,0.776,0.552,0.419,0.1682
+Gradient boosting,0.776,0.553,0.42,0.1354

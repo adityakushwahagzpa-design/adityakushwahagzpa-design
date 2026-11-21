@@ -1,0 +1,106 @@
+{
+  "as_of": "2026-11-20",
+  "stocks_analysed": 50,
+  "symbols_not_found": [],
+  "nifty_level": 25800.6,
+  "nifty_returns_%": {
+    "1M": 13.1,
+    "3M": 7.15,
+    "6M": 9.05,
+    "1Y": -0.29
+  },
+  "nifty_vs_200dma_%": 7.51,
+  "nifty_trend": "downtrend",
+  "breadth_above_200dma_%": 69.0,
+  "breadth_1y_range_%": [
+    10.0,
+    82.0
+  ],
+  "stocks_in_uptrend": 19,
+  "golden_crosses_last_3m": [
+    "KOTAKBANK",
+    "EICHERMOT",
+    "DRREDDY",
+    "ULTRACEMCO",
+    "BHARTIARTL",
+    "BAJAJFINSV",
+    "HCLTECH",
+    "TRENT"
+  ],
+  "death_crosses_last_3m": [
+    "SBIN",
+    "SHRIRAMFIN",
+    "AXISBANK",
+    "HINDALCO",
+    "SUNPHARMA",
+    "COALINDIA",
+    "LT",
+    "NESTLEIND",
+    "ASIANPAINT",
+    "MAXHEALTH"
+  ],
+  "overbought_rsi_70": [
+    "KOTAKBANK",
+    "SBIN",
+    "APOLLOHOSP",
+    "EICHERMOT",
+    "ICICIBANK",
+    "AXISBANK",
+    "ULTRACEMCO",
+    "LT",
+    "BHARTIARTL",
+    "TATACONSUM",
+    "M&M",
+    "MAXHEALTH",
+    "RELIANCE",
+    "MARUTI",
+    "HINDUNILVR",
+    "HDFCBANK",
+    "ITC"
+  ],
+  "oversold_rsi_30": [],
+  "best_1y": [
+    [
+      "ADANIPORTS",
+      28.42
+    ],
+    [
+      "KOTAKBANK",
+      24.49
+    ],
+    [
+      "TECHM",
+      24.46
+    ]
+  ],
+  "worst_1y": [
+    [
+      "INFY",
+      -25.58
+    ],
+    [
+      "JIOFIN",
+      -27.42
+    ],
+    [
+      "TMPV",
+      -32.51
+    ]
+  ],
+  "sector_1y_%": {
+    "Consumer Services": 22.25,
+    "Services": 11.52,
+    "Metals & Mining": 10.96,
+    "Materials": 10.14,
+    "Healthcare": 7.09,
+    "Telecom": 4.69,
+    "Financials": 3.54,
+    "Capital Goods": 1.25,
+    "Energy": 0.37,
+    "Auto": -0.62,
+    "Consumer": -3.01,
+    "FMCG": -7.38,
+    "IT": -10.96
+  },
+  "share_beating_index_1y_%": 56.0
+}

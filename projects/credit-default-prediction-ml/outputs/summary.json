@@ -1,0 +1,89 @@
+{
+  "data": "Default of Credit Card Clients (UCI 350), 30,000 borrowers, default rate 22.1%",
+  "train_test": [
+    21000,
+    9000
+  ],
+  "models": [
+    {
+      "model": "Logistic regression",
+      "roc_auc": 0.757,
+      "gini": 0.514,
+      "ks": 0.402,
+      "brier": 0.1888
+    },
+    {
+      "model": "Random forest",
+      "roc_auc": 0.776,
+      "gini": 0.552,
+      "ks": 0.419,
+      "brier": 0.1682
+    },
+    {
+      "model": "Gradient boosting",
+      "roc_auc": 0.776,
+      "gini": 0.553,
+      "ks": 0.42,
+      "brier": 0.1354
+    }
+  ],
+  "best_model": "Random forest",
+  "score_model": "Gradient boosting (unweighted, calibrated probabilities)",
+  "top_drivers": {
+    "latest_delay_months": 0.0227,
+    "credit_limit": 0.0184,
+    "months_in_arrears": 0.0123,
+    "worst_delay_months": 0.0101,
+    "utilisation_avg_6m": 0.0082
+  },
+  "logistic_coefficients_standardised": {
+    "latest_delay_months": 0.456,
+    "worst_delay_months": 0.265,
+    "months_in_arrears": 0.259,
+    "credit_limit": -0.213,
+    "months_no_payment": 0.212,
+    "utilisation_latest": 0.154,
+    "repayment_ratio_avg": 0.089,
+    "age": 0.069,
+    "education": -0.049,
+    "bill_trend": -0.04,
+    "utilisation_avg_6m": 0.016,
+    "repayment_ratio_latest": 0.003
+  },
+  "cost_based_cutoff": {
+    "cutoff_pd": 0.17,
+    "approval_rate_%": 56.7,
+    "defaulters_caught_%": 73.7,
+    "good_customers_declined_%": 34.7,
+    "default_rate_approved_%": 10.25,
+    "default_rate_all_%": 22.12
+  },
+  "score_bands": [
+    {
+      "band": "Very high risk\n300-549",
+      "borrowers": 1070,
+      "default_rate_%": 66.9
+    },
+    {
+      "band": "High\n550-619",
+      "borrowers": 1039,
+      "default_rate_%": 37.2
+    },
+    {
+      "band": "Medium\n620-679",
+      "borrowers": 2607,
+      "default_rate_%": 18.8
+    },
+    {
+      "band": "Low\n680-739",
+      "borrowers": 2814,
+      "default_rate_%": 11.0
+    },
+    {
+      "band": "Very low risk\n740-900",
+      "borrowers": 1470,
+      "default_rate_%": 6.0
+    }
+  ],
+  "cost_assumption": "missed defaulter costs 5x a declined good customer"
+}
