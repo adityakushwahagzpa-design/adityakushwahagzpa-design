@@ -8,33 +8,33 @@
   "correlations": {
     "stress_index": {
       "rho_vs_abnormal": 0.069,
-      "p": 0.2083,
+      "p": 0.2082,
       "rho_vs_abs_move": -0.034,
-      "p_abs": 0.5379
+      "p_abs": 0.5381
     },
     "qa_tone": {
       "rho_vs_abnormal": 0.043,
-      "p": 0.4297,
+      "p": 0.4295,
       "rho_vs_abs_move": 0.068,
-      "p_abs": 0.2095
+      "p_abs": 0.2093
     },
     "tone_gap": {
       "rho_vs_abnormal": 0.159,
       "p": 0.0034,
       "rho_vs_abs_move": 0.025,
-      "p_abs": 0.6527
+      "p_abs": 0.6521
     },
     "uncertainty_per_1k": {
       "rho_vs_abnormal": -0.012,
-      "p": 0.8328,
+      "p": 0.8329,
       "rho_vs_abs_move": -0.067,
-      "p_abs": 0.2177
+      "p_abs": 0.218
     },
     "evasive_per_1k": {
       "rho_vs_abnormal": 0.052,
       "p": 0.3432,
       "rho_vs_abs_move": -0.0,
-      "p_abs": 0.9969
+      "p_abs": 0.9962
     }
   },
   "quintiles": [

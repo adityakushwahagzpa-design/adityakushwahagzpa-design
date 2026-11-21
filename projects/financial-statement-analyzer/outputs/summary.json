@@ -97,9 +97,6 @@
     }
   },
   "median_roe_%": 16.3,
-  "currency_notes": {
-    "INFY": "reported in USD, converted at fiscal-year average USD/INR: FY2023 80.31, FY2024 82.79, FY2025 84.54, FY2026 88.34"
-  },
   "cash_conversion_below_1": [
     "HINDUNILVR",
     "ITC"
