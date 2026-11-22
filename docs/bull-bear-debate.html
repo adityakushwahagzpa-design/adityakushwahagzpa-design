@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bull vs Bear Debate</title><meta name="description" content="Bull vs bear debate: an AI project by Aditya Kushwaha">
+<title>Bull vs Bear Debate</title><meta name="description" content="A Bull agent and a Bear agent may only use numbered facts from each company's latest annual report and market data, and must cite an ID after every claim."><meta property="og:type" content="website"><meta property="og:site_name" content="Aditya Kushwaha · AI projects"><meta property="og:title" content="Bull vs bear AI debate: Claude agents argue NVIDIA, Tesla and Apple from cited 10-K evidence"><meta property="og:description" content="A Bull agent and a Bear agent may only use numbered facts from each company's latest annual report and market data, and must cite an ID after every claim."><meta property="og:url" content="https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/bull-bear-debate.html"><meta property="og:image" content="https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/og/bull-bear-debate.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="627"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/bull-bear-debate.html">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&family=Red+Hat+Mono&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
 <style>/* VOICE work: a portfolio read by hiring managers in finance and banking; precise, dense, confident
@@ -29,13 +29,13 @@ img{max-width:100%}
 .top{background:var(--band);color:var(--bandink)}
 .top a{color:#fff}
 .nav{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:12px max(5vw,16px);background:var(--band);color:#fff;border-bottom:1px solid #1d3570;font-size:15px}
-.nav b{font-family:"Red Hat Display";font-size:17px;margin-right:auto}
+.nav b{font-family:"Red Hat Display",system-ui,sans-serif;font-size:17px;margin-right:auto}
 .nav a{color:#c9d5f5;text-decoration:none;padding:6px 0}
 .nav a:hover,.nav a[aria-current]{color:#fff;text-decoration:underline;text-underline-offset:4px}
 .lede{font-size:18px;max-width:68ch;color:#d5def5;margin-top:14px}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(10em,1fr));gap:12px;margin-top:26px}
 .kpi{background:#ffffff12;border:1px solid #ffffff26;border-radius:10px;padding:14px 16px}
-.kpi b{display:block;font:700 clamp(26px,3vw,36px)/1.05 "Red Hat Display";color:#fff}
+.kpi b{display:block;font:700 clamp(26px,3vw,36px)/1.05 "Red Hat Display",system-ui,sans-serif;color:#fff}
 .kpi b.hot{color:#ff6fa3}
 .kpi span{font-size:14px;color:#c9d5f5}
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:clamp(14px,2vw,22px)}
@@ -57,7 +57,7 @@ button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{ou
 .trace{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg)}
 .step{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:12px;padding:12px 16px;border-top:1px solid var(--line)}
 .step:first-child{border-top:0}
-.step>span{font-weight:700;font-family:"Red Hat Display";font-size:14px}
+.step>span{font-weight:700;font-family:"Red Hat Display",system-ui,sans-serif;font-size:14px}
 .step.q>span{color:var(--acc2)}.step.t>span{color:var(--warn)}.step.r>span{color:var(--ok)}.step.a>span{color:var(--acc)}
 .step pre{margin:0;font-size:13.5px;white-space:pre-wrap;overflow-wrap:anywhere}
 table{border-collapse:collapse;width:100%;font-size:15px}
@@ -72,7 +72,7 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .foot{background:var(--band);color:#c9d5f5;font-size:15px}
 .foot a{color:#fff}
 .sec{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
-.big{font:700 clamp(30px,4vw,44px)/1 "Red Hat Display";color:var(--acc)}
+.big{font:700 clamp(30px,4vw,44px)/1 "Red Hat Display",system-ui,sans-serif;color:var(--acc)}
 .honest{border-left:4px solid var(--acc);padding:10px 14px;background:color-mix(in srgb,var(--acc) 7%,transparent);border-radius:0 8px 8px 0;font-size:15px}
 @media(max-width:900px){.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}.step{grid-template-columns:minmax(0,1fr);gap:4px}.row{grid-template-columns:7.5em minmax(0,1fr) 4em}}
@@ -84,13 +84,13 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .sig{border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin-top:8px;background:var(--bg);font-size:15px}
 .bull .sig{border-left:4px solid var(--ok)}.bear .sig{border-left:4px solid var(--acc)}
 .verdict{text-align:center;padding:14px;border-radius:12px;background:var(--band);color:#fff;margin-bottom:12px}
-.verdict b{display:block;font:700 30px "Red Hat Display"}
+.verdict b{display:block;font:700 30px "Red Hat Display",system-ui,sans-serif}
 .ev{max-height:430px;overflow:auto;display:grid;gap:6px;margin-top:10px}
 .ev div{font-size:14.5px;padding:8px 10px;border-radius:8px;background:var(--bg);border:1px solid var(--line)}
 .ev b{font-family:"Red Hat Mono";color:var(--acc2);margin-right:6px}
 .flow{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;counter-reset:s}
 .flow div{border:1px solid var(--line);border-radius:10px;padding:12px;background:var(--panel);font-size:14.5px}
-.flow div b{display:block;font-family:"Red Hat Display";font-size:17px;margin-bottom:4px}
+.flow div b{display:block;font-family:"Red Hat Display",system-ui,sans-serif;font-size:17px;margin-bottom:4px}
 input[type=search]{font:inherit;font-size:16px;min-height:44px;width:100%;border:1px solid var(--line);border-radius:9px;padding:8px 12px;background:var(--bg);color:var(--ink)}
 @media(max-width:900px){.arena{grid-template-columns:minmax(0,1fr)}.flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style></head><body>
