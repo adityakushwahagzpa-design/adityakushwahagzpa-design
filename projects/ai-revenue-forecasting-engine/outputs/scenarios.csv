@@ -1,5 +1,5 @@
 scenario,base_case_crore,q1_revenue_crore,change_crore,change_pct
-Marketing spend -20%,105.45,103.02,-2.43,-0.023
-Marketing spend +20%,105.45,107.11,1.66,0.0157
-Skip Republic Day sale,105.45,103.61,-1.84,-0.0174
-All discounts +3 points,105.45,114.44,8.99,0.0853
+Marketing spend -20%,104.23,101.99,-2.24,-0.0215
+Marketing spend +20%,104.23,106.13,1.9,0.0182
+Skip Republic Day sale,104.23,102.24,-1.99,-0.0191
+All discounts +3 points,104.23,113.09,8.86,0.085

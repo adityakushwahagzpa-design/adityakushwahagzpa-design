@@ -21,7 +21,6 @@ warnings.filterwarnings("ignore")
 H = 90
 DRIVERS = ["diwali_window", "holi", "republic_day_sale", "independence_day_sale", "discount_pct", "marketing_lakh"]
 LINES = ["Apparel", "Electronics", "Home"]
-RNG = np.random.default_rng(0)
 
 
 def load():
@@ -53,13 +52,14 @@ def ml_train_rows(df, end):
     """One row per (line, day) up to `end`; the revenue level is measured `gap` days earlier,
     with gap drawn at random from 1-90 so the model learns to forecast up to 90 days ahead."""
     d = df[df.date <= end].copy()
+    rng = np.random.default_rng(0)  # same gaps every run, so results are reproducible
     rows = []
     for line, g in d.groupby("product_line"):
         g = g.sort_values("date").reset_index(drop=True)
         rev = g.revenue_lakh.values
         fest = g.diwali_window.values
         csum, fsum = np.concatenate([[0], np.cumsum(rev)]), np.concatenate([[0], np.cumsum(fest)])
-        gap = RNG.integers(1, H + 1, len(g))
+        gap = rng.integers(1, H + 1, len(g))
         e = np.arange(len(g)) - gap + 1  # level window ends the day before (i - gap + 1)
         s = e - 28
         ok = s >= 0
