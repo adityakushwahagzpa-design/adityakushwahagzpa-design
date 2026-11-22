@@ -1,0 +1,22 @@
+[
+  {"question": "How many customers does the bank have?", "sql": "SELECT COUNT(*) AS customers FROM customers"},
+  {"question": "How many branches are there in each region?", "sql": "SELECT region, COUNT(*) AS branches FROM branches GROUP BY region ORDER BY region"},
+  {"question": "What is the total balance of active savings accounts?", "sql": "SELECT ROUND(SUM(balance), 2) AS total_balance FROM accounts WHERE account_type = 'Savings' AND status = 'Active'"},
+  {"question": "How many customers are in each segment?", "sql": "SELECT segment, COUNT(*) AS customers FROM customers GROUP BY segment ORDER BY customers DESC"},
+  {"question": "Which 5 cities have the most customers?", "sql": "SELECT city, COUNT(*) AS customers FROM customers GROUP BY city ORDER BY customers DESC LIMIT 5"},
+  {"question": "What was the total debit amount by channel in July 2026?", "sql": "SELECT channel, ROUND(SUM(amount), 2) AS debit_amount FROM transactions WHERE direction = 'Debit' AND txn_date BETWEEN '2026-07-01' AND '2026-07-31' GROUP BY channel ORDER BY debit_amount DESC"},
+  {"question": "Average interest rate of active personal loans", "sql": "SELECT ROUND(AVG(interest_rate), 2) AS avg_rate FROM loans WHERE loan_type = 'Personal' AND status = 'Active'"},
+  {"question": "How many loans were disbursed in FY2024-25?", "sql": "SELECT COUNT(*) AS loans FROM loans WHERE disbursed_date BETWEEN '2024-04-01' AND '2025-03-31'"},
+  {"question": "List the 10 customers with the highest total deposits", "sql": "SELECT c.customer_id, c.full_name, ROUND(SUM(a.balance), 2) AS deposits FROM customers c JOIN accounts a ON a.customer_id = c.customer_id WHERE a.status IN ('Active', 'Dormant') GROUP BY c.customer_id, c.full_name ORDER BY deposits DESC LIMIT 10"},
+  {"question": "Number of transactions per month in 2025", "sql": "SELECT strftime('%Y-%m', txn_date) AS month, COUNT(*) AS transactions FROM transactions WHERE txn_date BETWEEN '2025-01-01' AND '2025-12-31' GROUP BY month ORDER BY month"},
+  {"question": "What share of card transactions are international?", "sql": "SELECT ROUND(100.0 * SUM(is_international) / COUNT(*), 2) AS intl_share_pct FROM transactions WHERE channel = 'Card'"},
+  {"question": "Total outstanding of active loans by loan type", "sql": "SELECT loan_type, ROUND(SUM(outstanding), 2) AS outstanding FROM loans WHERE status = 'Active' GROUP BY loan_type ORDER BY outstanding DESC"},
+  {"question": "How many accounts are dormant in each branch region?", "sql": "SELECT b.region, COUNT(*) AS dormant_accounts FROM accounts a JOIN branches b ON b.branch_id = a.branch_id WHERE a.status = 'Dormant' GROUP BY b.region ORDER BY dormant_accounts DESC"},
+  {"question": "What is the gross NPA ratio for business loans?", "sql": "SELECT ROUND(100.0 * SUM(CASE WHEN days_past_due > 90 THEN outstanding ELSE 0 END) / SUM(outstanding), 2) AS gross_npa_pct FROM loans WHERE status = 'Active' AND loan_type = 'Business'"},
+  {"question": "Spend on dining by month in FY2025-26", "sql": "SELECT strftime('%Y-%m', txn_date) AS month, ROUND(SUM(amount), 2) AS dining_spend FROM transactions WHERE direction = 'Debit' AND merchant_category = 'Dining' AND txn_date BETWEEN '2025-04-01' AND '2026-03-31' GROUP BY month ORDER BY month"},
+  {"question": "Which customers have more than two accounts?", "sql": "SELECT customer_id, COUNT(*) AS accounts FROM accounts GROUP BY customer_id HAVING COUNT(*) > 2 ORDER BY accounts DESC"},
+  {"question": "Percentage of EMIs paid on time in 2025", "sql": "SELECT ROUND(100.0 * AVG(on_time), 2) AS on_time_pct FROM loan_payments WHERE payment_date BETWEEN '2025-01-01' AND '2025-12-31'"},
+  {"question": "Average customer age by segment", "sql": "SELECT segment, ROUND(AVG((julianday('2026-09-30') - julianday(date_of_birth)) / 365.25), 1) AS avg_age FROM customers GROUP BY segment ORDER BY segment"},
+  {"question": "How many active customers are there?", "sql": "SELECT COUNT(DISTINCT a.customer_id) AS active_customers FROM transactions t JOIN accounts a ON a.account_id = t.account_id WHERE t.txn_date > date('2026-09-30', '-90 days')"},
+  {"question": "Large transactions by channel for high-risk KYC customers", "sql": "SELECT t.channel, COUNT(*) AS large_txns, ROUND(SUM(t.amount), 2) AS amount FROM transactions t JOIN accounts a ON a.account_id = t.account_id JOIN customers c ON c.customer_id = a.customer_id WHERE c.kyc_risk = 'High' AND t.amount >= 200000 GROUP BY t.channel ORDER BY large_txns DESC"}
+]

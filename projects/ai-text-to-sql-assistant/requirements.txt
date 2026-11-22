@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+sqlglot>=25
+matplotlib
+anthropic>=0.40
+pytest

@@ -1,0 +1,12 @@
+{
+  "mode": "gold",
+  "model": null,
+  "correct": 30,
+  "total": 30,
+  "accuracy_pct": 100.0,
+  "by_difficulty": {
+    "easy": "10/10",
+    "hard": "10/10",
+    "medium": "10/10"
+  }
+}

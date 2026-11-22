@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "model": null,
+  "correct": 0,
+  "total": 30,
+  "accuracy_pct": 0.0,
+  "by_difficulty": {
+    "easy": "0/10",
+    "hard": "0/10",
+    "medium": "0/10"
+  }
+}
