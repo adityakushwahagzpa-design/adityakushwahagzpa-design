@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/aditya-hero.svg" width="100%" alt="Aditya Kushwaha — Finance, Fund Accounting, Compliance, MIS Reporting"/>
+  <img src="assets/aditya-hero.svg" width="100%" alt="Aditya Kushwaha — Fund Accounting, NAV, Reconciliations, KYC/AML"/>
 </p>
 
 <p align="center">
@@ -12,9 +12,9 @@
 
 ## About
 
-MBA (Finance) from **Christ University, Bengaluru (2025)** and B.Com from the **University of Lucknow**. I work where finance meets data: building models, reconciling numbers and turning raw records into reports people can trust. Each project here comes with its Excel workbook or code, a PDF report and a README explaining the method and findings.
+MBA (Finance) from **Christ University, Bengaluru (2025)** and B.Com from the **University of Lucknow**, focused on **fund services**: the daily work of pricing a fund, striking its NAV, matching trades, tracking settlements and corporate actions, and reconciling the books against brokers and custodians. My portfolio rebuilds that work end to end, with every break explained and logged. Each project comes with its Excel workbook or code, a report and a README on the method and findings.
 
-**Open to:** Regulatory Compliance · KYC / AML · Fund Accounting · Finance Operations · MIS Reporting · Credit and Data Analysis &nbsp;|&nbsp; **Based in:** Bengaluru · available to join immediately &nbsp;|&nbsp; **Currently learning:** advanced Power BI data modelling
+**Open to:** Fund Accounting & Fund Services · Investment Operations · Reconciliations · KYC / AML · Finance Operations &nbsp;|&nbsp; **Based in:** Bengaluru · available to join immediately &nbsp;|&nbsp; **Currently learning:** advanced Power BI data modelling
 
 | Role | Organisation | Period |
 |:--|:--|:--|
@@ -33,7 +33,7 @@ Project: Cost Analysis and Tendering Process. Financial and quotation review for
 - Review of 40+ vendor quotations against cost estimates and budget, with 6 flagged for further review
 - Eligibility check of 20+ vendor submissions, of which 7+ did not meet the required criteria
 - Approval checks against delegation of power (DoP) limits and a vendor document checklist
-- A vendor-wise evidence file for every submission, set up on own initiative
+- A vendor-wise evidence file and DoP check, set up on own initiative, so every approval traced back to its documents
 
 ![](https://img.shields.io/badge/-Cost%20Analysis-701A3D?style=flat-square) ![](https://img.shields.io/badge/-Tendering-5A1530?style=flat-square) ![](https://img.shields.io/badge/-Vendor%20Evaluation-451126?style=flat-square) ![](https://img.shields.io/badge/-Internal%20Controls-8C3B5E?style=flat-square)
 
@@ -127,15 +127,16 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 
 | Project | Problem and result | Tools |
 |:--|:--|:--|
+| **[Fund Operations Month-End Reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation)** | Fund book vs broker vs custodian for a ₹37 crore fund: trade matching, T+1 settlement monitoring, corporate actions, position and cash reconciliation. 97.6% of 668 records auto-cleared, the ₹56.9 lakh cash gap fully explained, and open breaks shown to understate NAV by 154 bps | Python, Excel |
 | **[Fund Accounting & Daily NAV Model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model)** | Daily NAV cycle for a ₹71 crore hybrid fund; NAV move from ₹31.40 to ₹32.01 traced line by line with cash, holdings and accrual reconciliations | Excel |
-| **[Fund Operations Month-End Reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation)** | Book vs broker vs custodian for a ₹38 crore fund: 97.6% of 668 records auto-cleared, ₹56.9 lakh cash gap explained to the rupee, and an unapplied split caught that understated NAV by 154 bps | Python |
-| **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
-| **[Money Mule Ring Detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector)** | AML graph analytics on ~64,000 synthetic transfers; all 8 hidden rings found (GNN precision 0.91, recall 1.00) | Python, NetworkX, PyTorch Geometric, Neo4j |
-| **[Credit Appraisal Model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model)** | ₹20 crore term-loan appraisal; DSCR 2.39x, recommended at grade CR-2 | Excel |
-| **[AP Three-Way Match](https://github.com/adityakushwahagzpa-design/ap-three-way-match)** | PO, GRN and invoice matching with quantity and price variance flags and an approval-ready payment list | Excel, PDF |
-| **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
+| **[HDFC Flexi Cap Fund — Returns & Risk](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis)** | 10 years of daily AMFI NAVs: CAGR, SIP XIRR, Sharpe, Sortino, beta and alpha vs the NIFTY 500 and 37 peer funds; best 3-year Sharpe (0.78) of the group | Excel, PDF |
 | **[Bank Transactions Analysis (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis)** | 4-table PostgreSQL bank database, 20 queries up to window functions and CTEs; AML rules flag 6 structuring customers and 7 reactivated dormant accounts | PostgreSQL, Python |
+| **[AP Three-Way Match](https://github.com/adityakushwahagzpa-design/ap-three-way-match)** | PO, GRN and invoice matching with quantity and price variance flags and an approval-ready payment list | Excel, PDF |
+| **[Credit Appraisal Model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model)** | ₹20 crore term-loan appraisal; DSCR 2.39x, recommended at grade CR-2 | Excel |
+| **[Money Mule Ring Detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector)** | AML graph analytics on ~64,000 synthetic transfers; all 8 hidden rings found (GNN precision 0.91, recall 1.00) | Python, NetworkX, PyTorch Geometric, Neo4j |
 | **[Nifty 50 Portfolio Analysis (Google Sheets)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets)** | Live GOOGLEFINANCE portfolio of seven stocks: diversification cut volatility from 22.1% to 13.2%, but returns trailed the Nifty 50 (21.5% vs 27.0%) | Google Sheets |
+| **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
+| **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
 
 **Classic finance research papers in Python** — seven landmark papers applied to market data, refreshed weekly by GitHub Actions
 
@@ -582,13 +583,19 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 
 ## Skills
 
-| Category | Skills |
-|:--|:--|
-| **Finance domains** | Fund accounting (daily NAV, accruals, reconciliations) · Valuation (three-statement, DCF, LBO, comps, precedents) · Credit analysis (DSCR, 5 Cs) · KYC / AML (PMLA, FATF, RBI norms) · Finance operations (AP, AR, bank reconciliation) |
-| **Analysis & modelling** | Excel (advanced) · Google Sheets (GOOGLEFINANCE) · Financial modelling |
-| **Reporting & visualisation** | Power BI · Tableau · MS Office |
-| **Data & ERP** | SQL / PostgreSQL (joins, window functions, CTEs) · Python (Pandas) · SAP FICO · SAP GRC |
-| **Tools & AI** | Git & GitHub · Markdown · Claude · ChatGPT · Google Workspace |
+| Category | Skills | Shown in |
+|:--|:--|:--|
+| **Fund accounting & NAV** | Daily NAV calculation · security pricing and stale-price checks · income and expense accruals (bond interest, TER) · dividend receivables · subscriptions and redemptions at NAV · NAV tolerance checks against the benchmark | [NAV model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) |
+| **Trade & settlement operations** | Trade capture and matching to broker confirmations · T+1 settlement monitoring · failed and late settlements · duplicate and missing bookings | [Month-end reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation) |
+| **Corporate actions** | Dividends, bonus issues and stock splits · entitlement checks between book and custodian · holdings and price adjustments | [NAV model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) · [Month-end reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation) |
+| **Reconciliations** | Position and cash reconciliation vs custodian · cash bridge with every break explained · bank reconciliation · AP three-way match · AR ageing | [Month-end reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation) · [Bank reconciliation](https://github.com/adityakushwahagzpa-design/bank-reconciliation-excel) · [AP three-way match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) |
+| **Controls & exception management** | Exception log with owner, action, age and status · negative-holdings control · NAV impact of open breaks (bps) · SOP and delegation-of-power checks · audit trail of evidence | [Month-end reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation) · NTPC internship |
+| **Fund & market knowledge** | Mutual fund structure (AMC, custodian, registrar, TER) · equity and debt instruments · fund performance and risk (CAGR, XIRR, Sharpe, beta, drawdown) · SEBI and AMFI data | [HDFC Flexi Cap analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) · [AMC industry deep dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
+| **KYC / AML & compliance** | Customer due diligence and KYC risk rating · transaction monitoring (cash structuring, dormant-account reactivation) · PMLA, FATF and RBI norms · SAP GRC | [Bank transactions (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) · [Money mule detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) |
+| **Excel & data** | Advanced Excel (SUMIFS / AVERAGEIFS, VLOOKUP, SUMPRODUCT, conditional formatting, formula-driven reconciliations) · SQL / PostgreSQL (joins, window functions, CTEs) · Python (pandas) · Google Sheets (GOOGLEFINANCE) | All projects |
+| **Reporting & ERP** | Power BI · Tableau · MIS reporting · SAP FICO · MS Office · Google Workspace | [Selected projects](#selected-projects) |
+| **Valuation & credit** | Three-statement models · DCF, LBO, comps · credit appraisal (DSCR, 5 Cs) | [Credit appraisal](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) · [Tata Motors](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) |
+| **Working style** | Attention to detail · deadline-driven month-end work · clear written explanations of breaks · night-shift ready | |
 
 ---
 

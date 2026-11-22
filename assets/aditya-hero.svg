@@ -82,6 +82,6 @@
     <animate attributeName="width" values="60;520;520;60" keyTimes="0;0.3;0.8;1" dur="9s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="72" y="256" fill="#E5B5C7" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Finance · Fund Accounting · Compliance · MIS Reporting</text>
-  <text x="72" y="292" fill="#C77B9B" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" opacity="0.9">Excel · Power BI · SQL · Python · SAP FICO &amp; GRC</text>
+  <text x="72" y="256" fill="#E5B5C7" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Fund Accounting · NAV · Reconciliations · KYC/AML</text>
+  <text x="72" y="292" fill="#C77B9B" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" opacity="0.9">Excel · SQL · Python · Power BI · SAP FICO</text>
 </svg>
