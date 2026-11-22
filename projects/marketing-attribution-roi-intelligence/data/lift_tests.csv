@@ -1,0 +1,5 @@
+channel,design,start,end,measured_roi,std_error
+YouTube,"Geo-lift test, 12 test vs 12 control cities",2025-08-04,2025-09-14,3.27,0.42
+Meta Ads,"Conversion-lift test, 10% holdout audience",2026-02-02,2026-03-15,1.95,0.25
+Influencers,"Holdout test, campaign paused in 8 cities",2026-05-04,2026-06-14,2.22,0.29
+Google Search,"Brand + generic search holdout, ads paused in 10 cities",2025-11-24,2026-01-04,2.24,0.24

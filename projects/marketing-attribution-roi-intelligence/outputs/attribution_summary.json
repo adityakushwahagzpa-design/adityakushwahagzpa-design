@@ -1,0 +1,27 @@
+{
+  "users": 60000,
+  "touchpoints": 191749,
+  "conversions": 3930,
+  "conversion_rate_pct": 6.55,
+  "revenue_lakh": 72.7,
+  "error_pp": {
+    "last_touch": 12.1,
+    "first_touch": 3.99,
+    "linear": 4.3,
+    "time_decay": 5.04,
+    "position_based": 4.3,
+    "markov": 5.51,
+    "shapley": 4.48,
+    "ml_counterfactual": 1.11
+  },
+  "best_model": "ml_counterfactual",
+  "markov_removal_effect_pct": {
+    "Google Search": 45.5,
+    "Meta Ads": 40.6,
+    "YouTube": 42.6,
+    "Influencers": 38.5,
+    "Email": 30.2,
+    "Affiliate": 22.2,
+    "Direct": 30.6
+  }
+}

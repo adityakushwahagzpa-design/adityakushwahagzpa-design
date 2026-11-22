@@ -1,0 +1,64 @@
+{
+  "weeks": 156,
+  "revenue_crore": 91.39,
+  "media_spend_crore": 19.82,
+  "media_revenue_share_pct": 46.4,
+  "fit_r2": 0.971,
+  "fit_mape_pct": 2.03,
+  "roi_mae_uncalibrated": 0.67,
+  "roi_mae_calibrated": 0.4,
+  "roi_truth_inside_p10_p90": 3,
+  "lift_tests": [
+    "YouTube",
+    "Meta Ads",
+    "Influencers",
+    "Google Search"
+  ],
+  "budget": {
+    "total_weekly_budget_lakh": 9.633,
+    "current_weekly_revenue_lakh": 24.893,
+    "optimised_weekly_revenue_lakh": 26.103,
+    "uplift_pct": 4.86,
+    "allocation": [
+      {
+        "channel": "Google Search",
+        "current_lakh": 2.427,
+        "optimised_lakh": 2.856,
+        "change_pct": 17.7
+      },
+      {
+        "channel": "Meta Ads",
+        "current_lakh": 2.641,
+        "optimised_lakh": 2.76,
+        "change_pct": 4.5
+      },
+      {
+        "channel": "YouTube",
+        "current_lakh": 1.42,
+        "optimised_lakh": 1.988,
+        "change_pct": 40.0
+      },
+      {
+        "channel": "Influencers",
+        "current_lakh": 1.766,
+        "optimised_lakh": 1.202,
+        "change_pct": -32.0
+      },
+      {
+        "channel": "Affiliate",
+        "current_lakh": 1.379,
+        "optimised_lakh": 0.827,
+        "change_pct": -40.0
+      }
+    ],
+    "true_uplift_pct": 3.52,
+    "best_possible_uplift_pct": 4.19,
+    "best_possible_allocation": {
+      "Google Search": 21.2,
+      "Meta Ads": -16.0,
+      "YouTube": 40.0,
+      "Influencers": -6.1,
+      "Affiliate": -40.0
+    }
+  }
+}

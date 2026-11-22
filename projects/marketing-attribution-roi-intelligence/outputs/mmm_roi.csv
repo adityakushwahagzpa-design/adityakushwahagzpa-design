@@ -1,0 +1,6 @@
+channel,spend_lakh,revenue_lakh,roi,marginal_roi,decay,half_saturation,roi_p10,roi_p90,roi_uncalibrated,lift_test_roi,true_roi,true_marginal_roi
+Google Search,608.1,1314.5,2.16,0.77,0.11,2.27,2.0,2.38,2.07,2.24,1.98,0.91
+Meta Ads,471.7,847.8,1.8,1.0,0.2,5.04,1.69,2.18,1.65,1.95,2.12,0.92
+YouTube,427.0,1269.0,2.97,1.4,0.63,6.44,2.75,3.54,2.18,3.27,3.5,1.55
+Influencers,320.7,715.7,2.23,0.59,0.41,1.12,1.88,2.58,3.04,2.22,2.39,1.03
+Affiliate,154.0,96.0,0.62,0.46,0.0,4.1,0.55,1.31,0.63,,1.44,0.73
