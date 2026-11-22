@@ -1,0 +1,6 @@
+cluster,spend_3m,avg_balance_3m,txn_count_3m,digital_share,n_products,tenure_years,loan_outstanding
+Newer customers,27857.0,114605.0,10.7,0.4,1.0,4.3,0.0
+Affluent savers,63800.5,343976.0,15.0,0.55,2.0,7.75,0.0
+Low-engagement,11844.3,73947.0,5.0,0.18,2.0,7.4,0.0
+Borrowers,29242.0,185317.0,10.0,0.35,3.0,6.1,511360.0
+Everyday banking core,32841.0,242455.5,9.3,0.32,2.0,11.6,0.0

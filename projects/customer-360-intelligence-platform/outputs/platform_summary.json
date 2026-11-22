@@ -1,0 +1,171 @@
+{
+  "current_asof": "2026-09",
+  "customers_scored": 4652,
+  "card_only_customers_found": 183,
+  "validation": {
+    "churn": {
+      "test_customers": 4806,
+      "positives": 216,
+      "base_rate_pct": 4.49,
+      "auc": 0.7,
+      "avg_precision": 0.177,
+      "top_decile_lift": 3.29,
+      "rule_baseline": {
+        "flagged": 280,
+        "precision_pct": 12.9,
+        "recall_pct": 16.7,
+        "model_precision_same_list_size_pct": 19.3,
+        "model_recall_same_list_size_pct": 25.0
+      }
+    },
+    "Fixed Deposit": {
+      "test_customers": 3194,
+      "positives": 149,
+      "base_rate_pct": 4.66,
+      "auc": 0.755,
+      "avg_precision": 0.136,
+      "top_decile_lift": 2.89
+    },
+    "Credit Card": {
+      "test_customers": 2477,
+      "positives": 82,
+      "base_rate_pct": 3.31,
+      "auc": 0.746,
+      "avg_precision": 0.09,
+      "top_decile_lift": 3.3
+    },
+    "Personal Loan": {
+      "test_customers": 4393,
+      "positives": 96,
+      "base_rate_pct": 2.19,
+      "auc": 0.599,
+      "avg_precision": 0.032,
+      "top_decile_lift": 1.77
+    },
+    "Insurance": {
+      "test_customers": 4396,
+      "positives": 129,
+      "base_rate_pct": 2.93,
+      "auc": 0.738,
+      "avg_precision": 0.069,
+      "top_decile_lift": 3.11
+    }
+  },
+  "driver_importance_pct": {
+    "churn": {
+      "txn_count_3m": 10.8,
+      "inflow_trend": 10.0,
+      "spend_trend": 9.8,
+      "balance_trend": 6.9,
+      "inflow_3m": 6.9,
+      "tenure_years": 6.8,
+      "age": 5.4,
+      "txn_count_trend": 5.4,
+      "digital_share": 5.3,
+      "app_logins_trend": 4.9
+    },
+    "Fixed Deposit": {
+      "avg_balance_3m": 21.8,
+      "age": 8.4,
+      "digital_share": 6.5,
+      "tenure_years": 6.3,
+      "balance_trend": 5.9,
+      "spend_trend": 5.4,
+      "app_logins_trend": 5.0,
+      "txn_count_trend": 4.8,
+      "inflow_3m": 4.7,
+      "txn_count_3m": 4.1
+    },
+    "Credit Card": {
+      "txn_count_3m": 13.1,
+      "digital_share": 8.9,
+      "age": 6.5,
+      "app_logins_3m": 6.3,
+      "balance_trend": 6.1,
+      "app_logins_trend": 6.0,
+      "avg_balance_3m": 5.7,
+      "txn_count_trend": 5.7,
+      "inflow_trend": 5.4,
+      "tenure_years": 5.4
+    },
+    "Personal Loan": {
+      "age": 9.8,
+      "avg_balance_3m": 7.6,
+      "inflow_trend": 6.2,
+      "app_logins_trend": 6.1,
+      "txn_count_trend": 6.1,
+      "balance_trend": 6.0,
+      "tenure_years": 6.0,
+      "digital_share": 5.9,
+      "spend_trend": 5.3,
+      "fees_6m": 5.0
+    },
+    "Insurance": {
+      "avg_balance_3m": 16.1,
+      "age": 10.0,
+      "txn_count_trend": 8.0,
+      "balance_trend": 6.8,
+      "app_logins_trend": 6.7,
+      "digital_share": 5.5,
+      "inflow_3m": 4.7,
+      "tenure_years": 4.5,
+      "spend_3m": 4.1,
+      "inflow_trend": 4.0
+    }
+  },
+  "segments": [
+    {
+      "segment_360": "Affluent savers",
+      "customers": 838,
+      "avg_clv": 53633.14,
+      "churn_risk_pct": 1.7,
+      "digital_share": 0.54,
+      "products": 2.34
+    },
+    {
+      "segment_360": "Borrowers",
+      "customers": 841,
+      "avg_clv": 116643.38,
+      "churn_risk_pct": 3.37,
+      "digital_share": 0.35,
+      "products": 3.03
+    },
+    {
+      "segment_360": "Everyday banking core",
+      "customers": 1088,
+      "avg_clv": 31870.76,
+      "churn_risk_pct": 3.29,
+      "digital_share": 0.32,
+      "products": 2.31
+    },
+    {
+      "segment_360": "Low-engagement",
+      "customers": 827,
+      "avg_clv": 10922.99,
+      "churn_risk_pct": 8.31,
+      "digital_share": 0.18,
+      "products": 1.74
+    },
+    {
+      "segment_360": "Newer customers",
+      "customers": 1058,
+      "avg_clv": 17756.74,
+      "churn_risk_pct": 3.94,
+      "digital_share": 0.39,
+      "products": 1.55
+    }
+  ],
+  "actions": {
+    "Digital engagement nudge": 3310,
+    "Offer Fixed Deposit": 437,
+    "Retention offer (fee waiver)": 412,
+    "Offer Insurance": 266,
+    "Offer Credit Card": 83,
+    "Offer Personal Loan": 59,
+    "RM retention call": 54,
+    "Collections follow-up": 31
+  },
+  "action_value_lakh": 23.9,
+  "total_clv_crore": 20.55,
+  "clv_at_risk_top10_churn_crore": 0.9
+}

@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+rapidfuzz
+matplotlib
+openpyxl
+anthropic>=0.40
+pytest

@@ -1,0 +1,35 @@
+{
+  "records": {
+    "core": 6000,
+    "crm": 5830,
+    "card": 2580
+  },
+  "candidate_pairs": 203062,
+  "all_possible_pairs": 103816845,
+  "golden_customers": 6587,
+  "true_people": 6530,
+  "ml_matching_test": {
+    "precision": 0.9976,
+    "recall": 0.9872,
+    "f1": 0.9924
+  },
+  "deterministic_baseline_test": {
+    "precision": 0.7047,
+    "recall": 0.7446,
+    "f1": 0.7241
+  },
+  "crm_card_records_linked_correctly_pct": 98.93,
+  "non_customers_correctly_left_unlinked_pct": 98.43,
+  "model_weights": {
+    "phone_eq": 7.74,
+    "email_eq": 3.66,
+    "dob_eq": 6.09,
+    "dob_conflict": -3.98,
+    "name_sort": 2.66,
+    "name_partial": 2.58,
+    "last_jw": 1.6,
+    "first_jw": 0.89,
+    "initial_ok": 1.86,
+    "city_eq": 2.9
+  }
+}
