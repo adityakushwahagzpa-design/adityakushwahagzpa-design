@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marketing ROI Intelligence</title><meta name="description" content="Marketing attribution: an AI project by Aditya Kushwaha">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&family=Red+Hat+Mono&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
+<style>/* VOICE work: a portfolio read by hiring managers in finance and banking; precise, dense, confident
+   IDEA a lab poster for applied AI: each project is a plate with its finding, a live working demo, and the agent's tool trace
+   PICTURE per page, the project's own result drawn large and interactive (stream, forecast fan, budget curves, query console, customer card)
+   COLOUR oxford blue band #0b1f4b, white panels, magenta #e0115f for the result, steel lines; night #070f26
+   TYPE Red Hat Display 700 for titles and figures, Red Hat Text for body, Red Hat Mono only for SQL and tool calls
+   LAYOUT title band with key figures across the top, the demo full width beneath, then method and evidence in two columns; stacks below 600px */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#070f26);--ink:light-dark(#0d1426,#e8ecf6);--muted:light-dark(#4c5672,#a3adc6);--band:#0b1f4b;--bandink:#ffffff;--panel:light-dark(#f3f5fa,#0f1a3a);--line:light-dark(#d8dde9,#24305a);--acc:#e0115f;--acc2:light-dark(#1d5bd8,#6f9bff);--ok:light-dark(#0f7a4a,#3ccf8e);--warn:light-dark(#b3541e,#f0a060)}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Red Hat Text",system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:"Red Hat Display",system-ui,sans-serif;letter-spacing:-.02em;line-height:1.08;margin:0}
+h1{font-size:clamp(32px,4.6vw,50px);text-wrap:balance}
+h2{font-size:clamp(24px,2.6vw,32px);text-wrap:balance}
+h3{font-size:19px}
+p{margin:.5em 0}
+a{color:var(--acc2)}
+code,pre,.mono{font-family:"Red Hat Mono",ui-monospace,monospace}
+code{overflow-wrap:anywhere;font-size:.92em}
+pre,.scroll{overflow-x:auto}
+img{max-width:100%}
+.band{padding-block:clamp(28px,4vw,56px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto}
+.top{background:var(--band);color:var(--bandink)}
+.top a{color:#fff}
+.nav{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:12px max(5vw,16px);background:var(--band);color:#fff;border-bottom:1px solid #1d3570;font-size:15px}
+.nav b{font-family:"Red Hat Display";font-size:17px;margin-right:auto}
+.nav a{color:#c9d5f5;text-decoration:none;padding:6px 0}
+.nav a:hover,.nav a[aria-current]{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.lede{font-size:18px;max-width:68ch;color:#d5def5;margin-top:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(10em,1fr));gap:12px;margin-top:26px}
+.kpi{background:#ffffff12;border:1px solid #ffffff26;border-radius:10px;padding:14px 16px}
+.kpi b{display:block;font:700 clamp(26px,3vw,36px)/1.05 "Red Hat Display";color:#fff}
+.kpi b.hot{color:#ff6fa3}
+.kpi span{font-size:14px;color:#c9d5f5}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:clamp(14px,2vw,22px)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.fig{position:relative;min-height:340px}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+svg text{font:13px "Red Hat Text",sans-serif;fill:var(--muted);paint-order:stroke;stroke:var(--panel);stroke-width:4px}
+.note{font-size:14px;color:var(--muted)}
+.tag{display:inline-block;font-size:13px;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--acc2) 14%,transparent);color:var(--ink);white-space:nowrap}
+.tag.hot{background:color-mix(in srgb,var(--acc) 16%,transparent)}
+.tag.ok{background:color-mix(in srgb,var(--ok) 18%,transparent)}
+button,select,input[type=range]{font:inherit;font-size:16px}
+button,select{min-height:44px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;cursor:pointer}
+button:hover{border-color:var(--acc2)}
+button[aria-pressed=true]{background:var(--band);color:#fff;border-color:var(--band)}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.trace{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg)}
+.step{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:12px;padding:12px 16px;border-top:1px solid var(--line)}
+.step:first-child{border-top:0}
+.step>span{font-weight:700;font-family:"Red Hat Display";font-size:14px}
+.step.q>span{color:var(--acc2)}.step.t>span{color:var(--warn)}.step.r>span{color:var(--ok)}.step.a>span{color:var(--acc)}
+.step pre{margin:0;font-size:13.5px;white-space:pre-wrap;overflow-wrap:anywhere}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:700;font-size:14px;color:var(--muted)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar{height:12px;border-radius:3px;background:var(--acc2)}
+.bar.hot{background:var(--acc)}
+.rows{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:9.5em minmax(0,1fr) 4.5em;gap:10px;align-items:center;font-size:15px}
+.row .v{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.foot{background:var(--band);color:#c9d5f5;font-size:15px}
+.foot a{color:#fff}
+.sec{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.big{font:700 clamp(30px,4vw,44px)/1 "Red Hat Display";color:var(--acc)}
+.honest{border-left:4px solid var(--acc);padding:10px 14px;background:color-mix(in srgb,var(--acc) 7%,transparent);border-radius:0 8px 8px 0;font-size:15px}
+@media(max-width:900px){.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}.step{grid-template-columns:minmax(0,1fr);gap:4px}.row{grid-template-columns:7.5em minmax(0,1fr) 4em}}
+@media(max-width:600px){table{font-size:13px}th,td{padding:6px 4px}.fig{min-height:280px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.mrow{display:grid;grid-template-columns:8.5em minmax(0,1fr) 4em;gap:10px;align-items:center;font-size:15px;padding:5px 0}
+.track{position:relative;height:22px;background:color-mix(in srgb,var(--line) 45%,transparent);border-radius:4px}
+.track i{position:absolute;inset:0 auto 0 0;background:var(--acc2);border-radius:4px}
+.track u{position:absolute;top:-4px;bottom:-4px;width:3px;background:var(--ink);text-decoration:none}
+.alloc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:20px}
+.sl{display:grid;grid-template-columns:8em minmax(0,1fr) 5.5em;gap:10px;align-items:center}
+.sl output{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+input[type=range]{width:100%;accent-color:var(--acc);height:44px}
+.readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(9em,1fr));gap:12px;margin:14px 0}
+.readout div{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.readout b{display:block;font:700 24px "Red Hat Display";font-variant-numeric:tabular-nums}
+@media(max-width:850px){.alloc{grid-template-columns:minmax(0,1fr)}}
+</style></head><body>
+<nav class="nav" aria-label="Projects"><b><a href="index.html" style="text-decoration:none">Aditya Kushwaha · AI projects</a></b><a href="anomaly-detection.html">Anomaly detection</a><a href="revenue-forecasting.html">Revenue forecasting</a><a href="bull-bear-debate.html">Bull vs bear debate</a><a href="marketing-attribution.html" aria-current=page>Marketing attribution</a><a href="text-to-sql.html">Text-to-SQL</a><a href="customer-360.html">Customer 360</a></nav>
+
+
+<header class="band top"><div class="wrap">
+<h1>Marketing attribution: last-touch reports give Direct 17.5% of the credit; its true share is 2.7%</h1>
+<p class="lede">Eight attribution models were run on 60,000 customer journeys where the true answer is known, and a marketing mix model calibrated with lift tests measured what each rupee returns. The budget below runs on the fitted response curves, and a Claude analyst uses the same curves through tool calls.</p>
+<div class="kpis" id="kpis"></div></div></header>
+
+<section class="band"><div class="wrap">
+<div class="sec"><h2>Who gets credit for a sale?</h2><div class="chips" id="models"></div></div>
+<div class="grid2"><div class="panel"><div id="attr"></div><p class="note">Bar: share of conversions the model credits. Black tick: true incremental share. Jul–Sep 2026 journeys (synthetic).</p></div>
+<div><div class="big" id="err"></div><p id="errnote"></p><div class="rows" id="errs" style="margin-top:12px"></div></div></div>
+</div></section>
+
+<section class="band" style="background:var(--panel)"><div class="wrap">
+<div class="sec"><h2>Move the weekly budget</h2><div class="chips"><button id="opt">Apply the optimiser's split</button><button id="reset">Back to today</button></div></div>
+<div class="alloc"><div class="panel" style="background:var(--bg)"><div id="sliders" style="display:grid;gap:4px"></div>
+<div class="readout" id="read"></div><p class="note">Revenue is the steady-state weekly revenue driven by media, from the fitted adstock and saturation curves (₹ lakh).</p></div>
+<div><div class="panel" style="background:var(--bg)"><div class="fig" id="curves" style="min-height:300px"></div><p class="note">Response curves: circle is today's spend, diamond is your setting.</p></div>
+<div class="trace" id="trace" style="margin-top:14px"></div></div></div>
+</div></section>
+
+<section class="band"><div class="wrap grid2">
+<div><h2>Return per rupee, calibrated with lift tests</h2><div class="scroll"><table><thead><tr><th>Channel</th><th class="n">Avg ROI</th><th class="n">P10–P90</th><th class="n">Next ₹1</th><th class="n">Lift test</th><th class="n">True</th></tr></thead><tbody id="roi"></tbody></table></div>
+<p class="note">Lift tests cut the average ROI error from 0.67 to 0.40. Affiliate had no test and is understated (0.62 against a true 1.44).</p></div>
+<div><h2>What the optimiser recommends</h2><p>Same total weekly spend, each channel within ±40%. The fitted curves expect <b id="u1"></b> more media revenue; checked against the true curves the gain is <b id="u2"></b>, against a best possible <b id="u3"></b>.</p>
+<p class="honest">The cut to Influencers (−32%) is larger than the true optimum (−6%), because the model thinks Influencers saturate sooner than they do. The tool call is computed in the browser with the same fitted curves the analyst's tool uses; Claude's written answer needs an API key.</p>
+<p><a href="https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/marketing-attribution-roi-intelligence">Code, tests and Excel pack on GitHub</a></p></div>
+</div></section>
+
+
+<footer class="band foot"><div class="wrap grid2">
+<div><b style="color:#fff;font-family:'Red Hat Display';font-size:18px">Aditya Kushwaha</b><br>MBA (Finance), Christ University, Bengaluru<br>
+Email: adityakushwahagzpa@gmail.com</div>
+<div><a href="https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design">GitHub portfolio</a> · <a href="https://www.linkedin.com/in/aditya-kushwaha16">LinkedIn</a><br>
+All project data is synthetic or from public SEC filings. Each project's code, tests and outputs are on GitHub.</div></div></footer>
+<script>{const $=(s,r=document)=>r.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const rupee=(x,d=0)=>'₹'+Number(x).toLocaleString('en-IN',{maximumFractionDigits:d,minimumFractionDigits:d});
+const lakh=x=>x>=1e5?'₹'+(x/1e5).toFixed(2)+' lakh':rupee(x);
+const pct=(x,d=1)=>(x*100).toFixed(d)+'%';
+function chart(el,draw){const ro=new ResizeObserver(()=>{const W=el.clientWidth,H=el.clientHeight;if(W>0)el.innerHTML=draw(W,H)});ro.observe(el);return()=>{el.innerHTML=draw(el.clientWidth,el.clientHeight)}}
+function ticks(lo,hi,n=5){const st=Math.pow(10,Math.floor(Math.log10((hi-lo)/n||1)));const m=[1,2,2.5,5,10].find(k=>(hi-lo)/(st*k)<=n)*st;const out=[];for(let v=Math.ceil(lo/m)*m;v<=hi+1e-9;v+=m)out.push(+v.toFixed(6));return out}
+function lineSVG(W,H,{x,series,band,y0,y1,yfmt=v=>v,xlab=i=>x[i],marks=[],shade=[],mL=52,mR=18,mT=14,mB=30}){
+  const n=x.length,iw=W-mL-mR,ih=H-mT-mB;
+  const all=series.flatMap(s=>s.v).concat(band?band.lo.concat(band.hi):[]).filter(v=>v!=null);
+  let lo=y0??Math.min(...all),hi=y1??Math.max(...all);const pad=(hi-lo)*.06||1;lo=y0??lo-pad;hi=y1??hi+pad;
+  const X=i=>mL+(n<2?0:i/(n-1))*iw,Y=v=>mT+ih-(v-lo)/(hi-lo)*ih;
+  let g='';
+  shade.forEach(s=>{g+=`<rect x="${X(s.a)}" y="${mT}" width="${Math.max(2,X(s.b)-X(s.a))}" height="${ih}" fill="${s.c}" opacity="${s.o??.16}"/>`;if(s.label){const r=X(s.a)>W-110;g+=`<text x="${r?X(s.a)-4:X(s.b)+4}" y="${mT+ih-8}" text-anchor="${r?'end':'start'}">${esc(s.label)}</text>`}});
+  ticks(lo,hi,W<520?3:5).forEach(t=>{g+=`<line x1="${mL}" x2="${W-mR}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--line)"/><text x="${mL-6}" y="${Y(t)+4}" text-anchor="end">${yfmt(t)}</text>`});
+  const step=Math.max(1,Math.ceil(n/(W<520?4:7)));for(let i=0;i<n;i+=step)g+=`<text x="${X(i)}" y="${H-8}" text-anchor="middle">${esc(xlab(i))}</text>`;
+  if(band){let d='';band.hi.forEach((v,i)=>{if(v!=null)d+=(d?'L':'M')+X(band.off+i)+','+Y(v)});for(let i=band.lo.length-1;i>=0;i--)d+='L'+X(band.off+i)+','+Y(band.lo[i]);g+=`<path d="${d}Z" fill="var(--acc)" opacity=".14"/>`}
+  series.forEach(s=>{let d='',on=false;s.v.forEach((v,i)=>{if(v==null){on=false;return}d+=(on?'L':'M')+X((s.off||0)+i).toFixed(1)+','+Y(v).toFixed(1);on=true});g+=`<path d="${d}" fill="none" stroke="${s.c}" stroke-width="${s.w||2}" ${s.dash?'stroke-dasharray="5 4"':''}/>`});
+  marks.forEach(m=>{g+=`<circle cx="${X(m.i)}" cy="${Y(m.v)}" r="${m.r||5}" fill="${m.c||'var(--acc)'}"/>`;if(m.label)g+=`<text x="${X(m.i)+(m.left?-8:8)}" y="${Y(m.v)-8}" text-anchor="${m.left?'end':'start'}" style="fill:var(--ink)">${esc(m.label)}</text>`});
+  return `<svg viewBox="0 0 ${W} ${H}" role="img">${g}</svg>`}
+function bars(el,items,{fmt=v=>v,max,hot}={}){const m=max??Math.max(...items.map(i=>i.v));el.innerHTML=items.map(i=>`<div class="row"><span>${esc(i.k)}</span><div><div class="bar ${hot&&hot(i)?'hot':''}" style="width:${Math.max(1,i.v/m*100)}%"></div></div><span class="v">${fmt(i.v)}</span></div>`).join('')}
+
+
+const D={"comparison":[{"channel":"Google Search","true_share_pct":18.3,"last_touch":1154.0,"first_touch":328.0,"linear":738.6,"time_decay":779.0,"position_based":742.2,"markov":715.2,"shapley":715.0,"ml_counterfactual":730.8,"last_touch_share_pct":29.4,"first_touch_share_pct":8.3,"linear_share_pct":18.8,"time_decay_share_pct":19.8,"position_based_share_pct":18.9,"markov_share_pct":18.2,"shapley_share_pct":18.2,"ml_counterfactual_share_pct":18.6},{"channel":"Meta Ads","true_share_pct":18.1,"last_touch":468.0,"first_touch":836.0,"linear":651.3,"time_decay":633.1,"position_based":652.4,"markov":637.4,"shapley":645.4,"ml_counterfactual":575.7,"last_touch_share_pct":11.9,"first_touch_share_pct":21.3,"linear_share_pct":16.6,"time_decay_share_pct":16.1,"position_based_share_pct":16.6,"markov_share_pct":16.2,"shapley_share_pct":16.4,"ml_counterfactual_share_pct":14.6},{"channel":"YouTube","true_share_pct":28.5,"last_touch":250.0,"first_touch":1303.0,"linear":778.4,"time_decay":729.0,"position_based":776.4,"markov":669.3,"shapley":764.1,"ml_counterfactual":1106.7,"last_touch_share_pct":6.4,"first_touch_share_pct":33.2,"linear_share_pct":19.8,"time_decay_share_pct":18.5,"position_based_share_pct":19.8,"markov_share_pct":17.0,"shapley_share_pct":19.4,"ml_counterfactual_share_pct":28.2},{"channel":"Influencers","true_share_pct":21.1,"last_touch":281.0,"first_touch":1006.0,"linear":643.1,"time_decay":608.6,"position_based":643.4,"markov":604.6,"shapley":644.3,"ml_counterfactual":884.4,"last_touch_share_pct":7.2,"first_touch_share_pct":25.6,"linear_share_pct":16.4,"time_decay_share_pct":15.5,"position_based_share_pct":16.4,"markov_share_pct":15.4,"shapley_share_pct":16.4,"ml_counterfactual_share_pct":22.5},{"channel":"Email","true_share_pct":8.3,"last_touch":654.0,"first_touch":171.0,"linear":424.5,"time_decay":447.5,"position_based":416.4,"markov":474.9,"shapley":436.5,"ml_counterfactual":357.7,"last_touch_share_pct":16.6,"first_touch_share_pct":4.4,"linear_share_pct":10.8,"time_decay_share_pct":11.4,"position_based_share_pct":10.6,"markov_share_pct":12.1,"shapley_share_pct":11.1,"ml_counterfactual_share_pct":9.1},{"channel":"Affiliate","true_share_pct":2.8,"last_touch":435.0,"first_touch":143.0,"linear":288.7,"time_decay":301.3,"position_based":289.1,"markov":348.5,"shapley":304.3,"ml_counterfactual":147.9,"last_touch_share_pct":11.1,"first_touch_share_pct":3.6,"linear_share_pct":7.3,"time_decay_share_pct":7.7,"position_based_share_pct":7.4,"markov_share_pct":8.9,"shapley_share_pct":7.7,"ml_counterfactual_share_pct":3.8},{"channel":"Direct","true_share_pct":2.7,"last_touch":688.0,"first_touch":143.0,"linear":405.4,"time_decay":431.6,"position_based":410.2,"markov":480.1,"shapley":420.4,"ml_counterfactual":126.8,"last_touch_share_pct":17.5,"first_touch_share_pct":3.6,"linear_share_pct":10.3,"time_decay_share_pct":11.0,"position_based_share_pct":10.4,"markov_share_pct":12.2,"shapley_share_pct":10.7,"ml_counterfactual_share_pct":3.2}],"summary":{"users":60000,"touchpoints":191749,"conversions":3930,"conversion_rate_pct":6.55,"revenue_lakh":72.7,"error_pp":{"last_touch":12.1,"first_touch":3.99,"linear":4.3,"time_decay":5.04,"position_based":4.3,"markov":5.51,"shapley":4.48,"ml_counterfactual":1.11},"best_model":"ml_counterfactual","markov_removal_effect_pct":{"Google Search":45.5,"Meta Ads":40.6,"YouTube":42.6,"Influencers":38.5,"Email":30.2,"Affiliate":22.2,"Direct":30.6}},"roi":[{"channel":"Google Search","spend_lakh":608.1,"revenue_lakh":1314.5,"roi":2.16,"marginal_roi":0.77,"decay":0.11,"half_saturation":2.27,"roi_p10":2.0,"roi_p90":2.38,"roi_uncalibrated":2.07,"lift_test_roi":2.24,"true_roi":1.98,"true_marginal_roi":0.91},{"channel":"Meta Ads","spend_lakh":471.7,"revenue_lakh":847.8,"roi":1.8,"marginal_roi":1.0,"decay":0.2,"half_saturation":5.04,"roi_p10":1.69,"roi_p90":2.18,"roi_uncalibrated":1.65,"lift_test_roi":1.95,"true_roi":2.12,"true_marginal_roi":0.92},{"channel":"YouTube","spend_lakh":427.0,"revenue_lakh":1269.0,"roi":2.97,"marginal_roi":1.4,"decay":0.63,"half_saturation":6.44,"roi_p10":2.75,"roi_p90":3.54,"roi_uncalibrated":2.18,"lift_test_roi":3.27,"true_roi":3.5,"true_marginal_roi":1.55},{"channel":"Influencers","spend_lakh":320.7,"revenue_lakh":715.7,"roi":2.23,"marginal_roi":0.59,"decay":0.41,"half_saturation":1.12,"roi_p10":1.88,"roi_p90":2.58,"roi_uncalibrated":3.04,"lift_test_roi":2.22,"true_roi":2.39,"true_marginal_roi":1.03},{"channel":"Affiliate","spend_lakh":154.0,"revenue_lakh":96.0,"roi":0.62,"marginal_roi":0.46,"decay":0.0,"half_saturation":4.1,"roi_p10":0.55,"roi_p90":1.31,"roi_uncalibrated":0.63,"lift_test_roi":NaN,"true_roi":1.44,"true_marginal_roi":0.73}],"mmm":{"weeks":156,"revenue_crore":91.39,"media_spend_crore":19.82,"media_revenue_share_pct":46.4,"fit_r2":0.971,"fit_mape_pct":2.03,"roi_mae_uncalibrated":0.67,"roi_mae_calibrated":0.4,"roi_truth_inside_p10_p90":3,"lift_tests":["YouTube","Meta Ads","Influencers","Google Search"],"budget":{"total_weekly_budget_lakh":9.633,"current_weekly_revenue_lakh":24.893,"optimised_weekly_revenue_lakh":26.103,"uplift_pct":4.86,"allocation":[{"channel":"Google Search","current_lakh":2.427,"optimised_lakh":2.856,"change_pct":17.7},{"channel":"Meta Ads","current_lakh":2.641,"optimised_lakh":2.76,"change_pct":4.5},{"channel":"YouTube","current_lakh":1.42,"optimised_lakh":1.988,"change_pct":40.0},{"channel":"Influencers","current_lakh":1.766,"optimised_lakh":1.202,"change_pct":-32.0},{"channel":"Affiliate","current_lakh":1.379,"optimised_lakh":0.827,"change_pct":-40.0}],"true_uplift_pct":3.52,"best_possible_uplift_pct":4.19,"best_possible_allocation":{"Google Search":21.2,"Meta Ads":-16.0,"YouTube":40.0,"Influencers":-6.1,"Affiliate":-40.0}}},"params":{"Google Search":{"decay":0.10659438691678699,"half":2.2727568216319742,"beta":14.30986544658679},"Meta Ads":{"decay":0.195721351404416,"half":5.041759588834905,"beta":13.939429022688849},"YouTube":{"decay":0.6311048248372458,"half":6.441762322102443,"beta":16.203778807944428},"Influencers":{"decay":0.4088168528113703,"half":1.1229876037763151,"beta":6.378889188051694},"Affiliate":{"decay":0.0,"half":4.101242601583283,"beta":3.604960891125555}},"lift":[{"channel":"YouTube","design":"Geo-lift test, 12 test vs 12 control cities","start":"2025-08-04","end":"2025-09-14","measured_roi":3.27,"std_error":0.42},{"channel":"Meta Ads","design":"Conversion-lift test, 10% holdout audience","start":"2026-02-02","end":"2026-03-15","measured_roi":1.95,"std_error":0.25},{"channel":"Influencers","design":"Holdout test, campaign paused in 8 cities","start":"2026-05-04","end":"2026-06-14","measured_roi":2.22,"std_error":0.29},{"channel":"Google Search","design":"Brand + generic search holdout, ads paused in 10 cities","start":"2025-11-24","end":"2026-01-04","measured_roi":2.24,"std_error":0.24}]};
+const M=['last_touch','first_touch','linear','time_decay','position_based','markov','shapley','ml_counterfactual'];
+const L={last_touch:'Last touch',first_touch:'First touch',linear:'Linear',time_decay:'Time decay',position_based:'Position based',markov:'Markov',shapley:'Shapley',ml_counterfactual:'ML counterfactual'};
+const E=D.summary.error_pp,B=D.mmm.budget;
+$('#kpis').innerHTML=[[E.ml_counterfactual+' pts','ML model error vs truth'],[E.last_touch+' pts','last-touch error'],['+'+B.true_uplift_pct+'%','revenue for the same spend'],['4','lift tests calibrate the model']].map(([b,s],i)=>`<div class="kpi"><b class="${i==0?'hot':''}">${b}</b><span>${s}</span></div>`).join('');
+let model='last_touch';
+$('#models').innerHTML=M.map(m=>`<button data-m="${m}" aria-pressed="${m==model}">${L[m]}</button>`).join('');
+function drawAttr(){const mx=35;
+  $('#attr').innerHTML=D.comparison.map(r=>{const v=r[model+'_share_pct'],t=r.true_share_pct;return `<div class="mrow"><span>${r.channel}</span><div class="track"><i style="width:${v/mx*100}%;background:${Math.abs(v-t)>5?'var(--acc)':'var(--acc2)'}"></i><u style="left:${t/mx*100}%"></u></div><span class="v" style="text-align:right">${v.toFixed(1)}%</span></div>`}).join('');
+  $('#err').textContent=E[model].toFixed(1)+' pts average error';
+  const worst=D.comparison.map(r=>({c:r.channel,d:r[model+'_share_pct']-r.true_share_pct})).sort((a,b)=>Math.abs(b.d)-Math.abs(a.d))[0];
+  $('#errnote').innerHTML=`<b>${L[model]}</b>: biggest miss is ${worst.c}, ${worst.d>0?'over':'under'}-credited by ${Math.abs(worst.d).toFixed(1)} points.`+(model=='ml_counterfactual'?' It compares journeys with and without each channel, which is closest to the question that matters: how many sales would be lost without it?':model=='markov'||model=='shapley'?' It credits presence in a journey, so channels near the end of most journeys still get too much.':'');
+  bars($('#errs'),M.map(m=>({k:L[m],v:E[m]})),{fmt:v=>v.toFixed(1)+' pts',hot:i=>i.k==L[model]});
+  document.querySelectorAll('[data-m]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m==model))}
+document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{model=b.dataset.m;drawAttr()});drawAttr();
+const P=D.params,CH=Object.keys(P),cur={},opt={};B.allocation.forEach(a=>{cur[a.channel]=a.current_lakh;opt[a.channel]=a.optimised_lakh});
+const rev=(c,s)=>P[c].beta*(s/(1-P[c].decay))/((s/(1-P[c].decay))+P[c].half);
+const total=o=>CH.reduce((a,c)=>a+rev(c,o[c]),0);
+let set={...cur};
+$('#sliders').innerHTML=CH.map(c=>`<div class="sl"><label for="s-${c.replace(/ /g,'')}">${c}</label><input type="range" id="s-${c.replace(/ /g,'')}" data-c="${c}" min="0" max="${(cur[c]*2.2).toFixed(2)}" step="0.01" value="${cur[c]}"><output id="o-${c.replace(/ /g,'')}"></output></div>`).join('');
+const pal=['#1d5bd8','#e0115f','#0f7a4a','#b3541e','#7a4fb5'];
+const drawCurves=chart($('#curves'),(W,H)=>{const mL=40,mR=12,mT=12,mB=30,iw=W-mL-mR,ih=H-mT-mB;const xmax=Math.max(...CH.map(c=>cur[c]*2.2)),ymax=Math.max(...CH.map(c=>rev(c,cur[c]*2.2)))*1.08;
+  const X=v=>mL+v/xmax*iw,Y=v=>mT+ih-v/ymax*ih;let g='';
+  ticks(0,ymax,4).forEach(t=>g+=`<line x1="${mL}" x2="${W-mR}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--line)"/><text x="${mL-6}" y="${Y(t)+4}" text-anchor="end">${t}</text>`);
+  ticks(0,xmax,W<520?3:6).forEach(t=>g+=`<text x="${X(t)}" y="${H-8}" text-anchor="middle">₹${t}L</text>`);
+  CH.forEach((c,k)=>{let d='';for(let i=0;i<=60;i++){const s=cur[c]*2.2*i/60;d+=(i?'L':'M')+X(s).toFixed(1)+','+Y(rev(c,s)).toFixed(1)}
+    g+=`<path d="${d}" fill="none" stroke="${pal[k]}" stroke-width="2"/><circle cx="${X(cur[c])}" cy="${Y(rev(c,cur[c]))}" r="5" fill="var(--bg)" stroke="${pal[k]}" stroke-width="2"/><rect x="${X(set[c])-5}" y="${Y(rev(c,set[c]))-5}" width="10" height="10" fill="${pal[k]}" transform="rotate(45 ${X(set[c])} ${Y(rev(c,set[c]))})"/><text x="${X(cur[c]*2.2)-4}" y="${Y(rev(c,cur[c]*2.2))-8}" text-anchor="end" style="fill:${pal[k]}">${c}</text>`});
+  return `<svg viewBox="0 0 ${W} ${H}">${g}</svg>`});
+function update(){CH.forEach(c=>{$('#o-'+c.replace(/ /g,'')).textContent='₹'+set[c].toFixed(2)+'L'});
+  const sp0=CH.reduce((a,c)=>a+cur[c],0),sp1=CH.reduce((a,c)=>a+set[c],0),r0=total(cur),r1=total(set);
+  $('#read').innerHTML=[['Weekly spend','₹'+sp1.toFixed(2)+'L',(sp1-sp0>=0?'+':'')+(sp1-sp0).toFixed(2)],['Media revenue','₹'+r1.toFixed(2)+'L',(r1-r0>=0?'+':'')+(r1-r0).toFixed(2)],['Revenue change',(r1/r0*100-100>=0?'+':'')+(r1/r0*100-100).toFixed(2)+'%','per 13 weeks: ₹'+((r1-r0)*13).toFixed(1)+'L']].map(([k,v,s])=>`<div><span class="note">${k}</span><b>${v}</b><span class="note">${s}</span></div>`).join('');
+  const changes={};CH.forEach(c=>{const p=Math.round((set[c]/cur[c]-1)*100);if(p)changes[c]=p});
+  $('#trace').innerHTML=`<div class="step t"><span>Tool call</span><pre>simulate_spend_change(${esc(JSON.stringify({changes_pct:changes}))})</pre></div><div class="step r"><span>Tool result</span><pre>${esc(JSON.stringify({current_weekly_spend_lakh:+sp0.toFixed(3),new_weekly_spend_lakh:+sp1.toFixed(3),current_weekly_revenue_from_media_lakh:+r0.toFixed(3),new_weekly_revenue_from_media_lakh:+r1.toFixed(3),revenue_change_per_13_weeks_lakh:+((r1-r0)*13).toFixed(2)},null,1))}</pre></div>`;
+  CH.forEach(c=>{$('#s-'+c.replace(/ /g,'')).value=set[c]});drawCurves()}
+document.querySelectorAll('[data-c]').forEach(s=>s.oninput=()=>{set[s.dataset.c]=+s.value;update()});
+$('#opt').onclick=()=>{set={...opt};update()};$('#reset').onclick=()=>{set={...cur};update()};
+set={...opt};update();
+$('#roi').innerHTML=D.roi.slice().sort((a,b)=>b.roi-a.roi).map(r=>`<tr><td>${r.channel}</td><td class="n"><b>${r.roi.toFixed(2)}</b></td><td class="n">${r.roi_p10.toFixed(2)}–${r.roi_p90.toFixed(2)}</td><td class="n">${r.marginal_roi.toFixed(2)}</td><td class="n">${r.lift_test_roi==null||isNaN(r.lift_test_roi)?'none':r.lift_test_roi.toFixed(2)}</td><td class="n">${r.true_roi.toFixed(2)}</td></tr>`).join('');
+$('#u1').textContent='+'+B.uplift_pct+'%';$('#u2').textContent='+'+B.true_uplift_pct+'%';$('#u3').textContent='+'+B.best_possible_uplift_pct+'%';
+}</script></body></html>

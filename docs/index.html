@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aditya Kushwaha AI Projects</title><meta name="description" content="Home: an AI project by Aditya Kushwaha">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&family=Red+Hat+Mono&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
+<style>/* VOICE work: a portfolio read by hiring managers in finance and banking; precise, dense, confident
+   IDEA a lab poster for applied AI: each project is a plate with its finding, a live working demo, and the agent's tool trace
+   PICTURE per page, the project's own result drawn large and interactive (stream, forecast fan, budget curves, query console, customer card)
+   COLOUR oxford blue band #0b1f4b, white panels, magenta #e0115f for the result, steel lines; night #070f26
+   TYPE Red Hat Display 700 for titles and figures, Red Hat Text for body, Red Hat Mono only for SQL and tool calls
+   LAYOUT title band with key figures across the top, the demo full width beneath, then method and evidence in two columns; stacks below 600px */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#070f26);--ink:light-dark(#0d1426,#e8ecf6);--muted:light-dark(#4c5672,#a3adc6);--band:#0b1f4b;--bandink:#ffffff;--panel:light-dark(#f3f5fa,#0f1a3a);--line:light-dark(#d8dde9,#24305a);--acc:#e0115f;--acc2:light-dark(#1d5bd8,#6f9bff);--ok:light-dark(#0f7a4a,#3ccf8e);--warn:light-dark(#b3541e,#f0a060)}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Red Hat Text",system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:"Red Hat Display",system-ui,sans-serif;letter-spacing:-.02em;line-height:1.08;margin:0}
+h1{font-size:clamp(32px,4.6vw,50px);text-wrap:balance}
+h2{font-size:clamp(24px,2.6vw,32px);text-wrap:balance}
+h3{font-size:19px}
+p{margin:.5em 0}
+a{color:var(--acc2)}
+code,pre,.mono{font-family:"Red Hat Mono",ui-monospace,monospace}
+code{overflow-wrap:anywhere;font-size:.92em}
+pre,.scroll{overflow-x:auto}
+img{max-width:100%}
+.band{padding-block:clamp(28px,4vw,56px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto}
+.top{background:var(--band);color:var(--bandink)}
+.top a{color:#fff}
+.nav{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:12px max(5vw,16px);background:var(--band);color:#fff;border-bottom:1px solid #1d3570;font-size:15px}
+.nav b{font-family:"Red Hat Display";font-size:17px;margin-right:auto}
+.nav a{color:#c9d5f5;text-decoration:none;padding:6px 0}
+.nav a:hover,.nav a[aria-current]{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.lede{font-size:18px;max-width:68ch;color:#d5def5;margin-top:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(10em,1fr));gap:12px;margin-top:26px}
+.kpi{background:#ffffff12;border:1px solid #ffffff26;border-radius:10px;padding:14px 16px}
+.kpi b{display:block;font:700 clamp(26px,3vw,36px)/1.05 "Red Hat Display";color:#fff}
+.kpi b.hot{color:#ff6fa3}
+.kpi span{font-size:14px;color:#c9d5f5}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:clamp(14px,2vw,22px)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.fig{position:relative;min-height:340px}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+svg text{font:13px "Red Hat Text",sans-serif;fill:var(--muted);paint-order:stroke;stroke:var(--panel);stroke-width:4px}
+.note{font-size:14px;color:var(--muted)}
+.tag{display:inline-block;font-size:13px;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--acc2) 14%,transparent);color:var(--ink);white-space:nowrap}
+.tag.hot{background:color-mix(in srgb,var(--acc) 16%,transparent)}
+.tag.ok{background:color-mix(in srgb,var(--ok) 18%,transparent)}
+button,select,input[type=range]{font:inherit;font-size:16px}
+button,select{min-height:44px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;cursor:pointer}
+button:hover{border-color:var(--acc2)}
+button[aria-pressed=true]{background:var(--band);color:#fff;border-color:var(--band)}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.trace{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg)}
+.step{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:12px;padding:12px 16px;border-top:1px solid var(--line)}
+.step:first-child{border-top:0}
+.step>span{font-weight:700;font-family:"Red Hat Display";font-size:14px}
+.step.q>span{color:var(--acc2)}.step.t>span{color:var(--warn)}.step.r>span{color:var(--ok)}.step.a>span{color:var(--acc)}
+.step pre{margin:0;font-size:13.5px;white-space:pre-wrap;overflow-wrap:anywhere}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:700;font-size:14px;color:var(--muted)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar{height:12px;border-radius:3px;background:var(--acc2)}
+.bar.hot{background:var(--acc)}
+.rows{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:9.5em minmax(0,1fr) 4.5em;gap:10px;align-items:center;font-size:15px}
+.row .v{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.foot{background:var(--band);color:#c9d5f5;font-size:15px}
+.foot a{color:#fff}
+.sec{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.big{font:700 clamp(30px,4vw,44px)/1 "Red Hat Display";color:var(--acc)}
+.honest{border-left:4px solid var(--acc);padding:10px 14px;background:color-mix(in srgb,var(--acc) 7%,transparent);border-radius:0 8px 8px 0;font-size:15px}
+@media(max-width:900px){.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}.step{grid-template-columns:minmax(0,1fr);gap:4px}.row{grid-template-columns:7.5em minmax(0,1fr) 4em}}
+@media(max-width:600px){table{font-size:13px}th,td{padding:6px 4px}.fig{min-height:280px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(20px,4vw,48px);align-items:center}
+.loop{display:grid;gap:8px}
+.st{display:grid;grid-template-columns:2.4em minmax(0,1fr);gap:12px;align-items:center;background:#ffffff10;border:1px solid #ffffff24;border-radius:10px;padding:10px 14px;color:#dbe4fa;font-size:15px}
+.st b{color:#fff;font-family:"Red Hat Display";font-size:16px}
+.st i{font-style:normal;display:grid;place-items:center;width:2.2em;height:2.2em;border-radius:50%;background:#ffffff1c;font:700 15px "Red Hat Display";color:#fff}
+.st.hot i{background:var(--acc)}
+.plates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.plate{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--bg);text-decoration:none;color:var(--ink);transition:transform .15s,border-color .15s}
+.plate:hover{transform:translateY(-3px);border-color:var(--acc2)}
+.pv{height:150px;background:var(--panel);position:relative;border-bottom:1px solid var(--line)}
+.pv svg{position:absolute;inset:0;width:100%;height:100%}
+.pb{padding:16px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pb h3{font-size:20px}
+.pb .m{font:700 26px "Red Hat Display";color:var(--acc)}
+.pb .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(15em,1fr));gap:12px}
+@media(max-width:950px){.plates{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.plates{grid-template-columns:minmax(0,1fr)}}
+</style></head><body>
+<nav class="nav" aria-label="Projects"><b><a href="index.html" style="text-decoration:none">Aditya Kushwaha · AI projects</a></b><a href="anomaly-detection.html">Anomaly detection</a><a href="revenue-forecasting.html">Revenue forecasting</a><a href="bull-bear-debate.html">Bull vs bear debate</a><a href="marketing-attribution.html">Marketing attribution</a><a href="text-to-sql.html">Text-to-SQL</a><a href="customer-360.html">Customer 360</a></nav>
+
+
+<header class="band top"><div class="wrap hero">
+<div><h1>Six AI systems for finance and banking, each with live results you can explore</h1>
+<p class="lede">Built by Aditya Kushwaha, MBA (Finance). Forecasting, attribution, monitoring, investment research, data access and customer intelligence: every project has tested code, measured accuracy, and an AI layer that answers from tools and data instead of guessing.</p>
+<div class="kpis"><div class="kpi"><b class="hot">6</b><span>working AI projects</span></div><div class="kpi"><b>50</b><span>automated tests, all passing</span></div><div class="kpi"><b>5</b><span>projects with Claude agents</span></div></div></div>
+<div class="loop" aria-label="How the AI layer works">
+<div class="st"><i>1</i><div><b>Question in plain English</b><br>"What if we cut marketing 10%?" "Gross NPA by region?"</div></div>
+<div class="st hot"><i>2</i><div><b>Claude picks a tool</b><br>run_scenario, run_sql, simulate_spend_change, get_customer_360</div></div>
+<div class="st"><i>3</i><div><b>Models and data answer</b><br>LightGBM, marketing mix model, SQLite, SEC filings</div></div>
+<div class="st"><i>4</i><div><b>Guardrails check</b><br>read-only SQL, cited evidence only, no credit offers to risky customers</div></div>
+<div class="st hot"><i>5</i><div><b>Answer with real numbers</b><br>every figure traceable to a tool result</div></div>
+</div></div></header>
+
+<section class="band"><div class="wrap">
+<div class="sec"><h2>The projects</h2><span class="note">Select one to open its interactive page</span></div>
+<div class="plates" id="pl"></div>
+</div></section>
+
+<section class="band" style="background:var(--panel)"><div class="wrap grid2">
+<div><h2>What these projects show</h2><div class="skills" style="margin-top:14px">
+<div class="panel" style="background:var(--bg)"><h3>Finance judgement</h3><p>FP&A forecasting, NPA and SMA rules, CASA, fiscal years, lifetime value, return on marketing spend, 10-K analysis.</p></div>
+<div class="panel" style="background:var(--bg)"><h3>Machine learning</h3><p>LightGBM, out-of-time validation, conformal ranges, Markov and Shapley attribution, entity resolution, anomaly scoring.</p></div>
+<div class="panel" style="background:var(--bg)"><h3>AI agents</h3><p>Claude tool use, self-correcting SQL, cited-evidence debates, guardrails, and evaluation harnesses with scripted tests.</p></div>
+<div class="panel" style="background:var(--bg)"><h3>Controls</h3><p>Read-only data access, red-team testing, KYC and credit guardrails, and honest reporting of what does not work yet.</p></div>
+</div></div>
+<div><h2>How to read the results</h2>
+<p>All data is synthetic, built so the true answer is known and every model can be checked, except the debate, which uses real SEC filings and market data. Each page shows measured accuracy next to the method.</p>
+<p class="honest">The Claude agents were built and tested with scripted stand-ins, but the live AI answers (debate verdicts, written briefs and memos, text-to-SQL accuracy) need an Anthropic API key and are not shown. Every page says exactly what is computed and what needs a key.</p>
+<p><a href="https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design">Full portfolio of 62 projects on GitHub</a></p></div>
+</div></section>
+
+
+<footer class="band foot"><div class="wrap grid2">
+<div><b style="color:#fff;font-family:'Red Hat Display';font-size:18px">Aditya Kushwaha</b><br>MBA (Finance), Christ University, Bengaluru<br>
+Email: adityakushwahagzpa@gmail.com</div>
+<div><a href="https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design">GitHub portfolio</a> · <a href="https://www.linkedin.com/in/aditya-kushwaha16">LinkedIn</a><br>
+All project data is synthetic or from public SEC filings. Each project's code, tests and outputs are on GitHub.</div></div></footer>
+<script>{const $=(s,r=document)=>r.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const rupee=(x,d=0)=>'₹'+Number(x).toLocaleString('en-IN',{maximumFractionDigits:d,minimumFractionDigits:d});
+const lakh=x=>x>=1e5?'₹'+(x/1e5).toFixed(2)+' lakh':rupee(x);
+const pct=(x,d=1)=>(x*100).toFixed(d)+'%';
+function chart(el,draw){const ro=new ResizeObserver(()=>{const W=el.clientWidth,H=el.clientHeight;if(W>0)el.innerHTML=draw(W,H)});ro.observe(el);return()=>{el.innerHTML=draw(el.clientWidth,el.clientHeight)}}
+function ticks(lo,hi,n=5){const st=Math.pow(10,Math.floor(Math.log10((hi-lo)/n||1)));const m=[1,2,2.5,5,10].find(k=>(hi-lo)/(st*k)<=n)*st;const out=[];for(let v=Math.ceil(lo/m)*m;v<=hi+1e-9;v+=m)out.push(+v.toFixed(6));return out}
+function lineSVG(W,H,{x,series,band,y0,y1,yfmt=v=>v,xlab=i=>x[i],marks=[],shade=[],mL=52,mR=18,mT=14,mB=30}){
+  const n=x.length,iw=W-mL-mR,ih=H-mT-mB;
+  const all=series.flatMap(s=>s.v).concat(band?band.lo.concat(band.hi):[]).filter(v=>v!=null);
+  let lo=y0??Math.min(...all),hi=y1??Math.max(...all);const pad=(hi-lo)*.06||1;lo=y0??lo-pad;hi=y1??hi+pad;
+  const X=i=>mL+(n<2?0:i/(n-1))*iw,Y=v=>mT+ih-(v-lo)/(hi-lo)*ih;
+  let g='';
+  shade.forEach(s=>{g+=`<rect x="${X(s.a)}" y="${mT}" width="${Math.max(2,X(s.b)-X(s.a))}" height="${ih}" fill="${s.c}" opacity="${s.o??.16}"/>`;if(s.label){const r=X(s.a)>W-110;g+=`<text x="${r?X(s.a)-4:X(s.b)+4}" y="${mT+ih-8}" text-anchor="${r?'end':'start'}">${esc(s.label)}</text>`}});
+  ticks(lo,hi,W<520?3:5).forEach(t=>{g+=`<line x1="${mL}" x2="${W-mR}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--line)"/><text x="${mL-6}" y="${Y(t)+4}" text-anchor="end">${yfmt(t)}</text>`});
+  const step=Math.max(1,Math.ceil(n/(W<520?4:7)));for(let i=0;i<n;i+=step)g+=`<text x="${X(i)}" y="${H-8}" text-anchor="middle">${esc(xlab(i))}</text>`;
+  if(band){let d='';band.hi.forEach((v,i)=>{if(v!=null)d+=(d?'L':'M')+X(band.off+i)+','+Y(v)});for(let i=band.lo.length-1;i>=0;i--)d+='L'+X(band.off+i)+','+Y(band.lo[i]);g+=`<path d="${d}Z" fill="var(--acc)" opacity=".14"/>`}
+  series.forEach(s=>{let d='',on=false;s.v.forEach((v,i)=>{if(v==null){on=false;return}d+=(on?'L':'M')+X((s.off||0)+i).toFixed(1)+','+Y(v).toFixed(1);on=true});g+=`<path d="${d}" fill="none" stroke="${s.c}" stroke-width="${s.w||2}" ${s.dash?'stroke-dasharray="5 4"':''}/>`});
+  marks.forEach(m=>{g+=`<circle cx="${X(m.i)}" cy="${Y(m.v)}" r="${m.r||5}" fill="${m.c||'var(--acc)'}"/>`;if(m.label)g+=`<text x="${X(m.i)+(m.left?-8:8)}" y="${Y(m.v)-8}" text-anchor="${m.left?'end':'start'}" style="fill:var(--ink)">${esc(m.label)}</text>`});
+  return `<svg viewBox="0 0 ${W} ${H}" role="img">${g}</svg>`}
+function bars(el,items,{fmt=v=>v,max,hot}={}){const m=max??Math.max(...items.map(i=>i.v));el.innerHTML=items.map(i=>`<div class="row"><span>${esc(i.k)}</span><div><div class="bar ${hot&&hot(i)?'hot':''}" style="width:${Math.max(1,i.v/m*100)}%"></div></div><span class="v">${fmt(i.v)}</span></div>`).join('')}
+
+
+const D={"anom":{"v":[5699,3701,3338,3186,3314,3572,4621,6724,9533,12829,16103,19132,21276,20681,16336,10473,6951,7557,14770,27040,36775,35046,23785,11911,5766,3737,3193,3306,3287,3621,4590,6574,9553,12802,16274,19435,21546,20552,16211,10895,6901,7586,14715,27012,36923,35506,23886,12072,6622,4406,3755,3685,3911,4163,5335,7638,10976,14850,18534,22354,25052,24005,18839,12364,8086,8820,16877,31421,42638,41143,27628,13872,6664,4270,3809,3784,3910,4311,5394,7593,11017,14998,18978,22522,24795,23809,18893,12328,8133,8767,16862,31429,43042,41390,27708,14253,5837,3662,3310,3413,3399,3806,4746,6714,9582,12907,16485,19485,22081,20809,16642,10891,7002,7844,15001,27208,37271,35945,24253,12135,5913,3729,3293,3321,3456,3727,4813,6621,9657,13183,16454,19710,16577,21096,16487,10826,7124,7803,14753,27469,37802,36151,24129,12436,5815,3763,3384,3527,3466,3738,4681,6785,9704,13165,16827,19814,21828,21166,16748,10827,7158,7839,14871,27815,37768,36464,24466,12109,5941,3831,3373,3363,3354,3785,4678,6812,9823,13282,16508,19650,21907,21183,16644,10949,7091,7989,14792,27728,37802,36207,24373,12378,5911,3870,3433,3375,3431,3816,4716,6755,9877,13372,16516,19914,22251,21138,16470,10965,7254,7795,14944,27679,38073,36601,24397,12580,6934,4505,3802,3857,3894,4330,5388,7931,11377,15259,19373,23041,25512,24324,19493,12550,8296,9017,17359,32200,44066,42331,28171,14311,6778,4408,3845,3936,4044,4322,5610,8012,11319,15239,19173,23019,25389,24755,19281,12700,8259,9162,17368,32204,43935,42082,28524,14161,5945,3831,3344,3410,3386,3883,4931,6726,9753,13319,17004,20386,22339,21604,16912,11124,7280,8056,15220,28029,38391,37074,24949,12732,6106,3914,3415,3353,3477,3757,4917,6743,9969,13546,16936,20145,22450,21634,17216,10949,7311,8077,15357,27820,38830,37185,24871,12507,5861,3870,3494,3515,3441,4013,4829,6866,9903,13583,16721,20545,22684,21785,17057,11202,7205,8084,35236,64941,89115,37065,24884,12845],"inc":[86,131,147,211,232,273,300]},"fc":{"h":[22.52,20.31,23.82,23.53,24.43,24.07,25.03,25.64,23.28,24.07,31.07,24.31,26.3,23.78,27.47,26.41,28.27,27.7,28.38,29.62,26.83,34.23,29.07,27.55,30.31,26.74,32.09,31.33,33.65,32.93,33.99,35.32,31.09,42.82,31.24,32.47],"f":[36.24,31.49,36.5],"lo":[32.56,28.29,32.79],"hi":[40.01,34.77,40.3]},"deb":{"NVDA":[3,3,"mixed"],"TSLA":[1,5,"leans bear"],"AAPL":[5,0,"leans bull"]},"att":{"last_touch":12.1,"first_touch":3.99,"linear":4.3,"time_decay":5.04,"position_based":4.3,"markov":5.51,"shapley":4.48,"ml_counterfactual":1.11},"t2s":[25,25],"gains":[0.46,9.72,14.35,17.59,19.44,23.15,25.93,26.85,27.31,30.56,32.87,33.8,37.5,38.43,39.81,40.74,41.2,43.06,44.91,47.22,47.69,47.69,49.07,50.0,50.46,52.31,53.24,55.56,56.48,56.48,57.41,57.87,58.33,58.8,59.72,60.19,60.19,60.19,61.57,62.04,63.89,64.81,64.81,65.74,66.2,68.06,68.52,69.91,70.83,71.76,72.69,74.54,75.46,76.39,76.39,76.85,78.24,78.7,80.56,81.48,81.48,81.48,82.87,84.26,84.72,85.65,87.5,88.43,88.89,88.89,88.89,88.89,90.28,90.74,91.2,91.67,92.13,92.59,93.06,93.52,93.52,93.52,94.44,94.91,94.91,94.91,95.83,96.3,96.3,97.22,97.22,97.22,97.69,98.61,98.61,99.07,99.07,100.0,100.0,100.0,100.0]};
+const P=[
+ {f:'anomaly-detection.html',t:'Real-Time Anomaly Detection',m:'7 / 7 caught',d:'Minute-by-minute payment monitoring with no false alarms in 12 days and a planned sale correctly ignored.',tags:['Python','Streaming','Statistics'],v:'anom'},
+ {f:'revenue-forecasting.html',t:'AI Revenue Forecasting Engine',m:'₹104.2 cr Q1',d:'LightGBM forecast with 6.6% daily error and a Claude analyst that runs what-if scenarios.',tags:['LightGBM','Claude API','FP&A'],v:'fc'},
+ {f:'bull-bear-debate.html',t:'Bull vs Bear AI Debate',m:'39 cited facts',d:'Claude agents argue NVIDIA, Tesla and Apple from 10-K evidence; a judge and code check every citation.',tags:['Claude API','SEC filings','Equity research'],v:'deb'},
+ {f:'marketing-attribution.html',t:'Marketing Attribution & ROI',m:'1.1 pts error',d:'Eight attribution models against the truth, a calibrated mix model and a live budget allocator.',tags:['LightGBM','SciPy','Claude API'],v:'att'},
+ {f:'text-to-sql.html',t:'AI Text-to-SQL Assistant',m:'25 / 25 blocked',d:'Plain-English questions to a bank database, with self-correcting SQL and a two-layer guard.',tags:['Claude API','SQLite','sqlglot'],v:'t2s'},
+ {f:'customer-360.html',t:'Customer 360 Platform',m:'0.992 match F1',d:'Golden customer records, churn and propensity models, lifetime value and next best action.',tags:['LightGBM','rapidfuzz','Claude API'],v:'c360'}];
+const W=360,H=150;
+const path=(v,lo,hi,x0=10,x1=W-10,y0=H-14,y1=14)=>v.map((y,i)=>(i?'L':'M')+(x0+i/(v.length-1)*(x1-x0)).toFixed(1)+','+(y0-(y-lo)/(hi-lo)*(y0-y1)).toFixed(1)).join('');
+function viz(k){let g='';
+ if(k=='anom'){const v=D.anom.v,hi=Math.max(...v);g+=`<path d="${path(v,0,hi)}" fill="none" stroke="var(--acc2)" stroke-width="1.3"/>`+D.anom.inc.map(i=>`<line x1="${10+i/(v.length-1)*(W-20)}" x2="${10+i/(v.length-1)*(W-20)}" y1="12" y2="${H-12}" stroke="var(--acc)" stroke-width="1.5"/>`).join('')}
+ if(k=='fc'){const h=D.fc.h.slice(-14),all=h.concat(D.fc.lo,D.fc.hi),lo=Math.min(...all)*.95,hi=Math.max(...all)*1.03,n=h.length+3,X=i=>10+i/(n-1)*(W-20),Y=v=>H-14-(v-lo)/(hi-lo)*(H-28);
+  g+=`<path d="M${X(h.length-1)},${Y(h[h.length-1])}`+D.fc.hi.map((v,i)=>`L${X(h.length+i)},${Y(v)}`).join('')+D.fc.lo.slice().reverse().map((v,i)=>`L${X(n-1-i)},${Y(v)}`).join('')+`Z" fill="var(--acc)" opacity=".18"/>`;
+  g+=`<path d="${h.map((v,i)=>(i?'L':'M')+X(i)+','+Y(v)).join('')}" fill="none" stroke="var(--acc2)" stroke-width="2"/><path d="M${X(h.length-1)},${Y(h[h.length-1])}${D.fc.f.map((v,i)=>`L${X(h.length+i)},${Y(v)}`).join('')}" fill="none" stroke="var(--acc)" stroke-width="2.5"/>`}
+ if(k=='deb'){Object.entries(D.deb).forEach(([t,[b,r,v]],i)=>{const y=24+i*40;g+=`<text x="16" y="${y+14}" style="fill:var(--ink);font-weight:700">${t}</text><rect x="${W/2-b*18}" y="${y}" width="${b*18}" height="20" fill="var(--ok)"/><rect x="${W/2}" y="${y}" width="${r*18}" height="20" fill="var(--acc)"/><text x="${W-12}" y="${y+14}" text-anchor="end">${v}</text>`});g+=`<line x1="${W/2}" x2="${W/2}" y1="16" y2="${H-10}" stroke="var(--ink)"/>`}
+ if(k=='att'){const e=D.att,ks=['last_touch','markov','shapley','linear','ml_counterfactual'],nm=['Last touch','Markov','Shapley','Linear','ML model'];ks.forEach((m,i)=>{const y=14+i*26,w=e[m]/13*(W-150);g+=`<text x="12" y="${y+14}">${nm[i]}</text><rect x="100" y="${y+2}" width="${w}" height="16" fill="${m=='ml_counterfactual'?'var(--acc)':'var(--acc2)'}"/><text x="${106+w}" y="${y+14}">${e[m].toFixed(1)}</text>`})}
+ if(k=='t2s'){const [b,n]=D.t2s;for(let i=0;i<n;i++){const c=i%9,r=Math.floor(i/9);g+=`<rect x="${W/2-120+c*27}" y="${22+r*36}" width="22" height="28" rx="4" fill="${i<b?'var(--acc2)':'var(--acc)'}" opacity=".85"/>`}g+=`<text x="${W/2}" y="${H-8}" text-anchor="middle" style="fill:var(--ink)">${b} of ${n} attacks blocked</text>`}
+ if(k=='c360'){g+=`<path d="${path(D.gains.map((_,i)=>i),0,100)}" fill="none" stroke="var(--muted)" stroke-dasharray="4 4"/><path d="${path(D.gains,0,100)}" fill="none" stroke="var(--acc)" stroke-width="2.5"/>`}
+ return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">${g}</svg>`}
+$('#pl').innerHTML=P.map(p=>`<a class="plate" href="${p.f}"><div class="pv">${viz(p.v)}</div><div class="pb"><h3>${p.t}</h3><div class="m">${p.m}</div><p>${p.d}</p><div class="tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div></div></a>`).join('');
+}</script></body></html>

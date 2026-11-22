@@ -1,0 +1,191 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Revenue Forecast</title><meta name="description" content="Revenue forecasting: an AI project by Aditya Kushwaha">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&family=Red+Hat+Mono&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
+<style>/* VOICE work: a portfolio read by hiring managers in finance and banking; precise, dense, confident
+   IDEA a lab poster for applied AI: each project is a plate with its finding, a live working demo, and the agent's tool trace
+   PICTURE per page, the project's own result drawn large and interactive (stream, forecast fan, budget curves, query console, customer card)
+   COLOUR oxford blue band #0b1f4b, white panels, magenta #e0115f for the result, steel lines; night #070f26
+   TYPE Red Hat Display 700 for titles and figures, Red Hat Text for body, Red Hat Mono only for SQL and tool calls
+   LAYOUT title band with key figures across the top, the demo full width beneath, then method and evidence in two columns; stacks below 600px */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#070f26);--ink:light-dark(#0d1426,#e8ecf6);--muted:light-dark(#4c5672,#a3adc6);--band:#0b1f4b;--bandink:#ffffff;--panel:light-dark(#f3f5fa,#0f1a3a);--line:light-dark(#d8dde9,#24305a);--acc:#e0115f;--acc2:light-dark(#1d5bd8,#6f9bff);--ok:light-dark(#0f7a4a,#3ccf8e);--warn:light-dark(#b3541e,#f0a060)}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Red Hat Text",system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:"Red Hat Display",system-ui,sans-serif;letter-spacing:-.02em;line-height:1.08;margin:0}
+h1{font-size:clamp(32px,4.6vw,50px);text-wrap:balance}
+h2{font-size:clamp(24px,2.6vw,32px);text-wrap:balance}
+h3{font-size:19px}
+p{margin:.5em 0}
+a{color:var(--acc2)}
+code,pre,.mono{font-family:"Red Hat Mono",ui-monospace,monospace}
+code{overflow-wrap:anywhere;font-size:.92em}
+pre,.scroll{overflow-x:auto}
+img{max-width:100%}
+.band{padding-block:clamp(28px,4vw,56px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto}
+.top{background:var(--band);color:var(--bandink)}
+.top a{color:#fff}
+.nav{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:12px max(5vw,16px);background:var(--band);color:#fff;border-bottom:1px solid #1d3570;font-size:15px}
+.nav b{font-family:"Red Hat Display";font-size:17px;margin-right:auto}
+.nav a{color:#c9d5f5;text-decoration:none;padding:6px 0}
+.nav a:hover,.nav a[aria-current]{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.lede{font-size:18px;max-width:68ch;color:#d5def5;margin-top:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(10em,1fr));gap:12px;margin-top:26px}
+.kpi{background:#ffffff12;border:1px solid #ffffff26;border-radius:10px;padding:14px 16px}
+.kpi b{display:block;font:700 clamp(26px,3vw,36px)/1.05 "Red Hat Display";color:#fff}
+.kpi b.hot{color:#ff6fa3}
+.kpi span{font-size:14px;color:#c9d5f5}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:clamp(14px,2vw,22px)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.fig{position:relative;min-height:340px}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+svg text{font:13px "Red Hat Text",sans-serif;fill:var(--muted);paint-order:stroke;stroke:var(--panel);stroke-width:4px}
+.note{font-size:14px;color:var(--muted)}
+.tag{display:inline-block;font-size:13px;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--acc2) 14%,transparent);color:var(--ink);white-space:nowrap}
+.tag.hot{background:color-mix(in srgb,var(--acc) 16%,transparent)}
+.tag.ok{background:color-mix(in srgb,var(--ok) 18%,transparent)}
+button,select,input[type=range]{font:inherit;font-size:16px}
+button,select{min-height:44px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;cursor:pointer}
+button:hover{border-color:var(--acc2)}
+button[aria-pressed=true]{background:var(--band);color:#fff;border-color:var(--band)}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.trace{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg)}
+.step{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:12px;padding:12px 16px;border-top:1px solid var(--line)}
+.step:first-child{border-top:0}
+.step>span{font-weight:700;font-family:"Red Hat Display";font-size:14px}
+.step.q>span{color:var(--acc2)}.step.t>span{color:var(--warn)}.step.r>span{color:var(--ok)}.step.a>span{color:var(--acc)}
+.step pre{margin:0;font-size:13.5px;white-space:pre-wrap;overflow-wrap:anywhere}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:700;font-size:14px;color:var(--muted)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar{height:12px;border-radius:3px;background:var(--acc2)}
+.bar.hot{background:var(--acc)}
+.rows{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:9.5em minmax(0,1fr) 4.5em;gap:10px;align-items:center;font-size:15px}
+.row .v{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.foot{background:var(--band);color:#c9d5f5;font-size:15px}
+.foot a{color:#fff}
+.sec{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.big{font:700 clamp(30px,4vw,44px)/1 "Red Hat Display";color:var(--acc)}
+.honest{border-left:4px solid var(--acc);padding:10px 14px;background:color-mix(in srgb,var(--acc) 7%,transparent);border-radius:0 8px 8px 0;font-size:15px}
+@media(max-width:900px){.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}.step{grid-template-columns:minmax(0,1fr);gap:4px}.row{grid-template-columns:7.5em minmax(0,1fr) 4em}}
+@media(max-width:600px){table{font-size:13px}th,td{padding:6px 4px}.fig{min-height:280px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.ctl{display:grid;gap:14px}
+.ctl label{font-weight:700;font-size:15px;display:flex;justify-content:space-between;gap:8px}
+input[type=range]{width:100%;accent-color:var(--acc);height:44px}
+.tog{display:flex;flex-wrap:wrap;gap:8px}
+.res{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:20px;align-items:start}
+.delta{font:700 20px "Red Hat Display";font-variant-numeric:tabular-nums}
+@media(max-width:800px){.res{grid-template-columns:minmax(0,1fr)}}
+</style></head><body>
+<nav class="nav" aria-label="Projects"><b><a href="index.html" style="text-decoration:none">Aditya Kushwaha · AI projects</a></b><a href="anomaly-detection.html">Anomaly detection</a><a href="revenue-forecasting.html" aria-current=page>Revenue forecasting</a><a href="bull-bear-debate.html">Bull vs bear debate</a><a href="marketing-attribution.html">Marketing attribution</a><a href="text-to-sql.html">Text-to-SQL</a><a href="customer-360.html">Customer 360</a></nav>
+
+
+<header class="band top"><div class="wrap">
+<h1>AI revenue forecast: Q1 2026 at ₹104.2 crore, 16.9% above last year</h1>
+<p class="lede">A LightGBM model forecasts daily revenue for three product lines 90 days ahead, blended with Holt-Winters and given a P10–P90 range. A Claude analyst answers what-if questions by calling the model as a tool, so every number in its answer comes from a model run.</p>
+<div class="kpis" id="kpis"></div></div></header>
+
+<section class="band"><div class="wrap">
+<div class="sec"><h2>Monthly revenue: history and forecast</h2><span class="note">₹ crore per month · shaded band is the P10–P90 range</span></div>
+<div class="panel"><div class="fig" id="fan" style="min-height:360px"></div></div>
+</div></section>
+
+<section class="band" style="background:var(--panel)"><div class="wrap">
+<div class="sec"><h2>Ask the analyst a what-if</h2><span class="note">40 scenarios run through the real model for this page</span></div>
+<div class="chips" id="qs" style="margin-bottom:18px"></div>
+<div class="res">
+<div class="panel ctl" style="background:var(--bg)">
+<label for="mk">Marketing spend <span id="mkv">0%</span></label><input type="range" id="mk" min="-20" max="20" step="10" value="0">
+<div class="tog"><button id="dc" aria-pressed="false">Discounts +3 points</button><button id="rd" aria-pressed="false">Skip Republic Day sale</button><button id="ho" aria-pressed="false">Skip Holi promotion</button></div>
+<div><div class="note">Q1 2026 revenue</div><div class="big" id="tot"></div><div class="delta" id="chg"></div></div>
+<div class="rows" id="lines"></div>
+</div>
+<div class="trace" id="trace"></div>
+</div>
+<p class="honest" style="margin-top:18px">The tool call and result are real outputs of the forecasting engine. The analyst's written reply needs an Anthropic API key, so it is not shown here; with a key, <code>python ai_analyst.py --ask "…"</code> returns the full answer. Revenue is not profit: the discount scenario lifts sales but lowers margin.</p>
+</div></section>
+
+<section class="band"><div class="wrap grid2">
+<div><h2>How accurate is it?</h2><p>Each model forecast Q2, Q3 and Q4 2025, 90 days ahead, from the end of the previous quarter. Daily error (WAPE), lower is better:</p><div class="rows" id="bt"></div>
+<p class="note">The final blend is 95% LightGBM and 5% Holt-Winters; weights were picked by grid search on the backtest. Holt-Winters missed Q4 2025 by ₹14 crore because it cannot see Diwali moving between months.</p></div>
+<div><h2>What drives the forecast</h2><p>Share of the model's attribution (SHAP) in the Q1 2026 forecast:</p><div class="rows" id="dr"></div>
+<p><a href="https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-revenue-forecasting-engine">Code, tests and Excel forecast pack on GitHub</a></p></div>
+</div></section>
+
+
+<footer class="band foot"><div class="wrap grid2">
+<div><b style="color:#fff;font-family:'Red Hat Display';font-size:18px">Aditya Kushwaha</b><br>MBA (Finance), Christ University, Bengaluru<br>
+Email: adityakushwahagzpa@gmail.com</div>
+<div><a href="https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design">GitHub portfolio</a> · <a href="https://www.linkedin.com/in/aditya-kushwaha16">LinkedIn</a><br>
+All project data is synthetic or from public SEC filings. Each project's code, tests and outputs are on GitHub.</div></div></footer>
+<script>{const $=(s,r=document)=>r.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const rupee=(x,d=0)=>'₹'+Number(x).toLocaleString('en-IN',{maximumFractionDigits:d,minimumFractionDigits:d});
+const lakh=x=>x>=1e5?'₹'+(x/1e5).toFixed(2)+' lakh':rupee(x);
+const pct=(x,d=1)=>(x*100).toFixed(d)+'%';
+function chart(el,draw){const ro=new ResizeObserver(()=>{const W=el.clientWidth,H=el.clientHeight;if(W>0)el.innerHTML=draw(W,H)});ro.observe(el);return()=>{el.innerHTML=draw(el.clientWidth,el.clientHeight)}}
+function ticks(lo,hi,n=5){const st=Math.pow(10,Math.floor(Math.log10((hi-lo)/n||1)));const m=[1,2,2.5,5,10].find(k=>(hi-lo)/(st*k)<=n)*st;const out=[];for(let v=Math.ceil(lo/m)*m;v<=hi+1e-9;v+=m)out.push(+v.toFixed(6));return out}
+function lineSVG(W,H,{x,series,band,y0,y1,yfmt=v=>v,xlab=i=>x[i],marks=[],shade=[],mL=52,mR=18,mT=14,mB=30}){
+  const n=x.length,iw=W-mL-mR,ih=H-mT-mB;
+  const all=series.flatMap(s=>s.v).concat(band?band.lo.concat(band.hi):[]).filter(v=>v!=null);
+  let lo=y0??Math.min(...all),hi=y1??Math.max(...all);const pad=(hi-lo)*.06||1;lo=y0??lo-pad;hi=y1??hi+pad;
+  const X=i=>mL+(n<2?0:i/(n-1))*iw,Y=v=>mT+ih-(v-lo)/(hi-lo)*ih;
+  let g='';
+  shade.forEach(s=>{g+=`<rect x="${X(s.a)}" y="${mT}" width="${Math.max(2,X(s.b)-X(s.a))}" height="${ih}" fill="${s.c}" opacity="${s.o??.16}"/>`;if(s.label){const r=X(s.a)>W-110;g+=`<text x="${r?X(s.a)-4:X(s.b)+4}" y="${mT+ih-8}" text-anchor="${r?'end':'start'}">${esc(s.label)}</text>`}});
+  ticks(lo,hi,W<520?3:5).forEach(t=>{g+=`<line x1="${mL}" x2="${W-mR}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--line)"/><text x="${mL-6}" y="${Y(t)+4}" text-anchor="end">${yfmt(t)}</text>`});
+  const step=Math.max(1,Math.ceil(n/(W<520?4:7)));for(let i=0;i<n;i+=step)g+=`<text x="${X(i)}" y="${H-8}" text-anchor="middle">${esc(xlab(i))}</text>`;
+  if(band){let d='';band.hi.forEach((v,i)=>{if(v!=null)d+=(d?'L':'M')+X(band.off+i)+','+Y(v)});for(let i=band.lo.length-1;i>=0;i--)d+='L'+X(band.off+i)+','+Y(band.lo[i]);g+=`<path d="${d}Z" fill="var(--acc)" opacity=".14"/>`}
+  series.forEach(s=>{let d='',on=false;s.v.forEach((v,i)=>{if(v==null){on=false;return}d+=(on?'L':'M')+X((s.off||0)+i).toFixed(1)+','+Y(v).toFixed(1);on=true});g+=`<path d="${d}" fill="none" stroke="${s.c}" stroke-width="${s.w||2}" ${s.dash?'stroke-dasharray="5 4"':''}/>`});
+  marks.forEach(m=>{g+=`<circle cx="${X(m.i)}" cy="${Y(m.v)}" r="${m.r||5}" fill="${m.c||'var(--acc)'}"/>`;if(m.label)g+=`<text x="${X(m.i)+(m.left?-8:8)}" y="${Y(m.v)-8}" text-anchor="${m.left?'end':'start'}" style="fill:var(--ink)">${esc(m.label)}</text>`});
+  return `<svg viewBox="0 0 ${W} ${H}" role="img">${g}</svg>`}
+function bars(el,items,{fmt=v=>v,max,hot}={}){const m=max??Math.max(...items.map(i=>i.v));el.innerHTML=items.map(i=>`<div class="row"><span>${esc(i.k)}</span><div><div class="bar ${hot&&hot(i)?'hot':''}" style="width:${Math.max(1,i.v/m*100)}%"></div></div><span class="v">${fmt(i.v)}</span></div>`).join('')}
+
+
+const D={"summary":{"q1_2026_forecast_crore":104.23,"q1_2026_p10_crore":99.44,"q1_2026_p90_crore":108.55,"q1_2025_actual_crore":89.14,"yoy_growth":0.1693,"weights":{"seasonal_naive":0.0,"holt_winters":0.05,"lightgbm":0.95},"backtest":{"seasonal_naive":{"daily_wape":0.1446,"quarterly_total_error":0.0205,"bias":-0.0036},"holt_winters":{"daily_wape":0.1096,"quarterly_total_error":0.064,"bias":-0.0677},"lightgbm":{"daily_wape":0.0664,"quarterly_total_error":0.0246,"bias":0.0005},"ensemble":{"daily_wape":0.066,"quarterly_total_error":0.0254,"bias":-0.0029}},"daily_range":[0.898,1.104],"monthly_range":[0.954,1.041]},"hist":{"m":["2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-08","2023-09","2023-10","2023-11","2023-12","2024-01","2024-02","2024-03","2024-04","2024-05","2024-06","2024-07","2024-08","2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12"],"v":[22.52,20.31,23.82,23.53,24.43,24.07,25.03,25.64,23.28,24.07,31.07,24.31,26.3,23.78,27.47,26.41,28.27,27.7,28.38,29.62,26.83,34.23,29.07,27.55,30.31,26.74,32.09,31.33,33.65,32.93,33.99,35.32,31.09,42.82,31.24,32.47]},"fc":{"m":["2026-01","2026-02","2026-03"],"v":[36.24,31.49,36.5],"lo":[32.56,28.29,32.79],"hi":[40.01,34.77,40.3]},"backtest":[{"model":"seasonal_naive","daily_wape":0.1446,"quarterly_total_error":0.0205,"bias":-0.0036,"weight":0.0},{"model":"holt_winters","daily_wape":0.1096,"quarterly_total_error":0.064,"bias":-0.0677,"weight":0.05},{"model":"lightgbm","daily_wape":0.0664,"quarterly_total_error":0.0246,"bias":0.0005,"weight":0.95},{"model":"ensemble","daily_wape":0.066,"quarterly_total_error":0.0254,"bias":-0.0029,"weight":1.0}],"drivers":[{"Unnamed: 0":"discount_pct","share":0.2996},{"Unnamed: 0":"dow","share":0.141},{"Unnamed: 0":"log_marketing","share":0.1209},{"Unnamed: 0":"doy_sin","share":0.106},{"Unnamed: 0":"level_fest","share":0.1058},{"Unnamed: 0":"gap","share":0.0703},{"Unnamed: 0":"doy_cos","share":0.0528},{"Unnamed: 0":"line","share":0.0468}],"monthly":[{"month":"2026-01","product_line":"Apparel","p10":1167.77,"p50":1224.02,"p90":1274.72,"last_year":1052.33,"yoy":0.16},{"month":"2026-01","product_line":"Electronics","p10":1639.23,"p50":1718.2,"p90":1789.37,"last_year":1401.39,"yoy":0.23},{"month":"2026-01","product_line":"Home","p10":650.74,"p50":682.09,"p90":710.34,"last_year":577.43,"yoy":0.18},{"month":"2026-02","product_line":"Apparel","p10":1013.85,"p50":1062.69,"p90":1106.7,"last_year":914.49,"yoy":0.16},{"month":"2026-02","product_line":"Electronics","p10":1423.0,"p50":1491.56,"p90":1553.34,"last_year":1259.18,"yoy":0.18},{"month":"2026-02","product_line":"Home","p10":567.37,"p50":594.7,"p90":619.33,"last_year":500.28,"yoy":0.19},{"month":"2026-03","product_line":"Apparel","p10":1169.86,"p50":1226.21,"p90":1277.0,"last_year":1108.09,"yoy":0.11},{"month":"2026-03","product_line":"Electronics","p10":1646.07,"p50":1725.36,"p90":1796.83,"last_year":1494.46,"yoy":0.15},{"month":"2026-03","product_line":"Home","p10":666.26,"p50":698.36,"p90":727.29,"last_year":606.68,"yoy":0.15}],"scenarios":{"-20|0|0|0":{"total":101.99,"change":-2.25,"pct":-2.15,"months":{"2026-01":35.26,"2026-02":31.14,"2026-03":35.59},"lines":{"Apparel":34.27,"Electronics":48.28,"Home":19.44}},"-20|0|0|1":{"total":101.01,"change":-3.22,"pct":-3.09,"months":{"2026-01":35.26,"2026-02":30.89,"2026-03":34.87},"lines":{"Apparel":33.8,"Electronics":47.89,"Home":19.33}},"-20|0|1|0":{"total":100.19,"change":-4.04,"pct":-3.87,"months":{"2026-01":33.47,"2026-02":31.14,"2026-03":35.59},"lines":{"Apparel":33.6,"Electronics":47.41,"Home":19.19}},"-20|0|1|1":{"total":99.22,"change":-5.01,"pct":-4.81,"months":{"2026-01":33.47,"2026-02":30.89,"2026-03":34.87},"lines":{"Apparel":33.13,"Electronics":47.02,"Home":19.08}},"-20|3|0|0":{"total":110.53,"change":6.3,"pct":6.04,"months":{"2026-01":37.84,"2026-02":33.99,"2026-03":38.69},"lines":{"Apparel":37.85,"Electronics":51.94,"Home":20.73}},"-20|3|0|1":{"total":108.91,"change":4.67,"pct":4.48,"months":{"2026-01":37.84,"2026-02":33.57,"2026-03":37.49},"lines":{"Apparel":37.14,"Electronics":51.22,"Home":20.54}},"-20|3|1|0":{"total":108.65,"change":4.42,"pct":4.24,"months":{"2026-01":35.96,"2026-02":33.99,"2026-03":38.69},"lines":{"Apparel":37.15,"Electronics":51.03,"Home":20.46}},"-20|3|1|1":{"total":107.03,"change":2.8,"pct":2.68,"months":{"2026-01":35.96,"2026-02":33.57,"2026-03":37.49},"lines":{"Apparel":36.44,"Electronics":50.31,"Home":20.27}},"-10|0|0|0":{"total":103.01,"change":-1.22,"pct":-1.17,"months":{"2026-01":35.77,"2026-02":31.2,"2026-03":36.05},"lines":{"Apparel":34.64,"Electronics":48.78,"Home":19.6}},"-10|0|0|1":{"total":101.99,"change":-2.24,"pct":-2.15,"months":{"2026-01":35.77,"2026-02":30.92,"2026-03":35.31},"lines":{"Apparel":34.15,"Electronics":48.37,"Home":19.48}},"-10|0|1|0":{"total":101.22,"change":-3.01,"pct":-2.89,"months":{"2026-01":33.97,"2026-02":31.2,"2026-03":36.05},"lines":{"Apparel":33.97,"Electronics":47.91,"Home":19.34}},"-10|0|1|1":{"total":100.2,"change":-4.04,"pct":-3.87,"months":{"2026-01":33.97,"2026-02":30.92,"2026-03":35.31},"lines":{"Apparel":33.48,"Electronics":47.5,"Home":19.22}},"-10|3|0|0":{"total":111.71,"change":7.48,"pct":7.18,"months":{"2026-01":38.4,"2026-02":34.07,"2026-03":39.23},"lines":{"Apparel":38.35,"Electronics":52.5,"Home":20.85}},"-10|3|0|1":{"total":110.03,"change":5.8,"pct":5.56,"months":{"2026-01":38.4,"2026-02":33.62,"2026-03":37.99},"lines":{"Apparel":37.61,"Electronics":51.76,"Home":20.64}},"-10|3|1|0":{"total":109.83,"change":5.6,"pct":5.38,"months":{"2026-01":36.52,"2026-02":34.07,"2026-03":39.23},"lines":{"Apparel":37.65,"Electronics":51.59,"Home":20.58}},"-10|3|1|1":{"total":108.15,"change":3.92,"pct":3.76,"months":{"2026-01":36.52,"2026-02":33.62,"2026-03":37.99},"lines":{"Apparel":36.91,"Electronics":50.85,"Home":20.37}},"0|0|0|0":{"total":104.23,"change":0.0,"pct":0.0,"months":{"2026-01":36.24,"2026-02":31.5,"2026-03":36.49},"lines":{"Apparel":35.13,"Electronics":49.35,"Home":19.75}},"0|0|0|1":{"total":103.18,"change":-1.05,"pct":-1.01,"months":{"2026-01":36.24,"2026-02":31.21,"2026-03":35.72},"lines":{"Apparel":34.63,"Electronics":48.92,"Home":19.62}},"0|0|1|0":{"total":102.44,"change":-1.79,"pct":-1.72,"months":{"2026-01":34.45,"2026-02":31.5,"2026-03":36.49},"lines":{"Apparel":34.46,"Electronics":48.49,"Home":19.49}},"0|0|1|1":{"total":101.38,"change":-2.85,"pct":-2.73,"months":{"2026-01":34.45,"2026-02":31.21,"2026-03":35.72},"lines":{"Apparel":33.96,"Electronics":48.06,"Home":19.36}},"0|3|0|0":{"total":113.09,"change":8.85,"pct":8.49,"months":{"2026-01":38.93,"2026-02":34.42,"2026-03":39.74},"lines":{"Apparel":38.96,"Electronics":53.13,"Home":21.0}},"0|3|0|1":{"total":111.36,"change":7.13,"pct":6.84,"months":{"2026-01":38.93,"2026-02":33.97,"2026-03":38.45},"lines":{"Apparel":38.2,"Electronics":52.37,"Home":20.78}},"0|3|1|0":{"total":111.21,"change":6.98,"pct":6.69,"months":{"2026-01":37.06,"2026-02":34.42,"2026-03":39.74},"lines":{"Apparel":38.26,"Electronics":52.23,"Home":20.73}},"0|3|1|1":{"total":109.49,"change":5.26,"pct":5.04,"months":{"2026-01":37.06,"2026-02":33.97,"2026-03":38.45},"lines":{"Apparel":37.5,"Electronics":51.47,"Home":20.51}},"10|0|0|0":{"total":104.79,"change":0.56,"pct":0.54,"months":{"2026-01":36.6,"2026-02":31.44,"2026-03":36.76},"lines":{"Apparel":35.44,"Electronics":49.55,"Home":19.81}},"10|0|0|1":{"total":103.74,"change":-0.5,"pct":-0.48,"months":{"2026-01":36.6,"2026-02":31.16,"2026-03":35.98},"lines":{"Apparel":34.94,"Electronics":49.12,"Home":19.68}},"10|0|1|0":{"total":103.0,"change":-1.23,"pct":-1.18,"months":{"2026-01":34.79,"2026-02":31.44,"2026-03":36.76},"lines":{"Apparel":34.76,"Electronics":48.68,"Home":19.55}},"10|0|1|1":{"total":101.94,"change":-2.29,"pct":-2.2,"months":{"2026-01":34.79,"2026-02":31.16,"2026-03":35.98},"lines":{"Apparel":34.26,"Electronics":48.25,"Home":19.42}},"10|3|0|0":{"total":113.78,"change":9.54,"pct":9.16,"months":{"2026-01":39.36,"2026-02":34.37,"2026-03":40.05},"lines":{"Apparel":39.36,"Electronics":53.37,"Home":21.05}},"10|3|0|1":{"total":112.05,"change":7.82,"pct":7.51,"months":{"2026-01":39.36,"2026-02":33.92,"2026-03":38.78},"lines":{"Apparel":38.61,"Electronics":52.61,"Home":20.84}},"10|3|1|0":{"total":111.9,"change":7.67,"pct":7.36,"months":{"2026-01":37.48,"2026-02":34.37,"2026-03":40.05},"lines":{"Apparel":38.66,"Electronics":52.46,"Home":20.78}},"10|3|1|1":{"total":110.18,"change":5.95,"pct":5.7,"months":{"2026-01":37.48,"2026-02":33.92,"2026-03":38.78},"lines":{"Apparel":37.91,"Electronics":51.7,"Home":20.57}},"20|0|0|0":{"total":106.13,"change":1.89,"pct":1.82,"months":{"2026-01":36.86,"2026-02":32.2,"2026-03":37.05},"lines":{"Apparel":36.03,"Electronics":50.09,"Home":19.99}},"20|0|0|1":{"total":105.07,"change":0.84,"pct":0.8,"months":{"2026-01":36.86,"2026-02":31.93,"2026-03":36.29},"lines":{"Apparel":35.53,"Electronics":49.67,"Home":19.88}},"20|0|1|0":{"total":104.33,"change":0.1,"pct":0.1,"months":{"2026-01":35.07,"2026-02":32.2,"2026-03":37.05},"lines":{"Apparel":35.36,"Electronics":49.22,"Home":19.74}},"20|0|1|1":{"total":103.28,"change":-0.96,"pct":-0.92,"months":{"2026-01":35.07,"2026-02":31.93,"2026-03":36.29},"lines":{"Apparel":34.86,"Electronics":48.8,"Home":19.63}},"20|3|0|0":{"total":115.31,"change":11.08,"pct":10.63,"months":{"2026-01":39.69,"2026-02":35.22,"2026-03":40.41},"lines":{"Apparel":40.06,"Electronics":53.98,"Home":21.28}},"20|3|0|1":{"total":113.59,"change":9.36,"pct":8.98,"months":{"2026-01":39.69,"2026-02":34.78,"2026-03":39.13},"lines":{"Apparel":39.31,"Electronics":53.22,"Home":21.07}},"20|3|1|0":{"total":113.44,"change":9.2,"pct":8.83,"months":{"2026-01":37.8,"2026-02":35.22,"2026-03":40.41},"lines":{"Apparel":39.35,"Electronics":53.07,"Home":21.01}},"20|3|1|1":{"total":111.71,"change":7.48,"pct":7.18,"months":{"2026-01":37.8,"2026-02":34.78,"2026-03":39.13},"lines":{"Apparel":38.6,"Electronics":52.31,"Home":20.8}}}},S=D.summary;
+$('#kpis').innerHTML=[[`₹${S.q1_2026_forecast_crore} cr`,'Q1 2026 forecast'],[`+${(S.yoy_growth*100).toFixed(1)}%`,'vs Q1 2025 (₹'+S.q1_2025_actual_crore+' cr)'],[`₹${S.q1_2026_p10_crore}–${S.q1_2026_p90_crore} cr`,'P10–P90 range'],[`${(D.backtest.find(b=>b.model=='lightgbm').daily_wape*100).toFixed(1)}%`,'daily error in backtest']].map(([b,s],i)=>`<div class="kpi"><b class="${i==0?'hot':''}">${b}</b><span>${s}</span></div>`).join('');
+const H=D.hist,F=D.fc,mon=m=>['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m.slice(5)-1]+' '+m.slice(2,4);
+const x=H.m.concat(F.m),off=H.m.length;
+let scen=null;
+const drawFan=chart($('#fan'),(W,Hh)=>{const sc=scen?F.m.map(m=>scen.months[m]):null;
+  const series=[{v:H.v,c:'var(--acc2)',w:2},{v:[H.v[off-1]].concat(F.v),off:off-1,c:'var(--acc)',w:2.5}];
+  if(sc&&scen.change!==0)series.push({v:[H.v[off-1]].concat(sc),off:off-1,c:'var(--ink)',w:2,dash:1});
+  return lineSVG(Wf(W),Hh,{x,series,band:{lo:F.lo,hi:F.hi,off},xlab:i=>mon(x[i]),yfmt:t=>'₹'+t,marks:[{i:x.length-1,v:F.v[2],label:'Mar 26: ₹'+F.v[2]+' cr',left:true}]})});
+function Wf(W){return W}
+const key=()=>`${$('#mk').value}|${$('#dc').getAttribute('aria-pressed')=='true'?3:0}|${+($('#rd').getAttribute('aria-pressed')=='true')}|${+($('#ho').getAttribute('aria-pressed')=='true')}`;
+const base=D.scenarios['0|0|0|0'];
+function run(question){const k=key(),r=D.scenarios[k];scen=r;const [mk,dc,rd,ho]=k.split('|').map(Number);
+  $('#mkv').textContent=(mk>0?'+':'')+mk+'%';$('#tot').textContent='₹'+r.total.toFixed(2)+' cr';
+  $('#chg').innerHTML=r.change===0?'Base case':`<span style="color:${r.change>0?'var(--ok)':'var(--acc)'}">${r.change>0?'+':''}${r.change.toFixed(2)} cr (${r.pct>0?'+':''}${r.pct.toFixed(2)}%)</span> vs base ₹${base.total} cr`;
+  bars($('#lines'),Object.entries(r.lines).map(([k,v])=>({k,v})),{fmt:v=>'₹'+v.toFixed(2)+' cr'});
+  const args={};if(mk)args.marketing_change_pct=mk;if(dc)args.discount_change_points=dc;if(rd)args.skip_republic_day_sale=true;if(ho)args.skip_holi_promo=true;
+  const q=question||describe(mk,dc,rd,ho);
+  const result={base_q1_crore:base.total,scenario_q1_crore:r.total,change_crore:r.change,change_pct:r.pct,by_month:r.months};
+  $('#trace').innerHTML=`<div class="step q"><span>Question</span><div>${esc(q)}</div></div>
+   <div class="step t"><span>Tool call</span><pre>run_scenario(${esc(JSON.stringify(args,null,1))})</pre></div>
+   <div class="step r"><span>Tool result</span><pre>${esc(JSON.stringify(result,null,1))}</pre></div>
+   <div class="step a"><span>Answer uses</span><div>Q1 revenue <b>₹${r.total.toFixed(2)} crore</b>, ${r.change===0?'unchanged':(r.change>0?'up ':'down ')+Math.abs(r.change).toFixed(2)+' crore'} from the base case; largest effect in ${Object.entries(r.months).map(([m,v])=>[m,v-base.months[m]]).sort((a,b)=>Math.abs(b[1])-Math.abs(a[1]))[0][0].replace('2026-01','January').replace('2026-02','February').replace('2026-03','March')}.</div></div>`;
+  drawFan()}
+function describe(mk,dc,rd,ho){const p=[];if(mk)p.push(`${mk>0?'raise':'cut'} marketing by ${Math.abs(mk)}%`);if(dc)p.push('add 3 points of discount');if(rd)p.push('skip the Republic Day sale');if(ho)p.push('skip the Holi promotion');return p.length?'What happens to Q1 revenue if we '+p.join(', ').replace(/, ([^,]*)$/,' and $1')+'?':'What is the Q1 2026 forecast?'}
+const presets=[["What if we cut marketing by 10% and skip the Holi promo?",-10,0,0,1],["Is the Republic Day sale worth running?",0,0,1,0],["What do 3 extra points of discount do to revenue?",0,3,0,0],["What if marketing goes up 20%?",20,0,0,0],["Base case forecast",0,0,0,0]];
+$('#qs').innerHTML=presets.map((p,i)=>`<button data-p="${i}">${esc(p[0])}</button>`).join('');
+const set=(id,v)=>$('#'+id).setAttribute('aria-pressed',!!v);
+document.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>{const p=presets[b.dataset.p];$('#mk').value=p[1];set('dc',p[2]);set('rd',p[3]);set('ho',p[4]);run(p[0])});
+['dc','rd','ho'].forEach(id=>$('#'+id).onclick=e=>{set(id,e.target.getAttribute('aria-pressed')!='true');run()});
+$('#mk').oninput=()=>run();
+$('#mk').value=-10;set('ho',1);run(presets[0][0]);
+const name={seasonal_naive:'Seasonal naive',holt_winters:'Holt-Winters',lightgbm:'LightGBM',ensemble:'Final blend'};
+bars($('#bt'),D.backtest.map(b=>({k:name[b.model],v:b.daily_wape*100})),{fmt:v=>v.toFixed(1)+'%',hot:i=>i.k=='Final blend'});
+const nice={discount_pct:'Discount %',dow:'Day of week',log_marketing:'Marketing spend',doy_sin:'Time of year (sine)',doy_cos:'Time of year (cosine)',level_fest:'Festive level',gap:'Days ahead',line:'Product line'};
+const dk=Object.keys(D.drivers[0]);bars($('#dr'),D.drivers.map(d=>({k:nice[d[dk[0]]]||String(d[dk[0]]).replace(/_/g,' '),v:+d[dk[dk.length-1]]*100})),{fmt:v=>v.toFixed(1)+'%'});
+}</script></body></html>
