@@ -73,7 +73,7 @@ Leadership of the university finance club and its 5-member core team.
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **20 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **55 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
+| **56 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
@@ -137,6 +137,7 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 | **[Nifty 50 Portfolio Analysis (Google Sheets)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets)** | Live GOOGLEFINANCE portfolio of seven stocks: diversification cut volatility from 22.1% to 13.2%, but returns trailed the Nifty 50 (21.5% vs 27.0%) | Google Sheets |
 | **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
 | **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
+| **[Alibaba IPO Financial Model](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/alibaba-ipo-financial-model)** | Three-statement model and DCF from the 2014 F-1 prospectus: US$77.30 per ADS vs the US$68 IPO price (27.7x FY2015E EV/EBITDA at IPO) | Excel |
 
 **Classic finance research papers in Python** — seven landmark papers applied to market data, refreshed weekly by GitHub Actions
 
@@ -557,13 +558,13 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 </details>
 
 <details>
-<summary><b>All 55 Projects</b></summary>
+<summary><b>All 56 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
 |:--|:--|
 | **Fund Services** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) · [hdfc-flexi-cap-fund-analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) · [fund-operations-reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation) |
-| **Valuation** | [tata-motors-equity-research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) · [eternal-financial-model-dcf](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) · [starbucks-3-statement-dcf](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) · [amazon-dcf-model](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) · [burger-king-lbo-model](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) · [comparable-company-analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) · [precedent-transaction-analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) · [infosys-financial-statements](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) · [itc-financial-statement-analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) |
+| **Valuation** | [alibaba-ipo-financial-model](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/alibaba-ipo-financial-model) · [tata-motors-equity-research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) · [eternal-financial-model-dcf](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) · [starbucks-3-statement-dcf](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) · [amazon-dcf-model](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) · [burger-king-lbo-model](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) · [comparable-company-analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) · [precedent-transaction-analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) · [infosys-financial-statements](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) · [itc-financial-statement-analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) |
 | **Credit** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
 | **Market Research** | [ipo-market-analysis-india](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) · [correlation-matrix-diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) · [nifty-portfolio-analysis-google-sheets](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets) |
 | **Dashboards** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) · [european-sales-dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) · [bajaj-sales-profit-dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) · [financial-performance-dashboard-tableau](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) |
