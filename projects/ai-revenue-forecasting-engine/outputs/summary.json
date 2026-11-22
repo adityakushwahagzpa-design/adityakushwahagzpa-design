@@ -1,0 +1,42 @@
+{
+  "q1_2026_forecast_crore": 105.45,
+  "q1_2026_p10_crore": 100.93,
+  "q1_2026_p90_crore": 110.28,
+  "q1_2025_actual_crore": 89.14,
+  "yoy_growth": 0.1829,
+  "weights": {
+    "seasonal_naive": 0.0,
+    "holt_winters": 0.05,
+    "lightgbm": 0.95
+  },
+  "backtest": {
+    "seasonal_naive": {
+      "daily_wape": 0.1446,
+      "quarterly_total_error": 0.0205,
+      "bias": -0.0036
+    },
+    "holt_winters": {
+      "daily_wape": 0.1096,
+      "quarterly_total_error": 0.064,
+      "bias": -0.0677
+    },
+    "lightgbm": {
+      "daily_wape": 0.0662,
+      "quarterly_total_error": 0.0273,
+      "bias": -0.0004
+    },
+    "ensemble": {
+      "daily_wape": 0.0659,
+      "quarterly_total_error": 0.0279,
+      "bias": -0.0037
+    }
+  },
+  "daily_range": [
+    0.898,
+    1.106
+  ],
+  "monthly_range": [
+    0.957,
+    1.046
+  ]
+}
