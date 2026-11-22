@@ -1,0 +1,8 @@
+incident_id,type,channel,start,end,minutes,description
+INC1,Card gateway outage,Card,2026-10-04 14:10:00,2026-10-04 14:34:00,25,Card failure rate jumps to ~45%
+INC2,UPI partner degradation,UPI,2026-10-06 11:30:00,2026-10-06 12:09:00,40,UPI volume falls ~60%
+INC3,Card fraud burst,Card,2026-10-07 03:05:00,2026-10-07 03:19:00,15,Card ticket size x4 and volume +40% at night
+INC4,Pricing bug,All,2026-10-09 19:00:00,2026-10-09 20:29:00,90,Average ticket halves on all channels
+INC5,Refund spike,NetBanking,2026-10-10 16:20:00,2026-10-10 16:49:00,30,NetBanking refund rate ~9%
+INC6,Slow failure drift,NetBanking,2026-10-12 08:00:00,2026-10-12 13:59:00,360,NetBanking failure rate creeps from 2% to ~7%
+INC7,Duplicate charge bug,UPI,2026-10-13 12:40:00,2026-10-13 12:59:00,20,UPI volume doubles at the same ticket size

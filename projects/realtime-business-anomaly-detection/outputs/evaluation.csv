@@ -1,0 +1,8 @@
+incident_id,type,channel,start,detected,first_alert,latency_min,lead_metric,likely_cause
+INC1,Card gateway outage,Card,2026-10-04 14:10:00,Yes,2026-10-04 14:10:00,0,Card fail_rate (up),Payment failures: gateway or bank outage
+INC2,UPI partner degradation,UPI,2026-10-06 11:30:00,Yes,2026-10-06 11:30:00,0,UPI volume (down),"Traffic drop: partner, app or network outage"
+INC3,Card fraud burst,Card,2026-10-07 03:05:00,Yes,2026-10-07 03:05:00,0,Card avg_ticket (up),Unusually large payments: possible fraud
+INC4,Pricing bug,All,2026-10-09 19:00:00,Yes,2026-10-09 19:00:00,0,UPI avg_ticket (down),Low ticket size: pricing or discount bug
+INC5,Refund spike,NetBanking,2026-10-10 16:20:00,Yes,2026-10-10 16:23:00,3,NetBanking refund_rate (up),Refund surge: fulfilment or merchant problem
+INC6,Slow failure drift,NetBanking,2026-10-12 08:00:00,Yes,2026-10-12 09:33:00,93,NetBanking fail_rate (up),Payment failures: gateway or bank outage
+INC7,Duplicate charge bug,UPI,2026-10-13 12:40:00,Yes,2026-10-13 12:40:00,0,UPI volume (up),"Traffic spike: duplicate charges, bots or an unplanned campaign"

@@ -1,0 +1,15 @@
+{
+  "planted": 7,
+  "detected": 7,
+  "recall": 1.0,
+  "detected_incidents": 8,
+  "false_incidents": 0,
+  "precision": 1.0,
+  "false_incidents_per_day": 0.0,
+  "median_latency_min": 0.0,
+  "max_latency_min": 93.0,
+  "minutes_processed": 20160,
+  "alerts": 542,
+  "volume_alerts_suppressed_by_calendar": 720,
+  "processing_ms_per_minute": 1.92
+}

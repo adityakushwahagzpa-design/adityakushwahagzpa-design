@@ -1,0 +1,543 @@
+ts,entity,metric,z,rule,direction,cause
+2026-10-04 14:10:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:10:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:11:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:11:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:12:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:12:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:13:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:13:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:14:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:14:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:15:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:15:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:16:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:16:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:17:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:17:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:18:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:18:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:19:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:19:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:20:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:20:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:21:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:21:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:22:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:22:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:23:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:23:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:24:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:24:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:25:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:25:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:26:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:26:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:27:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:27:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:28:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:28:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:29:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:29:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:30:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:30:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:31:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:31:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:32:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:32:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:33:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:33:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:34:00,Card,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:34:00,Total,fail_rate,8.21,point,up,Payment failures: gateway or bank outage
+2026-10-04 14:35:00,Card,fail_rate,0.03,sustained,up,Payment failures: gateway or bank outage
+2026-10-06 11:30:00,UPI,volume,-5.69,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:31:00,UPI,volume,-6.0,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:32:00,UPI,volume,-5.84,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:32:00,Total,volume,-3.7,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:33:00,UPI,volume,-6.21,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:33:00,Total,volume,-4.03,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:34:00,UPI,volume,-6.08,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:34:00,Total,volume,-3.55,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:35:00,UPI,volume,-5.6,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:35:00,Total,volume,-3.79,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:36:00,UPI,volume,-5.66,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:36:00,Total,volume,-3.42,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:37:00,UPI,volume,-5.73,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:37:00,Total,volume,-3.7,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:38:00,UPI,volume,-5.91,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:38:00,Total,volume,-3.64,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:39:00,UPI,volume,-5.76,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:39:00,Total,volume,-3.61,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:40:00,UPI,volume,-5.76,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:40:00,Total,volume,-3.78,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:41:00,UPI,volume,-5.94,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:41:00,Total,volume,-3.64,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:42:00,UPI,volume,-5.69,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:42:00,Total,volume,-3.61,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:43:00,UPI,volume,-5.53,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:43:00,Total,volume,-3.42,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:44:00,UPI,volume,-5.92,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:44:00,Total,volume,-3.94,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:45:00,UPI,volume,-5.79,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:45:00,Total,volume,-3.76,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:46:00,UPI,volume,-5.47,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:46:00,Total,volume,-3.33,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:47:00,UPI,volume,-5.79,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:47:00,Total,volume,-3.68,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:48:00,UPI,volume,-5.95,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:48:00,Total,volume,-3.74,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:49:00,UPI,volume,-5.68,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:49:00,Total,volume,-3.66,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:50:00,UPI,volume,-5.72,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:50:00,Total,volume,-3.8,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:51:00,UPI,volume,-5.78,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:51:00,Total,volume,-3.56,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:52:00,UPI,volume,-5.88,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:52:00,Total,volume,-3.91,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:53:00,UPI,volume,-6.05,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:53:00,Total,volume,-4.08,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:54:00,UPI,volume,-6.01,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:54:00,Total,volume,-3.68,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:55:00,UPI,volume,-5.92,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:55:00,Total,volume,-3.54,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:56:00,UPI,volume,-5.83,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:56:00,Total,volume,-3.73,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:57:00,UPI,volume,-6.0,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:57:00,Total,volume,-3.9,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:58:00,UPI,volume,-6.13,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:58:00,Total,volume,-3.6,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:59:00,UPI,volume,-5.41,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 11:59:00,Total,volume,-3.49,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:00:00,UPI,volume,-5.58,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:00:00,Total,volume,-3.46,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:01:00,UPI,volume,-5.77,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:02:00,UPI,volume,-5.81,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:03:00,UPI,volume,-5.51,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:04:00,UPI,volume,-5.97,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:04:00,Total,volume,-3.65,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:05:00,UPI,volume,-5.55,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:05:00,Total,volume,-3.77,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:06:00,UPI,volume,-5.65,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:06:00,Total,volume,-3.55,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:07:00,UPI,volume,-5.99,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:07:00,Total,volume,-3.69,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:08:00,UPI,volume,-5.62,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:08:00,Total,volume,-3.79,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:09:00,UPI,volume,-5.77,point,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:09:00,Total,volume,-3.72,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:10:00,UPI,volume,-0.21,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:10:00,Total,volume,-0.34,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:11:00,UPI,volume,-0.29,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-06 12:11:00,Total,volume,-0.46,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-07 03:05:00,Card,avg_ticket,25.14,point,up,Unusually large payments: possible fraud
+2026-10-07 03:06:00,Card,avg_ticket,17.77,point,up,Unusually large payments: possible fraud
+2026-10-07 03:07:00,Card,avg_ticket,25.04,point,up,Unusually large payments: possible fraud
+2026-10-07 03:08:00,Card,avg_ticket,28.59,point,up,Unusually large payments: possible fraud
+2026-10-07 03:09:00,Card,avg_ticket,18.94,point,up,Unusually large payments: possible fraud
+2026-10-07 03:10:00,Card,avg_ticket,21.9,point,up,Unusually large payments: possible fraud
+2026-10-07 03:11:00,Card,avg_ticket,21.5,point,up,Unusually large payments: possible fraud
+2026-10-07 03:12:00,Card,avg_ticket,28.29,point,up,Unusually large payments: possible fraud
+2026-10-07 03:13:00,Card,avg_ticket,26.42,point,up,Unusually large payments: possible fraud
+2026-10-07 03:14:00,Card,avg_ticket,29.89,point,up,Unusually large payments: possible fraud
+2026-10-07 03:15:00,Card,avg_ticket,21.45,point,up,Unusually large payments: possible fraud
+2026-10-07 03:16:00,Card,avg_ticket,27.55,point,up,Unusually large payments: possible fraud
+2026-10-07 03:17:00,Card,avg_ticket,21.64,point,up,Unusually large payments: possible fraud
+2026-10-07 03:18:00,Card,avg_ticket,17.45,point,up,Unusually large payments: possible fraud
+2026-10-07 03:19:00,Card,avg_ticket,18.29,point,up,Unusually large payments: possible fraud
+2026-10-07 03:20:00,Card,avg_ticket,-0.63,sustained,down,Low ticket size: pricing or discount bug
+2026-10-07 03:21:00,Card,avg_ticket,-0.14,sustained,down,Low ticket size: pricing or discount bug
+2026-10-09 19:00:00,Card,avg_ticket,-8.56,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:00:00,NetBanking,avg_ticket,-6.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:00:00,UPI,avg_ticket,-14.42,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:01:00,Card,avg_ticket,-9.8,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:01:00,NetBanking,avg_ticket,-7.29,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:01:00,UPI,avg_ticket,-15.34,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:02:00,Card,avg_ticket,-9.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:02:00,NetBanking,avg_ticket,-5.22,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:02:00,UPI,avg_ticket,-13.42,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:03:00,Card,avg_ticket,-9.46,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:03:00,NetBanking,avg_ticket,-6.36,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:03:00,UPI,avg_ticket,-15.12,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:04:00,Card,avg_ticket,-8.94,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:04:00,NetBanking,avg_ticket,-6.15,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:04:00,UPI,avg_ticket,-14.98,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:05:00,Card,avg_ticket,-9.54,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:05:00,NetBanking,avg_ticket,-7.27,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:05:00,UPI,avg_ticket,-15.26,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:06:00,Card,avg_ticket,-9.21,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:06:00,NetBanking,avg_ticket,-5.71,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:06:00,UPI,avg_ticket,-15.77,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:07:00,Card,avg_ticket,-9.48,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:07:00,NetBanking,avg_ticket,-6.32,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:07:00,UPI,avg_ticket,-14.01,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:08:00,Card,avg_ticket,-10.11,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:08:00,NetBanking,avg_ticket,-7.09,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:08:00,UPI,avg_ticket,-14.59,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:09:00,Card,avg_ticket,-9.38,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:09:00,NetBanking,avg_ticket,-6.66,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:09:00,UPI,avg_ticket,-15.39,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:10:00,Card,avg_ticket,-9.8,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:10:00,NetBanking,avg_ticket,-6.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:10:00,UPI,avg_ticket,-13.34,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:11:00,Card,avg_ticket,-9.39,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:11:00,NetBanking,avg_ticket,-6.68,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:11:00,UPI,avg_ticket,-14.55,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:12:00,Card,avg_ticket,-9.76,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:12:00,NetBanking,avg_ticket,-6.42,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:12:00,UPI,avg_ticket,-14.66,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:13:00,Card,avg_ticket,-9.55,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:13:00,NetBanking,avg_ticket,-7.08,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:13:00,UPI,avg_ticket,-15.44,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:14:00,Card,avg_ticket,-10.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:14:00,NetBanking,avg_ticket,-6.11,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:14:00,UPI,avg_ticket,-15.06,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:15:00,Card,avg_ticket,-10.24,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:15:00,NetBanking,avg_ticket,-7.04,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:15:00,UPI,avg_ticket,-15.43,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:16:00,Card,avg_ticket,-9.96,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:16:00,NetBanking,avg_ticket,-7.1,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:16:00,UPI,avg_ticket,-16.07,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:17:00,Card,avg_ticket,-9.96,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:17:00,NetBanking,avg_ticket,-7.04,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:17:00,UPI,avg_ticket,-15.69,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:18:00,Card,avg_ticket,-9.99,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:18:00,NetBanking,avg_ticket,-6.41,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:18:00,UPI,avg_ticket,-16.07,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:19:00,Card,avg_ticket,-10.13,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:19:00,NetBanking,avg_ticket,-8.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:19:00,UPI,avg_ticket,-16.72,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:20:00,Card,avg_ticket,-10.07,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:20:00,NetBanking,avg_ticket,-7.16,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:20:00,UPI,avg_ticket,-15.35,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:21:00,Card,avg_ticket,-10.57,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:21:00,NetBanking,avg_ticket,-7.44,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:21:00,UPI,avg_ticket,-15.35,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:22:00,Card,avg_ticket,-9.65,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:22:00,NetBanking,avg_ticket,-7.78,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:22:00,UPI,avg_ticket,-15.76,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:23:00,Card,avg_ticket,-10.52,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:23:00,NetBanking,avg_ticket,-6.4,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:23:00,UPI,avg_ticket,-14.71,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:24:00,Card,avg_ticket,-9.16,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:24:00,NetBanking,avg_ticket,-6.53,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:24:00,UPI,avg_ticket,-16.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:25:00,Card,avg_ticket,-10.69,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:25:00,NetBanking,avg_ticket,-7.32,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:25:00,UPI,avg_ticket,-15.61,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:26:00,Card,avg_ticket,-9.77,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:26:00,NetBanking,avg_ticket,-6.66,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:26:00,UPI,avg_ticket,-16.6,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:27:00,Card,avg_ticket,-11.43,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:27:00,NetBanking,avg_ticket,-7.36,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:27:00,UPI,avg_ticket,-16.41,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:28:00,Card,avg_ticket,-9.9,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:28:00,NetBanking,avg_ticket,-7.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:28:00,UPI,avg_ticket,-16.38,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:29:00,Card,avg_ticket,-11.23,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:29:00,NetBanking,avg_ticket,-7.19,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:29:00,UPI,avg_ticket,-16.18,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:30:00,Card,avg_ticket,-9.19,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:30:00,NetBanking,avg_ticket,-6.73,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:30:00,UPI,avg_ticket,-16.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:31:00,Card,avg_ticket,-11.26,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:31:00,NetBanking,avg_ticket,-8.3,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:31:00,UPI,avg_ticket,-15.43,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:32:00,Card,avg_ticket,-11.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:32:00,NetBanking,avg_ticket,-7.01,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:32:00,UPI,avg_ticket,-14.29,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:33:00,Card,avg_ticket,-10.84,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:33:00,NetBanking,avg_ticket,-6.59,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:33:00,UPI,avg_ticket,-17.07,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:34:00,Card,avg_ticket,-11.18,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:34:00,NetBanking,avg_ticket,-8.22,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:34:00,UPI,avg_ticket,-16.34,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:35:00,Card,avg_ticket,-11.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:35:00,NetBanking,avg_ticket,-7.61,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:35:00,UPI,avg_ticket,-16.51,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:36:00,Card,avg_ticket,-10.45,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:36:00,NetBanking,avg_ticket,-6.87,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:36:00,UPI,avg_ticket,-15.76,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:37:00,Card,avg_ticket,-10.51,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:37:00,NetBanking,avg_ticket,-7.05,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:37:00,UPI,avg_ticket,-16.9,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:38:00,Card,avg_ticket,-11.39,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:38:00,NetBanking,avg_ticket,-7.62,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:38:00,UPI,avg_ticket,-16.48,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:39:00,Card,avg_ticket,-11.3,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:39:00,NetBanking,avg_ticket,-7.23,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:39:00,UPI,avg_ticket,-16.93,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:40:00,Card,avg_ticket,-10.57,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:40:00,NetBanking,avg_ticket,-6.29,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:40:00,UPI,avg_ticket,-16.28,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:41:00,Card,avg_ticket,-10.68,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:41:00,NetBanking,avg_ticket,-7.12,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:41:00,UPI,avg_ticket,-16.46,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:42:00,Card,avg_ticket,-10.23,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:42:00,NetBanking,avg_ticket,-7.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:42:00,UPI,avg_ticket,-16.82,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:43:00,Card,avg_ticket,-10.49,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:43:00,NetBanking,avg_ticket,-7.66,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:43:00,UPI,avg_ticket,-15.8,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:44:00,Card,avg_ticket,-10.94,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:44:00,NetBanking,avg_ticket,-7.24,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:44:00,UPI,avg_ticket,-17.3,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:45:00,Card,avg_ticket,-10.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:45:00,NetBanking,avg_ticket,-7.78,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:45:00,UPI,avg_ticket,-16.37,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:46:00,Card,avg_ticket,-10.7,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:46:00,NetBanking,avg_ticket,-7.74,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:46:00,UPI,avg_ticket,-17.56,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:47:00,Card,avg_ticket,-11.19,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:47:00,NetBanking,avg_ticket,-7.31,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:47:00,UPI,avg_ticket,-16.7,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:48:00,Card,avg_ticket,-11.69,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:48:00,NetBanking,avg_ticket,-7.37,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:48:00,UPI,avg_ticket,-17.18,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:49:00,Card,avg_ticket,-10.77,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:49:00,NetBanking,avg_ticket,-7.15,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:49:00,UPI,avg_ticket,-17.84,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:50:00,Card,avg_ticket,-10.74,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:50:00,NetBanking,avg_ticket,-7.66,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:50:00,UPI,avg_ticket,-16.37,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:51:00,Card,avg_ticket,-11.41,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:51:00,NetBanking,avg_ticket,-7.75,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:51:00,UPI,avg_ticket,-17.55,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:52:00,Card,avg_ticket,-11.09,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:52:00,NetBanking,avg_ticket,-8.42,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:52:00,UPI,avg_ticket,-17.62,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:53:00,Card,avg_ticket,-11.53,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:53:00,NetBanking,avg_ticket,-7.82,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:53:00,UPI,avg_ticket,-17.54,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:54:00,Card,avg_ticket,-10.99,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:54:00,NetBanking,avg_ticket,-9.11,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:54:00,UPI,avg_ticket,-16.09,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:55:00,Card,avg_ticket,-10.8,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:55:00,NetBanking,avg_ticket,-8.46,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:55:00,UPI,avg_ticket,-16.44,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:56:00,Card,avg_ticket,-11.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:56:00,NetBanking,avg_ticket,-8.22,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:56:00,UPI,avg_ticket,-18.42,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:57:00,Card,avg_ticket,-11.17,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:57:00,NetBanking,avg_ticket,-7.82,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:57:00,UPI,avg_ticket,-18.76,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:58:00,Card,avg_ticket,-11.62,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:58:00,NetBanking,avg_ticket,-7.44,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:58:00,UPI,avg_ticket,-16.53,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:59:00,Card,avg_ticket,-10.77,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:59:00,NetBanking,avg_ticket,-8.9,point,down,Low ticket size: pricing or discount bug
+2026-10-09 19:59:00,UPI,avg_ticket,-16.62,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:00:00,Card,avg_ticket,-10.94,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:00:00,NetBanking,avg_ticket,-7.91,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:00:00,UPI,avg_ticket,-16.33,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:01:00,Card,avg_ticket,-11.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:01:00,NetBanking,avg_ticket,-6.94,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:01:00,UPI,avg_ticket,-17.43,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:02:00,Card,avg_ticket,-11.92,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:02:00,NetBanking,avg_ticket,-8.04,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:02:00,UPI,avg_ticket,-17.56,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:03:00,Card,avg_ticket,-11.79,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:03:00,NetBanking,avg_ticket,-7.26,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:03:00,UPI,avg_ticket,-17.51,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:04:00,Card,avg_ticket,-11.26,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:04:00,NetBanking,avg_ticket,-7.64,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:04:00,UPI,avg_ticket,-18.33,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:05:00,Card,avg_ticket,-12.81,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:05:00,NetBanking,avg_ticket,-8.15,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:05:00,UPI,avg_ticket,-16.99,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:06:00,Card,avg_ticket,-10.86,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:06:00,NetBanking,avg_ticket,-8.15,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:06:00,UPI,avg_ticket,-18.1,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:07:00,Card,avg_ticket,-11.78,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:07:00,NetBanking,avg_ticket,-6.94,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:07:00,UPI,avg_ticket,-17.43,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:08:00,Card,avg_ticket,-10.63,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:08:00,NetBanking,avg_ticket,-6.65,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:08:00,UPI,avg_ticket,-17.34,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:09:00,Card,avg_ticket,-12.26,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:09:00,NetBanking,avg_ticket,-7.25,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:09:00,UPI,avg_ticket,-17.29,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:10:00,Card,avg_ticket,-11.61,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:10:00,NetBanking,avg_ticket,-7.61,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:10:00,UPI,avg_ticket,-17.78,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:11:00,Card,avg_ticket,-10.74,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:11:00,NetBanking,avg_ticket,-7.5,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:11:00,UPI,avg_ticket,-18.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:12:00,Card,avg_ticket,-12.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:12:00,NetBanking,avg_ticket,-8.07,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:12:00,UPI,avg_ticket,-18.11,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:13:00,Card,avg_ticket,-10.51,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:13:00,NetBanking,avg_ticket,-8.07,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:13:00,UPI,avg_ticket,-17.72,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:14:00,Card,avg_ticket,-11.46,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:14:00,NetBanking,avg_ticket,-8.78,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:14:00,UPI,avg_ticket,-17.44,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:15:00,Card,avg_ticket,-12.1,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:15:00,NetBanking,avg_ticket,-7.48,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:15:00,UPI,avg_ticket,-18.18,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:16:00,Card,avg_ticket,-11.01,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:16:00,NetBanking,avg_ticket,-7.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:16:00,UPI,avg_ticket,-17.87,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:17:00,Card,avg_ticket,-11.98,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:17:00,NetBanking,avg_ticket,-7.45,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:17:00,UPI,avg_ticket,-17.76,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:18:00,Card,avg_ticket,-12.53,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:18:00,NetBanking,avg_ticket,-7.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:18:00,UPI,avg_ticket,-17.37,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:19:00,Card,avg_ticket,-10.62,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:19:00,NetBanking,avg_ticket,-7.0,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:19:00,UPI,avg_ticket,-17.68,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:20:00,Card,avg_ticket,-11.9,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:20:00,NetBanking,avg_ticket,-6.61,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:20:00,UPI,avg_ticket,-17.31,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:21:00,Card,avg_ticket,-10.92,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:21:00,NetBanking,avg_ticket,-8.53,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:21:00,UPI,avg_ticket,-17.8,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:22:00,Card,avg_ticket,-11.2,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:22:00,NetBanking,avg_ticket,-8.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:22:00,UPI,avg_ticket,-17.5,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:23:00,Card,avg_ticket,-11.67,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:23:00,NetBanking,avg_ticket,-7.08,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:23:00,UPI,avg_ticket,-17.77,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:24:00,Card,avg_ticket,-11.12,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:24:00,NetBanking,avg_ticket,-7.36,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:24:00,UPI,avg_ticket,-18.54,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:25:00,Card,avg_ticket,-11.67,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:25:00,NetBanking,avg_ticket,-7.56,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:25:00,UPI,avg_ticket,-16.95,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:26:00,Card,avg_ticket,-10.42,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:26:00,NetBanking,avg_ticket,-7.63,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:26:00,UPI,avg_ticket,-17.65,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:27:00,Card,avg_ticket,-11.3,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:27:00,NetBanking,avg_ticket,-7.35,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:27:00,UPI,avg_ticket,-17.95,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:28:00,Card,avg_ticket,-10.35,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:28:00,NetBanking,avg_ticket,-7.26,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:28:00,UPI,avg_ticket,-17.78,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:29:00,Card,avg_ticket,-12.03,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:29:00,NetBanking,avg_ticket,-8.29,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:29:00,UPI,avg_ticket,-17.22,point,down,Low ticket size: pricing or discount bug
+2026-10-09 20:30:00,Card,avg_ticket,1.47,sustained,up,Unusually large payments: possible fraud
+2026-10-09 20:30:00,NetBanking,avg_ticket,-0.76,sustained,down,Low ticket size: pricing or discount bug
+2026-10-09 20:30:00,UPI,avg_ticket,0.5,sustained,up,Unusually large payments: possible fraud
+2026-10-09 20:31:00,Card,avg_ticket,0.7,sustained,up,Unusually large payments: possible fraud
+2026-10-09 20:31:00,NetBanking,avg_ticket,3.08,sustained,up,Unusually large payments: possible fraud
+2026-10-09 20:31:00,UPI,avg_ticket,0.72,sustained,up,Unusually large payments: possible fraud
+2026-10-10 16:23:00,NetBanking,refund_rate,4.41,cusum,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:24:00,NetBanking,refund_rate,4.38,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:25:00,NetBanking,refund_rate,5.47,point,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:26:00,NetBanking,refund_rate,4.56,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:26:00,Total,refund_rate,2.54,cusum,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:27:00,NetBanking,refund_rate,3.25,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:28:00,NetBanking,refund_rate,4.18,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:29:00,NetBanking,refund_rate,3.52,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:30:00,NetBanking,refund_rate,4.18,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:31:00,NetBanking,refund_rate,6.09,point,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:32:00,NetBanking,refund_rate,2.54,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:33:00,NetBanking,refund_rate,0.74,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:34:00,Total,refund_rate,0.97,cusum,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:37:00,NetBanking,refund_rate,5.35,point,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:38:00,NetBanking,refund_rate,4.93,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:39:00,NetBanking,refund_rate,5.58,point,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:39:00,Total,refund_rate,3.79,cusum,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:40:00,NetBanking,refund_rate,5.39,point,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:41:00,NetBanking,refund_rate,3.13,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:42:00,NetBanking,refund_rate,5.29,point,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:43:00,NetBanking,refund_rate,3.78,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:44:00,NetBanking,refund_rate,4.59,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:45:00,NetBanking,refund_rate,4.32,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:46:00,NetBanking,refund_rate,4.77,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:46:00,Total,refund_rate,1.8,cusum,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:47:00,NetBanking,refund_rate,4.48,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:48:00,NetBanking,refund_rate,4.46,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-10 16:49:00,NetBanking,refund_rate,3.75,sustained,up,Refund surge: fulfilment or merchant problem
+2026-10-12 09:33:00,NetBanking,fail_rate,1.68,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 09:49:00,NetBanking,fail_rate,1.69,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 10:00:00,NetBanking,fail_rate,1.5,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 10:13:00,NetBanking,fail_rate,2.07,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 10:21:00,NetBanking,fail_rate,2.04,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 10:30:00,NetBanking,fail_rate,0.96,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 10:42:00,NetBanking,fail_rate,3.1,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 10:54:00,NetBanking,fail_rate,3.08,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:00:00,Total,fail_rate,1.0,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:01:00,NetBanking,fail_rate,0.98,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:09:00,NetBanking,fail_rate,2.39,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:12:00,Total,fail_rate,1.12,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:16:00,NetBanking,fail_rate,1.79,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:26:00,NetBanking,fail_rate,2.64,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:33:00,NetBanking,fail_rate,2.19,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:34:00,Total,fail_rate,2.64,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:38:00,NetBanking,fail_rate,3.54,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:46:00,NetBanking,fail_rate,2.82,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:54:00,NetBanking,fail_rate,3.29,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 11:59:00,NetBanking,fail_rate,2.36,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:01:00,Total,fail_rate,1.48,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:04:00,NetBanking,fail_rate,2.77,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:09:00,NetBanking,fail_rate,3.2,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:16:00,NetBanking,fail_rate,3.53,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:26:00,NetBanking,fail_rate,3.01,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:33:00,NetBanking,fail_rate,2.89,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:35:00,Total,fail_rate,2.05,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:39:00,NetBanking,fail_rate,5.68,point,up,Payment failures: gateway or bank outage
+2026-10-12 12:44:00,NetBanking,fail_rate,2.41,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:52:00,NetBanking,fail_rate,2.03,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:54:00,Total,fail_rate,1.74,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 12:57:00,NetBanking,fail_rate,2.99,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:05:00,NetBanking,fail_rate,3.3,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:10:00,NetBanking,fail_rate,4.33,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:13:00,Total,fail_rate,2.76,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:15:00,NetBanking,fail_rate,4.11,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:18:00,NetBanking,fail_rate,3.66,sustained,up,Payment failures: gateway or bank outage
+2026-10-12 13:19:00,NetBanking,fail_rate,2.48,sustained,up,Payment failures: gateway or bank outage
+2026-10-12 13:22:00,Total,fail_rate,2.11,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:25:00,NetBanking,fail_rate,2.0,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:30:00,NetBanking,fail_rate,6.17,point,up,Payment failures: gateway or bank outage
+2026-10-12 13:36:00,NetBanking,fail_rate,2.98,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:42:00,NetBanking,fail_rate,3.11,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:48:00,NetBanking,fail_rate,3.57,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:50:00,NetBanking,fail_rate,4.76,sustained,up,Payment failures: gateway or bank outage
+2026-10-12 13:50:00,Total,fail_rate,1.83,cusum,up,Payment failures: gateway or bank outage
+2026-10-12 13:57:00,NetBanking,fail_rate,1.11,cusum,up,Payment failures: gateway or bank outage
+2026-10-13 12:40:00,UPI,volume,9.42,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:40:00,Total,volume,6.43,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:41:00,UPI,volume,9.58,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:41:00,Total,volume,6.03,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:42:00,UPI,volume,9.5,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:42:00,Total,volume,6.18,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:43:00,UPI,volume,8.43,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:43:00,Total,volume,5.51,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:44:00,UPI,volume,9.49,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:44:00,Total,volume,6.0,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:45:00,UPI,volume,9.17,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:45:00,Total,volume,5.61,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:46:00,UPI,volume,10.71,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:46:00,Total,volume,7.13,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:47:00,UPI,volume,9.31,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:47:00,Total,volume,6.04,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:48:00,UPI,volume,10.24,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:48:00,Total,volume,6.77,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:49:00,UPI,volume,9.7,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:49:00,Total,volume,6.42,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:50:00,UPI,volume,9.67,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:50:00,Total,volume,6.0,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:51:00,UPI,volume,9.62,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:51:00,Total,volume,5.98,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:52:00,UPI,volume,9.6,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:52:00,Total,volume,6.07,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:53:00,UPI,volume,9.68,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:53:00,Total,volume,6.14,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:54:00,UPI,volume,9.45,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:54:00,Total,volume,6.4,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:55:00,UPI,volume,9.98,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:55:00,Total,volume,6.31,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:56:00,UPI,volume,10.0,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:56:00,Total,volume,6.22,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:57:00,UPI,volume,9.51,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:57:00,Total,volume,5.59,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:58:00,UPI,volume,9.18,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:58:00,Total,volume,5.74,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:59:00,UPI,volume,8.49,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 12:59:00,Total,volume,5.66,point,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 13:00:00,UPI,volume,0.07,sustained,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 13:00:00,Total,volume,0.21,sustained,up,"Traffic spike: duplicate charges, bots or an unplanned campaign"
+2026-10-13 13:01:00,UPI,volume,-0.55,sustained,down,"Traffic drop: partner, app or network outage"
+2026-10-13 13:01:00,Total,volume,-0.59,sustained,down,"Traffic drop: partner, app or network outage"
