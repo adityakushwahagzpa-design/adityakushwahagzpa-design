@@ -641,6 +641,7 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=adityakushwahagzpa-design&color=701A3D&style=flat-square&label=Profile+Views" alt="Profile views"/>
+  <img src="https://img.shields.io/github/stars/adityakushwahagzpa-design?affiliations=OWNER&style=flat-square&color=701A3D&label=Total%20Stars&logo=github" alt="Total stars"/>
 </p>
 
 ---
