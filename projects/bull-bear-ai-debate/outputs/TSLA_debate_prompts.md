@@ -40,7 +40,7 @@ FINANCIALS (SEC XBRL, USD billions):
 [F3] FY ending 2024-12: Revenue $97.69bn, Operating income $7.08bn, Net income $7.09bn, Cash from operations $14.92bn
 [F4] FY ending 2025-12: Revenue $94.83bn, Operating income $4.36bn, Net income $3.79bn, Cash from operations $14.75bn
 
-MARKET DATA (yfinance):
+MARKET DATA:
 [P1] 1y return %: -11.6
 [P2] SPY 1y return %: 5.8
 [P3] annualised volatility %: 46.2
@@ -59,4 +59,12 @@ MARKET DATA (yfinance):
 
 **Bear:** You are a sceptical short-seller making the BEAR case (avoid or sell) for this stock. Use ONLY the evidence provided. Cite evidence IDs in square brackets, e.g. [R3], [M5], [F2], [P1], after every claim. No outside facts, no price targets you cannot derive from the evidence. Be specific and concise (max 250 words).
 
+**Rebuttal task:** Here is your opponent's case. Rebut their two strongest points using only the evidence pack, citing IDs after every claim (max 150 words).
+
 **Judge:** You are an impartial investment committee chair. Judge the debate below on evidence quality, not rhetoric. Penalise any claim not supported by a cited evidence ID or that misreads the evidence. Reply with JSON only, no prose, using exactly these keys: {"verdict": "bull" | "bear" | "too close to call", "confidence": 0-100, "bull_score": 0-10, "bear_score": 0-10, "strongest_bull_point": str, "strongest_bear_point": str, "unsupported_claims": [str], "what_would_change_the_verdict": str}
+
+## Rule-based referee view: leans bear
+
+Bull signals: Cash from operations / net income 3.89x [F]
+
+Bear signals: Revenue growth -2.9% [F]; Net margin 4.0% [F]; Forward P/E 160.2 [P]; 1-year return vs SPY -17.4 pts [P]; Volatility 46.2% [P]

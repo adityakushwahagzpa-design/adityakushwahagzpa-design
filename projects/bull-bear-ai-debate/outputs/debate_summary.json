@@ -3,19 +3,22 @@
   "model": "claude-sonnet-5-5",
   "results": [
     {
+      "ticker": "AAPL",
+      "verdict": "dry run",
+      "reason": "no ANTHROPIC_API_KEY",
+      "referee_view": "leans bull"
+    },
+    {
       "ticker": "NVDA",
       "verdict": "dry run",
-      "reason": "live run failed: AuthenticationError"
+      "reason": "no ANTHROPIC_API_KEY",
+      "referee_view": "mixed"
     },
     {
       "ticker": "TSLA",
       "verdict": "dry run",
-      "reason": "live run failed: AuthenticationError"
-    },
-    {
-      "ticker": "AAPL",
-      "verdict": "dry run",
-      "reason": "live run failed: AuthenticationError"
+      "reason": "no ANTHROPIC_API_KEY",
+      "referee_view": "leans bear"
     }
   ]
 }
