@@ -605,7 +605,7 @@ Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
 | **Derivatives** | Option pricing (Black–Scholes, binomial tree, Monte Carlo) · Greeks · put–call parity | [Black–Scholes](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/black-scholes-option-pricing) |
 | **Risk management** | Market risk (volatility, VaR, drawdown) · credit risk (scorecards, Gini, KS) · operational risk and controls · financial risk management | [Portfolio analytics](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/portfolio-performance-analytics) · [Credit default model](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) · NYIF Risk Management |
 | **Banking & credit** | Credit appraisal (DSCR, 5 Cs, financial ratios) · lending decisions · banking and financial regulations (RBI) · retail banking channels (UPI, NEFT, RTGS, IMPS) | [Credit appraisal](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) · [Bank transactions (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) · MBA coursework |
-| **Standards, tools & testing** | IFRS and Ind AS · SOX and internal-control testing · Bloomberg Terminal · Excel VBA and macros | Self-study |
+| **Standards, tools & testing** | IFRS and Ind AS · SOX and internal-control testing · Bloomberg Terminal · Excel VBA and macros | MBA (Finance) coursework |
 | **Working style** | Attention to detail · deadline-driven month-end work · clear written explanations of breaks · night-shift ready | |
 
 ---
