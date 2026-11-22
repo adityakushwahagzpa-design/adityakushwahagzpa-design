@@ -137,7 +137,7 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 | **[Nifty 50 Portfolio Analysis (Google Sheets)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets)** | Live GOOGLEFINANCE portfolio of seven stocks: diversification cut volatility from 22.1% to 13.2%, but returns trailed the Nifty 50 (21.5% vs 27.0%) | Google Sheets |
 | **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
 | **[Tata Motors PV — Equity Research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research)** | One-page research report on the post-demerger passenger vehicle business, linked to its valuation model | Excel, PDF |
-| **[Alibaba IPO Financial Model](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/alibaba-ipo-financial-model)** | Three-statement model and DCF from the 2014 F-1 prospectus: US$77.30 per ADS vs the US$68 IPO price (27.7x FY2015E EV/EBITDA at IPO) | Excel |
+| **[Alibaba IPO Financial Model](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/alibaba-ipo-financial-model)** | Three-statement model and DCF from the 2014 F-1 prospectus: US$77.30 per ADS vs the US$68 IPO price (27.7x FY2015E EV/EBITDA at IPO) | Excel, [Google Sheets](https://docs.google.com/spreadsheets/d/1BfAjW2cjShVDo6ldrYYk3yn0Ud62uiApXVrn0d1LCts/edit?usp=sharing) |
 
 **Classic finance research papers in Python** — seven landmark papers applied to market data, refreshed weekly by GitHub Actions
 

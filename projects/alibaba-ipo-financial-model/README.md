@@ -8,6 +8,8 @@ A three-statement model and DCF valuation of Alibaba Group, built from its Septe
 | **What was done** | A GMV × take-rate revenue build; a linked income statement, balance sheet and cash flow statement for FY2015–FY2024; PP&E, intangibles and debt schedules; a CAPM WACC; an unlevered DCF with mid-year discounting from the IPO pricing date; a WACC × terminal-growth sensitivity table; and the multiples implied by the IPO price |
 | **Key finding** | The DCF gives **US$77.30 per ADS**, 13.7% above the US$68 IPO price, on a 10.0% WACC and 3.0% terminal growth. At US$68 the stock was priced at 27.7x FY2015E EV/EBITDA and 35.9x FY2015E earnings. The shares closed their first day at US$93.89, 21% above the DCF value. The DCF range across the sensitivity table is US$63–102 |
 
+**Live Google Sheet (view only):** [Alibaba IPO Financial Model](https://docs.google.com/spreadsheets/d/1BfAjW2cjShVDo6ldrYYk3yn0Ud62uiApXVrn0d1LCts/edit?usp=sharing). Make a copy (File > Make a copy) to change the assumptions.
+
 **Workbook:** [Alibaba_IPO_Financial_Model.xlsx](Alibaba_IPO_Financial_Model.xlsx), 11 sheets and about 1,500 formulas, with no hardcoded numbers in the forecast.
 
 ![Revenue and EBIT margin](outputs/revenue_margin.png)
