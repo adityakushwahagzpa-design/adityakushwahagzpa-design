@@ -1,5 +1,7 @@
 # Marketing Attribution & ROI Intelligence (AI-Powered)
 
+**[Interactive demo](https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/marketing-attribution.html)** · explore the results in your browser
+
 Which marketing channels actually drive sales, what each rupee returns, and where next quarter's budget should go. The project combines multi-touch attribution, a marketing mix model calibrated with lift tests, a budget optimiser, and a Claude AI analyst that answers budget questions by running the models through tool calls.
 
 | | |

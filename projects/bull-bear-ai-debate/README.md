@@ -1,5 +1,7 @@
 # Bull vs Bear AI Debate
 
+**[Interactive demo](https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/bull-bear-debate.html)** · explore the results in your browser
+
 Three Claude AI agents debate whether to own a stock. A Bull agent and a Bear agent argue using only evidence from the company's latest 10-K and market data, each answers the other's case, and a Judge agent scores both sides on evidence quality. Every citation is then checked in code.
 
 | | |
