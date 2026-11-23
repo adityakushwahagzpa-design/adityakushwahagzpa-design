@@ -81,8 +81,8 @@ Leadership of the university finance club and its 5-member core team.
 | **[AI-Powered Revenue Forecasting Engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-revenue-forecasting-engine)** | LightGBM forecast (6.6% daily error in backtest) plus a Claude AI analyst that answers what-if questions by running the model through tool calls; Q1 2026 forecast ₹104.2 crore (+16.9%, range ₹99.4–108.6 crore) | Python, LightGBM, Claude API · [Live demo](https://claude.ai/artifact/HRDSJjGuvzysgtu8szUpTq) |
 | **[Marketing Attribution & ROI Intelligence](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/marketing-attribution-roi-intelligence)** | 8 attribution models on 60,000 customer journeys (ML counterfactual within 1.1 pts of the true channel shares vs 12.1 for last touch), a marketing mix model calibrated with lift tests, a budget optimiser (+3.5% revenue for the same spend) and a Claude AI analyst | Python, LightGBM, SciPy, Claude API · [Live demo](https://claude.ai/artifact/Krw3sHXTRenx1wzDHvvrSL) |
 | **[Zomato Restaurant Analysis (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/zomato-restaurant-analysis-sql)** | 9,551 real Zomato restaurants in 3 tables and 18 queries: 31% of price range 3–4 restaurants rated 4.0+ vs 4% in range 1; delivery moves ratings by under 0.2 points; 24.7% of Indian listings unrated | PostgreSQL, Python |
-| **[IPL Data Analysis 2008–2026 (Python)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python)** | 1,243 matches and 295,732 deliveries: average first-innings score up from 162.6 to 188.5 since the 2023 Impact Player rule; chasing teams win 54.7%, toss winners only 51.6% | Python, pandas, Matplotlib |
-| **[Flipkart Product Analysis Dashboard (Excel)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/flipkart-product-analysis-dashboard)** | 2,000 products and 25,000 order lines: Mobiles are 9.9% of products but 41.6% of GMV; 70%+ discounts mean a 3.57 rating and 17.5% returns; Assured products sell 64% more units each | Excel (SUMIF, COUNTIFS, INDEX/MATCH, charts) |
+| **[IPL Data Analysis 2008–2026 (Python + SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python)** | 1,243 matches and 295,732 deliveries: average first-innings score up from 162.4 to 188.5 since the 2023 Impact Player rule; chasing teams win 54.7%, toss winners only 51.6%; 15 PostgreSQL queries cross-checked against pandas | Python, pandas, PostgreSQL |
+| **[Flipkart Product Analysis Dashboard (Excel + SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/flipkart-product-analysis-dashboard)** | 2,000 products and 25,000 order lines: Mobiles are 9.9% of products but 41.6% of GMV; 70%+ discounts mean a 3.57 rating and 17.5% returns; Assured products sell 64% more units each; 14 PostgreSQL queries (top 10% of products = 65.4% of GMV) | Excel, PostgreSQL |
 | **[Bull vs Bear AI Debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate)** | Three Claude agents (Bull, Bear, Judge) debate NVIDIA, Tesla and Apple using only cited 10-K and market evidence; every citation checked in code and invented ones penalised; referee view: Apple leans bull, Tesla leans bear, NVIDIA mixed | Python, Claude API, SEC EDGAR · [Live demo](https://claude.ai/artifact/JCbXAFMn8LCeTeF1wwTbGX) |
 | **[Nifty 50 Portfolio Analysis (Google Sheets)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets)** | Live GOOGLEFINANCE portfolio of seven stocks: diversification cut volatility from 22.1% to 13.2%, but returns trailed the Nifty 50 (21.5% vs 27.0%) | Google Sheets |
 | **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
@@ -571,36 +571,36 @@ Joins, CASE and FILTER, a self-join for cuisine pairs, window functions, CTEs, P
 </details>
 
 <details>
-<summary><b>IPL Data Analysis 2008–2026 (Python)</b></summary>
+<summary><b>IPL Data Analysis 2008–2026 (Python + SQL)</b></summary>
 <br/>
 
 Every IPL match from 2008 to the 2026 final, analysed ball by ball in pandas.
 
 | | |
 |:--|:--|
-| **Stack** | Python (pandas, Matplotlib) |
+| **Stack** | Python (pandas, Matplotlib), PostgreSQL, SQL |
 | **Scope** | 1,243 matches, 295,732 deliveries, 19 seasons |
-| **Key Result** | Average first-innings score up from 162.6 (2008–2022) to 188.5 (2023–2026); sixes per match 10.7 → 19.3; chasing teams win 54.7% |
+| **Key Result** | Average first-innings score up from 162.4 (2008–2022) to 188.5 (2023–2026); sixes per match 10.7 → 19.3; chasing teams win 54.7% |
 | **Repository** | [ipl-data-analysis-python](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python) |
 
-Season, phase, toss, team, venue, batting and bowling tables, with franchise renames merged and cricket rules for legal balls and bowler runs.
+Season, phase, toss, team, venue, batting and bowling tables in pandas, plus 15 PostgreSQL queries (views, CTEs, RANK, running totals) that match the pandas results.
 
 </details>
 
 <details>
-<summary><b>Flipkart Product Analysis Dashboard (Excel)</b></summary>
+<summary><b>Flipkart Product Analysis Dashboard (Excel + SQL)</b></summary>
 <br/>
 
 A one-page Excel dashboard on a Flipkart-style catalogue, with every figure a live formula.
 
 | | |
 |:--|:--|
-| **Stack** | Excel (SUMIF, COUNTIFS, AVERAGEIF, INDEX/MATCH, charts), Python (openpyxl) |
+| **Stack** | Excel (SUMIF, COUNTIFS, AVERAGEIF, INDEX/MATCH, charts), PostgreSQL, SQL, Python (openpyxl) |
 | **Scope** | 2,000 products in 8 categories, 25,000 order lines for 2025 (synthetic) |
 | **Key Result** | Mobiles 9.9% of products but 41.6% of GMV; 70%+ discounts: 3.57 rating and 17.5% returns; Flipkart Assured: 64% more units per product, half the returns |
 | **Repository** | [flipkart-product-analysis-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/flipkart-product-analysis-dashboard) |
 
-7 KPI cards, 5 summary tables and 4 charts; 87,145 formulas recalculated with 0 errors.
+7 KPI cards, 5 summary tables and 4 charts (87,145 formulas, 0 errors), plus 14 PostgreSQL queries that reproduce every dashboard figure and add GMV concentration, price bands and category leaders.
 
 </details>
 

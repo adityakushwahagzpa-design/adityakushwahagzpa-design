@@ -228,11 +228,12 @@ def main():
     charts(trend, phase, toss, top_runs)
 
     t = trend.set_index("season")
+    first_inn = b[b["Innings"] == 1].groupby(["ID", "season"])["TotalRun"].sum().rename("runs").reset_index()
     summary = {
         "matches": len(m), "deliveries": len(b), "seasons": int(m["season"].nunique()),
         "first_season": int(m["season"].min()), "last_season": int(m["season"].max()),
-        "avg_first_innings_2008_2022": round(t.loc[2008:2022, "avg_first_innings"].mean(), 1),
-        "avg_first_innings_2023_2026": round(t.loc[2023:2026, "avg_first_innings"].mean(), 1),
+        "avg_first_innings_2008_2022": round(first_inn[first_inn["season"] <= 2022]["runs"].mean(), 1),
+        "avg_first_innings_2023_2026": round(first_inn[first_inn["season"] >= 2023]["runs"].mean(), 1),
         "sixes_per_match_2008": float(t.loc[2008, "sixes_per_match"]),
         "sixes_per_match_last": float(t.iloc[-1]["sixes_per_match"]),
         "200_plus_2008_2022": int(t.loc[2008:2022, "200_plus_totals"].sum()),

@@ -1,0 +1,11 @@
+brand,products_sold,gmv_crore,avg_rating_per_order_line,categories
+Motorola,24,0.71,4.09,Mobiles
+Samsung,42,0.71,4.0,"Appliances, Mobiles"
+POCO,26,0.7,4.05,Mobiles
+Apple,28,0.68,4.06,Mobiles
+Vivo,26,0.68,4.16,Mobiles
+OPPO,28,0.64,4.11,Mobiles
+Redmi,24,0.61,4.06,Mobiles
+Whirlpool,22,0.49,4.02,Appliances
+Realme,14,0.43,4.13,Mobiles
+HP,24,0.41,4.17,Electronics

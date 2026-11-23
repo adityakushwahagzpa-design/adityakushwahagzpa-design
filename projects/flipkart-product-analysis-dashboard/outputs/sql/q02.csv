@@ -1,0 +1,9 @@
+category,products,units,gmv_crore,gmv_share_pct,avg_discount_pct,avg_rating,return_rate_pct
+Mobiles,198,2143,4.92,41.6,12.9,4.07,3.4
+Electronics,232,2835,2.46,20.8,31.5,4.1,6.5
+Appliances,122,1302,2.37,20.0,26.8,4.03,5.3
+Fashion,491,8339,0.62,5.2,55.5,3.94,15.0
+Home & Kitchen,301,5312,0.58,4.9,42.7,4.03,7.0
+Sports & Fitness,160,2708,0.38,3.2,45.2,4.09,4.8
+Beauty & Personal Care,274,5755,0.31,2.6,32.7,4.07,3.6
+Books & Stationery,222,5437,0.2,1.7,22.7,4.08,3.1

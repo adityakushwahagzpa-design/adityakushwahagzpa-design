@@ -1,0 +1,11 @@
+category,sub_category,order_lines,return_rate_pct,returned_gmv_lakh
+Fashion,Jeans,993,16.9,1.6
+Fashion,Men's T-Shirt,1144,15.4,1.9
+Fashion,Saree,1266,15.2,1.8
+Fashion,Women's Kurta,1200,14.3,1.8
+Fashion,Sneakers,1249,13.7,1.8
+Home & Kitchen,Bedsheet,874,8.0,0.9
+Electronics,Speaker,461,7.4,3.0
+Electronics,Smartwatch,633,7.3,4.3
+Home & Kitchen,Mixer Grinder,602,7.3,0.7
+Electronics,Laptop,488,7.2,2.2
