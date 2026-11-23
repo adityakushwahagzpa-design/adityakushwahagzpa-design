@@ -162,6 +162,62 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 <summary><b>More project details</b></summary>
 <br/>
 
+**KYC / AML Projects**
+
+<details>
+<summary><b>Bank Transactions Analysis & AML Alerts</b></summary>
+<br/>
+
+A four-table banking database with two AML alerts of the kind compliance teams run.
+
+| | |
+|:--|:--|
+| **Stack** | SQL, PostgreSQL |
+| **Scope** | 1,200 customers, 143,836 transactions across 8 channels, 20 queries |
+| **Key Result** | 6 customers flagged for cash structuring below ₹50,000, all rated Low or Medium KYC risk; 7 dormant accounts reactivated by credits of ₹2.4–8.6 lakh |
+| **Website** | [Link](https://claude.ai/artifact/S6zn4Ch5bCgmwDRhcatok9) |
+| **Repository** | [sql-bank-transactions-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) |
+
+Joins, window functions and CTEs, from customer and channel analysis up to transaction monitoring.
+
+</details>
+
+<details>
+<summary><b>Customer 360 Intelligence Platform for Banking</b></summary>
+<br/>
+
+One trusted record per customer across core banking, CRM and cards, with KYC guardrails on every offer.
+
+| | |
+|:--|:--|
+| **Stack** | Python, SQLite, LightGBM, rapidfuzz |
+| **Scope** | 14,410 customer records from 3 systems |
+| **Key Result** | 0.992 F1 on 4-field record matching vs 0.724 on phone or email alone; 98.9% correct matches; 0 credit offers to High KYC risk customers |
+| **Website** | [Link](https://claude.ai/artifact/TH3bhBV64x7DbEzoZr7CCi) |
+| **Repository** | [customer-360-intelligence-platform](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/customer-360-intelligence-platform) |
+
+Identity resolution, a 360 profile, churn and product models, and next best action with credit and KYC checks.
+
+</details>
+
+<details>
+<summary><b>AI Text-to-SQL Assistant for Banking</b></summary>
+<br/>
+
+Ask a bank database questions in plain English, with a read-only guard on every query.
+
+| | |
+|:--|:--|
+| **Stack** | SQL, SQLite, Python, Claude API |
+| **Scope** | 6,000 customers, 144,169 transactions, 1,800 loans |
+| **Key Result** | 25 of 25 data-change or data-leak attempts stopped; 0 database changes; 30-question benchmark with verified answers |
+| **Website** | [Link](https://claude.ai/artifact/VwD7HrFjo1dt9iPNo5iuGY) |
+| **Repository** | [ai-text-to-sql-assistant](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-text-to-sql-assistant) |
+
+A glossary of banking terms (NPA, SMA, CASA) and two layers of read-only access control.
+
+</details>
+
 **Python Finance Projects**
 
 <details>
