@@ -163,6 +163,76 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 <br/>
 
 <details>
+<summary><b>Credit Appraisal Model</b></summary>
+<br/>
+
+Term-loan appraisal in the format of a bank credit note.
+
+| | |
+|:--|:--|
+| **Stack** | Excel |
+| **Scope** | ₹20 crore term loan |
+| **Key Result** | DSCR of 2.39x; loan recommended at grade CR-2 |
+| **Method** | Financial spreading, DSCR, 5 Cs scorecard |
+| **Repository** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
+
+Borrower financial analysis, repayment capacity, risk scoring and a final credit recommendation.
+
+</details>
+
+<details>
+<summary><b>AP Three-Way Match</b></summary>
+<br/>
+
+Accounts payable control model matching purchase orders, goods receipts and vendor invoices.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF |
+| **Scope** | PO, GRN and invoice matching with exception flags |
+| **Basis** | Vendor document checks from the NTPC finance internship |
+| **Repository** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) |
+
+Quantity and price variance checks, exception reporting and an approval-ready payment list.
+
+</details>
+
+<details>
+<summary><b>Fund Accounting & Daily NAV Model</b></summary>
+<br/>
+
+Daily NAV model for a fictional hybrid fund, built the way a fund accounting team runs the daily cycle.
+
+| | |
+|:--|:--|
+| **Stack** | Excel |
+| **Scope** | ₹71 crore hybrid fund, daily valuation and reconciliation cycle |
+| **Key Result** | NAV movement from ₹31.40 to ₹32.01 traced line by line |
+| **Controls** | Cash, holdings and accrual reconciliations |
+| **Repository** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) |
+
+Pricing of holdings, income and expense accruals, NAV per unit computation and the reconciliation checks that sit behind a signed-off NAV.
+
+</details>
+
+<details>
+<summary><b>PhonePe Transaction Insights Dashboard</b></summary>
+<br/>
+
+Interactive dashboard of digital payment transactions and loan data.
+
+| | |
+|:--|:--|
+| **Stack** | Power BI, Excel, PDF |
+| **Scope** | Transaction and loan data across 14 states |
+| **Output** | State-wise and category-wise KPI views |
+| **Repository** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) |
+
+Data modelling, KPI design and drill-downs built for a management review.
+
+</details>
+
+<details>
 <summary><b>Nippon Life India AMC — Stock Pitch (HOLD, Target ₹1,000)</b></summary>
 <br/>
 
@@ -194,24 +264,6 @@ A strong franchise gaining share, but the price already assumes a decade of stro
 | **Repository** | [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
 
 Value chain, competitive dynamics, regulation and where value is created across Indian mutual funds.
-
-</details>
-
-<details>
-<summary><b>Fund Accounting & Daily NAV Model</b></summary>
-<br/>
-
-Daily NAV model for a fictional hybrid fund, built the way a fund accounting team runs the daily cycle.
-
-| | |
-|:--|:--|
-| **Stack** | Excel |
-| **Scope** | ₹71 crore hybrid fund, daily valuation and reconciliation cycle |
-| **Key Result** | NAV movement from ₹31.40 to ₹32.01 traced line by line |
-| **Controls** | Cash, holdings and accrual reconciliations |
-| **Repository** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) |
-
-Pricing of holdings, income and expense accruals, NAV per unit computation and the reconciliation checks that sit behind a signed-off NAV.
 
 </details>
 
@@ -283,59 +335,75 @@ Data collection across NSE and BSE issues, segment-wise analysis and the link be
 
 </details>
 
-<details>
-<summary><b>Credit Appraisal Model</b></summary>
-<br/>
-
-Term-loan appraisal in the format of a bank credit note.
-
-| | |
-|:--|:--|
-| **Stack** | Excel |
-| **Scope** | ₹20 crore term loan |
-| **Key Result** | DSCR of 2.39x; loan recommended at grade CR-2 |
-| **Method** | Financial spreading, DSCR, 5 Cs scorecard |
-| **Repository** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
-
-Borrower financial analysis, repayment capacity, risk scoring and a final credit recommendation.
-
-</details>
-
-<details>
-<summary><b>AP Three-Way Match</b></summary>
-<br/>
-
-Accounts payable control model matching purchase orders, goods receipts and vendor invoices.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF |
-| **Scope** | PO, GRN and invoice matching with exception flags |
-| **Basis** | Vendor document checks from the NTPC finance internship |
-| **Repository** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) |
-
-Quantity and price variance checks, exception reporting and an approval-ready payment list.
-
-</details>
-
-<details>
-<summary><b>PhonePe Transaction Insights Dashboard</b></summary>
-<br/>
-
-Interactive dashboard of digital payment transactions and loan data.
-
-| | |
-|:--|:--|
-| **Stack** | Power BI, Excel, PDF |
-| **Scope** | Transaction and loan data across 14 states |
-| **Output** | State-wise and category-wise KPI views |
-| **Repository** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) |
-
-Data modelling, KPI design and drill-downs built for a management review.
-
-</details>
-
 **Python Finance Projects**
+
+<details>
+<summary><b>Money Mule Ring Detector</b></summary>
+<br/>
+
+Graph analytics that find money mule rings in a bank transfer network.
+
+| | |
+|:--|:--|
+| **Stack** | NetworkX, scikit-learn, PyTorch Geometric (GraphSAGE), Neo4j |
+| **Scope** | 2,000+ accounts, ~64,000 transfers, 8 hidden rings (synthetic) |
+| **Key Result** | All 8 rings found; graph neural network precision 0.91, recall 1.00 vs rules 1.00 / 0.84 |
+| **Repository** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) |
+
+AML rule scoring, Louvain ring grouping, machine learning and Cypher queries for cycles and fan-in hubs.
+
+</details>
+
+<details>
+<summary><b>Card Fraud Detection</b></summary>
+<br/>
+
+Anomaly detection vs supervised machine learning on real card transactions.
+
+| | |
+|:--|:--|
+| **Stack** | scikit-learn (Isolation Forest, Local Outlier Factor, autoencoder, gradient boosting) |
+| **Scope** | 284,807 transactions, 492 frauds |
+| **Key Result** | Supervised model caught 73% of frauds reviewing only 0.1% of transactions; best label-free method 45% |
+| **Repository** | [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) |
+
+Time-based split and review-budget metrics, the way a fraud operations team measures detection.
+
+</details>
+
+<details>
+<summary><b>Credit Default Prediction (ML)</b></summary>
+<br/>
+
+Machine learning model that predicts credit card default and turns it into a 300–900 credit score.
+
+| | |
+|:--|:--|
+| **Stack** | scikit-learn (logistic regression, random forest, gradient boosting), pandas |
+| **Scope** | 30,000 borrowers, UCI data set |
+| **Key Result** | Gini 0.55; default rate 66.9% in the lowest score band vs 6.0% in the highest; cut-off halves the approved default rate to 10.3% |
+| **Repository** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) |
+
+ROC AUC, Gini, KS and calibration, with a cost-based approval cut-off and fairness-aware feature choice.
+
+</details>
+
+<details>
+<summary><b>Financial Statement Analyzer</b></summary>
+<br/>
+
+Automatic extraction of four years of statements for 12 Nifty 50 companies, with ratios and health scores.
+
+| | |
+|:--|:--|
+| **Stack** | pandas, openpyxl (live Excel formulas), yfinance |
+| **Scope** | 12 companies, FY2023–FY2026, 17 ratios |
+| **Key Result** | ROCE ranges from 54.9% (TCS) to 9.0% (Reliance); fastest growers L&T and Bharti also carry the most debt |
+| **Repository** | [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) |
+
+Piotroski F-score and Altman Z''-score, plus an Excel workbook where every ratio is a formula.
+
+</details>
 
 <details>
 <summary><b>India Market Data Dashboard</b></summary>
@@ -408,23 +476,6 @@ VADER with a custom finance word list; the result shows headlines mostly describ
 </details>
 
 <details>
-<summary><b>Money Mule Ring Detector</b></summary>
-<br/>
-
-Graph analytics that find money mule rings in a bank transfer network.
-
-| | |
-|:--|:--|
-| **Stack** | NetworkX, scikit-learn, PyTorch Geometric (GraphSAGE), Neo4j |
-| **Scope** | 2,000+ accounts, ~64,000 transfers, 8 hidden rings (synthetic) |
-| **Key Result** | All 8 rings found; graph neural network precision 0.91, recall 1.00 vs rules 1.00 / 0.84 |
-| **Repository** | [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) |
-
-AML rule scoring, Louvain ring grouping, machine learning and Cypher queries for cycles and fan-in hubs.
-
-</details>
-
-<details>
 <summary><b>Insider Cluster-Buy Radar</b></summary>
 <br/>
 
@@ -473,57 +524,6 @@ OCR of grocery receipts into a personal price index, compared with official US C
 | **Repository** | [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
 
 Price checks on every receipt line and a fixed-basket index by item and category. Receipts are clearly labelled sample data.
-
-</details>
-
-<details>
-<summary><b>Credit Default Prediction (ML)</b></summary>
-<br/>
-
-Machine learning model that predicts credit card default and turns it into a 300–900 credit score.
-
-| | |
-|:--|:--|
-| **Stack** | scikit-learn (logistic regression, random forest, gradient boosting), pandas |
-| **Scope** | 30,000 borrowers, UCI data set |
-| **Key Result** | Gini 0.55; default rate 66.9% in the lowest score band vs 6.0% in the highest; cut-off halves the approved default rate to 10.3% |
-| **Repository** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) |
-
-ROC AUC, Gini, KS and calibration, with a cost-based approval cut-off and fairness-aware feature choice.
-
-</details>
-
-<details>
-<summary><b>Card Fraud Detection</b></summary>
-<br/>
-
-Anomaly detection vs supervised machine learning on real card transactions.
-
-| | |
-|:--|:--|
-| **Stack** | scikit-learn (Isolation Forest, Local Outlier Factor, autoencoder, gradient boosting) |
-| **Scope** | 284,807 transactions, 492 frauds |
-| **Key Result** | Supervised model caught 73% of frauds reviewing only 0.1% of transactions; best label-free method 45% |
-| **Repository** | [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) |
-
-Time-based split and review-budget metrics, the way a fraud operations team measures detection.
-
-</details>
-
-<details>
-<summary><b>Financial Statement Analyzer</b></summary>
-<br/>
-
-Automatic extraction of four years of statements for 12 Nifty 50 companies, with ratios and health scores.
-
-| | |
-|:--|:--|
-| **Stack** | pandas, openpyxl (live Excel formulas), yfinance |
-| **Scope** | 12 companies, FY2023–FY2026, 17 ratios |
-| **Key Result** | ROCE ranges from 54.9% (TCS) to 9.0% (Reliance); fastest growers L&T and Bharti also carry the most debt |
-| **Repository** | [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) |
-
-Piotroski F-score and Altman Z''-score, plus an Excel workbook where every ratio is a formula.
 
 </details>
 
