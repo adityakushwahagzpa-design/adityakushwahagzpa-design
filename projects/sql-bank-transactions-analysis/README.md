@@ -1,12 +1,14 @@
 # Bank Transactions Analysis | SQL (PostgreSQL)
 
+**[Interactive demo](https://claude.ai/artifact/S6zn4Ch5bCgmwDRhcatok9)** · explore the AML alerts and all 20 queries in your browser
+
 A four-table banking database queried from basic SELECTs up to window functions and CTEs: customer and channel analysis, branch performance, digital adoption, and two AML alerts (structuring and dormant-account reactivation) of the kind compliance teams run.
 
 | | |
 |:--|:--|
 | **What was analysed** | A synthetic bank with 8 branches, 1,200 customers, 1,641 accounts and 143,836 transactions across 8 channels (UPI, NEFT, IMPS, RTGS, ATM, cash, card, cheque), January 2024 to June 2026 |
 | **What was done** | Schema with keys and constraints, a balance view and indexes; 20 queries covering joins across all four tables, CASE, FILTER, window functions (running SUM, DENSE_RANK, LAG, moving AVG, NTILE, PERCENT_RANK, RANGE frames), CTEs and PERCENTILE_CONT; an EXPLAIN ANALYZE test of the indexes |
-| **Key finding** | UPI's share of debits rose from 38% to 57% in 30 months, and card and UPI spending ran 34–38% higher in October–November. Balances were concentrated: the top 10% of customers held 54%. The AML queries flagged 6 customers making repeated cash deposits just under the ₹50,000 PAN-reporting level (up to 10 in 7 days), 5 of them rated Low or Medium KYC risk, and 7 accounts reactivated after 18+ months of dormancy by credits of ₹2.4–8.6 lakh. An index on (account_id, txn_ts) cut a statement lookup from about 6 ms to 0.1 ms |
+| **Key finding** | UPI's share of debits rose from 38% to 57% in 30 months, and card and UPI spending ran 34–38% higher in October–November. Balances were concentrated: the top 10% of customers held 54%. The AML queries flagged 6 customers making repeated cash deposits just under the ₹50,000 PAN-reporting level (up to 10 in 7 days), all of them rated Low or Medium KYC risk, and 7 accounts reactivated after 18+ months of dormancy by credits of ₹2.4–8.6 lakh. An index on (account_id, txn_ts) cut a statement lookup from about 6 ms to 0.1 ms |
 
 **All 20 queries with their results:** [outputs/RESULTS.md](outputs/RESULTS.md)
 
