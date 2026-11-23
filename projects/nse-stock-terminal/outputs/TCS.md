@@ -1,16 +1,16 @@
 # Tata Consultancy Services Limited (TCS)
 
-**Sector:** Technology  |  **Industry:** Information Technology Services  |  **Generated:** 21 Nov 2026
+**Sector:** Technology  |  **Industry:** Information Technology Services  |  **Generated:** 23 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹2,376.20 | 1Y Return | -21.2% |
+| Price | ₹2,460.00 | 1Y Return | -18.3% |
 | 52W High | ₹3,187.34 | 52W Low | ₹1,961.36 |
-| Market Cap | n/a | Beta | 0.07 |
-| P/E | 16.42x | P/B | 7.23x |
+| Market Cap | ₹890,050 cr | Beta | 0.07 |
+| P/E | 17.24x | P/B | 7.48x |
 | EV/EBITDA | 11.28x | ROE | 45.6% |
 | Net Margin | 18.2% | Debt/Equity | 0.10x |
-| Dividend Yield | 2.0% | Below 52W High | -25.4% |
+| Dividend Yield | 2.0% | Below 52W High | -22.8% |
 
 ## Revenue and Profit
 

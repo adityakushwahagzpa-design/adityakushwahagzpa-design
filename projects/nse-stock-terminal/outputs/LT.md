@@ -1,16 +1,16 @@
 # Larsen & Toubro Limited (LT)
 
-**Sector:** Industrials  |  **Industry:** Engineering & Construction  |  **Generated:** 21 Nov 2026
+**Sector:** Industrials  |  **Industry:** Engineering & Construction  |  **Generated:** 23 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹4,209.10 | 1Y Return | 5.3% |
+| Price | ₹4,099.90 | 1Y Return | 3.2% |
 | 52W High | ₹4,375.36 | 52W Low | ₹3,310.07 |
-| Market Cap | ₹579,125 cr | Beta | 0.49 |
-| P/E | 32.44x | P/B | 5.12x |
+| Market Cap | ₹564,100 cr | Beta | 0.49 |
+| P/E | 31.58x | P/B | 4.99x |
 | EV/EBITDA | 17.99x | ROE | 17.9% |
 | Net Margin | 5.8% | Debt/Equity | 1.05x |
-| Dividend Yield | 0.9% | Below 52W High | -3.8% |
+| Dividend Yield | 0.9% | Below 52W High | -6.3% |
 
 ## Revenue and Profit
 

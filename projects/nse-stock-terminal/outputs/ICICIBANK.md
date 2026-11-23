@@ -1,16 +1,16 @@
 # ICICI Bank Limited (ICICIBANK)
 
-**Sector:** Financial Services  |  **Industry:** Banks - Regional  |  **Generated:** 21 Nov 2026
+**Sector:** Financial Services  |  **Industry:** Banks - Regional  |  **Generated:** 23 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹1,640.00 | 1Y Return | 19.6% |
+| Price | ₹1,585.50 | 1Y Return | 16.8% |
 | 52W High | ₹1,640.00 | 52W Low | ₹1,195.82 |
-| Market Cap | ₹1,178,272 cr | Beta | 0.19 |
-| P/E | 20.14x | P/B | 3.01x |
+| Market Cap | ₹1,139,116 cr | Beta | 0.19 |
+| P/E | 19.47x | P/B | 2.91x |
 | EV/EBITDA | n/a | ROE | 16.5% |
 | Net Margin | 27.8% | Debt/Equity | n/a |
-| Dividend Yield | 0.7% | Below 52W High | 0.0% |
+| Dividend Yield | 0.8% | Below 52W High | -3.3% |
 
 ## Revenue and Profit
 

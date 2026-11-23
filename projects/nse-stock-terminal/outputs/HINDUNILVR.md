@@ -1,16 +1,16 @@
 # Hindustan Unilever Limited (HINDUNILVR)
 
-**Sector:** Consumer Defensive  |  **Industry:** Household & Personal Products  |  **Generated:** 21 Nov 2026
+**Sector:** Consumer Defensive  |  **Industry:** Household & Personal Products  |  **Generated:** 23 Nov 2026
 
 | Metric | Value | Metric | Value |
 |:--|--:|:--|--:|
-| Price | ₹2,052.50 | 1Y Return | n/a |
+| Price | ₹2,019.10 | 1Y Return | -15.1% |
 | 52W High | ₹2,429.81 | 52W Low | ₹1,797.65 |
-| Market Cap | ₹482,254 cr | Beta | 0.31 |
-| P/E | 45.57x | P/B | 9.88x |
+| Market Cap | ₹474,406 cr | Beta | 0.31 |
+| P/E | 44.83x | P/B | 9.72x |
 | EV/EBITDA | 31.46x | ROE | 21.6% |
 | Net Margin | 22.0% | Debt/Equity | 0.03x |
-| Dividend Yield | 2.0% | Below 52W High | -15.5% |
+| Dividend Yield | 2.0% | Below 52W High | -16.9% |
 
 ## Revenue and Profit
 

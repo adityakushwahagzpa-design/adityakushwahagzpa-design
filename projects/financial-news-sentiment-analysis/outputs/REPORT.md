@@ -1,29 +1,29 @@
 # News Sentiment Report
 
-Generated 21 Nov 2026. 314 headlines for 10 companies, 23 Aug 2026 to 21 Nov 2026.
+Generated 23 Nov 2026. 190 headlines for 10 companies, 25 Aug 2026 to 23 Nov 2026.
 
 ## Key Results
 
-- **Headline mix:** 200 positive, 58 neutral, 56 negative.
-- **Most positive coverage:** RELIANCE (avg +0.35); **most negative:** TMPV (avg +0.04).
-- **Same-day link:** correlation between daily sentiment and that day's return = **0.53** across 146 company-days.
-- **Next-day link:** correlation with the following day's return = **0.09**.
-- **Average return on positive-news days:** +0.72%; on negative-news days: -2.23%.
+- **Headline mix:** 123 positive, 36 neutral, 31 negative.
+- **Most positive coverage:** BHARTIARTL (avg +0.33); **most negative:** SBIN (avg -0.03).
+- **Same-day link:** correlation between daily sentiment and that day's return = **0.52** across 92 company-days.
+- **Next-day link:** correlation with the following day's return = **-0.00**.
+- **Average return on positive-news days:** +0.78%; on negative-news days: -2.21%.
 
 ## Sentiment by Company
 
 | Symbol     |   Headlines |   Avg_Sentiment |   Positive_pct |   Negative_pct |
 |:-----------|------------:|----------------:|---------------:|---------------:|
-| RELIANCE   |          26 |           0.351 |         76.923 |         15.385 |
-| HDFCBANK   |          44 |           0.35  |         70.455 |         11.364 |
-| ICICIBANK  |          22 |           0.341 |         68.182 |          4.545 |
-| SBIN       |          65 |           0.288 |         67.692 |         13.846 |
-| TCS        |          19 |           0.268 |         68.421 |         10.526 |
-| BHARTIARTL |          17 |           0.266 |         58.824 |          0     |
-| INFY       |          27 |           0.262 |         70.37  |         22.222 |
-| ITC        |          12 |           0.227 |         66.667 |         25     |
-| ADANIENT   |          15 |           0.135 |         53.333 |         26.667 |
-| TMPV       |          67 |           0.037 |         47.761 |         32.836 |
+| BHARTIARTL |          17 |           0.326 |         76.471 |          5.882 |
+| RELIANCE   |          19 |           0.307 |         73.684 |         21.053 |
+| HDFCBANK   |          40 |           0.294 |         72.5   |         10     |
+| INFY       |          16 |           0.289 |         75     |         18.75  |
+| ADANIENT   |          18 |           0.241 |         61.111 |         16.667 |
+| ICICIBANK  |          17 |           0.231 |         70.588 |         11.765 |
+| TMPV       |          26 |           0.229 |         53.846 |         19.231 |
+| TCS        |          15 |           0.215 |         60     |         20     |
+| ITC        |          11 |           0.118 |         45.455 |         18.182 |
+| SBIN       |          11 |          -0.03  |         36.364 |         36.364 |
 
 ![By company](chart_sentiment_by_company.png)
 
@@ -33,21 +33,21 @@ Generated 21 Nov 2026. 314 headlines for 10 companies, 23 Aug 2026 to 21 Nov 202
 
 | Symbol   | Date        | Headline                                                                                                                 |   Sentiment |
 |:---------|:------------|:-------------------------------------------------------------------------------------------------------------------------|------------:|
-| SBIN     | 12 Nov 2026 | SBI shares gain 1%, among top Nifty gainers, as brokerages bullish on loan growth, profitability outlook                 |        0.93 |
 | TMPV     | 19 Nov 2026 | Maruti Suzuki shares jump 5%, M&M, Tata Motors, Eicher Motors rally as Nifty Auto surges 2.6%                            |        0.92 |
 | HDFCBANK | 05 Nov 2026 | HDFC Bank shares witness strong buying, rise 7% in 1 month. Can new CEO, improving fundamentals drive next leg of rally? |        0.91 |
-| SBIN     | 04 Nov 2026 | SBI shares: Strong NII, improving margins drive analysts' optimism after Q2                                              |        0.9  |
+| TMPV     | 19 Nov 2026 | Auto stocks hit the accelerator! Nifty Auto jumps 4%; Maruti, M&M, Hyundai lead the rally / What's behind the surge?     |        0.91 |
 | HDFCBANK | 20 Nov 2026 | HDFC Bank shares surges 1.6% as banking stocks rally to fresh highs                                                      |        0.88 |
+| RELIANCE | 02 Nov 2026 | Reliance Industries shares jump nearly 12% after record Q2 results; top Nifty gainer, biggest index...                   |        0.87 |
 
 ## Most Negative Headlines
 
-| Symbol   | Date        | Headline                                                                                                                |   Sentiment |
-|:---------|:------------|:------------------------------------------------------------------------------------------------------------------------|------------:|
-| TMPV     | 16 Nov 2026 | Tata Motors Passenger Vehicles shares crash over 9% after Rs 5,531 crore quarterly loss, Jaguar Land Rover cuts outlook |       -0.78 |
-| TMPV     | 16 Nov 2026 | India's Tata Motors PV falls on JLR outlook cut, weak Chinese demand                                                    |       -0.76 |
-| TMPV     | 16 Nov 2026 | Tata Motors PV shares plunge over 9% after ₹5,531 crore Q2 loss, JLR guidance cut                                       |       -0.76 |
-| TMPV     | 16 Nov 2026 | Tata Motors PV shares plunge 7%, top Nifty loser as weak JLR margins, guidance cut weigh on outlook                     |       -0.73 |
-| TMPV     | 16 Nov 2026 | Tata Motors PV Shares Crash 9% on Q2 Loss, JLR Outlook                                                                  |       -0.68 |
+| Symbol    | Date        | Headline                                                                                                   |   Sentiment |
+|:----------|:------------|:-----------------------------------------------------------------------------------------------------------|------------:|
+| TMPV      | 16 Nov 2026 | Tata Motors PV shares plunge 7%, top Nifty loser as weak JLR margins, guidance cut weigh on outlook        |       -0.73 |
+| SBIN      | 23 Nov 2026 | Stock market crash today: Investors lose over Rs 6 lakh crore as Sensex ends over 1,400 points down; top   |       -0.71 |
+| TMPV      | 16 Nov 2026 | Tata Motors PV shares crash 9% following Q2 results, cuts JLR guidance                                     |       -0.61 |
+| HDFCBANK  | 23 Nov 2026 | Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers |       -0.57 |
+| ICICIBANK | 23 Nov 2026 | Bank Nifty crashes over 2,000 points, plunges 3.1%; HDFC Bank, ICICI Bank, Axis Bank, SBI among top losers |       -0.57 |
 
 ## Limitations
 

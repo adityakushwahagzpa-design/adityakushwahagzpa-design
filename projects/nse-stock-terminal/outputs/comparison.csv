@@ -1,9 +1,9 @@
 Symbol,Company,Sector,Price,1Y Return %,Market Cap (₹ cr),P/E,P/B,ROE %,Net Margin %,Debt/Equity,Dividend Yield %
-RELIANCE,Reliance Industries Limited,Energy,1377.5,-10.67,,22.7,1.97,8.76,6.85,0.44,0.44
-TCS,Tata Consultancy Services Limited,Technology,2376.2,-21.18,,16.42,7.23,45.57,18.22,0.1,2.02
-INFY,Infosys Limited,Technology,1098.0,-25.32,444731.0,14.62,4.56,29.95,16.22,0.09,4.74
-HDFCBANK,HDFC Bank Limited,Financial Services,846.0,-14.76,1305691.0,17.96,2.14,11.0,26.53,,1.54
-ICICIBANK,ICICI Bank Limited,Financial Services,1640.0,19.58,1178272.0,20.14,3.01,16.49,27.84,,0.73
-ITC,ITC Limited,Consumer Defensive,299.1,-22.63,374853.0,19.85,5.26,26.79,24.44,0.01,5.35
-HINDUNILVR,Hindustan Unilever Limited,Consumer Defensive,2052.5,,482254.0,45.57,9.88,21.56,22.03,0.03,2.0
-LT,Larsen & Toubro Limited,Industrials,4209.1,5.27,579125.0,32.44,5.12,17.88,5.79,1.05,0.9
+RELIANCE,Reliance Industries Limited,Energy,1351.0,-11.63,1828237.0,22.26,1.94,8.76,6.85,0.44,0.44
+TCS,Tata Consultancy Services Limited,Technology,2460.0,-18.31,890050.0,17.24,7.48,45.57,18.22,0.1,1.95
+INFY,Infosys Limited,Technology,1103.4,-25.51,446919.0,14.69,4.59,29.95,16.22,0.09,4.71
+HDFCBANK,HDFC Bank Limited,Financial Services,817.8,-16.8,1262168.0,17.88,2.07,11.0,26.53,,1.59
+ICICIBANK,ICICI Bank Limited,Financial Services,1585.5,16.84,1139116.0,19.47,2.91,16.49,27.84,,0.76
+ITC,ITC Limited,Consumer Defensive,301.0,-21.77,377234.0,19.97,5.29,26.79,24.44,0.01,5.32
+HINDUNILVR,Hindustan Unilever Limited,Consumer Defensive,2019.1,-15.07,474406.0,44.83,9.72,21.56,22.03,0.03,2.03
+LT,Larsen & Toubro Limited,Industrials,4099.9,3.16,564100.0,31.58,4.99,17.88,5.79,1.05,0.93
