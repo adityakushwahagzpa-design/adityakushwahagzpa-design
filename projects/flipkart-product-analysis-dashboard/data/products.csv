@@ -1,0 +1,2001 @@
+product_id,product_name,category,sub_category,brand,mrp,selling_price,rating,rating_count,flipkart_assured
+FK100001,Harper Pens Pro 7,Books & Stationery,Pens,Harper,329,256,4.1,155,No
+FK100002,Libas Sneakers Edge 9,Fashion,Sneakers,Libas,5309,2160,3.7,123,No
+FK100003,SG Yoga Mat Neo 7,Sports & Fitness,Yoga Mat,SG,4309,2475,3.6,492,Yes
+FK100004,Nivia Cricket Bat Classic 71,Sports & Fitness,Cricket Bat,Nivia,289,104,3.8,262,No
+FK100005,Arihant Notebooks Lite 12,Books & Stationery,Notebooks,Arihant,1099,659,3.7,2072,Yes
+FK100006,Vivo Feature Phone Max 42,Mobiles,Feature Phone,Vivo,42569,32190,4.0,141,No
+FK100007,Libas Men's T-Shirt Plus 87,Fashion,Men's T-Shirt,Libas,2159,776,3.3,1053,No
+FK100008,Penguin Notebooks Pro 54,Books & Stationery,Notebooks,Penguin,1459,1346,4.1,1226,Yes
+FK100009,Maybelline Perfume Edge 44,Beauty & Personal Care,Perfume,Maybelline,509,376,3.1,288,No
+FK100010,Allen Solly Saree Pro 9,Fashion,Saree,Allen Solly,2119,1143,3.8,52,No
+FK100011,Libas Men's T-Shirt Max 90,Fashion,Men's T-Shirt,Libas,1929,1079,4.0,966,Yes
+FK100012,Mi Power Bank Pro 16,Electronics,Power Bank,Mi,27979,13999,4.7,935,No
+FK100013,Lenovo Power Bank Plus 50,Electronics,Power Bank,Lenovo,2489,1578,4.2,3198,Yes
+FK100014,Ambrane Headphones Neo 96,Electronics,Headphones,Ambrane,2049,1264,3.7,337,Yes
+FK100015,Reynolds Fiction Plus 39,Books & Stationery,Fiction,Reynolds,339,261,4.1,2884,No
+FK100016,Campus Men's T-Shirt Pro 10,Fashion,Men's T-Shirt,Campus,649,397,4.0,650,No
+FK100017,OPPO Feature Phone Classic 15,Mobiles,Feature Phone,OPPO,10829,7568,4.3,16,No
+FK100018,Flipkart SmartBuy Bedsheet Edge 79,Home & Kitchen,Bedsheet,Flipkart SmartBuy,649,383,4.0,2385,No
+FK100019,Levi's Saree Neo 49,Fashion,Saree,Levi's,5719,2931,4.1,235,No
+FK100020,HP Power Bank Classic 68,Electronics,Power Bank,HP,1729,1110,4.6,483,No
+FK100021,Ambrane Laptop Classic 19,Electronics,Laptop,Ambrane,10859,8147,4.4,411,Yes
+FK100022,Bajaj Cookware Plus 95,Home & Kitchen,Cookware,Bajaj,4789,3131,4.2,6095,Yes
+FK100023,Pigeon Cookware Max 48,Home & Kitchen,Cookware,Pigeon,2119,1761,4.3,4355,Yes
+FK100024,Decathlon Cricket Bat Edge 53,Sports & Fitness,Cricket Bat,Decathlon,2259,1077,4.5,183,Yes
+FK100025,boAt Power Bank Plus 6,Electronics,Power Bank,boAt,3639,2580,4.2,1310,Yes
+FK100026,Pigeon Storage Neo 16,Home & Kitchen,Storage,Pigeon,7269,4604,3.4,668,No
+FK100027,Campus Women's Kurta Plus 75,Fashion,Women's Kurta,Campus,1449,617,4.1,709,Yes
+FK100028,Flipkart SmartBuy Water Bottle Pro 10,Home & Kitchen,Water Bottle,Flipkart SmartBuy,1939,722,3.8,1300,Yes
+FK100029,Cello Children's Books Classic 59,Books & Stationery,Children's Books,Cello,109,82,3.5,631,Yes
+FK100030,Arihant Notebooks Classic 64,Books & Stationery,Notebooks,Arihant,779,615,4.3,485,No
+FK100031,TCL Television Prime 4,Appliances,Television,TCL,24839,18447,3.4,1744,Yes
+FK100032,Haier Washing Machine Pro 28,Appliances,Washing Machine,Haier,59199,38792,4.2,3145,Yes
+FK100033,Puma Men's T-Shirt Edge 4,Fashion,Men's T-Shirt,Puma,3049,764,3.5,7477,No
+FK100034,Milton Mixer Grinder Lite 76,Home & Kitchen,Mixer Grinder,Milton,4579,2854,4.0,3057,Yes
+FK100035,Whirlpool Television Max 22,Appliances,Television,Whirlpool,12099,7051,3.6,455,Yes
+FK100036,Samsung Washing Machine Lite 92,Appliances,Washing Machine,Samsung,24569,16797,3.6,284,Yes
+FK100037,Pigeon Storage Edge 36,Home & Kitchen,Storage,Pigeon,1229,760,3.8,420,Yes
+FK100038,Strauss Dumbbells Max 64,Sports & Fitness,Dumbbells,Strauss,11859,8345,4.5,104,Yes
+FK100039,Strauss Dumbbells Lite 7,Sports & Fitness,Dumbbells,Strauss,309,139,4.3,1840,Yes
+FK100040,Levi's Jeans Classic 79,Fashion,Jeans,Levi's,1119,614,4.2,58,No
+FK100041,W Men's T-Shirt Classic 56,Fashion,Men's T-Shirt,W,889,475,4.2,802,Yes
+FK100042,HRX Women's Kurta Edge 90,Fashion,Women's Kurta,HRX,2949,1866,3.4,937,No
+FK100043,Boldfit Cycle Plus 73,Sports & Fitness,Cycle,Boldfit,3929,2199,4.3,330,No
+FK100044,Flipkart SmartBuy Mixer Grinder Plus 25,Home & Kitchen,Mixer Grinder,Flipkart SmartBuy,479,248,4.1,3754,No
+FK100045,Milton Water Bottle Neo 6,Home & Kitchen,Water Bottle,Milton,1929,1070,3.8,100,Yes
+FK100046,Solimo Water Bottle Lite 86,Home & Kitchen,Water Bottle,Solimo,349,189,3.7,1095,Yes
+FK100047,Roadster Saree Max 91,Fashion,Saree,Roadster,2749,1213,4.1,892,No
+FK100048,Navneet Pens Neo 14,Books & Stationery,Pens,Navneet,85,54,4.1,424,Yes
+FK100049,Philips Water Bottle Classic 91,Home & Kitchen,Water Bottle,Philips,1389,878,4.3,393,Yes
+FK100050,Navneet Pens Neo 42,Books & Stationery,Pens,Navneet,239,169,4.1,478,Yes
+FK100051,JBL Power Bank Lite 66,Electronics,Power Bank,JBL,5789,3644,4.3,552,Yes
+FK100052,Arihant Children's Books Lite 31,Books & Stationery,Children's Books,Arihant,379,244,4.0,9285,Yes
+FK100053,W Saree Classic 32,Fashion,Saree,W,2719,970,3.6,509,Yes
+FK100054,Levi's Sneakers Max 34,Fashion,Sneakers,Levi's,1369,705,3.8,176,No
+FK100055,Lakme Trimmer Edge 73,Beauty & Personal Care,Trimmer,Lakme,389,312,3.6,3800,Yes
+FK100056,Philips Face Wash Pro 3,Beauty & Personal Care,Face Wash,Philips,1679,1398,4.2,28,No
+FK100057,Harper Children's Books Lite 41,Books & Stationery,Children's Books,Harper,889,735,3.8,58,Yes
+FK100058,Reynolds Children's Books Lite 75,Books & Stationery,Children's Books,Reynolds,709,535,4.1,1586,Yes
+FK100059,Cello Fiction Neo 22,Books & Stationery,Fiction,Cello,399,269,4.6,1899,Yes
+FK100060,Himalaya Lipstick Neo 83,Beauty & Personal Care,Lipstick,Himalaya,3039,2411,4.1,359,No
+FK100061,Libas Women's Kurta Pro 88,Fashion,Women's Kurta,Libas,2009,1337,3.8,66,No
+FK100062,Noise Power Bank Lite 67,Electronics,Power Bank,Noise,58979,34600,4.4,1677,Yes
+FK100063,Levi's Sneakers Max 20,Fashion,Sneakers,Levi's,2049,1146,4.1,449,No
+FK100064,Roadster Men's T-Shirt Max 80,Fashion,Men's T-Shirt,Roadster,539,314,3.6,516,Yes
+FK100065,Flipkart SmartBuy Cookware Edge 17,Home & Kitchen,Cookware,Flipkart SmartBuy,1069,649,4.2,25,Yes
+FK100066,Cello Storage Max 67,Home & Kitchen,Storage,Cello,479,380,4.2,1958,Yes
+FK100067,Sony Laptop Lite 10,Electronics,Laptop,Sony,2069,1503,3.5,511,No
+FK100068,Cello Storage Max 11,Home & Kitchen,Storage,Cello,319,146,3.2,1137,Yes
+FK100069,Cosco Yoga Mat Lite 32,Sports & Fitness,Yoga Mat,Cosco,3639,2646,4.2,435,Yes
+FK100070,Mamaearth Lipstick Classic 27,Beauty & Personal Care,Lipstick,Mamaearth,1559,1236,3.9,3705,Yes
+FK100071,OPPO Feature Phone Max 57,Mobiles,Feature Phone,OPPO,7459,5017,4.5,572,Yes
+FK100072,Vivo Smartphone Max 26,Mobiles,Smartphone,Vivo,10919,10919,4.1,11010,Yes
+FK100073,HP Power Bank Pro 39,Electronics,Power Bank,HP,41899,28095,4.2,1703,No
+FK100074,Decathlon Cycle Max 53,Sports & Fitness,Cycle,Decathlon,4559,2640,4.5,1677,Yes
+FK100075,Penguin Pens Neo 43,Books & Stationery,Pens,Penguin,319,243,3.3,1703,No
+FK100076,Roadster Women's Kurta Edge 96,Fashion,Women's Kurta,Roadster,5009,2710,4.1,927,Yes
+FK100077,Reynolds Children's Books Neo 70,Books & Stationery,Children's Books,Reynolds,189,134,4.0,631,Yes
+FK100078,Strauss Dumbbells Lite 51,Sports & Fitness,Dumbbells,Strauss,2009,897,4.3,261,No
+FK100079,Sony Speaker Pro 80,Electronics,Speaker,Sony,21239,11694,3.6,273,Yes
+FK100080,Maybelline Shampoo Neo 46,Beauty & Personal Care,Shampoo,Maybelline,709,512,4.4,3284,Yes
+FK100081,Philips Water Bottle Neo 59,Home & Kitchen,Water Bottle,Philips,2479,2011,4.0,23,No
+FK100082,Flipkart SmartBuy Cookware Prime 93,Home & Kitchen,Cookware,Flipkart SmartBuy,1099,833,4.4,477,Yes
+FK100083,Nivea Lipstick Max 66,Beauty & Personal Care,Lipstick,Nivea,2369,1837,4.0,128,No
+FK100084,Reynolds Fiction Max 61,Books & Stationery,Fiction,Reynolds,119,101,3.9,793,No
+FK100085,boAt Power Bank Edge 8,Electronics,Power Bank,boAt,1319,868,3.4,477,No
+FK100086,Penguin Children's Books Edge 4,Books & Stationery,Children's Books,Penguin,629,505,4.3,2366,Yes
+FK100087,Levi's Women's Kurta Neo 98,Fashion,Women's Kurta,Levi's,1309,610,3.8,292,Yes
+FK100088,TCL Refrigerator Neo 55,Appliances,Refrigerator,TCL,53639,44420,4.3,8005,Yes
+FK100089,Roadster Women's Kurta Edge 25,Fashion,Women's Kurta,Roadster,829,278,3.7,457,Yes
+FK100090,Levi's Sneakers Lite 12,Fashion,Sneakers,Levi's,1809,944,4.1,203,No
+FK100091,POCO Feature Phone Classic 43,Mobiles,Feature Phone,POCO,42929,42929,4.4,895,Yes
+FK100092,Himalaya Perfume Pro 82,Beauty & Personal Care,Perfume,Himalaya,459,269,4.5,3151,No
+FK100093,Roadster Men's T-Shirt Classic 65,Fashion,Men's T-Shirt,Roadster,4199,1718,4.0,1912,Yes
+FK100094,Roadster Women's Kurta Edge 37,Fashion,Women's Kurta,Roadster,1969,861,3.6,107,No
+FK100095,Penguin Exam Prep Max 79,Books & Stationery,Exam Prep,Penguin,249,184,4.3,45,Yes
+FK100096,Campus Men's T-Shirt Prime 17,Fashion,Men's T-Shirt,Campus,3999,1223,4.0,2234,Yes
+FK100097,Nivia Cycle Pro 86,Sports & Fitness,Cycle,Nivia,559,257,4.3,1269,No
+FK100098,Cello Cookware Classic 65,Home & Kitchen,Cookware,Cello,2869,1685,4.1,1077,No
+FK100099,boAt Speaker Max 65,Electronics,Speaker,boAt,3769,2511,4.5,440,No
+FK100100,HRX Sneakers Edge 63,Fashion,Sneakers,HRX,1099,448,4.0,618,Yes
+FK100101,Samsung Smartphone Max 48,Mobiles,Smartphone,Samsung,13649,10601,3.7,2028,Yes
+FK100102,Levi's Men's T-Shirt Classic 74,Fashion,Men's T-Shirt,Levi's,1239,725,4.2,398,No
+FK100103,Cosco Cycle Prime 15,Sports & Fitness,Cycle,Cosco,419,178,4.2,756,No
+FK100104,Boldfit Dumbbells Max 26,Sports & Fitness,Dumbbells,Boldfit,7629,6960,4.6,215,No
+FK100105,Cello Bedsheet Edge 62,Home & Kitchen,Bedsheet,Cello,569,223,4.0,7671,Yes
+FK100106,Allen Solly Sneakers Plus 67,Fashion,Sneakers,Allen Solly,5519,2383,4.7,1411,Yes
+FK100107,Dove Lipstick Classic 62,Beauty & Personal Care,Lipstick,Dove,279,143,3.6,1019,No
+FK100108,Lakme Perfume Plus 33,Beauty & Personal Care,Perfume,Lakme,659,629,3.9,1818,Yes
+FK100109,Philips Storage Pro 45,Home & Kitchen,Storage,Philips,1689,1020,3.9,6754,Yes
+FK100110,Motorola Feature Phone Plus 12,Mobiles,Feature Phone,Motorola,22469,11429,4.5,103,Yes
+FK100111,Allen Solly Jeans Max 20,Fashion,Jeans,Allen Solly,829,317,3.4,897,No
+FK100112,HRX Jeans Edge 18,Fashion,Jeans,HRX,529,155,3.2,8714,No
+FK100113,Dove Perfume Lite 53,Beauty & Personal Care,Perfume,Dove,319,205,3.9,292,Yes
+FK100114,Bajaj Mixer Grinder Max 85,Home & Kitchen,Mixer Grinder,Bajaj,389,161,3.9,1087,No
+FK100115,W Jeans Edge 31,Fashion,Jeans,W,2649,1666,4.4,1271,Yes
+FK100116,Godrej Air Conditioner Max 78,Appliances,Air Conditioner,Godrej,47109,38310,3.6,713,No
+FK100117,Campus Women's Kurta Prime 63,Fashion,Women's Kurta,Campus,419,63,3.8,448,No
+FK100118,Solimo Cookware Neo 36,Home & Kitchen,Cookware,Solimo,2079,1341,3.7,829,Yes
+FK100119,Beardo Trimmer Lite 2,Beauty & Personal Care,Trimmer,Beardo,3529,2892,3.7,2120,No
+FK100120,Roadster Saree Edge 1,Fashion,Saree,Roadster,879,544,3.9,546,Yes
+FK100121,Bajaj Bedsheet Max 93,Home & Kitchen,Bedsheet,Bajaj,449,311,3.9,1172,Yes
+FK100122,Samsung Feature Phone Max 57,Mobiles,Feature Phone,Samsung,27279,23501,3.9,1029,No
+FK100123,Campus Sneakers Lite 1,Fashion,Sneakers,Campus,5049,2327,3.8,83,Yes
+FK100124,Maybelline Lipstick Prime 40,Beauty & Personal Care,Lipstick,Maybelline,2689,1688,4.4,2591,No
+FK100125,Classmate Pens Neo 27,Books & Stationery,Pens,Classmate,1359,1161,4.2,413,Yes
+FK100126,Allen Solly Men's T-Shirt Neo 60,Fashion,Men's T-Shirt,Allen Solly,3589,2250,4.1,518,No
+FK100127,Milton Mixer Grinder Edge 40,Home & Kitchen,Mixer Grinder,Milton,5379,3611,4.2,2154,No
+FK100128,Bajaj Storage Neo 80,Home & Kitchen,Storage,Bajaj,1429,1008,4.2,1218,No
+FK100129,Libas Jeans Plus 87,Fashion,Jeans,Libas,1019,420,3.7,888,Yes
+FK100130,Cello Storage Prime 60,Home & Kitchen,Storage,Cello,1529,772,4.3,639,Yes
+FK100131,Flipkart SmartBuy Cookware Edge 39,Home & Kitchen,Cookware,Flipkart SmartBuy,469,382,4.1,3297,Yes
+FK100132,Mi Power Bank Classic 29,Electronics,Power Bank,Mi,14319,9701,4.2,3239,Yes
+FK100133,Redmi Smartphone Max 97,Mobiles,Smartphone,Redmi,56259,51945,4.1,366,Yes
+FK100134,HRX Saree Lite 52,Fashion,Saree,HRX,1049,311,3.7,49,No
+FK100135,Allen Solly Jeans Prime 68,Fashion,Jeans,Allen Solly,3869,1417,4.2,1012,No
+FK100136,Solimo Storage Plus 58,Home & Kitchen,Storage,Solimo,429,398,3.8,1003,No
+FK100137,Sony Headphones Neo 67,Electronics,Headphones,Sony,26579,19910,4.4,2866,Yes
+FK100138,Cello Exam Prep Edge 90,Books & Stationery,Exam Prep,Cello,1009,923,4.1,2891,Yes
+FK100139,Libas Sneakers Neo 4,Fashion,Sneakers,Libas,3419,2339,4.1,1698,Yes
+FK100140,Himalaya Lipstick Prime 7,Beauty & Personal Care,Lipstick,Himalaya,2069,1565,3.8,2648,Yes
+FK100141,Campus Men's T-Shirt Classic 83,Fashion,Men's T-Shirt,Campus,2689,936,3.7,3811,No
+FK100142,Realme Feature Phone Prime 37,Mobiles,Feature Phone,Realme,9499,7118,4.8,1080,Yes
+FK100143,Cosco Football Classic 55,Sports & Fitness,Football,Cosco,12439,10146,4.4,1467,No
+FK100144,Roadster Jeans Max 13,Fashion,Jeans,Roadster,629,374,4.3,162,No
+FK100145,Libas Saree Pro 26,Fashion,Saree,Libas,1729,688,3.4,205,No
+FK100146,Samsung Smartphone Max 36,Mobiles,Smartphone,Samsung,12149,9177,4.4,242,No
+FK100147,Milton Cookware Max 72,Home & Kitchen,Cookware,Milton,8779,5394,4.0,358,No
+FK100148,Classmate Exam Prep Pro 85,Books & Stationery,Exam Prep,Classmate,249,216,3.8,134,No
+FK100149,Penguin Exam Prep Edge 55,Books & Stationery,Exam Prep,Penguin,83,55,4.0,546,Yes
+FK100150,boAt Headphones Classic 9,Electronics,Headphones,boAt,9169,6651,3.9,2965,No
+FK100151,Mamaearth Face Wash Neo 5,Beauty & Personal Care,Face Wash,Mamaearth,529,280,3.9,1283,Yes
+FK100152,Cosco Football Edge 82,Sports & Fitness,Football,Cosco,2429,1234,4.3,366,No
+FK100153,Flipkart SmartBuy Water Bottle Lite 85,Home & Kitchen,Water Bottle,Flipkart SmartBuy,619,287,4.0,945,No
+FK100154,Mamaearth Lipstick Plus 2,Beauty & Personal Care,Lipstick,Mamaearth,199,140,4.7,798,Yes
+FK100155,Motorola Feature Phone Neo 52,Mobiles,Feature Phone,Motorola,17449,15168,4.1,2296,Yes
+FK100156,Libas Jeans Max 29,Fashion,Jeans,Libas,829,305,3.9,3531,Yes
+FK100157,Mamaearth Perfume Prime 74,Beauty & Personal Care,Perfume,Mamaearth,1889,1759,4.1,622,Yes
+FK100158,Solimo Bedsheet Lite 38,Home & Kitchen,Bedsheet,Solimo,1349,896,4.0,5574,Yes
+FK100159,Philips Trimmer Edge 66,Beauty & Personal Care,Trimmer,Philips,159,113,4.6,11327,Yes
+FK100160,Libas Sneakers Prime 89,Fashion,Sneakers,Libas,469,228,3.8,8275,Yes
+FK100161,Allen Solly Women's Kurta Edge 62,Fashion,Women's Kurta,Allen Solly,3749,1873,3.7,364,No
+FK100162,Nivea Shampoo Neo 2,Beauty & Personal Care,Shampoo,Nivea,1319,640,3.9,271,No
+FK100163,boAt Laptop Neo 66,Electronics,Laptop,boAt,2259,1185,3.9,7748,No
+FK100164,Redmi Feature Phone Max 45,Mobiles,Feature Phone,Redmi,11229,11223,3.8,1499,Yes
+FK100165,HRX Jeans Classic 85,Fashion,Jeans,HRX,4589,2204,3.9,1706,Yes
+FK100166,Arihant Pens Edge 30,Books & Stationery,Pens,Arihant,629,429,4.1,1982,Yes
+FK100167,Solimo Mixer Grinder Pro 28,Home & Kitchen,Mixer Grinder,Solimo,1739,761,4.0,200,No
+FK100168,Classmate Exam Prep Neo 7,Books & Stationery,Exam Prep,Classmate,179,160,3.7,3472,Yes
+FK100169,Allen Solly Women's Kurta Pro 42,Fashion,Women's Kurta,Allen Solly,2439,964,4.5,1935,Yes
+FK100170,Puma Jeans Edge 48,Fashion,Jeans,Puma,759,299,4.1,586,Yes
+FK100171,HP Smartwatch Classic 84,Electronics,Smartwatch,HP,3389,1783,4.5,918,Yes
+FK100172,Godrej Microwave Plus 39,Appliances,Microwave,Godrej,10829,8123,3.6,3672,No
+FK100173,Libas Jeans Lite 3,Fashion,Jeans,Libas,3189,898,3.8,1698,No
+FK100174,POCO Feature Phone Pro 86,Mobiles,Feature Phone,POCO,26979,21979,3.8,2617,Yes
+FK100175,Lakme Trimmer Lite 52,Beauty & Personal Care,Trimmer,Lakme,1409,1255,3.8,2647,Yes
+FK100176,Libas Jeans Edge 42,Fashion,Jeans,Libas,599,291,4.3,1088,Yes
+FK100177,Ambrane Speaker Pro 82,Electronics,Speaker,Ambrane,20889,12662,4.2,1602,No
+FK100178,Puma Women's Kurta Neo 89,Fashion,Women's Kurta,Puma,5709,2002,4.0,173,No
+FK100179,Puma Jeans Max 91,Fashion,Jeans,Puma,3299,1662,3.9,365,Yes
+FK100180,Mi Power Bank Pro 33,Electronics,Power Bank,Mi,6959,6534,4.1,1504,Yes
+FK100181,Whirlpool Microwave Prime 69,Appliances,Microwave,Whirlpool,57489,33862,4.4,476,Yes
+FK100182,Cello Mixer Grinder Classic 35,Home & Kitchen,Mixer Grinder,Cello,669,381,4.2,531,Yes
+FK100183,Pigeon Water Bottle Classic 5,Home & Kitchen,Water Bottle,Pigeon,459,233,3.9,155,Yes
+FK100184,Pigeon Water Bottle Neo 46,Home & Kitchen,Water Bottle,Pigeon,4899,3122,4.4,1003,Yes
+FK100185,Voltas Washing Machine Max 40,Appliances,Washing Machine,Voltas,62549,54843,4.3,1003,No
+FK100186,HP Power Bank Classic 4,Electronics,Power Bank,HP,58969,53053,4.9,1291,No
+FK100187,Philips Face Wash Pro 5,Beauty & Personal Care,Face Wash,Philips,3699,2469,4.1,79,Yes
+FK100188,Reynolds Exam Prep Neo 98,Books & Stationery,Exam Prep,Reynolds,109,71,4.1,1035,Yes
+FK100189,Philips Trimmer Neo 11,Beauty & Personal Care,Trimmer,Philips,539,321,3.8,12612,Yes
+FK100190,Reynolds Fiction Prime 49,Books & Stationery,Fiction,Reynolds,1089,841,4.3,4477,Yes
+FK100191,W Sneakers Prime 60,Fashion,Sneakers,W,3369,1976,4.0,2582,Yes
+FK100192,Sony Laptop Edge 67,Electronics,Laptop,Sony,30879,25062,3.8,380,No
+FK100193,Samsung Smartphone Plus 80,Mobiles,Smartphone,Samsung,14369,12966,4.2,196,No
+FK100194,Bajaj Storage Prime 31,Home & Kitchen,Storage,Bajaj,3609,1849,4.0,1165,Yes
+FK100195,Roadster Sneakers Neo 59,Fashion,Sneakers,Roadster,869,225,3.7,4289,Yes
+FK100196,Puma Jeans Lite 25,Fashion,Jeans,Puma,459,263,4.3,852,No
+FK100197,Decathlon Cycle Max 67,Sports & Fitness,Cycle,Decathlon,1199,526,4.5,8621,Yes
+FK100198,JBL Power Bank Classic 35,Electronics,Power Bank,JBL,47079,35280,4.5,411,Yes
+FK100199,JBL Headphones Neo 56,Electronics,Headphones,JBL,2389,2012,3.5,271,No
+FK100200,Samsung Smartphone Max 96,Mobiles,Smartphone,Samsung,39609,34495,3.9,1047,No
+FK100201,Campus Women's Kurta Neo 75,Fashion,Women's Kurta,Campus,4199,1855,4.0,1503,Yes
+FK100202,W Saree Pro 78,Fashion,Saree,W,409,181,4.4,1706,Yes
+FK100203,Maybelline Shampoo Max 33,Beauty & Personal Care,Shampoo,Maybelline,189,140,4.2,907,Yes
+FK100204,Realme Smartphone Max 34,Mobiles,Smartphone,Realme,20139,19653,4.1,3566,Yes
+FK100205,Boldfit Cycle Prime 10,Sports & Fitness,Cycle,Boldfit,5089,3219,3.9,2451,Yes
+FK100206,Arihant Children's Books Prime 3,Books & Stationery,Children's Books,Arihant,1209,780,3.8,964,Yes
+FK100207,Pigeon Water Bottle Neo 17,Home & Kitchen,Water Bottle,Pigeon,2389,1498,4.5,3095,Yes
+FK100208,Prestige Mixer Grinder Pro 81,Home & Kitchen,Mixer Grinder,Prestige,759,278,3.5,648,Yes
+FK100209,Classmate Fiction Pro 42,Books & Stationery,Fiction,Classmate,159,122,4.1,248,No
+FK100210,Motorola Feature Phone Edge 86,Mobiles,Feature Phone,Motorola,13029,12443,4.1,1380,Yes
+FK100211,Philips Shampoo Pro 62,Beauty & Personal Care,Shampoo,Philips,1299,990,3.7,105,No
+FK100212,Harper Notebooks Pro 77,Books & Stationery,Notebooks,Harper,309,254,3.8,193,Yes
+FK100213,HP Smartwatch Pro 12,Electronics,Smartwatch,HP,5109,3226,4.1,1101,Yes
+FK100214,Godrej Air Conditioner Plus 12,Appliances,Air Conditioner,Godrej,50809,43043,4.2,1199,Yes
+FK100215,Allen Solly Saree Pro 38,Fashion,Saree,Allen Solly,399,231,4.2,559,No
+FK100216,Noise Speaker Neo 26,Electronics,Speaker,Noise,5549,3490,4.1,707,Yes
+FK100217,POCO Smartphone Edge 2,Mobiles,Smartphone,POCO,18729,17793,4.4,5550,Yes
+FK100218,Navneet Exam Prep Max 72,Books & Stationery,Exam Prep,Navneet,349,277,4.3,631,No
+FK100219,Strauss Cricket Bat Max 28,Sports & Fitness,Cricket Bat,Strauss,2309,1868,3.8,101,No
+FK100220,Nivea Face Wash Lite 64,Beauty & Personal Care,Face Wash,Nivea,169,83,4.2,492,Yes
+FK100221,Prestige Storage Plus 8,Home & Kitchen,Storage,Prestige,1229,590,4.3,5456,Yes
+FK100222,W Men's T-Shirt Classic 27,Fashion,Men's T-Shirt,W,2899,1121,4.1,152,Yes
+FK100223,Cello Mixer Grinder Max 89,Home & Kitchen,Mixer Grinder,Cello,739,486,3.8,262,No
+FK100224,Ambrane Headphones Edge 40,Electronics,Headphones,Ambrane,1839,1461,4.2,362,Yes
+FK100225,POCO Smartphone Plus 34,Mobiles,Smartphone,POCO,71079,54858,4.1,409,No
+FK100226,Philips Trimmer Classic 45,Beauty & Personal Care,Trimmer,Philips,439,297,4.1,2948,No
+FK100227,Flipkart SmartBuy Bedsheet Pro 42,Home & Kitchen,Bedsheet,Flipkart SmartBuy,2889,1542,4.4,248,Yes
+FK100228,Reynolds Notebooks Lite 68,Books & Stationery,Notebooks,Reynolds,87,55,3.8,496,No
+FK100229,boAt Power Bank Lite 4,Electronics,Power Bank,boAt,7409,5310,4.3,2783,Yes
+FK100230,Flipkart SmartBuy Bedsheet Lite 78,Home & Kitchen,Bedsheet,Flipkart SmartBuy,1159,667,4.3,1934,Yes
+FK100231,Himalaya Trimmer Pro 27,Beauty & Personal Care,Trimmer,Himalaya,1739,1415,3.9,1093,Yes
+FK100232,Levi's Men's T-Shirt Lite 22,Fashion,Men's T-Shirt,Levi's,5579,2889,3.8,986,No
+FK100233,HRX Women's Kurta Prime 41,Fashion,Women's Kurta,HRX,1559,725,4.0,464,No
+FK100234,Reynolds Notebooks Prime 27,Books & Stationery,Notebooks,Reynolds,229,201,4.9,167,No
+FK100235,boAt Smartwatch Plus 38,Electronics,Smartwatch,boAt,4429,3650,3.8,316,Yes
+FK100236,Levi's Sneakers Max 71,Fashion,Sneakers,Levi's,2739,588,3.9,328,Yes
+FK100237,Himalaya Perfume Pro 26,Beauty & Personal Care,Perfume,Himalaya,2119,1695,4.9,1146,Yes
+FK100238,Beardo Perfume Plus 90,Beauty & Personal Care,Perfume,Beardo,479,248,4.0,1921,No
+FK100239,Maybelline Lipstick Plus 6,Beauty & Personal Care,Lipstick,Maybelline,569,344,4.2,184,Yes
+FK100240,Milton Storage Prime 57,Home & Kitchen,Storage,Milton,2019,938,4.1,341,Yes
+FK100241,Lenovo Speaker Neo 36,Electronics,Speaker,Lenovo,52059,43426,3.8,195,Yes
+FK100242,Motorola Smartphone Plus 74,Mobiles,Smartphone,Motorola,58799,50889,3.6,322,No
+FK100243,Apple Feature Phone Prime 55,Mobiles,Feature Phone,Apple,15259,14138,3.9,3532,Yes
+FK100244,Penguin Fiction Classic 90,Books & Stationery,Fiction,Penguin,119,97,4.2,634,Yes
+FK100245,Samsung Smartphone Edge 26,Mobiles,Smartphone,Samsung,48289,45423,3.5,446,Yes
+FK100246,JBL Smartwatch Pro 79,Electronics,Smartwatch,JBL,31399,27642,3.8,1947,No
+FK100247,Levi's Saree Edge 6,Fashion,Saree,Levi's,1349,432,4.0,311,Yes
+FK100248,Roadster Jeans Max 64,Fashion,Jeans,Roadster,4179,1925,3.1,1528,No
+FK100249,POCO Feature Phone Neo 59,Mobiles,Feature Phone,POCO,8529,8529,3.8,6608,Yes
+FK100250,SG Cycle Prime 1,Sports & Fitness,Cycle,SG,269,154,4.2,2856,Yes
+FK100251,Milton Bedsheet Prime 58,Home & Kitchen,Bedsheet,Milton,829,408,4.4,318,Yes
+FK100252,Cello Notebooks Lite 13,Books & Stationery,Notebooks,Cello,369,267,4.5,1079,Yes
+FK100253,Puma Jeans Prime 38,Fashion,Jeans,Puma,2659,1412,4.1,686,Yes
+FK100254,Milton Mixer Grinder Prime 64,Home & Kitchen,Mixer Grinder,Milton,749,554,4.7,162,Yes
+FK100255,Voltas Microwave Plus 43,Appliances,Microwave,Voltas,9229,8584,4.0,949,Yes
+FK100256,Realme Smartphone Classic 83,Mobiles,Smartphone,Realme,18719,18719,4.0,333,No
+FK100257,Beardo Trimmer Neo 79,Beauty & Personal Care,Trimmer,Beardo,2889,2384,4.0,1931,No
+FK100258,Levi's Saree Plus 69,Fashion,Saree,Levi's,3409,1818,3.8,1135,Yes
+FK100259,Mi Smartwatch Max 15,Electronics,Smartwatch,Mi,38199,23033,3.5,530,No
+FK100260,Dove Lipstick Neo 89,Beauty & Personal Care,Lipstick,Dove,1779,945,3.8,697,No
+FK100261,Prestige Cookware Plus 4,Home & Kitchen,Cookware,Prestige,1119,680,4.2,383,Yes
+FK100262,Allen Solly Saree Classic 46,Fashion,Saree,Allen Solly,2649,1271,3.9,3511,Yes
+FK100263,Reynolds Exam Prep Plus 89,Books & Stationery,Exam Prep,Reynolds,809,597,3.9,831,Yes
+FK100264,Maybelline Shampoo Max 98,Beauty & Personal Care,Shampoo,Maybelline,319,269,4.2,1863,Yes
+FK100265,Philips Cookware Prime 75,Home & Kitchen,Cookware,Philips,1029,750,4.2,6876,No
+FK100266,Navneet Children's Books Max 27,Books & Stationery,Children's Books,Navneet,249,174,4.3,77,No
+FK100267,Maybelline Lipstick Edge 57,Beauty & Personal Care,Lipstick,Maybelline,789,391,4.1,3856,Yes
+FK100268,Samsung Smartphone Max 61,Mobiles,Smartphone,Samsung,6119,6024,4.2,570,No
+FK100269,IFB Television Edge 89,Appliances,Television,IFB,8949,5696,3.6,2610,No
+FK100270,Dove Lipstick Edge 40,Beauty & Personal Care,Lipstick,Dove,939,636,4.3,53,Yes
+FK100271,Philips Trimmer Plus 49,Beauty & Personal Care,Trimmer,Philips,1739,1292,4.5,1474,No
+FK100272,Prestige Water Bottle Edge 75,Home & Kitchen,Water Bottle,Prestige,319,248,4.3,867,No
+FK100273,Milton Storage Pro 80,Home & Kitchen,Storage,Milton,509,295,3.7,1003,Yes
+FK100274,Cello Bedsheet Edge 12,Home & Kitchen,Bedsheet,Cello,6259,3421,4.4,4192,No
+FK100275,Harper Pens Lite 96,Books & Stationery,Pens,Harper,109,74,4.2,1358,Yes
+FK100276,Roadster Men's T-Shirt Max 56,Fashion,Men's T-Shirt,Roadster,459,251,3.9,690,No
+FK100277,Prestige Mixer Grinder Edge 73,Home & Kitchen,Mixer Grinder,Prestige,4229,2472,4.5,387,No
+FK100278,Motorola Smartphone Max 32,Mobiles,Smartphone,Motorola,17169,16333,4.6,68,No
+FK100279,Philips Bedsheet Plus 59,Home & Kitchen,Bedsheet,Philips,5509,2354,3.8,118,No
+FK100280,boAt Power Bank Lite 12,Electronics,Power Bank,boAt,2199,1500,4.7,553,Yes
+FK100281,HP Laptop Lite 27,Electronics,Laptop,HP,16389,12011,4.3,406,Yes
+FK100282,Noise Laptop Prime 51,Electronics,Laptop,Noise,4539,3504,3.8,181,Yes
+FK100283,Levi's Jeans Lite 7,Fashion,Jeans,Levi's,489,73,3.0,195,No
+FK100284,Hero Yoga Mat Neo 42,Sports & Fitness,Yoga Mat,Hero,1099,561,4.2,1823,Yes
+FK100285,OPPO Feature Phone Classic 31,Mobiles,Feature Phone,OPPO,17109,17109,4.1,2391,Yes
+FK100286,Realme Smartphone Neo 78,Mobiles,Smartphone,Realme,51139,41255,4.0,4972,Yes
+FK100287,Vivo Feature Phone Prime 93,Mobiles,Feature Phone,Vivo,23789,18020,4.1,262,No
+FK100288,Sony Power Bank Edge 26,Electronics,Power Bank,Sony,2839,1830,4.6,3153,Yes
+FK100289,Bajaj Mixer Grinder Plus 29,Home & Kitchen,Mixer Grinder,Bajaj,4919,3540,3.7,453,Yes
+FK100290,Whirlpool Microwave Classic 60,Appliances,Microwave,Whirlpool,13509,7297,3.7,882,No
+FK100291,Classmate Exam Prep Prime 82,Books & Stationery,Exam Prep,Classmate,99,90,3.8,616,No
+FK100292,Prestige Storage Edge 82,Home & Kitchen,Storage,Prestige,1699,1227,4.0,81,No
+FK100293,Himalaya Trimmer Prime 33,Beauty & Personal Care,Trimmer,Himalaya,909,749,4.3,706,Yes
+FK100294,Campus Men's T-Shirt Classic 91,Fashion,Men's T-Shirt,Campus,689,335,3.9,2557,Yes
+FK100295,Allen Solly Saree Prime 50,Fashion,Saree,Allen Solly,3919,1522,3.5,410,No
+FK100296,W Men's T-Shirt Prime 80,Fashion,Men's T-Shirt,W,5009,1824,3.3,136,No
+FK100297,Solimo Water Bottle Prime 24,Home & Kitchen,Water Bottle,Solimo,319,228,4.1,197,Yes
+FK100298,Mamaearth Trimmer Prime 17,Beauty & Personal Care,Trimmer,Mamaearth,3679,2334,4.4,1866,No
+FK100299,boAt Headphones Pro 31,Electronics,Headphones,boAt,1259,948,4.0,8359,Yes
+FK100300,Pigeon Storage Classic 79,Home & Kitchen,Storage,Pigeon,4439,2445,3.8,2395,Yes
+FK100301,Mi Smartwatch Edge 73,Electronics,Smartwatch,Mi,1399,1139,4.6,2674,Yes
+FK100302,Beardo Trimmer Neo 58,Beauty & Personal Care,Trimmer,Beardo,429,289,4.2,1797,No
+FK100303,Roadster Sneakers Lite 8,Fashion,Sneakers,Roadster,2659,1445,3.7,20798,Yes
+FK100304,Puma Saree Neo 26,Fashion,Saree,Puma,659,206,3.7,177,No
+FK100305,Puma Sneakers Edge 70,Fashion,Sneakers,Puma,1699,873,3.9,600,Yes
+FK100306,HRX Saree Edge 11,Fashion,Saree,HRX,969,561,3.9,267,Yes
+FK100307,Levi's Saree Prime 24,Fashion,Saree,Levi's,2539,828,3.4,141,No
+FK100308,Strauss Cricket Bat Lite 80,Sports & Fitness,Cricket Bat,Strauss,7409,3912,3.9,824,Yes
+FK100309,Allen Solly Sneakers Edge 54,Fashion,Sneakers,Allen Solly,3329,1948,4.2,292,No
+FK100310,Mamaearth Perfume Edge 57,Beauty & Personal Care,Perfume,Mamaearth,859,619,4.0,502,No
+FK100311,Sony Power Bank Prime 75,Electronics,Power Bank,Sony,65499,38623,4.6,1408,No
+FK100312,Hero Cricket Bat Max 45,Sports & Fitness,Cricket Bat,Hero,859,367,4.3,3669,No
+FK100313,Hero Cycle Max 85,Sports & Fitness,Cycle,Hero,839,394,4.5,760,No
+FK100314,Vivo Feature Phone Plus 83,Mobiles,Feature Phone,Vivo,13629,12388,3.8,272,No
+FK100315,Reynolds Fiction Lite 10,Books & Stationery,Fiction,Reynolds,129,92,4.4,799,Yes
+FK100316,Allen Solly Women's Kurta Classic 63,Fashion,Women's Kurta,Allen Solly,509,186,3.6,638,No
+FK100317,Ambrane Headphones Max 19,Electronics,Headphones,Ambrane,2609,1954,4.4,233,No
+FK100318,Puma Sneakers Lite 25,Fashion,Sneakers,Puma,2899,1196,4.0,853,Yes
+FK100319,Cosco Dumbbells Classic 6,Sports & Fitness,Dumbbells,Cosco,3609,1929,3.9,173,Yes
+FK100320,Nivea Face Wash Prime 87,Beauty & Personal Care,Face Wash,Nivea,1409,1093,4.2,492,Yes
+FK100321,Voltas Microwave Plus 97,Appliances,Microwave,Voltas,21189,18241,4.2,755,Yes
+FK100322,Mamaearth Face Wash Neo 92,Beauty & Personal Care,Face Wash,Mamaearth,2819,2161,4.1,2352,No
+FK100323,Mamaearth Lipstick Plus 49,Beauty & Personal Care,Lipstick,Mamaearth,559,543,4.1,1805,Yes
+FK100324,Dove Shampoo Prime 90,Beauty & Personal Care,Shampoo,Dove,189,153,4.4,105,Yes
+FK100325,Himalaya Face Wash Classic 33,Beauty & Personal Care,Face Wash,Himalaya,189,127,3.7,1332,No
+FK100326,Redmi Smartphone Max 24,Mobiles,Smartphone,Redmi,32199,28371,3.5,287,No
+FK100327,Navneet Fiction Classic 34,Books & Stationery,Fiction,Navneet,129,125,4.1,7277,Yes
+FK100328,Ambrane Power Bank Pro 48,Electronics,Power Bank,Ambrane,19019,9942,4.2,569,Yes
+FK100329,Kookaburra Cycle Lite 70,Sports & Fitness,Cycle,Kookaburra,609,371,4.6,356,Yes
+FK100330,HRX Jeans Max 25,Fashion,Jeans,HRX,2599,2124,4.1,188,Yes
+FK100331,Milton Mixer Grinder Classic 54,Home & Kitchen,Mixer Grinder,Milton,939,626,4.6,1576,Yes
+FK100332,Levi's Women's Kurta Prime 9,Fashion,Women's Kurta,Levi's,609,338,4.3,1484,No
+FK100333,Sony Speaker Max 95,Electronics,Speaker,Sony,2069,1507,4.4,553,Yes
+FK100334,Arihant Fiction Pro 75,Books & Stationery,Fiction,Arihant,269,269,3.8,407,No
+FK100335,Noise Headphones Classic 81,Electronics,Headphones,Noise,51559,41028,3.9,449,Yes
+FK100336,Ambrane Smartwatch Prime 35,Electronics,Smartwatch,Ambrane,2699,2239,4.0,547,Yes
+FK100337,Milton Bedsheet Neo 63,Home & Kitchen,Bedsheet,Milton,599,364,3.7,89,No
+FK100338,Puma Men's T-Shirt Classic 34,Fashion,Men's T-Shirt,Puma,509,169,3.7,433,Yes
+FK100339,Campus Saree Classic 81,Fashion,Saree,Campus,1119,731,4.4,66,No
+FK100340,HRX Sneakers Max 83,Fashion,Sneakers,HRX,4679,2406,4.0,370,No
+FK100341,Puma Men's T-Shirt Pro 35,Fashion,Men's T-Shirt,Puma,2099,1111,4.8,1282,No
+FK100342,JBL Laptop Classic 49,Electronics,Laptop,JBL,12379,8725,4.1,595,No
+FK100343,Allen Solly Jeans Max 21,Fashion,Jeans,Allen Solly,2989,1446,4.4,199,Yes
+FK100344,Penguin Notebooks Classic 92,Books & Stationery,Notebooks,Penguin,529,338,3.9,3552,Yes
+FK100345,Pigeon Bedsheet Classic 76,Home & Kitchen,Bedsheet,Pigeon,3149,1935,4.2,914,Yes
+FK100346,Flipkart SmartBuy Water Bottle Classic 81,Home & Kitchen,Water Bottle,Flipkart SmartBuy,4449,2204,3.6,186,No
+FK100347,HRX Saree Edge 98,Fashion,Saree,HRX,1899,1111,4.1,162,No
+FK100348,Navneet Children's Books Pro 43,Books & Stationery,Children's Books,Navneet,679,504,4.4,74,No
+FK100349,Philips Trimmer Plus 16,Beauty & Personal Care,Trimmer,Philips,379,243,4.0,1049,No
+FK100350,Flipkart SmartBuy Storage Edge 53,Home & Kitchen,Storage,Flipkart SmartBuy,7749,2984,3.8,940,Yes
+FK100351,Lakme Perfume Lite 91,Beauty & Personal Care,Perfume,Lakme,1009,681,4.2,487,Yes
+FK100352,Boldfit Cricket Bat Prime 26,Sports & Fitness,Cricket Bat,Boldfit,569,307,3.7,3040,Yes
+FK100353,TCL Refrigerator Edge 75,Appliances,Refrigerator,TCL,18779,15735,3.7,1769,No
+FK100354,Arihant Fiction Plus 22,Books & Stationery,Fiction,Arihant,92,87,4.2,1734,Yes
+FK100355,Lakme Shampoo Classic 77,Beauty & Personal Care,Shampoo,Lakme,559,307,4.8,682,Yes
+FK100356,Cosco Football Classic 93,Sports & Fitness,Football,Cosco,549,219,4.2,516,Yes
+FK100357,Libas Saree Lite 76,Fashion,Saree,Libas,449,222,4.0,923,Yes
+FK100358,W Jeans Pro 58,Fashion,Jeans,W,899,471,3.9,37,No
+FK100359,Boldfit Yoga Mat Max 91,Sports & Fitness,Yoga Mat,Boldfit,559,262,4.3,471,No
+FK100360,Roadster Sneakers Classic 52,Fashion,Sneakers,Roadster,659,403,4.2,1164,Yes
+FK100361,HRX Sneakers Classic 93,Fashion,Sneakers,HRX,1399,720,3.9,360,No
+FK100362,Noise Power Bank Plus 42,Electronics,Power Bank,Noise,23159,16426,3.7,763,Yes
+FK100363,HP Headphones Lite 6,Electronics,Headphones,HP,3549,2426,3.7,128,No
+FK100364,Apple Smartphone Pro 95,Mobiles,Smartphone,Apple,52119,47972,4.8,299,Yes
+FK100365,Arihant Fiction Prime 80,Books & Stationery,Fiction,Arihant,389,242,3.8,902,No
+FK100366,Dove Lipstick Neo 69,Beauty & Personal Care,Lipstick,Dove,909,677,3.7,247,Yes
+FK100367,Disha Fiction Max 56,Books & Stationery,Fiction,Disha,619,498,3.9,2036,Yes
+FK100368,Allen Solly Saree Classic 56,Fashion,Saree,Allen Solly,999,326,3.9,2827,No
+FK100369,Flipkart SmartBuy Storage Lite 89,Home & Kitchen,Storage,Flipkart SmartBuy,4649,3349,4.4,159,Yes
+FK100370,Decathlon Football Prime 57,Sports & Fitness,Football,Decathlon,7869,3925,4.4,393,No
+FK100371,boAt Headphones Plus 90,Electronics,Headphones,boAt,9219,5316,4.1,2923,Yes
+FK100372,Voltas Washing Machine Pro 36,Appliances,Washing Machine,Voltas,32979,30998,4.2,502,Yes
+FK100373,Beardo Face Wash Plus 27,Beauty & Personal Care,Face Wash,Beardo,259,190,3.6,296,No
+FK100374,Milton Storage Classic 27,Home & Kitchen,Storage,Milton,2119,1219,3.9,5806,Yes
+FK100375,Lenovo Speaker Edge 36,Electronics,Speaker,Lenovo,13259,7776,3.6,1345,Yes
+FK100376,W Jeans Plus 39,Fashion,Jeans,W,3109,1318,4.0,140,Yes
+FK100377,Haier Refrigerator Pro 62,Appliances,Refrigerator,Haier,11119,9449,3.8,1205,Yes
+FK100378,Penguin Exam Prep Edge 13,Books & Stationery,Exam Prep,Penguin,139,125,3.9,178,No
+FK100379,boAt Laptop Plus 19,Electronics,Laptop,boAt,5109,3570,4.3,207,Yes
+FK100380,Puma Women's Kurta Neo 2,Fashion,Women's Kurta,Puma,2699,1180,4.7,97,Yes
+FK100381,Arihant Pens Lite 19,Books & Stationery,Pens,Arihant,379,238,4.0,235,Yes
+FK100382,Disha Pens Classic 85,Books & Stationery,Pens,Disha,219,194,4.5,303,No
+FK100383,Navneet Children's Books Edge 8,Books & Stationery,Children's Books,Navneet,1249,1079,3.7,2385,Yes
+FK100384,Reynolds Children's Books Prime 63,Books & Stationery,Children's Books,Reynolds,499,432,4.0,2043,Yes
+FK100385,Levi's Saree Prime 22,Fashion,Saree,Levi's,2079,1212,4.5,243,Yes
+FK100386,boAt Headphones Neo 48,Electronics,Headphones,boAt,4029,2270,4.0,2053,No
+FK100387,Philips Perfume Edge 73,Beauty & Personal Care,Perfume,Philips,2539,1398,4.0,231,Yes
+FK100388,OPPO Smartphone Classic 45,Mobiles,Smartphone,OPPO,76629,60208,4.0,706,No
+FK100389,POCO Feature Phone Prime 90,Mobiles,Feature Phone,POCO,6849,6542,3.6,2142,Yes
+FK100390,Decathlon Cricket Bat Pro 57,Sports & Fitness,Cricket Bat,Decathlon,319,150,4.0,3461,No
+FK100391,Noise Power Bank Neo 39,Electronics,Power Bank,Noise,1909,1325,4.7,583,No
+FK100392,Libas Jeans Edge 34,Fashion,Jeans,Libas,5669,2104,3.6,509,No
+FK100393,Navneet Notebooks Plus 36,Books & Stationery,Notebooks,Navneet,359,277,4.0,317,No
+FK100394,Strauss Yoga Mat Plus 97,Sports & Fitness,Yoga Mat,Strauss,489,383,4.0,1804,No
+FK100395,Whirlpool Washing Machine Prime 41,Appliances,Washing Machine,Whirlpool,22379,15862,3.8,17487,Yes
+FK100396,Puma Men's T-Shirt Neo 56,Fashion,Men's T-Shirt,Puma,1559,839,4.1,575,No
+FK100397,Milton Mixer Grinder Neo 13,Home & Kitchen,Mixer Grinder,Milton,7309,3766,4.0,1080,Yes
+FK100398,boAt Smartwatch Lite 74,Electronics,Smartwatch,boAt,1819,1304,4.5,275,Yes
+FK100399,Mamaearth Shampoo Plus 8,Beauty & Personal Care,Shampoo,Mamaearth,2699,2333,4.1,273,Yes
+FK100400,Maybelline Face Wash Classic 87,Beauty & Personal Care,Face Wash,Maybelline,1589,1040,4.5,269,No
+FK100401,Campus Women's Kurta Classic 23,Fashion,Women's Kurta,Campus,1179,429,3.7,328,No
+FK100402,Decathlon Cricket Bat Classic 46,Sports & Fitness,Cricket Bat,Decathlon,1629,1027,4.5,4621,Yes
+FK100403,Maybelline Trimmer Lite 65,Beauty & Personal Care,Trimmer,Maybelline,2299,1831,4.0,165,No
+FK100404,Classmate Children's Books Classic 32,Books & Stationery,Children's Books,Classmate,98,77,3.6,845,No
+FK100405,Lakme Shampoo Max 82,Beauty & Personal Care,Shampoo,Lakme,929,733,4.1,591,Yes
+FK100406,Dove Shampoo Prime 9,Beauty & Personal Care,Shampoo,Dove,2439,1346,4.3,3221,Yes
+FK100407,Noise Smartwatch Classic 67,Electronics,Smartwatch,Noise,7849,5295,4.5,3108,No
+FK100408,Lakme Perfume Classic 53,Beauty & Personal Care,Perfume,Lakme,1319,1023,3.1,1103,No
+FK100409,Roadster Men's T-Shirt Pro 89,Fashion,Men's T-Shirt,Roadster,3839,2723,4.3,1699,No
+FK100410,OPPO Smartphone Edge 41,Mobiles,Smartphone,OPPO,45679,36860,4.6,764,Yes
+FK100411,boAt Smartwatch Max 84,Electronics,Smartwatch,boAt,6309,4813,4.2,3111,Yes
+FK100412,Mamaearth Lipstick Classic 7,Beauty & Personal Care,Lipstick,Mamaearth,209,135,4.5,4892,Yes
+FK100413,Libas Women's Kurta Plus 81,Fashion,Women's Kurta,Libas,4459,3438,4.3,8538,No
+FK100414,Kookaburra Yoga Mat Neo 76,Sports & Fitness,Yoga Mat,Kookaburra,279,221,4.4,119,No
+FK100415,Puma Men's T-Shirt Pro 42,Fashion,Men's T-Shirt,Puma,2169,1034,3.7,16,No
+FK100416,Libas Sneakers Max 94,Fashion,Sneakers,Libas,2649,1554,3.8,204,Yes
+FK100417,Libas Men's T-Shirt Edge 72,Fashion,Men's T-Shirt,Libas,2719,1154,3.7,7322,No
+FK100418,Milton Water Bottle Lite 41,Home & Kitchen,Water Bottle,Milton,609,376,3.8,1348,Yes
+FK100419,Nivea Face Wash Classic 72,Beauty & Personal Care,Face Wash,Nivea,1869,1136,4.5,2805,Yes
+FK100420,SG Yoga Mat Pro 75,Sports & Fitness,Yoga Mat,SG,509,314,4.8,1772,Yes
+FK100421,Samsung Television Prime 84,Appliances,Television,Samsung,46359,28213,3.5,120,No
+FK100422,Mi Smartwatch Plus 27,Electronics,Smartwatch,Mi,11389,7782,4.0,9637,Yes
+FK100423,Maybelline Face Wash Classic 19,Beauty & Personal Care,Face Wash,Maybelline,3989,2623,4.1,1846,Yes
+FK100424,Philips Trimmer Lite 49,Beauty & Personal Care,Trimmer,Philips,2369,1767,3.5,32,No
+FK100425,Nivia Dumbbells Pro 63,Sports & Fitness,Dumbbells,Nivia,6019,3600,4.1,233,Yes
+FK100426,W Men's T-Shirt Neo 30,Fashion,Men's T-Shirt,W,689,325,4.2,512,No
+FK100427,Vivo Feature Phone Neo 57,Mobiles,Feature Phone,Vivo,10129,8724,4.0,1139,No
+FK100428,Roadster Saree Prime 98,Fashion,Saree,Roadster,1019,514,4.9,2040,Yes
+FK100429,OPPO Feature Phone Max 12,Mobiles,Feature Phone,OPPO,73739,61192,3.6,203,No
+FK100430,Nivia Dumbbells Edge 98,Sports & Fitness,Dumbbells,Nivia,699,303,4.3,1003,Yes
+FK100431,Voltas Washing Machine Plus 63,Appliances,Washing Machine,Voltas,13299,10245,4.2,311,No
+FK100432,Roadster Men's T-Shirt Classic 43,Fashion,Men's T-Shirt,Roadster,3949,2480,3.9,2711,No
+FK100433,Lakme Perfume Pro 88,Beauty & Personal Care,Perfume,Lakme,269,147,4.0,52,No
+FK100434,Classmate Fiction Edge 38,Books & Stationery,Fiction,Classmate,1199,930,4.4,66,No
+FK100435,boAt Laptop Plus 52,Electronics,Laptop,boAt,6249,5507,3.5,537,No
+FK100436,Boldfit Cycle Plus 95,Sports & Fitness,Cycle,Boldfit,1299,550,3.8,215,Yes
+FK100437,W Men's T-Shirt Pro 52,Fashion,Men's T-Shirt,W,4449,2377,4.1,283,No
+FK100438,Campus Sneakers Max 55,Fashion,Sneakers,Campus,3499,1402,3.6,1001,No
+FK100439,Boldfit Dumbbells Lite 92,Sports & Fitness,Dumbbells,Boldfit,519,209,4.4,834,No
+FK100440,Campus Men's T-Shirt Prime 88,Fashion,Men's T-Shirt,Campus,4949,2279,4.2,52,No
+FK100441,Disha Children's Books Prime 32,Books & Stationery,Children's Books,Disha,109,70,4.3,770,No
+FK100442,Dove Perfume Pro 43,Beauty & Personal Care,Perfume,Dove,219,129,4.2,1466,No
+FK100443,Motorola Smartphone Classic 88,Mobiles,Smartphone,Motorola,6779,6779,4.1,1107,No
+FK100444,Levi's Saree Pro 82,Fashion,Saree,Levi's,679,349,3.6,67,No
+FK100445,Beardo Perfume Max 98,Beauty & Personal Care,Perfume,Beardo,2919,2104,4.0,297,Yes
+FK100446,Roadster Women's Kurta Lite 67,Fashion,Women's Kurta,Roadster,1159,400,3.6,715,No
+FK100447,Levi's Saree Lite 84,Fashion,Saree,Levi's,809,398,3.7,180,No
+FK100448,HRX Sneakers Neo 32,Fashion,Sneakers,HRX,1799,1133,4.3,615,No
+FK100449,Milton Bedsheet Classic 77,Home & Kitchen,Bedsheet,Milton,1319,786,3.8,17946,No
+FK100450,Haier Microwave Pro 77,Appliances,Microwave,Haier,13059,8576,3.8,613,Yes
+FK100451,Philips Lipstick Pro 51,Beauty & Personal Care,Lipstick,Philips,1419,1057,4.0,88,No
+FK100452,SG Dumbbells Max 51,Sports & Fitness,Dumbbells,SG,319,177,4.1,787,Yes
+FK100453,Puma Jeans Pro 85,Fashion,Jeans,Puma,3729,2334,3.8,600,Yes
+FK100454,Levi's Sneakers Edge 74,Fashion,Sneakers,Levi's,499,231,4.1,129,No
+FK100455,Navneet Exam Prep Edge 63,Books & Stationery,Exam Prep,Navneet,999,904,3.6,448,No
+FK100456,Bajaj Bedsheet Plus 36,Home & Kitchen,Bedsheet,Bajaj,629,285,3.7,425,Yes
+FK100457,Penguin Exam Prep Classic 86,Books & Stationery,Exam Prep,Penguin,889,688,4.2,807,No
+FK100458,Mamaearth Trimmer Max 34,Beauty & Personal Care,Trimmer,Mamaearth,169,91,3.5,324,No
+FK100459,Campus Sneakers Classic 45,Fashion,Sneakers,Campus,4819,2625,4.4,509,Yes
+FK100460,Libas Saree Prime 13,Fashion,Saree,Libas,3999,1611,4.3,2202,Yes
+FK100461,Mi Power Bank Max 65,Electronics,Power Bank,Mi,1859,1414,3.9,1516,No
+FK100462,Motorola Smartphone Edge 92,Mobiles,Smartphone,Motorola,9859,9859,3.7,111,No
+FK100463,IFB Washing Machine Plus 67,Appliances,Washing Machine,IFB,61359,44640,3.9,374,No
+FK100464,Cello Fiction Prime 42,Books & Stationery,Fiction,Cello,219,161,3.9,776,Yes
+FK100465,JBL Power Bank Max 98,Electronics,Power Bank,JBL,2199,1312,3.8,9934,Yes
+FK100466,Lenovo Speaker Classic 95,Electronics,Speaker,Lenovo,4299,4212,4.4,22061,Yes
+FK100467,JBL Speaker Classic 35,Electronics,Speaker,JBL,16049,9814,4.4,4730,No
+FK100468,HRX Sneakers Lite 90,Fashion,Sneakers,HRX,5079,2726,4.6,4649,Yes
+FK100469,Disha Pens Pro 28,Books & Stationery,Pens,Disha,89,75,4.1,2021,No
+FK100470,Bajaj Bedsheet Max 95,Home & Kitchen,Bedsheet,Bajaj,4219,2684,4.4,23212,Yes
+FK100471,Puma Jeans Lite 56,Fashion,Jeans,Puma,1889,994,4.0,692,No
+FK100472,Nivea Shampoo Pro 13,Beauty & Personal Care,Shampoo,Nivea,379,302,3.9,7550,Yes
+FK100473,Roadster Women's Kurta Prime 72,Fashion,Women's Kurta,Roadster,3619,1487,3.7,1484,No
+FK100474,Himalaya Shampoo Classic 71,Beauty & Personal Care,Shampoo,Himalaya,459,301,3.9,852,No
+FK100475,TCL Microwave Max 69,Appliances,Microwave,TCL,45739,26771,4.2,1153,Yes
+FK100476,LG Microwave Lite 1,Appliances,Microwave,LG,15349,14312,4.3,283,Yes
+FK100477,Philips Water Bottle Plus 1,Home & Kitchen,Water Bottle,Philips,3369,2310,3.5,409,No
+FK100478,Mamaearth Shampoo Lite 63,Beauty & Personal Care,Shampoo,Mamaearth,289,239,4.0,604,No
+FK100479,Sony Headphones Classic 49,Electronics,Headphones,Sony,4629,3019,4.3,92,Yes
+FK100480,Arihant Notebooks Plus 31,Books & Stationery,Notebooks,Arihant,1209,819,4.4,3930,Yes
+FK100481,Arihant Pens Prime 97,Books & Stationery,Pens,Arihant,1299,795,3.7,1069,Yes
+FK100482,Strauss Cricket Bat Neo 59,Sports & Fitness,Cricket Bat,Strauss,629,381,3.5,3049,Yes
+FK100483,Dove Face Wash Edge 75,Beauty & Personal Care,Face Wash,Dove,569,306,4.6,3255,Yes
+FK100484,Penguin Fiction Prime 59,Books & Stationery,Fiction,Penguin,309,215,4.1,792,No
+FK100485,Lakme Shampoo Plus 31,Beauty & Personal Care,Shampoo,Lakme,2019,868,4.0,328,No
+FK100486,Flipkart SmartBuy Bedsheet Plus 41,Home & Kitchen,Bedsheet,Flipkart SmartBuy,1299,909,4.3,1068,Yes
+FK100487,Milton Cookware Lite 2,Home & Kitchen,Cookware,Milton,2489,1744,3.8,271,No
+FK100488,W Sneakers Plus 22,Fashion,Sneakers,W,519,182,3.9,45,No
+FK100489,Lakme Lipstick Classic 79,Beauty & Personal Care,Lipstick,Lakme,179,142,4.3,1416,Yes
+FK100490,Penguin Pens Pro 87,Books & Stationery,Pens,Penguin,1439,957,3.9,565,Yes
+FK100491,Disha Notebooks Edge 25,Books & Stationery,Notebooks,Disha,279,189,4.7,3561,Yes
+FK100492,Lenovo Headphones Pro 7,Electronics,Headphones,Lenovo,68779,49004,4.4,4884,Yes
+FK100493,Mi Smartwatch Neo 64,Electronics,Smartwatch,Mi,2759,1620,4.4,454,Yes
+FK100494,Decathlon Cricket Bat Prime 60,Sports & Fitness,Cricket Bat,Decathlon,959,363,4.4,1300,No
+FK100495,Penguin Fiction Prime 78,Books & Stationery,Fiction,Penguin,499,429,4.1,1087,No
+FK100496,Haier Air Conditioner Edge 11,Appliances,Air Conditioner,Haier,7699,6901,4.0,2081,Yes
+FK100497,Strauss Football Prime 8,Sports & Fitness,Football,Strauss,259,86,3.5,2870,Yes
+FK100498,Puma Women's Kurta Edge 90,Fashion,Women's Kurta,Puma,4869,1795,3.7,1423,No
+FK100499,Dove Lipstick Pro 40,Beauty & Personal Care,Lipstick,Dove,159,83,4.0,922,No
+FK100500,Allen Solly Women's Kurta Neo 78,Fashion,Women's Kurta,Allen Solly,749,363,4.1,1258,Yes
+FK100501,Noise Laptop Lite 28,Electronics,Laptop,Noise,3119,2438,4.2,838,No
+FK100502,LG Air Conditioner Neo 21,Appliances,Air Conditioner,LG,15819,10696,4.1,2149,Yes
+FK100503,Reynolds Pens Plus 68,Books & Stationery,Pens,Reynolds,179,178,3.7,114,No
+FK100504,Flipkart SmartBuy Water Bottle Max 3,Home & Kitchen,Water Bottle,Flipkart SmartBuy,3029,1799,4.1,650,No
+FK100505,Samsung Refrigerator Plus 44,Appliances,Refrigerator,Samsung,10739,7287,4.0,315,No
+FK100506,Cello Mixer Grinder Neo 62,Home & Kitchen,Mixer Grinder,Cello,1519,1051,4.0,356,No
+FK100507,W Saree Edge 90,Fashion,Saree,W,2739,1194,3.7,114,No
+FK100508,Sony Headphones Edge 28,Electronics,Headphones,Sony,4789,3467,4.5,75,Yes
+FK100509,Pigeon Cookware Lite 36,Home & Kitchen,Cookware,Pigeon,4859,3281,3.9,245,No
+FK100510,LG Washing Machine Plus 76,Appliances,Washing Machine,LG,22649,19923,4.8,3274,No
+FK100511,Noise Smartwatch Plus 93,Electronics,Smartwatch,Noise,28579,22997,3.9,407,No
+FK100512,Puma Sneakers Pro 42,Fashion,Sneakers,Puma,739,336,4.2,682,Yes
+FK100513,Solimo Bedsheet Lite 1,Home & Kitchen,Bedsheet,Solimo,5529,3488,4.1,1913,Yes
+FK100514,Mi Headphones Classic 71,Electronics,Headphones,Mi,13839,6883,3.8,30,No
+FK100515,Milton Storage Lite 77,Home & Kitchen,Storage,Milton,6499,2380,3.7,1669,No
+FK100516,Solimo Water Bottle Prime 81,Home & Kitchen,Water Bottle,Solimo,399,198,4.2,1072,No
+FK100517,Vivo Smartphone Edge 9,Mobiles,Smartphone,Vivo,27309,27058,4.1,1542,Yes
+FK100518,Solimo Storage Edge 84,Home & Kitchen,Storage,Solimo,329,188,3.5,648,No
+FK100519,Apple Feature Phone Neo 34,Mobiles,Feature Phone,Apple,6579,5961,4.2,1522,No
+FK100520,Solimo Mixer Grinder Edge 73,Home & Kitchen,Mixer Grinder,Solimo,569,290,4.4,1820,No
+FK100521,Lakme Trimmer Pro 45,Beauty & Personal Care,Trimmer,Lakme,2999,2074,4.5,1030,No
+FK100522,Cello Storage Lite 31,Home & Kitchen,Storage,Cello,2289,1095,4.0,1816,Yes
+FK100523,Noise Speaker Max 54,Electronics,Speaker,Noise,3559,2415,3.9,811,No
+FK100524,HRX Sneakers Classic 66,Fashion,Sneakers,HRX,519,263,4.0,1301,No
+FK100525,HRX Saree Prime 62,Fashion,Saree,HRX,789,390,4.4,1037,Yes
+FK100526,Ambrane Headphones Max 22,Electronics,Headphones,Ambrane,27689,20612,4.4,2548,Yes
+FK100527,Ambrane Headphones Neo 75,Electronics,Headphones,Ambrane,49799,24428,4.0,394,Yes
+FK100528,Kookaburra Dumbbells Lite 67,Sports & Fitness,Dumbbells,Kookaburra,349,165,4.4,1066,Yes
+FK100529,Classmate Pens Edge 8,Books & Stationery,Pens,Classmate,129,110,4.0,319,No
+FK100530,Bajaj Cookware Neo 77,Home & Kitchen,Cookware,Bajaj,1069,609,4.4,319,Yes
+FK100531,POCO Feature Phone Plus 65,Mobiles,Feature Phone,POCO,18519,18519,4.4,1483,Yes
+FK100532,JBL Power Bank Neo 2,Electronics,Power Bank,JBL,19409,14888,4.1,4191,Yes
+FK100533,Libas Sneakers Max 96,Fashion,Sneakers,Libas,5909,1920,3.5,10933,Yes
+FK100534,Motorola Smartphone Pro 45,Mobiles,Smartphone,Motorola,17789,13946,4.1,5511,Yes
+FK100535,Levi's Men's T-Shirt Prime 11,Fashion,Men's T-Shirt,Levi's,1079,715,3.4,1472,No
+FK100536,Vivo Smartphone Plus 87,Mobiles,Smartphone,Vivo,9959,9959,3.9,591,No
+FK100537,Classmate Pens Edge 91,Books & Stationery,Pens,Classmate,1279,1171,4.2,615,Yes
+FK100538,Flipkart SmartBuy Bedsheet Prime 70,Home & Kitchen,Bedsheet,Flipkart SmartBuy,7109,2440,3.4,1455,Yes
+FK100539,Philips Mixer Grinder Classic 15,Home & Kitchen,Mixer Grinder,Philips,1539,709,4.6,572,No
+FK100540,boAt Smartwatch Edge 2,Electronics,Smartwatch,boAt,48049,32200,4.0,33,Yes
+FK100541,Prestige Water Bottle Lite 23,Home & Kitchen,Water Bottle,Prestige,3529,2005,4.5,1150,No
+FK100542,HP Laptop Prime 27,Electronics,Laptop,HP,49589,34772,3.8,806,No
+FK100543,Hero Dumbbells Edge 45,Sports & Fitness,Dumbbells,Hero,289,145,4.8,88,Yes
+FK100544,Cello Children's Books Prime 51,Books & Stationery,Children's Books,Cello,339,170,4.0,17438,Yes
+FK100545,HRX Jeans Neo 80,Fashion,Jeans,HRX,519,211,4.0,1484,No
+FK100546,Classmate Fiction Classic 39,Books & Stationery,Fiction,Classmate,589,580,4.1,2261,No
+FK100547,Nivia Cricket Bat Plus 82,Sports & Fitness,Cricket Bat,Nivia,5989,3108,4.0,521,Yes
+FK100548,Solimo Bedsheet Plus 68,Home & Kitchen,Bedsheet,Solimo,399,175,4.6,1050,No
+FK100549,Dove Trimmer Neo 7,Beauty & Personal Care,Trimmer,Dove,789,301,3.6,3375,No
+FK100550,Allen Solly Men's T-Shirt Max 66,Fashion,Men's T-Shirt,Allen Solly,1609,519,3.6,1862,Yes
+FK100551,Philips Face Wash Plus 38,Beauty & Personal Care,Face Wash,Philips,719,426,4.3,4712,No
+FK100552,Allen Solly Sneakers Pro 79,Fashion,Sneakers,Allen Solly,2739,883,3.7,1667,Yes
+FK100553,Maybelline Shampoo Pro 23,Beauty & Personal Care,Shampoo,Maybelline,199,173,3.6,85,Yes
+FK100554,Decathlon Dumbbells Plus 34,Sports & Fitness,Dumbbells,Decathlon,339,204,4.3,368,Yes
+FK100555,Milton Water Bottle Edge 38,Home & Kitchen,Water Bottle,Milton,2829,1126,3.0,69,Yes
+FK100556,W Sneakers Prime 91,Fashion,Sneakers,W,4859,2481,4.0,155,No
+FK100557,LG Microwave Plus 50,Appliances,Microwave,LG,56279,42600,4.3,3725,Yes
+FK100558,JBL Speaker Max 22,Electronics,Speaker,JBL,2369,1426,4.8,503,Yes
+FK100559,Roadster Men's T-Shirt Edge 83,Fashion,Men's T-Shirt,Roadster,2919,1389,3.5,100,No
+FK100560,Philips Mixer Grinder Classic 32,Home & Kitchen,Mixer Grinder,Philips,3529,1774,4.9,2941,Yes
+FK100561,Solimo Storage Classic 41,Home & Kitchen,Storage,Solimo,2279,1240,4.0,1691,No
+FK100562,Roadster Jeans Plus 7,Fashion,Jeans,Roadster,3989,1915,4.2,619,Yes
+FK100563,Vivo Smartphone Plus 53,Mobiles,Smartphone,Vivo,11199,10557,3.9,3136,No
+FK100564,Navneet Children's Books Classic 28,Books & Stationery,Children's Books,Navneet,769,632,3.8,1085,No
+FK100565,Campus Saree Neo 21,Fashion,Saree,Campus,2699,703,3.8,1196,No
+FK100566,Libas Women's Kurta Max 29,Fashion,Women's Kurta,Libas,719,375,4.7,190,Yes
+FK100567,Vivo Smartphone Classic 76,Mobiles,Smartphone,Vivo,10639,9466,3.9,633,No
+FK100568,Mamaearth Trimmer Neo 83,Beauty & Personal Care,Trimmer,Mamaearth,3689,2587,4.4,1615,No
+FK100569,Disha Pens Lite 18,Books & Stationery,Pens,Disha,83,64,4.0,339,Yes
+FK100570,Levi's Sneakers Prime 26,Fashion,Sneakers,Levi's,1189,414,3.3,891,No
+FK100571,W Saree Plus 57,Fashion,Saree,W,899,559,4.2,1297,Yes
+FK100572,Samsung Feature Phone Lite 69,Mobiles,Feature Phone,Samsung,63309,43139,3.8,290,No
+FK100573,Levi's Saree Prime 27,Fashion,Saree,Levi's,849,358,3.5,1022,No
+FK100574,Apple Feature Phone Lite 61,Mobiles,Feature Phone,Apple,57579,42550,4.1,2008,Yes
+FK100575,Classmate Fiction Prime 16,Books & Stationery,Fiction,Classmate,209,186,4.2,1538,Yes
+FK100576,SG Football Plus 67,Sports & Fitness,Football,SG,10009,5848,3.7,2741,Yes
+FK100577,OPPO Smartphone Lite 39,Mobiles,Smartphone,OPPO,21409,19882,4.0,794,Yes
+FK100578,Philips Mixer Grinder Plus 30,Home & Kitchen,Mixer Grinder,Philips,4189,2329,3.5,47,No
+FK100579,OPPO Smartphone Neo 3,Mobiles,Smartphone,OPPO,8359,8359,4.2,252,Yes
+FK100580,W Saree Max 9,Fashion,Saree,W,1929,637,4.0,1280,Yes
+FK100581,Nivea Face Wash Max 63,Beauty & Personal Care,Face Wash,Nivea,549,454,4.5,98,No
+FK100582,Vivo Feature Phone Max 96,Mobiles,Feature Phone,Vivo,52439,43039,4.4,53,Yes
+FK100583,Ambrane Laptop Max 92,Electronics,Laptop,Ambrane,1789,1120,4.1,869,Yes
+FK100584,JBL Headphones Pro 2,Electronics,Headphones,JBL,1099,891,4.0,264,Yes
+FK100585,Dove Trimmer Neo 24,Beauty & Personal Care,Trimmer,Dove,1939,932,3.5,846,Yes
+FK100586,Philips Cookware Pro 37,Home & Kitchen,Cookware,Philips,8469,4441,4.7,997,Yes
+FK100587,OPPO Smartphone Pro 5,Mobiles,Smartphone,OPPO,7409,5132,4.2,371,Yes
+FK100588,Motorola Feature Phone Lite 21,Mobiles,Feature Phone,Motorola,36589,30171,4.2,633,No
+FK100589,Beardo Lipstick Prime 87,Beauty & Personal Care,Lipstick,Beardo,1669,1194,3.8,1349,No
+FK100590,Campus Jeans Lite 33,Fashion,Jeans,Campus,1389,208,3.7,2124,Yes
+FK100591,Libas Sneakers Pro 11,Fashion,Sneakers,Libas,1789,809,4.3,3364,Yes
+FK100592,HRX Saree Lite 76,Fashion,Saree,HRX,2659,659,4.0,1709,No
+FK100593,Allen Solly Saree Plus 30,Fashion,Saree,Allen Solly,449,210,4.3,4372,Yes
+FK100594,Samsung Refrigerator Pro 26,Appliances,Refrigerator,Samsung,40779,30800,4.3,802,Yes
+FK100595,Lenovo Headphones Prime 48,Electronics,Headphones,Lenovo,63889,47489,3.6,52,Yes
+FK100596,Campus Saree Neo 10,Fashion,Saree,Campus,3009,1367,4.0,2582,Yes
+FK100597,Roadster Jeans Pro 2,Fashion,Jeans,Roadster,5549,1929,3.9,501,No
+FK100598,OPPO Smartphone Edge 80,Mobiles,Smartphone,OPPO,15669,15002,3.9,1041,Yes
+FK100599,HRX Saree Pro 12,Fashion,Saree,HRX,1389,354,3.7,1991,Yes
+FK100600,Bajaj Cookware Neo 25,Home & Kitchen,Cookware,Bajaj,7169,3218,3.8,549,Yes
+FK100601,Redmi Feature Phone Lite 23,Mobiles,Feature Phone,Redmi,60559,59789,4.6,59,No
+FK100602,Lenovo Power Bank Lite 86,Electronics,Power Bank,Lenovo,1209,803,4.0,1235,Yes
+FK100603,Samsung Air Conditioner Classic 48,Appliances,Air Conditioner,Samsung,21319,15072,3.7,3289,Yes
+FK100604,Samsung Television Neo 25,Appliances,Television,Samsung,27659,19343,4.4,488,Yes
+FK100605,Mamaearth Lipstick Edge 11,Beauty & Personal Care,Lipstick,Mamaearth,329,260,3.6,1039,Yes
+FK100606,Philips Water Bottle Prime 41,Home & Kitchen,Water Bottle,Philips,4379,3474,4.3,797,Yes
+FK100607,Prestige Water Bottle Prime 31,Home & Kitchen,Water Bottle,Prestige,869,513,3.8,6303,Yes
+FK100608,Philips Lipstick Pro 19,Beauty & Personal Care,Lipstick,Philips,2979,1918,3.8,306,No
+FK100609,Pigeon Storage Max 80,Home & Kitchen,Storage,Pigeon,519,366,3.4,891,No
+FK100610,Sony Speaker Plus 60,Electronics,Speaker,Sony,33049,23087,4.3,622,No
+FK100611,Voltas Refrigerator Plus 17,Appliances,Refrigerator,Voltas,42649,39065,3.8,724,No
+FK100612,Arihant Notebooks Lite 15,Books & Stationery,Notebooks,Arihant,459,396,4.0,1480,Yes
+FK100613,Classmate Pens Max 75,Books & Stationery,Pens,Classmate,129,113,4.7,1352,No
+FK100614,Prestige Storage Pro 52,Home & Kitchen,Storage,Prestige,5309,2185,4.0,128,No
+FK100615,Philips Water Bottle Plus 39,Home & Kitchen,Water Bottle,Philips,559,293,4.3,1401,Yes
+FK100616,Mamaearth Trimmer Plus 83,Beauty & Personal Care,Trimmer,Mamaearth,179,106,3.8,697,Yes
+FK100617,Mi Smartwatch Neo 32,Electronics,Smartwatch,Mi,1189,803,4.1,315,Yes
+FK100618,HRX Saree Pro 87,Fashion,Saree,HRX,1059,647,4.1,2161,Yes
+FK100619,Ambrane Smartwatch Classic 48,Electronics,Smartwatch,Ambrane,5989,4264,3.5,1638,No
+FK100620,Noise Laptop Edge 2,Electronics,Laptop,Noise,6049,2984,4.2,5708,Yes
+FK100621,Milton Mixer Grinder Plus 14,Home & Kitchen,Mixer Grinder,Milton,349,157,3.8,343,Yes
+FK100622,Puma Men's T-Shirt Plus 30,Fashion,Men's T-Shirt,Puma,819,383,3.9,170,No
+FK100623,Levi's Men's T-Shirt Max 81,Fashion,Men's T-Shirt,Levi's,679,262,3.5,1519,No
+FK100624,Roadster Men's T-Shirt Edge 82,Fashion,Men's T-Shirt,Roadster,3829,2042,4.5,178,No
+FK100625,Samsung Smartphone Edge 56,Mobiles,Smartphone,Samsung,11759,11314,4.2,217,No
+FK100626,Motorola Feature Phone Max 21,Mobiles,Feature Phone,Motorola,23839,23839,3.8,331,Yes
+FK100627,Dove Shampoo Pro 36,Beauty & Personal Care,Shampoo,Dove,2379,1760,4.2,28385,Yes
+FK100628,Beardo Face Wash Neo 29,Beauty & Personal Care,Face Wash,Beardo,779,731,4.4,290,Yes
+FK100629,Philips Perfume Plus 12,Beauty & Personal Care,Perfume,Philips,3049,2110,4.2,11766,Yes
+FK100630,Redmi Smartphone Edge 36,Mobiles,Smartphone,Redmi,13839,9938,4.3,2968,No
+FK100631,Allen Solly Saree Pro 93,Fashion,Saree,Allen Solly,429,120,2.9,5748,No
+FK100632,Solimo Cookware Max 63,Home & Kitchen,Cookware,Solimo,2719,1057,3.2,722,Yes
+FK100633,HRX Sneakers Edge 27,Fashion,Sneakers,HRX,449,130,3.7,114,Yes
+FK100634,Puma Women's Kurta Pro 45,Fashion,Women's Kurta,Puma,1889,1233,4.7,2448,Yes
+FK100635,Penguin Exam Prep Classic 62,Books & Stationery,Exam Prep,Penguin,119,91,4.7,98,No
+FK100636,HRX Men's T-Shirt Plus 48,Fashion,Men's T-Shirt,HRX,1889,283,3.9,430,No
+FK100637,Hero Dumbbells Pro 49,Sports & Fitness,Dumbbells,Hero,8029,4334,4.6,575,Yes
+FK100638,Solimo Mixer Grinder Edge 28,Home & Kitchen,Mixer Grinder,Solimo,559,356,4.1,2283,Yes
+FK100639,SG Dumbbells Prime 16,Sports & Fitness,Dumbbells,SG,10579,4497,4.7,506,No
+FK100640,HP Laptop Edge 69,Electronics,Laptop,HP,8859,5130,4.4,1094,Yes
+FK100641,Vivo Feature Phone Prime 73,Mobiles,Feature Phone,Vivo,48999,46784,4.2,296,Yes
+FK100642,W Jeans Prime 2,Fashion,Jeans,W,1969,834,4.0,2650,No
+FK100643,Voltas Refrigerator Neo 15,Appliances,Refrigerator,Voltas,44649,33884,4.4,172,Yes
+FK100644,Cello Cookware Edge 5,Home & Kitchen,Cookware,Cello,5129,2883,4.3,548,Yes
+FK100645,Philips Bedsheet Pro 81,Home & Kitchen,Bedsheet,Philips,8919,4866,3.9,4631,No
+FK100646,Disha Pens Neo 2,Books & Stationery,Pens,Disha,989,702,3.9,423,No
+FK100647,Solimo Bedsheet Edge 77,Home & Kitchen,Bedsheet,Solimo,1579,722,4.7,460,Yes
+FK100648,SG Cycle Pro 16,Sports & Fitness,Cycle,SG,7709,2862,3.9,1413,No
+FK100649,OPPO Smartphone Edge 62,Mobiles,Smartphone,OPPO,61879,51871,4.1,188,No
+FK100650,LG Washing Machine Plus 2,Appliances,Washing Machine,LG,18219,9571,4.3,181,No
+FK100651,Lenovo Laptop Classic 46,Electronics,Laptop,Lenovo,7379,5565,3.6,4841,No
+FK100652,Puma Women's Kurta Plus 11,Fashion,Women's Kurta,Puma,2499,743,3.6,270,No
+FK100653,Boldfit Cycle Neo 71,Sports & Fitness,Cycle,Boldfit,10149,4318,4.0,2841,Yes
+FK100654,Allen Solly Women's Kurta Plus 22,Fashion,Women's Kurta,Allen Solly,889,628,3.5,3001,No
+FK100655,Redmi Smartphone Lite 35,Mobiles,Smartphone,Redmi,60309,50693,4.1,248,Yes
+FK100656,HRX Saree Classic 38,Fashion,Saree,HRX,549,271,4.4,180,Yes
+FK100657,Dove Trimmer Neo 19,Beauty & Personal Care,Trimmer,Dove,1539,1138,4.1,122,No
+FK100658,Solimo Storage Edge 30,Home & Kitchen,Storage,Solimo,1839,840,4.0,259,Yes
+FK100659,Levi's Men's T-Shirt Max 21,Fashion,Men's T-Shirt,Levi's,819,319,3.5,2191,Yes
+FK100660,Cello Pens Max 57,Books & Stationery,Pens,Cello,199,152,4.5,1226,No
+FK100661,Maybelline Lipstick Lite 75,Beauty & Personal Care,Lipstick,Maybelline,619,351,4.4,5348,Yes
+FK100662,W Sneakers Plus 20,Fashion,Sneakers,W,499,265,4.1,2321,Yes
+FK100663,Samsung Air Conditioner Pro 41,Appliances,Air Conditioner,Samsung,32289,32289,3.9,469,Yes
+FK100664,Godrej Washing Machine Lite 87,Appliances,Washing Machine,Godrej,16179,10706,4.3,567,No
+FK100665,Roadster Sneakers Prime 95,Fashion,Sneakers,Roadster,2139,498,3.4,2095,No
+FK100666,Beardo Shampoo Max 75,Beauty & Personal Care,Shampoo,Beardo,1329,830,4.0,371,Yes
+FK100667,Kookaburra Dumbbells Prime 72,Sports & Fitness,Dumbbells,Kookaburra,1649,858,4.0,1812,No
+FK100668,Bajaj Water Bottle Edge 51,Home & Kitchen,Water Bottle,Bajaj,3129,1548,4.5,416,No
+FK100669,Cello Bedsheet Max 63,Home & Kitchen,Bedsheet,Cello,319,150,4.0,783,Yes
+FK100670,Kookaburra Dumbbells Max 94,Sports & Fitness,Dumbbells,Kookaburra,1029,489,3.9,906,Yes
+FK100671,Bajaj Mixer Grinder Lite 67,Home & Kitchen,Mixer Grinder,Bajaj,1159,542,4.0,575,Yes
+FK100672,Cosco Yoga Mat Max 89,Sports & Fitness,Yoga Mat,Cosco,819,514,4.5,154,No
+FK100673,Whirlpool Television Plus 60,Appliances,Television,Whirlpool,59029,38219,3.7,726,No
+FK100674,Beardo Perfume Pro 7,Beauty & Personal Care,Perfume,Beardo,1099,727,3.7,80,Yes
+FK100675,Nivea Perfume Lite 62,Beauty & Personal Care,Perfume,Nivea,2489,1387,4.2,334,Yes
+FK100676,Libas Jeans Neo 36,Fashion,Jeans,Libas,659,358,3.5,432,No
+FK100677,Philips Perfume Prime 23,Beauty & Personal Care,Perfume,Philips,729,460,3.5,1845,Yes
+FK100678,Roadster Men's T-Shirt Prime 95,Fashion,Men's T-Shirt,Roadster,649,203,3.7,122,No
+FK100679,Bajaj Water Bottle Pro 65,Home & Kitchen,Water Bottle,Bajaj,1469,598,3.8,2445,No
+FK100680,Ambrane Speaker Max 50,Electronics,Speaker,Ambrane,2969,1926,3.8,1515,Yes
+FK100681,Levi's Saree Prime 81,Fashion,Saree,Levi's,4539,1086,3.7,398,No
+FK100682,Beardo Face Wash Neo 88,Beauty & Personal Care,Face Wash,Beardo,179,118,4.5,1596,Yes
+FK100683,Samsung Television Prime 48,Appliances,Television,Samsung,31909,28748,3.6,1620,No
+FK100684,Mamaearth Lipstick Max 72,Beauty & Personal Care,Lipstick,Mamaearth,1409,859,3.3,200,No
+FK100685,Reynolds Pens Classic 41,Books & Stationery,Pens,Reynolds,1109,889,3.7,273,Yes
+FK100686,Solimo Water Bottle Classic 30,Home & Kitchen,Water Bottle,Solimo,7429,3658,4.1,8272,Yes
+FK100687,Sony Power Bank Prime 37,Electronics,Power Bank,Sony,5769,4838,4.3,577,No
+FK100688,Disha Notebooks Prime 4,Books & Stationery,Notebooks,Disha,459,446,4.0,1806,No
+FK100689,Roadster Women's Kurta Classic 83,Fashion,Women's Kurta,Roadster,4909,1568,3.8,1488,Yes
+FK100690,Dove Lipstick Neo 34,Beauty & Personal Care,Lipstick,Dove,479,313,3.5,1021,Yes
+FK100691,Noise Laptop Pro 44,Electronics,Laptop,Noise,7989,7076,4.1,1444,No
+FK100692,Beardo Lipstick Neo 17,Beauty & Personal Care,Lipstick,Beardo,849,489,4.4,8136,Yes
+FK100693,Campus Saree Prime 42,Fashion,Saree,Campus,579,314,4.3,444,No
+FK100694,Realme Smartphone Classic 8,Mobiles,Smartphone,Realme,23519,22566,4.3,4694,Yes
+FK100695,Puma Sneakers Prime 63,Fashion,Sneakers,Puma,859,446,3.7,2588,No
+FK100696,Cello Water Bottle Edge 74,Home & Kitchen,Water Bottle,Cello,569,200,3.4,635,No
+FK100697,Milton Storage Edge 56,Home & Kitchen,Storage,Milton,479,278,4.6,722,Yes
+FK100698,Levi's Men's T-Shirt Classic 22,Fashion,Men's T-Shirt,Levi's,749,339,4.0,405,No
+FK100699,Redmi Smartphone Max 54,Mobiles,Smartphone,Redmi,19379,13291,4.0,2140,Yes
+FK100700,Lakme Lipstick Edge 50,Beauty & Personal Care,Lipstick,Lakme,1559,1131,4.7,581,Yes
+FK100701,Dove Shampoo Pro 8,Beauty & Personal Care,Shampoo,Dove,289,178,4.1,3388,Yes
+FK100702,Vivo Feature Phone Edge 64,Mobiles,Feature Phone,Vivo,8599,7783,3.9,969,Yes
+FK100703,Mi Smartwatch Classic 75,Electronics,Smartwatch,Mi,2599,1913,4.2,1947,Yes
+FK100704,Philips Cookware Edge 35,Home & Kitchen,Cookware,Philips,8229,4536,3.6,2687,No
+FK100705,HRX Jeans Pro 90,Fashion,Jeans,HRX,5299,2502,4.2,1859,No
+FK100706,Cello Children's Books Pro 95,Books & Stationery,Children's Books,Cello,1479,1100,3.9,6392,No
+FK100707,Solimo Bedsheet Edge 48,Home & Kitchen,Bedsheet,Solimo,569,268,4.1,209,No
+FK100708,Maybelline Lipstick Classic 18,Beauty & Personal Care,Lipstick,Maybelline,179,79,3.3,1069,No
+FK100709,Sony Power Bank Lite 73,Electronics,Power Bank,Sony,4149,2606,4.3,1997,Yes
+FK100710,Motorola Smartphone Classic 64,Mobiles,Smartphone,Motorola,10939,6949,4.2,468,No
+FK100711,Beardo Trimmer Plus 79,Beauty & Personal Care,Trimmer,Beardo,449,324,4.0,1172,No
+FK100712,Allen Solly Sneakers Plus 93,Fashion,Sneakers,Allen Solly,1109,411,3.7,522,No
+FK100713,Puma Saree Edge 92,Fashion,Saree,Puma,4699,2787,4.4,1833,Yes
+FK100714,Milton Mixer Grinder Edge 42,Home & Kitchen,Mixer Grinder,Milton,1429,743,4.4,5380,Yes
+FK100715,Solimo Water Bottle Edge 45,Home & Kitchen,Water Bottle,Solimo,489,203,4.1,240,No
+FK100716,Whirlpool Microwave Neo 7,Appliances,Microwave,Whirlpool,54759,52983,4.0,547,Yes
+FK100717,HRX Jeans Neo 90,Fashion,Jeans,HRX,429,326,4.1,741,No
+FK100718,Allen Solly Saree Plus 64,Fashion,Saree,Allen Solly,3429,1243,3.8,280,No
+FK100719,Lakme Face Wash Neo 62,Beauty & Personal Care,Face Wash,Lakme,179,125,4.5,581,Yes
+FK100720,Bajaj Cookware Prime 67,Home & Kitchen,Cookware,Bajaj,2449,1708,4.2,325,No
+FK100721,HRX Jeans Edge 97,Fashion,Jeans,HRX,3399,2111,3.9,160,Yes
+FK100722,Solimo Cookware Plus 56,Home & Kitchen,Cookware,Solimo,309,190,4.0,2505,Yes
+FK100723,Decathlon Cricket Bat Lite 10,Sports & Fitness,Cricket Bat,Decathlon,1229,845,4.3,1529,Yes
+FK100724,Lenovo Smartwatch Lite 88,Electronics,Smartwatch,Lenovo,8699,6041,4.0,116,No
+FK100725,Redmi Feature Phone Max 4,Mobiles,Feature Phone,Redmi,9359,8534,3.6,466,Yes
+FK100726,Bajaj Storage Pro 15,Home & Kitchen,Storage,Bajaj,4759,2057,4.2,671,No
+FK100727,Strauss Dumbbells Lite 67,Sports & Fitness,Dumbbells,Strauss,5609,2433,4.4,3874,Yes
+FK100728,Libas Jeans Edge 29,Fashion,Jeans,Libas,2099,1169,4.2,1143,Yes
+FK100729,OPPO Smartphone Plus 31,Mobiles,Smartphone,OPPO,19999,15425,4.1,454,Yes
+FK100730,Pigeon Storage Classic 88,Home & Kitchen,Storage,Pigeon,909,532,4.4,7292,Yes
+FK100731,Apple Feature Phone Edge 18,Mobiles,Feature Phone,Apple,10009,9132,4.3,534,No
+FK100732,Samsung Feature Phone Edge 82,Mobiles,Feature Phone,Samsung,23719,23687,3.9,200,Yes
+FK100733,Lenovo Smartwatch Classic 69,Electronics,Smartwatch,Lenovo,7849,4593,4.3,116,No
+FK100734,Redmi Feature Phone Classic 59,Mobiles,Feature Phone,Redmi,40139,32293,3.6,69,No
+FK100735,Vivo Feature Phone Edge 35,Mobiles,Feature Phone,Vivo,35899,34217,3.9,651,No
+FK100736,Dove Shampoo Max 78,Beauty & Personal Care,Shampoo,Dove,2999,1961,3.8,1001,No
+FK100737,JBL Speaker Pro 34,Electronics,Speaker,JBL,6139,4163,4.3,1607,Yes
+FK100738,Himalaya Lipstick Max 20,Beauty & Personal Care,Lipstick,Himalaya,419,209,4.1,419,Yes
+FK100739,Sony Smartwatch Pro 39,Electronics,Smartwatch,Sony,2339,1613,3.9,293,Yes
+FK100740,Roadster Men's T-Shirt Neo 62,Fashion,Men's T-Shirt,Roadster,3579,1572,4.4,9414,Yes
+FK100741,Milton Cookware Lite 52,Home & Kitchen,Cookware,Milton,4979,3328,3.7,732,No
+FK100742,Ambrane Power Bank Classic 53,Electronics,Power Bank,Ambrane,809,504,3.9,750,No
+FK100743,Pigeon Water Bottle Max 69,Home & Kitchen,Water Bottle,Pigeon,1079,523,3.8,494,No
+FK100744,Boldfit Yoga Mat Max 73,Sports & Fitness,Yoga Mat,Boldfit,10069,6135,4.3,1504,Yes
+FK100745,Reynolds Children's Books Pro 51,Books & Stationery,Children's Books,Reynolds,1339,996,4.2,564,No
+FK100746,Penguin Pens Lite 71,Books & Stationery,Pens,Penguin,149,105,4.7,329,No
+FK100747,JBL Smartwatch Pro 52,Electronics,Smartwatch,JBL,1989,1989,4.1,401,No
+FK100748,HP Power Bank Plus 22,Electronics,Power Bank,HP,43279,33063,3.8,586,Yes
+FK100749,Nivia Dumbbells Lite 41,Sports & Fitness,Dumbbells,Nivia,1379,942,4.0,753,Yes
+FK100750,Noise Headphones Prime 61,Electronics,Headphones,Noise,1639,1298,4.1,2333,Yes
+FK100751,Lakme Face Wash Plus 47,Beauty & Personal Care,Face Wash,Lakme,279,154,4.4,714,No
+FK100752,Decathlon Dumbbells Prime 95,Sports & Fitness,Dumbbells,Decathlon,539,318,3.7,193,No
+FK100753,Ambrane Power Bank Prime 50,Electronics,Power Bank,Ambrane,24669,10576,3.6,418,Yes
+FK100754,Noise Speaker Classic 46,Electronics,Speaker,Noise,979,689,3.8,2339,Yes
+FK100755,Cello Mixer Grinder Classic 81,Home & Kitchen,Mixer Grinder,Cello,359,296,4.1,2250,Yes
+FK100756,Arihant Fiction Lite 72,Books & Stationery,Fiction,Arihant,93,66,3.9,86,No
+FK100757,Navneet Children's Books Prime 32,Books & Stationery,Children's Books,Navneet,729,476,4.2,1034,Yes
+FK100758,OPPO Feature Phone Lite 28,Mobiles,Feature Phone,OPPO,59319,53171,4.5,492,Yes
+FK100759,Lenovo Laptop Plus 17,Electronics,Laptop,Lenovo,1729,1217,4.0,186,No
+FK100760,Motorola Feature Phone Classic 77,Mobiles,Feature Phone,Motorola,11739,10855,4.5,575,No
+FK100761,Navneet Notebooks Prime 80,Books & Stationery,Notebooks,Navneet,179,151,4.1,119,Yes
+FK100762,Mamaearth Shampoo Neo 78,Beauty & Personal Care,Shampoo,Mamaearth,549,535,4.0,344,No
+FK100763,JBL Headphones Pro 45,Electronics,Headphones,JBL,5919,3384,4.1,1570,Yes
+FK100764,Penguin Exam Prep Pro 26,Books & Stationery,Exam Prep,Penguin,109,86,4.2,229,No
+FK100765,Penguin Pens Max 29,Books & Stationery,Pens,Penguin,479,388,4.1,127,No
+FK100766,Kookaburra Cycle Edge 71,Sports & Fitness,Cycle,Kookaburra,4199,1222,3.1,1649,No
+FK100767,Hero Yoga Mat Edge 56,Sports & Fitness,Yoga Mat,Hero,559,329,3.3,90,No
+FK100768,Apple Feature Phone Max 39,Mobiles,Feature Phone,Apple,8139,6474,3.9,8802,Yes
+FK100769,Libas Sneakers Lite 4,Fashion,Sneakers,Libas,2339,692,3.9,1037,Yes
+FK100770,Lakme Trimmer Plus 73,Beauty & Personal Care,Trimmer,Lakme,219,140,4.4,341,Yes
+FK100771,Disha Exam Prep Neo 40,Books & Stationery,Exam Prep,Disha,139,132,4.5,3547,Yes
+FK100772,Maybelline Perfume Plus 34,Beauty & Personal Care,Perfume,Maybelline,989,679,4.7,1944,Yes
+FK100773,Mamaearth Trimmer Classic 62,Beauty & Personal Care,Trimmer,Mamaearth,369,164,4.3,1402,Yes
+FK100774,Philips Storage Pro 64,Home & Kitchen,Storage,Philips,2019,1716,4.1,1790,No
+FK100775,Arihant Fiction Classic 67,Books & Stationery,Fiction,Arihant,309,198,4.2,210,No
+FK100776,Disha Notebooks Pro 24,Books & Stationery,Notebooks,Disha,689,551,3.3,266,No
+FK100777,HRX Jeans Classic 46,Fashion,Jeans,HRX,2349,1537,4.6,735,Yes
+FK100778,HRX Sneakers Classic 5,Fashion,Sneakers,HRX,1349,443,3.9,787,No
+FK100779,Cello Cookware Prime 50,Home & Kitchen,Cookware,Cello,369,199,3.8,584,Yes
+FK100780,Libas Sneakers Prime 25,Fashion,Sneakers,Libas,3559,1858,4.3,238,Yes
+FK100781,HRX Men's T-Shirt Max 56,Fashion,Men's T-Shirt,HRX,2549,1363,4.6,1131,Yes
+FK100782,Ambrane Headphones Classic 66,Electronics,Headphones,Ambrane,69269,38004,3.6,558,Yes
+FK100783,Reynolds Pens Lite 32,Books & Stationery,Pens,Reynolds,299,231,4.5,547,No
+FK100784,Penguin Pens Prime 32,Books & Stationery,Pens,Penguin,409,257,4.5,1329,No
+FK100785,Nivia Yoga Mat Plus 98,Sports & Fitness,Yoga Mat,Nivia,13989,9016,4.7,463,Yes
+FK100786,Classmate Fiction Edge 58,Books & Stationery,Fiction,Classmate,699,525,3.9,1314,No
+FK100787,Strauss Football Pro 59,Sports & Fitness,Football,Strauss,5229,2444,4.0,40,No
+FK100788,Bajaj Bedsheet Prime 63,Home & Kitchen,Bedsheet,Bajaj,329,154,4.3,1955,Yes
+FK100789,Libas Women's Kurta Classic 98,Fashion,Women's Kurta,Libas,2629,627,3.0,1751,Yes
+FK100790,Levi's Women's Kurta Max 42,Fashion,Women's Kurta,Levi's,1029,424,4.3,603,Yes
+FK100791,W Sneakers Lite 66,Fashion,Sneakers,W,1159,640,4.2,2397,Yes
+FK100792,Vivo Feature Phone Lite 19,Mobiles,Feature Phone,Vivo,24879,22053,4.4,747,Yes
+FK100793,W Saree Edge 20,Fashion,Saree,W,499,236,3.7,494,No
+FK100794,Milton Cookware Edge 11,Home & Kitchen,Cookware,Milton,319,191,3.7,1622,No
+FK100795,Roadster Sneakers Classic 57,Fashion,Sneakers,Roadster,579,278,3.6,2471,No
+FK100796,Motorola Smartphone Plus 65,Mobiles,Smartphone,Motorola,8409,7394,4.0,3578,No
+FK100797,LG Refrigerator Classic 61,Appliances,Refrigerator,LG,21599,15322,3.8,1032,No
+FK100798,Nivea Lipstick Prime 82,Beauty & Personal Care,Lipstick,Nivea,299,207,3.9,3880,Yes
+FK100799,Noise Headphones Neo 11,Electronics,Headphones,Noise,1049,645,4.4,132,No
+FK100800,Cello Children's Books Plus 40,Books & Stationery,Children's Books,Cello,649,608,4.1,928,Yes
+FK100801,Strauss Cricket Bat Plus 5,Sports & Fitness,Cricket Bat,Strauss,969,445,4.6,1695,Yes
+FK100802,Lenovo Laptop Neo 90,Electronics,Laptop,Lenovo,5869,3581,3.8,3129,Yes
+FK100803,OPPO Smartphone Lite 16,Mobiles,Smartphone,OPPO,25009,24110,3.8,788,No
+FK100804,JBL Speaker Max 55,Electronics,Speaker,JBL,12429,7473,4.3,1339,No
+FK100805,Hero Cycle Pro 26,Sports & Fitness,Cycle,Hero,1769,669,4.2,1069,Yes
+FK100806,OPPO Feature Phone Lite 38,Mobiles,Feature Phone,OPPO,13909,12598,3.9,2869,Yes
+FK100807,Roadster Saree Max 94,Fashion,Saree,Roadster,2299,1127,4.0,2377,Yes
+FK100808,HP Smartwatch Pro 93,Electronics,Smartwatch,HP,19849,16122,3.9,644,No
+FK100809,Samsung Smartphone Neo 46,Mobiles,Smartphone,Samsung,34979,29094,4.2,575,No
+FK100810,Levi's Women's Kurta Prime 49,Fashion,Women's Kurta,Levi's,4449,2136,3.7,187,No
+FK100811,boAt Laptop Lite 24,Electronics,Laptop,boAt,52959,27004,4.3,604,Yes
+FK100812,Milton Bedsheet Edge 8,Home & Kitchen,Bedsheet,Milton,479,254,4.3,307,Yes
+FK100813,Puma Men's T-Shirt Pro 34,Fashion,Men's T-Shirt,Puma,1899,711,4.0,2839,Yes
+FK100814,Sony Speaker Lite 37,Electronics,Speaker,Sony,15989,8800,3.9,729,Yes
+FK100815,Pigeon Bedsheet Pro 43,Home & Kitchen,Bedsheet,Pigeon,2799,1909,3.9,34243,Yes
+FK100816,Sony Speaker Neo 38,Electronics,Speaker,Sony,32659,18942,4.2,12301,Yes
+FK100817,Prestige Mixer Grinder Neo 73,Home & Kitchen,Mixer Grinder,Prestige,829,522,4.0,725,Yes
+FK100818,Cello Bedsheet Plus 19,Home & Kitchen,Bedsheet,Cello,2799,1211,3.6,241,No
+FK100819,Strauss Yoga Mat Edge 34,Sports & Fitness,Yoga Mat,Strauss,2649,1659,4.2,1111,No
+FK100820,Realme Feature Phone Classic 4,Mobiles,Feature Phone,Realme,20819,16469,3.8,900,Yes
+FK100821,Solimo Water Bottle Neo 13,Home & Kitchen,Water Bottle,Solimo,6139,3052,4.0,4665,No
+FK100822,Nivia Cycle Prime 75,Sports & Fitness,Cycle,Nivia,6399,3517,4.3,3440,Yes
+FK100823,Pigeon Storage Lite 26,Home & Kitchen,Storage,Pigeon,7709,4516,4.9,1471,Yes
+FK100824,Puma Saree Pro 42,Fashion,Saree,Puma,2429,735,3.8,524,No
+FK100825,Mi Speaker Pro 34,Electronics,Speaker,Mi,3069,2135,4.3,257,No
+FK100826,Samsung Television Edge 77,Appliances,Television,Samsung,32829,29533,3.8,608,Yes
+FK100827,Nivea Shampoo Plus 61,Beauty & Personal Care,Shampoo,Nivea,1579,1025,4.2,3415,No
+FK100828,Sony Headphones Classic 73,Electronics,Headphones,Sony,5149,2784,3.9,4197,Yes
+FK100829,Strauss Cycle Neo 70,Sports & Fitness,Cycle,Strauss,3119,2426,4.0,642,No
+FK100830,Milton Water Bottle Plus 50,Home & Kitchen,Water Bottle,Milton,709,387,3.8,5519,Yes
+FK100831,Navneet Exam Prep Classic 67,Books & Stationery,Exam Prep,Navneet,339,303,3.9,534,Yes
+FK100832,Arihant Pens Plus 7,Books & Stationery,Pens,Arihant,93,84,4.3,575,Yes
+FK100833,Flipkart SmartBuy Mixer Grinder Prime 52,Home & Kitchen,Mixer Grinder,Flipkart SmartBuy,389,277,3.6,212,Yes
+FK100834,Mi Power Bank Lite 68,Electronics,Power Bank,Mi,3199,2354,4.2,744,Yes
+FK100835,Arihant Exam Prep Max 89,Books & Stationery,Exam Prep,Arihant,359,167,3.8,380,No
+FK100836,Whirlpool Refrigerator Max 55,Appliances,Refrigerator,Whirlpool,32039,16906,4.1,13746,Yes
+FK100837,Nivia Cricket Bat Edge 72,Sports & Fitness,Cricket Bat,Nivia,2909,1935,3.7,69,No
+FK100838,POCO Smartphone Lite 54,Mobiles,Smartphone,POCO,15369,13514,4.1,492,Yes
+FK100839,LG Air Conditioner Max 59,Appliances,Air Conditioner,LG,12169,9346,3.6,21934,Yes
+FK100840,SG Cricket Bat Plus 14,Sports & Fitness,Cricket Bat,SG,269,195,4.0,468,No
+FK100841,Beardo Shampoo Neo 65,Beauty & Personal Care,Shampoo,Beardo,319,233,4.3,4100,No
+FK100842,Milton Bedsheet Plus 55,Home & Kitchen,Bedsheet,Milton,309,124,4.2,5937,Yes
+FK100843,Hero Yoga Mat Pro 18,Sports & Fitness,Yoga Mat,Hero,2999,1828,3.8,558,Yes
+FK100844,Solimo Storage Lite 82,Home & Kitchen,Storage,Solimo,5959,4070,4.2,362,Yes
+FK100845,Puma Saree Edge 46,Fashion,Saree,Puma,2159,950,4.3,2829,No
+FK100846,Prestige Bedsheet Neo 4,Home & Kitchen,Bedsheet,Prestige,1909,1073,3.6,1398,Yes
+FK100847,Noise Smartwatch Max 14,Electronics,Smartwatch,Noise,4209,2673,4.5,177,No
+FK100848,Lenovo Laptop Pro 53,Electronics,Laptop,Lenovo,1619,1414,3.7,67,Yes
+FK100849,Puma Saree Neo 2,Fashion,Saree,Puma,489,215,4.2,492,Yes
+FK100850,Classmate Pens Classic 84,Books & Stationery,Pens,Classmate,339,267,3.8,114,Yes
+FK100851,Sony Headphones Lite 1,Electronics,Headphones,Sony,1139,948,4.1,784,Yes
+FK100852,Dove Trimmer Pro 56,Beauty & Personal Care,Trimmer,Dove,2099,1012,4.1,2731,Yes
+FK100853,Penguin Notebooks Plus 71,Books & Stationery,Notebooks,Penguin,739,637,4.6,4990,Yes
+FK100854,Roadster Men's T-Shirt Max 73,Fashion,Men's T-Shirt,Roadster,1369,337,3.2,517,No
+FK100855,Beardo Face Wash Lite 58,Beauty & Personal Care,Face Wash,Beardo,269,164,4.3,823,Yes
+FK100856,HRX Women's Kurta Edge 82,Fashion,Women's Kurta,HRX,509,159,3.5,3391,Yes
+FK100857,Levi's Saree Pro 6,Fashion,Saree,Levi's,459,172,3.9,998,Yes
+FK100858,OPPO Smartphone Pro 25,Mobiles,Smartphone,OPPO,13779,13252,4.7,413,Yes
+FK100859,Prestige Storage Neo 34,Home & Kitchen,Storage,Prestige,6959,3506,4.3,3713,Yes
+FK100860,Vivo Feature Phone Edge 36,Mobiles,Feature Phone,Vivo,35479,28809,4.2,13925,Yes
+FK100861,Ambrane Power Bank Classic 62,Electronics,Power Bank,Ambrane,7369,5470,3.2,1316,Yes
+FK100862,Sony Power Bank Max 19,Electronics,Power Bank,Sony,1289,1002,3.8,657,Yes
+FK100863,Philips Lipstick Max 56,Beauty & Personal Care,Lipstick,Philips,629,424,3.9,414,No
+FK100864,Hero Cycle Lite 32,Sports & Fitness,Cycle,Hero,1319,800,4.1,1175,No
+FK100865,Sony Power Bank Plus 51,Electronics,Power Bank,Sony,6869,4365,3.9,703,Yes
+FK100866,Ambrane Smartwatch Neo 49,Electronics,Smartwatch,Ambrane,1999,1576,4.2,1947,No
+FK100867,Lakme Face Wash Classic 9,Beauty & Personal Care,Face Wash,Lakme,3629,2493,4.0,82,Yes
+FK100868,HRX Jeans Neo 24,Fashion,Jeans,HRX,3029,1437,4.2,348,No
+FK100869,Noise Speaker Pro 52,Electronics,Speaker,Noise,4979,4380,4.3,1708,Yes
+FK100870,Philips Face Wash Plus 84,Beauty & Personal Care,Face Wash,Philips,889,554,4.2,18,No
+FK100871,boAt Power Bank Edge 25,Electronics,Power Bank,boAt,49999,38166,3.7,189,No
+FK100872,Levi's Sneakers Classic 24,Fashion,Sneakers,Levi's,739,325,4.5,401,Yes
+FK100873,Puma Sneakers Prime 36,Fashion,Sneakers,Puma,449,255,3.7,630,No
+FK100874,Decathlon Yoga Mat Neo 12,Sports & Fitness,Yoga Mat,Decathlon,2569,1379,3.8,76,No
+FK100875,Libas Jeans Neo 93,Fashion,Jeans,Libas,2209,331,3.5,5012,No
+FK100876,HP Speaker Classic 38,Electronics,Speaker,HP,7829,5166,3.8,240,No
+FK100877,HRX Women's Kurta Neo 96,Fashion,Women's Kurta,HRX,1769,1144,4.3,100,Yes
+FK100878,Cello Cookware Edge 70,Home & Kitchen,Cookware,Cello,1289,1017,4.2,56,No
+FK100879,Prestige Mixer Grinder Plus 64,Home & Kitchen,Mixer Grinder,Prestige,4289,2480,3.4,1733,No
+FK100880,Dove Shampoo Prime 49,Beauty & Personal Care,Shampoo,Dove,839,619,4.2,1082,No
+FK100881,Realme Feature Phone Neo 47,Mobiles,Feature Phone,Realme,37389,29880,3.9,268,Yes
+FK100882,Philips Lipstick Plus 34,Beauty & Personal Care,Lipstick,Philips,239,205,4.1,64,No
+FK100883,Flipkart SmartBuy Cookware Neo 12,Home & Kitchen,Cookware,Flipkart SmartBuy,4229,2726,4.7,696,No
+FK100884,JBL Smartwatch Max 74,Electronics,Smartwatch,JBL,1229,990,3.6,41,No
+FK100885,Levi's Jeans Lite 5,Fashion,Jeans,Levi's,2829,1100,3.6,147,No
+FK100886,IFB Microwave Plus 86,Appliances,Microwave,IFB,9179,6091,3.9,985,No
+FK100887,Maybelline Face Wash Max 77,Beauty & Personal Care,Face Wash,Maybelline,439,227,4.1,206,Yes
+FK100888,POCO Feature Phone Classic 50,Mobiles,Feature Phone,POCO,20229,19017,3.9,1404,Yes
+FK100889,Allen Solly Saree Lite 8,Fashion,Saree,Allen Solly,749,457,3.8,1289,No
+FK100890,Lenovo Headphones Max 29,Electronics,Headphones,Lenovo,10319,8424,3.9,5121,Yes
+FK100891,Puma Men's T-Shirt Neo 3,Fashion,Men's T-Shirt,Puma,1179,612,3.5,434,No
+FK100892,Navneet Fiction Neo 81,Books & Stationery,Fiction,Navneet,1439,862,4.1,453,Yes
+FK100893,Libas Sneakers Plus 42,Fashion,Sneakers,Libas,1869,1228,4.2,267,Yes
+FK100894,Cosco Football Classic 17,Sports & Fitness,Football,Cosco,12729,6464,3.9,740,Yes
+FK100895,Nivia Cricket Bat Max 83,Sports & Fitness,Cricket Bat,Nivia,519,216,3.9,128,No
+FK100896,Noise Speaker Pro 5,Electronics,Speaker,Noise,5019,2432,4.2,167,Yes
+FK100897,Milton Cookware Edge 88,Home & Kitchen,Cookware,Milton,1249,753,4.5,444,No
+FK100898,POCO Smartphone Max 54,Mobiles,Smartphone,POCO,19609,16422,4.2,156,Yes
+FK100899,Lakme Face Wash Classic 30,Beauty & Personal Care,Face Wash,Lakme,1279,989,4.0,17,No
+FK100900,Libas Saree Classic 62,Fashion,Saree,Libas,579,111,3.8,952,No
+FK100901,Ambrane Laptop Pro 33,Electronics,Laptop,Ambrane,799,494,3.8,1109,No
+FK100902,Redmi Feature Phone Plus 11,Mobiles,Feature Phone,Redmi,22359,17544,4.2,593,No
+FK100903,Solimo Water Bottle Edge 58,Home & Kitchen,Water Bottle,Solimo,1609,916,4.5,1253,Yes
+FK100904,Disha Children's Books Edge 21,Books & Stationery,Children's Books,Disha,819,517,3.8,558,No
+FK100905,Campus Sneakers Prime 86,Fashion,Sneakers,Campus,3109,2409,3.9,1919,No
+FK100906,Puma Women's Kurta Pro 85,Fashion,Women's Kurta,Puma,619,205,3.7,762,Yes
+FK100907,Penguin Exam Prep Max 77,Books & Stationery,Exam Prep,Penguin,209,139,3.8,527,Yes
+FK100908,Bajaj Mixer Grinder Pro 8,Home & Kitchen,Mixer Grinder,Bajaj,3979,1422,3.9,846,No
+FK100909,Penguin Exam Prep Prime 26,Books & Stationery,Exam Prep,Penguin,479,247,3.7,511,No
+FK100910,Haier Refrigerator Prime 89,Appliances,Refrigerator,Haier,52879,30381,4.0,389,No
+FK100911,Samsung Feature Phone Lite 42,Mobiles,Feature Phone,Samsung,8009,7620,3.8,768,No
+FK100912,Libas Men's T-Shirt Pro 85,Fashion,Men's T-Shirt,Libas,2289,1040,4.7,442,Yes
+FK100913,Levi's Women's Kurta Plus 18,Fashion,Women's Kurta,Levi's,4239,1631,4.0,821,No
+FK100914,Nivea Shampoo Prime 95,Beauty & Personal Care,Shampoo,Nivea,579,393,4.0,6691,Yes
+FK100915,Navneet Pens Edge 35,Books & Stationery,Pens,Navneet,1049,857,4.3,483,Yes
+FK100916,Hero Cricket Bat Neo 57,Sports & Fitness,Cricket Bat,Hero,3069,1508,4.0,2279,Yes
+FK100917,Levi's Men's T-Shirt Plus 18,Fashion,Men's T-Shirt,Levi's,4649,1226,2.8,586,No
+FK100918,Ambrane Headphones Pro 34,Electronics,Headphones,Ambrane,15309,12831,3.8,1734,Yes
+FK100919,SG Yoga Mat Lite 27,Sports & Fitness,Yoga Mat,SG,5309,3321,4.1,779,Yes
+FK100920,Decathlon Cycle Neo 71,Sports & Fitness,Cycle,Decathlon,11059,5546,4.2,445,No
+FK100921,Lakme Lipstick Classic 42,Beauty & Personal Care,Lipstick,Lakme,519,373,4.2,1720,Yes
+FK100922,Voltas Television Plus 46,Appliances,Television,Voltas,8679,6921,4.2,399,No
+FK100923,HP Laptop Classic 12,Electronics,Laptop,HP,63709,46553,3.8,274,No
+FK100924,Roadster Women's Kurta Edge 12,Fashion,Women's Kurta,Roadster,3819,1315,3.9,575,Yes
+FK100925,Himalaya Trimmer Neo 14,Beauty & Personal Care,Trimmer,Himalaya,359,263,4.3,237,Yes
+FK100926,Campus Jeans Prime 2,Fashion,Jeans,Campus,679,176,3.8,2321,No
+FK100927,Voltas Washing Machine Max 2,Appliances,Washing Machine,Voltas,18219,11224,3.7,1583,Yes
+FK100928,Beardo Face Wash Plus 79,Beauty & Personal Care,Face Wash,Beardo,389,204,4.0,2520,Yes
+FK100929,Campus Jeans Plus 39,Fashion,Jeans,Campus,1289,691,3.7,580,No
+FK100930,Lenovo Headphones Max 52,Electronics,Headphones,Lenovo,35459,29366,4.6,85,No
+FK100931,Lenovo Smartwatch Pro 43,Electronics,Smartwatch,Lenovo,69739,35774,4.4,396,Yes
+FK100932,Noise Laptop Max 16,Electronics,Laptop,Noise,44809,30130,3.8,4830,No
+FK100933,Philips Mixer Grinder Lite 4,Home & Kitchen,Mixer Grinder,Philips,309,161,3.6,146,No
+FK100934,Milton Storage Lite 8,Home & Kitchen,Storage,Milton,559,343,4.4,325,No
+FK100935,HRX Sneakers Classic 25,Fashion,Sneakers,HRX,4049,1882,3.8,273,Yes
+FK100936,Pigeon Mixer Grinder Edge 58,Home & Kitchen,Mixer Grinder,Pigeon,1169,611,4.7,83,No
+FK100937,Classmate Children's Books Neo 95,Books & Stationery,Children's Books,Classmate,93,68,4.4,1945,No
+FK100938,Roadster Jeans Plus 42,Fashion,Jeans,Roadster,3069,1194,3.7,748,Yes
+FK100939,Libas Saree Neo 74,Fashion,Saree,Libas,1629,657,4.5,45,No
+FK100940,HP Speaker Max 85,Electronics,Speaker,HP,2439,1555,4.5,415,Yes
+FK100941,Nivea Lipstick Plus 29,Beauty & Personal Care,Lipstick,Nivea,3769,2721,3.6,1913,No
+FK100942,Philips Trimmer Plus 28,Beauty & Personal Care,Trimmer,Philips,319,174,4.4,599,No
+FK100943,Boldfit Cycle Plus 90,Sports & Fitness,Cycle,Boldfit,2819,1701,3.5,2113,No
+FK100944,Ambrane Power Bank Prime 79,Electronics,Power Bank,Ambrane,11269,7497,3.8,153,No
+FK100945,Whirlpool Washing Machine Pro 53,Appliances,Washing Machine,Whirlpool,14269,8082,3.6,769,No
+FK100946,Solimo Water Bottle Pro 42,Home & Kitchen,Water Bottle,Solimo,7989,5366,3.5,139,No
+FK100947,Realme Feature Phone Edge 84,Mobiles,Feature Phone,Realme,12469,10618,3.9,86,Yes
+FK100948,Voltas Microwave Classic 21,Appliances,Microwave,Voltas,10539,5272,4.3,70,No
+FK100949,Philips Perfume Edge 64,Beauty & Personal Care,Perfume,Philips,619,513,3.7,82,Yes
+FK100950,Mi Power Bank Edge 17,Electronics,Power Bank,Mi,1829,1458,4.3,16147,Yes
+FK100951,Ambrane Speaker Classic 20,Electronics,Speaker,Ambrane,27409,21858,4.3,427,Yes
+FK100952,Solimo Cookware Classic 97,Home & Kitchen,Cookware,Solimo,1279,560,4.9,186,No
+FK100953,Bajaj Cookware Prime 44,Home & Kitchen,Cookware,Bajaj,1639,1123,3.9,104,No
+FK100954,Harper Exam Prep Edge 35,Books & Stationery,Exam Prep,Harper,449,398,4.6,372,No
+FK100955,Himalaya Lipstick Lite 16,Beauty & Personal Care,Lipstick,Himalaya,1249,716,4.0,1063,Yes
+FK100956,Haier Television Neo 31,Appliances,Television,Haier,14369,12444,3.5,925,Yes
+FK100957,Puma Sneakers Edge 32,Fashion,Sneakers,Puma,2109,989,4.4,674,No
+FK100958,Lakme Shampoo Lite 39,Beauty & Personal Care,Shampoo,Lakme,429,300,3.7,123,Yes
+FK100959,Himalaya Lipstick Lite 12,Beauty & Personal Care,Lipstick,Himalaya,969,543,4.3,971,No
+FK100960,Himalaya Lipstick Classic 48,Beauty & Personal Care,Lipstick,Himalaya,1159,725,3.4,161,No
+FK100961,Redmi Feature Phone Lite 76,Mobiles,Feature Phone,Redmi,13059,11276,3.3,1720,No
+FK100962,Harper Pens Classic 11,Books & Stationery,Pens,Harper,1499,1462,4.0,1000,Yes
+FK100963,Philips Shampoo Lite 23,Beauty & Personal Care,Shampoo,Philips,189,145,3.8,275,No
+FK100964,Ambrane Smartwatch Pro 12,Electronics,Smartwatch,Ambrane,69169,45906,4.7,910,Yes
+FK100965,Prestige Bedsheet Prime 94,Home & Kitchen,Bedsheet,Prestige,2369,1495,3.4,486,No
+FK100966,Levi's Jeans Prime 45,Fashion,Jeans,Levi's,889,153,3.3,1949,Yes
+FK100967,Maybelline Shampoo Edge 86,Beauty & Personal Care,Shampoo,Maybelline,1439,1096,4.6,557,No
+FK100968,Whirlpool Refrigerator Edge 25,Appliances,Refrigerator,Whirlpool,34889,17355,4.1,427,Yes
+FK100969,JBL Smartwatch Lite 40,Electronics,Smartwatch,JBL,929,525,4.4,446,No
+FK100970,Libas Men's T-Shirt Plus 19,Fashion,Men's T-Shirt,Libas,2719,887,3.7,262,No
+FK100971,Philips Shampoo Pro 13,Beauty & Personal Care,Shampoo,Philips,159,118,4.9,2708,Yes
+FK100972,Libas Men's T-Shirt Prime 28,Fashion,Men's T-Shirt,Libas,1429,548,3.9,1083,Yes
+FK100973,Libas Saree Prime 83,Fashion,Saree,Libas,5239,2089,3.9,1443,Yes
+FK100974,Navneet Exam Prep Prime 37,Books & Stationery,Exam Prep,Navneet,1249,873,4.3,1430,Yes
+FK100975,Classmate Pens Plus 67,Books & Stationery,Pens,Classmate,329,245,4.2,234,Yes
+FK100976,Cello Cookware Classic 8,Home & Kitchen,Cookware,Cello,1999,1009,3.8,420,No
+FK100977,Penguin Exam Prep Edge 81,Books & Stationery,Exam Prep,Penguin,1409,908,3.4,2529,Yes
+FK100978,Beardo Perfume Max 29,Beauty & Personal Care,Perfume,Beardo,659,393,4.3,516,No
+FK100979,Pigeon Cookware Prime 76,Home & Kitchen,Cookware,Pigeon,1589,727,4.1,1968,Yes
+FK100980,Campus Saree Neo 18,Fashion,Saree,Campus,3039,1577,4.2,463,No
+FK100981,Levi's Saree Lite 86,Fashion,Saree,Levi's,2449,1367,4.1,1573,Yes
+FK100982,Mamaearth Perfume Prime 70,Beauty & Personal Care,Perfume,Mamaearth,1369,1021,4.3,130,Yes
+FK100983,Levi's Saree Classic 11,Fashion,Saree,Levi's,1669,599,3.6,609,Yes
+FK100984,Solimo Water Bottle Pro 21,Home & Kitchen,Water Bottle,Solimo,8229,5406,4.1,181,No
+FK100985,Hero Football Plus 7,Sports & Fitness,Football,Hero,3329,1822,4.1,123,Yes
+FK100986,Disha Notebooks Edge 93,Books & Stationery,Notebooks,Disha,199,157,4.5,227,No
+FK100987,Prestige Bedsheet Pro 3,Home & Kitchen,Bedsheet,Prestige,2859,2432,4.1,101,No
+FK100988,POCO Feature Phone Prime 54,Mobiles,Feature Phone,POCO,9279,7812,4.1,2622,Yes
+FK100989,Allen Solly Saree Prime 27,Fashion,Saree,Allen Solly,5739,2410,3.9,696,No
+FK100990,Motorola Feature Phone Neo 27,Mobiles,Feature Phone,Motorola,14299,10106,3.6,1557,No
+FK100991,Mamaearth Trimmer Lite 70,Beauty & Personal Care,Trimmer,Mamaearth,1559,1347,4.3,578,No
+FK100992,Mi Headphones Neo 20,Electronics,Headphones,Mi,7959,4836,4.5,123,No
+FK100993,Redmi Smartphone Classic 82,Mobiles,Smartphone,Redmi,47299,35371,3.8,106,No
+FK100994,Vivo Smartphone Classic 8,Mobiles,Smartphone,Vivo,17079,15366,3.9,301,Yes
+FK100995,Boldfit Cycle Plus 56,Sports & Fitness,Cycle,Boldfit,1399,664,4.1,53,No
+FK100996,Campus Jeans Max 78,Fashion,Jeans,Campus,5409,1827,3.5,2388,No
+FK100997,Levi's Sneakers Neo 68,Fashion,Sneakers,Levi's,5269,3308,3.9,3876,Yes
+FK100998,Roadster Jeans Plus 71,Fashion,Jeans,Roadster,2019,1023,4.2,496,No
+FK100999,OPPO Smartphone Prime 63,Mobiles,Smartphone,OPPO,11239,8509,4.1,1866,Yes
+FK101000,Mi Smartwatch Lite 46,Electronics,Smartwatch,Mi,3029,2468,4.0,1524,Yes
+FK101001,Penguin Fiction Plus 12,Books & Stationery,Fiction,Penguin,99,67,4.0,1465,No
+FK101002,Flipkart SmartBuy Storage Neo 48,Home & Kitchen,Storage,Flipkart SmartBuy,559,248,3.9,197,Yes
+FK101003,Harper Pens Prime 91,Books & Stationery,Pens,Harper,749,743,4.2,388,Yes
+FK101004,Allen Solly Women's Kurta Classic 55,Fashion,Women's Kurta,Allen Solly,679,354,3.9,10616,Yes
+FK101005,Mi Smartwatch Neo 83,Electronics,Smartwatch,Mi,869,654,4.8,313,No
+FK101006,boAt Smartwatch Pro 52,Electronics,Smartwatch,boAt,12409,9832,4.1,8225,Yes
+FK101007,Apple Feature Phone Max 18,Mobiles,Feature Phone,Apple,72629,54723,4.3,872,Yes
+FK101008,Arihant Notebooks Classic 3,Books & Stationery,Notebooks,Arihant,339,288,3.9,2345,Yes
+FK101009,Libas Jeans Max 82,Fashion,Jeans,Libas,2149,805,3.6,486,No
+FK101010,Reynolds Exam Prep Pro 62,Books & Stationery,Exam Prep,Reynolds,1439,971,4.3,1108,Yes
+FK101011,W Sneakers Classic 26,Fashion,Sneakers,W,779,348,3.8,1391,Yes
+FK101012,Sony Laptop Max 76,Electronics,Laptop,Sony,9319,6182,4.1,5215,Yes
+FK101013,W Sneakers Edge 27,Fashion,Sneakers,W,1129,720,4.2,631,Yes
+FK101014,Ambrane Laptop Max 28,Electronics,Laptop,Ambrane,7619,4285,4.6,1596,No
+FK101015,Beardo Lipstick Plus 79,Beauty & Personal Care,Lipstick,Beardo,979,564,3.8,526,No
+FK101016,Classmate Exam Prep Pro 42,Books & Stationery,Exam Prep,Classmate,239,207,4.1,876,No
+FK101017,Dove Trimmer Pro 77,Beauty & Personal Care,Trimmer,Dove,239,198,4.0,93,No
+FK101018,SG Cycle Classic 53,Sports & Fitness,Cycle,SG,2559,913,3.7,173,No
+FK101019,Roadster Men's T-Shirt Classic 90,Fashion,Men's T-Shirt,Roadster,1389,870,4.1,1814,Yes
+FK101020,Whirlpool Television Plus 3,Appliances,Television,Whirlpool,13479,8714,4.3,3699,Yes
+FK101021,boAt Speaker Classic 45,Electronics,Speaker,boAt,67979,40575,4.3,310,Yes
+FK101022,Bajaj Bedsheet Edge 42,Home & Kitchen,Bedsheet,Bajaj,2619,1183,4.1,277,Yes
+FK101023,Realme Smartphone Lite 11,Mobiles,Smartphone,Realme,6519,6519,3.7,430,Yes
+FK101024,Lenovo Power Bank Classic 95,Electronics,Power Bank,Lenovo,1669,1377,4.5,270,Yes
+FK101025,Beardo Perfume Plus 63,Beauty & Personal Care,Perfume,Beardo,609,536,4.1,2855,Yes
+FK101026,Himalaya Shampoo Max 13,Beauty & Personal Care,Shampoo,Himalaya,179,119,4.4,229,No
+FK101027,Dove Trimmer Max 78,Beauty & Personal Care,Trimmer,Dove,169,111,3.6,1527,No
+FK101028,Dove Perfume Prime 62,Beauty & Personal Care,Perfume,Dove,879,550,4.6,1413,Yes
+FK101029,Bajaj Storage Pro 86,Home & Kitchen,Storage,Bajaj,2949,1756,4.0,2683,No
+FK101030,Samsung Smartphone Edge 38,Mobiles,Smartphone,Samsung,71109,66467,4.6,1445,Yes
+FK101031,Himalaya Face Wash Pro 39,Beauty & Personal Care,Face Wash,Himalaya,959,935,4.1,1005,Yes
+FK101032,Puma Jeans Lite 11,Fashion,Jeans,Puma,569,98,3.7,3499,Yes
+FK101033,Allen Solly Men's T-Shirt Plus 11,Fashion,Men's T-Shirt,Allen Solly,2589,1051,4.0,367,Yes
+FK101034,Bajaj Bedsheet Prime 68,Home & Kitchen,Bedsheet,Bajaj,4349,1711,3.9,437,Yes
+FK101035,Levi's Jeans Plus 36,Fashion,Jeans,Levi's,809,293,4.0,505,No
+FK101036,Boldfit Cricket Bat Prime 96,Sports & Fitness,Cricket Bat,Boldfit,3769,1867,3.9,949,No
+FK101037,Levi's Saree Pro 20,Fashion,Saree,Levi's,689,367,4.2,1513,Yes
+FK101038,Hero Cricket Bat Plus 22,Sports & Fitness,Cricket Bat,Hero,10239,7100,4.4,463,Yes
+FK101039,Puma Men's T-Shirt Neo 29,Fashion,Men's T-Shirt,Puma,1259,795,4.6,1662,Yes
+FK101040,Solimo Bedsheet Lite 71,Home & Kitchen,Bedsheet,Solimo,389,196,3.8,176,Yes
+FK101041,Levi's Women's Kurta Pro 1,Fashion,Women's Kurta,Levi's,539,232,4.1,397,No
+FK101042,HRX Women's Kurta Lite 76,Fashion,Women's Kurta,HRX,1419,690,3.6,253,No
+FK101043,Milton Bedsheet Plus 61,Home & Kitchen,Bedsheet,Milton,759,287,3.7,402,No
+FK101044,Levi's Jeans Neo 31,Fashion,Jeans,Levi's,3539,1849,4.2,2668,No
+FK101045,Bajaj Cookware Max 25,Home & Kitchen,Cookware,Bajaj,1589,519,3.1,39,No
+FK101046,Whirlpool Television Prime 9,Appliances,Television,Whirlpool,10339,9130,3.4,689,No
+FK101047,Philips Perfume Lite 16,Beauty & Personal Care,Perfume,Philips,779,519,4.0,322,No
+FK101048,Redmi Smartphone Neo 13,Mobiles,Smartphone,Redmi,7709,6194,3.6,2041,Yes
+FK101049,Libas Saree Classic 49,Fashion,Saree,Libas,1229,412,3.7,8659,No
+FK101050,Dove Lipstick Prime 92,Beauty & Personal Care,Lipstick,Dove,569,379,3.9,926,Yes
+FK101051,Mamaearth Shampoo Edge 29,Beauty & Personal Care,Shampoo,Mamaearth,1639,1096,4.0,482,Yes
+FK101052,Apple Feature Phone Classic 97,Mobiles,Feature Phone,Apple,14049,12783,3.8,663,No
+FK101053,Disha Children's Books Neo 32,Books & Stationery,Children's Books,Disha,909,720,4.3,3683,Yes
+FK101054,Libas Sneakers Max 70,Fashion,Sneakers,Libas,539,220,3.9,1017,Yes
+FK101055,POCO Smartphone Edge 76,Mobiles,Smartphone,POCO,76299,76299,4.6,376,No
+FK101056,Apple Feature Phone Max 81,Mobiles,Feature Phone,Apple,42289,41857,3.6,2776,No
+FK101057,POCO Smartphone Plus 66,Mobiles,Smartphone,POCO,24329,22729,3.7,672,Yes
+FK101058,Noise Power Bank Lite 42,Electronics,Power Bank,Noise,7219,3534,4.4,1664,Yes
+FK101059,Dove Lipstick Prime 32,Beauty & Personal Care,Lipstick,Dove,169,115,4.1,13372,Yes
+FK101060,Allen Solly Women's Kurta Neo 34,Fashion,Women's Kurta,Allen Solly,519,218,4.1,7466,Yes
+FK101061,POCO Feature Phone Pro 51,Mobiles,Feature Phone,POCO,14619,11332,3.6,115,Yes
+FK101062,SG Football Classic 69,Sports & Fitness,Football,SG,619,217,4.1,286,No
+FK101063,Beardo Lipstick Prime 7,Beauty & Personal Care,Lipstick,Beardo,1329,724,4.0,276,No
+FK101064,Beardo Lipstick Prime 59,Beauty & Personal Care,Lipstick,Beardo,419,295,3.3,1443,No
+FK101065,Philips Shampoo Plus 74,Beauty & Personal Care,Shampoo,Philips,419,319,4.1,568,No
+FK101066,W Sneakers Classic 4,Fashion,Sneakers,W,759,289,4.1,4005,Yes
+FK101067,Levi's Jeans Neo 96,Fashion,Jeans,Levi's,1039,331,4.2,1984,Yes
+FK101068,Hero Football Neo 13,Sports & Fitness,Football,Hero,7589,2264,3.2,237,No
+FK101069,HRX Sneakers Plus 76,Fashion,Sneakers,HRX,569,290,4.0,889,No
+FK101070,Classmate Children's Books Neo 18,Books & Stationery,Children's Books,Classmate,259,194,4.1,987,Yes
+FK101071,Vivo Smartphone Plus 40,Mobiles,Smartphone,Vivo,24119,21325,4.2,5920,Yes
+FK101072,Levi's Men's T-Shirt Pro 17,Fashion,Men's T-Shirt,Levi's,1279,378,3.4,7690,Yes
+FK101073,Samsung Microwave Classic 89,Appliances,Microwave,Samsung,43719,34918,3.8,235,No
+FK101074,Godrej Television Edge 92,Appliances,Television,Godrej,9519,5630,4.4,2462,Yes
+FK101075,Apple Feature Phone Pro 65,Mobiles,Feature Phone,Apple,64609,31965,4.1,9898,Yes
+FK101076,W Women's Kurta Plus 74,Fashion,Women's Kurta,W,619,196,3.7,947,Yes
+FK101077,Libas Men's T-Shirt Plus 6,Fashion,Men's T-Shirt,Libas,1599,955,4.5,382,Yes
+FK101078,Puma Jeans Neo 5,Fashion,Jeans,Puma,1169,508,4.1,847,No
+FK101079,Libas Saree Classic 22,Fashion,Saree,Libas,3669,1427,3.6,1905,No
+FK101080,Roadster Jeans Prime 48,Fashion,Jeans,Roadster,3199,1592,4.1,603,Yes
+FK101081,Roadster Saree Edge 88,Fashion,Saree,Roadster,669,272,4.1,183,No
+FK101082,Solimo Cookware Pro 9,Home & Kitchen,Cookware,Solimo,1109,564,3.8,3257,Yes
+FK101083,Redmi Feature Phone Neo 31,Mobiles,Feature Phone,Redmi,9759,7862,4.4,2323,Yes
+FK101084,Apple Feature Phone Prime 16,Mobiles,Feature Phone,Apple,9229,8258,3.6,624,No
+FK101085,HP Smartwatch Classic 60,Electronics,Smartwatch,HP,8619,4238,4.3,229,Yes
+FK101086,SG Dumbbells Classic 11,Sports & Fitness,Dumbbells,SG,2079,813,3.6,485,No
+FK101087,JBL Headphones Max 56,Electronics,Headphones,JBL,60329,36820,4.3,437,Yes
+FK101088,HRX Sneakers Plus 14,Fashion,Sneakers,HRX,669,117,3.7,100,No
+FK101089,Mi Power Bank Classic 98,Electronics,Power Bank,Mi,2519,1443,4.3,651,No
+FK101090,Kookaburra Yoga Mat Classic 12,Sports & Fitness,Yoga Mat,Kookaburra,1619,768,4.2,2051,No
+FK101091,OPPO Smartphone Plus 69,Mobiles,Smartphone,OPPO,37199,33114,3.5,311,No
+FK101092,HP Laptop Edge 66,Electronics,Laptop,HP,13349,7927,3.8,15124,No
+FK101093,Philips Perfume Pro 7,Beauty & Personal Care,Perfume,Philips,689,410,3.9,974,No
+FK101094,Ambrane Smartwatch Pro 46,Electronics,Smartwatch,Ambrane,1089,787,3.9,231,No
+FK101095,Whirlpool Microwave Edge 69,Appliances,Microwave,Whirlpool,11999,9821,4.4,397,No
+FK101096,Godrej Washing Machine Pro 80,Appliances,Washing Machine,Godrej,15249,9459,3.6,3591,No
+FK101097,Godrej Refrigerator Max 26,Appliances,Refrigerator,Godrej,52499,34355,3.9,980,Yes
+FK101098,Samsung Refrigerator Pro 57,Appliances,Refrigerator,Samsung,13939,10689,3.6,508,No
+FK101099,Campus Jeans Lite 51,Fashion,Jeans,Campus,1489,695,4.7,408,Yes
+FK101100,Redmi Feature Phone Classic 5,Mobiles,Feature Phone,Redmi,51459,47382,4.7,564,Yes
+FK101101,Mamaearth Perfume Pro 94,Beauty & Personal Care,Perfume,Mamaearth,229,181,3.6,1955,Yes
+FK101102,Redmi Feature Phone Prime 55,Mobiles,Feature Phone,Redmi,12819,12373,4.0,387,Yes
+FK101103,Penguin Exam Prep Edge 91,Books & Stationery,Exam Prep,Penguin,89,89,3.9,120,No
+FK101104,POCO Smartphone Classic 51,Mobiles,Smartphone,POCO,32169,20293,4.2,1149,Yes
+FK101105,Disha Fiction Plus 1,Books & Stationery,Fiction,Disha,279,163,3.7,581,No
+FK101106,boAt Headphones Lite 59,Electronics,Headphones,boAt,3199,2168,4.3,866,Yes
+FK101107,Nivea Shampoo Max 20,Beauty & Personal Care,Shampoo,Nivea,1999,1821,4.2,626,No
+FK101108,Nivia Dumbbells Classic 57,Sports & Fitness,Dumbbells,Nivia,2789,1511,4.2,975,Yes
+FK101109,Levi's Men's T-Shirt Pro 13,Fashion,Men's T-Shirt,Levi's,3649,1359,3.6,327,No
+FK101110,Libas Saree Edge 34,Fashion,Saree,Libas,2509,1247,4.0,736,No
+FK101111,Milton Cookware Prime 25,Home & Kitchen,Cookware,Milton,1029,513,4.4,108,No
+FK101112,W Women's Kurta Neo 15,Fashion,Women's Kurta,W,4749,3507,4.5,466,Yes
+FK101113,Prestige Bedsheet Pro 71,Home & Kitchen,Bedsheet,Prestige,1919,786,4.2,340,No
+FK101114,Arihant Pens Edge 55,Books & Stationery,Pens,Arihant,769,569,4.4,332,No
+FK101115,Reynolds Children's Books Plus 49,Books & Stationery,Children's Books,Reynolds,449,281,4.1,1100,Yes
+FK101116,Libas Saree Classic 43,Fashion,Saree,Libas,889,388,4.4,268,No
+FK101117,Mamaearth Face Wash Pro 72,Beauty & Personal Care,Face Wash,Mamaearth,159,124,3.9,1031,Yes
+FK101118,Solimo Bedsheet Pro 64,Home & Kitchen,Bedsheet,Solimo,509,340,4.0,571,No
+FK101119,Mamaearth Lipstick Neo 57,Beauty & Personal Care,Lipstick,Mamaearth,409,274,4.0,2130,Yes
+FK101120,Allen Solly Sneakers Neo 75,Fashion,Sneakers,Allen Solly,5789,1158,3.6,653,Yes
+FK101121,boAt Smartwatch Lite 66,Electronics,Smartwatch,boAt,13869,6913,4.1,590,No
+FK101122,Prestige Cookware Max 53,Home & Kitchen,Cookware,Prestige,4739,2893,4.2,1834,No
+FK101123,Maybelline Shampoo Max 30,Beauty & Personal Care,Shampoo,Maybelline,269,136,3.9,412,No
+FK101124,Cosco Yoga Mat Plus 80,Sports & Fitness,Yoga Mat,Cosco,7269,5194,3.6,148,Yes
+FK101125,Roadster Saree Lite 68,Fashion,Saree,Roadster,4819,1512,4.2,610,Yes
+FK101126,Mamaearth Trimmer Lite 40,Beauty & Personal Care,Trimmer,Mamaearth,2009,1264,4.3,7222,Yes
+FK101127,Roadster Men's T-Shirt Max 7,Fashion,Men's T-Shirt,Roadster,4699,1429,3.7,270,No
+FK101128,Classmate Exam Prep Pro 39,Books & Stationery,Exam Prep,Classmate,239,116,3.8,1220,No
+FK101129,Hero Cricket Bat Pro 57,Sports & Fitness,Cricket Bat,Hero,1159,422,3.8,536,Yes
+FK101130,Mamaearth Lipstick Lite 32,Beauty & Personal Care,Lipstick,Mamaearth,309,243,3.9,2905,Yes
+FK101131,Levi's Women's Kurta Neo 46,Fashion,Women's Kurta,Levi's,499,248,4.2,1264,Yes
+FK101132,Harper Pens Edge 90,Books & Stationery,Pens,Harper,509,388,4.6,191,Yes
+FK101133,Maybelline Face Wash Classic 41,Beauty & Personal Care,Face Wash,Maybelline,2529,2010,4.2,97,Yes
+FK101134,JBL Smartwatch Lite 65,Electronics,Smartwatch,JBL,7719,6459,4.2,553,No
+FK101135,Roadster Women's Kurta Edge 88,Fashion,Women's Kurta,Roadster,3309,1194,4.3,1921,Yes
+FK101136,LG Television Classic 85,Appliances,Television,LG,17249,12330,4.1,753,No
+FK101137,HRX Women's Kurta Neo 70,Fashion,Women's Kurta,HRX,549,408,4.3,1463,No
+FK101138,HRX Saree Plus 1,Fashion,Saree,HRX,5739,3157,4.2,1329,Yes
+FK101139,Prestige Cookware Plus 38,Home & Kitchen,Cookware,Prestige,1219,647,4.0,1514,Yes
+FK101140,Beardo Lipstick Edge 41,Beauty & Personal Care,Lipstick,Beardo,169,145,4.0,527,No
+FK101141,Hero Cycle Plus 57,Sports & Fitness,Cycle,Hero,2129,1424,3.9,75,No
+FK101142,Cello Bedsheet Plus 48,Home & Kitchen,Bedsheet,Cello,369,271,4.3,1723,Yes
+FK101143,Allen Solly Sneakers Plus 40,Fashion,Sneakers,Allen Solly,2149,1231,3.8,4468,No
+FK101144,Milton Cookware Classic 18,Home & Kitchen,Cookware,Milton,2219,854,3.1,348,No
+FK101145,HRX Saree Classic 94,Fashion,Saree,HRX,1189,744,4.0,164,Yes
+FK101146,Milton Cookware Lite 63,Home & Kitchen,Cookware,Milton,5629,2488,4.1,270,No
+FK101147,POCO Smartphone Lite 77,Mobiles,Smartphone,POCO,19879,18745,4.1,128,Yes
+FK101148,Milton Bedsheet Edge 27,Home & Kitchen,Bedsheet,Milton,679,460,4.1,605,Yes
+FK101149,Philips Cookware Pro 84,Home & Kitchen,Cookware,Philips,369,223,4.4,1141,Yes
+FK101150,Flipkart SmartBuy Water Bottle Pro 10,Home & Kitchen,Water Bottle,Flipkart SmartBuy,2759,1438,3.9,50,No
+FK101151,Apple Feature Phone Pro 11,Mobiles,Feature Phone,Apple,6799,6635,3.8,139,No
+FK101152,Philips Water Bottle Pro 28,Home & Kitchen,Water Bottle,Philips,7619,5075,4.2,1630,Yes
+FK101153,Mi Power Bank Neo 13,Electronics,Power Bank,Mi,8899,4945,3.7,280,No
+FK101154,W Saree Lite 52,Fashion,Saree,W,769,368,4.1,1008,Yes
+FK101155,Libas Saree Max 26,Fashion,Saree,Libas,4659,2151,4.5,2249,Yes
+FK101156,Redmi Smartphone Neo 56,Mobiles,Smartphone,Redmi,49229,46337,3.6,631,No
+FK101157,Maybelline Lipstick Plus 1,Beauty & Personal Care,Lipstick,Maybelline,1799,1320,4.5,656,Yes
+FK101158,Philips Storage Pro 17,Home & Kitchen,Storage,Philips,1759,868,4.2,274,No
+FK101159,Motorola Feature Phone Lite 37,Mobiles,Feature Phone,Motorola,76459,67599,4.1,3460,Yes
+FK101160,Solimo Bedsheet Prime 84,Home & Kitchen,Bedsheet,Solimo,3769,1333,3.5,549,Yes
+FK101161,Allen Solly Women's Kurta Pro 34,Fashion,Women's Kurta,Allen Solly,4479,2049,4.1,2245,No
+FK101162,Bajaj Cookware Edge 9,Home & Kitchen,Cookware,Bajaj,659,456,3.8,2287,No
+FK101163,Cosco Yoga Mat Lite 71,Sports & Fitness,Yoga Mat,Cosco,969,603,4.6,457,Yes
+FK101164,Apple Smartphone Prime 77,Mobiles,Smartphone,Apple,52459,46751,3.5,46,Yes
+FK101165,Haier Air Conditioner Plus 6,Appliances,Air Conditioner,Haier,36639,31869,4.4,33,No
+FK101166,Hero Yoga Mat Neo 5,Sports & Fitness,Yoga Mat,Hero,349,249,4.0,262,Yes
+FK101167,Harper Notebooks Edge 48,Books & Stationery,Notebooks,Harper,309,247,4.4,465,Yes
+FK101168,Maybelline Face Wash Neo 9,Beauty & Personal Care,Face Wash,Maybelline,809,596,4.4,940,Yes
+FK101169,Pigeon Storage Prime 30,Home & Kitchen,Storage,Pigeon,1869,1027,4.0,1111,Yes
+FK101170,Whirlpool Washing Machine Pro 39,Appliances,Washing Machine,Whirlpool,49429,35490,4.6,550,Yes
+FK101171,Vivo Feature Phone Pro 76,Mobiles,Feature Phone,Vivo,30049,30049,4.5,538,Yes
+FK101172,Lenovo Smartwatch Plus 78,Electronics,Smartwatch,Lenovo,13049,8389,3.7,973,Yes
+FK101173,Dove Face Wash Prime 45,Beauty & Personal Care,Face Wash,Dove,1209,791,3.4,1262,No
+FK101174,Pigeon Cookware Neo 33,Home & Kitchen,Cookware,Pigeon,329,284,4.3,687,Yes
+FK101175,Apple Feature Phone Pro 59,Mobiles,Feature Phone,Apple,40369,39964,3.6,2911,Yes
+FK101176,Levi's Saree Edge 20,Fashion,Saree,Levi's,1299,612,4.3,642,Yes
+FK101177,Himalaya Perfume Classic 96,Beauty & Personal Care,Perfume,Himalaya,639,408,4.3,835,Yes
+FK101178,SG Cycle Max 82,Sports & Fitness,Cycle,SG,12149,9237,3.6,9586,Yes
+FK101179,Whirlpool Air Conditioner Neo 59,Appliances,Air Conditioner,Whirlpool,22309,14948,4.4,515,Yes
+FK101180,Sony Speaker Edge 53,Electronics,Speaker,Sony,4209,3607,4.2,338,Yes
+FK101181,Levi's Men's T-Shirt Lite 92,Fashion,Men's T-Shirt,Levi's,3569,1356,3.8,52,No
+FK101182,Prestige Water Bottle Edge 38,Home & Kitchen,Water Bottle,Prestige,299,158,3.6,223,No
+FK101183,Milton Cookware Lite 49,Home & Kitchen,Cookware,Milton,899,488,3.8,7018,No
+FK101184,Cello Storage Lite 30,Home & Kitchen,Storage,Cello,1199,669,4.2,67,No
+FK101185,Allen Solly Saree Neo 2,Fashion,Saree,Allen Solly,4619,2022,4.3,102,Yes
+FK101186,Boldfit Cycle Classic 8,Sports & Fitness,Cycle,Boldfit,8729,4018,3.6,1371,Yes
+FK101187,OPPO Feature Phone Plus 97,Mobiles,Feature Phone,OPPO,35679,34791,3.9,465,No
+FK101188,Philips Face Wash Classic 56,Beauty & Personal Care,Face Wash,Philips,149,109,4.2,1667,Yes
+FK101189,Cello Bedsheet Pro 45,Home & Kitchen,Bedsheet,Cello,1079,757,3.8,361,Yes
+FK101190,Philips Shampoo Lite 44,Beauty & Personal Care,Shampoo,Philips,539,441,3.9,4450,Yes
+FK101191,Allen Solly Saree Lite 46,Fashion,Saree,Allen Solly,499,234,4.5,269,Yes
+FK101192,Roadster Sneakers Pro 30,Fashion,Sneakers,Roadster,3149,1414,3.9,191,No
+FK101193,Lenovo Headphones Lite 46,Electronics,Headphones,Lenovo,2659,1600,3.4,57,No
+FK101194,Apple Smartphone Max 84,Mobiles,Smartphone,Apple,6699,4371,4.4,10702,Yes
+FK101195,Apple Smartphone Lite 93,Mobiles,Smartphone,Apple,8849,8260,4.2,3338,Yes
+FK101196,Motorola Feature Phone Pro 41,Mobiles,Feature Phone,Motorola,57769,55485,4.2,281,Yes
+FK101197,Cello Bedsheet Plus 85,Home & Kitchen,Bedsheet,Cello,1039,499,4.2,254,No
+FK101198,Allen Solly Saree Max 11,Fashion,Saree,Allen Solly,5659,2491,4.4,4359,Yes
+FK101199,Cello Storage Lite 78,Home & Kitchen,Storage,Cello,1849,1153,4.2,25959,Yes
+FK101200,W Jeans Lite 55,Fashion,Jeans,W,519,173,4.2,636,Yes
+FK101201,Harper Children's Books Prime 54,Books & Stationery,Children's Books,Harper,82,55,3.8,1362,No
+FK101202,Nivia Dumbbells Max 14,Sports & Fitness,Dumbbells,Nivia,6169,2629,4.5,287,No
+FK101203,Redmi Smartphone Max 58,Mobiles,Smartphone,Redmi,29279,29279,4.3,3633,No
+FK101204,Libas Men's T-Shirt Plus 29,Fashion,Men's T-Shirt,Libas,429,226,4.5,314,Yes
+FK101205,Allen Solly Jeans Edge 15,Fashion,Jeans,Allen Solly,5259,2664,3.8,56,Yes
+FK101206,HRX Saree Lite 27,Fashion,Saree,HRX,409,172,4.1,503,No
+FK101207,Bajaj Mixer Grinder Neo 19,Home & Kitchen,Mixer Grinder,Bajaj,1329,682,4.3,6237,No
+FK101208,Lakme Face Wash Max 89,Beauty & Personal Care,Face Wash,Lakme,169,75,3.8,2331,Yes
+FK101209,Reynolds Pens Plus 65,Books & Stationery,Pens,Reynolds,96,85,3.6,421,No
+FK101210,Solimo Water Bottle Prime 97,Home & Kitchen,Water Bottle,Solimo,6449,2822,4.0,318,Yes
+FK101211,Apple Feature Phone Neo 18,Mobiles,Feature Phone,Apple,8469,8469,4.0,123,No
+FK101212,Puma Men's T-Shirt Max 16,Fashion,Men's T-Shirt,Puma,689,215,3.9,7306,Yes
+FK101213,HRX Sneakers Max 39,Fashion,Sneakers,HRX,549,203,4.1,152,Yes
+FK101214,Nivea Perfume Lite 96,Beauty & Personal Care,Perfume,Nivea,1939,1053,4.0,4035,No
+FK101215,Sony Laptop Lite 33,Electronics,Laptop,Sony,3179,2203,3.8,4683,No
+FK101216,Samsung Smartphone Plus 25,Mobiles,Smartphone,Samsung,11439,6663,4.2,1116,No
+FK101217,Milton Cookware Neo 9,Home & Kitchen,Cookware,Milton,1899,1259,4.3,1099,No
+FK101218,Levi's Women's Kurta Lite 78,Fashion,Women's Kurta,Levi's,1469,350,3.2,4978,Yes
+FK101219,Mamaearth Perfume Prime 83,Beauty & Personal Care,Perfume,Mamaearth,799,427,4.2,854,No
+FK101220,IFB Washing Machine Lite 88,Appliances,Washing Machine,IFB,8649,7210,3.7,1491,No
+FK101221,W Sneakers Edge 33,Fashion,Sneakers,W,5419,2440,4.3,630,Yes
+FK101222,Decathlon Dumbbells Classic 2,Sports & Fitness,Dumbbells,Decathlon,14289,7019,4.4,79,No
+FK101223,Arihant Children's Books Lite 94,Books & Stationery,Children's Books,Arihant,139,95,3.8,138,No
+FK101224,Milton Mixer Grinder Classic 75,Home & Kitchen,Mixer Grinder,Milton,7499,3887,4.3,212,No
+FK101225,Lakme Perfume Plus 48,Beauty & Personal Care,Perfume,Lakme,2809,1196,4.2,1461,Yes
+FK101226,Philips Bedsheet Plus 57,Home & Kitchen,Bedsheet,Philips,2219,1259,4.1,866,Yes
+FK101227,Apple Smartphone Lite 69,Mobiles,Smartphone,Apple,6789,6695,3.9,331,No
+FK101228,Cosco Yoga Mat Classic 94,Sports & Fitness,Yoga Mat,Cosco,1779,1169,4.1,208,Yes
+FK101229,Flipkart SmartBuy Mixer Grinder Plus 22,Home & Kitchen,Mixer Grinder,Flipkart SmartBuy,4929,2631,4.1,5006,Yes
+FK101230,Levi's Sneakers Pro 4,Fashion,Sneakers,Levi's,1059,569,4.6,1399,No
+FK101231,Bajaj Water Bottle Classic 63,Home & Kitchen,Water Bottle,Bajaj,3939,3309,3.9,78,No
+FK101232,Cello Fiction Max 58,Books & Stationery,Fiction,Cello,81,62,3.5,1164,Yes
+FK101233,Philips Storage Pro 78,Home & Kitchen,Storage,Philips,1099,558,4.1,2559,No
+FK101234,Milton Cookware Lite 87,Home & Kitchen,Cookware,Milton,1399,752,4.5,507,Yes
+FK101235,Whirlpool Refrigerator Edge 63,Appliances,Refrigerator,Whirlpool,10659,6356,4.2,990,Yes
+FK101236,Redmi Smartphone Edge 4,Mobiles,Smartphone,Redmi,7839,6446,4.1,740,No
+FK101237,Classmate Fiction Plus 1,Books & Stationery,Fiction,Classmate,879,762,3.7,5658,Yes
+FK101238,Beardo Perfume Pro 13,Beauty & Personal Care,Perfume,Beardo,489,354,4.1,896,Yes
+FK101239,Classmate Exam Prep Classic 42,Books & Stationery,Exam Prep,Classmate,249,156,4.0,460,Yes
+FK101240,Prestige Storage Max 44,Home & Kitchen,Storage,Prestige,2259,1589,4.1,249,Yes
+FK101241,Voltas Television Neo 2,Appliances,Television,Voltas,23969,19889,3.5,1961,No
+FK101242,Lakme Perfume Prime 57,Beauty & Personal Care,Perfume,Lakme,1209,549,4.1,5485,Yes
+FK101243,Reynolds Exam Prep Max 49,Books & Stationery,Exam Prep,Reynolds,699,525,4.3,209,No
+FK101244,Solimo Mixer Grinder Pro 36,Home & Kitchen,Mixer Grinder,Solimo,6469,2874,4.2,556,Yes
+FK101245,Allen Solly Sneakers Lite 40,Fashion,Sneakers,Allen Solly,3269,2441,3.5,1262,Yes
+FK101246,Nivea Trimmer Lite 68,Beauty & Personal Care,Trimmer,Nivea,279,204,4.1,243,Yes
+FK101247,Hero Cricket Bat Max 7,Sports & Fitness,Cricket Bat,Hero,6509,4802,3.8,934,Yes
+FK101248,Solimo Water Bottle Plus 90,Home & Kitchen,Water Bottle,Solimo,4229,3292,3.8,116,No
+FK101249,IFB Refrigerator Plus 82,Appliances,Refrigerator,IFB,10299,6597,3.9,1920,No
+FK101250,Mamaearth Face Wash Prime 27,Beauty & Personal Care,Face Wash,Mamaearth,619,470,4.1,301,No
+FK101251,Nivia Cricket Bat Plus 95,Sports & Fitness,Cricket Bat,Nivia,2009,1040,3.8,2439,No
+FK101252,Prestige Water Bottle Lite 5,Home & Kitchen,Water Bottle,Prestige,529,352,4.1,168,Yes
+FK101253,Puma Sneakers Pro 9,Fashion,Sneakers,Puma,2419,1081,3.9,785,No
+FK101254,Harper Exam Prep Plus 77,Books & Stationery,Exam Prep,Harper,839,547,4.4,4039,Yes
+FK101255,Haier Refrigerator Classic 66,Appliances,Refrigerator,Haier,32399,21172,4.4,465,No
+FK101256,Disha Fiction Plus 1,Books & Stationery,Fiction,Disha,88,69,4.2,229,Yes
+FK101257,Milton Storage Neo 19,Home & Kitchen,Storage,Milton,1129,583,4.3,19866,Yes
+FK101258,W Sneakers Max 41,Fashion,Sneakers,W,869,396,3.9,867,No
+FK101259,Solimo Bedsheet Plus 88,Home & Kitchen,Bedsheet,Solimo,1039,617,3.9,6925,No
+FK101260,Maybelline Perfume Plus 73,Beauty & Personal Care,Perfume,Maybelline,239,148,4.2,414,Yes
+FK101261,Sony Laptop Plus 96,Electronics,Laptop,Sony,1919,1433,4.1,360,No
+FK101262,Campus Jeans Classic 65,Fashion,Jeans,Campus,1699,455,4.0,260,Yes
+FK101263,Noise Power Bank Prime 91,Electronics,Power Bank,Noise,1679,1100,4.4,909,Yes
+FK101264,Boldfit Cycle Plus 37,Sports & Fitness,Cycle,Boldfit,3669,3079,3.9,1004,No
+FK101265,Reynolds Notebooks Edge 39,Books & Stationery,Notebooks,Reynolds,119,90,4.3,779,Yes
+FK101266,Cello Storage Lite 86,Home & Kitchen,Storage,Cello,3489,3102,3.7,1533,No
+FK101267,IFB Refrigerator Pro 11,Appliances,Refrigerator,IFB,18829,12675,3.9,382,Yes
+FK101268,Nivia Football Prime 16,Sports & Fitness,Football,Nivia,1819,1394,3.7,552,Yes
+FK101269,Vivo Smartphone Pro 31,Mobiles,Smartphone,Vivo,25109,23872,4.3,3749,Yes
+FK101270,Puma Saree Edge 76,Fashion,Saree,Puma,1819,450,3.5,6089,No
+FK101271,Roadster Women's Kurta Edge 90,Fashion,Women's Kurta,Roadster,2419,1048,4.7,1051,Yes
+FK101272,Campus Men's T-Shirt Lite 16,Fashion,Men's T-Shirt,Campus,1069,685,4.0,45,No
+FK101273,Milton Storage Pro 68,Home & Kitchen,Storage,Milton,3259,2110,4.6,11224,Yes
+FK101274,Classmate Exam Prep Max 38,Books & Stationery,Exam Prep,Classmate,169,161,4.1,2876,Yes
+FK101275,JBL Smartwatch Edge 56,Electronics,Smartwatch,JBL,1579,721,4.0,7359,No
+FK101276,Allen Solly Saree Classic 37,Fashion,Saree,Allen Solly,1649,485,3.4,6639,No
+FK101277,Roadster Jeans Edge 82,Fashion,Jeans,Roadster,2619,1215,4.1,312,Yes
+FK101278,JBL Smartwatch Lite 8,Electronics,Smartwatch,JBL,829,563,4.4,333,Yes
+FK101279,Milton Water Bottle Classic 26,Home & Kitchen,Water Bottle,Milton,409,179,4.2,2598,Yes
+FK101280,Reynolds Fiction Pro 9,Books & Stationery,Fiction,Reynolds,1089,738,4.2,619,Yes
+FK101281,Godrej Washing Machine Edge 83,Appliances,Washing Machine,Godrej,27919,24897,4.9,14383,Yes
+FK101282,Dove Shampoo Classic 12,Beauty & Personal Care,Shampoo,Dove,1269,601,3.5,290,No
+FK101283,Harper Children's Books Pro 86,Books & Stationery,Children's Books,Harper,1159,1023,3.9,177,Yes
+FK101284,HRX Men's T-Shirt Neo 22,Fashion,Men's T-Shirt,HRX,459,170,4.3,833,Yes
+FK101285,Philips Water Bottle Plus 2,Home & Kitchen,Water Bottle,Philips,359,201,4.3,137,No
+FK101286,Levi's Women's Kurta Prime 60,Fashion,Women's Kurta,Levi's,649,237,3.8,106,No
+FK101287,W Men's T-Shirt Neo 35,Fashion,Men's T-Shirt,W,649,275,3.9,887,No
+FK101288,Voltas Washing Machine Classic 27,Appliances,Washing Machine,Voltas,12149,8522,3.8,70,No
+FK101289,Allen Solly Jeans Neo 72,Fashion,Jeans,Allen Solly,4599,1487,3.3,228,No
+FK101290,Roadster Saree Lite 13,Fashion,Saree,Roadster,2599,969,3.8,2335,Yes
+FK101291,Strauss Cycle Lite 29,Sports & Fitness,Cycle,Strauss,309,191,3.8,2318,Yes
+FK101292,Himalaya Lipstick Edge 45,Beauty & Personal Care,Lipstick,Himalaya,619,268,4.4,1111,No
+FK101293,Roadster Sneakers Max 83,Fashion,Sneakers,Roadster,1409,947,4.1,4217,Yes
+FK101294,Noise Power Bank Neo 54,Electronics,Power Bank,Noise,14869,8625,4.1,575,No
+FK101295,HRX Men's T-Shirt Max 24,Fashion,Men's T-Shirt,HRX,1219,645,3.2,1068,No
+FK101296,Philips Lipstick Edge 89,Beauty & Personal Care,Lipstick,Philips,579,351,4.7,438,Yes
+FK101297,IFB Microwave Pro 10,Appliances,Microwave,IFB,14939,10891,4.1,743,Yes
+FK101298,Allen Solly Women's Kurta Edge 82,Fashion,Women's Kurta,Allen Solly,889,530,4.4,966,Yes
+FK101299,Levi's Jeans Plus 32,Fashion,Jeans,Levi's,3949,1578,3.5,1396,Yes
+FK101300,Campus Sneakers Neo 5,Fashion,Sneakers,Campus,749,248,3.9,99,No
+FK101301,Allen Solly Men's T-Shirt Classic 25,Fashion,Men's T-Shirt,Allen Solly,1279,476,3.9,142,No
+FK101302,Mamaearth Perfume Prime 51,Beauty & Personal Care,Perfume,Mamaearth,1519,993,4.4,303,No
+FK101303,Mamaearth Perfume Classic 63,Beauty & Personal Care,Perfume,Mamaearth,1189,879,3.8,341,No
+FK101304,Arihant Fiction Max 58,Books & Stationery,Fiction,Arihant,769,555,4.0,306,No
+FK101305,Roadster Jeans Edge 91,Fashion,Jeans,Roadster,5969,2786,3.8,3235,Yes
+FK101306,Cello Pens Pro 70,Books & Stationery,Pens,Cello,169,135,4.5,640,Yes
+FK101307,Realme Feature Phone Plus 42,Mobiles,Feature Phone,Realme,9849,7864,3.9,540,Yes
+FK101308,Levi's Women's Kurta Max 65,Fashion,Women's Kurta,Levi's,1389,703,3.7,144,No
+FK101309,Flipkart SmartBuy Cookware Plus 50,Home & Kitchen,Cookware,Flipkart SmartBuy,1089,593,3.8,426,No
+FK101310,Motorola Smartphone Neo 64,Mobiles,Smartphone,Motorola,34099,26784,4.0,844,Yes
+FK101311,Libas Sneakers Neo 62,Fashion,Sneakers,Libas,2219,1362,3.5,456,No
+FK101312,Pigeon Storage Classic 95,Home & Kitchen,Storage,Pigeon,1179,854,3.9,369,No
+FK101313,Campus Jeans Max 81,Fashion,Jeans,Campus,5729,1220,3.4,210,No
+FK101314,Mamaearth Trimmer Edge 71,Beauty & Personal Care,Trimmer,Mamaearth,699,638,4.3,1526,Yes
+FK101315,HRX Sneakers Max 85,Fashion,Sneakers,HRX,859,369,3.6,1356,No
+FK101316,Levi's Women's Kurta Edge 54,Fashion,Women's Kurta,Levi's,3259,1699,4.1,8476,Yes
+FK101317,Bajaj Bedsheet Neo 78,Home & Kitchen,Bedsheet,Bajaj,2009,1739,4.7,1761,No
+FK101318,Ambrane Laptop Max 80,Electronics,Laptop,Ambrane,37099,19876,3.6,152,No
+FK101319,Samsung Smartphone Classic 1,Mobiles,Smartphone,Samsung,36539,29915,4.5,1803,No
+FK101320,HRX Women's Kurta Lite 26,Fashion,Women's Kurta,HRX,1759,550,4.2,1259,Yes
+FK101321,Roadster Saree Pro 56,Fashion,Saree,Roadster,4479,1174,2.9,115,No
+FK101322,Lakme Perfume Edge 44,Beauty & Personal Care,Perfume,Lakme,3509,2486,3.8,1521,Yes
+FK101323,Maybelline Shampoo Prime 16,Beauty & Personal Care,Shampoo,Maybelline,149,112,4.1,204,Yes
+FK101324,HP Smartwatch Edge 79,Electronics,Smartwatch,HP,1679,879,3.6,1712,Yes
+FK101325,Sony Laptop Pro 85,Electronics,Laptop,Sony,50629,34202,3.8,884,Yes
+FK101326,Navneet Notebooks Lite 6,Books & Stationery,Notebooks,Navneet,289,284,3.8,1001,Yes
+FK101327,Mamaearth Trimmer Pro 61,Beauty & Personal Care,Trimmer,Mamaearth,679,496,4.7,105,Yes
+FK101328,Levi's Saree Lite 69,Fashion,Saree,Levi's,769,286,3.6,2592,Yes
+FK101329,Apple Feature Phone Prime 17,Mobiles,Feature Phone,Apple,37689,35170,4.3,1215,No
+FK101330,Campus Jeans Edge 97,Fashion,Jeans,Campus,939,473,3.4,2910,No
+FK101331,HRX Jeans Pro 28,Fashion,Jeans,HRX,1659,867,4.2,301,Yes
+FK101332,Haier Washing Machine Prime 84,Appliances,Washing Machine,Haier,8629,4726,4.6,492,Yes
+FK101333,Disha Children's Books Neo 38,Books & Stationery,Children's Books,Disha,149,138,3.7,4121,Yes
+FK101334,Roadster Men's T-Shirt Pro 48,Fashion,Men's T-Shirt,Roadster,1589,683,3.7,515,Yes
+FK101335,TCL Washing Machine Neo 72,Appliances,Washing Machine,TCL,29289,21373,4.8,575,Yes
+FK101336,Philips Bedsheet Plus 26,Home & Kitchen,Bedsheet,Philips,1049,701,4.2,4149,Yes
+FK101337,Libas Men's T-Shirt Max 61,Fashion,Men's T-Shirt,Libas,1259,461,3.7,4850,Yes
+FK101338,Samsung Feature Phone Lite 50,Mobiles,Feature Phone,Samsung,17639,13801,4.0,670,No
+FK101339,Haier Refrigerator Plus 10,Appliances,Refrigerator,Haier,26649,20263,4.1,175,No
+FK101340,Reynolds Fiction Neo 80,Books & Stationery,Fiction,Reynolds,279,262,4.1,5386,Yes
+FK101341,Godrej Air Conditioner Max 11,Appliances,Air Conditioner,Godrej,23279,17728,4.0,633,No
+FK101342,Puma Sneakers Prime 63,Fashion,Sneakers,Puma,519,258,3.9,2647,Yes
+FK101343,Realme Smartphone Plus 39,Mobiles,Smartphone,Realme,28959,22775,4.1,4699,Yes
+FK101344,Nivea Face Wash Plus 71,Beauty & Personal Care,Face Wash,Nivea,259,155,4.0,122,No
+FK101345,Libas Women's Kurta Plus 60,Fashion,Women's Kurta,Libas,429,199,4.9,302,Yes
+FK101346,IFB Washing Machine Lite 15,Appliances,Washing Machine,IFB,9909,8985,4.3,617,Yes
+FK101347,Nivea Lipstick Max 92,Beauty & Personal Care,Lipstick,Nivea,429,272,3.5,1523,No
+FK101348,Navneet Fiction Pro 78,Books & Stationery,Fiction,Navneet,309,244,4.1,845,Yes
+FK101349,Maybelline Face Wash Lite 29,Beauty & Personal Care,Face Wash,Maybelline,369,203,4.3,3577,Yes
+FK101350,IFB Television Max 57,Appliances,Television,IFB,47909,41736,4.5,463,Yes
+FK101351,Nivea Face Wash Edge 31,Beauty & Personal Care,Face Wash,Nivea,679,456,4.7,1048,Yes
+FK101352,Samsung Smartphone Plus 9,Mobiles,Smartphone,Samsung,40199,38660,4.3,3103,Yes
+FK101353,Sony Speaker Prime 20,Electronics,Speaker,Sony,3839,2638,4.1,91,Yes
+FK101354,Allen Solly Saree Pro 25,Fashion,Saree,Allen Solly,1239,663,3.9,1559,Yes
+FK101355,Flipkart SmartBuy Storage Lite 84,Home & Kitchen,Storage,Flipkart SmartBuy,609,335,3.8,2863,No
+FK101356,Samsung Refrigerator Edge 71,Appliances,Refrigerator,Samsung,12119,9440,3.9,858,No
+FK101357,Libas Men's T-Shirt Max 95,Fashion,Men's T-Shirt,Libas,3629,1542,4.4,1133,Yes
+FK101358,OPPO Smartphone Edge 53,Mobiles,Smartphone,OPPO,11919,11870,4.3,96,Yes
+FK101359,boAt Smartwatch Prime 7,Electronics,Smartwatch,boAt,17989,11223,3.7,2333,No
+FK101360,Kookaburra Cycle Classic 44,Sports & Fitness,Cycle,Kookaburra,1129,655,4.3,801,No
+FK101361,Puma Men's T-Shirt Neo 10,Fashion,Men's T-Shirt,Puma,4299,1992,4.0,1451,Yes
+FK101362,Kookaburra Dumbbells Classic 24,Sports & Fitness,Dumbbells,Kookaburra,2659,1745,4.5,2192,Yes
+FK101363,JBL Power Bank Neo 56,Electronics,Power Bank,JBL,1239,926,3.7,628,Yes
+FK101364,Milton Storage Pro 83,Home & Kitchen,Storage,Milton,2989,1433,4.0,1070,Yes
+FK101365,Motorola Feature Phone Pro 6,Mobiles,Feature Phone,Motorola,9289,8278,4.9,2242,Yes
+FK101366,Levi's Women's Kurta Max 37,Fashion,Women's Kurta,Levi's,1049,553,3.8,899,No
+FK101367,JBL Headphones Pro 16,Electronics,Headphones,JBL,5699,3688,4.2,427,No
+FK101368,Cosco Football Edge 31,Sports & Fitness,Football,Cosco,7839,3390,4.0,1070,Yes
+FK101369,Puma Jeans Prime 71,Fashion,Jeans,Puma,819,262,3.0,639,Yes
+FK101370,Harper Pens Max 52,Books & Stationery,Pens,Harper,479,342,3.8,4297,Yes
+FK101371,Bajaj Water Bottle Neo 46,Home & Kitchen,Water Bottle,Bajaj,6759,3755,3.8,1523,No
+FK101372,Samsung Feature Phone Lite 76,Mobiles,Feature Phone,Samsung,33009,26218,4.0,461,Yes
+FK101373,JBL Laptop Lite 83,Electronics,Laptop,JBL,22319,12087,4.3,667,No
+FK101374,Pigeon Cookware Max 88,Home & Kitchen,Cookware,Pigeon,709,498,3.7,84,No
+FK101375,HRX Sneakers Classic 56,Fashion,Sneakers,HRX,5709,1965,4.1,4250,Yes
+FK101376,Boldfit Cycle Edge 3,Sports & Fitness,Cycle,Boldfit,10609,4150,3.5,2208,Yes
+FK101377,Roadster Women's Kurta Edge 67,Fashion,Women's Kurta,Roadster,5249,1895,4.2,1662,Yes
+FK101378,Libas Sneakers Max 43,Fashion,Sneakers,Libas,5379,2399,3.4,456,No
+FK101379,boAt Laptop Edge 43,Electronics,Laptop,boAt,1419,874,4.5,2302,No
+FK101380,Whirlpool Microwave Neo 64,Appliances,Microwave,Whirlpool,42059,27484,4.2,2387,Yes
+FK101381,HRX Saree Plus 37,Fashion,Saree,HRX,479,274,4.1,3258,Yes
+FK101382,Harper Children's Books Prime 79,Books & Stationery,Children's Books,Harper,199,148,4.6,92,Yes
+FK101383,Boldfit Cycle Edge 95,Sports & Fitness,Cycle,Boldfit,14049,8405,4.3,4409,Yes
+FK101384,Puma Women's Kurta Max 92,Fashion,Women's Kurta,Puma,2169,1116,3.7,1442,Yes
+FK101385,Pigeon Water Bottle Prime 38,Home & Kitchen,Water Bottle,Pigeon,459,325,3.9,5928,No
+FK101386,HRX Sneakers Plus 61,Fashion,Sneakers,HRX,2869,1131,4.0,391,No
+FK101387,Campus Women's Kurta Max 25,Fashion,Women's Kurta,Campus,5689,2724,4.1,2793,Yes
+FK101388,Nivea Shampoo Edge 66,Beauty & Personal Care,Shampoo,Nivea,159,124,4.1,2784,No
+FK101389,Puma Sneakers Edge 88,Fashion,Sneakers,Puma,459,199,3.9,146,No
+FK101390,IFB Refrigerator Plus 39,Appliances,Refrigerator,IFB,20309,14797,3.9,194,No
+FK101391,Dove Shampoo Plus 73,Beauty & Personal Care,Shampoo,Dove,969,555,4.1,409,No
+FK101392,Mamaearth Perfume Prime 70,Beauty & Personal Care,Perfume,Mamaearth,1449,1021,3.7,353,Yes
+FK101393,Prestige Storage Max 31,Home & Kitchen,Storage,Prestige,1519,688,4.7,777,Yes
+FK101394,Ambrane Power Bank Neo 57,Electronics,Power Bank,Ambrane,1269,816,4.1,383,No
+FK101395,JBL Smartwatch Classic 62,Electronics,Smartwatch,JBL,11459,8855,3.6,189,No
+FK101396,Kookaburra Cricket Bat Classic 7,Sports & Fitness,Cricket Bat,Kookaburra,259,111,4.2,359,No
+FK101397,Himalaya Face Wash Prime 69,Beauty & Personal Care,Face Wash,Himalaya,1039,614,4.0,1818,No
+FK101398,Puma Saree Edge 34,Fashion,Saree,Puma,1309,586,3.9,2196,No
+FK101399,Levi's Women's Kurta Neo 56,Fashion,Women's Kurta,Levi's,469,151,4.2,310,No
+FK101400,Decathlon Football Max 32,Sports & Fitness,Football,Decathlon,689,315,3.9,2727,No
+FK101401,Nivia Dumbbells Classic 95,Sports & Fitness,Dumbbells,Nivia,6169,2205,4.1,208,Yes
+FK101402,boAt Headphones Pro 85,Electronics,Headphones,boAt,42099,23914,3.8,4508,Yes
+FK101403,Boldfit Dumbbells Neo 53,Sports & Fitness,Dumbbells,Boldfit,2069,1765,4.1,2921,No
+FK101404,Levi's Men's T-Shirt Classic 21,Fashion,Men's T-Shirt,Levi's,4339,1569,3.4,784,No
+FK101405,Redmi Smartphone Neo 19,Mobiles,Smartphone,Redmi,7119,6559,3.5,610,No
+FK101406,Himalaya Trimmer Neo 59,Beauty & Personal Care,Trimmer,Himalaya,1539,878,4.0,230,No
+FK101407,Sony Laptop Plus 37,Electronics,Laptop,Sony,5839,4719,4.1,4374,No
+FK101408,Strauss Yoga Mat Max 35,Sports & Fitness,Yoga Mat,Strauss,6899,4222,4.2,376,Yes
+FK101409,Cello Children's Books Pro 25,Books & Stationery,Children's Books,Cello,979,921,4.3,1086,Yes
+FK101410,Maybelline Face Wash Edge 31,Beauty & Personal Care,Face Wash,Maybelline,209,118,4.3,246,Yes
+FK101411,Ambrane Power Bank Pro 92,Electronics,Power Bank,Ambrane,1689,1311,4.3,1241,Yes
+FK101412,HRX Saree Lite 81,Fashion,Saree,HRX,749,446,3.7,916,Yes
+FK101413,Prestige Bedsheet Classic 87,Home & Kitchen,Bedsheet,Prestige,1889,1024,4.3,60,Yes
+FK101414,Samsung Smartphone Lite 17,Mobiles,Smartphone,Samsung,12429,10070,4.2,1602,No
+FK101415,Milton Cookware Max 11,Home & Kitchen,Cookware,Milton,4949,2808,3.9,3224,Yes
+FK101416,SG Dumbbells Neo 30,Sports & Fitness,Dumbbells,SG,2109,1640,3.5,196,Yes
+FK101417,HRX Saree Prime 24,Fashion,Saree,HRX,5899,3472,4.0,37,No
+FK101418,HRX Women's Kurta Prime 53,Fashion,Women's Kurta,HRX,459,160,4.0,466,Yes
+FK101419,Boldfit Dumbbells Max 43,Sports & Fitness,Dumbbells,Boldfit,4259,2943,4.2,503,No
+FK101420,Noise Laptop Prime 29,Electronics,Laptop,Noise,3929,2736,3.8,651,Yes
+FK101421,Harper Exam Prep Edge 33,Books & Stationery,Exam Prep,Harper,819,491,4.3,552,No
+FK101422,Penguin Notebooks Plus 66,Books & Stationery,Notebooks,Penguin,919,690,4.0,10096,Yes
+FK101423,Harper Exam Prep Lite 16,Books & Stationery,Exam Prep,Harper,219,132,4.3,1535,Yes
+FK101424,Flipkart SmartBuy Storage Plus 59,Home & Kitchen,Storage,Flipkart SmartBuy,8609,4883,4.3,176,No
+FK101425,Roadster Men's T-Shirt Pro 48,Fashion,Men's T-Shirt,Roadster,779,433,4.0,3919,Yes
+FK101426,Penguin Exam Prep Max 58,Books & Stationery,Exam Prep,Penguin,619,503,4.0,1809,Yes
+FK101427,OPPO Smartphone Edge 81,Mobiles,Smartphone,OPPO,34069,30953,4.2,1271,Yes
+FK101428,Harper Notebooks Plus 46,Books & Stationery,Notebooks,Harper,669,581,3.5,3179,Yes
+FK101429,Mamaearth Trimmer Pro 65,Beauty & Personal Care,Trimmer,Mamaearth,169,150,4.0,1862,Yes
+FK101430,Voltas Refrigerator Max 66,Appliances,Refrigerator,Voltas,22539,15362,4.9,3852,No
+FK101431,Mi Laptop Lite 51,Electronics,Laptop,Mi,1509,1049,3.9,2777,No
+FK101432,POCO Feature Phone Edge 74,Mobiles,Feature Phone,POCO,30589,22738,4.8,416,Yes
+FK101433,Flipkart SmartBuy Storage Edge 41,Home & Kitchen,Storage,Flipkart SmartBuy,2189,803,4.2,3375,Yes
+FK101434,Navneet Pens Classic 15,Books & Stationery,Pens,Navneet,179,171,4.0,3485,No
+FK101435,Roadster Men's T-Shirt Pro 79,Fashion,Men's T-Shirt,Roadster,1479,903,3.5,502,No
+FK101436,OPPO Smartphone Prime 96,Mobiles,Smartphone,OPPO,25189,20927,4.3,610,Yes
+FK101437,Campus Sneakers Max 33,Fashion,Sneakers,Campus,669,227,3.8,361,Yes
+FK101438,Libas Women's Kurta Lite 87,Fashion,Women's Kurta,Libas,3449,1465,4.1,777,No
+FK101439,Boldfit Yoga Mat Classic 13,Sports & Fitness,Yoga Mat,Boldfit,599,337,3.7,468,No
+FK101440,Nivea Trimmer Pro 1,Beauty & Personal Care,Trimmer,Nivea,3389,2247,4.4,496,Yes
+FK101441,Arihant Pens Plus 45,Books & Stationery,Pens,Arihant,379,242,4.0,5543,Yes
+FK101442,Decathlon Dumbbells Pro 42,Sports & Fitness,Dumbbells,Decathlon,259,176,4.7,892,Yes
+FK101443,Allen Solly Women's Kurta Plus 58,Fashion,Women's Kurta,Allen Solly,2329,885,3.5,597,No
+FK101444,Himalaya Trimmer Prime 72,Beauty & Personal Care,Trimmer,Himalaya,259,186,3.9,1003,Yes
+FK101445,Vivo Smartphone Lite 42,Mobiles,Smartphone,Vivo,7539,7539,4.5,1609,Yes
+FK101446,Roadster Sneakers Edge 97,Fashion,Sneakers,Roadster,709,266,4.0,1366,Yes
+FK101447,Bajaj Mixer Grinder Edge 62,Home & Kitchen,Mixer Grinder,Bajaj,2839,1795,4.2,8397,Yes
+FK101448,Solimo Bedsheet Edge 37,Home & Kitchen,Bedsheet,Solimo,669,274,3.5,593,No
+FK101449,Samsung Television Lite 70,Appliances,Television,Samsung,28599,20638,3.6,1074,No
+FK101450,Campus Saree Neo 31,Fashion,Saree,Campus,809,266,3.5,370,No
+FK101451,SG Cricket Bat Prime 94,Sports & Fitness,Cricket Bat,SG,1729,807,4.1,270,No
+FK101452,Roadster Jeans Edge 15,Fashion,Jeans,Roadster,659,302,4.2,1619,Yes
+FK101453,W Sneakers Max 42,Fashion,Sneakers,W,3009,1136,3.7,424,No
+FK101454,Motorola Smartphone Pro 96,Mobiles,Smartphone,Motorola,45669,26924,4.0,710,No
+FK101455,Flipkart SmartBuy Bedsheet Prime 33,Home & Kitchen,Bedsheet,Flipkart SmartBuy,8239,4228,3.7,2762,Yes
+FK101456,Allen Solly Jeans Max 64,Fashion,Jeans,Allen Solly,4869,2921,3.9,443,Yes
+FK101457,Ambrane Power Bank Classic 58,Electronics,Power Bank,Ambrane,22949,17522,4.3,2395,Yes
+FK101458,Haier Refrigerator Classic 4,Appliances,Refrigerator,Haier,22429,14845,4.2,195,Yes
+FK101459,Hero Cricket Bat Classic 24,Sports & Fitness,Cricket Bat,Hero,8939,3038,4.0,1635,Yes
+FK101460,Sony Smartwatch Prime 10,Electronics,Smartwatch,Sony,5819,3599,4.2,2654,Yes
+FK101461,Lakme Trimmer Plus 7,Beauty & Personal Care,Trimmer,Lakme,289,158,4.0,1404,No
+FK101462,Navneet Exam Prep Max 76,Books & Stationery,Exam Prep,Navneet,109,76,4.5,2571,Yes
+FK101463,Allen Solly Saree Lite 98,Fashion,Saree,Allen Solly,1369,684,4.3,143,No
+FK101464,Vivo Feature Phone Prime 62,Mobiles,Feature Phone,Vivo,62569,50749,4.9,2300,Yes
+FK101465,Penguin Children's Books Max 30,Books & Stationery,Children's Books,Penguin,269,184,4.3,869,Yes
+FK101466,Levi's Saree Plus 57,Fashion,Saree,Levi's,649,182,3.8,2265,Yes
+FK101467,IFB Television Neo 20,Appliances,Television,IFB,34779,20853,3.9,370,Yes
+FK101468,Prestige Mixer Grinder Plus 7,Home & Kitchen,Mixer Grinder,Prestige,439,316,3.7,606,Yes
+FK101469,Roadster Women's Kurta Classic 79,Fashion,Women's Kurta,Roadster,2979,1631,4.0,1258,No
+FK101470,Motorola Feature Phone Classic 14,Mobiles,Feature Phone,Motorola,34039,30028,4.3,92,No
+FK101471,Motorola Feature Phone Lite 95,Mobiles,Feature Phone,Motorola,10089,5877,3.7,254,No
+FK101472,Navneet Pens Neo 62,Books & Stationery,Pens,Navneet,239,202,3.7,4374,No
+FK101473,Puma Sneakers Classic 22,Fashion,Sneakers,Puma,1569,854,3.9,297,Yes
+FK101474,Flipkart SmartBuy Bedsheet Neo 29,Home & Kitchen,Bedsheet,Flipkart SmartBuy,819,453,3.6,4557,Yes
+FK101475,Lenovo Smartwatch Classic 63,Electronics,Smartwatch,Lenovo,3449,2739,3.9,7690,No
+FK101476,Noise Smartwatch Lite 28,Electronics,Smartwatch,Noise,4379,3250,3.7,453,No
+FK101477,Samsung Smartphone Neo 92,Mobiles,Smartphone,Samsung,10689,7602,3.7,2024,No
+FK101478,Allen Solly Men's T-Shirt Prime 52,Fashion,Men's T-Shirt,Allen Solly,569,411,4.6,3836,Yes
+FK101479,W Men's T-Shirt Neo 16,Fashion,Men's T-Shirt,W,419,162,3.7,788,No
+FK101480,Mamaearth Shampoo Classic 79,Beauty & Personal Care,Shampoo,Mamaearth,159,135,4.1,1485,Yes
+FK101481,W Jeans Neo 63,Fashion,Jeans,W,509,153,4.0,452,Yes
+FK101482,HRX Women's Kurta Neo 31,Fashion,Women's Kurta,HRX,3139,1660,4.0,2067,Yes
+FK101483,Arihant Notebooks Classic 44,Books & Stationery,Notebooks,Arihant,1369,1092,3.9,478,No
+FK101484,HP Headphones Plus 21,Electronics,Headphones,HP,40639,24138,3.8,565,No
+FK101485,Libas Jeans Pro 84,Fashion,Jeans,Libas,2349,716,3.2,1058,No
+FK101486,Navneet Children's Books Max 54,Books & Stationery,Children's Books,Navneet,469,375,3.6,2578,Yes
+FK101487,Roadster Saree Edge 38,Fashion,Saree,Roadster,1819,885,3.9,1679,Yes
+FK101488,W Jeans Classic 56,Fashion,Jeans,W,4689,2268,4.0,1700,No
+FK101489,Libas Jeans Plus 50,Fashion,Jeans,Libas,1359,495,3.7,125,No
+FK101490,Lakme Perfume Prime 10,Beauty & Personal Care,Perfume,Lakme,689,487,3.6,451,No
+FK101491,HP Power Bank Plus 76,Electronics,Power Bank,HP,12889,8127,4.3,722,Yes
+FK101492,Samsung Television Edge 4,Appliances,Television,Samsung,9529,7805,4.1,67,No
+FK101493,Lakme Perfume Neo 67,Beauty & Personal Care,Perfume,Lakme,629,265,3.6,992,No
+FK101494,Flipkart SmartBuy Water Bottle Lite 96,Home & Kitchen,Water Bottle,Flipkart SmartBuy,629,235,3.8,1071,Yes
+FK101495,Cello Exam Prep Lite 59,Books & Stationery,Exam Prep,Cello,169,115,4.3,1326,Yes
+FK101496,Cello Exam Prep Max 26,Books & Stationery,Exam Prep,Cello,1249,1074,4.2,243,Yes
+FK101497,Redmi Smartphone Plus 82,Mobiles,Smartphone,Redmi,10189,10189,3.7,36,No
+FK101498,Penguin Notebooks Prime 75,Books & Stationery,Notebooks,Penguin,1489,1113,4.8,1434,Yes
+FK101499,Hero Cricket Bat Prime 8,Sports & Fitness,Cricket Bat,Hero,1089,737,4.0,628,Yes
+FK101500,Solimo Cookware Max 1,Home & Kitchen,Cookware,Solimo,3099,1249,4.0,299,Yes
+FK101501,Solimo Water Bottle Classic 16,Home & Kitchen,Water Bottle,Solimo,2049,790,3.7,229,No
+FK101502,SG Football Lite 63,Sports & Fitness,Football,SG,469,234,3.7,1189,No
+FK101503,Himalaya Shampoo Max 48,Beauty & Personal Care,Shampoo,Himalaya,1879,1326,3.4,532,No
+FK101504,Libas Saree Classic 40,Fashion,Saree,Libas,4169,2210,4.0,1061,Yes
+FK101505,HRX Women's Kurta Plus 56,Fashion,Women's Kurta,HRX,569,263,4.0,1932,No
+FK101506,Maybelline Lipstick Classic 90,Beauty & Personal Care,Lipstick,Maybelline,889,474,3.9,379,Yes
+FK101507,Classmate Pens Plus 63,Books & Stationery,Pens,Classmate,989,668,4.0,162,Yes
+FK101508,Allen Solly Women's Kurta Max 28,Fashion,Women's Kurta,Allen Solly,4529,2810,4.4,9530,Yes
+FK101509,Allen Solly Sneakers Pro 75,Fashion,Sneakers,Allen Solly,719,245,3.4,309,Yes
+FK101510,HRX Jeans Neo 64,Fashion,Jeans,HRX,2039,824,3.8,663,No
+FK101511,Philips Face Wash Edge 24,Beauty & Personal Care,Face Wash,Philips,659,379,4.0,1032,No
+FK101512,Beardo Trimmer Lite 46,Beauty & Personal Care,Trimmer,Beardo,2219,2043,3.6,378,Yes
+FK101513,W Women's Kurta Prime 33,Fashion,Women's Kurta,W,2239,738,3.7,406,No
+FK101514,Cosco Cricket Bat Classic 14,Sports & Fitness,Cricket Bat,Cosco,889,302,3.7,866,Yes
+FK101515,Beardo Trimmer Neo 71,Beauty & Personal Care,Trimmer,Beardo,499,360,3.5,176,No
+FK101516,Vivo Smartphone Edge 44,Mobiles,Smartphone,Vivo,37939,37939,3.8,402,Yes
+FK101517,Campus Jeans Plus 7,Fashion,Jeans,Campus,4529,2218,3.9,795,No
+FK101518,Campus Men's T-Shirt Classic 62,Fashion,Men's T-Shirt,Campus,4609,2240,4.4,334,Yes
+FK101519,Hero Yoga Mat Prime 88,Sports & Fitness,Yoga Mat,Hero,249,135,4.2,953,Yes
+FK101520,Pigeon Water Bottle Lite 84,Home & Kitchen,Water Bottle,Pigeon,459,294,4.3,1057,Yes
+FK101521,Penguin Notebooks Prime 7,Books & Stationery,Notebooks,Penguin,599,490,4.2,1728,Yes
+FK101522,HP Speaker Lite 24,Electronics,Speaker,HP,1719,1234,4.2,912,No
+FK101523,Milton Mixer Grinder Classic 62,Home & Kitchen,Mixer Grinder,Milton,3549,1340,3.8,734,No
+FK101524,Cello Mixer Grinder Lite 47,Home & Kitchen,Mixer Grinder,Cello,5179,2283,4.2,654,Yes
+FK101525,Penguin Pens Classic 67,Books & Stationery,Pens,Penguin,669,508,4.8,425,No
+FK101526,Classmate Exam Prep Prime 8,Books & Stationery,Exam Prep,Classmate,1429,1018,4.1,523,No
+FK101527,IFB Microwave Prime 42,Appliances,Microwave,IFB,34489,25922,4.1,289,Yes
+FK101528,POCO Smartphone Prime 10,Mobiles,Smartphone,POCO,43509,38107,4.2,6123,Yes
+FK101529,HRX Men's T-Shirt Lite 35,Fashion,Men's T-Shirt,HRX,1449,656,4.1,1023,Yes
+FK101530,Allen Solly Women's Kurta Pro 27,Fashion,Women's Kurta,Allen Solly,3889,1595,3.8,1328,No
+FK101531,TCL Microwave Neo 98,Appliances,Microwave,TCL,12229,8711,4.6,4004,Yes
+FK101532,Decathlon Dumbbells Max 57,Sports & Fitness,Dumbbells,Decathlon,7879,4499,3.5,1258,No
+FK101533,Apple Smartphone Neo 35,Mobiles,Smartphone,Apple,61659,59035,3.9,2320,Yes
+FK101534,Harper Children's Books Pro 49,Books & Stationery,Children's Books,Harper,229,150,4.3,1377,No
+FK101535,Disha Notebooks Max 26,Books & Stationery,Notebooks,Disha,319,226,4.0,80,No
+FK101536,Allen Solly Jeans Plus 73,Fashion,Jeans,Allen Solly,3399,608,3.3,163,No
+FK101537,Samsung Feature Phone Edge 94,Mobiles,Feature Phone,Samsung,56429,46289,4.0,522,No
+FK101538,Roadster Saree Neo 22,Fashion,Saree,Roadster,979,408,4.2,262,Yes
+FK101539,Levi's Jeans Lite 24,Fashion,Jeans,Levi's,599,287,4.3,1276,Yes
+FK101540,Solimo Storage Prime 62,Home & Kitchen,Storage,Solimo,4179,3097,4.4,385,Yes
+FK101541,Apple Smartphone Lite 58,Mobiles,Smartphone,Apple,20109,18540,4.2,2853,Yes
+FK101542,Campus Men's T-Shirt Prime 14,Fashion,Men's T-Shirt,Campus,3379,1961,3.9,653,Yes
+FK101543,Solimo Bedsheet Max 83,Home & Kitchen,Bedsheet,Solimo,539,258,4.0,973,No
+FK101544,Libas Women's Kurta Pro 11,Fashion,Women's Kurta,Libas,2599,879,3.0,633,Yes
+FK101545,Roadster Saree Lite 61,Fashion,Saree,Roadster,3029,1699,4.1,64,No
+FK101546,Classmate Notebooks Lite 82,Books & Stationery,Notebooks,Classmate,279,279,4.5,37,No
+FK101547,HRX Women's Kurta Lite 5,Fashion,Women's Kurta,HRX,589,273,4.6,234,Yes
+FK101548,Decathlon Cycle Plus 10,Sports & Fitness,Cycle,Decathlon,2499,1409,4.4,2216,Yes
+FK101549,Levi's Men's T-Shirt Plus 32,Fashion,Men's T-Shirt,Levi's,2429,999,3.6,280,Yes
+FK101550,Himalaya Lipstick Prime 47,Beauty & Personal Care,Lipstick,Himalaya,659,376,4.0,641,No
+FK101551,boAt Smartwatch Prime 7,Electronics,Smartwatch,boAt,1899,1687,4.6,100,No
+FK101552,Bajaj Cookware Classic 89,Home & Kitchen,Cookware,Bajaj,2049,1146,4.1,4064,Yes
+FK101553,Apple Smartphone Plus 25,Mobiles,Smartphone,Apple,37589,33484,3.8,119,No
+FK101554,Milton Water Bottle Prime 64,Home & Kitchen,Water Bottle,Milton,2079,1505,4.3,2916,Yes
+FK101555,SG Dumbbells Neo 49,Sports & Fitness,Dumbbells,SG,3369,1863,4.1,5389,Yes
+FK101556,Campus Sneakers Edge 25,Fashion,Sneakers,Campus,489,165,4.1,1544,Yes
+FK101557,Godrej Television Neo 22,Appliances,Television,Godrej,25729,15332,3.9,416,Yes
+FK101558,Sony Smartwatch Plus 97,Electronics,Smartwatch,Sony,15389,10031,3.9,139,No
+FK101559,Decathlon Yoga Mat Lite 9,Sports & Fitness,Yoga Mat,Decathlon,13899,7444,3.9,386,Yes
+FK101560,Libas Men's T-Shirt Classic 80,Fashion,Men's T-Shirt,Libas,3129,953,3.8,2264,No
+FK101561,Redmi Feature Phone Pro 50,Mobiles,Feature Phone,Redmi,67879,49921,4.4,13948,Yes
+FK101562,Penguin Notebooks Edge 28,Books & Stationery,Notebooks,Penguin,359,302,3.8,575,No
+FK101563,LG Microwave Classic 68,Appliances,Microwave,LG,49469,29162,3.7,459,Yes
+FK101564,Redmi Smartphone Prime 94,Mobiles,Smartphone,Redmi,62799,51917,3.8,266,Yes
+FK101565,Sony Smartwatch Neo 4,Electronics,Smartwatch,Sony,28009,21497,3.5,2854,Yes
+FK101566,Strauss Yoga Mat Lite 78,Sports & Fitness,Yoga Mat,Strauss,1249,715,4.6,385,Yes
+FK101567,Puma Women's Kurta Pro 52,Fashion,Women's Kurta,Puma,1579,679,4.3,2139,Yes
+FK101568,Campus Men's T-Shirt Classic 81,Fashion,Men's T-Shirt,Campus,1989,907,4.1,1683,Yes
+FK101569,Maybelline Shampoo Prime 39,Beauty & Personal Care,Shampoo,Maybelline,1959,1403,3.6,709,Yes
+FK101570,Navneet Fiction Prime 42,Books & Stationery,Fiction,Navneet,109,72,3.4,1695,No
+FK101571,Cello Mixer Grinder Prime 44,Home & Kitchen,Mixer Grinder,Cello,1409,648,4.3,133,Yes
+FK101572,Roadster Women's Kurta Prime 44,Fashion,Women's Kurta,Roadster,2399,806,3.5,9262,Yes
+FK101573,Allen Solly Saree Lite 6,Fashion,Saree,Allen Solly,1939,891,3.8,3972,Yes
+FK101574,Realme Feature Phone Neo 44,Mobiles,Feature Phone,Realme,23409,23409,3.9,2002,Yes
+FK101575,Penguin Fiction Neo 5,Books & Stationery,Fiction,Penguin,119,115,3.9,4246,Yes
+FK101576,Kookaburra Football Prime 33,Sports & Fitness,Football,Kookaburra,689,374,4.0,2044,Yes
+FK101577,Campus Jeans Lite 54,Fashion,Jeans,Campus,1049,389,4.0,445,Yes
+FK101578,Godrej Refrigerator Classic 79,Appliances,Refrigerator,Godrej,40939,31525,4.0,644,No
+FK101579,Beardo Shampoo Max 64,Beauty & Personal Care,Shampoo,Beardo,289,174,4.3,1970,Yes
+FK101580,Prestige Cookware Plus 44,Home & Kitchen,Cookware,Prestige,309,125,4.1,1101,No
+FK101581,Allen Solly Jeans Classic 43,Fashion,Jeans,Allen Solly,5239,2074,4.0,1322,Yes
+FK101582,Penguin Notebooks Max 64,Books & Stationery,Notebooks,Penguin,969,794,3.8,344,No
+FK101583,Bajaj Water Bottle Max 44,Home & Kitchen,Water Bottle,Bajaj,369,259,4.3,5558,Yes
+FK101584,HRX Men's T-Shirt Max 63,Fashion,Men's T-Shirt,HRX,1779,1038,4.5,4282,Yes
+FK101585,Lenovo Laptop Neo 90,Electronics,Laptop,Lenovo,6649,4848,3.6,4422,Yes
+FK101586,Haier Refrigerator Classic 9,Appliances,Refrigerator,Haier,57539,40959,4.5,682,Yes
+FK101587,Libas Women's Kurta Neo 77,Fashion,Women's Kurta,Libas,489,251,3.9,15625,No
+FK101588,Cello Storage Edge 61,Home & Kitchen,Storage,Cello,1129,902,4.1,310,No
+FK101589,Puma Saree Plus 25,Fashion,Saree,Puma,1819,731,4.5,116,Yes
+FK101590,Philips Mixer Grinder Plus 42,Home & Kitchen,Mixer Grinder,Philips,6169,4000,4.0,596,Yes
+FK101591,Harper Pens Max 3,Books & Stationery,Pens,Harper,409,316,3.9,111,No
+FK101592,Pigeon Bedsheet Neo 3,Home & Kitchen,Bedsheet,Pigeon,559,301,4.2,252,No
+FK101593,Beardo Shampoo Lite 93,Beauty & Personal Care,Shampoo,Beardo,679,329,4.4,435,Yes
+FK101594,Cosco Dumbbells Max 25,Sports & Fitness,Dumbbells,Cosco,519,272,4.0,5841,Yes
+FK101595,Himalaya Lipstick Plus 16,Beauty & Personal Care,Lipstick,Himalaya,2579,1172,4.1,3267,Yes
+FK101596,Milton Storage Pro 20,Home & Kitchen,Storage,Milton,3649,1914,3.8,617,Yes
+FK101597,Samsung Smartphone Lite 38,Mobiles,Smartphone,Samsung,6839,5998,3.9,227,No
+FK101598,Puma Saree Neo 89,Fashion,Saree,Puma,569,302,4.0,381,Yes
+FK101599,Strauss Cycle Max 15,Sports & Fitness,Cycle,Strauss,1139,625,4.6,10319,No
+FK101600,Cello Fiction Classic 6,Books & Stationery,Fiction,Cello,1339,924,3.7,1362,No
+FK101601,Campus Sneakers Edge 38,Fashion,Sneakers,Campus,4379,1831,4.2,826,No
+FK101602,Lenovo Smartwatch Pro 79,Electronics,Smartwatch,Lenovo,24749,16244,4.1,909,Yes
+FK101603,Classmate Exam Prep Pro 95,Books & Stationery,Exam Prep,Classmate,1019,750,3.5,5855,No
+FK101604,POCO Feature Phone Edge 41,Mobiles,Feature Phone,POCO,18459,18459,4.0,1393,Yes
+FK101605,Philips Lipstick Classic 7,Beauty & Personal Care,Lipstick,Philips,2409,1615,4.3,1700,Yes
+FK101606,Ambrane Speaker Max 92,Electronics,Speaker,Ambrane,9019,6949,4.1,165,No
+FK101607,Philips Perfume Plus 63,Beauty & Personal Care,Perfume,Philips,289,150,4.7,707,Yes
+FK101608,HRX Sneakers Edge 35,Fashion,Sneakers,HRX,509,190,3.8,5969,Yes
+FK101609,Campus Jeans Plus 63,Fashion,Jeans,Campus,1009,498,4.2,563,Yes
+FK101610,Penguin Pens Plus 1,Books & Stationery,Pens,Penguin,1029,843,3.7,6759,Yes
+FK101611,Arihant Notebooks Prime 79,Books & Stationery,Notebooks,Arihant,1199,719,4.2,322,Yes
+FK101612,JBL Smartwatch Edge 40,Electronics,Smartwatch,JBL,7769,4308,3.7,2041,No
+FK101613,Campus Sneakers Classic 35,Fashion,Sneakers,Campus,3629,1634,4.1,357,Yes
+FK101614,Dove Perfume Lite 13,Beauty & Personal Care,Perfume,Dove,299,205,3.3,3300,No
+FK101615,Apple Smartphone Prime 89,Mobiles,Smartphone,Apple,76909,60558,3.9,341,No
+FK101616,Libas Women's Kurta Classic 14,Fashion,Women's Kurta,Libas,449,199,4.1,246,Yes
+FK101617,Cello Storage Pro 11,Home & Kitchen,Storage,Cello,2689,1588,3.9,1343,Yes
+FK101618,Classmate Children's Books Neo 81,Books & Stationery,Children's Books,Classmate,87,58,3.9,150,No
+FK101619,Sony Speaker Prime 82,Electronics,Speaker,Sony,10719,7344,4.2,270,No
+FK101620,Lenovo Laptop Plus 84,Electronics,Laptop,Lenovo,50589,37460,3.8,1123,No
+FK101621,Penguin Fiction Max 69,Books & Stationery,Fiction,Penguin,1219,956,4.3,3976,Yes
+FK101622,Strauss Cycle Classic 51,Sports & Fitness,Cycle,Strauss,1249,732,4.1,213,No
+FK101623,Flipkart SmartBuy Storage Prime 5,Home & Kitchen,Storage,Flipkart SmartBuy,539,340,4.1,3890,Yes
+FK101624,Hero Dumbbells Lite 27,Sports & Fitness,Dumbbells,Hero,10459,5922,3.9,1269,No
+FK101625,Arihant Pens Lite 11,Books & Stationery,Pens,Arihant,129,98,3.9,569,No
+FK101626,Lakme Perfume Max 18,Beauty & Personal Care,Perfume,Lakme,1659,1031,4.0,1869,Yes
+FK101627,Samsung Smartphone Neo 67,Mobiles,Smartphone,Samsung,14949,14040,4.3,620,No
+FK101628,LG Washing Machine Lite 84,Appliances,Washing Machine,LG,12489,8811,3.9,184,No
+FK101629,Hero Cycle Max 57,Sports & Fitness,Cycle,Hero,4189,2449,4.2,5015,No
+FK101630,Philips Water Bottle Prime 33,Home & Kitchen,Water Bottle,Philips,8649,4454,3.4,1563,Yes
+FK101631,Reynolds Children's Books Prime 72,Books & Stationery,Children's Books,Reynolds,269,253,3.4,614,Yes
+FK101632,Whirlpool Washing Machine Classic 77,Appliances,Washing Machine,Whirlpool,11119,8075,4.1,17901,Yes
+FK101633,Mamaearth Shampoo Plus 25,Beauty & Personal Care,Shampoo,Mamaearth,569,305,4.3,530,Yes
+FK101634,Allen Solly Sneakers Plus 15,Fashion,Sneakers,Allen Solly,1819,780,4.0,652,Yes
+FK101635,Philips Shampoo Prime 8,Beauty & Personal Care,Shampoo,Philips,2559,2032,4.2,5930,Yes
+FK101636,Vivo Smartphone Neo 85,Mobiles,Smartphone,Vivo,27949,20177,4.5,600,Yes
+FK101637,Noise Smartwatch Neo 16,Electronics,Smartwatch,Noise,18219,11764,4.0,225,No
+FK101638,Vivo Feature Phone Lite 14,Mobiles,Feature Phone,Vivo,62079,61481,4.3,282,Yes
+FK101639,Noise Smartwatch Prime 81,Electronics,Smartwatch,Noise,37679,22217,4.5,1078,No
+FK101640,HP Power Bank Edge 98,Electronics,Power Bank,HP,56759,27990,4.3,1866,Yes
+FK101641,Arihant Children's Books Classic 39,Books & Stationery,Children's Books,Arihant,309,258,3.9,615,Yes
+FK101642,Flipkart SmartBuy Water Bottle Plus 46,Home & Kitchen,Water Bottle,Flipkart SmartBuy,2329,2090,4.0,86,Yes
+FK101643,Levi's Sneakers Pro 27,Fashion,Sneakers,Levi's,1119,526,4.0,327,Yes
+FK101644,Mi Speaker Edge 72,Electronics,Speaker,Mi,5339,3543,4.1,1892,No
+FK101645,Disha Pens Max 66,Books & Stationery,Pens,Disha,1029,906,3.9,1385,No
+FK101646,Classmate Fiction Prime 97,Books & Stationery,Fiction,Classmate,529,343,4.1,422,Yes
+FK101647,Boldfit Football Neo 41,Sports & Fitness,Football,Boldfit,11039,7563,4.1,413,No
+FK101648,LG Refrigerator Plus 26,Appliances,Refrigerator,LG,11849,10148,4.7,2986,No
+FK101649,Harper Pens Max 60,Books & Stationery,Pens,Harper,90,66,4.0,241,No
+FK101650,Libas Sneakers Plus 39,Fashion,Sneakers,Libas,889,494,4.1,65,No
+FK101651,Cello Mixer Grinder Classic 7,Home & Kitchen,Mixer Grinder,Cello,3999,1910,3.5,600,No
+FK101652,Reynolds Pens Max 28,Books & Stationery,Pens,Reynolds,1299,909,4.7,722,Yes
+FK101653,Nivea Perfume Edge 86,Beauty & Personal Care,Perfume,Nivea,489,387,4.2,204,Yes
+FK101654,Cello Water Bottle Prime 84,Home & Kitchen,Water Bottle,Cello,779,390,3.8,1639,No
+FK101655,Libas Saree Lite 25,Fashion,Saree,Libas,1269,323,3.8,1182,Yes
+FK101656,Mamaearth Lipstick Plus 12,Beauty & Personal Care,Lipstick,Mamaearth,1129,752,4.1,256,Yes
+FK101657,Dove Shampoo Lite 67,Beauty & Personal Care,Shampoo,Dove,3779,2577,4.6,894,No
+FK101658,Libas Jeans Neo 79,Fashion,Jeans,Libas,2599,1083,4.4,868,Yes
+FK101659,Allen Solly Men's T-Shirt Neo 18,Fashion,Men's T-Shirt,Allen Solly,1969,578,3.3,612,No
+FK101660,Lakme Face Wash Lite 38,Beauty & Personal Care,Face Wash,Lakme,1839,1550,3.9,369,No
+FK101661,Whirlpool Refrigerator Classic 32,Appliances,Refrigerator,Whirlpool,8459,5603,4.4,66,No
+FK101662,Milton Mixer Grinder Lite 36,Home & Kitchen,Mixer Grinder,Milton,2399,1557,3.9,793,No
+FK101663,Cello Water Bottle Edge 85,Home & Kitchen,Water Bottle,Cello,6489,5995,4.3,442,Yes
+FK101664,Noise Speaker Neo 72,Electronics,Speaker,Noise,1819,910,4.1,271,No
+FK101665,POCO Feature Phone Classic 89,Mobiles,Feature Phone,POCO,18989,14877,3.4,4700,Yes
+FK101666,Hero Dumbbells Edge 74,Sports & Fitness,Dumbbells,Hero,3049,1691,4.8,776,Yes
+FK101667,Prestige Water Bottle Neo 14,Home & Kitchen,Water Bottle,Prestige,6339,3272,4.1,1898,Yes
+FK101668,Allen Solly Jeans Classic 94,Fashion,Jeans,Allen Solly,479,193,4.7,4325,Yes
+FK101669,Noise Power Bank Pro 85,Electronics,Power Bank,Noise,17799,16122,4.0,751,Yes
+FK101670,Sony Laptop Lite 77,Electronics,Laptop,Sony,7449,4342,3.8,138,No
+FK101671,Himalaya Perfume Edge 11,Beauty & Personal Care,Perfume,Himalaya,1489,1228,4.3,1241,No
+FK101672,Whirlpool Air Conditioner Edge 40,Appliances,Air Conditioner,Whirlpool,9339,8460,4.2,391,Yes
+FK101673,Strauss Cycle Edge 15,Sports & Fitness,Cycle,Strauss,10829,5482,4.0,293,Yes
+FK101674,Decathlon Football Lite 78,Sports & Fitness,Football,Decathlon,539,269,4.4,160,No
+FK101675,Himalaya Face Wash Neo 48,Beauty & Personal Care,Face Wash,Himalaya,979,479,4.1,153,No
+FK101676,Sony Laptop Pro 53,Electronics,Laptop,Sony,16229,11094,4.3,4825,Yes
+FK101677,HRX Sneakers Pro 89,Fashion,Sneakers,HRX,429,244,4.4,813,Yes
+FK101678,Whirlpool Microwave Edge 54,Appliances,Microwave,Whirlpool,22279,16596,3.6,612,No
+FK101679,Cello Notebooks Max 98,Books & Stationery,Notebooks,Cello,1169,866,4.2,1279,Yes
+FK101680,Campus Men's T-Shirt Edge 45,Fashion,Men's T-Shirt,Campus,2989,1403,3.7,214,No
+FK101681,HRX Women's Kurta Prime 21,Fashion,Women's Kurta,HRX,1119,419,3.6,4816,No
+FK101682,Prestige Water Bottle Pro 80,Home & Kitchen,Water Bottle,Prestige,4879,3407,3.7,783,No
+FK101683,Lakme Trimmer Prime 21,Beauty & Personal Care,Trimmer,Lakme,759,545,3.9,1954,Yes
+FK101684,Godrej Microwave Classic 23,Appliances,Microwave,Godrej,19799,7537,3.9,270,No
+FK101685,Mamaearth Trimmer Pro 72,Beauty & Personal Care,Trimmer,Mamaearth,489,320,4.5,622,No
+FK101686,Flipkart SmartBuy Bedsheet Neo 94,Home & Kitchen,Bedsheet,Flipkart SmartBuy,409,300,4.3,777,Yes
+FK101687,HRX Jeans Classic 46,Fashion,Jeans,HRX,929,224,4.1,799,Yes
+FK101688,Disha Fiction Plus 40,Books & Stationery,Fiction,Disha,719,574,4.2,935,No
+FK101689,Flipkart SmartBuy Cookware Edge 55,Home & Kitchen,Cookware,Flipkart SmartBuy,5649,3766,4.2,5268,No
+FK101690,Bajaj Cookware Neo 67,Home & Kitchen,Cookware,Bajaj,2499,1361,4.1,300,Yes
+FK101691,Philips Mixer Grinder Prime 59,Home & Kitchen,Mixer Grinder,Philips,489,304,3.7,408,No
+FK101692,Beardo Lipstick Neo 94,Beauty & Personal Care,Lipstick,Beardo,1159,981,4.1,651,No
+FK101693,Campus Jeans Neo 7,Fashion,Jeans,Campus,1139,540,4.3,303,No
+FK101694,Puma Women's Kurta Classic 4,Fashion,Women's Kurta,Puma,449,183,3.6,1787,No
+FK101695,Cello Exam Prep Pro 12,Books & Stationery,Exam Prep,Cello,229,204,4.4,2152,Yes
+FK101696,Beardo Perfume Classic 32,Beauty & Personal Care,Perfume,Beardo,3609,2196,4.3,5137,No
+FK101697,Levi's Sneakers Lite 28,Fashion,Sneakers,Levi's,609,314,4.0,489,Yes
+FK101698,Roadster Men's T-Shirt Classic 40,Fashion,Men's T-Shirt,Roadster,849,520,3.4,76,No
+FK101699,HRX Women's Kurta Lite 55,Fashion,Women's Kurta,HRX,1849,277,3.5,1629,Yes
+FK101700,Penguin Children's Books Pro 46,Books & Stationery,Children's Books,Penguin,85,70,4.5,1220,Yes
+FK101701,Realme Feature Phone Max 11,Mobiles,Feature Phone,Realme,7109,6982,4.3,82,No
+FK101702,Decathlon Football Lite 14,Sports & Fitness,Football,Decathlon,349,178,4.4,115,No
+FK101703,Navneet Exam Prep Neo 12,Books & Stationery,Exam Prep,Navneet,96,65,4.8,1780,No
+FK101704,Himalaya Shampoo Lite 49,Beauty & Personal Care,Shampoo,Himalaya,859,508,4.5,83,Yes
+FK101705,HP Headphones Lite 36,Electronics,Headphones,HP,2369,1916,4.2,390,Yes
+FK101706,HRX Women's Kurta Edge 7,Fashion,Women's Kurta,HRX,819,232,4.3,4566,Yes
+FK101707,Campus Jeans Lite 39,Fashion,Jeans,Campus,2159,701,3.4,380,Yes
+FK101708,Libas Women's Kurta Max 17,Fashion,Women's Kurta,Libas,1749,592,3.6,298,Yes
+FK101709,Himalaya Perfume Prime 33,Beauty & Personal Care,Perfume,Himalaya,1169,688,4.0,53,No
+FK101710,Kookaburra Cricket Bat Pro 61,Sports & Fitness,Cricket Bat,Kookaburra,1859,1216,3.8,6871,Yes
+FK101711,Prestige Mixer Grinder Max 73,Home & Kitchen,Mixer Grinder,Prestige,709,509,4.0,845,Yes
+FK101712,Nivea Lipstick Neo 95,Beauty & Personal Care,Lipstick,Nivea,169,100,3.6,3567,No
+FK101713,Libas Men's T-Shirt Pro 24,Fashion,Men's T-Shirt,Libas,1769,1126,4.6,3526,Yes
+FK101714,JBL Smartwatch Classic 76,Electronics,Smartwatch,JBL,18419,11017,4.1,380,Yes
+FK101715,Libas Women's Kurta Max 46,Fashion,Women's Kurta,Libas,1879,1033,3.7,5579,Yes
+FK101716,Disha Exam Prep Edge 90,Books & Stationery,Exam Prep,Disha,649,537,3.9,2407,No
+FK101717,LG Microwave Pro 41,Appliances,Microwave,LG,9859,6685,4.0,734,No
+FK101718,Milton Water Bottle Plus 67,Home & Kitchen,Water Bottle,Milton,6799,3674,3.9,2611,No
+FK101719,Allen Solly Jeans Lite 10,Fashion,Jeans,Allen Solly,1499,681,4.1,728,Yes
+FK101720,Campus Women's Kurta Max 14,Fashion,Women's Kurta,Campus,749,343,4.6,2254,No
+FK101721,Himalaya Lipstick Plus 89,Beauty & Personal Care,Lipstick,Himalaya,769,471,4.2,934,No
+FK101722,OPPO Smartphone Pro 17,Mobiles,Smartphone,OPPO,8049,7533,3.4,368,Yes
+FK101723,Voltas Air Conditioner Lite 18,Appliances,Air Conditioner,Voltas,34469,20814,3.7,560,Yes
+FK101724,Mamaearth Perfume Lite 76,Beauty & Personal Care,Perfume,Mamaearth,1319,561,3.7,211,Yes
+FK101725,Libas Saree Max 84,Fashion,Saree,Libas,3669,1616,3.4,1003,No
+FK101726,Allen Solly Women's Kurta Prime 97,Fashion,Women's Kurta,Allen Solly,3269,1652,4.3,492,Yes
+FK101727,OPPO Feature Phone Neo 73,Mobiles,Feature Phone,OPPO,31039,20170,4.7,532,Yes
+FK101728,Harper Fiction Lite 41,Books & Stationery,Fiction,Harper,379,308,3.5,1701,Yes
+FK101729,Lakme Shampoo Neo 12,Beauty & Personal Care,Shampoo,Lakme,269,190,3.9,4225,Yes
+FK101730,Cosco Cricket Bat Max 83,Sports & Fitness,Cricket Bat,Cosco,529,278,4.0,571,No
+FK101731,Philips Lipstick Max 24,Beauty & Personal Care,Lipstick,Philips,1069,861,4.7,1355,Yes
+FK101732,HRX Sneakers Edge 72,Fashion,Sneakers,HRX,719,244,3.4,790,Yes
+FK101733,OPPO Feature Phone Prime 80,Mobiles,Feature Phone,OPPO,44579,41925,4.0,2566,Yes
+FK101734,Cello Storage Classic 54,Home & Kitchen,Storage,Cello,659,317,4.4,183,No
+FK101735,Lakme Shampoo Edge 21,Beauty & Personal Care,Shampoo,Lakme,329,204,4.0,2753,Yes
+FK101736,Lakme Face Wash Neo 36,Beauty & Personal Care,Face Wash,Lakme,3059,2475,4.0,2008,Yes
+FK101737,Puma Men's T-Shirt Plus 44,Fashion,Men's T-Shirt,Puma,1109,360,3.9,3718,Yes
+FK101738,Strauss Yoga Mat Neo 38,Sports & Fitness,Yoga Mat,Strauss,2069,1434,4.2,2544,Yes
+FK101739,Sony Headphones Pro 46,Electronics,Headphones,Sony,26899,18670,4.7,574,Yes
+FK101740,Campus Men's T-Shirt Edge 41,Fashion,Men's T-Shirt,Campus,1859,921,4.3,4370,Yes
+FK101741,Roadster Jeans Prime 55,Fashion,Jeans,Roadster,409,148,4.0,918,No
+FK101742,Prestige Mixer Grinder Edge 57,Home & Kitchen,Mixer Grinder,Prestige,8409,6217,4.2,344,Yes
+FK101743,Roadster Saree Lite 21,Fashion,Saree,Roadster,569,267,3.8,590,No
+FK101744,Maybelline Face Wash Pro 69,Beauty & Personal Care,Face Wash,Maybelline,179,127,4.6,141,No
+FK101745,Dove Face Wash Classic 59,Beauty & Personal Care,Face Wash,Dove,1969,1094,4.4,863,No
+FK101746,Libas Saree Max 43,Fashion,Saree,Libas,979,209,3.5,971,No
+FK101747,Samsung Feature Phone Prime 8,Mobiles,Feature Phone,Samsung,17199,16970,4.2,1340,No
+FK101748,Kookaburra Dumbbells Classic 50,Sports & Fitness,Dumbbells,Kookaburra,1049,460,4.3,600,No
+FK101749,Arihant Notebooks Lite 20,Books & Stationery,Notebooks,Arihant,1209,1007,4.1,130,Yes
+FK101750,LG Washing Machine Plus 86,Appliances,Washing Machine,LG,51119,32969,3.6,689,No
+FK101751,Pigeon Cookware Edge 62,Home & Kitchen,Cookware,Pigeon,5349,3556,3.7,5179,No
+FK101752,Pigeon Cookware Max 17,Home & Kitchen,Cookware,Pigeon,6429,4086,3.5,162,Yes
+FK101753,Navneet Fiction Max 18,Books & Stationery,Fiction,Navneet,219,179,4.5,2794,Yes
+FK101754,Cosco Yoga Mat Lite 41,Sports & Fitness,Yoga Mat,Cosco,729,377,3.7,340,No
+FK101755,Voltas Washing Machine Max 21,Appliances,Washing Machine,Voltas,55659,44354,3.7,776,No
+FK101756,JBL Smartwatch Pro 86,Electronics,Smartwatch,JBL,46849,40266,4.2,1507,Yes
+FK101757,Campus Jeans Classic 23,Fashion,Jeans,Campus,2759,1109,4.0,638,Yes
+FK101758,Roadster Sneakers Neo 83,Fashion,Sneakers,Roadster,1399,638,3.8,704,No
+FK101759,Allen Solly Saree Pro 66,Fashion,Saree,Allen Solly,2559,1882,3.7,627,No
+FK101760,Campus Sneakers Pro 45,Fashion,Sneakers,Campus,1799,590,3.4,610,Yes
+FK101761,Bajaj Mixer Grinder Edge 40,Home & Kitchen,Mixer Grinder,Bajaj,539,425,4.2,733,Yes
+FK101762,Roadster Jeans Pro 7,Fashion,Jeans,Roadster,1279,796,3.8,304,Yes
+FK101763,SG Dumbbells Neo 97,Sports & Fitness,Dumbbells,SG,679,273,4.1,503,No
+FK101764,Harper Pens Classic 69,Books & Stationery,Pens,Harper,479,440,3.4,771,Yes
+FK101765,Noise Headphones Classic 33,Electronics,Headphones,Noise,18339,10870,4.1,241,No
+FK101766,Himalaya Shampoo Edge 64,Beauty & Personal Care,Shampoo,Himalaya,869,613,3.6,1150,Yes
+FK101767,Mamaearth Trimmer Lite 37,Beauty & Personal Care,Trimmer,Mamaearth,1009,762,4.2,255,No
+FK101768,HRX Men's T-Shirt Lite 7,Fashion,Men's T-Shirt,HRX,5269,1907,3.9,54,No
+FK101769,Philips Shampoo Edge 62,Beauty & Personal Care,Shampoo,Philips,1899,1026,3.8,350,Yes
+FK101770,Redmi Feature Phone Max 47,Mobiles,Feature Phone,Redmi,40709,30849,4.5,960,Yes
+FK101771,Penguin Notebooks Classic 55,Books & Stationery,Notebooks,Penguin,93,86,3.7,197,Yes
+FK101772,Lenovo Headphones Edge 4,Electronics,Headphones,Lenovo,5199,3698,3.6,1204,No
+FK101773,Samsung Feature Phone Edge 4,Mobiles,Feature Phone,Samsung,13399,11596,4.0,454,Yes
+FK101774,Cosco Cycle Edge 17,Sports & Fitness,Cycle,Cosco,9409,5557,3.8,1182,Yes
+FK101775,Nivea Trimmer Pro 45,Beauty & Personal Care,Trimmer,Nivea,719,381,4.2,1635,Yes
+FK101776,Milton Water Bottle Edge 31,Home & Kitchen,Water Bottle,Milton,2069,1391,3.6,598,Yes
+FK101777,Ambrane Headphones Prime 90,Electronics,Headphones,Ambrane,9659,6936,4.2,224,Yes
+FK101778,Lenovo Headphones Lite 26,Electronics,Headphones,Lenovo,7819,6239,4.6,4060,Yes
+FK101779,Cosco Cycle Classic 68,Sports & Fitness,Cycle,Cosco,4099,2107,4.2,937,Yes
+FK101780,Mamaearth Face Wash Neo 17,Beauty & Personal Care,Face Wash,Mamaearth,449,262,4.1,456,No
+FK101781,Voltas Washing Machine Edge 62,Appliances,Washing Machine,Voltas,30999,19739,4.2,370,Yes
+FK101782,Campus Men's T-Shirt Plus 4,Fashion,Men's T-Shirt,Campus,5519,2954,4.4,972,No
+FK101783,Solimo Storage Edge 45,Home & Kitchen,Storage,Solimo,839,474,3.5,2621,Yes
+FK101784,Campus Saree Plus 69,Fashion,Saree,Campus,589,385,4.3,284,No
+FK101785,Prestige Storage Lite 25,Home & Kitchen,Storage,Prestige,5979,5198,4.8,1113,No
+FK101786,Milton Mixer Grinder Classic 12,Home & Kitchen,Mixer Grinder,Milton,6449,4215,3.8,65,No
+FK101787,Dove Shampoo Plus 57,Beauty & Personal Care,Shampoo,Dove,1519,1047,3.7,1986,Yes
+FK101788,Classmate Fiction Prime 14,Books & Stationery,Fiction,Classmate,239,179,4.9,352,No
+FK101789,Godrej Refrigerator Classic 76,Appliances,Refrigerator,Godrej,23479,19474,3.5,664,No
+FK101790,Pigeon Cookware Classic 2,Home & Kitchen,Cookware,Pigeon,1769,1281,3.6,632,No
+FK101791,Philips Shampoo Prime 35,Beauty & Personal Care,Shampoo,Philips,289,217,3.9,175,Yes
+FK101792,Haier Refrigerator Plus 79,Appliances,Refrigerator,Haier,12149,8529,4.1,785,Yes
+FK101793,Bajaj Mixer Grinder Max 10,Home & Kitchen,Mixer Grinder,Bajaj,5199,3097,4.3,778,Yes
+FK101794,Samsung Smartphone Neo 26,Mobiles,Smartphone,Samsung,55459,47771,4.9,305,No
+FK101795,Puma Men's T-Shirt Neo 57,Fashion,Men's T-Shirt,Puma,1609,487,4.0,4735,Yes
+FK101796,Boldfit Cycle Classic 93,Sports & Fitness,Cycle,Boldfit,269,132,3.5,778,No
+FK101797,Philips Water Bottle Plus 22,Home & Kitchen,Water Bottle,Philips,959,636,3.7,488,No
+FK101798,Lenovo Headphones Classic 26,Electronics,Headphones,Lenovo,2069,1201,4.3,2596,No
+FK101799,Navneet Pens Prime 19,Books & Stationery,Pens,Navneet,309,242,3.7,623,No
+FK101800,Roadster Women's Kurta Edge 78,Fashion,Women's Kurta,Roadster,2519,1441,3.9,815,Yes
+FK101801,Nivia Cycle Classic 33,Sports & Fitness,Cycle,Nivia,11229,4160,4.5,305,Yes
+FK101802,Allen Solly Men's T-Shirt Plus 82,Fashion,Men's T-Shirt,Allen Solly,1749,690,3.9,1621,Yes
+FK101803,Disha Children's Books Classic 45,Books & Stationery,Children's Books,Disha,779,559,3.8,7152,Yes
+FK101804,Harper Exam Prep Prime 96,Books & Stationery,Exam Prep,Harper,179,154,4.3,14561,Yes
+FK101805,Philips Lipstick Edge 29,Beauty & Personal Care,Lipstick,Philips,3529,2119,3.8,4189,Yes
+FK101806,IFB Microwave Plus 9,Appliances,Microwave,IFB,8539,4732,4.4,16,No
+FK101807,Kookaburra Dumbbells Lite 80,Sports & Fitness,Dumbbells,Kookaburra,4709,3241,4.2,114,Yes
+FK101808,Philips Bedsheet Lite 93,Home & Kitchen,Bedsheet,Philips,2119,1676,4.6,349,Yes
+FK101809,Dove Face Wash Max 32,Beauty & Personal Care,Face Wash,Dove,1719,949,3.7,439,No
+FK101810,Sony Power Bank Plus 36,Electronics,Power Bank,Sony,1609,1143,4.7,7241,Yes
+FK101811,Prestige Bedsheet Lite 91,Home & Kitchen,Bedsheet,Prestige,3729,2221,4.5,79,Yes
+FK101812,Nivea Perfume Neo 29,Beauty & Personal Care,Perfume,Nivea,1669,1083,3.8,6038,No
+FK101813,Navneet Fiction Lite 62,Books & Stationery,Fiction,Navneet,1159,997,3.9,410,No
+FK101814,Pigeon Cookware Edge 35,Home & Kitchen,Cookware,Pigeon,1309,1093,3.5,2717,Yes
+FK101815,Apple Feature Phone Classic 59,Mobiles,Feature Phone,Apple,12789,11067,4.4,709,Yes
+FK101816,boAt Smartwatch Max 63,Electronics,Smartwatch,boAt,11109,7735,3.7,1664,No
+FK101817,Godrej Microwave Max 11,Appliances,Microwave,Godrej,32689,24475,4.4,227,No
+FK101818,Philips Storage Neo 62,Home & Kitchen,Storage,Philips,1529,655,4.8,137,No
+FK101819,Cello Water Bottle Classic 73,Home & Kitchen,Water Bottle,Cello,599,258,3.9,611,Yes
+FK101820,Levi's Saree Edge 63,Fashion,Saree,Levi's,2789,1302,4.5,180,Yes
+FK101821,Motorola Smartphone Max 72,Mobiles,Smartphone,Motorola,14539,14529,3.4,227,No
+FK101822,Prestige Bedsheet Lite 61,Home & Kitchen,Bedsheet,Prestige,899,500,4.4,1432,Yes
+FK101823,Campus Jeans Classic 57,Fashion,Jeans,Campus,3209,1229,3.6,4243,Yes
+FK101824,Godrej Television Edge 86,Appliances,Television,Godrej,8919,7149,4.5,900,Yes
+FK101825,Philips Trimmer Classic 46,Beauty & Personal Care,Trimmer,Philips,219,119,4.1,209,No
+FK101826,Levi's Jeans Edge 2,Fashion,Jeans,Levi's,849,424,4.2,4428,Yes
+FK101827,LG Washing Machine Max 18,Appliances,Washing Machine,LG,12889,10397,4.0,75,No
+FK101828,POCO Smartphone Max 91,Mobiles,Smartphone,POCO,34449,24072,4.0,3190,Yes
+FK101829,Philips Storage Plus 52,Home & Kitchen,Storage,Philips,4499,2171,3.9,4062,No
+FK101830,POCO Feature Phone Plus 19,Mobiles,Feature Phone,POCO,43809,39216,4.2,47,No
+FK101831,Allen Solly Sneakers Neo 11,Fashion,Sneakers,Allen Solly,1209,720,4.5,630,Yes
+FK101832,Milton Cookware Edge 49,Home & Kitchen,Cookware,Milton,7569,4989,4.1,5609,Yes
+FK101833,Sony Headphones Prime 5,Electronics,Headphones,Sony,929,556,4.2,64,No
+FK101834,W Women's Kurta Plus 93,Fashion,Women's Kurta,W,1019,488,4.1,292,No
+FK101835,boAt Speaker Plus 34,Electronics,Speaker,boAt,5299,3965,4.7,1715,Yes
+FK101836,HRX Men's T-Shirt Prime 56,Fashion,Men's T-Shirt,HRX,2589,1421,3.7,17766,Yes
+FK101837,Harper Pens Lite 33,Books & Stationery,Pens,Harper,699,610,4.0,189,No
+FK101838,Beardo Face Wash Edge 72,Beauty & Personal Care,Face Wash,Beardo,579,425,4.2,1815,Yes
+FK101839,Mamaearth Perfume Classic 26,Beauty & Personal Care,Perfume,Mamaearth,679,425,4.4,1074,Yes
+FK101840,Levi's Jeans Max 22,Fashion,Jeans,Levi's,3779,1350,3.9,54,No
+FK101841,W Saree Classic 32,Fashion,Saree,W,2489,1154,4.0,4258,Yes
+FK101842,Beardo Shampoo Plus 75,Beauty & Personal Care,Shampoo,Beardo,169,114,4.3,277,Yes
+FK101843,Levi's Saree Edge 9,Fashion,Saree,Levi's,1099,573,4.1,610,No
+FK101844,Voltas Refrigerator Edge 83,Appliances,Refrigerator,Voltas,7289,6181,4.3,78,Yes
+FK101845,SG Yoga Mat Edge 71,Sports & Fitness,Yoga Mat,SG,4579,1571,3.0,352,No
+FK101846,W Women's Kurta Classic 12,Fashion,Women's Kurta,W,789,375,4.4,1978,No
+FK101847,Philips Bedsheet Neo 23,Home & Kitchen,Bedsheet,Philips,569,226,3.3,504,No
+FK101848,Navneet Children's Books Neo 55,Books & Stationery,Children's Books,Navneet,199,157,4.8,3187,No
+FK101849,Godrej Television Pro 31,Appliances,Television,Godrej,14289,7698,3.7,1923,No
+FK101850,SG Dumbbells Edge 16,Sports & Fitness,Dumbbells,SG,359,253,4.4,3261,Yes
+FK101851,LG Television Lite 81,Appliances,Television,LG,13469,12165,3.9,77,No
+FK101852,Sony Headphones Pro 33,Electronics,Headphones,Sony,4609,3663,3.8,5570,No
+FK101853,Haier Air Conditioner Prime 52,Appliances,Air Conditioner,Haier,22359,16785,4.3,76,No
+FK101854,Boldfit Football Plus 90,Sports & Fitness,Football,Boldfit,6849,3337,4.2,4450,Yes
+FK101855,Ambrane Smartwatch Lite 89,Electronics,Smartwatch,Ambrane,59749,47140,3.9,2424,No
+FK101856,Bajaj Storage Neo 14,Home & Kitchen,Storage,Bajaj,1889,766,3.7,730,Yes
+FK101857,Libas Jeans Max 73,Fashion,Jeans,Libas,4859,2361,3.9,1647,No
+FK101858,Allen Solly Women's Kurta Prime 97,Fashion,Women's Kurta,Allen Solly,1029,578,4.4,120,Yes
+FK101859,Philips Mixer Grinder Lite 17,Home & Kitchen,Mixer Grinder,Philips,2429,853,4.1,670,Yes
+FK101860,Samsung Refrigerator Neo 82,Appliances,Refrigerator,Samsung,21359,16962,3.6,966,No
+FK101861,HRX Jeans Max 67,Fashion,Jeans,HRX,649,325,3.8,425,No
+FK101862,Redmi Feature Phone Prime 39,Mobiles,Feature Phone,Redmi,7499,7499,3.9,842,No
+FK101863,Bajaj Cookware Neo 23,Home & Kitchen,Cookware,Bajaj,7079,2510,3.4,895,No
+FK101864,Philips Cookware Plus 46,Home & Kitchen,Cookware,Philips,509,238,3.9,78,Yes
+FK101865,Noise Smartwatch Neo 25,Electronics,Smartwatch,Noise,30579,14675,4.1,1808,Yes
+FK101866,Libas Men's T-Shirt Pro 89,Fashion,Men's T-Shirt,Libas,549,196,3.3,351,Yes
+FK101867,Harper Pens Lite 71,Books & Stationery,Pens,Harper,1419,921,4.2,713,Yes
+FK101868,Roadster Saree Classic 36,Fashion,Saree,Roadster,3839,1069,4.0,844,Yes
+FK101869,Arihant Fiction Classic 69,Books & Stationery,Fiction,Arihant,839,651,4.6,11573,Yes
+FK101870,Arihant Notebooks Neo 77,Books & Stationery,Notebooks,Arihant,169,130,4.5,980,Yes
+FK101871,POCO Feature Phone Edge 43,Mobiles,Feature Phone,POCO,7299,3538,4.1,969,Yes
+FK101872,Whirlpool Refrigerator Lite 87,Appliances,Refrigerator,Whirlpool,9899,8413,3.5,80,No
+FK101873,HRX Sneakers Prime 73,Fashion,Sneakers,HRX,459,235,3.7,158,No
+FK101874,Pigeon Mixer Grinder Plus 3,Home & Kitchen,Mixer Grinder,Pigeon,3939,2508,4.2,277,No
+FK101875,HRX Men's T-Shirt Max 72,Fashion,Men's T-Shirt,HRX,2659,1116,3.4,109,No
+FK101876,W Sneakers Prime 13,Fashion,Sneakers,W,5579,1998,4.2,231,Yes
+FK101877,Levi's Men's T-Shirt Classic 73,Fashion,Men's T-Shirt,Levi's,5859,2636,4.8,2492,No
+FK101878,Nivia Cricket Bat Lite 91,Sports & Fitness,Cricket Bat,Nivia,969,409,4.7,3770,Yes
+FK101879,Prestige Water Bottle Classic 56,Home & Kitchen,Water Bottle,Prestige,329,201,4.2,5705,Yes
+FK101880,Apple Smartphone Plus 16,Mobiles,Smartphone,Apple,29409,24386,4.4,742,Yes
+FK101881,Puma Men's T-Shirt Plus 28,Fashion,Men's T-Shirt,Puma,3789,1850,4.3,1219,Yes
+FK101882,Dove Face Wash Plus 18,Beauty & Personal Care,Face Wash,Dove,199,155,3.9,1109,Yes
+FK101883,Flipkart SmartBuy Water Bottle Neo 23,Home & Kitchen,Water Bottle,Flipkart SmartBuy,1619,728,3.4,944,No
+FK101884,Roadster Sneakers Max 10,Fashion,Sneakers,Roadster,3919,1355,2.9,309,No
+FK101885,Puma Jeans Prime 1,Fashion,Jeans,Puma,4139,1837,3.8,391,Yes
+FK101886,Himalaya Lipstick Neo 71,Beauty & Personal Care,Lipstick,Himalaya,1689,949,4.3,354,Yes
+FK101887,Philips Lipstick Edge 55,Beauty & Personal Care,Lipstick,Philips,299,206,3.8,141,Yes
+FK101888,Cosco Yoga Mat Classic 28,Sports & Fitness,Yoga Mat,Cosco,419,209,3.8,647,No
+FK101889,POCO Smartphone Max 97,Mobiles,Smartphone,POCO,30589,26087,4.3,6550,Yes
+FK101890,Lakme Perfume Max 97,Beauty & Personal Care,Perfume,Lakme,789,534,4.2,346,Yes
+FK101891,HRX Jeans Lite 67,Fashion,Jeans,HRX,499,230,3.8,1202,No
+FK101892,HP Speaker Max 75,Electronics,Speaker,HP,1619,1084,4.4,2630,Yes
+FK101893,Prestige Bedsheet Classic 47,Home & Kitchen,Bedsheet,Prestige,899,503,4.2,452,No
+FK101894,Reynolds Exam Prep Edge 83,Books & Stationery,Exam Prep,Reynolds,1249,697,4.2,555,No
+FK101895,SG Cricket Bat Prime 8,Sports & Fitness,Cricket Bat,SG,1299,863,4.5,41,No
+FK101896,Pigeon Mixer Grinder Max 33,Home & Kitchen,Mixer Grinder,Pigeon,3229,2256,3.9,438,Yes
+FK101897,HP Headphones Plus 2,Electronics,Headphones,HP,63949,40824,4.3,5830,Yes
+FK101898,Hero Yoga Mat Max 55,Sports & Fitness,Yoga Mat,Hero,899,321,3.8,511,No
+FK101899,Cello Pens Neo 7,Books & Stationery,Pens,Cello,82,49,4.1,321,No
+FK101900,Prestige Mixer Grinder Pro 35,Home & Kitchen,Mixer Grinder,Prestige,2449,1696,4.1,908,No
+FK101901,Pigeon Water Bottle Plus 68,Home & Kitchen,Water Bottle,Pigeon,1499,742,4.3,575,Yes
+FK101902,Solimo Cookware Prime 19,Home & Kitchen,Cookware,Solimo,4719,2542,3.6,1395,Yes
+FK101903,Roadster Women's Kurta Lite 64,Fashion,Women's Kurta,Roadster,769,351,3.7,663,No
+FK101904,Whirlpool Television Edge 18,Appliances,Television,Whirlpool,12269,8151,3.8,4540,No
+FK101905,Prestige Water Bottle Max 41,Home & Kitchen,Water Bottle,Prestige,4039,1465,3.7,1033,Yes
+FK101906,Roadster Saree Pro 93,Fashion,Saree,Roadster,449,86,3.9,1576,Yes
+FK101907,Pigeon Cookware Pro 1,Home & Kitchen,Cookware,Pigeon,1579,1121,3.6,468,Yes
+FK101908,Vivo Smartphone Prime 6,Mobiles,Smartphone,Vivo,7399,6791,4.1,214,Yes
+FK101909,Disha Exam Prep Neo 76,Books & Stationery,Exam Prep,Disha,399,170,4.4,1394,Yes
+FK101910,Roadster Saree Lite 29,Fashion,Saree,Roadster,2479,912,3.6,2349,Yes
+FK101911,Maybelline Lipstick Classic 13,Beauty & Personal Care,Lipstick,Maybelline,729,409,3.8,570,Yes
+FK101912,Cello Fiction Edge 13,Books & Stationery,Fiction,Cello,289,234,3.9,191,Yes
+FK101913,Puma Jeans Prime 71,Fashion,Jeans,Puma,3889,2304,3.7,120,No
+FK101914,Beardo Face Wash Neo 6,Beauty & Personal Care,Face Wash,Beardo,179,130,4.0,476,Yes
+FK101915,Penguin Fiction Classic 78,Books & Stationery,Fiction,Penguin,109,77,4.1,174,No
+FK101916,Campus Sneakers Prime 46,Fashion,Sneakers,Campus,4699,2396,4.4,1952,Yes
+FK101917,Solimo Mixer Grinder Neo 47,Home & Kitchen,Mixer Grinder,Solimo,4079,2111,4.1,1578,No
+FK101918,Harper Notebooks Pro 89,Books & Stationery,Notebooks,Harper,439,271,4.5,720,Yes
+FK101919,Solimo Bedsheet Lite 78,Home & Kitchen,Bedsheet,Solimo,1729,935,4.0,2005,Yes
+FK101920,Maybelline Lipstick Plus 85,Beauty & Personal Care,Lipstick,Maybelline,1659,906,4.2,76,No
+FK101921,Roadster Jeans Max 3,Fashion,Jeans,Roadster,3689,1776,4.4,412,No
+FK101922,Libas Men's T-Shirt Prime 17,Fashion,Men's T-Shirt,Libas,5189,1045,3.5,1093,Yes
+FK101923,Strauss Yoga Mat Classic 68,Sports & Fitness,Yoga Mat,Strauss,699,538,4.1,1114,Yes
+FK101924,Noise Power Bank Plus 1,Electronics,Power Bank,Noise,51679,39355,4.7,201,Yes
+FK101925,HRX Women's Kurta Lite 35,Fashion,Women's Kurta,HRX,859,451,4.1,7160,No
+FK101926,W Men's T-Shirt Edge 12,Fashion,Men's T-Shirt,W,3089,596,3.9,1629,No
+FK101927,Motorola Feature Phone Classic 80,Mobiles,Feature Phone,Motorola,18979,18979,4.0,1137,No
+FK101928,Solimo Storage Neo 11,Home & Kitchen,Storage,Solimo,6989,3825,4.2,417,Yes
+FK101929,OPPO Smartphone Prime 22,Mobiles,Smartphone,OPPO,46999,46999,4.3,323,No
+FK101930,Noise Smartwatch Pro 5,Electronics,Smartwatch,Noise,889,669,4.1,2554,Yes
+FK101931,W Sneakers Pro 64,Fashion,Sneakers,W,1829,485,3.5,209,Yes
+FK101932,Allen Solly Saree Neo 7,Fashion,Saree,Allen Solly,479,270,4.2,1337,Yes
+FK101933,Disha Pens Edge 4,Books & Stationery,Pens,Disha,109,81,3.8,843,No
+FK101934,Samsung Washing Machine Neo 5,Appliances,Washing Machine,Samsung,7839,6229,4.2,280,Yes
+FK101935,Mamaearth Face Wash Pro 62,Beauty & Personal Care,Face Wash,Mamaearth,959,775,4.0,455,Yes
+FK101936,Himalaya Lipstick Max 22,Beauty & Personal Care,Lipstick,Himalaya,229,148,3.9,1901,No
+FK101937,Motorola Feature Phone Neo 49,Mobiles,Feature Phone,Motorola,70339,66477,3.8,3685,Yes
+FK101938,HRX Saree Plus 23,Fashion,Saree,HRX,1379,448,3.7,228,No
+FK101939,Himalaya Face Wash Pro 21,Beauty & Personal Care,Face Wash,Himalaya,169,79,4.1,2838,Yes
+FK101940,Arihant Notebooks Max 92,Books & Stationery,Notebooks,Arihant,549,370,4.4,130,Yes
+FK101941,POCO Smartphone Max 46,Mobiles,Smartphone,POCO,24239,22237,4.4,127,Yes
+FK101942,Beardo Perfume Max 38,Beauty & Personal Care,Perfume,Beardo,699,314,4.2,2429,Yes
+FK101943,Libas Women's Kurta Classic 6,Fashion,Women's Kurta,Libas,2739,1261,4.1,604,Yes
+FK101944,boAt Laptop Classic 74,Electronics,Laptop,boAt,10969,7380,3.9,766,Yes
+FK101945,Voltas Washing Machine Plus 19,Appliances,Washing Machine,Voltas,35249,28086,4.3,205,No
+FK101946,Apple Smartphone Classic 84,Mobiles,Smartphone,Apple,11359,8449,4.3,272,No
+FK101947,Ambrane Laptop Classic 55,Electronics,Laptop,Ambrane,8509,6948,4.0,943,No
+FK101948,Bajaj Storage Lite 27,Home & Kitchen,Storage,Bajaj,4629,1997,4.2,7575,Yes
+FK101949,Allen Solly Women's Kurta Plus 66,Fashion,Women's Kurta,Allen Solly,3819,1931,3.5,362,Yes
+FK101950,HRX Women's Kurta Max 92,Fashion,Women's Kurta,HRX,4909,1673,3.4,746,No
+FK101951,Bajaj Bedsheet Neo 73,Home & Kitchen,Bedsheet,Bajaj,439,207,4.9,405,No
+FK101952,Puma Saree Neo 69,Fashion,Saree,Puma,4889,2495,4.1,2656,Yes
+FK101953,Roadster Sneakers Max 75,Fashion,Sneakers,Roadster,639,277,4.3,90,No
+FK101954,Realme Smartphone Max 14,Mobiles,Smartphone,Realme,13429,13429,4.4,129,Yes
+FK101955,Apple Feature Phone Prime 79,Mobiles,Feature Phone,Apple,51389,44498,3.4,74,No
+FK101956,Arihant Pens Neo 97,Books & Stationery,Pens,Arihant,249,241,4.1,900,No
+FK101957,Maybelline Face Wash Pro 95,Beauty & Personal Care,Face Wash,Maybelline,2879,2272,4.1,2102,No
+FK101958,Solimo Mixer Grinder Max 38,Home & Kitchen,Mixer Grinder,Solimo,3339,1544,3.9,1334,No
+FK101959,Puma Jeans Lite 93,Fashion,Jeans,Puma,2159,1220,3.2,422,No
+FK101960,W Women's Kurta Lite 47,Fashion,Women's Kurta,W,1719,842,3.9,386,No
+FK101961,W Sneakers Plus 70,Fashion,Sneakers,W,459,84,3.8,308,No
+FK101962,Lenovo Speaker Plus 40,Electronics,Speaker,Lenovo,33359,21100,4.6,1590,No
+FK101963,Philips Lipstick Neo 74,Beauty & Personal Care,Lipstick,Philips,399,318,3.6,770,Yes
+FK101964,Vivo Smartphone Edge 1,Mobiles,Smartphone,Vivo,26429,18666,3.7,695,No
+FK101965,Mamaearth Lipstick Plus 28,Beauty & Personal Care,Lipstick,Mamaearth,3089,1754,4.1,224,Yes
+FK101966,Apple Feature Phone Max 94,Mobiles,Feature Phone,Apple,8089,8089,4.2,280,Yes
+FK101967,Cosco Cricket Bat Classic 51,Sports & Fitness,Cricket Bat,Cosco,7599,5511,3.4,242,No
+FK101968,Haier Air Conditioner Max 23,Appliances,Air Conditioner,Haier,39689,26900,3.8,3609,No
+FK101969,Disha Pens Neo 67,Books & Stationery,Pens,Disha,609,462,4.2,264,No
+FK101970,Libas Men's T-Shirt Pro 27,Fashion,Men's T-Shirt,Libas,579,184,4.2,1617,No
+FK101971,W Sneakers Classic 75,Fashion,Sneakers,W,639,260,3.9,364,Yes
+FK101972,POCO Smartphone Prime 75,Mobiles,Smartphone,POCO,13699,11469,4.0,1501,Yes
+FK101973,Campus Women's Kurta Plus 49,Fashion,Women's Kurta,Campus,929,487,4.5,672,No
+FK101974,Ambrane Smartwatch Plus 84,Electronics,Smartwatch,Ambrane,1539,878,4.0,172,No
+FK101975,Lakme Lipstick Max 64,Beauty & Personal Care,Lipstick,Lakme,3419,2375,4.0,191,Yes
+FK101976,OPPO Smartphone Plus 4,Mobiles,Smartphone,OPPO,55249,52434,4.0,787,Yes
+FK101977,Arihant Pens Lite 24,Books & Stationery,Pens,Arihant,119,95,3.8,4089,No
+FK101978,Nivea Trimmer Prime 90,Beauty & Personal Care,Trimmer,Nivea,1269,972,4.6,1083,No
+FK101979,Harper Children's Books Prime 7,Books & Stationery,Children's Books,Harper,1079,1064,4.3,2618,Yes
+FK101980,Beardo Shampoo Lite 42,Beauty & Personal Care,Shampoo,Beardo,699,572,4.0,1579,Yes
+FK101981,Classmate Notebooks Plus 55,Books & Stationery,Notebooks,Classmate,199,153,3.9,2047,Yes
+FK101982,HRX Saree Lite 47,Fashion,Saree,HRX,1529,472,4.2,294,Yes
+FK101983,Cello Storage Lite 14,Home & Kitchen,Storage,Cello,8659,3999,4.4,1216,Yes
+FK101984,Milton Mixer Grinder Edge 67,Home & Kitchen,Mixer Grinder,Milton,349,142,3.8,948,Yes
+FK101985,boAt Speaker Edge 73,Electronics,Speaker,boAt,14669,8935,3.9,8245,Yes
+FK101986,Philips Face Wash Plus 63,Beauty & Personal Care,Face Wash,Philips,1059,645,4.2,399,Yes
+FK101987,Dove Trimmer Edge 91,Beauty & Personal Care,Trimmer,Dove,239,99,4.5,549,No
+FK101988,Samsung Feature Phone Lite 15,Mobiles,Feature Phone,Samsung,11079,9756,4.1,4553,No
+FK101989,Puma Jeans Pro 88,Fashion,Jeans,Puma,2279,1160,4.0,1985,No
+FK101990,Nivea Lipstick Max 75,Beauty & Personal Care,Lipstick,Nivea,3639,3162,4.2,938,Yes
+FK101991,Bajaj Water Bottle Pro 14,Home & Kitchen,Water Bottle,Bajaj,5679,2798,4.6,527,No
+FK101992,Navneet Fiction Lite 19,Books & Stationery,Fiction,Navneet,319,299,4.3,626,Yes
+FK101993,Libas Jeans Max 16,Fashion,Jeans,Libas,609,294,4.2,748,Yes
+FK101994,Lenovo Smartwatch Classic 74,Electronics,Smartwatch,Lenovo,1439,940,4.5,1804,Yes
+FK101995,SG Cricket Bat Classic 45,Sports & Fitness,Cricket Bat,SG,4049,1869,4.3,543,Yes
+FK101996,Philips Water Bottle Max 17,Home & Kitchen,Water Bottle,Philips,4319,1825,4.2,5457,Yes
+FK101997,OPPO Smartphone Edge 10,Mobiles,Smartphone,OPPO,69889,69889,4.2,173,Yes
+FK101998,Haier Air Conditioner Pro 75,Appliances,Air Conditioner,Haier,7039,5902,4.2,461,No
+FK101999,Bajaj Storage Pro 58,Home & Kitchen,Storage,Bajaj,3439,1835,4.7,991,Yes
+FK102000,Mi Smartwatch Classic 78,Electronics,Smartwatch,Mi,5429,3809,4.4,250,No

@@ -1,0 +1,219 @@
+{
+  "restaurants": 9551,
+  "countries": 15,
+  "india": {
+    "country": "India",
+    "restaurants": 8652,
+    "share_pct": 90.6,
+    "rated": 6513,
+    "avg_rating": 3.35
+  },
+  "top_cities": [
+    {
+      "city": "New Delhi",
+      "restaurants": 5473,
+      "share_of_india_pct": 63.3,
+      "avg_cost_for_two_inr": 596.0,
+      "avg_rating": 3.3
+    },
+    {
+      "city": "Gurgaon",
+      "restaurants": 1118,
+      "share_of_india_pct": 12.9,
+      "avg_cost_for_two_inr": 714.0,
+      "avg_rating": 3.33
+    },
+    {
+      "city": "Noida",
+      "restaurants": 1080,
+      "share_of_india_pct": 12.5,
+      "avg_cost_for_two_inr": 539.0,
+      "avg_rating": 3.16
+    },
+    {
+      "city": "Faridabad",
+      "restaurants": 251,
+      "share_of_india_pct": 2.9,
+      "avg_cost_for_two_inr": 448.0,
+      "avg_rating": 3.1
+    }
+  ],
+  "not_rated_india": [
+    {
+      "rating_text": "Not rated",
+      "restaurants": 2139,
+      "share_pct": 24.7,
+      "min_rating": NaN,
+      "max_rating": NaN
+    }
+  ],
+  "top_cuisines": [
+    {
+      "cuisine": "North Indian",
+      "restaurants": 3946,
+      "pct_of_restaurants": 45.6,
+      "avg_rating": 3.29
+    },
+    {
+      "cuisine": "Chinese",
+      "restaurants": 2688,
+      "pct_of_restaurants": 31.1,
+      "avg_rating": 3.27
+    },
+    {
+      "cuisine": "Fast Food",
+      "restaurants": 1963,
+      "pct_of_restaurants": 22.7,
+      "avg_rating": 3.25
+    }
+  ],
+  "best_cuisines": [
+    {
+      "cuisine": "Mediterranean",
+      "rated_restaurants": 89,
+      "avg_rating": 3.98,
+      "avg_cost_for_two_inr": 1567.0
+    },
+    {
+      "cuisine": "European",
+      "rated_restaurants": 117,
+      "avg_rating": 3.91,
+      "avg_cost_for_two_inr": 1953.0
+    },
+    {
+      "cuisine": "Asian",
+      "rated_restaurants": 181,
+      "avg_rating": 3.85,
+      "avg_cost_for_two_inr": 1476.0
+    }
+  ],
+  "price_range": [
+    {
+      "price_range": 1,
+      "rated_restaurants": 2596,
+      "avg_cost_for_two_inr": 302.0,
+      "avg_rating": 3.2,
+      "avg_votes": 60.0,
+      "pct_rated_4_plus": 3.8
+    },
+    {
+      "price_range": 2,
+      "rated_restaurants": 2462,
+      "avg_cost_for_two_inr": 627.0,
+      "avg_rating": 3.31,
+      "avg_votes": 154.0,
+      "pct_rated_4_plus": 10.3
+    },
+    {
+      "price_range": 3,
+      "rated_restaurants": 1078,
+      "avg_cost_for_two_inr": 1261.0,
+      "avg_rating": 3.68,
+      "avg_votes": 458.0,
+      "pct_rated_4_plus": 31.4
+    },
+    {
+      "price_range": 4,
+      "rated_restaurants": 377,
+      "avg_cost_for_two_inr": 2592.0,
+      "avg_rating": 3.73,
+      "avg_votes": 416.0,
+      "pct_rated_4_plus": 31.0
+    }
+  ],
+  "delivery": [
+    {
+      "price_range": 1,
+      "rating_with_delivery": 3.26,
+      "rating_without_delivery": 3.18,
+      "pct_offering_delivery": 25.0
+    },
+    {
+      "price_range": 2,
+      "rating_with_delivery": 3.33,
+      "rating_without_delivery": 3.3,
+      "pct_offering_delivery": 50.4
+    },
+    {
+      "price_range": 3,
+      "rating_with_delivery": 3.63,
+      "rating_without_delivery": 3.71,
+      "pct_offering_delivery": 36.7
+    },
+    {
+      "price_range": 4,
+      "rating_with_delivery": 3.89,
+      "rating_without_delivery": 3.71,
+      "pct_offering_delivery": 11.4
+    }
+  ],
+  "booking": [
+    {
+      "table_booking": "No bookings",
+      "rated_restaurants": 5449,
+      "avg_cost_for_two_inr": 546.0,
+      "avg_rating": 3.31,
+      "avg_votes": 147.0
+    },
+    {
+      "table_booking": "Takes bookings",
+      "rated_restaurants": 1064,
+      "avg_cost_for_two_inr": 1589.0,
+      "avg_rating": 3.55,
+      "avg_votes": 362.0
+    }
+  ],
+  "correlations": {
+    "corr_votes_rating": 0.396,
+    "corr_log_votes_rating": 0.624,
+    "corr_cost_rating": 0.313,
+    "corr_price_range_rating": 0.359
+  },
+  "chains": [
+    {
+      "restaurant_name": "Cafe Coffee Day",
+      "outlets": 83,
+      "rated_outlets": 67,
+      "avg_rating": 3.0,
+      "rating_std_dev": 0.31,
+      "worst": 2.3,
+      "best": 3.6
+    },
+    {
+      "restaurant_name": "Domino's Pizza",
+      "outlets": 79,
+      "rated_outlets": 74,
+      "avg_rating": 2.93,
+      "rating_std_dev": 0.42,
+      "worst": 2.1,
+      "best": 3.7
+    },
+    {
+      "restaurant_name": "Subway",
+      "outlets": 63,
+      "rated_outlets": 61,
+      "avg_rating": 3.0,
+      "rating_std_dev": 0.47,
+      "worst": 1.9,
+      "best": 3.8
+    },
+    {
+      "restaurant_name": "Green Chick Chop",
+      "outlets": 51,
+      "rated_outlets": 44,
+      "avg_rating": 3.1,
+      "rating_std_dev": 0.23,
+      "worst": 2.6,
+      "best": 3.6
+    },
+    {
+      "restaurant_name": "McDonald's",
+      "outlets": 48,
+      "rated_outlets": 47,
+      "avg_rating": 3.41,
+      "rating_std_dev": 0.27,
+      "worst": 2.6,
+      "best": 3.9
+    }
+  ]
+}

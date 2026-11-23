@@ -1,0 +1,16 @@
+restaurant_name,outlets,rated_outlets,avg_rating,rating_std_dev,worst,best
+Cafe Coffee Day,83,67,3.0,0.31,2.3,3.6
+Domino's Pizza,79,74,2.93,0.42,2.1,3.7
+Subway,63,61,3.0,0.47,1.9,3.8
+Green Chick Chop,51,44,3.1,0.23,2.6,3.6
+McDonald's,48,47,3.41,0.27,2.6,3.9
+Keventers,34,29,3.37,0.34,2.6,3.9
+Pizza Hut,29,28,3.47,0.57,2.4,4.6
+Giani,29,24,3.25,0.25,2.7,3.6
+Baskin Robbins,28,16,3.26,0.29,2.6,3.7
+Barbeque Nation,25,25,4.35,0.38,3.7,4.9
+Barista,22,21,3.22,0.26,2.5,3.6
+Dunkin' Donuts,22,19,3.63,0.15,3.4,3.9
+Giani's,22,18,3.4,0.32,2.8,3.9
+Costa Coffee,20,14,3.45,0.23,3.0,3.8
+Pind Balluchi,20,18,2.92,0.5,1.8,3.7

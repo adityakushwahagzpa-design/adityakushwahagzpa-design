@@ -1,0 +1,5 @@
+city,priced_restaurants,median_cost_inr,p90_cost_inr,max_cost_inr
+Gurgaon,1118,500.0,1500.0,5000
+Noida,1080,450.0,1000.0,3500
+Faridabad,251,400.0,700.0,1900
+New Delhi,5473,400.0,1200.0,8000

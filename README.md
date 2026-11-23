@@ -80,6 +80,9 @@ Leadership of the university finance club and its 5-member core team.
 | **[HDFC Flexi Cap Fund — Returns & Risk](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis)** | 10 years of daily AMFI NAVs: CAGR, SIP XIRR, Sharpe, Sortino, beta and alpha vs the NIFTY 500 and 37 peer funds; best 3-year Sharpe (0.78) of the group | Excel, PDF |
 | **[AI-Powered Revenue Forecasting Engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-revenue-forecasting-engine)** | LightGBM forecast (6.6% daily error in backtest) plus a Claude AI analyst that answers what-if questions by running the model through tool calls; Q1 2026 forecast ₹104.2 crore (+16.9%, range ₹99.4–108.6 crore) | Python, LightGBM, Claude API · [Live demo](https://claude.ai/artifact/HRDSJjGuvzysgtu8szUpTq) |
 | **[Marketing Attribution & ROI Intelligence](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/marketing-attribution-roi-intelligence)** | 8 attribution models on 60,000 customer journeys (ML counterfactual within 1.1 pts of the true channel shares vs 12.1 for last touch), a marketing mix model calibrated with lift tests, a budget optimiser (+3.5% revenue for the same spend) and a Claude AI analyst | Python, LightGBM, SciPy, Claude API · [Live demo](https://claude.ai/artifact/Krw3sHXTRenx1wzDHvvrSL) |
+| **[Zomato Restaurant Analysis (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/zomato-restaurant-analysis-sql)** | 9,551 real Zomato restaurants in 3 tables and 18 queries: 31% of price range 3–4 restaurants rated 4.0+ vs 4% in range 1; delivery moves ratings by under 0.2 points; 24.7% of Indian listings unrated | PostgreSQL, Python |
+| **[IPL Data Analysis 2008–2026 (Python)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python)** | 1,243 matches and 295,732 deliveries: average first-innings score up from 162.6 to 188.5 since the 2023 Impact Player rule; chasing teams win 54.7%, toss winners only 51.6% | Python, pandas, Matplotlib |
+| **[Flipkart Product Analysis Dashboard (Excel)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/flipkart-product-analysis-dashboard)** | 2,000 products and 25,000 order lines: Mobiles are 9.9% of products but 41.6% of GMV; 70%+ discounts mean a 3.57 rating and 17.5% returns; Assured products sell 64% more units each | Excel (SUMIF, COUNTIFS, INDEX/MATCH, charts) |
 | **[Bull vs Bear AI Debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate)** | Three Claude agents (Bull, Bear, Judge) debate NVIDIA, Tesla and Apple using only cited 10-K and market evidence; every citation checked in code and invented ones penalised; referee view: Apple leans bull, Tesla leans bear, NVIDIA mixed | Python, Claude API, SEC EDGAR · [Live demo](https://claude.ai/artifact/JCbXAFMn8LCeTeF1wwTbGX) |
 | **[Nifty 50 Portfolio Analysis (Google Sheets)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets)** | Live GOOGLEFINANCE portfolio of seven stocks: diversification cut volatility from 22.1% to 13.2%, but returns trailed the Nifty 50 (21.5% vs 27.0%) | Google Sheets |
 | **[Nippon Life India AMC — Stock Pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch)** | FCFE DCF and peer P/E blend to a ₹1,000 target vs ₹1,040 price: HOLD | Excel, PDF deck |
@@ -548,6 +551,59 @@ Data collection across NSE and BSE issues, segment-wise analysis and the link be
 
 </details>
 
+**Data Analysis Projects**
+
+<details>
+<summary><b>Zomato Restaurant Analysis (SQL)</b></summary>
+<br/>
+
+Real Zomato restaurant data cleaned in Python, split into three tables and analysed with 18 PostgreSQL queries.
+
+| | |
+|:--|:--|
+| **Stack** | PostgreSQL, SQL, Python (pandas, Matplotlib) |
+| **Scope** | 9,551 restaurants in 15 countries (8,652 in India), 19,705 restaurant–cuisine rows |
+| **Key Result** | 31% of price range 3–4 restaurants rated 4.0+ vs 4% in range 1; online delivery moves ratings by under 0.2 points; North Indian on 45.6% of menus |
+| **Repository** | [zomato-restaurant-analysis-sql](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/zomato-restaurant-analysis-sql) |
+
+Joins, CASE and FILTER, a self-join for cuisine pairs, window functions, CTEs, PERCENTILE_CONT and CORR.
+
+</details>
+
+<details>
+<summary><b>IPL Data Analysis 2008–2026 (Python)</b></summary>
+<br/>
+
+Every IPL match from 2008 to the 2026 final, analysed ball by ball in pandas.
+
+| | |
+|:--|:--|
+| **Stack** | Python (pandas, Matplotlib) |
+| **Scope** | 1,243 matches, 295,732 deliveries, 19 seasons |
+| **Key Result** | Average first-innings score up from 162.6 (2008–2022) to 188.5 (2023–2026); sixes per match 10.7 → 19.3; chasing teams win 54.7% |
+| **Repository** | [ipl-data-analysis-python](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python) |
+
+Season, phase, toss, team, venue, batting and bowling tables, with franchise renames merged and cricket rules for legal balls and bowler runs.
+
+</details>
+
+<details>
+<summary><b>Flipkart Product Analysis Dashboard (Excel)</b></summary>
+<br/>
+
+A one-page Excel dashboard on a Flipkart-style catalogue, with every figure a live formula.
+
+| | |
+|:--|:--|
+| **Stack** | Excel (SUMIF, COUNTIFS, AVERAGEIF, INDEX/MATCH, charts), Python (openpyxl) |
+| **Scope** | 2,000 products in 8 categories, 25,000 order lines for 2025 (synthetic) |
+| **Key Result** | Mobiles 9.9% of products but 41.6% of GMV; 70%+ discounts: 3.57 rating and 17.5% returns; Flipkart Assured: 64% more units per product, half the returns |
+| **Repository** | [flipkart-product-analysis-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/flipkart-product-analysis-dashboard) |
+
+7 KPI cards, 5 summary tables and 4 charts; 87,145 formulas recalculated with 0 errors.
+
+</details>
+
 </details>
 
 **Classic finance research papers in Python** — seven landmark papers applied to market data, refreshed weekly by GitHub Actions
@@ -563,12 +619,12 @@ Data collection across NSE and BSE issues, segment-wise analysis and the link be
 | [Fama & French (1993)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fama-french-three-factor) | Three-factor model on eight US ETFs; R² up from 0.87 to 0.96, and the value premium turned negative after 2007 |
 
 <details>
-<summary><b>All 62 Projects</b></summary>
+<summary><b>All 65 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
 |:--|:--|
-| **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) · [sql-bank-transactions-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) |
+| **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) · [sql-bank-transactions-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) · [zomato-restaurant-analysis-sql](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/zomato-restaurant-analysis-sql) · [ipl-data-analysis-python](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python) |
 | **Python Research & ML** | [ai-revenue-forecasting-engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-revenue-forecasting-engine) · [marketing-attribution-roi-intelligence](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/marketing-attribution-roi-intelligence) · [ai-text-to-sql-assistant](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-text-to-sql-assistant) · [customer-360-intelligence-platform](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/customer-360-intelligence-platform) · [realtime-business-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/realtime-business-anomaly-detection) · [bull-bear-ai-debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate) · [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) · [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) · [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) · [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
 | **Python Analytics & ML** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) · [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) · [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) · [portfolio-performance-analytics](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/portfolio-performance-analytics) · [nifty-market-trend-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-market-trend-dashboard) |
 | **Credit** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
@@ -576,7 +632,7 @@ Data collection across NSE and BSE issues, segment-wise analysis and the link be
 | **Fund Services** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) · [hdfc-flexi-cap-fund-analysis](https://github.com/adityakushwahagzpa-design/hdfc-flexi-cap-fund-analysis) · [fund-operations-reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation) |
 | **Valuation** | [alibaba-ipo-financial-model](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/alibaba-ipo-financial-model) · [tata-motors-equity-research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) · [eternal-financial-model-dcf](https://github.com/adityakushwahagzpa-design/eternal-financial-model-dcf) · [starbucks-3-statement-dcf](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) · [amazon-dcf-model](https://github.com/adityakushwahagzpa-design/amazon-dcf-model) · [burger-king-lbo-model](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) · [comparable-company-analysis](https://github.com/adityakushwahagzpa-design/comparable-company-analysis) · [precedent-transaction-analysis](https://github.com/adityakushwahagzpa-design/precedent-transaction-analysis) · [infosys-financial-statements](https://github.com/adityakushwahagzpa-design/infosys-financial-statements) · [itc-financial-statement-analysis](https://github.com/adityakushwahagzpa-design/itc-financial-statement-analysis) |
 | **Market Research** | [ipo-market-analysis-india](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) · [correlation-matrix-diversification](https://github.com/adityakushwahagzpa-design/correlation-matrix-diversification) · [nifty-portfolio-analysis-google-sheets](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-portfolio-analysis-google-sheets) |
-| **Dashboards** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) · [european-sales-dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) · [bajaj-sales-profit-dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) · [financial-performance-dashboard-tableau](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) |
+| **Dashboards** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) · [flipkart-product-analysis-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/flipkart-product-analysis-dashboard) · [european-sales-dashboard](https://github.com/adityakushwahagzpa-design/european-sales-dashboard) · [bajaj-sales-profit-dashboard](https://github.com/adityakushwahagzpa-design/bajaj-sales-profit-dashboard) · [financial-performance-dashboard-tableau](https://github.com/adityakushwahagzpa-design/financial-performance-dashboard-tableau) |
 | **MIS & Trackers** | [customer-sales-mis-report](https://github.com/adityakushwahagzpa-design/customer-sales-mis-report) · [training-deployment-tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) · [client-churn-dashboard](https://github.com/adityakushwahagzpa-design/client-churn-dashboard) · [security-cost-roi-analysis](https://github.com/adityakushwahagzpa-design/security-cost-roi-analysis) · [investment-portfolio-tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) |
 | **AI in Finance** | [ai-fpa-agent-claude](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) |
 | **Equity & Industry Research** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) · [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
@@ -628,7 +684,7 @@ Data collection across NSE and BSE issues, segment-wise analysis and the link be
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **20 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **62 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
+| **65 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>
