@@ -1,14 +1,14 @@
 # Earnings Call Stress Report
 
-338 S&P 500 earnings calls (2023-01-17 to 2025-05-08), 246 companies. Source: kurry/sp500_earnings_transcripts + yfinance.
+337 S&P 500 earnings calls (2023-01-17 to 2025-05-08), 245 companies. Source: kurry/sp500_earnings_transcripts + yfinance.
 
 ## Reaction by stress quintile
 
 | stress_quintile   |   calls |   avg_abnormal |   median_abnormal |   share_negative |   avg_abs_move |
 |:------------------|--------:|---------------:|------------------:|-----------------:|---------------:|
 | Q1 calm           |      68 |          -0.58 |             -1.15 |            55.88 |           4.11 |
-| Q2                |      67 |          -0.05 |             -0.84 |            59.7  |           4.53 |
-| Q3                |      68 |           0.04 |             -0.76 |            57.35 |           5.17 |
+| Q2                |      67 |           0.1  |             -0.84 |            59.7  |           4.69 |
+| Q3                |      67 |          -0.13 |             -0.77 |            58.21 |           5.08 |
 | Q4                |      67 |           0.92 |              0.75 |            41.79 |           3.99 |
 | Q5 stressed       |      68 |          -0.21 |             -0.18 |            50    |           4.31 |
 
@@ -16,11 +16,11 @@
 
 |                    |   rho_vs_abnormal |      p |   rho_vs_abs_move |   p_abs |
 |:-------------------|------------------:|-------:|------------------:|--------:|
-| stress_index       |             0.069 | 0.2083 |            -0.034 |  0.5381 |
-| qa_tone            |             0.043 | 0.4297 |             0.068 |  0.2094 |
-| tone_gap           |             0.159 | 0.0034 |             0.025 |  0.6523 |
-| uncertainty_per_1k |            -0.012 | 0.8328 |            -0.067 |  0.2179 |
-| evasive_per_1k     |             0.052 | 0.3432 |            -0     |  0.9962 |
+| stress_index       |             0.069 | 0.2046 |            -0.038 |  0.4842 |
+| qa_tone            |             0.042 | 0.4378 |             0.076 |  0.1666 |
+| tone_gap           |             0.16  | 0.0032 |             0.019 |  0.7251 |
+| uncertainty_per_1k |            -0.011 | 0.8348 |            -0.069 |  0.2033 |
+| evasive_per_1k     |             0.051 | 0.3463 |             0.006 |  0.9144 |
 
 ## Most stressed calls
 

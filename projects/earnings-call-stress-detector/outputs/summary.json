@@ -1,40 +1,40 @@
 {
-  "calls_scored": 338,
+  "calls_scored": 337,
   "date_range": [
     "2023-01-17",
     "2025-05-08"
   ],
-  "companies": 246,
+  "companies": 245,
   "correlations": {
     "stress_index": {
       "rho_vs_abnormal": 0.069,
-      "p": 0.2083,
-      "rho_vs_abs_move": -0.034,
-      "p_abs": 0.5381
+      "p": 0.2046,
+      "rho_vs_abs_move": -0.038,
+      "p_abs": 0.4842
     },
     "qa_tone": {
-      "rho_vs_abnormal": 0.043,
-      "p": 0.4297,
-      "rho_vs_abs_move": 0.068,
-      "p_abs": 0.2094
+      "rho_vs_abnormal": 0.042,
+      "p": 0.4378,
+      "rho_vs_abs_move": 0.076,
+      "p_abs": 0.1666
     },
     "tone_gap": {
-      "rho_vs_abnormal": 0.159,
-      "p": 0.0034,
-      "rho_vs_abs_move": 0.025,
-      "p_abs": 0.6523
+      "rho_vs_abnormal": 0.16,
+      "p": 0.0032,
+      "rho_vs_abs_move": 0.019,
+      "p_abs": 0.7251
     },
     "uncertainty_per_1k": {
-      "rho_vs_abnormal": -0.012,
-      "p": 0.8328,
-      "rho_vs_abs_move": -0.067,
-      "p_abs": 0.2179
+      "rho_vs_abnormal": -0.011,
+      "p": 0.8348,
+      "rho_vs_abs_move": -0.069,
+      "p_abs": 0.2033
     },
     "evasive_per_1k": {
-      "rho_vs_abnormal": 0.052,
-      "p": 0.3432,
-      "rho_vs_abs_move": -0.0,
-      "p_abs": 0.9962
+      "rho_vs_abnormal": 0.051,
+      "p": 0.3463,
+      "rho_vs_abs_move": 0.006,
+      "p_abs": 0.9144
     }
   },
   "quintiles": [
@@ -49,18 +49,18 @@
     {
       "stress_quintile": "Q2",
       "calls": 67,
-      "avg_abnormal": -0.05,
+      "avg_abnormal": 0.1,
       "median_abnormal": -0.84,
       "share_negative": 59.7,
-      "avg_abs_move": 4.53
+      "avg_abs_move": 4.69
     },
     {
       "stress_quintile": "Q3",
-      "calls": 68,
-      "avg_abnormal": 0.04,
-      "median_abnormal": -0.76,
-      "share_negative": 57.35,
-      "avg_abs_move": 5.17
+      "calls": 67,
+      "avg_abnormal": -0.13,
+      "median_abnormal": -0.77,
+      "share_negative": 58.21,
+      "avg_abs_move": 5.08
     },
     {
       "stress_quintile": "Q4",
@@ -80,7 +80,7 @@
     }
   ],
   "q5_minus_q1_abnormal": 0.37,
-  "avg_qa_tone": 0.219,
+  "avg_qa_tone": 0.218,
   "avg_prepared_tone": 0.38,
-  "share_calls_qa_less_positive": 82.0
+  "share_calls_qa_less_positive": 82.2
 }
