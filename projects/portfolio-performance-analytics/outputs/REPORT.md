@@ -1,10 +1,10 @@
-# Portfolio Performance Report — 2026-11-20
+# Portfolio Performance Report — 2026-11-23
 
 > SAMPLE portfolio (illustrative transactions) valued with real NSE prices from Yahoo Finance.
 
-Net invested ₹1,110,000; value ₹1,259,512; the same cash flows in the Nifty 50 would be worth ₹1,230,637.
+Net invested ₹1,110,000; value ₹1,230,522; the same cash flows in the Nifty 50 would be worth ₹1,209,128.
 
-**XIRR 6.54%** vs Nifty 50 5.33% on the same cash flows.
+**XIRR 5.3%** vs Nifty 50 4.39% on the same cash flows.
 
 ![Value](chart_value_drawdown.png)
 
@@ -12,41 +12,41 @@ Net invested ₹1,110,000; value ₹1,259,512; the same cash flows in the Nifty 
 
 |                        |   Portfolio |   Nifty 50 |
 |:-----------------------|------------:|-----------:|
-| annualised_return_%    |       8.038 |      5.711 |
-| volatility_%           |      13.44  |     13.683 |
-| sharpe                 |       0.114 |     -0.058 |
-| sortino                |       0.152 |     -0.08  |
+| annualised_return_%    |       7.129 |      5.038 |
+| volatility_%           |      13.449 |     13.714 |
+| sharpe                 |       0.047 |     -0.107 |
+| sortino                |       0.062 |     -0.149 |
 | max_drawdown_%         |     -18.11  |    -15.767 |
 | best_day_%             |       3.541 |      3.818 |
 | worst_day_%            |      -4.587 |     -5.929 |
-| beta                   |       0.821 |    nan     |
-| alpha_%                |       2.186 |    nan     |
-| tracking_error_%       |       7.766 |    nan     |
-| information_ratio      |       0.3   |    nan     |
-| correlation_with_nifty |       0.836 |    nan     |
+| beta                   |       0.819 |    nan     |
+| alpha_%                |       1.827 |    nan     |
+| tracking_error_%       |       7.806 |    nan     |
+| information_ratio      |       0.268 |    nan     |
+| correlation_with_nifty |       0.835 |    nan     |
 
 ## Calendar-year returns
 
 |   Date |   portfolio_% |   nifty_% |
 |-------:|--------------:|----------:|
-|   2024 |         13.5  |      7    |
-|   2025 |         16.2  |     10.51 |
-|   2026 |         -5.93 |     -1.26 |
+|   2024 |          13.5 |      7    |
+|   2025 |          16.2 |     10.51 |
+|   2026 |          -8.1 |     -2.98 |
 
 ## Holdings
 
 |            |   value_inr |   weight_% |   volatility_% |   risk_contribution_% | sector        |
 |:-----------|------------:|-----------:|---------------:|----------------------:|:--------------|
-| GOLDBEES   |      331800 |      26.34 |           31.7 |                 35.46 | Gold          |
-| LT         |      251440 |      19.96 |           25.6 |                 22.79 | Capital Goods |
-| HDFCBANK   |      232286 |      18.44 |           23.4 |                 18.91 | Financials    |
-| INFY       |      167972 |      13.34 |           31.7 |                 10.98 | IT            |
-| ICICIBANK  |      108446 |       8.61 |           21   |                  6.13 | Financials    |
-| RELIANCE   |       59999 |       4.76 |           24.1 |                  2.65 | Energy        |
-| SUNPHARMA  |       58282 |       4.63 |           19.7 |                  1.27 | Healthcare    |
-| BHARTIARTL |       28498 |       2.26 |           21.3 |                  0.96 | Telecom       |
-| ITC        |       13991 |       1.11 |           23.1 |                  0.48 | FMCG          |
-| TCS        |        6797 |       0.54 |           29.9 |                  0.37 | IT            |
+| GOLDBEES   |      321656 |      26.14 |           32   |                 34.9  | Gold          |
+| LT         |      244917 |      19.9  |           25.8 |                 22.95 | Capital Goods |
+| HDFCBANK   |      224543 |      18.25 |           23.6 |                 18.78 | Financials    |
+| INFY       |      168798 |      13.72 |           31.6 |                 11.35 | IT            |
+| ICICIBANK  |      104842 |       8.52 |           21.2 |                  6.1  | Financials    |
+| RELIANCE   |       58845 |       4.78 |           24.2 |                  2.71 | Energy        |
+| SUNPHARMA  |       57513 |       4.67 |           19.7 |                  1.34 | Healthcare    |
+| BHARTIARTL |       28292 |       2.3  |           21.4 |                  1    | Telecom       |
+| ITC        |       14080 |       1.14 |           23.1 |                  0.49 | FMCG          |
+| TCS        |        7036 |       0.57 |           30.1 |                  0.38 | IT            |
 
 ![Risk](chart_risk_diversification.png)
 

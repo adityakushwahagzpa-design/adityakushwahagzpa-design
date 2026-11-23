@@ -1,6 +1,6 @@
-# Nifty 50 Market Trend Report — 2026-11-20
+# Nifty 50 Market Trend Report — 2026-11-23
 
-Nifty 50 at 25,800.6: downtrend, +7.5% vs its 200-day average. 69.0% of stocks trade above their 200-day average; 19 of 50 are in an uptrend.
+Nifty 50 at 25,349.7: downtrend, +5.6% vs its 200-day average. 70.0% of stocks trade above their 200-day average; 19 of 50 are in an uptrend.
 
 ![Index](chart_index_trend.png)
 
@@ -10,56 +10,56 @@ Nifty 50 at 25,800.6: downtrend, +7.5% vs its 200-day average. 69.0% of stocks t
 
 | symbol     | sector            |    price |   1M % |   1Y % |   vs 200DMA % |   RSI 14 | trend                      | recent cross   |
 |:-----------|:------------------|---------:|-------:|-------:|--------------:|---------:|:---------------------------|:---------------|
-| ADANIPORTS | Services          |  1917    |   9.62 |  28.42 |         13.7  |    60    | Uptrend (50DMA > 200DMA)   |                |
-| KOTAKBANK  | Financials        |   515.8  |  17.82 |  24.49 |         27.48 |    80.83 | Uptrend (50DMA > 200DMA)   | Golden cross   |
-| TECHM      | IT                |  1746.2  |  -4.04 |  24.46 |         16.09 |    52.06 | Uptrend (50DMA > 200DMA)   |                |
-| SBIN       | Financials        |  1165.1  |  20.99 |  24.33 |         12.61 |    82.14 | Downtrend (50DMA < 200DMA) | Death cross    |
-| APOLLOHOSP | Healthcare        |  9200    |  21.05 |  23.96 |         12.23 |    70.46 | Uptrend (50DMA > 200DMA)   |                |
-| BAJAJ-AUTO | Auto              | 10765    |   6.88 |  23.11 |          4.23 |    53.01 | Uptrend (50DMA > 200DMA)   |                |
-| ETERNAL    | Consumer Services |   364    |  16.54 |  22.25 |         27.19 |    61.61 | Uptrend (50DMA > 200DMA)   |                |
-| SHRIRAMFIN | Financials        |   972    |   8.25 |  21.03 |         -1.84 |    56.49 | Downtrend (50DMA < 200DMA) | Death cross    |
-| TITAN      | Consumer          |  4620    |   5.46 |  20.73 |          3.02 |    45.87 | Uptrend (50DMA > 200DMA)   |                |
-| EICHERMOT  | Auto              |  8113    |  13.14 |  19.59 |         10.02 |    70.02 | Uptrend (50DMA > 200DMA)   | Golden cross   |
-| ICICIBANK  | Financials        |  1640    |  18.41 |  19.33 |         20.67 |    81    | Uptrend (50DMA > 200DMA)   |                |
-| AXISBANK   | Financials        |  1446    |  19.5  |  18.11 |         12.55 |    78.15 | Downtrend (50DMA < 200DMA) | Death cross    |
-| HINDALCO   | Metals & Mining   |   929.5  |   4.1  |  15.07 |         -4.89 |    50.91 | Downtrend (50DMA < 200DMA) | Death cross    |
-| JSWSTEEL   | Metals & Mining   |  1337    |   9.33 |  13.58 |          6.79 |    59.58 | Uptrend (50DMA > 200DMA)   |                |
-| DRREDDY    | Healthcare        |  1390.2  |  11.71 |  13.29 |         10.9  |    68.96 | Uptrend (50DMA > 200DMA)   | Golden cross   |
-| GRASIM     | Materials         |  3111.1  |   8.06 |  12.77 |          3.75 |    55.01 | Uptrend (50DMA > 200DMA)   |                |
-| ADANIENT   | Metals & Mining   |  2709    |   4.41 |  12.35 |          2.36 |    51.16 | Uptrend (50DMA > 200DMA)   |                |
-| BAJFINANCE | Financials        |  1122    |  21.17 |  12.28 |         14.66 |    67.69 | Uptrend (50DMA > 200DMA)   |                |
-| SUNPHARMA  | Healthcare        |  1884.9  |   8.01 |   9.48 |          3.63 |    62.61 | Downtrend (50DMA < 200DMA) | Death cross    |
-| COALINDIA  | Energy            |   390    |  -1.83 |   8.55 |         -5.68 |    43.8  | Downtrend (50DMA < 200DMA) | Death cross    |
-| ULTRACEMCO | Materials         | 12560    |  17.93 |   7.51 |          9.45 |    70.91 | Downtrend (50DMA < 200DMA) | Golden cross   |
-| LT         | Capital Goods     |  4209.1  |  15.76 |   6.19 |          6.97 |    73.48 | Downtrend (50DMA < 200DMA) | Death cross    |
-| NESTLEIND  | FMCG              |  1325    |   8.26 |   4.97 |         -2.21 |    59.73 | Downtrend (50DMA < 200DMA) | Death cross    |
-| BHARTIARTL | Telecom           |  2144    |  14.33 |   4.69 |         14.01 |    70.35 | Uptrend (50DMA > 200DMA)   | Golden cross   |
-| TATASTEEL  | Metals & Mining   |   178    |   3.22 |   2.84 |         -7.14 |    47.17 | Downtrend (50DMA < 200DMA) |                |
-| POWERGRID  | Energy            |   269    |   7.92 |   2.45 |         -3.52 |    62.44 | Downtrend (50DMA < 200DMA) |                |
-| NTPC       | Energy            |   325    |   6.18 |   2.14 |         -6.67 |    58.59 | Downtrend (50DMA < 200DMA) |                |
-| TATACONSUM | FMCG              |  1155.9  |  19.09 |   0.94 |          6.52 |    76.98 | Downtrend (50DMA < 200DMA) |                |
-| ONGC       | Energy            |   223.46 |   2.54 |  -2.88 |         -8.67 |    50.98 | Downtrend (50DMA < 200DMA) |                |
-| M&M        | Auto              |  3545    |  22.71 |  -3.17 |         12.07 |    74.24 | Downtrend (50DMA < 200DMA) |                |
-| BEL        | Capital Goods     |   402    |   8.3  |  -3.7  |         -2.79 |    60.55 | Downtrend (50DMA < 200DMA) |                |
-| ASIANPAINT | Consumer          |  2595    |  11.6  |  -5.13 |          4.19 |    65.5  | Downtrend (50DMA < 200DMA) | Death cross    |
-| INDIGO     | Services          |  5587.6  |  20.38 |  -5.38 |         15.43 |    66.94 | Uptrend (50DMA > 200DMA)   |                |
-| MAXHEALTH  | Healthcare        |  1040.65 |  25.38 |  -5.54 |          3.1  |    74.94 | Downtrend (50DMA < 200DMA) | Death cross    |
-| CIPLA      | Healthcare        |  1418.5  |   7.13 |  -5.76 |          4.32 |    62.55 | Uptrend (50DMA > 200DMA)   |                |
-| BAJAJFINSV | Financials        |  1892    |  11.95 |  -7.91 |          2.57 |    64.79 | Downtrend (50DMA < 200DMA) | Golden cross   |
-| SBILIFE    | Financials        |  1826.5  |   9.96 |  -7.99 |         -0.11 |    63.47 | Downtrend (50DMA < 200DMA) |                |
-| RELIANCE   | Energy            |  1377.5  |  13.94 |  -8.41 |          4.35 |    75.17 | Downtrend (50DMA < 200DMA) |                |
-| MARUTI     | Auto              | 14011    |  25.1  | -10.14 |          6.42 |    76.03 | Downtrend (50DMA < 200DMA) |                |
-| HCLTECH    | IT                |  1344.4  |  -5.6  | -12.01 |          5.03 |    45.1  | Uptrend (50DMA > 200DMA)   | Golden cross   |
-| HINDUNILVR | FMCG              |  2074.2  |  12.99 | -12.76 |         -0.62 |    72.28 | Downtrend (50DMA < 200DMA) |                |
-| HDFCBANK   | Financials        |   846    |  19.67 | -12.84 |          9.39 |    77.95 | Downtrend (50DMA < 200DMA) |                |
-| TCS        | IT                |  2376.2  |  -6.04 | -20.19 |          1.18 |    47.34 | Downtrend (50DMA < 200DMA) |                |
-| WIPRO      | IT                |   185.7  |  -1.83 | -21.47 |         -1.31 |    47.38 | Downtrend (50DMA < 200DMA) |                |
-| ITC        | FMCG              |   299.1  |  14.16 | -22.68 |          4.79 |    71.88 | Downtrend (50DMA < 200DMA) |                |
-| HDFCLIFE   | Financials        |   588.65 |   9.08 | -24.48 |          0.01 |    62.33 | Downtrend (50DMA < 200DMA) |                |
-| TRENT      | Consumer          |  3256.1  |  15.38 | -24.63 |         15.48 |    69.67 | Uptrend (50DMA > 200DMA)   | Golden cross   |
-| INFY       | IT                |  1098    |  -3.84 | -25.58 |         -3.99 |    46.17 | Downtrend (50DMA < 200DMA) |                |
-| JIOFIN     | Financials        |   224.97 |   6.42 | -27.42 |         -5.36 |    53.62 | Downtrend (50DMA < 200DMA) |                |
-| TMPV       | Auto              |   266.35 |  -3.39 | -32.51 |        -19.46 |    42.91 | Downtrend (50DMA < 200DMA) |                |
+| TECHM      | IT                |  1777.5  |  -2.02 |  27.76 |         18.15 |    57.2  | Uptrend (50DMA > 200DMA)   |                |
+| ADANIPORTS | Services          |  1919    |   9.66 |  27.39 |         13.64 |    60.27 | Uptrend (50DMA > 200DMA)   |                |
+| APOLLOHOSP | Healthcare        |  9257    |  21.73 |  25.06 |         12.75 |    71.38 | Uptrend (50DMA > 200DMA)   |                |
+| SHRIRAMFIN | Financials        |   995.9  |  11.41 |  24.73 |          0.58 |    60.96 | Downtrend (50DMA < 200DMA) | Death cross    |
+| EICHERMOT  | Auto              |  8172.5  |  15.36 |  23.35 |         10.74 |    71.23 | Uptrend (50DMA > 200DMA)   | Golden cross   |
+| TITAN      | Consumer          |  4680    |   7.59 |  22.62 |          4.27 |    49.19 | Uptrend (50DMA > 200DMA)   |                |
+| BAJAJ-AUTO | Auto              | 10643    |   4.81 |  22.05 |          2.98 |    49.2  | Uptrend (50DMA > 200DMA)   |                |
+| KOTAKBANK  | Financials        |   502.85 |  15.07 |  21.1  |         24.14 |    68.86 | Uptrend (50DMA > 200DMA)   | Golden cross   |
+| ETERNAL    | Consumer Services |   362.1  |  18.94 |  19.21 |         26.34 |    59.79 | Uptrend (50DMA > 200DMA)   |                |
+| SBIN       | Financials        |  1132.65 |  16.77 |  19.14 |          9.43 |    70.28 | Downtrend (50DMA < 200DMA) | Death cross    |
+| ICICIBANK  | Financials        |  1585.5  |  13.37 |  16.45 |         16.57 |    65.35 | Uptrend (50DMA > 200DMA)   |                |
+| JSWSTEEL   | Metals & Mining   |  1311.9  |   7.53 |  12.98 |          4.75 |    52.31 | Uptrend (50DMA > 200DMA)   |                |
+| HINDALCO   | Metals & Mining   |   900.45 |   1.68 |  12.63 |         -7.81 |    43.15 | Downtrend (50DMA < 200DMA) | Death cross    |
+| AXISBANK   | Financials        |  1388.6  |  14.57 |  11.93 |          8.07 |    63.87 | Downtrend (50DMA < 200DMA) | Death cross    |
+| DRREDDY    | Healthcare        |  1380.1  |  11.39 |  11.46 |         10.01 |    64.44 | Uptrend (50DMA > 200DMA)   | Golden cross   |
+| GRASIM     | Materials         |  3075.2  |   6.25 |  10.83 |          2.46 |    51.14 | Uptrend (50DMA > 200DMA)   |                |
+| ADANIENT   | Metals & Mining   |  2677.9  |   5.02 |   9.8  |          1.06 |    48.38 | Uptrend (50DMA > 200DMA)   |                |
+| ULTRACEMCO | Materials         | 12650    |  15.44 |   8.71 |         10.21 |    66.69 | Downtrend (50DMA < 200DMA) | Golden cross   |
+| BAJFINANCE | Financials        |  1095.5  |  16.28 |   8.22 |         11.85 |    60.72 | Uptrend (50DMA > 200DMA)   |                |
+| SUNPHARMA  | Healthcare        |  1860    |   5.8  |   6.82 |          2.19 |    55.42 | Downtrend (50DMA < 200DMA) | Death cross    |
+| COALINDIA  | Energy            |   382    |  -2.66 |   5.29 |         -7.57 |    38.16 | Downtrend (50DMA < 200DMA) | Death cross    |
+| NESTLEIND  | FMCG              |  1305.9  |   9.75 |   3.75 |         -3.63 |    55.39 | Downtrend (50DMA < 200DMA) | Death cross    |
+| LT         | Capital Goods     |  4099.9  |  12.69 |   3.38 |          4.17 |    59.08 | Downtrend (50DMA < 200DMA) | Death cross    |
+| BHARTIARTL | Telecom           |  2128.5  |  12.32 |   2.6  |         13.06 |    64.84 | Uptrend (50DMA > 200DMA)   | Golden cross   |
+| POWERGRID  | Energy            |   264.85 |   7.86 |   0.33 |         -5.03 |    57    | Downtrend (50DMA < 200DMA) |                |
+| MAXHEALTH  | Healthcare        |  1089.55 |  33.36 |  -1.05 |          7.81 |    79.83 | Downtrend (50DMA < 200DMA) | Death cross    |
+| NTPC       | Energy            |   315.45 |   5.24 |  -1.25 |         -9.35 |    47.64 | Downtrend (50DMA < 200DMA) |                |
+| TATACONSUM | FMCG              |  1133    |  18.05 |  -1.31 |          4.39 |    67.99 | Downtrend (50DMA < 200DMA) |                |
+| ONGC       | Energy            |   222.85 |   2.54 |  -4.22 |         -8.85 |    49.84 | Downtrend (50DMA < 200DMA) |                |
+| TATASTEEL  | Metals & Mining   |   163    |  -5.41 |  -4.53 |        -14.88 |    32    | Downtrend (50DMA < 200DMA) |                |
+| M&M        | Auto              |  3487.4  |  21.76 |  -4.72 |         10.23 |    68.98 | Downtrend (50DMA < 200DMA) |                |
+| INDIGO     | Services          |  5523    |  20.07 |  -6.52 |         13.99 |    63.06 | Uptrend (50DMA > 200DMA)   |                |
+| BEL        | Capital Goods     |   395.8  |   8.59 |  -6.75 |         -4.23 |    54.31 | Downtrend (50DMA < 200DMA) |                |
+| CIPLA      | Healthcare        |  1399.9  |   5.18 |  -7.77 |          2.88 |    54.67 | Uptrend (50DMA > 200DMA)   |                |
+| BAJAJFINSV | Financials        |  1880.1  |  12.04 |  -8.91 |          1.94 |    62.24 | Downtrend (50DMA < 200DMA) | Death cross    |
+| SBILIFE    | Financials        |  1804.9  |   9.86 |  -9.67 |         -1.24 |    59.2  | Downtrend (50DMA < 200DMA) |                |
+| MARUTI     | Auto              | 14010    |  25.43 |  -9.78 |          6.42 |    76    | Downtrend (50DMA < 200DMA) |                |
+| ASIANPAINT | Consumer          |  2580.4  |  13.2  | -10.09 |          3.54 |    62.13 | Downtrend (50DMA < 200DMA) | Death cross    |
+| HCLTECH    | IT                |  1364.3  |  -4.04 | -10.49 |          6.71 |    49.98 | Uptrend (50DMA > 200DMA)   | Golden cross   |
+| RELIANCE   | Energy            |  1351    |  14.06 | -10.64 |          2.36 |    64.89 | Downtrend (50DMA < 200DMA) |                |
+| HINDUNILVR | FMCG              |  2019.1  |  11.48 | -15.19 |         -3.13 |    60.75 | Downtrend (50DMA < 200DMA) |                |
+| HDFCBANK   | Financials        |   817.8  |  17.83 | -15.99 |          5.81 |    65.19 | Downtrend (50DMA < 200DMA) |                |
+| TCS        | IT                |  2460    |  -1.87 | -17.38 |          4.88 |    57.32 | Downtrend (50DMA < 200DMA) |                |
+| WIPRO      | IT                |   187.29 |  -1.64 | -20.48 |         -0.33 |    49.83 | Downtrend (50DMA < 200DMA) |                |
+| ITC        | FMCG              |   301    |  16.26 | -22.66 |          5.46 |    73.02 | Downtrend (50DMA < 200DMA) |                |
+| INFY       | IT                |  1103.4  |  -2.14 | -23.27 |         -3.31 |    47.49 | Downtrend (50DMA < 200DMA) |                |
+| HDFCLIFE   | Financials        |   574.95 |   8.82 | -25.42 |         -2.19 |    55.71 | Downtrend (50DMA < 200DMA) |                |
+| TRENT      | Consumer          |  3208    |  15.57 | -26.84 |         13.64 |    63.77 | Uptrend (50DMA > 200DMA)   | Golden cross   |
+| JIOFIN     | Financials        |   219.7  |   4.22 | -30.07 |         -7.51 |    46.73 | Downtrend (50DMA < 200DMA) |                |
+| TMPV       | Auto              |   259    |  -4.07 | -33.24 |        -21.57 |    39.17 | Downtrend (50DMA < 200DMA) |                |
 
 ![Sectors](chart_sectors.png)
 

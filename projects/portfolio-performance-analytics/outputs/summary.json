@@ -2,50 +2,50 @@
   "data": "SAMPLE portfolio (illustrative transactions) valued with real NSE prices from Yahoo Finance",
   "period": [
     "2024-01-15",
-    "2026-11-20"
+    "2026-11-23"
   ],
   "transactions": 145,
   "net_invested_inr": 1110000,
-  "current_value_inr": 1259512,
-  "gain_inr": 149512,
-  "nifty_equivalent_value_inr": 1230637,
-  "xirr_%": 6.54,
-  "nifty_xirr_same_cash_flows_%": 5.33,
-  "twr_total_%": 24.07,
-  "nifty_total_return_%": 16.76,
+  "current_value_inr": 1230522,
+  "gain_inr": 120522,
+  "nifty_equivalent_value_inr": 1209128,
+  "xirr_%": 5.3,
+  "nifty_xirr_same_cash_flows_%": 4.39,
+  "twr_total_%": 21.21,
+  "nifty_total_return_%": 14.72,
   "portfolio": {
-    "annualised_return_%": 8.038,
-    "volatility_%": 13.44,
-    "sharpe": 0.114,
-    "sortino": 0.152,
+    "annualised_return_%": 7.129,
+    "volatility_%": 13.449,
+    "sharpe": 0.047,
+    "sortino": 0.062,
     "max_drawdown_%": -18.11,
     "best_day_%": 3.541,
     "worst_day_%": -4.587,
-    "beta": 0.821,
-    "alpha_%": 2.186,
-    "tracking_error_%": 7.766,
-    "information_ratio": 0.3,
-    "correlation_with_nifty": 0.836
+    "beta": 0.819,
+    "alpha_%": 1.827,
+    "tracking_error_%": 7.806,
+    "information_ratio": 0.268,
+    "correlation_with_nifty": 0.835
   },
   "nifty": {
-    "annualised_return_%": 5.711,
-    "volatility_%": 13.683,
-    "sharpe": -0.058,
-    "sortino": -0.08,
+    "annualised_return_%": 5.038,
+    "volatility_%": 13.714,
+    "sharpe": -0.107,
+    "sortino": -0.149,
     "max_drawdown_%": -15.767,
     "best_day_%": 3.818,
     "worst_day_%": -5.929
   },
   "diversification": {
     "holdings": 10,
-    "effective_holdings": 5.76,
-    "diversification_ratio": 1.65,
-    "portfolio_volatility_1y_%": 16.28,
+    "effective_holdings": 5.8,
+    "diversification_ratio": 1.66,
+    "portfolio_volatility_1y_%": 16.27,
     "avg_pairwise_correlation": 0.21,
     "lowest_correlation_pair": [
       "GOLDBEES",
       "SUNPHARMA",
-      -0.03
+      -0.02
     ],
     "highest_correlation_pair": [
       "INFY",
@@ -53,12 +53,12 @@
       0.78
     ],
     "sector_weights_%": {
-      "Financials": 27.0,
-      "Gold": 26.3,
-      "Capital Goods": 20.0,
-      "IT": 13.9,
+      "Financials": 26.8,
+      "Gold": 26.1,
+      "Capital Goods": 19.9,
+      "IT": 14.3,
       "Energy": 4.8,
-      "Healthcare": 4.6,
+      "Healthcare": 4.7,
       "Telecom": 2.3,
       "FMCG": 1.1
     }
@@ -73,8 +73,8 @@
       "nifty_%": 10.51
     },
     "2026": {
-      "portfolio_%": -5.93,
-      "nifty_%": -1.26
+      "portfolio_%": -8.1,
+      "nifty_%": -2.98
     }
   },
   "risk_free_rate_assumed_%": 6.5
