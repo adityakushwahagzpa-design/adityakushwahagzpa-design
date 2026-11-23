@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/aditya-hero.svg" width="100%" alt="Aditya Kushwaha — Fund Accounting, NAV, Reconciliations, KYC/AML"/>
+  <img src="assets/aditya-hero.svg" width="100%" alt="Aditya Kushwaha — KYC/AML, Fund Accounting, NAV, Reconciliations"/>
 </p>
 
 <p align="center">
