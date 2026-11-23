@@ -1,6 +1,6 @@
 # Real-Time Business Anomaly Detection | Python
 
-**[Interactive demo](https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/anomaly-detection.html)** · explore the results in your browser
+**[Interactive demo](https://claude.ai/artifact/FKL5CFuR285YSbzgCNuDuA)** · explore the results in your browser
 
 A streaming monitor for a payments business. It reads one minute of data at a time, scores 15 metric series against a seasonal baseline, raises alerts, merges them into incidents and suggests a likely cause, the way an operations or risk team would want to hear about a gateway outage or a pricing bug while it is still happening.
 

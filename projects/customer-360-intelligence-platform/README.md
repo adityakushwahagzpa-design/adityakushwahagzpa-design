@@ -1,6 +1,6 @@
 # Customer 360 Intelligence Platform (AI-Powered)
 
-**[Interactive demo](https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/customer-360.html)** · explore the results in your browser
+**[Interactive demo](https://claude.ai/artifact/TH3bhBV64x7DbEzoZr7CCi)** · explore the results in your browser
 
 One trusted view of every customer, and what to do next with each one. The platform resolves duplicate customer records across three bank systems, builds a single 360 table, scores churn risk, product propensity and lifetime value, picks a next best action for each customer within credit and KYC guardrails, and gives relationship managers (RMs) a Claude assistant that writes meeting briefs from the data.
 

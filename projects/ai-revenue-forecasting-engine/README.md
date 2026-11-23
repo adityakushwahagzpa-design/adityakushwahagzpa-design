@@ -1,6 +1,6 @@
 # AI-Powered Revenue Forecasting Engine | Python, LightGBM, Claude
 
-**[Interactive demo](https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/revenue-forecasting.html)** · explore the results in your browser
+**[Interactive demo](https://claude.ai/artifact/HRDSJjGuvzysgtu8szUpTq)** · explore the results in your browser
 
 A forecasting engine for a retail business with two layers of AI: a LightGBM machine-learning model that forecasts revenue from festivals, discounts and marketing spend, and a Claude-powered AI analyst that answers questions in plain English ("what if we cut marketing by 10%?") by running the forecast model through tool calls, so every number it quotes comes from the model. It also backtests three models, gives a P10–P90 range and produces an Excel forecast pack, the output an FP&A team would take into a planning meeting.
 

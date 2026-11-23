@@ -1,6 +1,6 @@
 # AI-Powered Text-to-SQL Analytics Assistant
 
-**[Interactive demo](https://adityakushwahagzpa-design.github.io/adityakushwahagzpa-design/text-to-sql.html)** · explore the results in your browser
+**[Interactive demo](https://claude.ai/artifact/VwD7HrFjo1dt9iPNo5iuGY)** · explore the results in your browser
 
 Ask a business question in plain English, such as "What is the gross NPA ratio by region?", and get back the SQL, the result table from the database, a short explanation and a chart. Claude writes the SQL, tests it, fixes its own errors, and can never change the data: every query passes a two-layer safety guard.
 
