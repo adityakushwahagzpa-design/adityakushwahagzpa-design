@@ -10,13 +10,13 @@
     "Bajaj Finance": 1.31
   },
   "lowest_beta": {
-    "ONGC": 0.54
+    "ONGC": 0.56
   },
-  "median_r2": 0.36,
+  "median_r2": 0.35,
   "stocks_with_significant_alpha": 1,
-  "market_premium_realised_pct": 3.07,
-  "sml_intercept_pct": 2.0,
-  "sml_slope_pct": 4.79,
-  "sml_t_slope": 0.47,
-  "sml_r2": 0.01
+  "market_premium_realised_pct": 2.68,
+  "sml_intercept_pct": 4.75,
+  "sml_slope_pct": 1.5,
+  "sml_t_slope": 0.14,
+  "sml_r2": 0.0
 }

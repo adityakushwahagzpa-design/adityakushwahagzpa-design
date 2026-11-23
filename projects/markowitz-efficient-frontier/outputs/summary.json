@@ -1,50 +1,50 @@
 {
-  "period": "22 Nov 2021 to 20 Nov 2026",
+  "period": "23 Nov 2021 to 23 Nov 2026",
   "stocks": 10,
   "risk_free_assumption_pct": 6.5,
-  "average_stock_volatility_pct": 22.3,
-  "equal_weight_volatility_pct": 13.08,
+  "average_stock_volatility_pct": 22.31,
+  "equal_weight_volatility_pct": 13.09,
   "min_variance": {
-    "return_pct": 9.28,
+    "return_pct": 8.98,
     "volatility_pct": 12.29,
-    "sharpe": 0.23
+    "sharpe": 0.2
   },
   "max_sharpe": {
-    "return_pct": 20.66,
-    "volatility_pct": 15.68,
-    "sharpe": 0.9
+    "return_pct": 19.97,
+    "volatility_pct": 15.71,
+    "sharpe": 0.86
   },
   "equal_weight": {
-    "return_pct": 7.86,
-    "volatility_pct": 13.08,
-    "sharpe": 0.1
+    "return_pct": 7.59,
+    "volatility_pct": 13.09,
+    "sharpe": 0.08
   },
   "max_sharpe_top_holdings": {
-    "Bharti Airtel": 48.1,
-    "Sun Pharma": 40.8,
-    "L&T": 11.1
+    "Bharti Airtel": 48.6,
+    "Sun Pharma": 41.1,
+    "L&T": 10.3
   },
   "stocks_with_zero_weight_in_max_sharpe": 7,
-  "out_of_sample_from": "13 Nov 2025",
+  "out_of_sample_from": "14 Nov 2025",
   "out_of_sample": {
     "Minimum variance": {
-      "return_pct": -8.63,
+      "return_pct": -8.94,
       "volatility_pct": 13.75,
-      "max_drawdown_pct": -22.58
+      "max_drawdown_pct": -22.56
     },
     "Maximum Sharpe": {
-      "return_pct": -0.61,
+      "return_pct": -1.97,
       "volatility_pct": 14.56,
-      "max_drawdown_pct": -16.76
+      "max_drawdown_pct": -16.88
     },
     "Equal weight": {
-      "return_pct": -8.08,
-      "volatility_pct": 14.16,
+      "return_pct": -8.78,
+      "volatility_pct": 14.18,
       "max_drawdown_pct": -23.33
     },
     "Nifty 50": {
-      "return_pct": -0.29,
-      "volatility_pct": 14.29,
+      "return_pct": -2.05,
+      "volatility_pct": 14.4,
       "max_drawdown_pct": -15.56
     }
   }
