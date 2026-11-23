@@ -1,0 +1,4 @@
+pattern,fraud_transactions,velocity_pct,impossible_travel_pct,unusual_amount_pct,any rule_pct
+account_takeover,279,0.0,0.0,35.1,35.1
+cloned_card,138,0.0,27.5,29.0,47.8
+card_testing,71,29.6,0.0,0.0,29.6

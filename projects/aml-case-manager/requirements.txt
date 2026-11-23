@@ -1,0 +1,10 @@
+pandas
+numpy
+kuzu
+neo4j
+psycopg2-binary
+fastapi
+uvicorn
+networkx
+matplotlib
+pytest

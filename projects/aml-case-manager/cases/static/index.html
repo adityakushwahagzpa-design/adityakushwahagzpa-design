@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AML Case Manager</title>
+<style>
+  :root { --bg:#f6f7f9; --panel:#fff; --line:#dde1e7; --text:#1b2333; --muted:#667085; --red:#c0392b; --navy:#1f3b73; --amber:#b7791f; --green:#2f855a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--text); }
+  header { padding:18px 28px; background:var(--navy); color:#fff; }
+  header h1 { margin:0; font-size:20px; } header p { margin:4px 0 0; opacity:.8; font-size:13px; }
+  main { display:grid; grid-template-columns:430px 1fr; gap:16px; padding:16px 28px; }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+  h2 { font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:0 0 10px; }
+  table { width:100%; border-collapse:collapse; } th { text-align:left; font-weight:500; color:var(--muted); font-size:12px; border-bottom:1px solid var(--line); padding:6px; }
+  td { padding:6px; border-bottom:1px solid #eef0f3; } tr.c { cursor:pointer; } tr.c:hover, tr.sel { background:#eef3fb; }
+  .num { text-align:right; font-variant-numeric:tabular-nums; }
+  .tag { border-radius:5px; padding:1px 7px; font-size:12px; font-weight:600; white-space:nowrap; }
+  .open { background:#fdecea; color:var(--red); } .review { background:#fff4e0; color:var(--amber); } .closed { background:#e6f4ea; color:var(--green); }
+  .kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:12px; }
+  .kpi { background:#f8f9fb; border:1px solid var(--line); border-radius:8px; padding:8px 10px; } .kpi b { display:block; font-size:18px; } .kpi span { color:var(--muted); font-size:12px; }
+  svg { width:100%; height:360px; background:#fbfcfd; border:1px solid var(--line); border-radius:8px; }
+  .actions { display:flex; gap:8px; margin:12px 0; align-items:center; }
+  button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:6px 12px; cursor:pointer; font:inherit; }
+  .note { color:var(--muted); font-size:12px; } .list { max-height:640px; overflow:auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>AML Case Manager</h1>
+  <p>Cases opened by graph pattern rules (cycles, fan-in, fan-out). A case is a reason to look closer, not a conclusion.</p>
+</header>
+<main>
+  <section class="panel">
+    <h2>Cases</h2>
+    <div class="list"><table id="cases"><thead><tr><th>#</th><th>Pattern</th><th class="num">Accounts</th><th class="num">USD</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+  </section>
+  <section class="panel" id="detail"><h2>Case</h2><p class="note">Select a case.</p></section>
+</main>
+<script>
+const usd = (x) => "$" + Number(x).toLocaleString("en-US", { maximumFractionDigits: 0 });
+const cls = (s) => (s === "open" ? "open" : s === "closed" ? "closed" : "review");
+const short = (id) => id.split("_")[1].slice(0, 4);
+let selected = null;
+
+async function loadCases() {
+  const rows = await (await fetch("/api/cases")).json();
+  document.querySelector("#cases tbody").innerHTML = rows.map((c) =>
+    `<tr class="c ${c.case_id === selected ? "sel" : ""}" data-id="${c.case_id}"><td>${c.case_id}</td><td>${c.patterns}<div class="note">${c.detail}</div></td>
+     <td class="num">${c.n_accounts}</td><td class="num">${usd(c.total_usd)}</td><td><span class="tag ${cls(c.status)}">${c.status}</span></td></tr>`).join("");
+  document.querySelectorAll("tr.c").forEach((tr) => tr.onclick = () => show(Number(tr.dataset.id)));
+  if (!selected && rows.length) show(rows.find((r) => r.patterns.includes("+"))?.case_id || rows[0].case_id);
+}
+
+function graph(edges, patterns) {
+  const nodes = [...new Set(edges.flatMap((e) => [e.src, e.dst]))];
+  const deg = Object.fromEntries(nodes.map((n) => [n, edges.filter((e) => e.src === n || e.dst === n).length]));
+  const hub = nodes.reduce((a, b) => (deg[b] > deg[a] ? b : a), nodes[0]);
+  const W = 640, H = 360, pos = {};
+  if (patterns.includes("cycle") || deg[hub] < 4) {
+    nodes.forEach((n, i) => { const a = (2 * Math.PI * i) / nodes.length - Math.PI / 2; pos[n] = [W / 2 + 130 * Math.cos(a), H / 2 + 130 * Math.sin(a)]; });
+  } else {
+    const ins = [...new Set(edges.filter((e) => e.dst === hub).map((e) => e.src))].filter((n) => n !== hub);
+    const outs = [...new Set(edges.filter((e) => e.src === hub).map((e) => e.dst))].filter((n) => n !== hub && !ins.includes(n));
+    pos[hub] = [W / 2, H / 2];
+    ins.forEach((n, i) => (pos[n] = [110, ((i + 1) * H) / (ins.length + 1)]));
+    outs.forEach((n, i) => (pos[n] = [W - 110, ((i + 1) * H) / (outs.length + 1)]));
+    nodes.filter((n) => !pos[n]).forEach((n, i) => (pos[n] = [W / 2 + 60 * (i + 1), 40]));
+  }
+  const lines = edges.map((e) => {
+    const [x1, y1] = pos[e.src], [x2, y2] = pos[e.dst], dx = x2 - x1, dy = y2 - y1, d = Math.hypot(dx, dy) || 1;
+    const ex = x2 - (dx / d) * 20, ey = y2 - (dy / d) * 20;
+    return `<line x1="${x1}" y1="${y1}" x2="${ex}" y2="${ey}" stroke="#c0392b" stroke-width="1.6" marker-end="url(#a)"><title>${short(e.src)} → ${short(e.dst)} · ${usd(e.amount_usd)} · ${e.ts}</title></line>`;
+  }).join("");
+  const circles = nodes.map((n) => `<circle cx="${pos[n][0]}" cy="${pos[n][1]}" r="17" fill="${n === hub ? "#c0392b" : "#1f3b73"}"><title>${n}</title></circle>
+     <text x="${pos[n][0]}" y="${pos[n][1] + 4}" text-anchor="middle" font-size="10" fill="#fff">${short(n)}</text>`).join("");
+  return `<svg viewBox="0 0 ${W} ${H}"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker></defs>${lines}${circles}</svg>`;
+}
+
+async function show(id) {
+  selected = id;
+  const c = await (await fetch(`/api/cases/${id}`)).json();
+  const ev = c.evidence;
+  document.getElementById("detail").innerHTML = `
+    <h2>Case ${c.case_id} · ${c.patterns}</h2>
+    <div class="kpis"><div class="kpi"><b>${c.n_accounts}</b><span>accounts</span></div><div class="kpi"><b>${c.n_transfers}</b><span>transfers</span></div>
+      <div class="kpi"><b>${usd(c.total_usd)}</b><span>moved (USD)</span></div><div class="kpi"><b><span class="tag ${cls(c.status)}">${c.status}</span></b><span>status</span></div></div>
+    <p class="note">${c.detail} · first transfer ${c.opened_for.replace("T", " ")}. Hover an arrow for the amount and time.</p>
+    ${graph(ev, c.patterns)}
+    <div class="actions"><button data-s="under review">Start review</button><button data-s="closed">Close</button><button data-s="open">Reopen</button>
+      <span class="note">${c.events.map((e) => `${(e.from_status || "new")} → ${e.to_status}`).join(" · ")}</span></div>
+    <table><thead><tr><th>Time</th><th>From</th><th>To</th><th class="num">USD</th><th>Format</th></tr></thead><tbody>
+    ${ev.map((e) => `<tr><td>${e.ts.replace("T", " ").slice(0, 16)}</td><td>${e.src}</td><td>${e.dst}</td><td class="num">${usd(e.amount_usd)}</td><td>${e.format}</td></tr>`).join("")}
+    </tbody></table>`;
+  document.querySelectorAll(".actions button").forEach((b) => b.onclick = async () => {
+    await fetch(`/api/cases/${id}/status`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ status: b.dataset.s, note: "changed in case view" }) });
+    show(id); loadCases();
+  });
+  loadCases();
+}
+loadCases();
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+psycopg2-binary
+httpx
+pandas
+numpy
+matplotlib
+pytest

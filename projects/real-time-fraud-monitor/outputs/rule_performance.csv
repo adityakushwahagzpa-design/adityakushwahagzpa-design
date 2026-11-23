@@ -1,0 +1,5 @@
+rule,alerts,true_alerts,false_alerts,precision_pct,recall_pct
+velocity,21,21,0,100.0,4.3
+impossible_travel,53,38,15,71.7,7.8
+unusual_amount,5640,138,5502,2.4,28.3
+any rule,5702,185,5517,3.2,37.9

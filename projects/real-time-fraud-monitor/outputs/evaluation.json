@@ -1,0 +1,86 @@
+{
+  "transactions": 403847,
+  "cards": 1000,
+  "fraud_transactions": 488,
+  "fraud_rate_pct": 0.121,
+  "microseconds_per_check": 2.4,
+  "checks_per_second": 421428,
+  "rules": [
+    {
+      "rule": "velocity",
+      "alerts": 21,
+      "true_alerts": 21,
+      "false_alerts": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 4.3
+    },
+    {
+      "rule": "impossible_travel",
+      "alerts": 53,
+      "true_alerts": 38,
+      "false_alerts": 15,
+      "precision_pct": 71.7,
+      "recall_pct": 7.8
+    },
+    {
+      "rule": "unusual_amount",
+      "alerts": 5640,
+      "true_alerts": 138,
+      "false_alerts": 5502,
+      "precision_pct": 2.4,
+      "recall_pct": 28.3
+    },
+    {
+      "rule": "any rule",
+      "alerts": 5702,
+      "true_alerts": 185,
+      "false_alerts": 5517,
+      "precision_pct": 3.2,
+      "recall_pct": 37.9
+    }
+  ],
+  "naive_vs_refined_travel": [
+    {
+      "version": "Naive: every transaction, any distance",
+      "alerts": 16343,
+      "true_alerts": 191,
+      "false_alerts": 16152,
+      "precision_pct": 1.2,
+      "recall_pct": 39.1
+    },
+    {
+      "version": "Refined: in-store only, 100 km minimum",
+      "alerts": 53,
+      "true_alerts": 38,
+      "false_alerts": 15,
+      "precision_pct": 71.7,
+      "recall_pct": 7.8
+    }
+  ],
+  "recall_by_pattern": [
+    {
+      "pattern": "account_takeover",
+      "fraud_transactions": 279,
+      "velocity_pct": 0.0,
+      "impossible_travel_pct": 0.0,
+      "unusual_amount_pct": 35.1,
+      "any rule_pct": 35.1
+    },
+    {
+      "pattern": "cloned_card",
+      "fraud_transactions": 138,
+      "velocity_pct": 0.0,
+      "impossible_travel_pct": 27.5,
+      "unusual_amount_pct": 29.0,
+      "any rule_pct": 47.8
+    },
+    {
+      "pattern": "card_testing",
+      "fraud_transactions": 71,
+      "velocity_pct": 29.6,
+      "impossible_travel_pct": 0.0,
+      "unusual_amount_pct": 0.0,
+      "any rule_pct": 29.6
+    }
+  ]
+}

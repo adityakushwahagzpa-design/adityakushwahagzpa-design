@@ -1,0 +1,3 @@
+rules,cases,cases_with_laundering,case_precision_pct,transfers_in_cases,laundering_in_cases,coverage_pct,attempts_touched
+Refined (config/rules.json),43,38,88.4,340,306,59.0,33 of 55
+"Naive (no amount floor, no payroll cap, any amounts)",87,4,4.6,345957,426,82.1,47 of 55

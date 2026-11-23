@@ -1,0 +1,20 @@
+{
+  "limit_orders_only": {
+    "orders": 1000000,
+    "trades": 776217,
+    "seconds": 2.088,
+    "orders_per_second": 478883
+  },
+  "mixed_flow": {
+    "orders": 1000000,
+    "trades": 775292,
+    "seconds": 1.716,
+    "orders_per_second": 582880
+  },
+  "mixed_flow_with_trade_queue": {
+    "orders": 1000000,
+    "trades": 775292,
+    "seconds": 2.677,
+    "orders_per_second": 373530
+  }
+}

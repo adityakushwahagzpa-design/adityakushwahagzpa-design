@@ -1,0 +1,44 @@
+case,patterns,detail,accounts,transfers,laundering_transfers
+1,fan_in,8 senders in 24 h,9,8,7
+2,fan_in + fan_out,7 senders in 24 h; 6 receivers in 24 h,14,13,13
+3,fan_out,7 receivers in 24 h,8,7,7
+4,fan_out,8 receivers in 24 h,9,8,8
+5,fan_in + fan_out,5 senders in 24 h; 5 receivers in 24 h,11,10,9
+6,fan_in,9 senders in 24 h,10,9,8
+7,fan_in + fan_out,6 senders in 24 h; 6 receivers in 24 h,13,12,12
+8,fan_in,9 senders in 24 h,10,9,8
+9,fan_in,6 senders in 24 h,7,6,0
+10,fan_out,7 receivers in 24 h,8,7,7
+11,fan_in,7 senders in 24 h,8,7,0
+12,fan_out,6 receivers in 24 h,7,6,6
+13,fan_out,11 receivers in 24 h,12,11,11
+14,cycle,3-hop cycle,3,3,3
+15,cycle,5-hop cycle,5,5,5
+16,fan_in,9 senders in 24 h,10,9,9
+17,fan_out,9 receivers in 24 h,10,9,9
+18,fan_out,12 receivers in 24 h,13,12,12
+19,fan_out,5 receivers in 24 h,6,5,5
+20,cycle,3-hop cycle,3,3,3
+21,fan_in + fan_out,6 senders in 24 h; 7 receivers in 24 h,14,13,13
+22,fan_in,5 senders in 24 h,6,5,5
+23,fan_in + fan_out,5 senders in 24 h; 8 receivers in 24 h,14,13,12
+24,cycle,5-hop cycle,5,5,5
+25,fan_in,10 senders in 24 h,11,10,10
+26,fan_in,9 senders in 24 h,10,9,9
+27,fan_in,7 senders in 24 h,8,7,7
+28,fan_out,10 receivers in 24 h,11,10,10
+29,fan_in + fan_out,8 senders in 24 h; 8 receivers in 24 h,17,16,16
+30,fan_in,12 senders in 24 h,13,12,12
+31,fan_out,7 receivers in 24 h,8,7,7
+32,fan_out,5 receivers in 24 h,6,5,0
+33,fan_out,7 receivers in 24 h,8,7,7
+34,fan_in,7 senders in 24 h,8,7,7
+35,cycle,5-hop cycle,5,5,5
+36,cycle,5-hop cycle,5,5,5
+37,fan_in + fan_out,5 senders in 24 h; 7 receivers in 24 h,13,12,12
+38,fan_out,5 receivers in 24 h,6,5,5
+39,cycle,5-hop cycle,5,5,5
+40,fan_in,5 senders in 24 h,6,5,5
+41,fan_in,7 senders in 24 h,8,7,7
+42,fan_out,6 receivers in 24 h,7,6,0
+43,fan_in,5 senders in 24 h,6,5,0

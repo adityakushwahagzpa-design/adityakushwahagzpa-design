@@ -1,0 +1,18 @@
+{
+  "velocity": {
+    "enabled": true,
+    "window_seconds": 600,
+    "max_tx_in_window": 5
+  },
+  "impossible_travel": {
+    "enabled": true,
+    "max_speed_kmh": 900,
+    "min_distance_km": 100,
+    "card_present_only": true
+  },
+  "unusual_amount": {
+    "enabled": true,
+    "max_zscore": 4.0,
+    "min_history": 20
+  }
+}

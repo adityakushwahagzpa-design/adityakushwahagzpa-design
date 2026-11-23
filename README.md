@@ -70,9 +70,12 @@ Leadership of the university finance club and its 5-member core team.
 |:--|:--|:--|
 | **[Bank Transactions Analysis (SQL)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis)** | 4-table PostgreSQL bank database, 20 queries up to window functions and CTEs; AML rules flag 6 structuring customers and 7 reactivated dormant accounts | PostgreSQL, Python · [Live demo](https://claude.ai/artifact/S6zn4Ch5bCgmwDRhcatok9) |
 | **[Money Mule Ring Detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector)** | AML graph analytics on ~64,000 synthetic transfers; all 8 hidden rings found (GNN precision 0.91, recall 1.00) | Python, NetworkX, PyTorch Geometric, Neo4j |
+| **[AML Case Manager](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/aml-case-manager)** | 518,023 bank transfers as a graph; Cypher cycle, fan-in and fan-out rules opened 43 cases, 88% containing laundering, and caught 100% of cycles and 95–98% of fan patterns; shows which of IBM's 8 patterns rules miss | Python, Cypher (graph DB), PostgreSQL, FastAPI |
+| **[Real-Time Fraud Monitor](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/real-time-fraud-monitor)** | 403,847 card transactions checked live against velocity, impossible-travel and unusual-amount rules in config; precision and recall per rule (velocity 100% precise; fixing the travel rule cut 16,343 alerts to 53) | Python, FastAPI, PostgreSQL, React |
 | **[Customer 360 Intelligence Platform](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/customer-360-intelligence-platform)** | ML identity resolution across core banking, CRM and cards (F1 0.992 vs 0.724 for phone/email matching), a 360 table, churn and product-propensity models (top 10% catch 33% of leavers), lifetime value, next best action with credit/KYC guardrails, and a Claude RM assistant | Python, LightGBM, rapidfuzz, Claude API · [Live demo](https://claude.ai/artifact/TH3bhBV64x7DbEzoZr7CCi) |
 | **[Real-Time Business Anomaly Detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/realtime-business-anomaly-detection)** | Minute-by-minute monitor of 19.9 million payments across UPI, Card and NetBanking: all 7 planted incidents caught (6 within 3 minutes), 0 false alarms in 12 days, planned festival surge correctly ignored | Python · [Live demo](https://claude.ai/artifact/FKL5CFuR285YSbzgCNuDuA) |
 | **[AI Text-to-SQL Analytics Assistant](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-text-to-sql-assistant)** | Ask a bank database questions in plain English: Claude writes and self-corrects SQL using a glossary of banking terms (NPA, CASA, fiscal year); a two-layer read-only guard blocked all 25 red-team attacks; 30-question benchmark with verified answers | Python, Claude API, SQLite, sqlglot · [Live demo](https://claude.ai/artifact/VwD7HrFjo1dt9iPNo5iuGY) |
+| **[Stock Exchange Matching Engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/stock-exchange-matching-engine)** | Price-time priority order book with limit, market and cancel orders, live over WebSockets; checked trade by trade against a reference engine on 200 random sequences; ~500,000 orders a second | Python, FastAPI, WebSockets, React, PostgreSQL |
 | **[Credit Appraisal Model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model)** | ₹20 crore term-loan appraisal; DSCR 2.39x, recommended at grade CR-2 | Excel |
 | **[AP Three-Way Match](https://github.com/adityakushwahagzpa-design/ap-three-way-match)** | PO, GRN and invoice matching with quantity and price variance flags and an approval-ready payment list | Excel, PDF |
 | **[Fund Operations Month-End Reconciliation](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fund-operations-reconciliation)** | Fund book vs broker vs custodian for a ₹37 crore fund: trade matching, T+1 settlement monitoring, corporate actions, position and cash reconciliation. 97.6% of 668 records auto-cleared, the ₹56.9 lakh cash gap fully explained, and open breaks shown to understate NAV by 154 bps | Python, Excel |
@@ -149,7 +152,59 @@ A glossary of banking terms (NPA, SMA, CASA) and two layers of read-only access 
 
 </details>
 
+<details>
+<summary><b>AML Case Manager</b></summary>
+<br/>
+
+Bank transfers as a graph, Cypher pattern rules, and cases in PostgreSQL for human review.
+
+| | |
+|:--|:--|
+| **Stack** | Python, Cypher (Kùzu; Neo4j loader included), PostgreSQL, FastAPI |
+| **Scope** | 518,023 transfers, 25,000 accounts, 519 labelled laundering transfers in IBM’s 8 patterns (synthetic, HI-Small format) |
+| **Key Result** | 43 cases, 88% with laundering; 59% of laundering transfers covered (100% of cycles and gather-scatter, 0% of random, bipartite and stack) |
+| **Repository** | [aml-case-manager](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/aml-case-manager) |
+
+Time-ordered 3–5 hop cycles, fan-in and fan-out in 24-hour windows, a case view with the money-flow graph, and status tracking.
+
+</details>
+
+<details>
+<summary><b>Real-Time Transaction Fraud Monitor</b></summary>
+<br/>
+
+Every card transaction checked the moment it arrives against configurable rules, with a live alert queue.
+
+| | |
+|:--|:--|
+| **Stack** | Python, FastAPI, PostgreSQL, React |
+| **Scope** | 403,847 card transactions, 1,000 cards, 488 labelled fraud (synthetic, Sparkov-style) |
+| **Key Result** | Velocity 100% precise; refined impossible-travel rule 71.7% precise (from 1.2%); all rules together catch 37.9% of fraud at about 3 µs per check |
+| **Repository** | [real-time-fraud-monitor](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/real-time-fraud-monitor) |
+
+Per-card sliding window, last location and running amount statistics; precision and recall per rule and per fraud pattern; threshold tuning.
+
+</details>
+
 **Python Finance Projects**
+
+<details>
+<summary><b>Stock Exchange Matching Engine</b></summary>
+<br/>
+
+A miniature stock exchange with a live order book.
+
+| | |
+|:--|:--|
+| **Stack** | Python, FastAPI, WebSockets, React, PostgreSQL |
+| **Scope** | Limit, market and cancel orders; trades stored in PostgreSQL in batches |
+| **Key Result** | 209 tests pass, including 200 random sequences matched trade by trade against a reference engine; about 480,000–580,000 orders a second |
+| **Repository** | [stock-exchange-matching-engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/stock-exchange-matching-engine) |
+
+Price-time priority with two heaps, prices in paise (never floats), lazy cancels, trades at the resting order’s price.
+
+</details>
+
 
 <details>
 <summary><b>Money Mule Ring Detector</b></summary>
@@ -619,12 +674,12 @@ A one-page Excel dashboard on a Flipkart-style catalogue, with every figure a li
 | [Fama & French (1993)](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fama-french-three-factor) | Three-factor model on eight US ETFs; R² up from 0.87 to 0.96, and the value premium turned negative after 2007 |
 
 <details>
-<summary><b>All 65 Projects</b></summary>
+<summary><b>All 68 Projects</b></summary>
 <br/>
 
 | Area | Repositories |
 |:--|:--|
-| **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) · [sql-bank-transactions-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) · [zomato-restaurant-analysis-sql](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/zomato-restaurant-analysis-sql) · [ipl-data-analysis-python](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python) |
+| **SQL & Python** | [zepto-sql-analysis](https://github.com/adityakushwahagzpa-design/zepto-sql-analysis) · [netflix-content-analysis](https://github.com/adityakushwahagzpa-design/netflix-content-analysis) · [sql-bank-transactions-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/sql-bank-transactions-analysis) · [zomato-restaurant-analysis-sql](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/zomato-restaurant-analysis-sql) · [ipl-data-analysis-python](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ipl-data-analysis-python) · [aml-case-manager](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/aml-case-manager) · [real-time-fraud-monitor](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/real-time-fraud-monitor) |
 | **Python Research & ML** | [ai-revenue-forecasting-engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-revenue-forecasting-engine) · [marketing-attribution-roi-intelligence](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/marketing-attribution-roi-intelligence) · [ai-text-to-sql-assistant](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-text-to-sql-assistant) · [customer-360-intelligence-platform](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/customer-360-intelligence-platform) · [realtime-business-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/realtime-business-anomaly-detection) · [bull-bear-ai-debate](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/bull-bear-ai-debate) · [money-mule-ring-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/money-mule-ring-detector) · [insider-cluster-buy-radar](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/insider-cluster-buy-radar) · [earnings-call-stress-detector](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/earnings-call-stress-detector) · [personal-inflation-tracker](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/personal-inflation-tracker) |
 | **Python Analytics & ML** | [credit-default-prediction-ml](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/credit-default-prediction-ml) · [card-fraud-anomaly-detection](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/card-fraud-anomaly-detection) · [financial-statement-analyzer](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-statement-analyzer) · [portfolio-performance-analytics](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/portfolio-performance-analytics) · [nifty-market-trend-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-market-trend-dashboard) |
 | **Credit** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
@@ -636,7 +691,7 @@ A one-page Excel dashboard on a Flipkart-style catalogue, with every figure a li
 | **MIS & Trackers** | [customer-sales-mis-report](https://github.com/adityakushwahagzpa-design/customer-sales-mis-report) · [training-deployment-tracker](https://github.com/adityakushwahagzpa-design/training-deployment-tracker) · [client-churn-dashboard](https://github.com/adityakushwahagzpa-design/client-churn-dashboard) · [security-cost-roi-analysis](https://github.com/adityakushwahagzpa-design/security-cost-roi-analysis) · [investment-portfolio-tracker](https://github.com/adityakushwahagzpa-design/investment-portfolio-tracker) |
 | **AI in Finance** | [ai-fpa-agent-claude](https://github.com/adityakushwahagzpa-design/ai-fpa-agent-claude) |
 | **Equity & Industry Research** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) · [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
-| **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) |
+| **Python Finance** | [india-market-data-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/india-market-data-dashboard) · [nse-stock-terminal](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nse-stock-terminal) · [ai-stock-analyst-agents](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/ai-stock-analyst-agents) · [financial-news-sentiment-analysis](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/financial-news-sentiment-analysis) · [stock-exchange-matching-engine](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/stock-exchange-matching-engine) |
 | **Classic Finance Papers** | [markowitz-efficient-frontier](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/markowitz-efficient-frontier) · [modigliani-miller-capital-structure](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/modigliani-miller-capital-structure) · [capm-beta-security-market-line](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/capm-beta-security-market-line) · [efficient-market-hypothesis-tests](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/efficient-market-hypothesis-tests) · [black-scholes-option-pricing](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/black-scholes-option-pricing) · [prospect-theory-loss-aversion](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/prospect-theory-loss-aversion) · [fama-french-three-factor](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/fama-french-three-factor) |
 
 </details>
@@ -684,7 +739,7 @@ A one-page Excel dashboard on a Flipkart-style catalogue, with every figure a li
 | **25 Finance Events** | 10 guest lectures; quiz and case competition with 200 participants each |
 | **Oracle OCI Triple Certification** | Generative AI Professional, Data Science Professional, AI Foundations Associate |
 | **20 Professional Certifications** | Finance, accounting, risk, data and AI |
-| **65 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
+| **68 Portfolio Projects** | Fund accounting, valuation, equity and industry research, credit, dashboards, finance operations, AML analytics, machine learning and Python |
 | **Two NTPC Internships** | Finance (Noida) and Operations (Rihand Nagar) |
 
 </div>

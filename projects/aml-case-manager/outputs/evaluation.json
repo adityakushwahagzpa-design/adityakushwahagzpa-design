@@ -1,0 +1,82 @@
+{
+  "rules": "Refined (config/rules.json)",
+  "cases": 43,
+  "cases_with_laundering": 38,
+  "case_precision_pct": 88.4,
+  "transfers_in_cases": 340,
+  "laundering_in_cases": 306,
+  "coverage_pct": 59.0,
+  "attempts_touched": "33 of 55",
+  "graph_load_seconds": 3.8,
+  "detection_seconds": 6.3,
+  "hits": 50,
+  "cases_saved": 43,
+  "naive": {
+    "rules": "Naive (no amount floor, no payroll cap, any amounts)",
+    "cases": 87,
+    "cases_with_laundering": 4,
+    "case_precision_pct": 4.6,
+    "transfers_in_cases": 345957,
+    "laundering_in_cases": 426,
+    "coverage_pct": 82.1,
+    "attempts_touched": "47 of 55"
+  },
+  "coverage_by_pattern": [
+    {
+      "pattern": "fan_out",
+      "attempts": 7,
+      "laundering_transfers": 63,
+      "in_a_case": 62,
+      "coverage_pct": 98.4
+    },
+    {
+      "pattern": "fan_in",
+      "attempts": 7,
+      "laundering_transfers": 65,
+      "in_a_case": 62,
+      "coverage_pct": 95.4
+    },
+    {
+      "pattern": "gather_scatter",
+      "attempts": 7,
+      "laundering_transfers": 87,
+      "in_a_case": 87,
+      "coverage_pct": 100.0
+    },
+    {
+      "pattern": "scatter_gather",
+      "attempts": 7,
+      "laundering_transfers": 86,
+      "in_a_case": 64,
+      "coverage_pct": 74.4
+    },
+    {
+      "pattern": "cycle",
+      "attempts": 7,
+      "laundering_transfers": 31,
+      "in_a_case": 31,
+      "coverage_pct": 100.0
+    },
+    {
+      "pattern": "random",
+      "attempts": 7,
+      "laundering_transfers": 31,
+      "in_a_case": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "pattern": "bipartite",
+      "attempts": 7,
+      "laundering_transfers": 48,
+      "in_a_case": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "pattern": "stack",
+      "attempts": 6,
+      "laundering_transfers": 108,
+      "in_a_case": 0,
+      "coverage_pct": 0.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+graph/aml.kuzu
+graph/aml.kuzu.wal
+data/accounts.csv
+data/transfers.csv

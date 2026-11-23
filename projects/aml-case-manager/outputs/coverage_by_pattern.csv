@@ -1,0 +1,9 @@
+pattern,attempts,laundering_transfers,in_a_case,coverage_pct
+fan_out,7,63,62,98.4
+fan_in,7,65,62,95.4
+gather_scatter,7,87,87,100.0
+scatter_gather,7,86,64,74.4
+cycle,7,31,31,100.0
+random,7,31,0,0.0
+bipartite,7,48,0,0.0
+stack,6,108,0,0.0

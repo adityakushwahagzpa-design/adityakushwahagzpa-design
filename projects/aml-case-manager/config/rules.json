@@ -1,0 +1,23 @@
+{
+  "cycle": {
+    "enabled": true,
+    "min_hops": 3,
+    "max_hops": 5,
+    "max_hours_between_hops": 24,
+    "min_amount_usd": 1000,
+    "max_amount_drift": 0.25
+  },
+  "fan_in": {
+    "enabled": true,
+    "window_hours": 24,
+    "min_senders": 5,
+    "min_amount_usd": 1000
+  },
+  "fan_out": {
+    "enabled": true,
+    "window_hours": 24,
+    "min_receivers": 5,
+    "min_amount_usd": 1000,
+    "max_receivers": 30
+  }
+}
