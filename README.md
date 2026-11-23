@@ -162,179 +162,6 @@ All credentials: [LinkedIn certifications page](https://www.linkedin.com/in/adit
 <summary><b>More project details</b></summary>
 <br/>
 
-<details>
-<summary><b>Credit Appraisal Model</b></summary>
-<br/>
-
-Term-loan appraisal in the format of a bank credit note.
-
-| | |
-|:--|:--|
-| **Stack** | Excel |
-| **Scope** | ₹20 crore term loan |
-| **Key Result** | DSCR of 2.39x; loan recommended at grade CR-2 |
-| **Method** | Financial spreading, DSCR, 5 Cs scorecard |
-| **Repository** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
-
-Borrower financial analysis, repayment capacity, risk scoring and a final credit recommendation.
-
-</details>
-
-<details>
-<summary><b>AP Three-Way Match</b></summary>
-<br/>
-
-Accounts payable control model matching purchase orders, goods receipts and vendor invoices.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF |
-| **Scope** | PO, GRN and invoice matching with exception flags |
-| **Basis** | Vendor document checks from the NTPC finance internship |
-| **Repository** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) |
-
-Quantity and price variance checks, exception reporting and an approval-ready payment list.
-
-</details>
-
-<details>
-<summary><b>Fund Accounting & Daily NAV Model</b></summary>
-<br/>
-
-Daily NAV model for a fictional hybrid fund, built the way a fund accounting team runs the daily cycle.
-
-| | |
-|:--|:--|
-| **Stack** | Excel |
-| **Scope** | ₹71 crore hybrid fund, daily valuation and reconciliation cycle |
-| **Key Result** | NAV movement from ₹31.40 to ₹32.01 traced line by line |
-| **Controls** | Cash, holdings and accrual reconciliations |
-| **Repository** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) |
-
-Pricing of holdings, income and expense accruals, NAV per unit computation and the reconciliation checks that sit behind a signed-off NAV.
-
-</details>
-
-<details>
-<summary><b>PhonePe Transaction Insights Dashboard</b></summary>
-<br/>
-
-Interactive dashboard of digital payment transactions and loan data.
-
-| | |
-|:--|:--|
-| **Stack** | Power BI, Excel, PDF |
-| **Scope** | Transaction and loan data across 14 states |
-| **Output** | State-wise and category-wise KPI views |
-| **Repository** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) |
-
-Data modelling, KPI design and drill-downs built for a management review.
-
-</details>
-
-<details>
-<summary><b>Nippon Life India AMC — Stock Pitch (HOLD, Target ₹1,000)</b></summary>
-<br/>
-
-10-slide equity research pitch with a 9-sheet valuation model, priced on 20 Nov 2026.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF deck |
-| **Scope** | FY22–Q2 FY27 financials, FY31E forecast, 6 listed AMC peers |
-| **Key Result** | DCF ₹787 and P/E ₹1,135 blend to a ₹1,000 target vs ₹1,040 price: HOLD |
-| **Method** | 15-year FCFE DCF, peer P/E, bull/base/bear scenarios |
-| **Repository** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) |
-
-A strong franchise gaining share, but the price already assumes a decade of strong growth.
-
-</details>
-
-<details>
-<summary><b>Indian Asset Management Industry — Deep Dive</b></summary>
-<br/>
-
-9-section industry report with charts, a value-chain diagram and a 7-sheet data book.
-
-| | |
-|:--|:--|
-| **Stack** | Research report (PDF), Excel |
-| **Scope** | ₹83 lakh crore industry, top 10 AMCs, FY26 fee pool of 21 AMCs, SEBI 2026 rules |
-| **Key Result** | Distributors take 49% of the ₹60,300 crore fee pool; AMCs turn 47% into ₹17,285 crore of profit |
-| **Repository** | [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
-
-Value chain, competitive dynamics, regulation and where value is created across Indian mutual funds.
-
-</details>
-
-<details>
-<summary><b>Tata Motors Passenger Vehicles — Equity Research</b></summary>
-<br/>
-
-One-page equity research report on the post-demerger passenger vehicle business, backed by a linked model.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF |
-| **Scope** | Tata Motors PV (domestic PV + JLR) |
-| **Output** | One-page research report with valuation and charts |
-| **Repository** | [tata-motors-equity-research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) |
-
-Business overview, financial summary, valuation and key risks, with the report and workbook linked to each other.
-
-</details>
-
-<details>
-<summary><b>Starbucks — Three-Statement Model & DCF</b></summary>
-<br/>
-
-Fully linked income statement, balance sheet and cash flow model feeding a discounted cash flow valuation.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF |
-| **Scope** | Three linked statements, forecast drivers, DCF |
-| **Key Result** | Intrinsic value of about $62 against a market price of about $94 |
-| **Repository** | [starbucks-3-statement-dcf](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) |
-
-Forecast assumptions, free cash flow build, WACC and terminal value, with sensitivity of value to key inputs.
-
-</details>
-
-<details>
-<summary><b>Burger King — LBO Model</b></summary>
-<br/>
-
-Leveraged buyout model of the 2010 Burger King take-private transaction.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF |
-| **Scope** | Sources and uses, debt schedule, exit analysis |
-| **Output** | Sponsor returns (IRR and MoM) under the deal structure |
-| **Repository** | [burger-king-lbo-model](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) |
-
-Transaction structure, debt paydown from operating cash flow and returns at exit.
-
-</details>
-
-<details>
-<summary><b>Indian IPO Market Analysis</b></summary>
-<br/>
-
-Research study of Indian IPO subscriptions and listing-day performance across mainboard and SME issues.
-
-| | |
-|:--|:--|
-| **Stack** | Excel, PDF |
-| **Scope** | 2,020 Indian IPOs |
-| **Focus** | Subscription levels, listing gains, segment comparison |
-| **Repository** | [ipo-market-analysis-india](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) |
-
-Data collection across NSE and BSE issues, segment-wise analysis and the link between subscription demand and listing-day returns.
-
-</details>
-
 **Python Finance Projects**
 
 <details>
@@ -559,6 +386,181 @@ Trend, momentum and breadth for every Nifty 50 stock.
 | **Repository** | [nifty-market-trend-dashboard](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nifty-market-trend-dashboard) |
 
 Moving averages, golden and death crosses, RSI, drawdowns and sector returns.
+
+</details>
+
+**Finance Projects**
+
+<details>
+<summary><b>Credit Appraisal Model</b></summary>
+<br/>
+
+Term-loan appraisal in the format of a bank credit note.
+
+| | |
+|:--|:--|
+| **Stack** | Excel |
+| **Scope** | ₹20 crore term loan |
+| **Key Result** | DSCR of 2.39x; loan recommended at grade CR-2 |
+| **Method** | Financial spreading, DSCR, 5 Cs scorecard |
+| **Repository** | [credit-appraisal-model](https://github.com/adityakushwahagzpa-design/credit-appraisal-model) |
+
+Borrower financial analysis, repayment capacity, risk scoring and a final credit recommendation.
+
+</details>
+
+<details>
+<summary><b>AP Three-Way Match</b></summary>
+<br/>
+
+Accounts payable control model matching purchase orders, goods receipts and vendor invoices.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF |
+| **Scope** | PO, GRN and invoice matching with exception flags |
+| **Basis** | Vendor document checks from the NTPC finance internship |
+| **Repository** | [ap-three-way-match](https://github.com/adityakushwahagzpa-design/ap-three-way-match) |
+
+Quantity and price variance checks, exception reporting and an approval-ready payment list.
+
+</details>
+
+<details>
+<summary><b>Fund Accounting & Daily NAV Model</b></summary>
+<br/>
+
+Daily NAV model for a fictional hybrid fund, built the way a fund accounting team runs the daily cycle.
+
+| | |
+|:--|:--|
+| **Stack** | Excel |
+| **Scope** | ₹71 crore hybrid fund, daily valuation and reconciliation cycle |
+| **Key Result** | NAV movement from ₹31.40 to ₹32.01 traced line by line |
+| **Controls** | Cash, holdings and accrual reconciliations |
+| **Repository** | [fund-accounting-nav-model](https://github.com/adityakushwahagzpa-design/fund-accounting-nav-model) |
+
+Pricing of holdings, income and expense accruals, NAV per unit computation and the reconciliation checks that sit behind a signed-off NAV.
+
+</details>
+
+<details>
+<summary><b>PhonePe Transaction Insights Dashboard</b></summary>
+<br/>
+
+Interactive dashboard of digital payment transactions and loan data.
+
+| | |
+|:--|:--|
+| **Stack** | Power BI, Excel, PDF |
+| **Scope** | Transaction and loan data across 14 states |
+| **Output** | State-wise and category-wise KPI views |
+| **Repository** | [phonepe-transaction-insights-dashboard](https://github.com/adityakushwahagzpa-design/phonepe-transaction-insights-dashboard) |
+
+Data modelling, KPI design and drill-downs built for a management review.
+
+</details>
+
+<details>
+<summary><b>Nippon Life India AMC — Stock Pitch (HOLD, Target ₹1,000)</b></summary>
+<br/>
+
+10-slide equity research pitch with a 9-sheet valuation model, priced on 20 Nov 2026.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF deck |
+| **Scope** | FY22–Q2 FY27 financials, FY31E forecast, 6 listed AMC peers |
+| **Key Result** | DCF ₹787 and P/E ₹1,135 blend to a ₹1,000 target vs ₹1,040 price: HOLD |
+| **Method** | 15-year FCFE DCF, peer P/E, bull/base/bear scenarios |
+| **Repository** | [nam-india-stock-pitch](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/nam-india-stock-pitch) |
+
+A strong franchise gaining share, but the price already assumes a decade of strong growth.
+
+</details>
+
+<details>
+<summary><b>Indian Asset Management Industry — Deep Dive</b></summary>
+<br/>
+
+9-section industry report with charts, a value-chain diagram and a 7-sheet data book.
+
+| | |
+|:--|:--|
+| **Stack** | Research report (PDF), Excel |
+| **Scope** | ₹83 lakh crore industry, top 10 AMCs, FY26 fee pool of 21 AMCs, SEBI 2026 rules |
+| **Key Result** | Distributors take 49% of the ₹60,300 crore fee pool; AMCs turn 47% into ₹17,285 crore of profit |
+| **Repository** | [indian-amc-industry-deep-dive](https://github.com/adityakushwahagzpa-design/adityakushwahagzpa-design/tree/main/projects/indian-amc-industry-deep-dive) |
+
+Value chain, competitive dynamics, regulation and where value is created across Indian mutual funds.
+
+</details>
+
+<details>
+<summary><b>Tata Motors Passenger Vehicles — Equity Research</b></summary>
+<br/>
+
+One-page equity research report on the post-demerger passenger vehicle business, backed by a linked model.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF |
+| **Scope** | Tata Motors PV (domestic PV + JLR) |
+| **Output** | One-page research report with valuation and charts |
+| **Repository** | [tata-motors-equity-research](https://github.com/adityakushwahagzpa-design/tata-motors-equity-research) |
+
+Business overview, financial summary, valuation and key risks, with the report and workbook linked to each other.
+
+</details>
+
+<details>
+<summary><b>Starbucks — Three-Statement Model & DCF</b></summary>
+<br/>
+
+Fully linked income statement, balance sheet and cash flow model feeding a discounted cash flow valuation.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF |
+| **Scope** | Three linked statements, forecast drivers, DCF |
+| **Key Result** | Intrinsic value of about $62 against a market price of about $94 |
+| **Repository** | [starbucks-3-statement-dcf](https://github.com/adityakushwahagzpa-design/starbucks-3-statement-dcf) |
+
+Forecast assumptions, free cash flow build, WACC and terminal value, with sensitivity of value to key inputs.
+
+</details>
+
+<details>
+<summary><b>Burger King — LBO Model</b></summary>
+<br/>
+
+Leveraged buyout model of the 2010 Burger King take-private transaction.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF |
+| **Scope** | Sources and uses, debt schedule, exit analysis |
+| **Output** | Sponsor returns (IRR and MoM) under the deal structure |
+| **Repository** | [burger-king-lbo-model](https://github.com/adityakushwahagzpa-design/burger-king-lbo-model) |
+
+Transaction structure, debt paydown from operating cash flow and returns at exit.
+
+</details>
+
+<details>
+<summary><b>Indian IPO Market Analysis</b></summary>
+<br/>
+
+Research study of Indian IPO subscriptions and listing-day performance across mainboard and SME issues.
+
+| | |
+|:--|:--|
+| **Stack** | Excel, PDF |
+| **Scope** | 2,020 Indian IPOs |
+| **Focus** | Subscription levels, listing gains, segment comparison |
+| **Repository** | [ipo-market-analysis-india](https://github.com/adityakushwahagzpa-design/ipo-market-analysis-india) |
+
+Data collection across NSE and BSE issues, segment-wise analysis and the link between subscription demand and listing-day returns.
 
 </details>
 
