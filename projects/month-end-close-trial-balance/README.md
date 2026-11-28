@@ -2,7 +2,7 @@
 
 A full Record to Report month-end close for a fictional consumer durables distributor, Kaveri Home Appliances Pvt. Ltd., for October 2026: opening trial balance, a month of journal entries, month-end adjusting entries, the adjusted trial balance, the financial statements and the closing reconciliations, with a five-day close checklist.
 
-**Live website:** [Month-End Close Console](https://claude.ai/artifact/RYujnqGHE2LEN3378WAsTu) · **Workbook:** [Month_End_Close_Trial_Balance.xlsx](Month_End_Close_Trial_Balance.xlsx)
+**Live website:** [Month-End Close Console](https://claude.ai/artifact/RYujnqGHE2LEN3378WAsTu) · **Workbook:** [Month_End_Close_Trial_Balance.xlsx](Month_End_Close_Trial_Balance.xlsx) · **Close pack (PowerPoint):** [Month_End_Close_Pack_October_2026.pptx](Month_End_Close_Pack_October_2026.pptx) ([PDF](Month_End_Close_Pack_October_2026.pdf))
 
 | | |
 |:--|:--|
@@ -11,6 +11,10 @@ A full Record to Report month-end close for a fictional consumer durables distri
 | **Key finding** | ₹2,14,450 of month-end adjustments cut October profit from ₹4.41 lakh to ₹2.27 lakh (net margin 9.7% on ₹23.40 lakh revenue). The adjusted trial balance agrees at ₹91,75,750 on each side, the balance sheet balances at ₹63,48,300, and all three reconciliations close at zero difference (the bank gap is one unpresented ₹6,80,000 supplier cheque) |
 
 ![Month-End Close Console](screenshot.png)
+
+## Close Pack for the Finance Controller
+
+An 8-slide PowerPoint that presents the close the way an R2R team reports it: executive summary, the five-day close timeline, a profit impact chart of the 9 adjusting entries, the P&L before and after adjustments, the balance sheet with its check, the three reconciliations, and four follow-ups for November (cheque 004512 in transit, contract wages cut-off, cycle counts, receivables ageing). Every figure comes from the workbook; native PowerPoint charts and tables, speaker notes on each slide.
 
 ## The Close
 
