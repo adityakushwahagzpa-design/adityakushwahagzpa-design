@@ -2,7 +2,7 @@
 
 How one change in an economic indicator travels through markets, built on the four Bloomberg Market Concepts (BMC) topics: economic indicators, fixed income, currencies and equities. Inflation and growth set the policy rate, the policy rate anchors the government bond yield curve, and bond prices, the USD/INR forward and a stock's fair value all reprice from the curve.
 
-**Live website:** [Market Linkages Lab](https://claude.ai/artifact/RAdnUoua7kV4DJcbXosHDC) (move the inputs or pick a scenario and every figure recalculates) · **Workbook:** [Market_Linkages_Model.xlsx](Market_Linkages_Model.xlsx)
+**Live website:** [market-linkages-lab.vercel.app](https://market-linkages-lab.vercel.app) (move the inputs or pick a scenario and every figure recalculates) · **Workbook:** [Market_Linkages_Model.xlsx](Market_Linkages_Model.xlsx)
 
 | | |
 |:--|:--|
