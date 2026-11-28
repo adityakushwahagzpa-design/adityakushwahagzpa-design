@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Month-End Close Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: a controller's close console, calm and exact, like a ledger desk.
+   IDEA: the month-end bridge, unadjusted profit walked to final profit one adjusting entry at a time.
+   PICTURE: a large profit bridge (waterfall) under the headline figures.
+   COLOUR and TYPE: deep sea ground, sky and white, signal pink for adjustments that cut profit; Hanken Grotesk.
+   LAYOUT: three strips on one axis: headline + bridge (tallest), working tabs, method + files. */
+:root{color-scheme:dark;--bg:#0a2540;--bg2:#0f2f52;--line:#24496f;--ink:#ffffff;--mute:#a9c3dd;--sky:#8fd3ff;--pink:#ff5c8a;--ok:#7ee0b5}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Hanken Grotesk",system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(24px,4vw,56px) max(5vw,16px)}.wrap{max-width:1240px;margin:0 auto}
+.top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;font-size:14px;color:var(--mute)}
+.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:5px 12px;white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
+h1{font-weight:300;font-size:clamp(30px,4.6vw,50px);line-height:1.05;margin:18px 0 8px;text-wrap:balance;max-width:22ch}
+.sub{color:var(--mute);max-width:70ch;margin:0}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:26px 0 22px}
+.kpi{background:var(--bg);padding:14px 16px}.kpi b{display:block;font-size:clamp(20px,2.6vw,28px);font-weight:500;white-space:nowrap}
+.kpi span{font-size:13px;color:var(--mute)}.kpi em{font-style:normal;font-size:13px}
+.fig{position:relative;min-height:340px}.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.note{font-size:13px;color:var(--mute);margin-top:8px}
+.mid{background:#f4f7fb;color:#0a2540;color-scheme:light}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.tabs button{font:inherit;font-size:15px;min-height:44px;padding:0 16px;border-radius:8px;border:1px solid #c8d6e5;background:#fff;color:#0a2540;cursor:pointer}
+.tabs button[aria-selected=true]{background:#0a2540;color:#fff;border-color:#0a2540}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+.panel{display:none}.panel.on{display:block}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.bar input[type=search],.bar select{font:inherit;font-size:16px;min-height:44px;padding:0 12px;border:1px solid #c8d6e5;border-radius:8px;background:#fff;color:#0a2540}
+.bar label{display:inline-flex;gap:8px;align-items:center;min-height:44px;cursor:pointer}
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:13px;font-weight:600;white-space:nowrap}
+.good{background:#d7f5e8;color:#0b6b45}.adj{background:#ffe1ea;color:#b0123f}.reg{background:#e2efff;color:#0f4c8a}
+.card{background:#fff;border:1px solid #dbe5ef;border-radius:10px;padding:4px 0;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:14.5px}
+th,td{padding:9px 14px;border-bottom:1px solid #e6edf4;text-align:left;vertical-align:top}
+th{font-weight:600;font-size:13px;color:#4a6481;background:#f8fafc}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+tr.tot td{font-weight:700;border-top:2px solid #0a2540}
+tr.sec td{font-weight:700;background:#f8fafc}
+.scroll{overflow-x:auto}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+h3{margin:0 0 10px;font-size:17px}
+.chk{display:grid;gap:8px}
+.task{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid #dbe5ef;border-radius:10px;padding:10px 14px;min-height:56px;cursor:pointer}
+.task input{width:22px;height:22px;accent-color:#0a2540;flex:none}
+.task .d{font-weight:700;width:52px;flex:none;color:#4a6481;font-size:14px}
+.task .o{margin-left:auto;font-size:13px;color:#4a6481;white-space:nowrap}
+.task.done .t{text-decoration:line-through;color:#6b7f95}
+.prog{height:10px;background:#dbe5ef;border-radius:99px;overflow:hidden;flex:1;min-width:120px}.prog i{display:block;height:100%;background:#0a2540;transition:width .3s}
+.foot{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;color:var(--mute);font-size:15px}
+.foot h4{color:#fff;margin:0 0 6px;font-weight:600;font-size:16px}
+.foot a{color:var(--sky)}
+@media(max-width:860px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.grid2,.foot{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){table{font-size:13px}th,td{padding:8px 10px}.task .o{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body>
+
+<header class="band"><div class="wrap">
+<div class="top"><span><b style="color:#fff">Kaveri Home Appliances Pvt. Ltd.</b> · Record to Report · October 2026</span><span class="pill"><span class="dot"></span><span id="status">Period closed on WD-5</span></span></div>
+<h1 id="headline">Month-end entries take October profit from ₹4.41 lakh to ₹2.27 lakh</h1>
+<p class="sub" id="lede"></p>
+<div class="kpis" id="kpis"></div>
+<div class="fig" id="bridge" aria-label="Profit bridge from unadjusted to adjusted profit"><svg id="bsvg" role="img"></svg></div>
+<p class="note">Profit bridge: each pink bar is one adjusting entry posted at month end. Sample data for a fictional company, built as a portfolio project.</p>
+</div></header>
+
+<main class="band mid"><div class="wrap">
+<div class="tabs" role="tablist">
+<button role="tab" data-t="checklist" aria-selected="true">Close checklist</button>
+<button role="tab" data-t="journal" aria-selected="false">Journal</button>
+<button role="tab" data-t="tb" aria-selected="false">Trial balance</button>
+<button role="tab" data-t="fs" aria-selected="false">Financial statements</button>
+<button role="tab" data-t="rec" aria-selected="false">Reconciliations</button>
+</div>
+
+<section class="panel on" id="p-checklist">
+<div class="bar"><b id="progtxt"></b><div class="prog"><i id="progbar"></i></div><button class="tabs-reset" id="reset" style="font:inherit;min-height:44px;padding:0 14px;border-radius:8px;border:1px solid #c8d6e5;background:#fff;color:#0a2540;cursor:pointer">Reset</button></div>
+<div class="chk" id="chk"></div>
+</section>
+
+<section class="panel" id="p-journal">
+<div class="bar"><input type="search" id="q" placeholder="Search entry, account or narration" aria-label="Search journal">
+<select id="kind" aria-label="Entry kind"><option value="">All entries</option><option>Regular</option><option>Adjusting</option></select>
+<span id="jcount" style="font-size:14px;color:#4a6481"></span></div>
+<div class="card scroll"><table><thead><tr><th>Entry</th><th>Date</th><th>Account</th><th class="n">Debit (₹)</th><th class="n">Credit (₹)</th></tr></thead><tbody id="jbody"></tbody></table></div>
+</section>
+
+<section class="panel" id="p-tb">
+<div class="bar"><label><input type="checkbox" id="postadj" checked> Post adjusting entries</label><span id="tbcheck"></span></div>
+<div class="card scroll"><table><thead><tr><th>Code</th><th>Account</th><th class="n">Debit (₹)</th><th class="n">Credit (₹)</th></tr></thead><tbody id="tbbody"></tbody></table></div>
+</section>
+
+<section class="panel" id="p-fs"><div class="grid2">
+<div><h3>Profit and loss, October 2026</h3><div class="card"><table><tbody id="pl"></tbody></table></div></div>
+<div><h3>Balance sheet at 31 October 2026</h3><div class="card"><table><tbody id="bs"></tbody></table></div></div>
+</div></section>
+
+<section class="panel" id="p-rec"><div class="grid2">
+<div><h3>Bank reconciliation</h3><div class="card"><table><tbody id="bank"></tbody></table></div></div>
+<div><h3>Subledger to GL</h3><div class="card"><table><tbody id="sub"></tbody></table></div></div>
+</div></section>
+</div></main>
+
+<footer class="band"><div class="wrap foot">
+<div><h4>How it works</h4>Opening trial balance at 30 September, 17 regular entries for October, then 9 adjusting entries. Every balance on this page is computed live from the journal, the same way the Excel workbook uses SUMIFS.</div>
+<div><h4>Checks</h4>Debits equal credits, the balance sheet balances, and the bank, receivables and payables reconciliations all close with a zero difference.</div>
+<div><h4>Files</h4>Excel workbook with formulas: Opening TB, Journal, Trial Balance, P&amp;L, Balance Sheet, Reconciliations, Close Checklist. <a href="https://github.com/adityakushwahagzpa-design">GitHub portfolio</a> · Built by Aditya Kushwaha.</div>
+</div></footer>
+
+<script>
+{
+const D={"company": "Kaveri Home Appliances Pvt. Ltd.", "period": "October 2026", "coa": [{"code": 1000, "name": "Cash at Bank", "type": "Asset", "side": "Dr"}, {"code": 1100, "name": "Accounts Receivable", "type": "Asset", "side": "Dr"}, {"code": 1150, "name": "Allowance for Doubtful Debts", "type": "Asset", "side": "Cr"}, {"code": 1200, "name": "Inventory", "type": "Asset", "side": "Dr"}, {"code": 1300, "name": "Prepaid Insurance", "type": "Asset", "side": "Dr"}, {"code": 1500, "name": "Office Equipment", "type": "Asset", "side": "Dr"}, {"code": 1510, "name": "Accumulated Depreciation", "type": "Asset", "side": "Cr"}, {"code": 2000, "name": "Accounts Payable", "type": "Liability", "side": "Cr"}, {"code": 2100, "name": "Accrued Expenses", "type": "Liability", "side": "Cr"}, {"code": 2110, "name": "Salaries Payable", "type": "Liability", "side": "Cr"}, {"code": 2310, "name": "Interest Payable", "type": "Liability", "side": "Cr"}, {"code": 2300, "name": "Term Loan", "type": "Liability", "side": "Cr"}, {"code": 3000, "name": "Share Capital", "type": "Equity", "side": "Cr"}, {"code": 3100, "name": "Retained Earnings", "type": "Equity", "side": "Cr"}, {"code": 4000, "name": "Sales Revenue", "type": "Income", "side": "Cr"}, {"code": 5000, "name": "Cost of Goods Sold", "type": "Expense", "side": "Dr"}, {"code": 6000, "name": "Salaries and Wages", "type": "Expense", "side": "Dr"}, {"code": 6100, "name": "Rent", "type": "Expense", "side": "Dr"}, {"code": 6200, "name": "Electricity", "type": "Expense", "side": "Dr"}, {"code": 6300, "name": "Insurance", "type": "Expense", "side": "Dr"}, {"code": 6400, "name": "Depreciation", "type": "Expense", "side": "Dr"}, {"code": 6500, "name": "Bad Debt Expense", "type": "Expense", "side": "Dr"}, {"code": 6600, "name": "Audit Fees", "type": "Expense", "side": "Dr"}, {"code": 6700, "name": "Interest Expense", "type": "Expense", "side": "Dr"}, {"code": 6800, "name": "Marketing", "type": "Expense", "side": "Dr"}, {"code": 6900, "name": "Bank Charges", "type": "Expense", "side": "Dr"}], "opening": {"1000": 1840000, "1100": 1260000, "1150": -63000, "1200": 980000, "1300": 360000, "1500": 2400000, "1510": -600000, "2000": -840000, "2300": -1500000, "3000": -2500000, "3100": -1337000}, "journal": [{"id": "JE-001", "date": "2026-10-02", "kind": "Regular", "narration": "Credit sales, invoices INV-4101 to 4112", "lines": [{"code": 1100, "dr": 920000, "cr": 0}, {"code": 4000, "dr": 0, "cr": 920000}]}, {"id": "JE-002", "date": "2026-10-02", "kind": "Regular", "narration": "Cost of goods sold for INV-4101 to 4112", "lines": [{"code": 5000, "dr": 552000, "cr": 0}, {"code": 1200, "dr": 0, "cr": 552000}]}, {"id": "JE-003", "date": "2026-10-03", "kind": "Regular", "narration": "Stock purchase on credit, PO-2207", "lines": [{"code": 1200, "dr": 850000, "cr": 0}, {"code": 2000, "dr": 0, "cr": 850000}]}, {"id": "JE-004", "date": "2026-10-05", "kind": "Regular", "narration": "Warehouse rent for October", "lines": [{"code": 6100, "dr": 120000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 120000}]}, {"id": "JE-005", "date": "2026-10-08", "kind": "Regular", "narration": "Receipts from customers", "lines": [{"code": 1000, "dr": 1140000, "cr": 0}, {"code": 1100, "dr": 0, "cr": 1140000}]}, {"id": "JE-006", "date": "2026-10-10", "kind": "Regular", "narration": "Payment to suppliers", "lines": [{"code": 2000, "dr": 910000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 910000}]}, {"id": "JE-007", "date": "2026-10-12", "kind": "Regular", "narration": "Credit sales, invoices INV-4113 to 4121", "lines": [{"code": 1100, "dr": 780000, "cr": 0}, {"code": 4000, "dr": 0, "cr": 780000}]}, {"id": "JE-008", "date": "2026-10-12", "kind": "Regular", "narration": "Cost of goods sold for INV-4113 to 4121", "lines": [{"code": 5000, "dr": 468000, "cr": 0}, {"code": 1200, "dr": 0, "cr": 468000}]}, {"id": "JE-009", "date": "2026-10-15", "kind": "Regular", "narration": "Festive season marketing campaign", "lines": [{"code": 6800, "dr": 65000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 65000}]}, {"id": "JE-010", "date": "2026-10-18", "kind": "Regular", "narration": "Stock purchase on credit, PO-2214", "lines": [{"code": 1200, "dr": 620000, "cr": 0}, {"code": 2000, "dr": 0, "cr": 620000}]}, {"id": "JE-011", "date": "2026-10-20", "kind": "Regular", "narration": "Receipts from customers", "lines": [{"code": 1000, "dr": 980000, "cr": 0}, {"code": 1100, "dr": 0, "cr": 980000}]}, {"id": "JE-012", "date": "2026-10-25", "kind": "Regular", "narration": "Term loan principal repayment", "lines": [{"code": 2300, "dr": 50000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 50000}]}, {"id": "JE-013", "date": "2026-10-26", "kind": "Regular", "narration": "Credit sales, invoices INV-4122 to 4130", "lines": [{"code": 1100, "dr": 640000, "cr": 0}, {"code": 4000, "dr": 0, "cr": 640000}]}, {"id": "JE-014", "date": "2026-10-26", "kind": "Regular", "narration": "Cost of goods sold for INV-4122 to 4130", "lines": [{"code": 5000, "dr": 384000, "cr": 0}, {"code": 1200, "dr": 0, "cr": 384000}]}, {"id": "JE-015", "date": "2026-10-28", "kind": "Regular", "narration": "October salaries, permanent staff", "lines": [{"code": 6000, "dr": 310000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 310000}]}, {"id": "JE-016", "date": "2026-10-29", "kind": "Regular", "narration": "Payment to suppliers, cheque 004512", "lines": [{"code": 2000, "dr": 680000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 680000}]}, {"id": "JE-017", "date": "2026-10-30", "kind": "Regular", "narration": "Purchase of billing terminals (capitalised)", "lines": [{"code": 1500, "dr": 180000, "cr": 0}, {"code": 1000, "dr": 0, "cr": 180000}]}, {"id": "ADJ-01", "date": "2026-10-31", "kind": "Adjusting", "narration": "Accrual: October electricity (bill due 6 Nov)", "lines": [{"code": 6200, "dr": 38500, "cr": 0}, {"code": 2100, "dr": 0, "cr": 38500}]}, {"id": "ADJ-02", "date": "2026-10-31", "kind": "Adjusting", "narration": "Accrual: statutory audit fee, 1/12 of 2,40,000", "lines": [{"code": 6600, "dr": 20000, "cr": 0}, {"code": 2100, "dr": 0, "cr": 20000}]}, {"id": "ADJ-03", "date": "2026-10-31", "kind": "Adjusting", "narration": "Accrual: contract staff wages unpaid at month end", "lines": [{"code": 6000, "dr": 45000, "cr": 0}, {"code": 2110, "dr": 0, "cr": 45000}]}, {"id": "ADJ-04", "date": "2026-10-31", "kind": "Adjusting", "narration": "Prepayment release: insurance, 1/12 of 4,80,000", "lines": [{"code": 6300, "dr": 40000, "cr": 0}, {"code": 1300, "dr": 0, "cr": 40000}]}, {"id": "ADJ-05", "date": "2026-10-31", "kind": "Adjusting", "narration": "Depreciation: equipment 24,00,000 over 5 years", "lines": [{"code": 6400, "dr": 40000, "cr": 0}, {"code": 1510, "dr": 0, "cr": 40000}]}, {"id": "ADJ-06", "date": "2026-10-31", "kind": "Adjusting", "narration": "Accrual: October interest on term loan at 9%", "lines": [{"code": 6700, "dr": 11250, "cr": 0}, {"code": 2310, "dr": 0, "cr": 11250}]}, {"id": "ADJ-07", "date": "2026-10-31", "kind": "Adjusting", "narration": "Allowance top-up to 5% of closing receivables", "lines": [{"code": 6500, "dr": 11000, "cr": 0}, {"code": 1150, "dr": 0, "cr": 11000}]}, {"id": "ADJ-08", "date": "2026-10-31", "kind": "Adjusting", "narration": "Inventory count shortfall (book 10,46,000, count 10,38,500)", "lines": [{"code": 5000, "dr": 7500, "cr": 0}, {"code": 1200, "dr": 0, "cr": 7500}]}, {"id": "ADJ-09", "date": "2026-10-31", "kind": "Adjusting", "narration": "Bank charges per October bank statement", "lines": [{"code": 6900, "dr": 1200, "cr": 0}, {"code": 1000, "dr": 0, "cr": 1200}]}], "bank": {"gl": 1643800, "stmt": 2323800, "unpresented": [["Cheque 004512, supplier payment 29 Oct", 680000]], "charges": 1200}, "ar_sub": [["Sharma Electronics", 520000], ["Metro Retail LLP", 410000], ["Patel Distributors", 330000], ["Om Sai Traders", 220000]], "ap_sub": [["Voltline Components", 420000], ["Coolair Industries", 300000]], "checklist": [["WD-1", "Cut-off: all October sales and purchase invoices posted", "AR / AP team"], ["WD-1", "Bank reconciliation for October", "R2R analyst"], ["WD-2", "Accruals: electricity, audit fee, contract wages, interest", "R2R analyst"], ["WD-2", "Prepayment release: insurance", "R2R analyst"], ["WD-2", "Depreciation run and fixed asset register update", "R2R analyst"], ["WD-3", "Inventory count result posted", "Warehouse + R2R"], ["WD-3", "Allowance for doubtful debts review", "R2R analyst"], ["WD-3", "AR and AP subledger to GL reconciliation", "R2R analyst"], ["WD-4", "Adjusted trial balance: debits equal credits", "R2R analyst"], ["WD-4", "Balance sheet account review and sign-off", "Finance controller"], ["WD-5", "Profit and loss and balance sheet issued", "Finance controller"], ["WD-5", "Period locked in the ledger", "Finance controller"]], "facts": {"revenue": 2340000, "net_profit": 226550, "unadj_profit": 441000, "adj_total": 214450, "adj_count": 9, "je_count": 17, "tb_total": 9175750}};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const f=n=>n===0?"–":(n<0?"(":"")+Math.abs(Math.round(n)).toLocaleString("en-IN")+(n<0?")":"");
+const lakh=n=>"₹"+(n/1e5).toFixed(2)+" lakh";
+const NAME={},TYPE={};D.coa.forEach(a=>{NAME[a.code]=a.name;TYPE[a.code]=a.type});
+const balances=kinds=>{const b={};D.coa.forEach(a=>b[a.code]=+(D.opening[a.code]||0));
+  D.journal.forEach(j=>{if(kinds.includes(j.kind))j.lines.forEach(l=>b[l.code]+=l.dr-l.cr)});return b};
+const profit=b=>D.coa.reduce((s,a)=>a.type==="Income"?s-b[a.code]:a.type==="Expense"?s-b[a.code]:s,0);
+const U=balances(["Regular"]),A=balances(["Regular","Adjusting"]);
+const pU=profit(U),pA=profit(A),rev=-A[4000];
+const adjs=D.journal.filter(j=>j.kind==="Adjusting");
+const plAdj=adjs.map(j=>({id:j.id,label:j.narration.split(":")[0].split("(")[0].trim(),
+  impact:-j.lines.reduce((s,l)=>s+(["Expense","Income"].includes(TYPE[l.code])?(l.dr-l.cr):0),0),acct:NAME[j.lines[0].code]}));
+document.getElementById("lede").textContent=`${D.journal.length-adjs.length} regular entries and ${adjs.length} adjusting entries (accruals, prepayment release, depreciation, allowance, inventory count, bank charges) worth ₹${f(D.facts.adj_total)}. Trial balance agrees at ₹${f(D.facts.tb_total)} on each side.`;
+document.getElementById("kpis").innerHTML=[
+ ["Revenue",lakh(rev),"October, 30 invoices"],
+ ["Net profit",lakh(pA),`${(pA/rev*100).toFixed(1)}% margin after adjustments`],
+ ["Adjusting entries",adjs.length,`₹${f(D.facts.adj_total)} posted on WD-2 to WD-3`],
+ ["Reconciliations","3 of 3",'<em style="color:var(--ok)">Zero difference on each</em>']
+].map(k=>`<div class="kpi"><span>${k[0]}</span><b>${k[1]}</b><span>${k[2]}</span></div>`).join("");
+
+/* bridge */
+const s=document.getElementById("bsvg");
+const draw=()=>{const W=s.clientWidth,H=s.clientHeight;if(!W)return;
+  const steps=[{label:"Unadjusted profit",v:pU,t:"total"},...plAdj.filter(a=>a.impact!==0).map(a=>({label:a.id,v:a.impact,t:"d",full:a.label})),{label:"Adjusted profit",v:pA,t:"total"}];
+  const small=W<560,padL=small?8:14,padR=8,top=36,bot=small?40:54,n=steps.length,gap=small?4:10,bw=(W-padL-padR-gap*(n-1))/n;
+  const max=pU*1.08,y=v=>top+(H-top-bot)*(1-v/max);let run=0,out="";
+  out+=`<line x1="${padL}" x2="${W-padR}" y1="${y(0)}" y2="${y(0)}" stroke="#24496f"/>`;
+  steps.forEach((st,i)=>{const x=padL+i*(bw+gap);let y1,y2,col;
+    if(st.t==="total"){y1=y(st.v);y2=y(0);col=i?"#8fd3ff":"#ffffff";run=st.v}else{const a=run,b=run+st.v;y1=y(Math.max(a,b));y2=y(Math.min(a,b));col="#ff5c8a";run=b}
+    out+=`<rect x="${x}" y="${y1}" width="${bw}" height="${Math.max(2,y2-y1)}" rx="3" fill="${col}"/>`;
+    if(i<n-1){const ny=y(run);out+=`<line x1="${x+bw}" x2="${x+bw+gap}" y1="${ny}" y2="${ny}" stroke="#a9c3dd" stroke-dasharray="2 2"/>`}
+    const val=st.t==="total"?(st.v/1e5).toFixed(2)+"L":(st.v/1000).toFixed(st.v%1000?1:0)+"k";
+    if(!small||st.t==="total")out+=`<text x="${x+bw/2}" y="${y1-8}" text-anchor="middle" font-size="${small?11:13}" fill="#fff">${val}</text>`;
+    const lab=st.t==="total"?(small?(i?"End":"Start"):(i?"Adjusted":"Unadjusted")):st.label.replace("ADJ-","");
+    out+=`<text x="${x+bw/2}" y="${H-bot+18}" text-anchor="middle" font-size="${small?10:12}" fill="#a9c3dd">${esc(lab)}</text>`;
+    if(!small&&st.t!=="total")out+=`<text x="${x+bw/2}" y="${H-bot+34}" text-anchor="middle" font-size="11" fill="#6f8fb0">${esc(st.full.split(" ")[0])}</text>`;
+  });s.innerHTML=out};
+const ro=new ResizeObserver(draw);ro.observe(s);
+
+/* tabs */
+const tabs=[...document.querySelectorAll("[role=tab]")];
+const show=t=>{tabs.forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("on",p.id==="p-"+t))};
+tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.t);history.replaceState(null,"","#"+b.dataset.t)}));
+const fromHash=()=>{const h=location.hash.slice(1);if(tabs.some(b=>b.dataset.t===h))show(h)};window.addEventListener("hashchange",fromHash);fromHash();
+
+/* checklist */
+let done;try{done=JSON.parse(localStorage.getItem("close-oct26")||"null")}catch(e){}
+if(!Array.isArray(done))done=D.checklist.map(()=>true);
+const chk=document.getElementById("chk");
+const renderChk=()=>{chk.innerHTML=D.checklist.map((c,i)=>`<label class="task ${done[i]?"done":""}"><input type="checkbox" data-i="${i}" ${done[i]?"checked":""}><span class="d">${esc(c[0])}</span><span class="t">${esc(c[1])}</span><span class="o">${esc(c[2])}</span></label>`).join("");
+  const k=done.filter(Boolean).length,n=done.length;document.getElementById("progtxt").textContent=`${k} of ${n} tasks done`;
+  document.getElementById("progbar").style.width=(k/n*100)+"%";
+  document.getElementById("status").textContent=k===n?"Period closed on WD-5":`Close in progress: ${n-k} task${n-k>1?"s":""} open`;
+  try{localStorage.setItem("close-oct26",JSON.stringify(done))}catch(e){}};
+chk.addEventListener("change",e=>{const i=e.target.dataset.i;if(i!==undefined){done[i]=e.target.checked;renderChk()}});
+document.getElementById("reset").addEventListener("click",()=>{done=D.checklist.map(()=>false);renderChk()});
+renderChk();
+
+/* journal */
+const q=document.getElementById("q"),kind=document.getElementById("kind");
+const renderJ=()=>{const t=q.value.trim().toLowerCase(),k=kind.value;
+  const list=D.journal.filter(j=>(!k||j.kind===k)&&(!t||(j.id+" "+j.narration+" "+j.lines.map(l=>NAME[l.code]).join(" ")).toLowerCase().includes(t)));
+  document.getElementById("jcount").textContent=list.length?`${list.length} entr${list.length>1?"ies":"y"}`:"No entries match";
+  document.getElementById("jbody").innerHTML=list.map(j=>j.lines.map((l,i)=>`<tr>${i?'<td></td><td></td>':`<td rowspan="1"><b>${esc(j.id)}</b><br><span class="badge ${j.kind==="Adjusting"?"adj":"reg"}">${j.kind}</span></td><td style="white-space:nowrap">${esc(j.date.slice(8))} Oct</td>`}<td>${l.cr?"&emsp;":""}${esc(NAME[l.code])}${i===j.lines.length-1?`<br><small style="color:#4a6481">${esc(j.narration)}</small>`:""}</td><td class="n">${l.dr?f(l.dr):""}</td><td class="n">${l.cr?f(l.cr):""}</td></tr>`).join("")).join("")};
+q.addEventListener("input",renderJ);kind.addEventListener("change",renderJ);renderJ();
+
+/* trial balance */
+const pa=document.getElementById("postadj");
+const renderTB=()=>{const b=pa.checked?A:U;let dr=0,cr=0;
+  document.getElementById("tbbody").innerHTML=D.coa.map(a=>{const v=b[a.code];if(!v)return"";v>0?dr+=v:cr-=v;
+    const ch=pa.checked&&A[a.code]!==U[a.code];return`<tr><td>${a.code}</td><td>${esc(a.name)} ${ch?'<span class="badge adj">adjusted</span>':""}</td><td class="n">${v>0?f(v):""}</td><td class="n">${v<0?f(-v):""}</td></tr>`}).join("")+
+    `<tr class="tot"><td></td><td>Totals</td><td class="n">${f(dr)}</td><td class="n">${f(cr)}</td></tr>`;
+  document.getElementById("tbcheck").innerHTML=dr===cr?`<span class="badge good">Balanced: ₹${f(dr)} each side</span>`:`<span class="badge adj">Out of balance by ₹${f(dr-cr)}</span>`};
+pa.addEventListener("change",renderTB);renderTB();
+
+/* statements */
+const row=(l,v,c="")=>`<tr class="${c}"><td>${l}</td><td class="n">${f(v)}</td></tr>`;
+const cogs=A[5000],gp=rev-cogs,opex=D.coa.filter(a=>a.type==="Expense"&&a.code!==5000);
+document.getElementById("pl").innerHTML=row("Sales revenue",rev)+row("Cost of goods sold",-cogs)+row("Gross profit",gp,"sec")+
+  opex.map(a=>A[a.code]?row(esc(a.name),-A[a.code]):"").join("")+row("Net profit",pA,"tot");
+const ta=[1000,1100,1150,1200,1300,1500,1510].reduce((s,c)=>s+A[c],0);
+const liab=[[2000,"Accounts payable"],[2100,"Accrued expenses"],[2110,"Salaries payable"],[2310,"Interest payable"],[2300,"Term loan"],[3000,"Share capital"],[3100,"Retained earnings (opening)"]];
+const tle=liab.reduce((s,[c])=>s-A[c],0)+pA;
+document.getElementById("bs").innerHTML=[1000,1100,1150,1200,1300,1500,1510].map(c=>row(esc(NAME[c]),A[c])).join("")+row("Total assets",ta,"tot")+
+  liab.map(([c,l])=>row(l,-A[c])).join("")+row("Profit for October",pA)+row("Total liabilities and equity",tle,"tot")+
+  `<tr><td colspan="2">${ta===tle?'<span class="badge good">Balance sheet balances</span>':'<span class="badge adj">Difference '+f(ta-tle)+'</span>'}</td></tr>`;
+
+/* reconciliations */
+const bk=D.bank,unp=bk.unpresented.reduce((s,u)=>s+u[1],0),adjB=bk.stmt-unp;
+document.getElementById("bank").innerHTML=row("Balance per bank statement",bk.stmt)+bk.unpresented.map(u=>row("Less: "+esc(u[0]),-u[1])).join("")+
+  row("Adjusted bank balance",adjB,"sec")+row("Balance per GL (after ₹"+f(bk.charges)+" bank charges, ADJ-09)",A[1000])+row("Difference",adjB-A[1000],"tot");
+const arT=D.ar_sub.reduce((s,x)=>s+x[1],0),apT=D.ap_sub.reduce((s,x)=>s+x[1],0);
+document.getElementById("sub").innerHTML=`<tr class="sec"><td colspan="2">Accounts receivable</td></tr>`+D.ar_sub.map(x=>row(esc(x[0]),x[1])).join("")+
+  row("Subledger total",arT)+row("GL control account 1100",A[1100])+row("Difference",arT-A[1100],"tot")+
+  `<tr class="sec"><td colspan="2">Accounts payable</td></tr>`+D.ap_sub.map(x=>row(esc(x[0]),x[1])).join("")+
+  row("Subledger total",apT)+row("GL control account 2000",-A[2000])+row("Difference",apT+A[2000],"tot");
+}
+</script></body></html>

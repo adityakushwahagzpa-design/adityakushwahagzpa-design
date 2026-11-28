@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IFRS 16 Lease Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: a central bank bulletin, measured and exact; numbers do the talking.
+   IDEA: the lease liability unwinding month by month while the right-of-use asset wears down in a straight line.
+   PICTURE: two balance curves across the lease term, with the annual P&L charge vs cash rent beneath.
+   COLOUR and TYPE: white, ink, one deep teal; rule grey. Libre Caslon Text for the title and results, Inter for the working.
+   LAYOUT: title across the top; inputs and live results side by side; two-thirds chart, one-third ruled figures; working tabs. */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0d1416);--ink:light-dark(#14161a,#e8eef0);--mute:light-dark(#5b6670,#9fb0b6);--teal:light-dark(#0b5d63,#5ec4c9);--rule:light-dark(#d9dee2,#24343a);--soft:light-dark(#f3f6f7,#132024);--warm:light-dark(#b0472f,#f08a6e)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(24px,4vw,56px) max(5vw,16px)}.wrap{max-width:1240px;margin:0 auto}
+.kicker{font-size:14px;color:var(--mute);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--ink);padding-bottom:10px}
+h1{font-family:"Libre Caslon Text",Georgia,serif;font-weight:400;font-size:clamp(28px,3.8vw,44px);line-height:1.1;margin:22px 0 10px;text-wrap:balance;max-width:32ch}
+.lede{color:var(--mute);max-width:70ch;margin:0}
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:clamp(20px,3vw,40px);margin-top:28px}
+.inputs{background:var(--soft);border-radius:12px;padding:20px}
+.presets{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.presets button,.seg button,.tabs button{font:inherit;font-size:14px;min-height:44px;padding:0 14px;border-radius:8px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer}
+.presets button[aria-pressed=true],.seg button[aria-pressed=true],.tabs button[aria-selected=true]{background:var(--teal);color:var(--bg);border-color:var(--teal)}
+.field{display:grid;grid-template-columns:minmax(0,1fr) 150px;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--rule)}
+.field label{font-size:15px}.field small{display:block;color:var(--mute);font-size:13px}
+.field input{font:inherit;font-size:16px;min-height:44px;width:100%;padding:0 10px;border:1px solid var(--rule);border-radius:8px;background:var(--bg);color:var(--ink);text-align:right;font-variant-numeric:tabular-nums}
+.seg{display:flex;gap:6px}
+button:focus-visible,input:focus-visible{outline:3px solid var(--warm);outline-offset:2px}
+.res{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:2px solid var(--ink)}
+.r{padding:14px 4px 14px 0;border-bottom:1px solid var(--rule)}
+.r span{display:block;font-size:13px;color:var(--mute)}
+.r b{font-family:"Libre Caslon Text",Georgia,serif;font-weight:400;font-size:clamp(24px,3vw,34px);white-space:nowrap;line-height:1.2}
+.r.big b{font-size:clamp(34px,4.6vw,52px);color:var(--teal)}
+.r.big{grid-column:1/-1}
+.r em{display:block;font-style:normal;font-size:13px;color:var(--mute)}
+.split{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);margin-top:36px}
+h2{font-family:"Libre Caslon Text",Georgia,serif;font-weight:400;font-size:24px;margin:0 0 6px;line-height:1.2}
+.cap{color:var(--mute);font-size:14px;margin:0 0 10px}
+.fig{position:relative;min-height:320px}.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--mute)}.legend i{display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:6px}
+.bars{display:grid;gap:10px;margin-top:6px}
+.yr{display:grid;grid-template-columns:48px minmax(0,1fr);gap:10px;align-items:center;font-size:13px}
+.yr .t{display:grid;gap:3px}.yr .t div{height:12px;border-radius:2px;position:relative}
+.yr .c{background:var(--teal)}.yr .p{background:var(--rule)}
+.ruled{border-top:2px solid var(--ink)}.ruled div{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.ruled b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:40px 0 14px}
+.panel{display:none}.panel.on{display:block}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px 12px;border-bottom:1px solid var(--rule);text-align:left}
+th{font-size:13px;color:var(--mute);font-weight:600;border-bottom:1px solid var(--ink)}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+tr.tot td{font-weight:700;border-top:2px solid var(--ink)}
+.scroll{overflow-x:auto}.tall{max-height:520px;overflow:auto}
+.notes{columns:2 320px;column-gap:40px;color:var(--mute);font-size:15px}.notes p{margin:0 0 12px;break-inside:avoid}.notes b{color:var(--ink)}
+footer{border-top:1px solid var(--rule);color:var(--mute);font-size:14px}footer a{color:var(--teal)}
+@media(max-width:860px){.calc,.split{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){table{font-size:13px}th,td{padding:7px 8px}.field{grid-template-columns:minmax(0,1fr) 120px}}
+</style></head><body>
+<header class="band" style="padding-bottom:0"><div class="wrap">
+<div class="kicker"><span><b style="color:var(--ink)">IFRS 16 / Ind AS 116</b> · Lessee accounting · Kaveri Home Appliances Pvt. Ltd.</span><span>Commencement 1 April 2026 · fiscal year April to March</span></div>
+<h1 id="h"></h1>
+<p class="lede">Change any input and the lease liability, right-of-use asset, interest unwind, P&amp;L charge and balance sheet split recalculate instantly. Sample warehouse lease for a fictional company, built as a portfolio project.</p>
+<section class="calc">
+<div class="inputs">
+<div class="presets" id="presets"></div>
+<div class="field"><label for="rent">Monthly rent, year 1 (₹)</label><input id="rent" type="number" inputmode="numeric" step="1000" min="0"></div>
+<div class="field"><label for="esc">Annual escalation (%)<small>Steps up each lease year</small></label><input id="esc" type="number" step="0.5" min="0"></div>
+<div class="field"><label for="years">Lease term (years)</label><input id="years" type="number" step="1" min="1" max="20"></div>
+<div class="field"><label for="rate">Incremental borrowing rate (%)<small>Annual, applied monthly (rate / 12)</small></label><input id="rate" type="number" step="0.25" min="0"></div>
+<div class="field"><label for="idc">Initial direct costs (₹)<small>Added to the right-of-use asset</small></label><input id="idc" type="number" step="5000" min="0"></div>
+<div class="field" style="border:0"><span>Rent paid<small style="display:block;color:var(--mute);font-size:13px">End or start of month</small></span><div class="seg" id="timing"><button data-v="arrears">Arrears</button><button data-v="advance">Advance</button></div></div>
+</div>
+<div><div class="res" id="res"></div></div>
+</section>
+</div></header>
+
+<main class="band"><div class="wrap">
+<div class="split">
+<div><h2>The liability unwinds; the asset wears down</h2><p class="cap">Month-end balances across the lease term.</p>
+<div class="legend"><span><i style="background:var(--teal)"></i>Lease liability</span><span><i style="background:var(--warm)"></i>Right-of-use asset</span></div>
+<div class="fig"><svg id="chart" role="img" aria-label="Lease liability and right-of-use asset balances over the term"></svg></div></div>
+<div><h2>Charge vs cash rent</h2><p class="cap">Interest + depreciation (teal) against rent paid (grey), by fiscal year.</p><div class="bars" id="bars"></div>
+<div class="ruled" id="split" style="margin-top:18px"></div></div>
+</div>
+
+<div class="tabs" role="tablist">
+<button role="tab" data-t="annual" aria-selected="true">Annual P&amp;L</button>
+<button role="tab" data-t="schedule" aria-selected="false">Monthly schedule</button>
+<button role="tab" data-t="journal" aria-selected="false">Journal entries</button>
+<button role="tab" data-t="maturity" aria-selected="false">Maturity analysis</button>
+<button role="tab" data-t="method" aria-selected="false">Method</button>
+</div>
+<section class="panel on" id="p-annual"><div class="scroll"><table><thead><tr><th>Fiscal year</th><th class="n">Interest (₹)</th><th class="n">Depreciation (₹)</th><th class="n">IFRS 16 charge (₹)</th><th class="n">Rent paid (₹)</th><th class="n">Charge − rent (₹)</th><th class="n">Closing liability (₹)</th></tr></thead><tbody id="annual"></tbody></table></div></section>
+<section class="panel" id="p-schedule"><div class="scroll tall"><table><thead><tr><th>Month</th><th>Period end</th><th class="n">Opening (₹)</th><th class="n">Interest (₹)</th><th class="n">Payment (₹)</th><th class="n">Closing liability (₹)</th><th class="n">Depreciation (₹)</th><th class="n">Closing ROU (₹)</th></tr></thead><tbody id="sched"></tbody></table></div></section>
+<section class="panel" id="p-journal"><div class="scroll"><table><thead><tr><th>Date</th><th>Account</th><th class="n">Debit (₹)</th><th class="n">Credit (₹)</th></tr></thead><tbody id="je"></tbody></table></div></section>
+<section class="panel" id="p-maturity"><div class="scroll"><table><thead><tr><th>Undiscounted payments due</th><th class="n">₹</th></tr></thead><tbody id="mat"></tbody></table></div></section>
+<section class="panel" id="p-method"><div class="notes">
+<p><b>Initial measurement.</b> Lease liability = present value of the fixed lease payments, discounted at the incremental borrowing rate because the rate implicit in the lease is not readily determinable. Right-of-use asset = liability + initial direct costs.</p>
+<p><b>Subsequent measurement.</b> Each month the liability grows by interest (opening balance × rate / 12) and falls by the rent paid. The asset is depreciated straight line over the lease term, as ownership does not transfer.</p>
+<p><b>Profit and loss.</b> Interest is highest at the start, so the total charge exceeds the cash rent in early years and falls below it later. Operating cash flow improves, because the principal part of each payment is a financing cash flow.</p>
+<p><b>Balance sheet.</b> The current portion of the liability is the principal that falls due within twelve months of the reporting date; the rest is non-current. The maturity analysis shows undiscounted payments, as Ind AS 107 requires.</p>
+<p><b>Simplifications.</b> No extension or termination option, no residual value guarantee, no variable payments, no lease incentive and no remeasurement events. Short-term and low-value exemptions do not apply to this lease.</p>
+<p><b>Files.</b> The Excel workbook rebuilds every figure here with formulas: Inputs, Schedule, Summary and Journal Entries sheets.</p>
+</div></section>
+</div></main>
+<footer class="band"><div class="wrap">Built by Aditya Kushwaha · <a href="https://github.com/adityakushwahagzpa-design">GitHub portfolio</a> · Sample data, not a real lease.</div></footer>
+
+<script>
+{
+const PRE={"Warehouse (sample)":{rent:150000,esc:5,years:5,rate:10,idc:75000,timing:"arrears"},
+ "Office, 3 years":{rent:240000,esc:0,years:3,rate:9.5,idc:50000,timing:"advance"},
+ "Retail store, 9 years":{rent:90000,esc:7,years:9,rate:11,idc:120000,timing:"advance"}};
+const ids=["rent","esc","years","rate","idc"];let timing="arrears",preset="Warehouse (sample)";
+const $=id=>document.getElementById(id);
+const f=n=>{const r=Math.round(n);return r===0?"–":(r<0?"(":"")+Math.abs(r).toLocaleString("en-IN")+(r<0?")":"")};
+const lakh=n=>"₹"+(n/1e5).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2})+" lakh";
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const endDate=m=>{const t=3+m-1;return MON[t%12]+" "+(2026+Math.floor(t/12))};
+const fyOf=m=>"FY"+(27+Math.floor((m-1)/12));
+function compute(v){const n=Math.max(1,Math.round(v.years))*12,r=v.rate/100/12,adv=v.timing==="advance";
+  const pay=[];for(let m=1;m<=n;m++)pay.push(v.rent*Math.pow(1+v.esc/100,Math.floor((m-1)/12)));
+  const pv=pay.reduce((s,p,i)=>s+p/Math.pow(1+r,adv?i:i+1),0),rou=pv+v.idc,dep=rou/n;
+  const rows=[];let L=pv,A=rou;
+  for(let m=1;m<=n;m++){const p=pay[m-1];let open=L,i;if(adv){i=(open-p)*r;L=open-p+i}else{i=open*r;L=open+i-p}A-=dep;rows.push({m,open,i,p,close:Math.abs(L)<0.01?0:L,dep,rou:Math.abs(A)<0.01?0:A})}
+  const yrs=[];for(let y=0;y<n/12;y++){const s=rows.slice(12*y,12*y+12);yrs.push({fy:"FY"+(27+y),i:s.reduce((a,x)=>a+x.i,0),d:dep*12,p:s.reduce((a,x)=>a+x.p,0),close:s[11].close})}
+  const close1=rows[11].close,close2=n>12?rows[23].close:0;
+  return{n,pv,rou,dep,rows,yrs,pay,totInt:rows.reduce((a,x)=>a+x.i,0),totPay:pay.reduce((a,b)=>a+b,0),close1,cur:close1-close2,non:close2,rou1:rows[11].rou}}
+function read(){const v={timing};for(const k of ids){const x=parseFloat($(k).value);v[k]=isFinite(x)&&x>=0?x:0}if(v.years<1)v.years=1;if(v.years>20)v.years=20;return v}
+function setInputs(p){ids.forEach(k=>$(k).value=p[k]);timing=p.timing;paint()}
+function paint(){document.querySelectorAll("#timing button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===timing));
+  document.querySelectorAll("#presets button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.p===preset))}
+$("presets").innerHTML=Object.keys(PRE).map(k=>`<button data-p="${k}">${k}</button>`).join("");
+$("presets").addEventListener("click",e=>{const p=e.target.dataset.p;if(p){preset=p;setInputs(PRE[p]);run()}});
+$("timing").addEventListener("click",e=>{const v=e.target.dataset.v;if(v){timing=v;preset="";paint();run()}});
+ids.forEach(k=>$(k).addEventListener("input",()=>{preset="";paint();run()}));
+const svg=$("chart");let R=null;
+const draw=()=>{if(!R)return;const W=svg.clientWidth,H=svg.clientHeight;if(!W)return;const small=W<520;
+  const pl=small?44:62,pr=12,pt=14,pb=34,max=Math.max(R.pv,R.rou)*1.05,n=R.n;
+  const x=m=>pl+(W-pl-pr)*m/n,y=v=>pt+(H-pt-pb)*(1-v/max);
+  let o="";const ticks=4;for(let k=0;k<=ticks;k++){const v=max*k/ticks;o+=`<line x1="${pl}" x2="${W-pr}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rule)"/><text x="${pl-8}" y="${y(v)+4}" text-anchor="end" font-size="12" fill="var(--mute)">${(v/1e5).toFixed(0)}L</text>`}
+  const step=n<=36?12:n<=84?12:24;for(let m=0;m<=n;m+=step)o+=`<text x="${x(m)}" y="${H-12}" text-anchor="${m===n?"end":m===0?"start":"middle"}" font-size="12" fill="var(--mute)">${m===0?"Start":(small?"Y":"Year ")+m/12}</text>`;
+  const path=(key,start)=>"M"+x(0)+","+y(start)+R.rows.map(r=>"L"+x(r.m)+","+y(r[key])).join("");
+  o+=`<path d="${path("rou",R.rou)}" fill="none" stroke="var(--warm)" stroke-width="2.5"/><path d="${path("close",R.pv)}" fill="none" stroke="var(--teal)" stroke-width="3"/>`;
+  const k=Math.min(12,n);o+=`<circle cx="${x(k)}" cy="${y(R.rows[k-1].close)}" r="5" fill="var(--teal)"/><text x="${x(k)+8}" y="${y(R.rows[k-1].close)-8}" font-size="12" fill="var(--ink)">${lakh(R.rows[k-1].close)} at 31 Mar 2027</text>`;
+  svg.innerHTML=o};
+const ro=new ResizeObserver(draw);ro.observe(svg);
+function run(){const v=read();R=compute(v);const y1=R.yrs[0],ch=y1.i+y1.d;
+  $("h").textContent=`A ${lakh(R.totPay).replace(" lakh","")} lakh lease goes on the balance sheet at ${lakh(R.pv)}; year one charge is ${lakh(ch)} against ${lakh(y1.p)} of rent`;
+  $("res").innerHTML=[["big","Lease liability at commencement",lakh(R.pv),"Present value of "+R.n+" monthly payments"],
+   ["","Right-of-use asset",lakh(R.rou),"Liability + ₹"+f(v.idc)+" direct costs"],
+   ["","Total interest over the term",lakh(R.totInt),((R.totInt/R.totPay)*100).toFixed(1)+"% of total payments"],
+   ["","FY27 interest + depreciation",lakh(ch),(ch>=y1.p?"₹"+f(ch-y1.p)+" above":"₹"+f(y1.p-ch)+" below")+" cash rent"],
+   ["","Monthly depreciation",lakh(R.dep),"Straight line over "+R.n+" months"]].map(r=>`<div class="r ${r[0]}"><span>${r[1]}</span><b>${r[2]}</b><em>${r[3]}</em></div>`).join("");
+  const mx=Math.max(...R.yrs.map(a=>Math.max(a.i+a.d,a.p)));
+  $("bars").innerHTML=R.yrs.map(a=>`<div class="yr"><span>${a.fy}</span><div class="t"><div class="c" style="width:${(a.i+a.d)/mx*100}%" title="Charge ₹${f(a.i+a.d)}"></div><div class="p" style="width:${a.p/mx*100}%" title="Rent ₹${f(a.p)}"></div></div></div>`).join("");
+  $("split").innerHTML=[["Liability at 31 Mar 2027",R.close1],["Current portion",R.cur],["Non-current portion",R.non],["ROU asset at 31 Mar 2027",R.rou1]].map(x=>`<div><span>${x[0]}</span><b>₹${f(x[1])}</b></div>`).join("");
+  const T=R.yrs.reduce((s,a)=>({i:s.i+a.i,d:s.d+a.d,p:s.p+a.p}),{i:0,d:0,p:0});
+  $("annual").innerHTML=R.yrs.map(a=>`<tr><td>${a.fy}</td><td class="n">${f(a.i)}</td><td class="n">${f(a.d)}</td><td class="n">${f(a.i+a.d)}</td><td class="n">${f(a.p)}</td><td class="n">${f(a.i+a.d-a.p)}</td><td class="n">${f(a.close)}</td></tr>`).join("")+
+   `<tr class="tot"><td>Total</td><td class="n">${f(T.i)}</td><td class="n">${f(T.d)}</td><td class="n">${f(T.i+T.d)}</td><td class="n">${f(T.p)}</td><td class="n">${f(T.i+T.d-T.p)}</td><td></td></tr>`;
+  $("sched").innerHTML=R.rows.map(r=>`<tr><td>${r.m}</td><td style="white-space:nowrap">${endDate(r.m)}</td><td class="n">${f(r.open)}</td><td class="n">${f(r.i)}</td><td class="n">${f(r.p)}</td><td class="n">${f(r.close)}</td><td class="n">${f(r.dep)}</td><td class="n">${f(r.rou)}</td></tr>`).join("");
+  const r1=R.rows[0],je=[["1 Apr 2026","Right-of-use asset",R.pv,0],["","   Lease liability",0,R.pv],["1 Apr 2026","Right-of-use asset",v.idc,0],["","   Cash at bank (direct costs)",0,v.idc],
+   [timing==="advance"?"1 Apr 2026":"30 Apr 2026","Lease liability",r1.p,0],["","   Cash at bank (rent)",0,r1.p],["30 Apr 2026","Interest expense",r1.i,0],["","   Lease liability",0,r1.i],["30 Apr 2026","Depreciation expense",R.dep,0],["","   Accumulated depreciation, ROU asset",0,R.dep]];
+  $("je").innerHTML=je.map(j=>`<tr><td style="white-space:nowrap">${j[0]}</td><td style="white-space:pre">${j[1]}</td><td class="n">${j[2]?f(j[2]):""}</td><td class="n">${j[3]?f(j[3]):""}</td></tr>`).join("");
+  $("mat").innerHTML=R.yrs.map((a,i)=>`<tr><td>Year ${i+1} (${a.fy})</td><td class="n">${f(a.p)}</td></tr>`).join("")+`<tr class="tot"><td>Total undiscounted</td><td class="n">${f(R.totPay)}</td></tr><tr><td>Less: future interest</td><td class="n">(${f(R.totInt).replace(/[()]/g,"")})</td></tr><tr class="tot"><td>Lease liability at commencement</td><td class="n">${f(R.pv)}</td></tr>`;
+  draw()}
+const tabs=[...document.querySelectorAll("[role=tab]")];
+const show=t=>{tabs.forEach(b=>b.setAttribute("aria-selected",b.dataset.t===t));document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("on",p.id==="p-"+t))};
+tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.t);history.replaceState(null,"","#"+b.dataset.t)}));
+const fh=()=>{const h=location.hash.slice(1);if(tabs.some(b=>b.dataset.t===h))show(h)};window.addEventListener("hashchange",fh);fh();
+setInputs(PRE[preset]);run();
+}
+</script></body></html>
