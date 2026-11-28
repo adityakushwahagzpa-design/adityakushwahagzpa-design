@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Market Linkages Lab</title>
+<meta name="description" content="How one change in inflation moves the policy rate, bond yields, bond prices, the USD/INR forward and stock values. By Aditya Kushwaha.">
+<meta property="og:title" content="Market Linkages Lab | Aditya Kushwaha">
+<meta property="og:description" content="Inflation to policy rate to yield curve, then bonds, the rupee and equities. Live model across the four BMC topics.">
+<meta property="og:image" content="https://raw.githubusercontent.com/adityakushwahagzpa-design/adityakushwahagzpa-design/main/projects/market-linkages-lab/og.png">
+<meta property="og:url" content="https://market-linkages-lab.vercel.app">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: a markets desk explainer, exact and calm; every number moves when an input moves.
+   IDEA: the monetary transmission chain, inflation to policy rate to yields, then out to bonds, the rupee and stocks.
+   PICTURE: a live chain diagram whose nodes carry the current values and their change from the base case.
+   COLOUR and TYPE: deep sea ground, sky for rates, white for prices, signal pink for falls; Hanken Grotesk.
+   LAYOUT: three strips on one axis: headline + chain + scenarios (tallest), inputs and the four BMC modules, method and files. */
+:root{color-scheme:dark;--bg:#0a2540;--bg2:#0e2d4d;--card:#0d2a48;--line:#244a70;--ink:#fff;--mute:#a9c3dd;--sky:#8fd3ff;--pink:#ff5c8a;--ok:#7ee0b5}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Hanken Grotesk",system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(24px,4vw,56px) max(5vw,16px)}.wrap{max-width:1240px;margin:0 auto}
+.top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:14px;color:var(--mute)}
+h1{font-weight:300;font-size:clamp(30px,4.4vw,50px);line-height:1.06;margin:16px 0 8px;text-wrap:balance;max-width:26ch}
+.lede{color:var(--mute);max-width:72ch;margin:0}
+.scen{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 10px}
+.scen button,.tabs button{font:inherit;font-size:15px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.scen button[aria-pressed=true]{background:var(--sky);color:#0a2540;border-color:var(--sky);font-weight:600}
+button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+.chainwrap{position:relative;min-height:360px;margin-top:6px}
+.chainwrap svg{position:absolute;inset:0;width:100%;height:100%}
+.note{font-size:13px;color:var(--mute);margin-top:6px}
+.main{background:#f3f7fb;color:#0a2540;color-scheme:light}
+.grid{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:26px;align-items:start}
+.inputs{background:#fff;border:1px solid #d6e2ee;border-radius:12px;padding:16px 18px;position:sticky;top:12px}
+.inputs h2{font-size:17px;margin:0 0 6px}
+.f{padding:9px 0;border-bottom:1px solid #e7eef5}
+.f label{display:flex;justify-content:space-between;gap:8px;font-size:14.5px}.f label b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.f input[type=range]{width:100%;accent-color:#0a2540;height:28px}
+details summary{cursor:pointer;font-weight:600;font-size:14.5px;min-height:44px;display:flex;align-items:center}
+.mods{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.mod{background:#fff;border:1px solid #d6e2ee;border-radius:12px;padding:16px 18px}
+.mod .k{font-size:13px;color:#4a6481;font-weight:600}
+.mod h3{margin:2px 0 8px;font-size:19px;line-height:1.25}
+.figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:8px}
+.fig1 span{display:block;font-size:12.5px;color:#4a6481}.fig1 b{font-size:21px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fig1 em{display:block;font-style:normal;font-size:12.5px;font-weight:600}
+.up{color:#0b7a4b}.dn{color:#c2184f}.fl{color:#4a6481}
+.fig{position:relative;min-height:220px}.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.heat{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+.heat th,.heat td{padding:6px 4px;text-align:center;border:1px solid #fff}
+.heat th{color:#4a6481;font-weight:600;background:#f3f7fb}
+.mod p.r{font-size:14px;color:#33506e;margin:8px 0 0}
+.wide{grid-column:1/-1}
+table.sc{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+table.sc th,table.sc td{padding:8px 10px;border-bottom:1px solid #e3ebf3;text-align:right;white-space:nowrap}
+table.sc th:first-child,table.sc td:first-child{text-align:left}
+table.sc th{font-size:12.5px;color:#4a6481}
+table.sc tr.on td{background:#e6f4ff;font-weight:600}
+.scroll{overflow-x:auto}
+.foot{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;color:var(--mute);font-size:15px}
+.foot h4{color:#fff;margin:0 0 6px;font-size:16px}.foot a{color:var(--sky)}
+@media(max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}.inputs{position:static}.mods{grid-template-columns:minmax(0,1fr)}.foot{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.figs{grid-template-columns:repeat(2,minmax(0,1fr))}.chainwrap{min-height:560px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style></head><body>
+
+<header class="band"><div class="wrap">
+<div class="top"><span><b style="color:#fff">Market Linkages Lab</b> · built on the four Bloomberg Market Concepts topics: economics, fixed income, currencies, equities</span><span>Illustrative inputs · India</span></div>
+<h1 id="h"></h1>
+<p class="lede">Move one economic indicator and watch it travel: the policy rate follows inflation and growth, the yield curve follows the policy rate, and bond prices, the USD/INR forward and a stock's fair value all reprice from the curve.</p>
+<div class="scen" id="scen" role="group" aria-label="Scenarios"></div>
+<div class="chainwrap"><svg id="chain" role="img" aria-label="Transmission chain from inflation to markets"></svg></div>
+<p class="note">Arrows show the order of transmission; ▲▼ show the change from the base case. Inputs are illustrative assumptions, not live market data.</p>
+</div></header>
+
+<main class="band main"><div class="wrap grid">
+<aside class="inputs" aria-label="Inputs">
+<h2>Inputs</h2>
+<div id="f-main"></div>
+<details><summary>More assumptions</summary><div id="f-more"></div></details>
+<button id="reset" style="font:inherit;margin-top:10px;min-height:44px;width:100%;border-radius:8px;border:1px solid #c8d6e5;background:#fff;color:#0a2540;cursor:pointer">Reset to base case</button>
+</aside>
+<div class="mods">
+<section class="mod"><div class="k">1 · Economic indicators</div><h3>Inflation and growth set the policy rate</h3>
+<div class="figs" id="m1"></div><div class="fig"><svg id="taylor" role="img" aria-label="Policy rate against inflation"></svg></div><p class="r" id="r1"></p></section>
+<section class="mod"><div class="k">2 · Fixed income</div><h3>The yield curve and a 10-year bond</h3>
+<div class="figs" id="m2"></div><div class="fig"><svg id="curve" role="img" aria-label="Yield curve, base and current"></svg></div><p class="r" id="r2"></p></section>
+<section class="mod"><div class="k">3 · Currencies</div><h3>USD/INR forward from rate differentials</h3>
+<div class="figs" id="m3"></div><div class="fig"><svg id="fxc" role="img" aria-label="Forward rate by horizon"></svg></div><p class="r" id="r3"></p></section>
+<section class="mod"><div class="k">4 · Equities</div><h3>Cost of equity and fair value</h3>
+<div class="figs" id="m4"></div><div class="scroll"><table class="heat" id="heat"></table></div><p class="r" id="r4"></p></section>
+<section class="mod wide"><div class="k">Scenarios</div><h3>One change, every market</h3><div class="scroll"><table class="sc" id="sct"></table></div>
+<p class="r">Bond: a duration and convexity estimate for a 100bp rise is checked against exact repricing in the workbook; the difference is under ₹0.02 on a ₹100 bond.</p></section>
+</div>
+</div></main>
+
+<footer class="band"><div class="wrap foot">
+<div><h4>The chain</h4>Policy rate by a Taylor rule (r* + inflation + 0.5 × inflation gap + 0.5 × output gap). Curve by Nelson-Siegel, anchored to the policy rate at the short end. Bond priced off the curve with half-yearly coupons.</div>
+<div><h4>Currencies and equities</h4>USD/INR forward by covered interest parity. Cost of equity by CAPM on the 10-year yield; value by the Gordon growth model, D1 / (ke − g). Simplified: no credit spread, flat dividend path.</div>
+<div><h4>Files</h4>Excel workbook with every formula: Inputs, Economy, Yield Curve, Bond (cash flows, duration, convexity), FX, Equity (sensitivity grid), Scenarios. <a href="https://github.com/adityakushwahagzpa-design">GitHub portfolio</a> · Built by Aditya Kushwaha.</div>
+</div></footer>
+
+<script>
+{
+const BASE={cpi:4,target:4,rstar:1.5,gap:0,tp:1,curv:.5,tau:2,coupon:6.5,mat:10,us:4,spot:88,fxT:1,d1:20,g:8,beta:1,erp:6};
+const SC=[["Base case",{}],["Inflation spike",{cpi:5.5,gap:0,tp:1.2,g:7.5}],["Growth slowdown",{cpi:3.5,gap:-2,tp:.6,g:6}],["Overheating",{cpi:5,gap:1.5,tp:1,g:8.5}],["Disinflation and rate cuts",{cpi:3,gap:-.5,tp:1,g:8}]];
+const MAIN=[["cpi","CPI inflation",0,10,.1,"%"],["gap","Output gap",-4,4,.1,"%"],["tp","Term premium (10Y over policy)",-1,3,.05,"%"],["us","US 1-year rate",0,8,.05,"%"],["g","Dividend growth",0,11,.1,"%"]];
+const MORE=[["target","Inflation target",2,6,.1,"%"],["rstar","Neutral real rate r*",0,4,.05,"%"],["curv","Curve hump",-2,2,.05,""],["coupon","Bond coupon",0,12,.05,"%"],["mat","Bond maturity",1,30,1," yrs"],["spot","USD/INR spot",70,100,.1,""],["d1","Next dividend D1",1,60,.5," ₹"],["beta","Beta",.3,2,.05,""],["erp","Equity risk premium",2,10,.1,"%"]];
+let P={...BASE},active=0;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const taylor=p=>p.rstar+p.cpi+.5*(p.cpi-p.target)+.5*p.gap;
+const ns=(m,p)=>{const s=taylor(p),l=s+p.tp,x=m/p.tau,f=(1-Math.exp(-x))/x;return l+(s-l)*f+p.curv*(f-Math.exp(-x))};
+const price=(p,y)=>{const n=Math.round(p.mat*2),c=p.coupon/2,r=y/200;let pv=0,t1=0,t2=0;for(let t=1;t<=n;t++){const cf=c+(t===n?100:0),d=cf/Math.pow(1+r,t);pv+=d;t1+=t/2*d;t2+=t*(t+1)*cf/Math.pow(1+r,t+2)}return{pv,mac:t1/pv,mod:t1/pv/(1+r),conv:t2/pv/4}};
+const run=p=>{const pol=taylor(p),y10=ns(10,p),yb=ns(p.mat,p),b=price(p,yb),iin=ns(p.fxT,p),fwd=p.spot*Math.pow((1+iin/100)/(1+p.us/100),p.fxT),ke=y10+p.beta*p.erp,val=ke>p.g?p.d1/((ke-p.g)/100):NaN;
+  return{pol,y10,yb,b,iin,fwd,prem:(Math.pow(fwd/p.spot,1/p.fxT)-1)*100,ke,val,real:pol-p.cpi}};
+const f2=(v,d=2)=>isFinite(v)?v.toLocaleString("en-IN",{minimumFractionDigits:d,maximumFractionDigits:d}):"–";
+const chg=(v,b,d=2,unit="",invertGood=false)=>{if(!isFinite(v)||!isFinite(b))return'<em class="fl">n/a</em>';const x=v-b;if(Math.abs(x)<Math.pow(10,-d)/2)return'<em class="fl">no change</em>';
+  const up=x>0,cls=invertGood?(up?"dn":"up"):(up?"up":"dn");return`<em class="${cls}">${up?"▲":"▼"} ${f2(Math.abs(x),d)}${unit}</em>`};
+
+/* inputs */
+const field=([k,l,mn,mx,st,u])=>`<div class="f"><label for="i-${k}">${l}<b id="v-${k}"></b></label><input type="range" id="i-${k}" min="${mn}" max="${mx}" step="${st}" data-k="${k}" data-u="${u}"></div>`;
+$("f-main").innerHTML=MAIN.map(field).join("");$("f-more").innerHTML=MORE.map(field).join("");
+const syncInputs=()=>[...MAIN,...MORE].forEach(([k,,,,st,u])=>{$("i-"+k).value=P[k];$("v-"+k).textContent=(u===" ₹"?"₹":"")+f2(P[k],st<1?(st<.1?2:1):0)+(u===" ₹"?"":u)});
+document.addEventListener("input",e=>{const k=e.target.dataset&&e.target.dataset.k;if(!k)return;P[k]=parseFloat(e.target.value);active=-1;render()});
+$("scen").innerHTML=SC.map((s,i)=>`<button data-i="${i}">${esc(s[0])}</button>`).join("");
+$("scen").addEventListener("click",e=>{const i=e.target.dataset.i;if(i===undefined)return;active=+i;P={...BASE,...SC[i][1]};render()});
+$("reset").addEventListener("click",()=>{active=0;P={...BASE};render()});
+
+/* charts */
+const W=s=>[s.clientWidth,s.clientHeight];
+function axes(s,x0,x1,y0,y1,xl,yl,pad){const[w,h]=W(s);const L=pad.l,R=w-pad.r,T=pad.t,B=h-pad.b;const X=v=>L+(R-L)*(v-x0)/(x1-x0),Y=v=>B-(B-T)*(v-y0)/(y1-y0);
+  let o="";const ny=4;for(let i=0;i<=ny;i++){const v=y0+(y1-y0)*i/ny;o+=`<line x1="${L}" x2="${R}" y1="${Y(v)}" y2="${Y(v)}" stroke="#e3ebf3"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="#4a6481">${yl(v)}</text>`}
+  return{X,Y,o,L,R,T,B,w,h}}
+function drawTaylor(){const s=$("taylor"),[w,h]=W(s);if(!w)return;const a=axes(s,0,10,0,14,null,v=>v.toFixed(0)+"%",{l:38,r:12,t:12,b:28});let o=a.o;
+  const pts=k=>[...Array(41)].map((_,i)=>{const c=i/4;return[a.X(c),a.Y(Math.max(0,taylor({...P,cpi:c})))]});
+  o+=`<polyline points="${pts().map(p=>p.join(",")).join(" ")}" fill="none" stroke="#0a2540" stroke-width="2.5"/>`;
+  [0,2,4,6,8].forEach(v=>o+=`<text x="${a.X(v)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#4a6481">${v}%</text>`);
+  o+=`<line x1="${a.X(P.target)}" x2="${a.X(P.target)}" y1="${a.T}" y2="${a.B}" stroke="#8fb3d9" stroke-dasharray="4 4"/><text x="${a.X(P.target)+5}" y="${a.T+12}" font-size="11" fill="#4a6481">target</text>`;
+  const cx=a.X(Math.min(10,P.cpi)),cy=a.Y(Math.max(0,taylor(P)));o+=`<circle cx="${cx}" cy="${cy}" r="6" fill="#ff5c8a"/><text x="${cx+9}" y="${cy-8}" font-size="12" font-weight="600" fill="#0a2540">${f2(taylor(P))}%</text>`;
+  o+=`<text x="${a.R}" y="${h-10}" text-anchor="end" font-size="11" fill="#4a6481">CPI →</text>`;s.innerHTML=o}
+function drawCurve(){const s=$("curve"),[w,h]=W(s);if(!w)return;const ms=[...Array(60)].map((_,i)=>.25+i*0.5);const ys=[...ms.map(m=>ns(m,P)),...ms.map(m=>ns(m,BASE))];
+  const lo=Math.floor(Math.min(...ys)-.3),hi=Math.ceil(Math.max(...ys)+.3);const a=axes(s,0,30,lo,hi,null,v=>v.toFixed(1)+"%",{l:44,r:12,t:12,b:28});let o=a.o;
+  const line=(p,c,dash,wid)=>`<polyline points="${ms.map(m=>a.X(m)+","+a.Y(ns(m,p))).join(" ")}" fill="none" stroke="${c}" stroke-width="${wid}" ${dash?'stroke-dasharray="5 4"':""}/>`;
+  o+=line(BASE,"#8fb3d9",1,2)+line(P,"#0a2540",0,2.8);[0,5,10,20,30].forEach(v=>o+=`<text x="${a.X(v)}" y="${h-10}" text-anchor="middle" font-size="11" fill="#4a6481">${v}y</text>`);
+  const x10=a.X(10),y10=a.Y(ns(10,P));o+=`<circle cx="${x10}" cy="${y10}" r="5" fill="#ff5c8a"/><text x="${x10+8}" y="${y10+16}" font-size="12" font-weight="600" fill="#0a2540">10Y ${f2(ns(10,P))}%</text>`;
+  o+=`<text x="${a.R}" y="${a.T+12}" text-anchor="end" font-size="11" fill="#4a6481">dashed: base case</text>`;s.innerHTML=o}
+function drawFx(){const s=$("fxc"),[w,h]=W(s);if(!w)return;const T=[.25,.5,1,2,3,5],f=t=>P.spot*Math.pow((1+ns(t,P)/100)/(1+P.us/100),t);const v=T.map(f);
+  const lo=Math.min(P.spot,...v)-(Math.max(...v,P.spot)-Math.min(...v,P.spot))*.15-.5,hi=Math.max(P.spot,...v)+.5;const a=axes(s,0,T.length,lo,hi,null,x=>x.toFixed(1),{l:44,r:12,t:12,b:28});let o=a.o;const bw=(a.R-a.L)/T.length*.6;
+  T.forEach((t,i)=>{const x=a.X(i+.5),y=a.Y(v[i]),yb=a.Y(P.spot);o+=`<rect x="${x-bw/2}" y="${Math.min(y,yb)}" width="${bw}" height="${Math.abs(yb-y)}" rx="3" fill="${v[i]>=P.spot?"#0a2540":"#c2184f"}"/>`;
+    o+=`<text x="${x}" y="${h-10}" text-anchor="middle" font-size="11" fill="#4a6481">${t<1?t*12+"m":t+"y"}</text>`;if(w>380)o+=`<text x="${x}" y="${v[i]>=P.spot?y-6:y+14}" text-anchor="middle" font-size="11" fill="#0a2540">${v[i].toFixed(2)}</text>`});
+  const ys=a.Y(P.spot);o+=`<line x1="${a.L}" x2="${a.R}" y1="${ys}" y2="${ys}" stroke="#ff5c8a" stroke-dasharray="4 4"/>`;o+=`<text x="${a.L+4}" y="${ys-6}" font-size="11" fill="#c2184f">spot ${P.spot.toFixed(2)}</text>`;s.innerHTML=o}
+function drawChain(R,B0){const s=$("chain"),[w,h]=W(s);if(!w)return;const narrow=w<600;
+  const nodes=[["cpi","Inflation (CPI)",f2(P.cpi,1)+"%",chg(P.cpi,BASE.cpi,1," pts",true)],["pol","Policy rate",f2(R.pol)+"%",chg(R.pol,B0.pol,2," pts",true)],["y10","10Y G-sec yield",f2(R.y10)+"%",chg(R.y10,B0.y10,2," pts",true)],
+    ["bond","10Y bond price","₹"+f2(R.b.pv),chg(R.b.pv,B0.b.pv,2,"")],["fx","USD/INR 1Y forward",f2(R.fwd),chg(R.fwd,B0.fwd,2,"",true)],["eq","Stock fair value","₹"+f2(R.val,0),chg(R.val,B0.val,0,"")]];
+  let pos;if(!narrow){const cy=h/2,x=[.09,.31,.53,.84];pos={cpi:[x[0]*w,cy],pol:[x[1]*w,cy],y10:[x[2]*w,cy],bond:[x[3]*w,cy-120],fx:[x[3]*w,cy],eq:[x[3]*w,cy+120]}}
+  else{const cx=w/2;pos={cpi:[cx,50],pol:[cx,140],y10:[cx,230],bond:[w*.25,360],fx:[w*.75,360],eq:[cx,470]}}
+  const nw=narrow?Math.min(170,w*.46):Math.min(210,w*.18),nh=78;let o=`<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#8fd3ff"/></marker></defs>`;
+  const edge=(a,b)=>{const[x1,y1]=pos[a],[x2,y2]=pos[b];let sx,sy,ex,ey;if(!narrow){sx=x1+nw/2;sy=y1;ex=x2-nw/2-4;ey=y2}else{sx=x1;sy=y1+nh/2;ex=x2;ey=y2-nh/2-4}
+    const mx=(sx+ex)/2;o+=narrow?`<path d="M${sx},${sy} C${sx},${(sy+ey)/2} ${ex},${(sy+ey)/2} ${ex},${ey}" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#ar)" opacity=".85"/>`:`<path d="M${sx},${sy} C${mx},${sy} ${mx},${ey} ${ex},${ey}" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#ar)" opacity=".85"/>`};
+  edge("cpi","pol");edge("pol","y10");edge("y10","bond");edge("y10","fx");edge("y10","eq");
+  const lab=narrow?"":`<text x="${pos.pol[0]}" y="${pos.pol[1]-nh/2-14}" text-anchor="middle" font-size="12" fill="#a9c3dd">Taylor rule</text><text x="${pos.y10[0]}" y="${pos.y10[1]-nh/2-14}" text-anchor="middle" font-size="12" fill="#a9c3dd">yield curve</text>`;
+  o+=lab;
+  nodes.forEach(([k,t,v,c])=>{const[x,y]=pos[k];const big=["pol","y10"].includes(k);o+=`<g transform="translate(${x-nw/2},${y-nh/2})"><rect width="${nw}" height="${nh}" rx="12" fill="${big?"#12385f":"#0e2d4d"}" stroke="${big?"#8fd3ff":"#2b5680"}"/>
+    <text x="14" y="22" font-size="12.5" fill="#a9c3dd">${esc(t)}</text><text x="14" y="50" font-size="${narrow?20:24}" font-weight="600" fill="#fff">${esc(v)}</text></g>`;
+    const tmp=document.createElement("div");tmp.innerHTML=c;const em=tmp.firstChild,cl=em.className,tx=em.textContent;
+    o+=`<text x="${x-nw/2+14}" y="${y+nh/2-10}" font-size="12" font-weight="600" fill="${cl==="up"?"#7ee0b5":cl==="dn"?"#ff8fae":"#a9c3dd"}">${esc(tx)}</text>`});
+  s.innerHTML=o}
+let RR,BB;const draws=()=>{drawChain(RR,BB);drawTaylor();drawCurve();drawFx()};
+const ro=new ResizeObserver(()=>{if(RR)draws()});["chain","taylor","curve","fxc"].forEach(id=>ro.observe($(id)));
+
+function render(){syncInputs();document.querySelectorAll("#scen button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===active));
+  const R=run(P),B0=run(BASE);RR=R;BB=B0;
+  const dB=R.b.pv-B0.b.pv,dE=R.val/B0.val-1;
+  $("h").textContent=active<=0&&Math.abs(R.pol-B0.pol)<.005?`At 4% inflation the policy rate sits at ${f2(R.pol)}%, the 10-year at ${f2(R.y10)}%, and a 10-year bond near par`
+    :`A ${f2(Math.abs(R.pol-B0.pol))}-point ${R.pol>B0.pol?"rise":"cut"} in the policy rate moves the 10-year bond ${dB>=0?"up":"down"} ₹${f2(Math.abs(dB))} and the stock ${dE>=0?"up":"down"} ${f2(Math.abs(dE*100),1)}%`;
+  const fig=(l,v,c)=>`<div class="fig1"><span>${l}</span><b>${v}</b>${c||""}</div>`;
+  $("m1").innerHTML=fig("Policy rate",f2(R.pol)+"%",chg(R.pol,B0.pol,2," pts",true))+fig("Real policy rate",f2(R.real)+"%")+fig("Stance",R.real>P.rstar+.25?"Restrictive":R.real<P.rstar-.25?"Easy":"Neutral");
+  $("r1").textContent=`Inflation ${f2(P.cpi-P.target,1)} pts from target and an output gap of ${f2(P.gap,1)}% give a Taylor-rule policy rate of ${f2(R.pol)}%.`;
+  const sh=ns(30,P)-ns(.25,P);
+  $("m2").innerHTML=fig("Bond yield",f2(R.yb)+"%",chg(R.yb,B0.yb,2," pts",true))+fig("Price per ₹100","₹"+f2(R.b.pv),chg(R.b.pv,B0.b.pv,2,""))+fig("Modified duration",f2(R.b.mod)+" yrs");
+  $("r2").textContent=`Curve is ${sh>.25?"upward sloping":sh<-.25?"inverted":"flat"} (30Y minus 3M: ${f2(sh)} pts). A 1-point rise in yield would cut the bond price by about ₹${f2(R.b.pv*(R.b.mod/100-.5*R.b.conv/10000))} (convexity ${f2(R.b.conv,1)}).`;
+  $("m3").innerHTML=fig("INR 1Y rate",f2(R.iin)+"%")+fig("1Y forward",f2(R.fwd),chg(R.fwd,B0.fwd,2,"",true))+fig("Forward premium",f2(R.prem)+"%");
+  $("r3").textContent=R.fwd>P.spot?`INR rates above US rates put USD at a forward premium: higher rupee interest is offset by the rupee's expected fall to ${f2(R.fwd)}.`:`US rates above INR rates put USD at a forward discount.`;
+  $("m4").innerHTML=fig("Cost of equity",f2(R.ke)+"%",chg(R.ke,B0.ke,2," pts",true))+fig("Fair value","₹"+f2(R.val,0),chg(R.val,B0.val,0,""))+fig("Implied P/E (50% payout)",isFinite(R.val)?f2(.5/((R.ke-P.g)/100),1)+"x":"–");
+  const gs=[-2,-1,0,1,2].map(d=>P.g+d),ks=[-2,-1,0,1,2].map(d=>R.ke+d);const vals=ks.map(k=>gs.map(g=>k>g?P.d1/((k-g)/100):NaN));const fin=vals.flat().filter(isFinite),mx=Math.max(...fin),mn=Math.min(...fin);
+  $("heat").innerHTML=`<tr><th>ke \\ g</th>${gs.map(g=>`<th>${f2(g,1)}%</th>`).join("")}</tr>`+ks.map((k,i)=>`<tr><th>${f2(k,1)}%</th>${vals[i].map((v,j)=>{const t=isFinite(v)?(v-mn)/(mx-mn||1):0;const bg=isFinite(v)?`rgba(10,37,64,${.08+.72*t})`:"#f3f7fb";return`<td style="background:${bg};color:${t>.55?"#fff":"#0a2540"};${i===2&&j===2?"outline:2px solid #ff5c8a;outline-offset:-2px;font-weight:700":""}">${isFinite(v)?f2(v,0):"–"}</td>`}).join("")}</tr>`).join("");
+  $("r4").textContent=isFinite(R.val)?`CAPM: ${f2(R.y10)}% risk-free + ${f2(P.beta,2)} × ${f2(P.erp,1)}% premium = ${f2(R.ke)}%. Gordon value ₹${f2(P.d1,1)} / (${f2(R.ke)}% − ${f2(P.g,1)}%) = ₹${f2(R.val,0)}.`:"Cost of equity is at or below growth, so the Gordon model has no finite value: lower growth or raise the premium.";
+  $("sct").innerHTML=`<tr><th>Scenario</th><th>CPI</th><th>Output gap</th><th>Policy rate</th><th>10Y yield</th><th>Bond price</th><th>USD/INR fwd</th><th>Stock value</th></tr>`+SC.map((sc,i)=>{const p={...BASE,...sc[1]},r=run(p);
+    return`<tr class="${i===active?"on":""}"><td>${esc(sc[0])}</td><td>${f2(p.cpi,1)}%</td><td>${f2(p.gap,1)}%</td><td>${f2(r.pol)}%</td><td>${f2(r.y10)}%</td><td>₹${f2(r.b.pv)}</td><td>${f2(r.fwd)}</td><td>₹${f2(r.val,0)}</td></tr>`}).join("");
+  draws()}
+render();
+}
+</script></body></html>
